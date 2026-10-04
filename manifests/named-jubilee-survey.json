@@ -1,0 +1,18 @@
+{
+  "id": "jubilee",
+  "extraction_centre_local_m": [
+    338,
+    -771
+  ],
+  "extraction_radius_m": 25,
+  "source": "manifests/lidar2022-489000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 9713,
+  "output": {
+    "path": "data/derived/named-jubilee-survey.npz",
+    "sha256": "83aa23808fea7cc84cbfb2e414cbcadf69d6770b7eb166046b77dc36e3641765"
+  }
+}

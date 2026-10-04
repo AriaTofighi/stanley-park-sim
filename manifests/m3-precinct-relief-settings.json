@@ -1,0 +1,33 @@
+{
+  "revision": "m3-precinct-relief-r1",
+  "limits": "Original source-informed broad sculpture interpretation, not an exact artwork replica. Yelton centre, ground and top are retained; wing span and relief proportions are photo estimates. Existing portal centres, source beam slope, source base geometry and collision stay unchanged. Face depth and small colour shapes are estimates. The southwest portal remains unplaced and is not counted. No source photo is a runtime texture.",
+  "source_period": "City 2022 survey; 2013 and 2022 Yelton photographs; City Public Art Program portal photographs",
+  "target_period": "September 2026",
+  "materials": [
+    {"name":"Cedar","rgb":[0.35,0.22,0.115],"metallic":0,"roughness":0.88},
+    {"name":"CedarRecess","rgb":[0.11,0.065,0.029],"metallic":0,"roughness":0.92},
+    {"name":"Charcoal","rgb":[0.025,0.032,0.027],"metallic":0,"roughness":0.80},
+    {"name":"Red","rgb":[0.34,0.046,0.032],"metallic":0,"roughness":0.78},
+    {"name":"Ivory","rgb":[0.75,0.71,0.52],"metallic":0,"roughness":0.80},
+    {"name":"Gold","rgb":[0.59,0.39,0.10],"metallic":0,"roughness":0.80},
+    {"name":"GreenGrey","rgb":[0.18,0.23,0.17],"metallic":0,"roughness":0.83}
+  ],
+  "reference_files": [
+    "data/references/m3-landmarks/yelton-rabich-2022.jpg",
+    "data/references/m3-landmarks/yelton-another-believer-2013.jpg",
+    "data/references/m3-landmarks/people-coast-salish-arts.jpg",
+    "data/references/m3-landmarks/people-alan-mcmillan.jpg",
+    "data/references/m3-landmarks/people-robert-watt.jpg",
+    "data/references/m3-landmarks/people-extra-0.jpg",
+    "data/references/m3-landmarks/people-extra-1.jpg"
+  ],
+  "sources": [
+    {"url":"https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=563","scope":"Yelton identity and site"},
+    {"url":"https://vancouver.ca/files/cov/art-hunt-artworks.pdf","scope":"City description of Yelton figure order"},
+    {"url":"https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Stanley_Park,_Totem_poles,_Rose_Cole_Yelton_memorial_totem_pole_--_2022_--_2036.jpg","file":"data/references/m3-landmarks/yelton-rabich-2022.jpg","credit":"Dietmar Rabich, 13 June 2022, CC BY-SA 4.0","scope":"Inspected upper wings and carved face/beak contours"},
+    {"url":"https://commons.wikimedia.org/wiki/File:Stanley_Park_totem_poles,_Vancouver_(2013)_-_1.JPG","file":"data/references/m3-landmarks/yelton-another-believer-2013.jpg","credit":"Another Believer, 7 July 2013, CC BY-SA 3.0","scope":"Inspected full-height figure order and proportions"},
+    {"url":"https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=424","scope":"Three portal identities; welcome figures and north Dancer/Whale portal"},
+    {"url":"https://vancouver.ca/files/cov/people-amongst-the-people-susan-point.pdf","scope":"Primary composition and architectural sloped beam"},
+    {"url":"https://ourcityourart.wordpress.com/2016/09/11/25in25-a-public-art-retrospective-people-amongst-the-people-by-susan-a-point/","credit":"City Public Art Program archive; photographs by Coast Salish Arts, Robert Watt and Alan McMillan","scope":"Inspected welcome figure, Dancer/Whale front, wave/root rear, beam textile and geometric reverse patterns"}
+  ]
+}

@@ -1,0 +1,81 @@
+Stanley Park development blockout: OpenStreetMap-derived source databases
+
+Contains information from OpenStreetMap, made available under the Open
+Database Licence 1.0 (ODbL). Copyright OpenStreetMap contributors.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+
+The OSM-derived source and adapted databases in SourceData/Pedestrian,
+SourceData/PublicSpaces, SourceData/Navigation, SourceData/Skyline,
+SourceData/NorthShore, SourceData/Facilities and SourceData/PhysicalGates are
+provided under ODbL 1.0. Keep the contributor notice, licence URL and source
+records with copies of these databases. These notices do not change the
+licence of the simulation code or independently authored art.
+
+Each group preserves project-relative paths. JSON and GeoJSON records contain
+feature IDs, positions, source associations, estimates and transformations.
+OSM XML files retain their original tags and edit timestamps. NPZ files are
+ZIP containers of NumPy arrays: editable vertices, faces, anchors and, where
+used, colours. Only mesh files named in the current group manifest are copied.
+source-bundle-index.json records the copied project paths and SHA-256 hashes.
+The public bundle uses these grouped project-relative paths.
+
+Pedestrian: walking graph, estimated widths, source XML, current derived
+surface database, geometry and generation scripts.
+
+PublicSpaces: unedited source polygons, local authoring polygons, patch and
+exclusion records, current terrain-conforming geometry and scripts. Hidden
+mixed-site boundaries are references, not completed surfaces.
+
+Navigation: original park XML, inland restriction graph, OSM-assisted branch
+direction review, functional marker records and geometry. Independent City
+route data remains identified separately. These are estimated blockout signs,
+not surveyed physical signs or a statement of current legal access.
+
+Skyline: four bounded OSM XML extracts dated 27 September 2026, the current
+building-part database, tagged and estimated dimensions, generated geometry,
+source ledgers and transformation scripts. The City 2009 building extract
+and its height records retain their separate Open Government Licence -
+Vancouver notice. Historical data does not establish present-day dimensions.
+
+NorthShore: four bounded OSM XML extracts dated 27 September 2026, seven
+industrial site envelopes, source associations, tagged and estimated forms,
+current editable geometry and scripts. The operator and contractor pages
+and PDFs remain research references. No PDF or photograph is included.
+
+Facilities: original park XML, the toilet/entrance crosswalk, Lumberman
+below-road facility pose and estimates, editable geometry, source hashes,
+replacement footprints and generation scripts. City LiDAR-derived height
+planes keep their Vancouver Open Government Licence provenance. The City
+tender drawing and gate-report photographs are reference only. Source
+room tags do not establish opening hours or independently surveyed dimensions.
+
+PhysicalGates: original park XML, dated existing-condition gate placement,
+estimated dimensions, physical mesh frames and separate walking path records.
+Current field condition is not certified. The City report photographs are not
+included. The source geometry and the derived source database remain editable.
+
+LagoonStructures, RouteSculptures and AirIndia preserve the associated City
+survey derivatives, OSM-assisted placement, source records and scripts. The
+City terrain/survey geometry uses OGL-Vancouver; OSM-derived records use ODbL.
+Artwork registry metadata does not grant artwork reproduction rights. These
+are limited development envelopes, not licensed finished artwork replicas.
+All source photos, inscriptions, reference PDF pages and logos are excluded.
+
+Other contents: City terrain/height content contains information licensed
+under the Open Government Licence - Vancouver. Regional terrain and geoid
+references retain the separate BC and Canada notices in DATA-ATTRIBUTION.txt.
+The arrays contain the resulting geometry; the entire upstream LiDAR/raster
+archive is not bundled. Referenced upstream source URLs and hashes remain in
+the manifests. The source bundle is not a complete engine development kit.
+
+https://opendata.vancouver.ca/pages/licence/
+https://open.canada.ca/en/open-government-licence-canada
+
+The City map PDF, aerial images, architectural photos, SEABC publication and
+other report pages are research references. They are not distributed here.
+An entry that cites a research file does not grant rights to that file.
+
+Show OpenStreetMap attribution in the game credits/data-source screen when
+these data are used. Retain this machine-readable bundle with the produced
+world. Public release requires review of the final combined data notices.

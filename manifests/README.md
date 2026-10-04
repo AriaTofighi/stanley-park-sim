@@ -1,0 +1,14 @@
+# Project records
+
+These files record asset identity, source dates, transformations, and limits. Paths inside them are relative to the project root unless a field states otherwise.
+
+Start with:
+
+- `release-v0.4.0.json`: public download URLs, sizes, and SHA-256 values.
+- `release-assets.json`: exact editable files restored by the asset helper.
+- `active-assets.json`: current scene authoring entry points.
+- `source-distribution.json`: source databases and notices included with the Windows build.
+- `world-origin.json`: the shared coordinate origin.
+- `blender-modules.json`: the modular Blender source layout.
+
+Other records describe individual data sources, generated objects, or historical geometry checks. They do not imply that every referenced raw download or inspection image is distributed. See [data and credits](../docs/data-and-credits.md) for source access and licences.

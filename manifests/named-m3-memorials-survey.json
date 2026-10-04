@@ -1,0 +1,18 @@
+{
+  "id": "m3-memorials",
+  "extraction_centre_local_m": [
+    610,
+    -596
+  ],
+  "extraction_radius_m": 85,
+  "source": "manifests/lidar2022-490000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 1764218,
+  "output": {
+    "path": "data/derived/named-m3-memorials-survey.npz",
+    "sha256": "87485c8ed7d05123b1421415c130e48b31ac56cb90117b710d86286c86b8d0c3"
+  }
+}

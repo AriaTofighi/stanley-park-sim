@@ -1,0 +1,1838 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-27T00:03:11.556265+00:00",
+  "scope": "Main circuit only. Source comparison, not application or survey acceptance.",
+  "runtime_modified": false,
+  "release_route_pass": false,
+  "origin_path": "manifests/world-origin.json",
+  "origin_sha256": "86ab4975f2006971e9080461de30fd15736e0537031c8b5f04f966acbc26205a",
+  "inputs": {
+    "routes": {
+      "path": "data\\routes\\derived\\park_routes.json",
+      "sha256": "f33fbfa96c83f8d25582192571982167e66addd53f7c05c0fd7fe22a9a88c540"
+    },
+    "reference_1m": {
+      "path": "data\\derived\\terrain_corridor_reference.npz",
+      "sha256": "3285863fa304a3d505fbf8c9d5e06310d1857e55e9a2dc3b823393a37ee51bc7"
+    },
+    "blockout_2m": {
+      "path": "data\\derived\\terrain_park.npz",
+      "sha256": "cb0e0a79d7b1e19e3ed4016cea79131f6a54e95ccbabd394f626c2c834c05231"
+    }
+  },
+  "grid_correlation": "Both grids derive from the same 2013 LiDAR DTM; not independent controls.",
+  "thresholds": {
+    "absolute_grade": 0.18,
+    "probe_cross_slope": 0.12,
+    "diagnostic_width_m": 3,
+    "merge_gap_m": 30,
+    "padding_m": 10,
+    "width_surveyed": false
+  },
+  "summary": {
+    "circuit_length_m": 9441.794032121155,
+    "sample_count": 9443,
+    "spacing_max_m": 0.9999781859914947,
+    "missing_samples": 0,
+    "flagged_samples": 2885,
+    "issue_count": 34,
+    "maximum_grade_1m": 0.8247238457169526,
+    "maximum_grade_2m": 0.6481629669230387,
+    "maximum_probe_cross_slope": 2.8216209259177787,
+    "maximum_grid_height_difference_m": 2.799214912589062
+  },
+  "restrictions_pending": [
+    {
+      "name": "Lumberman's Arch",
+      "edges": [
+        1459
+      ],
+      "exact_limits_resolved": false
+    },
+    {
+      "name": "Prospect Point",
+      "edges": [
+        3550,
+        2909
+      ],
+      "exact_limits_resolved": false
+    },
+    {
+      "name": "Third Beach",
+      "edges": [
+        131
+      ],
+      "exact_limits_resolved": false
+    }
+  ],
+  "issues": [
+    {
+      "issue_id": "CR_00106",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2986",
+      "chainage_from_m": 2.0,
+      "chainage_to_m": 298.993,
+      "peak_chainage_m": 105.998,
+      "target_local_m": [
+        549.1559888966996,
+        -718.1874928655205,
+        2.1858362831087814
+      ],
+      "priority_score": 10.539,
+      "flagged_samples": 268,
+      "maximum_grade_1m": 0.14678,
+      "maximum_grade_2m": 0.20529,
+      "maximum_probe_cross_slope": 1.26473,
+      "maximum_grid_height_difference_m": 1.10993,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        574.3217700437492,
+        -749.6784988713439,
+        22.18583628310878
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -74967.84988713439,
+              "y": 57432.17700437492,
+              "z": 2218.583628310878
+            },
+            "rotation": {
+              "pitch": -26.387799961242987,
+              "yaw": -38.62981537371964,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_00501",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2986",
+      "chainage_from_m": 427.991,
+      "chainage_to_m": 534.988,
+      "peak_chainage_m": 500.989,
+      "target_local_m": [
+        871.6495449475343,
+        -554.2385288120034,
+        2.587054976807059
+      ],
+      "priority_score": 2.972,
+      "flagged_samples": 88,
+      "maximum_grade_1m": 0.07002,
+      "maximum_grade_2m": 0.07828,
+      "maximum_probe_cross_slope": 0.3567,
+      "maximum_grid_height_difference_m": 0.4302,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        874.8433438049609,
+        -594.42309859766,
+        22.58705497680706
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -59442.309859766,
+              "y": 87484.33438049609,
+              "z": 2258.7054976807062
+            },
+            "rotation": {
+              "pitch": -26.38779996124299,
+              "yaw": -4.5442154592003305,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_00646",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2986",
+      "chainage_from_m": 592.987,
+      "chainage_to_m": 731.984,
+      "peak_chainage_m": 645.986,
+      "target_local_m": [
+        980.848878534842,
+        -600.3786517943739,
+        3.709333006860639
+      ],
+      "priority_score": 2.292,
+      "flagged_samples": 96,
+      "maximum_grade_1m": 0.18235,
+      "maximum_grade_2m": 0.08931,
+      "maximum_probe_cross_slope": 0.27502,
+      "maximum_grid_height_difference_m": 0.24237,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        940.8200926349714,
+        -595.6145884675152,
+        23.70933300686064
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -59561.45884675152,
+              "y": 94082.00926349714,
+              "z": 2370.933300686064
+            },
+            "rotation": {
+              "pitch": -26.387799961242987,
+              "yaw": 96.7871844978544,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_01121",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2986",
+      "chainage_from_m": 1108.976,
+      "chainage_to_m": 1146.975,
+      "peak_chainage_m": 1120.976,
+      "target_local_m": [
+        1290.208392233801,
+        -530.1969872807468,
+        3.3930836322101943
+      ],
+      "priority_score": 1.914,
+      "flagged_samples": 13,
+      "maximum_grade_1m": 0.10667,
+      "maximum_grade_2m": 0.05228,
+      "maximum_probe_cross_slope": 0.22965,
+      "maximum_grid_height_difference_m": 0.12943,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        1282.4397660419045,
+        -569.7526246424502,
+        23.393083632210192
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -56975.26246424502,
+              "y": 128243.97660419045,
+              "z": 2339.308363221019
+            },
+            "rotation": {
+              "pitch": -26.387799961242962,
+              "yaw": 11.111323477763644,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_01672",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_1459",
+      "chainage_from_m": 1654.964,
+      "chainage_to_m": 1691.963,
+      "peak_chainage_m": 1671.964,
+      "target_local_m": [
+        1803.9405152402383,
+        -491.8083748211468,
+        6.690144181406931
+      ],
+      "priority_score": 1.16,
+      "flagged_samples": 16,
+      "maximum_grade_1m": 0.02981,
+      "maximum_grade_2m": 0.02727,
+      "maximum_probe_cross_slope": 0.13921,
+      "maximum_grid_height_difference_m": 0.13374,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        1780.273219098707,
+        -524.4405536228918,
+        26.690144181406932
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -52444.05536228918,
+              "y": 178027.3219098707,
+              "z": 2669.014418140693
+            },
+            "rotation": {
+              "pitch": -26.387799961243005,
+              "yaw": 35.952429870913036,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_01881",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_1459",
+      "chainage_from_m": 1726.962,
+      "chainage_to_m": 1941.958,
+      "peak_chainage_m": 1880.959,
+      "target_local_m": [
+        1903.6805234725844,
+        -331.20564038864507,
+        5.558281688137738
+      ],
+      "priority_score": 5.327,
+      "flagged_samples": 196,
+      "maximum_grade_1m": 0.14917,
+      "maximum_grade_2m": 0.11851,
+      "maximum_probe_cross_slope": 0.63927,
+      "maximum_grid_height_difference_m": 0.2735,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        1932.1096431537546,
+        -359.78509374509844,
+        25.55828168813774
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -35978.50937450984,
+              "y": 193210.96431537546,
+              "z": 2555.828168813774
+            },
+            "rotation": {
+              "pitch": -26.38779996124302,
+              "yaw": -44.84890930104731,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_01995",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_1459",
+      "chainage_from_m": 1970.957,
+      "chainage_to_m": 2006.956,
+      "peak_chainage_m": 1994.956,
+      "target_local_m": [
+        1908.8671727186008,
+        -219.26051346849138,
+        9.283621983679584
+      ],
+      "priority_score": 1.441,
+      "flagged_samples": 17,
+      "maximum_grade_1m": 0.04644,
+      "maximum_grade_2m": 0.05949,
+      "maximum_probe_cross_slope": 0.17289,
+      "maximum_grid_height_difference_m": 0.11109,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        1949.0153165906613,
+        -215.6374562472574,
+        29.283621983679584
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -21563.74562472574,
+              "y": 194901.53165906612,
+              "z": 2928.3621983679586
+            },
+            "rotation": {
+              "pitch": -26.38779996124298,
+              "yaw": -95.1565303522607,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_02254",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_1459",
+      "chainage_from_m": 2243.951,
+      "chainage_to_m": 2263.951,
+      "peak_chainage_m": 2253.951,
+      "target_local_m": [
+        1719.8698583791156,
+        -341.36321600777967,
+        4.567524374195134
+      ],
+      "priority_score": 1.005,
+      "flagged_samples": 1,
+      "maximum_grade_1m": 0.0434,
+      "maximum_grade_2m": 0.02766,
+      "maximum_probe_cross_slope": 0.12064,
+      "maximum_grid_height_difference_m": 0.0522,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        1742.4513669826067,
+        -307.9704702507974,
+        24.567524374195134
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -30797.04702507974,
+              "y": 174245.13669826067,
+              "z": 2456.7524374195136
+            },
+            "rotation": {
+              "pitch": -26.387799961243,
+              "yaw": -145.93187174841893,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_03141",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2120",
+      "chainage_from_m": 3115.932,
+      "chainage_to_m": 3165.931,
+      "peak_chainage_m": 3140.931,
+      "target_local_m": [
+        957.8336228506976,
+        26.14032623559026,
+        3.63803732004984
+      ],
+      "priority_score": 1.694,
+      "flagged_samples": 22,
+      "maximum_grade_1m": 0.09222,
+      "maximum_grade_2m": 0.08168,
+      "maximum_probe_cross_slope": 0.20326,
+      "maximum_grid_height_difference_m": 0.35904,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        990.8240009880656,
+        49.30570882154112,
+        23.63803732004984
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 4930.570882154112,
+              "y": 99082.40009880655,
+              "z": 2363.803732004984
+            },
+            "rotation": {
+              "pitch": -26.387799961242973,
+              "yaw": -125.07599441914313,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_03395",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2120",
+      "chainage_from_m": 3299.928,
+      "chainage_to_m": 3591.922,
+      "peak_chainage_m": 3394.926,
+      "target_local_m": [
+        813.7187760720102,
+        217.64714157457442,
+        6.534074971699135
+      ],
+      "priority_score": 7.823,
+      "flagged_samples": 273,
+      "maximum_grade_1m": 0.48513,
+      "maximum_grade_2m": 0.43497,
+      "maximum_probe_cross_slope": 0.93873,
+      "maximum_grid_height_difference_m": 0.68965,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        853.9990501334763,
+        216.066154056224,
+        26.534074971699134
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 21606.6154056224,
+              "y": 85399.90501334763,
+              "z": 2653.4074971699133
+            },
+            "rotation": {
+              "pitch": -26.387799961243,
+              "yaw": -87.75231322588456,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_03664",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2120",
+      "chainage_from_m": 3653.92,
+      "chainage_to_m": 3673.92,
+      "peak_chainage_m": 3663.92,
+      "target_local_m": [
+        652.5109857709567,
+        426.9504047614712,
+        3.42592205026666
+      ],
+      "priority_score": 1.097,
+      "flagged_samples": 1,
+      "maximum_grade_1m": 0.07185,
+      "maximum_grade_2m": 0.03695,
+      "maximum_probe_cross_slope": 0.1316,
+      "maximum_grid_height_difference_m": 0.16182,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        689.1293362596447,
+        443.8055644310682,
+        23.42592205026666
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 44380.55644310682,
+              "y": 68912.93362596446,
+              "z": 2342.592205026666
+            },
+            "rotation": {
+              "pitch": -26.38779996124298,
+              "yaw": -114.71627061042012,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_04200",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2120",
+      "chainage_from_m": 4168.909,
+      "chainage_to_m": 4212.908,
+      "peak_chainage_m": 4199.908,
+      "target_local_m": [
+        416.1035709392299,
+        866.7336779216298,
+        3.670520292134298
+      ],
+      "priority_score": 1.573,
+      "flagged_samples": 12,
+      "maximum_grade_1m": 0.03467,
+      "maximum_grade_2m": 0.04919,
+      "maximum_probe_cross_slope": 0.18876,
+      "maximum_grid_height_difference_m": 0.20794,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        456.39586841058366,
+        865.4964372498373,
+        23.6705202921343
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 86549.64372498373,
+              "y": 45639.586841058364,
+              "z": 2367.0520292134297
+            },
+            "rotation": {
+              "pitch": -26.387799961243,
+              "yaw": -88.2411923484482,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_04316",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_3550",
+      "chainage_from_m": 4260.907,
+      "chainage_to_m": 4410.904,
+      "peak_chainage_m": 4315.906,
+      "target_local_m": [
+        353.5321106487033,
+        964.1228369804618,
+        4.046765088303584
+      ],
+      "priority_score": 3.952,
+      "flagged_samples": 127,
+      "maximum_grade_1m": 0.11918,
+      "maximum_grade_2m": 0.13265,
+      "maximum_probe_cross_slope": 0.47425,
+      "maximum_grid_height_difference_m": 0.57217,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        393.6339543443417,
+        968.226753671939,
+        24.046765088303584
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 96822.67536719391,
+              "y": 39363.39543443417,
+              "z": 2404.676508830358
+            },
+            "rotation": {
+              "pitch": -26.38779996124299,
+              "yaw": -95.84315696219039,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_04480",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_3550",
+      "chainage_from_m": 4423.903,
+      "chainage_to_m": 4601.9,
+      "peak_chainage_m": 4479.902,
+      "target_local_m": [
+        272.25986978410776,
+        1104.9977980578262,
+        5.268442969560959
+      ],
+      "priority_score": 9.594,
+      "flagged_samples": 151,
+      "maximum_grade_1m": 0.54637,
+      "maximum_grade_2m": 0.46855,
+      "maximum_probe_cross_slope": 1.15125,
+      "maximum_grid_height_difference_m": 0.9913,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        311.8367098250549,
+        1097.3379199665453,
+        25.268442969560958
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 109733.79199665453,
+              "y": 31183.670982505493,
+              "z": 2526.8442969560956
+            },
+            "rotation": {
+              "pitch": -26.387799961242973,
+              "yaw": -79.04615429817399,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_04636",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2909",
+      "chainage_from_m": 4612.899,
+      "chainage_to_m": 4657.898,
+      "peak_chainage_m": 4635.899,
+      "target_local_m": [
+        156.83479217560063,
+        1193.30805395557,
+        4.473110823129271
+      ],
+      "priority_score": 3.725,
+      "flagged_samples": 26,
+      "maximum_grade_1m": 0.12485,
+      "maximum_grade_2m": 0.1619,
+      "maximum_probe_cross_slope": 0.44705,
+      "maximum_grid_height_difference_m": 0.52936,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        195.47979511265217,
+        1204.7781781046485,
+        24.47311082312927
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 120477.81781046485,
+              "y": 19547.979511265217,
+              "z": 2447.3110823129273
+            },
+            "rotation": {
+              "pitch": -26.387799961243005,
+              "yaw": -106.53128008827215,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_04761",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2909",
+      "chainage_from_m": 4669.898,
+      "chainage_to_m": 4815.895,
+      "peak_chainage_m": 4760.896,
+      "target_local_m": [
+        90.8929258303593,
+        1270.6063895590923,
+        5.887712627217711
+      ],
+      "priority_score": 7.335,
+      "flagged_samples": 45,
+      "maximum_grade_1m": 0.08007,
+      "maximum_grade_2m": 0.57364,
+      "maximum_probe_cross_slope": 0.88021,
+      "maximum_grid_height_difference_m": 2.50062,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        102.23901782547378,
+        1309.2879897901894,
+        25.88771262721771
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 130928.79897901893,
+              "y": 10223.901782547378,
+              "z": 2588.771262721771
+            },
+            "rotation": {
+              "pitch": -26.387799961242948,
+              "yaw": -163.65252503338834,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_05009",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2909",
+      "chainage_from_m": 4888.893,
+      "chainage_to_m": 5244.886,
+      "peak_chainage_m": 5008.891,
+      "target_local_m": [
+        -146.41238373260464,
+        1210.4381170368354,
+        5.795287860589566
+      ],
+      "priority_score": 9.652,
+      "flagged_samples": 212,
+      "maximum_grade_1m": 0.29601,
+      "maximum_grade_2m": 0.47191,
+      "maximum_probe_cross_slope": 1.15829,
+      "maximum_grid_height_difference_m": 1.52882,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -135.63328025300174,
+        1249.28153254289,
+        25.795287860589568
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 124928.153254289,
+              "y": -13563.328025300174,
+              "z": 2579.528786058957
+            },
+            "rotation": {
+              "pitch": -26.387799961243,
+              "yaw": -164.49058922376736,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_05546",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2909",
+      "chainage_from_m": 5261.885,
+      "chainage_to_m": 5696.876,
+      "peak_chainage_m": 5545.879,
+      "target_local_m": [
+        -629.4053527311378,
+        1012.4355043695654,
+        6.822957934649438
+      ],
+      "priority_score": 15.803,
+      "flagged_samples": 319,
+      "maximum_grade_1m": 0.59489,
+      "maximum_grade_2m": 0.58621,
+      "maximum_probe_cross_slope": 1.89641,
+      "maximum_grid_height_difference_m": 1.63197,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -644.5724124614153,
+        1049.7846716847573,
+        26.822957934649438
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 104978.46716847573,
+              "y": -64457.24124614153,
+              "z": 2682.295793464944
+            },
+            "rotation": {
+              "pitch": -26.38779996124294,
+              "yaw": 157.8985045665349,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_05720",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2909",
+      "chainage_from_m": 5707.875,
+      "chainage_to_m": 5730.875,
+      "peak_chainage_m": 5719.875,
+      "target_local_m": [
+        -680.3567055115617,
+        859.3496486791277,
+        3.375430308963301
+      ],
+      "priority_score": 1.217,
+      "flagged_samples": 4,
+      "maximum_grade_1m": 0.01779,
+      "maximum_grade_2m": 0.05408,
+      "maximum_probe_cross_slope": 0.14604,
+      "maximum_grid_height_difference_m": 0.08483,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -706.4846068753038,
+        890.0470878284534,
+        23.375430308963303
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 89004.70878284534,
+              "y": -70648.46068753039,
+              "z": 2337.5430308963305
+            },
+            "rotation": {
+              "pitch": -26.387799961243033,
+              "yaw": 139.59747491646036,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_05880",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2909",
+      "chainage_from_m": 5744.875,
+      "chainage_to_m": 6134.866,
+      "peak_chainage_m": 5879.872,
+      "target_local_m": [
+        -800.2268771733236,
+        759.6345871430165,
+        8.363836606202126
+      ],
+      "priority_score": 23.514,
+      "flagged_samples": 285,
+      "maximum_grade_1m": 0.48169,
+      "maximum_grade_2m": 0.64816,
+      "maximum_probe_cross_slope": 2.82162,
+      "maximum_grid_height_difference_m": 2.79921,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -815.4899057737474,
+        796.9446388441686,
+        28.363836606202128
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 79694.46388441687,
+              "y": -81548.99057737475,
+              "z": 2836.3836606202126
+            },
+            "rotation": {
+              "pitch": -26.387799961242997,
+              "yaw": 157.75120572607057,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_06201",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 6183.865,
+      "chainage_to_m": 6332.862,
+      "peak_chainage_m": 6200.865,
+      "target_local_m": [
+        -929.8601049638594,
+        548.3584064872756,
+        4.53462756475102
+      ],
+      "priority_score": 9.963,
+      "flagged_samples": 93,
+      "maximum_grade_1m": 0.20839,
+      "maximum_grade_2m": 0.18155,
+      "maximum_probe_cross_slope": 1.19556,
+      "maximum_grid_height_difference_m": 0.71201,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -963.6322034755419,
+        570.368526026188,
+        24.53462756475102
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 57036.8526026188,
+              "y": -96363.22034755419,
+              "z": 2453.4627564751017
+            },
+            "rotation": {
+              "pitch": -26.387799961242983,
+              "yaw": 123.09329111890162,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_06529",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 6365.861,
+      "chainage_to_m": 6639.855,
+      "peak_chainage_m": 6528.858,
+      "target_local_m": [
+        -949.3352105903448,
+        237.8471546517483,
+        7.167474969606597
+      ],
+      "priority_score": 9.828,
+      "flagged_samples": 188,
+      "maximum_grade_1m": 0.82472,
+      "maximum_grade_2m": 0.5814,
+      "maximum_probe_cross_slope": 1.17935,
+      "maximum_grid_height_difference_m": 0.63652,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -983.8308236793197,
+        258.7050710773107,
+        27.167474969606598
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 25870.50710773107,
+              "y": -98383.08236793197,
+              "z": 2716.7474969606596
+            },
+            "rotation": {
+              "pitch": -26.38779996124298,
+              "yaw": 121.15943083139351,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_06681",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 6665.855,
+      "chainage_to_m": 6691.854,
+      "peak_chainage_m": 6680.854,
+      "target_local_m": [
+        -964.4425908942686,
+        90.34941538334466,
+        4.027338432729131
+      ],
+      "priority_score": 1.069,
+      "flagged_samples": 4,
+      "maximum_grade_1m": 0.02178,
+      "maximum_grade_2m": 0.01605,
+      "maximum_probe_cross_slope": 0.12827,
+      "maximum_grid_height_difference_m": 0.04232,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -997.0800953864332,
+        114.00936678912613,
+        24.02733843272913
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 11400.936678912612,
+              "y": -99708.00953864332,
+              "z": 2402.733843272913
+            },
+            "rotation": {
+              "pitch": -26.387799961242976,
+              "yaw": 125.93953499117428,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_06753",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 6742.853,
+      "chainage_to_m": 6767.852,
+      "peak_chainage_m": 6752.853,
+      "target_local_m": [
+        -976.2036507985579,
+        19.3180750838755,
+        4.102174862676187
+      ],
+      "priority_score": 1.097,
+      "flagged_samples": 6,
+      "maximum_grade_1m": 0.02244,
+      "maximum_grade_2m": 0.02017,
+      "maximum_probe_cross_slope": 0.13168,
+      "maximum_grid_height_difference_m": 0.06152,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -1007.4665297098355,
+        44.766697879201544,
+        24.102174862676186
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": 4476.669787920155,
+              "y": -100746.65297098356,
+              "z": 2410.217486267619
+            },
+            "rotation": {
+              "pitch": -26.387799961243015,
+              "yaw": 129.14629409063835,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_06868",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 6843.851,
+      "chainage_to_m": 6994.847,
+      "peak_chainage_m": 6867.85,
+      "target_local_m": [
+        -1025.7831993067837,
+        -80.28105793848923,
+        4.76344032270268
+      ],
+      "priority_score": 8.512,
+      "flagged_samples": 84,
+      "maximum_grade_1m": 0.18701,
+      "maximum_grade_2m": 0.36303,
+      "maximum_probe_cross_slope": 1.02145,
+      "maximum_grid_height_difference_m": 1.17827,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -1026.4849659120077,
+        -39.975878077436725,
+        24.763440322702678
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -3997.5878077436723,
+              "y": -102648.49659120078,
+              "z": 2476.3440322702677
+            },
+            "rotation": {
+              "pitch": -26.387799961243,
+              "yaw": 179.0025053241823,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_07154",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 7098.845,
+      "chainage_to_m": 7227.842,
+      "peak_chainage_m": 7153.844,
+      "target_local_m": [
+        -1111.4329352758184,
+        -281.5993458775496,
+        3.517734199286703
+      ],
+      "priority_score": 4.048,
+      "flagged_samples": 43,
+      "maximum_grade_1m": 0.09972,
+      "maximum_grade_2m": 0.07944,
+      "maximum_probe_cross_slope": 0.48575,
+      "maximum_grid_height_difference_m": 0.20992,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -1151.7333074507364,
+        -282.5374303956432,
+        23.517734199286704
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -28253.743039564317,
+              "y": -115173.33074507365,
+              "z": 2351.77341992867
+            },
+            "rotation": {
+              "pitch": -26.387799961243033,
+              "yaw": 88.66654880765834,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_07253",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 7238.842,
+      "chainage_to_m": 7265.841,
+      "peak_chainage_m": 7252.842,
+      "target_local_m": [
+        -1100.9157078242256,
+        -377.784600275851,
+        3.5059572881290593
+      ],
+      "priority_score": 2.314,
+      "flagged_samples": 8,
+      "maximum_grade_1m": 0.08492,
+      "maximum_grade_2m": 0.04887,
+      "maximum_probe_cross_slope": 0.27769,
+      "maximum_grid_height_difference_m": 0.14782,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -1139.5809115091342,
+        -366.382757266735,
+        23.50595728812906
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -36638.2757266735,
+              "y": -113958.09115091342,
+              "z": 2350.595728812906
+            },
+            "rotation": {
+              "pitch": -26.38779996124299,
+              "yaw": 106.43007171504725,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_07331",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 7289.841,
+      "chainage_to_m": 7366.839,
+      "peak_chainage_m": 7330.84,
+      "target_local_m": [
+        -1087.3313953791414,
+        -454.4100638920183,
+        3.214694021188572
+      ],
+      "priority_score": 2.466,
+      "flagged_samples": 43,
+      "maximum_grade_1m": 0.06553,
+      "maximum_grade_2m": 0.05898,
+      "maximum_probe_cross_slope": 0.29587,
+      "maximum_grid_height_difference_m": 0.23105,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -1123.0498514794735,
+        -435.7233869854987,
+        23.21469402118857
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -43572.338698549866,
+              "y": -112304.98514794736,
+              "z": 2321.469402118857
+            },
+            "rotation": {
+              "pitch": -26.387799961242962,
+              "yaw": 117.61702880565467,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_07520",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 7506.836,
+      "chainage_to_m": 7532.836,
+      "peak_chainage_m": 7519.836,
+      "target_local_m": [
+        -959.1764738913398,
+        -565.4623586173637,
+        2.938061383986728
+      ],
+      "priority_score": 1.835,
+      "flagged_samples": 7,
+      "maximum_grade_1m": 0.02732,
+      "maximum_grade_2m": 0.04072,
+      "maximum_probe_cross_slope": 0.22022,
+      "maximum_grid_height_difference_m": 0.3008,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -971.3919926107404,
+        -603.8782550980652,
+        22.938061383986728
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -60387.82550980652,
+              "y": -97139.19926107404,
+              "z": 2293.806138398673
+            },
+            "rotation": {
+              "pitch": -26.387799961243015,
+              "yaw": 17.639666608197253,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_07586",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 7558.835,
+      "chainage_to_m": 7778.83,
+      "peak_chainage_m": 7585.835,
+      "target_local_m": [
+        -897.0059697192808,
+        -543.8323515634368,
+        3.6892558091047984
+      ],
+      "priority_score": 3.61,
+      "flagged_samples": 125,
+      "maximum_grade_1m": 0.20834,
+      "maximum_grade_2m": 0.13844,
+      "maximum_probe_cross_slope": 0.43322,
+      "maximum_grid_height_difference_m": 0.50512,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -901.5568768655912,
+        -583.8859312304985,
+        23.6892558091048
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -58388.59312304985,
+              "y": -90155.68768655912,
+              "z": 2368.92558091048
+            },
+            "rotation": {
+              "pitch": -26.387799961242987,
+              "yaw": 6.4821755088098865,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_07815",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 7791.83,
+      "chainage_to_m": 7904.828,
+      "peak_chainage_m": 7814.83,
+      "target_local_m": [
+        -741.8441868246252,
+        -665.3827144239085,
+        3.7559830588226504
+      ],
+      "priority_score": 6.82,
+      "flagged_samples": 60,
+      "maximum_grade_1m": 0.14876,
+      "maximum_grade_2m": 0.14466,
+      "maximum_probe_cross_slope": 0.81845,
+      "maximum_grid_height_difference_m": 0.24645,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -781.6268592557802,
+        -658.8758738514476,
+        23.75598305882265
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -65887.58738514477,
+              "y": -78162.68592557803,
+              "z": 2375.598305882265
+            },
+            "rotation": {
+              "pitch": -26.38779996124298,
+              "yaw": 99.28902863690016,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_08004",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_131",
+      "chainage_from_m": 7991.826,
+      "chainage_to_m": 8015.825,
+      "peak_chainage_m": 8003.825,
+      "target_local_m": [
+        -613.8105403572449,
+        -768.0706784510836,
+        3.1808500823049246
+      ],
+      "priority_score": 1.311,
+      "flagged_samples": 5,
+      "maximum_grade_1m": 0.08321,
+      "maximum_grade_2m": 0.06803,
+      "maximum_probe_cross_slope": 0.15738,
+      "maximum_grid_height_difference_m": 0.17146,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -638.3538249489408,
+        -800.0492209671369,
+        23.180850082304925
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -80004.9220967137,
+              "y": -63835.382494894075,
+              "z": 2318.0850082304923
+            },
+            "rotation": {
+              "pitch": -26.387799961242987,
+              "yaw": 37.50596046500649,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_08346",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_2814",
+      "chainage_from_m": 8332.818,
+      "chainage_to_m": 8374.817,
+      "peak_chainage_m": 8345.818,
+      "target_local_m": [
+        -375.3106447826948,
+        -917.430884713188,
+        4.358784484673837
+      ],
+      "priority_score": 6.235,
+      "flagged_samples": 13,
+      "maximum_grade_1m": 0.59363,
+      "maximum_grade_2m": 0.41772,
+      "maximum_probe_cross_slope": 0.74821,
+      "maximum_grid_height_difference_m": 0.41932,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        -368.38981473775243,
+        -957.1436296635062,
+        24.358784484673837
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -95714.36296635061,
+              "y": -36838.981473775246,
+              "z": 2435.878448467384
+            },
+            "rotation": {
+              "pitch": -26.387799961242987,
+              "yaw": -9.885783415755682,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue_id": "CR_09382",
+      "status": "open_source_review",
+      "source_edge_id": "city_bikeways_723",
+      "chainage_from_m": 9337.796,
+      "chainage_to_m": 9393.795,
+      "peak_chainage_m": 9381.795,
+      "target_local_m": [
+        465.8069552293413,
+        -845.8861064913696,
+        2.1247890753334446
+      ],
+      "priority_score": 1.833,
+      "flagged_samples": 34,
+      "maximum_grade_1m": 0.25214,
+      "maximum_grade_2m": 0.2538,
+      "maximum_probe_cross_slope": 0.21991,
+      "maximum_grid_height_difference_m": 0.21787,
+      "source_ids": [
+        "city_bikeways",
+        "NRCan_VILLE_VANCOUVER_2013_DTM"
+      ],
+      "required_action": "Inspect georeferenced imagery and current ground references; measure pavement edges and grade separation before authoring a reviewed path correction.",
+      "eye_local_m": [
+        476.4121539307868,
+        -884.7773620702636,
+        22.124789075333446
+      ],
+      "unreal_mcp": {
+        "toolset_name": "EditorToolset.EditorAppToolset",
+        "tool_name": "SetCameraTransform",
+        "arguments": {
+          "transform": {
+            "location": {
+              "x": -88477.73620702636,
+              "y": 47641.21539307868,
+              "z": 2212.4789075333447
+            },
+            "rotation": {
+              "pitch": -26.387799961243,
+              "yaw": -15.253051726566008,
+              "roll": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    }
+  ]
+}

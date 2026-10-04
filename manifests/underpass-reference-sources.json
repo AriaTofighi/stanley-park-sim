@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-09-27",
+  "sources": [
+    {
+      "id": "city-chilco-design-2001",
+      "title": "Design of Stanley Park S-Curve",
+      "url": "https://council.vancouver.ca/010515/tt3.htm",
+      "date": "2001-05-04",
+      "verified": "Primary City report read through web tool. Section Chilco Underpass, lines 131-135.",
+      "coverage": "Chilco underpass recommended Option A design, not final construction drawings",
+      "use": "4 m cyclist section and 3 m clearance design basis; 13 m overall design envelope retained only as a reference",
+      "status_limit": "The report recommends reconstruction. This does not prove final built dimensions or arrangement.",
+      "incorporation": "reference_only; no City text or drawing included in runtime",
+      "download_status": "Shell HTTP 403. Read through public web tool; no local file hash claimed."
+    },
+    {
+      "id": "city-chilco-design-2001-pdf",
+      "url": "https://parkboardmeetings.vancouver.ca/2001/010514/scurveattach.pdf",
+      "date": "2001-05",
+      "verified": "Equivalent report text read through public web tool",
+      "use": "Cross-check City report",
+      "incorporation": "reference_only",
+      "download_status": "Shell HTTP 403; no local file hash"
+    },
+    {
+      "id": "city-cycling-plan-2012",
+      "url": "https://vancouver.ca/files/cov/stanley-park-cycling-plan-final.pdf",
+      "date": "2012-03-27",
+      "verified": "Search-indexed Issue 9 text read; complete PDF not locally obtained",
+      "coverage": "Ceperley Tunnel mode conflict and narrow sightlines",
+      "use": "Existence and constrained character only; recommendations are not evidence of completed work",
+      "status_limit": "No verified as-built width or ceiling dimension",
+      "incorporation": "reference_only",
+      "download_status": "Shell HTTP 403; web PDF exceeds content tool size limit"
+    },
+    {
+      "id": "city-lidar-2022",
+      "manifest": "manifests/underpass-survey.json",
+      "capture_dates": [
+        "2022-09-07",
+        "2022-09-09"
+      ],
+      "coverage": "Ceperley and Chilco decks, portals and surroundings",
+      "use": "Deck top returns, portal extent estimate and geographic placement; not interior floor or ceiling survey",
+      "incorporation": "Survey-derived geometry permitted under City Open Government Licence Vancouver",
+      "licence_url": "https://opendata.vancouver.ca/pages/licence/",
+      "attribution": "Contains information licensed under the Open Government Licence - Vancouver."
+    },
+    {
+      "id": "city-ortho-2022-return-crossing",
+      "path": "evidence/corridor/ortho-utm/return-crossing.json",
+      "capture_period": "2022-06-06 to 2022-07-01",
+      "coverage": "Ceperley underpass",
+      "use": "Road deck and portal plan comparison; canopy masks approaches",
+      "incorporation": "Reference image not included in runtime; City OGL Vancouver source manifest"
+    },
+    {
+      "id": "city-ortho-2022-entrance-underpass",
+      "path": "evidence/corridor/ortho-utm/entrance-underpass.json",
+      "capture_period": "2022-06-06 to 2022-07-01",
+      "coverage": "Chilco underpass",
+      "use": "Road deck and portal plan comparison",
+      "incorporation": "Reference image not included in runtime; City OGL Vancouver source manifest"
+    },
+    {
+      "id": "osm-20260927",
+      "path": "data/routes/raw/osm/park-map-20260927.osm",
+      "source_manifest": "manifests/pedestrian-source.json",
+      "url": "https://www.openstreetmap.org/way/44032491",
+      "capture_date": "2026-09-27",
+      "coverage": "Mapped Chilco tunnel ways 44032491 and 115939816",
+      "use": "Independent plan comparison only. Mesh coordinates come from the existing City-based route.",
+      "incorporation": "Reference only in structural package; original pedestrian database has separate ODbL distribution obligations"
+    }
+  ],
+  "unresolved": [
+    "Ceperley as-built width, soffit profile and portal location",
+    "Chilco final construction arrangement and other two proposed sections",
+    "Both interior floor profiles and local drainage",
+    "M1 roof extents carry 2 m portal uncertainty. Site measurements or georeferenced construction records can replace them."
+  ]
+}

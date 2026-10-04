@@ -1,0 +1,18 @@
+{
+  "id": "lumberman-arch",
+  "extraction_centre_local_m": [
+    900,
+    -5
+  ],
+  "extraction_radius_m": 90,
+  "source": "manifests/lidar2022-490000_5461000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 1894799,
+  "output": {
+    "path": "data/derived/named-lumberman-arch-survey.npz",
+    "sha256": "9db4dcf672c91aaa9b54538c8573e57353d58a446c8a8cfffc16d83699d1dfd3"
+  }
+}

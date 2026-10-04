@@ -1,0 +1,18 @@
+{
+  "id": "nine-clock-gun",
+  "extraction_centre_local_m": [
+    1855,
+    -506
+  ],
+  "extraction_radius_m": 20,
+  "source": "manifests/lidar2022-491000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 74395,
+  "output": {
+    "path": "data/derived/named-nine-clock-gun-survey.npz",
+    "sha256": "088bca2b06073aa26635e1812ee3aa5ce330697409f990521199c5bccf31e35b"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "revision": "cedar-arch-m1-r1",
+  "source_period": "City LiDAR September 2022; City ortho June/July 2022; dated identity references",
+  "target_period": "September 2026",
+  "assets": [
+    {
+      "name": "SM_LumbermanArch_MainLog",
+      "feature_id": "SP_lumberman_arch",
+      "mesh_path": "data/derived/cedar-arch/SM_LumbermanArch_MainLog.npz",
+      "sha256": "028cf75813ae591d2285c0d2397cdd47cf7e1ae6badfb73dc06c5a28e430ad92",
+      "material": "cedar",
+      "color": [
+        0.29,
+        0.27,
+        0.22
+      ],
+      "collision": "complex",
+      "vertices": 32,
+      "triangles": 60,
+      "bounds_min_m": [
+        898.6881426391338,
+        -4.997387395287049,
+        6.9461565339964
+      ],
+      "bounds_max_m": [
+        917.7112811889912,
+        1.333191454396769,
+        11.068443918217248
+      ],
+      "collision_reason": "Source-located log or explicit support envelope; direct triangles preserve the arch opening. Public-path clearance and live contact remain to be checked."
+    },
+    {
+      "name": "SM_LumbermanArch_SupportLog_00",
+      "feature_id": "SP_lumberman_arch",
+      "mesh_path": "data/derived/cedar-arch/SM_LumbermanArch_SupportLog_00.npz",
+      "sha256": "6ddcf0e710197a70a58064a10710a3a3affffa1059f3aeaf4b38ebb9513d709d",
+      "material": "cedar",
+      "color": [
+        0.29,
+        0.27,
+        0.22
+      ],
+      "collision": "complex",
+      "vertices": 32,
+      "triangles": 60,
+      "bounds_min_m": [
+        915.7716518814378,
+        -4.436292168282238,
+        4.514617150038241
+      ],
+      "bounds_max_m": [
+        917.8431846797268,
+        -2.7305613617642113,
+        10.460053956674347
+      ],
+      "collision_reason": "Source-located log or explicit support envelope; direct triangles preserve the arch opening. Public-path clearance and live contact remain to be checked."
+    },
+    {
+      "name": "SM_LumbermanArch_SupportLog_01",
+      "feature_id": "SP_lumberman_arch",
+      "mesh_path": "data/derived/cedar-arch/SM_LumbermanArch_SupportLog_01.npz",
+      "sha256": "81e3ecabec97d37c095a8371b30568edcddbdab98c9116f345d5ad7fe6b5ef72",
+      "material": "cedar",
+      "color": [
+        0.29,
+        0.27,
+        0.22
+      ],
+      "collision": "complex",
+      "vertices": 32,
+      "triangles": 60,
+      "bounds_min_m": [
+        915.5191701025582,
+        -6.062458233826025,
+        4.511931277329551
+      ],
+      "bounds_max_m": [
+        917.1905533483546,
+        -4.138768246215128,
+        10.449500412659644
+      ],
+      "collision_reason": "Source-located log or explicit support envelope; direct triangles preserve the arch opening. Public-path clearance and live contact remain to be checked."
+    },
+    {
+      "name": "SM_LumbermanArch_MoundEnvelope",
+      "feature_id": "SP_lumberman_arch",
+      "mesh_path": "data/derived/cedar-arch/SM_LumbermanArch_MoundEnvelope.npz",
+      "sha256": "ca1ae2467560c9aff46ab6e11baa87463526694e15ed4c863dea00b6e2f66e39",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 30,
+      "triangles": 56,
+      "bounds_min_m": [
+        896.8808178710938,
+        -1.196075791946891,
+        4.784494013498763
+      ],
+      "bounds_max_m": [
+        900.8808178710938,
+        2.608150273233724,
+        7.139262084524543
+      ],
+      "collision_reason": "Source-located log or explicit support envelope; direct triangles preserve the arch opening. Public-path clearance and live contact remain to be checked."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_lumberman_arch",
+      "name": "Lumberman's Arch",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/files/cov/MEMO-LumbermansArchClosureInspection-20190201.pdf",
+        "https://stanleyparkecology.ca/wp-content/uploads/2021/07/ParksCanada_Commemorative-Integrity-Statement-2002.pdf",
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=99",
+        "manifests/named-lumberman-arch-survey.json",
+        "evidence/corridor/ortho-utm/named-lumberman-wide.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          908.1997119140625,
+          -1.83209797044514
+        ],
+        "main_observed_length_m": 19.523805848740444,
+        "source_fitted_member_axes_local_m": [
+          [
+            [
+              898.8808178710938,
+              0.7060372406434163,
+              7.5892620845245435
+            ],
+            [
+              917.5186059570312,
+              -4.370233181533696,
+              10.425338367689104
+            ]
+          ],
+          [
+            [
+              917.4279562674191,
+              -3.1482667992497784,
+              4.624671106712589
+            ],
+            [
+              916.1868802937456,
+              -4.018586730796671,
+              10.35
+            ]
+          ],
+          [
+            [
+              916.7693454983562,
+              -5.642794473679483,
+              4.611431689989195
+            ],
+            [
+              915.9403779525566,
+              -4.55843200636167,
+              10.35
+            ]
+          ]
+        ],
+        "main_fit": {
+          "returns": 977,
+          "parameters": [
+            -1.7777035499464546,
+            -0.2723644242959949,
+            8.976910449147967,
+            0.15216807220296852
+          ],
+          "radius_estimate_m": 0.65,
+          "median_abs_radial_residual_m": 0.07765718175912772,
+          "p95_abs_radial_residual_m": 0.5023211248735391,
+          "independent_accuracy": false,
+          "limitation": "One-sided airborne returns do not constrain log diameter reliably. Radius is an explicit M1 estimate; axis fitted to the visible shell."
+        },
+        "support_fits": [
+          {
+            "returns": 86,
+            "parameters": [
+              916.9130577045631,
+              -0.21676937636344062,
+              -3.5093458076943467,
+              -0.15201221585144006
+            ],
+            "radius_estimate_m": 0.43,
+            "median_abs_radial_residual_m": 0.0721617394724946,
+            "p95_abs_radial_residual_m": 0.24553145760456158,
+            "independent_accuracy": false,
+            "limitation": "One-sided airborne returns do not constrain log diameter reliably. Radius is an explicit M1 estimate; axis fitted to the visible shell."
+          },
+          {
+            "returns": 44,
+            "parameters": [
+              916.4243037557197,
+              -0.14445546363081246,
+              -5.191449523845544,
+              0.1889604529802611
+            ],
+            "radius_estimate_m": 0.43,
+            "median_abs_radial_residual_m": 0.07558606167300941,
+            "p95_abs_radial_residual_m": 0.24119137776792215,
+            "independent_accuracy": false,
+            "limitation": "One-sided airborne returns do not constrain log diameter reliably. Radius is an explicit M1 estimate; axis fitted to the visible shell."
+          }
+        ]
+      },
+      "estimates": {
+        "main_log_radius_m": 0.65,
+        "support_log_radius_m": 0.43,
+        "diameter_uncertainty_m": "At least +/-0.3 m; underside is not resolved",
+        "western_mound_radius_m": [
+          2,
+          1
+        ],
+        "mound": "Primary source confirms a rock mound; geometric envelope under canopy is estimated",
+        "eastern_support_top_h_m": 10.35
+      },
+      "limits": "City 2022 returns identify the straight rising main log and two converging support traces. The official registry point was used only as a search aid. Partial airborne shells require estimated radii and end sections. The second horizontal member in the 2019 memo is not isolated; it is not fabricated or counted as complete. Bark, exact concrete/rock support and close structural detail remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    }
+  ],
+  "acceptance": false,
+  "reference_rights": "Survey/ortho derivatives: OGL-Vancouver. Primary documents and photographs: reference only; not distributed.",
+  "input_hashes": {
+    "manifests/named-lumberman-arch-survey.json": "4f66af77584d176105beb38353b848ade248bea7e061eb371bd0b2a8df18fe1a"
+  }
+}

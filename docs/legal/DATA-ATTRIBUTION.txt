@@ -1,0 +1,197 @@
+Stanley Park simulation — Seawall preview release
+
+This build contains modified public geospatial data. It is not a City of
+Vancouver, Province of British Columbia, or Government of Canada product.
+These agencies do not endorse it. The scene is not a navigation aid.
+
+City of Vancouver: park boundary, route network and historical shoreline.
+Contains information licensed under the Open Government Licence – Vancouver.
+https://opendata.vancouver.ca/pages/licence/
+
+Natural Resources Canada: historical HRDEM Vancouver terrain and MRDEM
+regional terrain. Contains information licensed under the Open Government
+Licence – Canada.
+https://open.canada.ca/en/open-government-licence-canada
+https://datacube.services.geo.ca/stac/api/collections/hrdem-lidar
+https://datacube.services.geo.ca/stac/api/collections/mrdem-30
+MRDEM contains Copernicus GLO-30 data. The project clips, converts and
+simplifies this terrain. The component attribution is:
+produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus
+Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European
+Union and ESA; all rights reserved
+https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM
+https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/national-elevation-data-strategy
+The provider descriptions and component attribution were checked on
+4 October 2026. This notice does not change either provider's licence.
+
+Province of British Columbia: Freshwater Atlas Coastlines, used to mask
+regional sea areas. Freshwater Atlas Lakes provide generalized lake outlines.
+Contains information licensed under the Open Government Licence
+– British Columbia.
+https://www2.gov.bc.ca/gov/content/data/policy-standards/data-policies/open-data/open-government-licence-bc
+https://catalogue.data.gov.bc.ca/dataset/87b1d6a7-d4d1-4c25-a879-233becdbffed
+https://catalogue.data.gov.bc.ca/dataset/cb1e3aba-d3fe-4de1-a2d4-b8b6650fb1f6
+
+Dates, transformations, source URLs and file hashes are retained in the
+project manifests. Historic terrain does not establish current path shape.
+The 2022 City aerial imagery is used only for reference. It is not included
+as a texture in this build. TRIM EBM Ocean geometry is not used.
+
+City of Vancouver 2022 LiDAR: ground, canopy envelopes, roof masses and
+Lost Lagoon flight-day water samples. Eleven source tiles were captured
+7 and 9 September 2022. Contains information licensed under the Open
+Government Licence - Vancouver. See manifests/lidar2022-*.json.
+https://opendata.vancouver.ca/explore/dataset/lidar-2022/information/
+
+Height conversion uses the Province of BC HTMVBC00_Abb regional model and
+NRCan CGG2013a NAD83 grid distributed by PROJ. The grid source notices and
+transformation formula are retained in data/raw/geoid and the tile manifests.
+https://www2.gov.bc.ca/gov/content/data/geographic-data-services/geo-spatial-referencing/height-transformations
+https://cdn.proj.org/ca_nrc_README.txt
+
+Fisheries and Oceans Canada CAN-EWLAT supplies the fixed Vancouver mean-water
+scenario (epoch 2010). Contains information licensed under the Open Government
+Licence - Canada. This is not a prediction of the current tide.
+https://open.canada.ca/data/en/dataset/a3edf193-5c56-4b38-bcc5-c8708c60ce38
+
+The 2025 seawall accessibility report and its 2024 field photographs are
+reference material only. Report images and proposed 2027 construction are
+not incorporated as completed 2026 works.
+
+Original blockout kit meshes and code were created for this project.
+Landmark envelope geometry also uses the City 2022 LiDAR. The 2018 BC Lions
+Gate engineering report is a measurement reference. Report page images,
+photographs and text are not included in the game. BC geographical names
+and Veterans Affairs records supply identity/crop references, not exact
+survey control or a grant to redistribute photographs.
+
+The City public-art metadata uses the Open Government Licence - Vancouver.
+That licence does not grant rights to reproduce every artwork or photograph.
+The BC MASCOT open index uses the Open Government Licence - British Columbia.
+Detailed MASCOT reports have separate internal-use terms and must not be
+distributed with this project. See manifests/survey-control-sources.json.
+
+The Blender source remains editable. No third-party photo texture library,
+scanned landmark pack, or wildlife animation pack is included.
+The Seawall tree/bark/leaf textures, gulls, explorer model and animation,
+procedural shore objects, and bicycle rider animation are original project
+work. The public repository and asset archive include their editable source and authoring scripts.
+
+The City Stanley Park Map + Guide (printed revision 19 May 2026), the January
+2024 Hemlock Looper Impact and Wildfire Risk Assessment, and the Phase 3
+mitigation map revised in January 2026 are reference-only files. Their page
+images and map polygons are not included in the game. Forest treatment areas
+do not establish the locations of removed trees. See the route and forest
+source manifests for dates, URLs and file hashes.
+
+Province of British Columbia: VRI - 2025 - Forest Vegetation Composite Rank 1
+Layer (R1). Contains information licensed under the Open Government Licence
+- British Columbia. The clipped polygons guide canopy group proxies. VRI
+reference and interpretation dates vary; projected growth values are not new
+field measurements. This does not establish September 2026 tree-removal areas.
+https://catalogue.data.gov.bc.ca/dataset/2ebb35d8-c82f-4a17-9c96-612ac3532d55
+See manifests/vegetation-zones.json.
+
+Unreal Engine is a trademark or registered trademark of Epic Games, Inc.
+The public preview includes engine credits, data attribution, player terms, and registered source databases.
+
+Walking-path geometry: © OpenStreetMap contributors. The source extract and
+derived pedestrian database are available in SourceData/Pedestrian under
+the Open Database Licence 1.0. See PEDESTRIAN-DATA-LICENCE.txt in that folder.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+The database remains separate from the City bicycle-route records. OSM
+access tags do not establish the current legal cycling route.
+
+Public-space polygons, the OSM-assisted navigation review and the downtown /
+West End skyline also contain information from OpenStreetMap:
+© OpenStreetMap contributors, available under the Open Database Licence 1.0.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+Their original and adapted databases, current editable geometry and source
+records are included in SourceData/PublicSpaces, SourceData/Navigation and
+SourceData/Skyline. See SourceData/OSM-DATA-LICENCE.txt and the hash index.
+The four skyline XML extracts date from 27 September 2026; individual edit
+timestamps are not survey dates. Untagged heights and blockout sign positions
+remain explicit estimates. The packaging register is source-distribution.json.
+
+City of Vancouver 2009 building footprints: the bounded skyline height
+reference extract contains information licensed under the Open Government
+Licence - Vancouver. Historical height scalars and their assumptions are
+identified separately from the current OSM building outlines.
+https://opendata.vancouver.ca/explore/dataset/building-footprints-2009/
+
+Skyline reference photographs, architect/contractor pages and the 2017 SEABC
+notable-structures publication were used for research only. Their images,
+PDF pages, photographs and logos are not included in the distributed world
+or source bundle. Coarse authored silhouettes are not survey-certified
+structures. See skyline-reference-sources.json for individual records.
+
+North Shore industrial silhouettes: © OpenStreetMap contributors, available
+under ODbL 1.0. Four source extracts, the current derived database and editable
+geometry are included in SourceData/NorthShore. Site dimensions that do not
+come from explicit source tags remain labelled estimates. Operator/contractor
+PDFs and photographs were consulted as references; none is distributed.
+See northshore-reference-sources.json and NorthShore source-bundle records.
+
+Restroom/entrance crosswalk and Lumberman facility placement: © OpenStreetMap
+contributors, ODbL 1.0. The related source and adapted database are included
+in SourceData/Facilities. Measured road and floor height planes contain City
+of Vancouver 2022 LiDAR information under the Open Government Licence -
+Vancouver. Hidden room dimensions and facade/rail details are authoring
+estimates. City2018 tender drawings and City2025 report photos are reference
+only and are excluded from the source bundle and the game.
+
+Physical gate source geometry and walking-path records: OSM-assisted placement
+under ODbL1.0 and City2022 pavement under OGL-Vancouver. The existing-condition
+frames use explicit estimated sizes and a dated City2025 reference; current
+field state is unverified. See SourceData/PhysicalGates.
+
+Lagoon structures, coarse route sculpture envelopes and the Air India wall
+use City2022 survey geometry under OGL-Vancouver plus separately identified
+OSM placement records under ODbL1.0. See SourceData/LagoonStructures,
+SourceData/RouteSculptures and SourceData/AirIndia. City art-registry metadata
+does not grant artwork rights. No carving textures, source photographs,
+inscriptions, logos or reference PDF pages are incorporated or distributed.
+The limited development geometry is not an assertion of permission for a
+finished artwork replica or public release.
+
+Named ground-space additions: original OSM golf, garden and railway geometry
+is offered under ODbL 1.0 in SourceData/GroundSpaces. Image-picked ground
+boundaries contain City2022 orthophoto information under OGL-Vancouver.
+Source images are not distributed as textures. Approximate project envelopes,
+rail widths and the biofilter local water-level proxy are identified in the
+source records. The separate source package does not certify current conditions.
+
+Railway station/Cob House and Nature House threshold geometry use City survey
+information under OGL-Vancouver. See SourceData/RailwayStructures and
+SourceData/NatureHouseThreshold. The City2015 railway tender (AMD No.1,
+19 June 2015) and operator photographs were research references only. The
+architect's PDF sheets and photographs are excluded from distribution.
+
+Lumberman terrain transitions and closure geometry use City2022 survey data
+and the separately identified OSM path alignment. See SourceData/LumbermanClosures.
+The source package retains distinct upper-road and lower-walkway controls.
+
+Finite site-completion grounds and original OSM feature links are offered in
+SourceData/SiteCompletions under ODbL1.0, with City2022 survey/image derivatives
+under OGL-Vancouver. Existing terrain and canopy are linked without duplicate
+monuments. Local pond water levels are explicit unmeasured proxies. The two
+coarse low play envelopes are in SourceData/WaterparkLowForms under OGL-Vancouver.
+
+SourceData/TotemPrecinct contains limited pole/portal envelopes, source metadata
+and City survey derivatives. Some concealed envelopes are bounded estimates.
+Artwork, photographs, carving, paint patterns and inscriptions are not copied.
+The original artwork rights remain separate from City open-data permissions.
+
+The finite branch-join fixtures in SourceData/Navigation retain City route
+geometry and the separately recorded OSM direction review. They add no new
+external source or licence and do not establish runtime behavior.
+
+The closing-seam support delta is in SourceData/Navigation. It contains the
+original project helper and caller, exact live-authored vertices/faces,
+unchanged source pavement/support NPZ files, controls and the retained failure.
+The derivative adds five vertices and four faces only to Blender
+SM_PavementSupport_049; its base NPZ is unchanged. City survey derivatives
+retain OGL-Vancouver terms. No research image or document is included.
+

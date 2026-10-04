@@ -1,0 +1,4961 @@
+{
+  "coordinates": "Local east/north/up metres, manifests/world-origin.json",
+  "views": {
+    "nine_oclock": {
+      "eye": [
+        1880,
+        -535,
+        20
+      ],
+      "target": [
+        1855.6,
+        -506.6,
+        6
+      ]
+    },
+    "prospect_light": {
+      "eye": [
+        160,
+        1320,
+        29
+      ],
+      "target": [
+        121.57,
+        1272.4,
+        15
+      ]
+    },
+    "prospect_terrace": {
+      "eye": [
+        99,
+        1209,
+        79
+      ],
+      "target": [
+        70,
+        1247,
+        58
+      ]
+    },
+    "prospect_terrace_close": {
+      "eye": [
+        76,
+        1263,
+        64
+      ],
+      "target": [
+        70,
+        1247,
+        57
+      ]
+    },
+    "aquarium": {
+      "eye": [
+        990,
+        -400,
+        130
+      ],
+      "target": [
+        882,
+        -231,
+        22
+      ]
+    },
+    "second_pool": {
+      "eye": [
+        -730,
+        -940,
+        110
+      ],
+      "target": [
+        -620,
+        -810,
+        4
+      ]
+    },
+    "ceperley_approach": {
+      "eye": [
+        -380,
+        -922,
+        4.9
+      ],
+      "target": [
+        -367,
+        -910,
+        4.4
+      ]
+    },
+    "ceperley_deck": {
+      "eye": [
+        -393,
+        -940,
+        19
+      ],
+      "target": [
+        -371,
+        -914,
+        5
+      ]
+    },
+    "chilco_deck": {
+      "eye": [
+        410,
+        -900,
+        33
+      ],
+      "target": [
+        458,
+        -858,
+        5
+      ]
+    },
+    "hollow_tree": {
+      "eye": [
+        -748,
+        474,
+        57
+      ],
+      "target": [
+        -766,
+        485,
+        57
+      ]
+    },
+    "siwash_lookout": {
+      "eye": [
+        -938,
+        673,
+        30
+      ],
+      "target": [
+        -927,
+        661,
+        22
+      ]
+    },
+    "third_beach_building": {
+      "eye": [
+        -964,
+        42,
+        18
+      ],
+      "target": [
+        -928,
+        66,
+        13
+      ]
+    },
+    "third_beach_roof": {
+      "eye": [
+        -928,
+        62,
+        65
+      ],
+      "target": [
+        -928,
+        66,
+        13
+      ]
+    },
+    "junction036": {
+      "eye": [
+        403,
+        885,
+        7
+      ],
+      "target": [
+        408.1,
+        878.4,
+        3.4
+      ]
+    },
+    "skyline_coal_harbour": {
+      "eye": [
+        1002.6058,
+        -649.8537,
+        4.68994
+      ],
+      "target": [
+        1500,
+        -2200,
+        70
+      ]
+    },
+    "skyline_canada_place": {
+      "eye": [
+        1733.06765,
+        -479.68252,
+        7.39513
+      ],
+      "target": [
+        2270,
+        -1330,
+        40
+      ]
+    },
+    "skyline_english_bay": {
+      "eye": [
+        -617.72741,
+        -767.33322,
+        4.90092
+      ],
+      "target": [
+        600,
+        -2000,
+        70
+      ]
+    },
+    "public_south_grounds": {
+      "eye": [
+        209.04290771484375,
+        -1646.272705078125,
+        792.2638549804688
+      ],
+      "target": [
+        -79.955322265625,
+        -1026.99072265625,
+        7.840057849884033
+      ],
+      "purpose": "Actual authored bounds; elevated form inspection, not a rider viewpoint"
+    },
+    "public_pavilion": {
+      "eye": [
+        701.1434326171875,
+        -394.4217224121094,
+        84.74691009521484
+      ],
+      "target": [
+        677.21142578125,
+        -343.1387939453125,
+        19.788543701171875
+      ],
+      "purpose": "Actual authored bounds; elevated form inspection, not a rider viewpoint"
+    },
+    "public_brockton_grounds": {
+      "eye": [
+        1441.52001953125,
+        -639.9262084960938,
+        335.4259338378906
+      ],
+      "target": [
+        1320.9779052734375,
+        -381.6217041015625,
+        8.240222930908203
+      ],
+      "purpose": "Actual authored bounds; elevated form inspection, not a rider viewpoint"
+    },
+    "public_lumberman_grounds": {
+      "eye": [
+        940.0746459960938,
+        -171.8954315185547,
+        220.65158081054688
+      ],
+      "target": [
+        862.6016845703125,
+        -5.88189697265625,
+        10.367768287658691
+      ],
+      "purpose": "Actual authored bounds; elevated form inspection, not a rider viewpoint"
+    },
+    "public_totem_court": {
+      "eye": [
+        1624.71923828125,
+        -338.7745666503906,
+        32.301246643066406
+      ],
+      "target": [
+        1614.21923828125,
+        -316.2745666503906,
+        3.801248073577881
+      ],
+      "purpose": "Actual authored bounds; elevated form inspection, not a rider viewpoint"
+    },
+    "harbour_deadman": {
+      "eye": [
+        1511.5072021484375,
+        -919.5179443359375,
+        158.66241455078125
+      ],
+      "target": [
+        1456.5250244140625,
+        -801.698974609375,
+        9.425041198730469
+      ],
+      "purpose": "Actual authored bounds; elevated form inspection, not a rider viewpoint"
+    },
+    "railway_cafe": {
+      "eye": [
+        711.291748046875,
+        -192.3502655029297,
+        75.24250793457031
+      ],
+      "target": [
+        692.7785034179688,
+        -152.6790008544922,
+        24.992244720458984
+      ],
+      "purpose": "Actual authored bounds; elevated form inspection, not a rider viewpoint"
+    },
+    "sculpture_empress_japan": {
+      "eye": [
+        1210.5760498046875,
+        2.479104995727539,
+        7.554980278015137
+      ],
+      "target": [
+        1203.35986328125,
+        11.13852596282959,
+        4.957153797149658
+      ],
+      "purpose": "Elevated source-envelope sculpture form inspection"
+    },
+    "sculpture_girl_wetsuit": {
+      "eye": [
+        1251.009033203125,
+        -1.51300048828125,
+        2.7224998474121094
+      ],
+      "target": [
+        1246.009033203125,
+        4.48699951171875,
+        0.92249995470047
+      ],
+      "purpose": "Elevated source-envelope sculpture form inspection"
+    },
+    "sculpture_harry_jerome": {
+      "eye": [
+        1747.9058837890625,
+        -490.9858703613281,
+        9.020000457763672
+      ],
+      "target": [
+        1742.9058837890625,
+        -484.9858703613281,
+        7.220000267028809
+      ],
+      "purpose": "Elevated source-envelope sculpture form inspection"
+    },
+    "sculpture_shore_to_shore": {
+      "eye": [
+        1641.6171875,
+        -412.3565979003906,
+        7.861999988555908
+      ],
+      "target": [
+        1635.917236328125,
+        -405.5166015625,
+        5.809999942779541
+      ],
+      "purpose": "Elevated source-envelope sculpture form inspection"
+    },
+    "northshore_seaspan": {
+      "eye": [
+        859.8724422329175,
+        138.14808009694414,
+        4.991751040835304
+      ],
+      "target": [
+        2746.518433888268,
+        1267.605321250856,
+        42.16220996511849
+      ],
+      "purpose": "Actual route point plus eye height; initial visibility review"
+    },
+    "northshore_vancouverwharves": {
+      "eye": [
+        859.8724422329175,
+        138.14808009694414,
+        4.991751040835304
+      ],
+      "target": [
+        1683.2962476102111,
+        1020.3208531241262,
+        14.703459111616858
+      ],
+      "purpose": "Actual route point plus eye height; initial visibility review"
+    },
+    "northshore_g3": {
+      "eye": [
+        1861.725348049336,
+        -220.1302728916836,
+        11.051524716916836
+      ],
+      "target": [
+        7250.2567790434405,
+        29.626927637210656,
+        44.023556865277655
+      ],
+      "purpose": "Actual route point plus eye height; initial visibility review"
+    },
+    "maze_lumberman": {
+      "eye": [
+        927.8924700591301,
+        39.98187585781722,
+        4.641139169577229
+      ],
+      "target": [
+        920.4723669357719,
+        43.25748387600229,
+        3.6722676181013822
+      ],
+      "purpose": "Walk approach to dated physical barrier; opening and pavement review"
+    },
+    "maze_prospect": {
+      "eye": [
+        135.67887429229546,
+        1242.0272064102082,
+        4.661625645331895
+      ],
+      "target": [
+        133.43955445284777,
+        1252.8506162966523,
+        3.6299540130421564
+      ],
+      "purpose": "Walk approach to dated physical barrier; opening and pavement review"
+    },
+    "maze_thirdbeach": {
+      "eye": [
+        -963.7446834228009,
+        96.3319966156028,
+        5.2879147518358565
+      ],
+      "target": [
+        -964.2235135141872,
+        88.30322608199498,
+        4.405502449080799
+      ],
+      "purpose": "Walk approach to dated physical barrier; opening and pavement review"
+    },
+    "air_india": {
+      "eye": [
+        -442.9018844367885,
+        -981.195640682529,
+        11.495548172060023
+      ],
+      "target": [
+        -454.9018844367885,
+        -971.195640682529,
+        7.495548172060022
+      ],
+      "purpose": "M1 curved memorial wall and terrain contact"
+    },
+    "lumberman_lower_south": {
+      "eye": [
+        887.9594837917217,
+        31.325520353075632,
+        4.4
+      ],
+      "target": [
+        895.155,
+        44.487,
+        3.8
+      ],
+      "purpose": "Separate road and walking levels; contact and passage clearance review"
+    },
+    "lumberman_lower_north": {
+      "eye": [
+        901.8708151277264,
+        56.77104767046275,
+        4.4
+      ],
+      "target": [
+        895.155,
+        44.487,
+        3.8
+      ],
+      "purpose": "Separate road and walking levels; contact and passage clearance review"
+    },
+    "lumberman_upper_road": {
+      "eye": [
+        874.9740645413826,
+        55.52012485269338,
+        8.1
+      ],
+      "target": [
+        895.155,
+        44.487,
+        6.5
+      ],
+      "purpose": "Separate road and walking levels; contact and passage clearance review"
+    },
+    "nature_house_upper": {
+      "eye": [
+        378.2975,
+        -925.1225000000001,
+        8.715399930918775
+      ],
+      "target": [
+        378.2975,
+        -911.1225000000001,
+        3.7153999309187737
+      ],
+      "purpose": "Named source-form assembly and ground contact review"
+    },
+    "nature_house_lower": {
+      "eye": [
+        368.2975,
+        -897.1225000000001,
+        3.7153999309187737
+      ],
+      "target": [
+        378.2975,
+        -911.1225000000001,
+        3.7153999309187737
+      ],
+      "purpose": "Named source-form assembly and ground contact review"
+    },
+    "jubilee": {
+      "eye": [
+        334.62592956247227,
+        -798.49,
+        9.009040379524231
+      ],
+      "target": [
+        334.62592956247227,
+        -773.49,
+        2.009040379524231
+      ],
+      "purpose": "Named source-form assembly and ground contact review"
+    },
+    "railway_station": {
+      "eye": [
+        646.1549297388807,
+        -70.32591617269662,
+        30.77121452023493
+      ],
+      "target": [
+        658.1549297388807,
+        -84.32591617269662,
+        27.77121452023493
+      ],
+      "purpose": "Named source-form assembly and ground contact review"
+    },
+    "cob_house": {
+      "eye": [
+        663.05,
+        -140.62,
+        29.092017559519807
+      ],
+      "target": [
+        658.05,
+        -133.62,
+        26.092017559519807
+      ],
+      "purpose": "Named source-form assembly and ground contact review"
+    },
+    "nature_house_upper_wide": {
+      "eye": [
+        374,
+        -944,
+        15
+      ],
+      "target": [
+        378,
+        -911,
+        4.8
+      ],
+      "purpose": "Whole Nature House upper deck and lower front assembly"
+    },
+    "nature_house_lower_wide": {
+      "eye": [
+        373,
+        -884,
+        3.2
+      ],
+      "target": [
+        378,
+        -911,
+        3.0
+      ],
+      "purpose": "Lower front terrain correction; inspection from lagoon side, not rider position"
+    },
+    "nav_walk1_start": {
+      "eye": [
+        938.6791365187886,
+        34.917961233684835,
+        4.6572651414208615
+      ],
+      "target": [
+        930.3876767793324,
+        36.14339804926439,
+        4.757265141420862
+      ],
+      "purpose": "Approach view of functional dismount board; check front-facing text and post contact"
+    },
+    "nav_walk2_start": {
+      "eye": [
+        138.4785232879039,
+        1232.4161909232664,
+        4.6617514039019845
+      ],
+      "target": [
+        133.5074422807548,
+        1239.281200291094,
+        4.761751403901984
+      ],
+      "purpose": "Approach view of functional dismount board; check front-facing text and post contact"
+    },
+    "nav_walk3_start": {
+      "eye": [
+        -963.5702414620426,
+        106.33493186236943,
+        5.309449698731548
+      ],
+      "target": [
+        -966.5050085469454,
+        98.38338219218745,
+        5.409449698731548
+      ],
+      "purpose": "Approach view of functional dismount board; check front-facing text and post contact"
+    },
+    "join_004": {
+      "eye": [
+        -546.5052191572629,
+        -737.2600495307017,
+        9.158863476904845
+      ],
+      "target": [
+        -535.6970339801294,
+        -742.712376296963,
+        4.333489006604042
+      ],
+      "purpose": "At-grade main and branch surface overview; interactive transfer remains separate"
+    },
+    "join_006": {
+      "eye": [
+        -441.225512018705,
+        -832.2462679638767,
+        7.6751494123510495
+      ],
+      "target": [
+        -433.47952776653335,
+        -841.4277095686205,
+        3.054007345940304
+      ],
+      "purpose": "At-grade main and branch surface overview; interactive transfer remains separate"
+    },
+    "join_007": {
+      "eye": [
+        -406.19573939026947,
+        -888.8139776311704,
+        8.234876005207514
+      ],
+      "target": [
+        -401.4079859369115,
+        -899.8307234112481,
+        3.760489150378636
+      ],
+      "purpose": "At-grade main and branch surface overview; interactive transfer remains separate"
+    },
+    "join_015": {
+      "eye": [
+        -225.94874148156498,
+        -787.9877454349538,
+        7.01974661748803
+      ],
+      "target": [
+        -213.79484176152116,
+        -786.1624949007333,
+        3.1036844017093705
+      ],
+      "purpose": "At-grade main and branch surface overview; interactive transfer remains separate"
+    },
+    "join_035": {
+      "eye": [
+        398.74141687735363,
+        -940.3534778168506,
+        9.56389344032347
+      ],
+      "target": [
+        407.221591547952,
+        -932.4193946823214,
+        4.752779957056024
+      ],
+      "purpose": "At-grade main and branch surface overview; interactive transfer remains separate"
+    },
+    "join_036": {
+      "eye": [
+        419.8972563478646,
+        865.7503227470945,
+        8.051987838351236
+      ],
+      "target": [
+        411.3926449700321,
+        874.8166389433175,
+        3.7581845560981364
+      ],
+      "purpose": "At-grade main and branch surface overview; interactive transfer remains separate"
+    },
+    "join_041": {
+      "eye": [
+        447.2779704609231,
+        -866.3705587920607,
+        6.564832361021261
+      ],
+      "target": [
+        454.81611808901454,
+        -857.041470745818,
+        2.0270963434174254
+      ],
+      "purpose": "At-grade main and branch surface overview; interactive transfer remains separate"
+    },
+    "join_045": {
+      "eye": [
+        506.3565993335047,
+        -821.2411039502281,
+        7.77023789396506
+      ],
+      "target": [
+        518.309157380223,
+        -817.3851044515058,
+        3.589794819232892
+      ],
+      "purpose": "At-grade main and branch surface overview; interactive transfer remains separate"
+    },
+    "air_india_wall_r2": {
+      "eye": [
+        -455,
+        -970,
+        8.7
+      ],
+      "target": [
+        -457,
+        -974,
+        7.5
+      ],
+      "purpose": "Source-form placement, open silhouette and ground contact; preserve measured canopy"
+    },
+    "air_india_seat_r2": {
+      "eye": [
+        -456,
+        -971,
+        8.1
+      ],
+      "target": [
+        -458,
+        -967,
+        6.9
+      ],
+      "purpose": "Source-form placement, open silhouette and ground contact; preserve measured canopy"
+    },
+    "ground_totem_court_r2": {
+      "eye": [
+        1598,
+        -369,
+        5.8
+      ],
+      "target": [
+        1618,
+        -369,
+        8
+      ],
+      "purpose": "Source-form placement, open silhouette and ground contact; preserve measured canopy"
+    },
+    "yelton_r2": {
+      "eye": [
+        1584,
+        -397,
+        6.1
+      ],
+      "target": [
+        1585.8,
+        -388.3,
+        8
+      ],
+      "purpose": "Source-form placement, open silhouette and ground contact; preserve measured canopy"
+    },
+    "people_north_r2": {
+      "eye": [
+        1586,
+        -345,
+        6
+      ],
+      "target": [
+        1591,
+        -339.8,
+        7
+      ],
+      "purpose": "Source-form placement, open silhouette and ground contact; preserve measured canopy"
+    },
+    "ground_golf_greens": {
+      "eye": [
+        -308,
+        -1095,
+        39
+      ],
+      "target": [
+        -213,
+        -1015,
+        13
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_community_garden": {
+      "eye": [
+        359,
+        -1019,
+        20
+      ],
+      "target": [
+        325,
+        -990,
+        5
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_railway_tracks": {
+      "eye": [
+        707,
+        -120,
+        45
+      ],
+      "target": [
+        684,
+        -82,
+        26
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_biofilter": {
+      "eye": [
+        405,
+        -633,
+        19
+      ],
+      "target": [
+        348,
+        -575,
+        1
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_rose_gardens": {
+      "eye": [
+        539,
+        -477,
+        46
+      ],
+      "target": [
+        530,
+        -388,
+        28
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_greig_garden": {
+      "eye": [
+        -310,
+        -1120,
+        30
+      ],
+      "target": [
+        -209,
+        -1015,
+        11
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_heron_habitat": {
+      "eye": [
+        -128,
+        -1276,
+        20
+      ],
+      "target": [
+        -182,
+        -1211,
+        18
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_devonian_pond": {
+      "eye": [
+        669,
+        -1010,
+        25
+      ],
+      "target": [
+        558,
+        -885,
+        3
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_hallelujah": {
+      "eye": [
+        1780,
+        -511,
+        12
+      ],
+      "target": [
+        1700,
+        -475,
+        9
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_port_view": {
+      "eye": [
+        1924,
+        -284,
+        12
+      ],
+      "target": [
+        1934,
+        -262,
+        5
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_rock_garden": {
+      "eye": [
+        726,
+        -397,
+        43
+      ],
+      "target": [
+        680,
+        -362,
+        30
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_painters_circle": {
+      "eye": [
+        850,
+        -490,
+        14
+      ],
+      "target": [
+        830,
+        -465,
+        8
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_portrait_painters": {
+      "eye": [
+        914,
+        -365,
+        28
+      ],
+      "target": [
+        880,
+        -339,
+        14
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_salmon_lower_pool": {
+      "eye": [
+        889,
+        -482,
+        16
+      ],
+      "target": [
+        861,
+        -455,
+        4
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_waterpark_low_forms": {
+      "eye": [
+        989,
+        15,
+        15
+      ],
+      "target": [
+        951,
+        59,
+        4
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_pitch_putt_clubhouse": {
+      "eye": [
+        -285,
+        -1080,
+        22
+      ],
+      "target": [
+        -258,
+        -1057,
+        13
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "yelton_wide_r2": {
+      "eye": [
+        1582,
+        -407,
+        6.3
+      ],
+      "target": [
+        1585.8,
+        -388.3,
+        9.5
+      ],
+      "purpose": "Full Yelton coarse pole profile and ground contact"
+    },
+    "yelton_east_r3": {
+      "eye": [
+        1600,
+        -389,
+        5.8
+      ],
+      "target": [
+        1585.8,
+        -388.3,
+        9.3
+      ],
+      "purpose": "Whole pole from the court; verify the full height without hiding measured canopy."
+    },
+    "ground_golf_greens_r2": {
+      "eye": [
+        -215.6667,
+        -1032.1707,
+        11.9059
+      ],
+      "target": [
+        -229.6667,
+        -1032.1707,
+        10.0079
+      ],
+      "purpose": "One complete green and its surrounding ground",
+      "accepted": false,
+      "camera_ground_height_m": 9.705938419628094,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_Golf_green_752863893_01_02"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          -240.7731959623634,
+          -1040.9782255860046
+        ],
+        [
+          -226.2036495709326,
+          -1024.024681834504
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          -230.31724856460312,
+          -1034.6935449383052,
+          10.036217155239605
+        ],
+        [
+          -229.66666666666666,
+          -1032.170714404557,
+          10.007881099971726
+        ],
+        [
+          -226.58960752454144,
+          -1031.6253807513665,
+          9.969202702472165
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 140,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 30,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_community_garden_r2": {
+      "eye": [
+        331.9198,
+        -990.5938,
+        12.7851
+      ],
+      "target": [
+        317.9198,
+        -990.5938,
+        10.6291
+      ],
+      "purpose": "Central bed groups from the open north side",
+      "accepted": false,
+      "camera_ground_height_m": 10.585141678536758,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_CommunityBed_01_01_03",
+        "SM_Ground_CommunityBed_02_01_03",
+        "SM_Ground_CommunityBed_03_01_03",
+        "SM_Ground_CommunityBed_04_01_03",
+        "SM_Ground_CommunityBed_05_01_03",
+        "SM_Ground_CommunityBed_06_01_03"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          308.2,
+          -994.3
+        ],
+        [
+          340.4,
+          -982.7
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          315.24361820199783,
+          -991.72893081761,
+          10.7932364881881
+        ],
+        [
+          316.27106918238997,
+          -992.1355974842767,
+          10.898605308172836
+        ],
+        [
+          317.56666666666666,
+          -987.4480477767742,
+          9.805801824169396
+        ],
+        [
+          317.9198412698413,
+          -990.5937984496123,
+          10.629115207731703
+        ],
+        [
+          321.1531746031746,
+          -989.6333333333333,
+          10.338678507029071
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 117,
+      "finite_clear_candidates": 116,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 18,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_047.npz",
+          "sha256": "e0fee0cdc93072b7a74a4cb76ceb1bf64496042cadccfe5a574b639d0ad68485"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_047.npz",
+          "sha256": "308e62f4141a09956855518a518196e5d532e4de939efcad4088679b2ac22d85"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+          "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_048.npz",
+          "sha256": "799e8e00db90938d2bbc3e3052864ad84c89a2b46a0e0837b90ffb1ed55dd08f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_278.npz",
+          "sha256": "df01c6304b9b7ba29ec6d6aca86e53dbe619b1323ddbf5c338ad1f942e5e3c82"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_03.npz",
+          "sha256": "12adf273282e4d13c7acd7fd0242bdfa3eec9e607979a5026da8aa9f62120984"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_03.npz",
+          "sha256": "5b307fdb1bfe54d1b4831f7797dadaee84c9909692221f22552be45edcfacbe1"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_railway_tracks_r2": {
+      "eye": [
+        689.2027,
+        -62.9937,
+        26.3481
+      ],
+      "target": [
+        676.2684,
+        -68.3513,
+        24.8944
+      ],
+      "purpose": "A short paired-rail segment near the station",
+      "accepted": false,
+      "camera_ground_height_m": 24.148134246981215,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_MiniatureRail_241887212_L_03_04",
+        "SM_Ground_MiniatureRail_241887212_R_03_04",
+        "SM_Ground_MiniatureRail_241887212_Bed_03_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          586.7319501396324,
+          -81.4957425264748
+        ],
+        [
+          743.8323449027434,
+          173.07098674314216
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          673.6624280420183,
+          -68.96560251389828,
+          24.867019264705824
+        ],
+        [
+          674.5511112148541,
+          -69.42612054973314,
+          24.900308794252876
+        ],
+        [
+          676.2683835717186,
+          -68.35125798538137,
+          24.894418867807595
+        ],
+        [
+          678.3011819086756,
+          -65.53095983455825,
+          24.733062334946155
+        ],
+        [
+          678.6250074622776,
+          -66.10958208788352,
+          24.73522082335669
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 141,
+      "finite_clear_candidates": 138,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 45,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+          "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_04.npz",
+          "sha256": "cd84aa5a1e94324ecd03aef4506e3f416e58997cb3b030da3e122d1b212636f1"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_04.npz",
+          "sha256": "f20c7a018a427e0255e53b1c8c495f2f4197efde49c0f2daf521d3031b81902a"
+        }
+      ],
+      "local_named_occluder_inputs": [
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_GableRoof_0.npz",
+          "sha256": "e2baf8f876b562abdb2b57057daed30210061fe4c1fdbf37685bd4df040a3e10"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_GableRoof_1.npz",
+          "sha256": "69098451a139243f4803c750d6d7207a60e5645eaa41ce815ad0ed10078200a0"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_0_0.npz",
+          "sha256": "fc2cf7dcb385a0b40f45bb2613a1bb79e302b494f3a96e89b6204c1f9ed4bcc2"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_0_1.npz",
+          "sha256": "97c43d58484656be65ad1cfb5ab58bdb0b45d1d999031d5112f59243e6d2351b"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_1_0.npz",
+          "sha256": "9398f6074f82efde4f6660ab643e43ebd59182dc69c9e1930954726fb7756213"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_1_1.npz",
+          "sha256": "52d4ee47dd4a25d8cdceaf3e4c411e2eb09251830334f62431a570fa10da7747"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_2_0.npz",
+          "sha256": "a0f9cfdcbbeb0f358af85b63962cf7fcada3d590b53c4cfed3f1cece0df2fb40"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_2_1.npz",
+          "sha256": "b85a3a2e12c3831f3df67299907cc8f19e46192cd9cf5ca2f694e051301bdf8a"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_EaveBeam_0.npz",
+          "sha256": "6a2bf27dbb596eb1f36f84ac96b6592dc2fb2f2c563747a641ca5c731c51078f"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_EaveBeam_1.npz",
+          "sha256": "9177e587e97622823c27ac0058fa52a9803ab31c73a1f5bb79d991cef1a51019"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_LowRoof.npz",
+          "sha256": "586035411ee3bf94ebac6fefc1e46799ef186a65a27d5bf2255faba04734df60"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_0_0.npz",
+          "sha256": "249b7d9744cc743207a377fac8d4d46c36f591d326e631152756a988eb9b9a7c"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_0_1.npz",
+          "sha256": "e6102a7b1b41276335f652b2476a7f21ea36586911b1e1a3c4bd66ff0d43252e"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_0_2.npz",
+          "sha256": "ee0d2e9abd490a7f45d72f4c31611596824608ff3bbc19c53b52cc23f2633a26"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_1_0.npz",
+          "sha256": "e401a09de147679adaca280d29021749104b8b20f34e38f7c53bf10dc8a26100"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_1_1.npz",
+          "sha256": "c9c26cfa130897b693234a86e9f3fd1be9efab7380b8b755f291482c2419bca8"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_1_2.npz",
+          "sha256": "e3fbd0b08d3df03d6ff913e03aedd426a1e1be21765695af40db7776cac73c7c"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_2_0.npz",
+          "sha256": "879ff652e00232526fe7484cdbe2e2b1cacb6968b73af6a4452d4f72d9a445ec"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_2_1.npz",
+          "sha256": "4f751a63831782d038ca47b679950ca6d625fc2c8f887e5483483209ba4efb8c"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_2_2.npz",
+          "sha256": "e9848a76636b795790c2bdfc4fdbaf2bf6988ffc97a47bc8b900d0d14e7d6976"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_3_0.npz",
+          "sha256": "ac8d2261ce27757f3a7eb2ee1d821f6ff80d3853e6531a90246a6015c9ed9f1d"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_3_1.npz",
+          "sha256": "2d753c0b93b0afcf8a792129a640db6bdf0ea0645d88fddc08b95149f73509a6"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_3_2.npz",
+          "sha256": "baacb3c9169e236effdfaf2196e1028205ad38e98520c543178eb8f06d5fdfc6"
+        }
+      ],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_biofilter_r2": {
+      "eye": [
+        390.6001,
+        -561.6667,
+        4.2925
+      ],
+      "target": [
+        376.6001,
+        -561.6667,
+        0.9664
+      ],
+      "purpose": "Visible pool portion and wetland rim",
+      "accepted": false,
+      "camera_ground_height_m": 2.0924890228106525,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_BiofilterVisiblePool_02_03"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          367.97479747974796,
+          -570.6480648064806
+        ],
+        [
+          385.1941803233046,
+          -556.7626606026184
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          375.6666666666667,
+          -564.3333333333334,
+          0.9664010000228882
+        ],
+        [
+          376.60007514128006,
+          -561.6666666666666,
+          0.9664010000228882
+        ],
+        [
+          379.26674180794674,
+          -563.3999248587199,
+          0.9664010000228882
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 69,
+      "finite_clear_candidates": 65,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 36,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+          "sha256": "1279ec4ea58d84eaf73a87576af02db2117f537b1d42f0b518644273346732ee"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_569.npz",
+          "sha256": "a3aa49b218d73b3d1a419173503e5ea83fb06244319c97a88134fd264a1735f9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_706.npz",
+          "sha256": "3e1422b19e4653a04b530a920f4eb432917e35649ed22836099f0f307c249fd1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1095.npz",
+          "sha256": "ee0fec273ada9b79e27245444eda6ea3f727499236f3f9f8dd9f993545ac7ced"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1326.npz",
+          "sha256": "7736f08cbb6c4b1148416ef871c9906b4fbe3e984bd5596ffb5700ebb8184a44"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1751.npz",
+          "sha256": "b751f44417235e8994ddb221bfbdc823f0f3b1e33505a8c5a7a634c36f7ad539"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2775.npz",
+          "sha256": "0e4ff57658f5cdee95c36625a23514a78b913631010fed14cea3114675189397"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_03.npz",
+          "sha256": "de7556437de15a54f5c08ce241a7de980d3fc3df845f0175fb1ba102a2b941b6"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_03.npz",
+          "sha256": "b05553a489840642d3643c957c0d4ae8f28b58dfc7a642126c0ddad61964019a"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_rose_gardens_r2": {
+      "eye": [
+        525.8971,
+        -424.1942,
+        16.7603
+      ],
+      "target": [
+        511.8971,
+        -424.1942,
+        13.4636
+      ],
+      "purpose": "One visible rose-bed group and retained path context",
+      "accepted": false,
+      "camera_ground_height_m": 14.56032796585255,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_RoseBedGroup_01_02_03",
+        "SM_Ground_RoseBedGroup_02_02_03",
+        "SM_Ground_RoseBedGroup_04_02_03",
+        "SM_Ground_RoseBedGroup_05_02_03",
+        "SM_Ground_RoseBedGroup_06_02_03",
+        "SM_Ground_RoseBedGroup_03_02_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          488.7375,
+          -437.925
+        ],
+        [
+          571.5125,
+          -349.50625
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          508.9291666666666,
+          -423.03541666666666,
+          13.188457627991834
+        ],
+        [
+          511.82258333333334,
+          -421.7498697916667,
+          13.597819287252301
+        ],
+        [
+          511.89710256410257,
+          -424.1942307692307,
+          13.463579177703611
+        ],
+        [
+          513.0312900641024,
+          -427.36037660256414,
+          13.426864983882652
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 144,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 17,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+          "sha256": "1279ec4ea58d84eaf73a87576af02db2117f537b1d42f0b518644273346732ee"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_03.npz",
+          "sha256": "de7556437de15a54f5c08ce241a7de980d3fc3df845f0175fb1ba102a2b941b6"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_greig_garden_r2": {
+      "eye": [
+        -70.8414,
+        -1034.6043,
+        12.0559
+      ],
+      "target": [
+        -84.8414,
+        -1034.6043,
+        10.2281
+      ],
+      "purpose": "A local understorey/lawn patch, not the full garden",
+      "accepted": false,
+      "camera_ground_height_m": 9.855869858681206,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_GreigGardenEast_Ground_01_02"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          -141.67486841283971,
+          -1057.8404330536723
+        ],
+        [
+          36.273291614837945,
+          -929.8380205044523
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          -84.84136185242134,
+          -1034.604325187739,
+          10.228084016038569
+        ],
+        [
+          -81.81960975720831,
+          -1036.3227451262874,
+          10.41841614487022
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 136,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 41,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_heron_habitat_r2": {
+      "eye": [
+        -197.0,
+        -1245.0,
+        13.7966
+      ],
+      "target": [
+        -211.0,
+        -1245.0,
+        11.5592
+      ],
+      "purpose": "Existing colony-region ground and nearby source canopy; no bird claim",
+      "accepted": false,
+      "camera_ground_height_m": 11.596606170654297,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [],
+      "target_source_bounds_local_xy_m": [
+        -261,
+        -1295,
+        -161,
+        -1195
+      ],
+      "target_samples_local_m": [
+        [
+          -211.0,
+          -1245.0,
+          11.559233331680298
+        ],
+        [
+          -213.0,
+          -1245.0,
+          11.509689712524414
+        ],
+        [
+          -209.0,
+          -1245.0,
+          11.605098390579224
+        ],
+        [
+          -211.0,
+          -1247.0,
+          11.53761329650879
+        ],
+        [
+          -211.0,
+          -1243.0,
+          11.580853366851807
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 138,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 33,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_02.npz",
+          "sha256": "2c8ebabea31aabd9e51fcb09cda3332f4b877ae371f9d6dad8434d4d80d8f170"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_00_02.npz",
+          "sha256": "5dd4db7175687ab1e9c6015825490c5e787f83a9707de74664f98346bc2b3b35"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_00_02.npz",
+          "sha256": "2d50ae4bf4a6816a2bb68916f1c7f6d99ace38fa7d4bdb4e7cb55c01101ec9f0"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_hallelujah_r2": {
+      "eye": [
+        1754.0,
+        -496.0,
+        6.1914
+      ],
+      "target": [
+        1740.0,
+        -496.0,
+        4.0805
+      ],
+      "purpose": "Existing near-shore landform and retained canopy context",
+      "accepted": false,
+      "camera_ground_height_m": 3.9914448261260986,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [],
+      "target_source_bounds_local_xy_m": [
+        1690,
+        -546,
+        1790,
+        -446
+      ],
+      "target_samples_local_m": [
+        [
+          1740.0,
+          -496.0,
+          4.08047833442688
+        ],
+        [
+          1738.0,
+          -496.0,
+          4.107665860652924
+        ],
+        [
+          1742.0,
+          -496.0,
+          4.050465250015259
+        ],
+        [
+          1740.0,
+          -498.0,
+          3.780791902542114
+        ],
+        [
+          1740.0,
+          -494.0,
+          4.415729188919068
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 135,
+      "finite_clear_candidates": 135,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 18,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+          "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_008.npz",
+          "sha256": "91049c271df2505208856c6f7b0fe2c07b2d5b48eddc476a2462036270fb61eb"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_008.npz",
+          "sha256": "a35bee6d6e7e95ef2ee887b4d1406adfb7a94e0dba733652a181d190787da450"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+          "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1748.npz",
+          "sha256": "63172f0d7c3edd1861f875ba15efdbe53ae959b98bd7e6e35e6a301e06e80c4a"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_06.npz",
+          "sha256": "dfbdf36557b7d616e27b3eaeda5ea9d8bb1e1d0685a66156613612e00378f684"
+        }
+      ],
+      "local_named_occluder_inputs": [
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Plinth.npz",
+          "sha256": "fe1f68deb3912f1dfcb27dedc5ede99df81a5da80e3f316e2a7d107cc2e9cb4f"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Head.npz",
+          "sha256": "a608ec032f0410cdb642798255c69e0e6484fdd89cf5d42af00dcbd6c4fbcb73"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Neck.npz",
+          "sha256": "2f026fa1be2a156ae11d889459bfb82abf705aab0b812f75815c32312c36e4e7"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Torso.npz",
+          "sha256": "07d7dbcdce56ebe2f9e456b08bc14bec5afe7623f2ad69b2a710b8365b513423"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_00.npz",
+          "sha256": "dd9d73e62b1f1b3dcfede5a9b00dadd73fa7597c45499ca725425fbbc8b47613"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_01.npz",
+          "sha256": "e0cde81d16b72c71183370176158c956525060de4cd06312c34d8d32a84ced5f"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_02.npz",
+          "sha256": "ce1877d20739a651a0872c8f03f107651cadf8c7b930b78ffd88270ba14e0e08"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_03.npz",
+          "sha256": "93d9ae02ed1f2178b3464b58b1003223a747b9ef9475f6cbaf0cdaaf633e6378"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_04.npz",
+          "sha256": "dee5621747084babe10e5fdaaacadeeb730998e31d7ffd39e27ca6360bddd8f0"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_05.npz",
+          "sha256": "f6795d83b203bb93b8f0f1216372aec00bc4f14fb7137b4c62e48597441172ad"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_06.npz",
+          "sha256": "0862cbf73beb59aca43ed696a3de84df48b1bdb079d655581f1f98386084696e"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_07.npz",
+          "sha256": "beab7ba238ac97aec59f7adef0379edafb4da5fe50c370b3ec9b641ce2dabb00"
+        }
+      ],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_port_view_r2": {
+      "eye": [
+        1925.4107,
+        -250.4652,
+        5.9783
+      ],
+      "target": [
+        1930.7683,
+        -263.3995,
+        3.2841
+      ],
+      "purpose": "Small source-defined platform projection",
+      "accepted": false,
+      "camera_ground_height_m": 3.7782833011380124,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_PortViewPlatform_02_06",
+        "SM_Site_PortViewPlatform_03_06"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          1925.9080107447708,
+          -265.412631808609
+        ],
+        [
+          1934.5605413438757,
+          -259.1
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          1927.3627820800814,
+          -262.7321040113036,
+          3.8601284038025825
+        ],
+        [
+          1928.5201935254518,
+          -260.74619975913566,
+          3.152216302631889
+        ],
+        [
+          1930.5714105500235,
+          -265.11921348761217,
+          3.036003332570142
+        ],
+        [
+          1930.7683002743634,
+          -263.39954543672474,
+          3.2841347067980586
+        ],
+        [
+          1934.1013790338245,
+          -262.7971925369786,
+          2.54666021148989
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 81,
+      "finite_clear_candidates": 79,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 8,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+          "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_06.npz",
+          "sha256": "efc7f326dfa13b7c16ef1950b29b64fdb4a490b18a3718a57884fd91ea127785"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_009.npz",
+          "sha256": "9f7e514828fdade133aef45d20a3d089648985a55b055ad65f4d57544b789823"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_009.npz",
+          "sha256": "ab07a801bb65d0bfcea47cccd1fefbf0a3f7f6ed0e4119739de9090f68b8cc4b"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_010.npz",
+          "sha256": "3ea731516c52fac976a1fdc7e789e4dd29ac6f2d749dcb323f202a4c992453eb"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_010.npz",
+          "sha256": "594ef2e5ced9087aee3c2a4cfc1fb443aaf580faf94dce997ffec7120c8d97ab"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+          "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_06.npz",
+          "sha256": "dfbdf36557b7d616e27b3eaeda5ea9d8bb1e1d0685a66156613612e00378f684"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_06.npz",
+          "sha256": "4817ba3ec516a1603eb0d83ad5ab9e24be5f3752e2282148bb43940adfdbe546"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_rock_garden_r2": {
+      "eye": [
+        696.0,
+        -367.0,
+        20.6391
+      ],
+      "target": [
+        682.0,
+        -367.0,
+        18.9552
+      ],
+      "purpose": "Existing Pavilion-south garden ground, not a new monument",
+      "accepted": false,
+      "camera_ground_height_m": 18.439149379730225,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [],
+      "target_source_bounds_local_xy_m": [
+        632,
+        -417,
+        732,
+        -317
+      ],
+      "target_samples_local_m": [
+        [
+          682.0,
+          -367.0,
+          18.95520749092102
+        ],
+        [
+          680.0,
+          -367.0,
+          18.99102702140808
+        ],
+        [
+          684.0,
+          -367.0,
+          18.91938796043396
+        ],
+        [
+          682.0,
+          -369.0,
+          18.913574277877807
+        ],
+        [
+          682.0,
+          -365.0,
+          19.024972581863402
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 138,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 38,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_04.npz",
+          "sha256": "f0eacca728504a15d7e99912937355ed5c0dbd70340a4d148494700fe5a552fe"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_painters_circle_r2": {
+      "eye": [
+        840.951,
+        -465.0577,
+        6.9487
+      ],
+      "target": [
+        826.951,
+        -465.0577,
+        4.9224
+      ],
+      "purpose": "Court edge and central paved meeting circle",
+      "accepted": false,
+      "camera_ground_height_m": 4.748725154018328,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_PaintersCircleCourt_02_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          823.1421877251962,
+          -472.6
+        ],
+        [
+          835.2,
+          -460.0
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          823.6396877749348,
+          -466.1156551112078,
+          5.004598537606018
+        ],
+        [
+          826.2533940322737,
+          -461.8427071783162,
+          5.086030052357799
+        ],
+        [
+          826.9510146581985,
+          -465.0577117007861,
+          4.922417939426091
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 133,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 48,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_04.npz",
+          "sha256": "f0eacca728504a15d7e99912937355ed5c0dbd70340a4d148494700fe5a552fe"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_portrait_painters_r2": {
+      "eye": [
+        901.6667,
+        -340.3333,
+        15.0593
+      ],
+      "target": [
+        887.6667,
+        -340.3333,
+        12.2473
+      ],
+      "purpose": "Lawn island and its adjacent public path",
+      "accepted": false,
+      "camera_ground_height_m": 12.859304189682007,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_PortraitPaintersGround_02_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          863.0913048517582,
+          -353.60551659360897
+        ],
+        [
+          904.9277168465183,
+          -326.6
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          887.6666666666666,
+          -340.3333333333333,
+          12.247276280721028
+        ]
+      ],
+      "target_samples_clear": [
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 141,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 38,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_salmon_lower_pool_r2": {
+      "eye": [
+        870.7092,
+        -448.3676,
+        6.6655
+      ],
+      "target": [
+        857.7749,
+        -453.7252,
+        4.4389
+      ],
+      "purpose": "Source lower basin form; water level remains a proxy",
+      "accepted": false,
+      "camera_ground_height_m": 4.46550250694088,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_SalmonLowerPool_BasinGround_02_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          854.0231454468449,
+          -468.1995919859037
+        ],
+        [
+          871.5510707695503,
+          -442.9757230123505
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          857.2241731738881,
+          -456.58728028771776,
+          4.464692004159317
+        ],
+        [
+          857.7748638461735,
+          -453.7252075702251,
+          4.438898440536849
+        ],
+        [
+          859.725207570225,
+          -451.0585409035584,
+          4.338218879124345
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 120,
+      "finite_clear_candidates": 114,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 53,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_04.npz",
+          "sha256": "5f19cfb9813a6bf75bac6bd5b8b6c67b53438da560dd85fd769793dddd1912bf"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_waterpark_low_forms_r2": {
+      "eye": [
+        967.9191,
+        59.6873,
+        3.1642
+      ],
+      "target": [
+        953.9191,
+        59.6873,
+        3.5395
+      ],
+      "purpose": "Open low boat form; separate rock view is also supplied",
+      "accepted": false,
+      "camera_ground_height_m": 0.9641757457027698,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_WaterPark_BoatOpenRim"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          949.6200289349615,
+          55.32022457900199
+        ],
+        [
+          958.0799089771937,
+          60.07984395315661
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          950.8928010247474,
+          59.36414587093151,
+          3.515543798731835
+        ],
+        [
+          951.0791760831457,
+          59.053243827620456,
+          3.983152941365712
+        ],
+        [
+          953.8925065019517,
+          60.04651061982329,
+          4.007717697762874
+        ],
+        [
+          953.9190603409191,
+          59.687304665296324,
+          3.5395122741471474
+        ],
+        [
+          957.2392042389148,
+          59.51223916184123,
+          3.946826571111948
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 123,
+      "finite_clear_candidates": 119,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 9,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+          "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_016.npz",
+          "sha256": "eda5018620d54048e8bf9ca892d2a2b4c2fa24417398c3a19f972627fac4057d"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_016.npz",
+          "sha256": "4e4ea1737dfd41c31c60a94249af5d7372a5cd60ee39d54c5af42bd54aff4ba3"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+          "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2120.npz",
+          "sha256": "0d5ee426dc2e89d4ae40299b8380600c5936c784fe236da1b8916fddd4306485"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_04.npz",
+          "sha256": "cd84aa5a1e94324ecd03aef4506e3f416e58997cb3b030da3e122d1b212636f1"
+        }
+      ],
+      "local_named_occluder_inputs": [
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_PedestrianFloor.npz",
+          "sha256": "c03a077330ddf8fa2b4abf8c37be155d8bfc19269d912c217f5243da35391c46"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_RoadDeck.npz",
+          "sha256": "f1acf5d130182be286b1c0ca29b093026da831567f288d06f41b4496daf1a4e6"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_WaterparkFacade.npz",
+          "sha256": "b6b1289056987ae04f0926b4bc355141bfc3ba29d977d7a3c0f5d28359b50cf9"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_ParkFacade.npz",
+          "sha256": "719776dd1aa3b11d8878b3039d5ce5754ab36476be788c97892e6fd0991657c3"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_OuterReturn.npz",
+          "sha256": "940d0f71ae6f42b38d7f4a04701ca2804cc91e4a976e51fdfa76483c62e31d91"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_ClosedDoor.npz",
+          "sha256": "db3b93db36858f5cdd1e7c09e2a902cb5e2ebc1aba179a856147dcfc33a09851"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperGreenBand.npz",
+          "sha256": "67a8f00febc5edb9ddd0a1c0d3ee5b3a38b6f16f2ec053469dd0015dd789716d"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_3.npz",
+          "sha256": "ccedda64c023a915f68bc64c4f85635b6fb187c4e55c40fb28cf4abe08ba8e75"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_4.npz",
+          "sha256": "d5b2ee814a39fa1f478037b19d349312ed6cd6947ee71406a77f612f41ee03f8"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_5.npz",
+          "sha256": "09d9afab129e7b7564356a108b0f2d925bf5192ee20afc19acf6463520c06ffa"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_6.npz",
+          "sha256": "04b39ac3b2aedca7cd33b2e915c7a076e7e9ae0a2f09f2179c59632058932288"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_11.npz",
+          "sha256": "caaf373c403e4366b225742857f1c509be91b5db343868f5adc90c105d06ecc7"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_12.npz",
+          "sha256": "02c0127850f969090f1a51d7b32c3558636af83030bb9f38432259b8b92a9ada"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_13.npz",
+          "sha256": "9765343c67de06aa4439b9eb34661b41ee58c05d05981d854ee8119752ca70b4"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_14.npz",
+          "sha256": "1034e70b3ae371bb510dc65f68a866a980c921f2d200efb45ee72215d081f36d"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetRail_0.npz",
+          "sha256": "f11581147afd026c6dbf465f52952c209e29785afe1252f8bb31cbf33e852237"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetRail_1.npz",
+          "sha256": "27b5c5d9a2b2a887659f02134f85f03d6ff6d025ff9d1e4e92d3c6bb88d89567"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_14.npz",
+          "sha256": "a0c2b96b5c9af4dc81664e004f99d277f5b27a362b025db5b52bb88ac01f107e"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetRail_0.npz",
+          "sha256": "739cf7ebf2dd0379de5e8abd9edb435df42aafef3948693d849a8b9e2b40ab7a"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetRail_1.npz",
+          "sha256": "9a971caff1631ff66a4617a8e7ad3c28d42b6fe33a0a9e2feee66f9710981224"
+        },
+        {
+          "path": "data/derived/waterpark-low-forms/SM_WaterPark_ClimbingOutcrop.npz",
+          "sha256": "ed235afbf76552d1949c20f14484260e9b96c2224611764af465af3644c83bf2"
+        }
+      ],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_waterpark_rock_r2": {
+      "eye": [
+        977.8676,
+        50.2242,
+        3.3558
+      ],
+      "target": [
+        964.9333,
+        44.8667,
+        5.8367
+      ],
+      "purpose": "Climbing outcrop and the retained canopy overlap for review",
+      "accepted": false,
+      "camera_ground_height_m": 1.1558373352709834,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_WaterPark_ClimbingOutcrop"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          960.5,
+          38.099999999999994
+        ],
+        [
+          970.8,
+          54.5
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          961.6666666666666,
+          44.166666666666664,
+          2.956755225790872
+        ],
+        [
+          963.6999999999999,
+          41.666666666666664,
+          3.024449127515156
+        ],
+        [
+          964.9333333333334,
+          44.86666666666665,
+          5.836745742162068
+        ],
+        [
+          964.9333333333334,
+          48.36666666666665,
+          5.961151634852092
+        ],
+        [
+          968.4333333333334,
+          44.86666666666665,
+          3.385406334996224
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 132,
+      "finite_clear_candidates": 119,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 7,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+          "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_016.npz",
+          "sha256": "eda5018620d54048e8bf9ca892d2a2b4c2fa24417398c3a19f972627fac4057d"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_016.npz",
+          "sha256": "4e4ea1737dfd41c31c60a94249af5d7372a5cd60ee39d54c5af42bd54aff4ba3"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+          "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2120.npz",
+          "sha256": "0d5ee426dc2e89d4ae40299b8380600c5936c784fe236da1b8916fddd4306485"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_04.npz",
+          "sha256": "cd84aa5a1e94324ecd03aef4506e3f416e58997cb3b030da3e122d1b212636f1"
+        }
+      ],
+      "local_named_occluder_inputs": [
+        {
+          "path": "data/derived/waterpark-low-forms/SM_WaterPark_BoatOpenRim.npz",
+          "sha256": "8cebd8384e65060a886f0a4a281bd24dfbdba50e845d4f831e43b8a68dfaf509"
+        }
+      ],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_pitch_putt_clubhouse_r2": {
+      "eye": [
+        -244.2,
+        -1057.0,
+        12.4324
+      ],
+      "target": [
+        -258.2,
+        -1057.0,
+        12.4958
+      ],
+      "purpose": "Measured existing clubhouse envelope",
+      "accepted": false,
+      "camera_ground_height_m": 10.232358598709109,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [],
+      "target_source_bounds_local_xy_m": [
+        -265.6470031738281,
+        -1062.6829833984375,
+        -253.46600341796875,
+        -1050.4859619140625
+      ],
+      "target_samples_local_m": [
+        [
+          -258.2,
+          -1057.0,
+          12.495806192649233
+        ]
+      ],
+      "target_samples_clear": [
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 137,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 35,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [
+        "lidar2022_489000_5460000_8"
+      ],
+      "live_review_status": "pending"
+    },
+    "ceperley_deck_side_r3": {
+      "eye": [
+        -359.16311866343995,
+        -902.2534886476907,
+        7.328153214561023
+      ],
+      "target": [
+        -369.76972038123813,
+        -912.8600903654889,
+        5.923051916181491
+      ],
+      "purpose": "Oblique side view of the complete retained road-deck span; inspect its roof ends and bank contact.",
+      "target_samples_local_m": [
+        [
+          -373.22729665431814,
+          -915.746223825878,
+          5.896029777526856
+        ],
+        [
+          -369.77885909003237,
+          -912.8503663594144,
+          5.923056907653809
+        ],
+        [
+          -366.3082686383532,
+          -909.9820389556265,
+          5.758084125518799
+        ],
+        [
+          -374.5721317648202,
+          -915.979695888297,
+          5.798138629450502
+        ],
+        [
+          -364.9530471336605,
+          -909.8161468809705,
+          5.6662672186279766
+        ],
+        [
+          -373.7847542780524,
+          -917.1495047707637,
+          5.872351248148727
+        ],
+        [
+          -365.6621957266857,
+          -908.597019750449,
+          5.661156900446329
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "camera_crown_section_clearance_m": 13.829770788332942,
+      "minimum_camera_crown_margin_required_m": 0.25,
+      "camera_outside_source_underpass_solids": true,
+      "local_source_inputs": [
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863897_01_02.npz",
+          "sha256": "faf8a092f12f068b960dcf03d941cafc878f86db31aea69a7ab508d716127ee0"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755047372_01_02.npz",
+          "sha256": "13354a0f283a7dc41d35eba0984adfd75d9dac29b43e4c79f80c99ff6f8669bd"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenWest_Ground_01_02.npz",
+          "sha256": "7658d25a0eb86b726d42c8aab9e9aba5ff60c5e6e0aba9d2386e884cd02b286d"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_043.npz",
+          "sha256": "2b59a97a5880a7f289c6d659b6ee50528357f181c82e6d9b7d83afbebdd7c258"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_043.npz",
+          "sha256": "f1974dc093de7c321172aeb0b5eb09c6ddbf70691475e628397ead547064ec43"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyBasketball_01_02.npz",
+          "sha256": "a0716e00d1c5ea0548d50a92493854385ad373adf951da77bd412e3da6f445ec"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_02.npz",
+          "sha256": "93eeb943e2d3c0c34ec5de42fc7ffcf2174048bfea264c601bbf994d2077eb9d"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowSouth_01_02.npz",
+          "sha256": "b9391e47e4d7f1b2c8bd3f4240b3514701234f4cd8ee7b016afda8fb7d6e0918"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyPlayground_01_02.npz",
+          "sha256": "071d1f45efafec33b58318622212d7bcfa84d14de67d1200dac14e1e40abcd76"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1233.npz",
+          "sha256": "143d57ca518421d1f31b11ded8954cebe7d44c40ed404b707b343af26fe7fdc8"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2704.npz",
+          "sha256": "526cf69a555694009532e59abff2c2be28e5369f2e5a4584642dcb7b27035225"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_3273.npz",
+          "sha256": "75e82f84d2c4654f40cc2f4ca2c1fa571d3cedf4e713d32fcb2021e81fb2dfbb"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_3306.npz",
+          "sha256": "868c85eb9c1e80169a8327a9f7fcfc2a0ca8ac2774cd9dce2ed1a8ed34856df0"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_Deck.npz",
+          "sha256": "018e69d54e96edbaf018c8570ab3816acadc192fc48c8eac4af9bd61fa262b4d"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_FloorExtensionLeft.npz",
+          "sha256": "9a5333faf5b28bcc931e5d76efb006740d3336971e3598cc8e84b5905cc7fa77"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_FloorExtensionRight.npz",
+          "sha256": "ce3f1d2bb3a828a28e793963b4cefb27e668e14d9f90ecd93b8a01dea55485ad"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_TerrainBoundaryClosure.npz",
+          "sha256": "68ef60778de4cd58e09af223b50bfcf67bb4750a1e8d2cf08c0fa3274854d126"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_WallLeft.npz",
+          "sha256": "5eb04f043fe50422d872fd6c8e140aa01fde0f974d41e9120cab29b7423e4ffb"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_WallRight.npz",
+          "sha256": "3653e71dae88d3b992937c0c9bf1b0c4b72e25e3befae040ac141e07e7f6547e"
+        }
+      ],
+      "selected_canopy_clusters": 24,
+      "live_review_status": "pending",
+      "accepted": false,
+      "camera_ground_height_m": 2.8281532145610226,
+      "camera_height_above_ground_m": 4.5,
+      "deck_runtime_span_m": [
+        8363.836959663708,
+        8375.873485536245
+      ],
+      "target_mesh": "SM_Underpass_Ceperley_Deck",
+      "framing": {
+        "required_horizontal_fov_degrees": 31.802143847169308,
+        "required_vertical_fov_degrees": 14.666714399191825,
+        "assumed_horizontal_fov_degrees": 36.0,
+        "assumed_vertical_fov_degrees": 23.0,
+        "minimum_frame_margin_fraction": 0.1,
+        "scope": "All source deck vertices, including underside and end faces."
+      },
+      "clear_candidates": 104
+    },
+    "join_041_lower_r3": {
+      "eye": [
+        449.7739543921011,
+        -863.2112207367912,
+        3.152173967544415
+      ],
+      "target": [
+        454.81631819404447,
+        -857.0412466101646,
+        2.5770953969289847
+      ],
+      "purpose": "Lower route and upper crossing remain separate; inspect the tunnel opening, ceiling and floor without an at-grade connector.",
+      "target_samples_local_m": [
+        [
+          454.81631819404447,
+          -857.0412466101646,
+          2.0770953969289847
+        ],
+        [
+          454.81631819404447,
+          -857.0412466101646,
+          3.0770953969289847
+        ],
+        [
+          455.01631819404446,
+          -857.2412466101647,
+          2.5770953969289847
+        ],
+        [
+          454.6163181940445,
+          -856.8412466101646,
+          2.5770953969289847
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "camera_crown_section_clearance_m": 32.14197916006338,
+      "minimum_camera_crown_margin_required_m": 0.25,
+      "camera_outside_source_underpass_solids": true,
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_048.npz",
+          "sha256": "799e8e00db90938d2bbc3e3052864ad84c89a2b46a0e0837b90ffb1ed55dd08f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_049.npz",
+          "sha256": "90025da1c550f317596ee2581912241db1759f0301647b280e577bf68fb6befa"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+          "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_049.npz",
+          "sha256": "95cf7fbd11540b27c8cbb0b6cf8d8c515ee72ecfea1e1fee48bb49e0581b1a5f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1095.npz",
+          "sha256": "ee0fec273ada9b79e27245444eda6ea3f727499236f3f9f8dd9f993545ac7ced"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1812.npz",
+          "sha256": "366cdcf0362587078ce44cdff17cbdaacd6ad75dcd4793186064c4d5bd7d3d9c"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_03.npz",
+          "sha256": "edc16be6b5ff1a6be515f9a19113c0423c3b9fb25ee556c779c72505d9876ea9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_Deck.npz",
+          "sha256": "1804058311657c61fa57a1f2278ce8d3aa2cfd12e8859cf69f0f916753985135"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_FloorExtensionLeft.npz",
+          "sha256": "2c8864bbd11df713ef1e956b1cda425a40209f72fdc270c88d56bdbd384a7080"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_FloorExtensionRight.npz",
+          "sha256": "832abd634005e3a4dafb1d0c0a15e7cdbd9c77061ba8c6ea4de69f6de4acbd73"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_TerrainBoundaryClosure.npz",
+          "sha256": "7800068d0ef972a1cb83f80ac385baf04a4423d933d1804fa459ace86bffb217"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallFoundationLeft.npz",
+          "sha256": "0952bcd16d5d113f265cf1b8d48487b918f0067102bf4ae619ee2100c79442d9"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallFoundationRight.npz",
+          "sha256": "f9b4d3eb52e252377872d92b6681c3b44e3c5ff6745b605275e01893b41613d5"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallLeft.npz",
+          "sha256": "04251fcf308529b3b93fd145725ca120e000fe87d319fe0389b185b36e88c99b"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallRight.npz",
+          "sha256": "265952202172e06a62764e498076b855d6cb4ab61f414157bf38d82131893b77"
+        }
+      ],
+      "selected_canopy_clusters": 12,
+      "live_review_status": "pending",
+      "accepted": false,
+      "eye_runtime_chainage_m": 9379.5,
+      "target_runtime_chainage_m": 9387.47,
+      "eye_above_route_m": 1.6,
+      "target_floor_height_m": 1.5270953969289849,
+      "junction_runtime_chainage_m": 9387.47,
+      "grade_separated": true
+    },
+    "join_041_portal_side_r3": {
+      "eye": [
+        471.5431343268454,
+        -840.5084141047898,
+        3.048614587336468
+      ],
+      "target": [
+        467.3498861327929,
+        -844.3075391935375,
+        3.0208972102749865
+      ],
+      "purpose": "Lower route and upper crossing remain separate; inspect the tunnel opening, ceiling and floor without an at-grade connector.",
+      "target_samples_local_m": [
+        [
+          467.3498861327929,
+          -844.3075391935375,
+          2.5208972102749865
+        ],
+        [
+          467.3498861327929,
+          -844.3075391935375,
+          3.5208972102749865
+        ],
+        [
+          467.5498861327929,
+          -844.5075391935376,
+          3.0208972102749865
+        ],
+        [
+          467.1498861327929,
+          -844.1075391935375,
+          3.0208972102749865
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "camera_crown_section_clearance_m": 40.79823520935214,
+      "minimum_camera_crown_margin_required_m": 0.25,
+      "camera_outside_source_underpass_solids": true,
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_048.npz",
+          "sha256": "799e8e00db90938d2bbc3e3052864ad84c89a2b46a0e0837b90ffb1ed55dd08f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_049.npz",
+          "sha256": "90025da1c550f317596ee2581912241db1759f0301647b280e577bf68fb6befa"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+          "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_049.npz",
+          "sha256": "95cf7fbd11540b27c8cbb0b6cf8d8c515ee72ecfea1e1fee48bb49e0581b1a5f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1095.npz",
+          "sha256": "ee0fec273ada9b79e27245444eda6ea3f727499236f3f9f8dd9f993545ac7ced"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1812.npz",
+          "sha256": "366cdcf0362587078ce44cdff17cbdaacd6ad75dcd4793186064c4d5bd7d3d9c"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_03.npz",
+          "sha256": "edc16be6b5ff1a6be515f9a19113c0423c3b9fb25ee556c779c72505d9876ea9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_Deck.npz",
+          "sha256": "1804058311657c61fa57a1f2278ce8d3aa2cfd12e8859cf69f0f916753985135"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_FloorExtensionLeft.npz",
+          "sha256": "2c8864bbd11df713ef1e956b1cda425a40209f72fdc270c88d56bdbd384a7080"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_FloorExtensionRight.npz",
+          "sha256": "832abd634005e3a4dafb1d0c0a15e7cdbd9c77061ba8c6ea4de69f6de4acbd73"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_TerrainBoundaryClosure.npz",
+          "sha256": "7800068d0ef972a1cb83f80ac385baf04a4423d933d1804fa459ace86bffb217"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallFoundationLeft.npz",
+          "sha256": "0952bcd16d5d113f265cf1b8d48487b918f0067102bf4ae619ee2100c79442d9"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallFoundationRight.npz",
+          "sha256": "f9b4d3eb52e252377872d92b6681c3b44e3c5ff6745b605275e01893b41613d5"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallLeft.npz",
+          "sha256": "04251fcf308529b3b93fd145725ca120e000fe87d319fe0389b185b36e88c99b"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallRight.npz",
+          "sha256": "265952202172e06a62764e498076b855d6cb4ab61f414157bf38d82131893b77"
+        }
+      ],
+      "selected_canopy_clusters": 12,
+      "live_review_status": "pending",
+      "accepted": false,
+      "eye_runtime_chainage_m": 9411.0,
+      "target_runtime_chainage_m": 9405.33982052057,
+      "eye_above_route_m": 1.6,
+      "target_floor_height_m": 1.4708972102749864,
+      "junction_runtime_chainage_m": 9387.47,
+      "grade_separated": true
+    },
+    "site_devonian_pond_r2": {
+      "eye": [
+        543.3122,
+        -902.7274,
+        5.4973
+      ],
+      "target": [
+        557.3122,
+        -902.7274,
+        2.3869
+      ],
+      "purpose": "A source basin/water patch without the distant high-rise obstruction",
+      "accepted": false,
+      "camera_ground_height_m": 3.2972965471109204,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_DevonianPond_01_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          549.0,
+          -919.9713167858533
+        ],
+        [
+          589.1279296633004,
+          -843.4141795604403
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          556.5730105223274,
+          -902.7273809594944,
+          2.3868532371520996
+        ],
+        [
+          557.3121541571837,
+          -902.7273809594944,
+          2.3868532371520996
+        ],
+        [
+          557.3163616153274,
+          -905.983028281994,
+          2.3868532371520996
+        ],
+        [
+          557.6285157725113,
+          -903.3163616153274,
+          2.3868532371520996
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 66,
+      "finite_clear_candidates": 66,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 1,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+          "sha256": "4badc16c8769d73f50d10588c691a2d32b7287da550dfe8563cf757e9a50c878"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1953.npz",
+          "sha256": "8218beb585aeb912b357f1c6cc565bd5758d23808ec4d8bdd2f289eb184a7fa8"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_03.npz",
+          "sha256": "12adf273282e4d13c7acd7fd0242bdfa3eec9e607979a5026da8aa9f62120984"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "hollow_tree_cavity_r3": {
+      "eye": [
+        -754.8093333532153,
+        475.1581858547019,
+        53.243755030060925
+      ],
+      "target": [
+        -766.3,
+        484.8,
+        52.53
+      ],
+      "purpose": "Close view through the east/southeast opening: lower hollow shell, base contact and cavity. The top is intentionally outside this close view; the saved full-height v14 view remains required.",
+      "feature_limits": "Entrance sector and 0.32 m shell thickness are M1 estimates. Braces, bark, cracks and exact interior remain unfinished.",
+      "target_meshes": [
+        "SM_HollowTree_Shell_00",
+        "SM_HollowTree_Shell_01",
+        "SM_HollowTree_Shell_02",
+        "SM_HollowTree_Shell_03",
+        "SM_HollowTree_Shell_04",
+        "SM_HollowTree_Shell_05",
+        "SM_HollowTree_Shell_06",
+        "SM_HollowTree_TopFlashing_00",
+        "SM_HollowTree_TopFlashing_01",
+        "SM_HollowTree_TopFlashing_02",
+        "SM_HollowTree_TopFlashing_03",
+        "SM_HollowTree_TopFlashing_04",
+        "SM_HollowTree_TopFlashing_05",
+        "SM_HollowTree_TopFlashing_06"
+      ],
+      "source_target_bounds_local_m": [
+        [
+          -767.7174124973475,
+          482.9946405537437,
+          50.578057430936376
+        ],
+        [
+          -763.4483671844395,
+          486.7189733170887,
+          63.36437322235107
+        ]
+      ],
+      "selected_samples_local_m": [
+        [
+          -766.3,
+          484.8,
+          51.53
+        ],
+        [
+          -766.3,
+          484.8,
+          52.53
+        ],
+        [
+          -766.3,
+          484.8,
+          53.53
+        ]
+      ],
+      "selected_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "camera_ground_height_m": 51.44375503006093,
+      "camera_height_above_ground_m": 1.8,
+      "camera_crown_section_clearance_m": 2.968729641266806,
+      "framing": {
+        "required_horizontal_fov_degrees": 17.417925516042168,
+        "required_vertical_fov_degrees": 18.75057032904862,
+        "assumed_horizontal_fov_degrees": 36.0,
+        "assumed_vertical_fov_degrees": 23.0,
+        "minimum_frame_margin_fraction": 0.1,
+        "scope": "Selected close-review region only"
+      },
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_04_01.npz",
+          "sha256": "29cf5611406a9cd347285114a48695e1da93d851226ae0799f9f3ecefb733a56"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_Shell_00.npz",
+          "sha256": "da8f0a70764c7fe2717cb13f52ee1097d34fec130b79a751b7c814e6f5c73b5c"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_Shell_01.npz",
+          "sha256": "b8b766c083651aabae9dcbe78c5504592aad251a99128dc945eee42689309e53"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_Shell_02.npz",
+          "sha256": "c6b63acd40c55fd3c73ab74df01195d1b2c5044f8cfe6e2a958b493e92316761"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_Shell_03.npz",
+          "sha256": "a0eebf1ac2237c9716adda38c0ace7ecd8dda2b7dda51888ed8c5354f55c803f"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_Shell_04.npz",
+          "sha256": "a7ce1e4c93efa3d089525df48a581e91bc9ae9bdac65ffa0268cc4c176be476a"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_Shell_05.npz",
+          "sha256": "35ce555ffb60412b7100de66813548b8dc144179fffc71d7670b9aa6d3d98a00"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_Shell_06.npz",
+          "sha256": "7712332ae1584bbede707fedf82f06353b6ac4e7a75003f00f7d6ffbe036b294"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_00.npz",
+          "sha256": "5f137021d3323df3d979555f70a929cabfa77cc932991ef30b98c755087f1f58"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_01.npz",
+          "sha256": "3000455df2e8ff3d44c7b251cb4560fa79193860440634aa678e04e4925826ab"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_02.npz",
+          "sha256": "3faca7180f61c6a269902786b2ba33023726637469575125d15bba28b5c1284b"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_03.npz",
+          "sha256": "8f6c0fe186f29d74ff0fad04feca19a70fb97bd58fea6521f1522b02a5cc90fc"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_04.npz",
+          "sha256": "1228e5aa47294aba04d6d49995ced2afdbbe1b4aefe9619beae016024d82a8d9"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_05.npz",
+          "sha256": "3589b1333eab7f8f5881e97c4bbdf3ad497971b663f33b87f03a8204a4f8aba2"
+        },
+        {
+          "path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_06.npz",
+          "sha256": "1fcf48c57c1de258c93b50b1b1851310d4cbe7f151bb48dae7c45e2c4353e816"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_99.npz",
+          "sha256": "3f85063d4642f58969ec7b07e926bba11df0051af26904ee023fc41d49ddd46e"
+        }
+      ],
+      "canopy_cluster_count": 78,
+      "live_review_status": "pending",
+      "accepted": false,
+      "self_occlusion_limit": "Own shell/ground meshes included in rays.",
+      "clear_candidates": 15
+    },
+    "cedar_arch_logs_r3": {
+      "eye": [
+        939.9655431285333,
+        27.184386367115227,
+        6.957136977102903
+      ],
+      "target": [
+        910.2670583186983,
+        -2.5140984427197703,
+        7.514790210342166
+      ],
+      "purpose": "Oblique view of the measured main log, two support logs, opening and estimated low mound. Frame the complete current three-member blockout.",
+      "feature_limits": "Three source-fitted axes only. Radii and mound are estimates. The second horizontal member in the 2019 memo is unresolved and is not represented.",
+      "target_meshes": [
+        "SM_LumbermanArch_MainLog",
+        "SM_LumbermanArch_MoundEnvelope",
+        "SM_LumbermanArch_SupportLog_00",
+        "SM_LumbermanArch_SupportLog_01"
+      ],
+      "source_target_bounds_local_m": [
+        [
+          896.8808178710938,
+          -6.062458233826025,
+          4.511931277329551
+        ],
+        [
+          917.8431846797268,
+          2.608150273233724,
+          11.068443918217248
+        ]
+      ],
+      "selected_samples_local_m": [
+        [
+          908.1997119140625,
+          -1.83209797044514,
+          9.007300226106825
+        ],
+        [
+          916.8074182805824,
+          -3.5834267650232245,
+          7.487335553356294
+        ],
+        [
+          916.3548617254564,
+          -5.100613240020577,
+          7.480715844994597
+        ],
+        [
+          898.8808178710938,
+          0.7060372406434163,
+          7.5892620845245435
+        ],
+        [
+          917.5186059570312,
+          -4.370233181533696,
+          10.425338367689104
+        ]
+      ],
+      "selected_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "camera_ground_height_m": 4.757136977102903,
+      "camera_height_above_ground_m": 2.2,
+      "camera_crown_section_clearance_m": 26.542164161876872,
+      "framing": {
+        "required_horizontal_fov_degrees": 28.99622117096138,
+        "required_vertical_fov_degrees": 10.754204465729885,
+        "assumed_horizontal_fov_degrees": 36.0,
+        "assumed_vertical_fov_degrees": 23.0,
+        "minimum_frame_margin_fraction": 0.1,
+        "scope": "Whole current arch blockout"
+      },
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+          "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_016.npz",
+          "sha256": "eda5018620d54048e8bf9ca892d2a2b4c2fa24417398c3a19f972627fac4057d"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_016.npz",
+          "sha256": "4e4ea1737dfd41c31c60a94249af5d7372a5cd60ee39d54c5af42bd54aff4ba3"
+        },
+        {
+          "path": "data/derived/cedar-arch/SM_LumbermanArch_MainLog.npz",
+          "sha256": "028cf75813ae591d2285c0d2397cdd47cf7e1ae6badfb73dc06c5a28e430ad92"
+        },
+        {
+          "path": "data/derived/cedar-arch/SM_LumbermanArch_MoundEnvelope.npz",
+          "sha256": "ca1ae2467560c9aff46ab6e11baa87463526694e15ed4c863dea00b6e2f66e39"
+        },
+        {
+          "path": "data/derived/cedar-arch/SM_LumbermanArch_SupportLog_00.npz",
+          "sha256": "6ddcf0e710197a70a58064a10710a3a3affffa1059f3aeaf4b38ebb9513d709d"
+        },
+        {
+          "path": "data/derived/cedar-arch/SM_LumbermanArch_SupportLog_01.npz",
+          "sha256": "81e3ecabec97d37c095a8371b30568edcddbdab98c9116f345d5ad7fe6b5ef72"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_ClosedDoor.npz",
+          "sha256": "db3b93db36858f5cdd1e7c09e2a902cb5e2ebc1aba179a856147dcfc33a09851"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_OuterReturn.npz",
+          "sha256": "940d0f71ae6f42b38d7f4a04701ca2804cc91e4a976e51fdfa76483c62e31d91"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_ParkFacade.npz",
+          "sha256": "719776dd1aa3b11d8878b3039d5ce5754ab36476be788c97892e6fd0991657c3"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_PassageWall.npz",
+          "sha256": "2d3bb4cc687ed839cd59ea3ad66f909263dc5bb55d88215d1509db3a3651ca5f"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperGreenBand.npz",
+          "sha256": "67a8f00febc5edb9ddd0a1c0d3ee5b3a38b6f16f2ec053469dd0015dd789716d"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_0.npz",
+          "sha256": "0c8ff6bc9dc7afb44c3008d8ea202607e877a5390ac3d4a7b4de165d4058d46a"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_1.npz",
+          "sha256": "10a53f50a819b8b8a9cf5ac3db692ba01205ccc36cbbbac6bd03fd7b75033681"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_2.npz",
+          "sha256": "e3ecb21aacf7d6e3bf3fce9809fef004009d49e15f7f68c2997f7a23d0efaa72"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_3.npz",
+          "sha256": "ccedda64c023a915f68bc64c4f85635b6fb187c4e55c40fb28cf4abe08ba8e75"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_4.npz",
+          "sha256": "d5b2ee814a39fa1f478037b19d349312ed6cd6947ee71406a77f612f41ee03f8"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_5.npz",
+          "sha256": "09d9afab129e7b7564356a108b0f2d925bf5192ee20afc19acf6463520c06ffa"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_6.npz",
+          "sha256": "04b39ac3b2aedca7cd33b2e915c7a076e7e9ae0a2f09f2179c59632058932288"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_WaterparkFacade.npz",
+          "sha256": "b6b1289056987ae04f0926b4bc355141bfc3ba29d977d7a3c0f5d28359b50cf9"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_0.npz",
+          "sha256": "627ed5c62b95eb9aa567d9bd9093154e70fa3bf380044a98bfcce4a54a7e70bd"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_1.npz",
+          "sha256": "defcaff9617e90f0665d039c7c3170608f8d9adfafebc0c41875e36add5752ff"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_10.npz",
+          "sha256": "dec471067a392a05189b00b7a231447ba6be369d017f4e6f94672bcf291c8d55"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_11.npz",
+          "sha256": "eecec25f9d3febb11aab2be0f8b38fc688f8796af810ad52a91864fff8396bfc"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_12.npz",
+          "sha256": "16876561a98127a5689fd5e9f121f9c7569629d46fd3ef71e3ab86ce61d8b854"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_13.npz",
+          "sha256": "9431f1dba8a989de2e2f2f33cba536f8917cc659f2e313dd897e577d1aa19be0"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_14.npz",
+          "sha256": "a0c2b96b5c9af4dc81664e004f99d277f5b27a362b025db5b52bb88ac01f107e"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_2.npz",
+          "sha256": "ab95efb8cc20e7f86f88e24d44ba8c918c22b0fe5f37e607601d6faa4303c68f"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_3.npz",
+          "sha256": "74c108fac344b3cdf409560c6fdb0eca8629a125af54adc75d6b6486a6206fc3"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_4.npz",
+          "sha256": "65539c9ae3e2330b2727c6405cdac3a18ed4253abb94051ed76efda6eb14d280"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_5.npz",
+          "sha256": "f849982dbc0aad1e84a9b5f68e518fa5caa96d51a2bc696904765c179d0243a7"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_6.npz",
+          "sha256": "421bdd10abdd9e3d268ea5ff13a589791b79f4e86150d8953a53bbf4409415a2"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_7.npz",
+          "sha256": "fd8b43b6255d707bcb9597e4d70886e5e4426f572ff18652a25dfa77f688c42d"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_8.npz",
+          "sha256": "85c5e454e54dbf4eb5e25287eec9f3f91ffe05a3aef0ddad2cffc532095afbd1"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_9.npz",
+          "sha256": "297cb9cdba7479f08196ad6bc968c69e8111808be4155303ee2529c44f156758"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetRail_0.npz",
+          "sha256": "739cf7ebf2dd0379de5e8abd9edb435df42aafef3948693d849a8b9e2b40ab7a"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetRail_1.npz",
+          "sha256": "9a971caff1631ff66a4617a8e7ad3c28d42b6fe33a0a9e2feee66f9710981224"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_PedestrianFloor.npz",
+          "sha256": "c03a077330ddf8fa2b4abf8c37be155d8bfc19269d912c217f5243da35391c46"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_RoadDeck.npz",
+          "sha256": "f1acf5d130182be286b1c0ca29b093026da831567f288d06f41b4496daf1a4e6"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_TerrainBoundaryClosure.npz",
+          "sha256": "4a802d61976911d55f93cf69f93613b49310c97d85716c190e7d40d4ecd2ef14"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_0.npz",
+          "sha256": "c3efd64315524dacc42067b5cfc27a1df669bc53eba124fdd9bef848d59c2053"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_1.npz",
+          "sha256": "4f1f3b2d464d978fd40f7c55278cf9a8488c90da9b8701aa6c4da3e1ccfc8fd1"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_10.npz",
+          "sha256": "df7d8a70754c1963dc64445caef29bc53522f111ebc95715bcb4816bf32566f0"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_11.npz",
+          "sha256": "caaf373c403e4366b225742857f1c509be91b5db343868f5adc90c105d06ecc7"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_12.npz",
+          "sha256": "02c0127850f969090f1a51d7b32c3558636af83030bb9f38432259b8b92a9ada"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_13.npz",
+          "sha256": "9765343c67de06aa4439b9eb34661b41ee58c05d05981d854ee8119752ca70b4"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_14.npz",
+          "sha256": "1034e70b3ae371bb510dc65f68a866a980c921f2d200efb45ee72215d081f36d"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_2.npz",
+          "sha256": "297b77f07e2e9fcc1a6cf22a8cf7113ee72db0b8bfacd95e2567e815d2dae5ac"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_3.npz",
+          "sha256": "6e3b01ad79f54a9737e532a220d7aff2a80fd5aaee097f122176d0ef53c6f55f"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_4.npz",
+          "sha256": "5c23250092d31b1bda29f99d8463379ea104754dce5a717c29a4cf65b134b3d0"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_5.npz",
+          "sha256": "2c014e8866768d8cb671b0000677e88f8300916f527e8c66668296edaeec0fe3"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_6.npz",
+          "sha256": "046889da93b5e9ef3b8c2893aac01fc2a76d2ce48bd32ebadc66bbb445a87e96"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_7.npz",
+          "sha256": "1debcdab947065057b0f07964e22605ce0e2a2f8e65b8727bb9742ef4289749f"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_8.npz",
+          "sha256": "593c675299b7ce02d5b2bc2cba265560c7f29efee171bba0029b35f7e2bcc354"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_9.npz",
+          "sha256": "8de4fdb68149eb6be07de0f66a3f91582dced872b21d9c4d64eb2eddc65a60a9"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetRail_0.npz",
+          "sha256": "f11581147afd026c6dbf465f52952c209e29785afe1252f8bb31cbf33e852237"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetRail_1.npz",
+          "sha256": "27b5c5d9a2b2a887659f02134f85f03d6ff6d025ff9d1e4e92d3c6bb88d89567"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_ClosedDoor.npz",
+          "sha256": "12ec54b0c597d9ba409d738ef04d7511137a6009e8309c286a4735fb1bf2da06"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_OuterReturn.npz",
+          "sha256": "ec25dab0bb238ba80a6befbfb8b962f9e13801010366fb2631d757a4104eaf05"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_ParkFacade.npz",
+          "sha256": "dbf7867c7ab22eca956eab87dc59b662878e7c87d29020e747ac25287c7c94e5"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_PassageWall.npz",
+          "sha256": "5fd6254d44a80faf3cfbf5915635b854b0dd60eff10f4873224ea2762614ffff"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperGreenBand.npz",
+          "sha256": "75cab7dfa27683e8b7007e22f0e45f429dec8438fa1dca2ca6bab3fab098abc2"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_0.npz",
+          "sha256": "9de200493fc35cb96dcef54898a48337147c89810ce0a89d3b9582dd1e0f67a9"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_1.npz",
+          "sha256": "f5727c917f9c953af5a6a9a48c112776660a5788bf9a92b740ee86a68f764486"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_2.npz",
+          "sha256": "f8adf97b2ebaeec5a695450e73c2106b464429178dfe27e819c2777122c81a7b"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_3.npz",
+          "sha256": "2b24a5ae2071ae9335d39156004ecbe71a4c54d2376185c25af7957c68c69fdd"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_4.npz",
+          "sha256": "36be49663b771c0e707d6e4ec88552e2854d73c115957d14682cfabb9a66147a"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_5.npz",
+          "sha256": "34fd6824d18e722edcb57ca2e265bb82a29b57869c1b1473ad181c9921556387"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_6.npz",
+          "sha256": "cfa8a619874b52ef1205e647869d93b630aee128a989bc1e4a5484c6f81450ae"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_WaterparkFacade.npz",
+          "sha256": "0a409cfa11db60acc47a55ec355180c2ea2882d63c0806071a4c6933de65a225"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Lumberman_RowA_Post0.npz",
+          "sha256": "94a8fb4c011e9791bf3c86294da11d1be102a4d78588c1672a1222fd083786f2"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Lumberman_RowA_Post1.npz",
+          "sha256": "b102652b86e6a876a62d58563507c9341841f617afef326705821a58fa022f70"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Lumberman_RowA_Rail0.npz",
+          "sha256": "68162af40e2fae4f54a499b220a9b20a3aef634abbb71d872fd1ecc8ee9c6438"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Lumberman_RowA_Rail1.npz",
+          "sha256": "1b25129903c88ece772a16d2e79a88e60ac8c1cdf8fb674417ca59df4509b3f5"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Lumberman_RowB_Post0.npz",
+          "sha256": "b0e32afe361db0227315035e0415981dba09c9c5f8b919e2a507dbc5f9f37216"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Lumberman_RowB_Post1.npz",
+          "sha256": "ad12d7acd132fd1cec222c0a244c1d1c97308da43ab21ef5645e359b13d21d0e"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Lumberman_RowB_Rail0.npz",
+          "sha256": "e81ad1a3253d9f8f98b80544cd45399246610da981b1d761f69156106baa107d"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Lumberman_RowB_Rail1.npz",
+          "sha256": "213cd07483e4d0a6ddb0a57a8f1497c389fcb8647d5cf3067a00155b070e6749"
+        },
+        {
+          "path": "data/derived/named-buildings/SM_Named_LumbermanConcession_RoofStepClosures.npz",
+          "sha256": "562f7732bb10c1d3530177e9dcbf75b1adfcf54585c306e46e9f143a01419801"
+        },
+        {
+          "path": "data/derived/named-buildings/SM_Named_LumbermanConcession_RoofSurvey.npz",
+          "sha256": "1a11246dd40f452b1fcf61d37dfb8c55762524f1dedc9cbdd52ce49e47981cee"
+        },
+        {
+          "path": "data/derived/named-buildings/SM_Named_LumbermanConcession_WallsReview.npz",
+          "sha256": "ac70494648030ca35cbff954e0387e901ab15848f7cb28cec7296545048f30ac"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_VarietyWaterPark_03_04.npz",
+          "sha256": "bbe51a1588101451d61e17b56ffbbeda41d66d2a5f34aacd0dbdde6ac875f0b9"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_WaterParkBoatPad_03_04.npz",
+          "sha256": "611d89ab509222548ee360f6473ef0042b19de92d991c33df476088c6edc599f"
+        },
+        {
+          "path": "data/derived/waterpark-low-forms/SM_WaterPark_BoatOpenRim.npz",
+          "sha256": "8cebd8384e65060a886f0a4a281bd24dfbdba50e845d4f831e43b8a68dfaf509"
+        },
+        {
+          "path": "data/derived/waterpark-low-forms/SM_WaterPark_ClimbingOutcrop.npz",
+          "sha256": "ed235afbf76552d1949c20f14484260e9b96c2224611764af465af3644c83bf2"
+        }
+      ],
+      "canopy_cluster_count": 40,
+      "live_review_status": "pending",
+      "accepted": false,
+      "self_occlusion_limit": "Arch member self-occlusion must be inspected live; arch samples lie on measured axes and own meshes were excluded from these rays.",
+      "clear_candidates": 6
+    },
+    "garden_air_force_r3": {
+      "eye": [
+        643.9925915962241,
+        -263.0784762156415,
+        25.25881099749072
+      ],
+      "target": [
+        634.3333333333334,
+        -265.6666666666667,
+        24.72133633931478
+      ],
+      "purpose": "A close local garden-ground patch and retained path/tree context. This is the coarse M1 ground and vegetation extent, not a monument or planting-detail review.",
+      "feature_limits": "Ground extent is source-derived M1 blockout. A clear local patch does not establish the complete garden perimeter, memorial details or horticultural layout.",
+      "target_meshes": [
+        "SM_Ground_AirForceGarden_Ground_02_04",
+        "SM_Ground_AirForceGarden_Ground_03_04"
+      ],
+      "source_target_bounds_local_m": [
+        [
+          615.9459208056288,
+          -282.37809726502746,
+          22.92176514908151
+        ],
+        [
+          648.8039394104853,
+          -249.5684165963903,
+          26.32510673892342
+        ]
+      ],
+      "selected_samples_local_m": [
+        [
+          631.6666666666666,
+          -268.3333333333333,
+          25.087045008341473
+        ],
+        [
+          634.3333333333334,
+          -265.6666666666667,
+          24.72133633931478
+        ],
+        [
+          637.4824289258065,
+          -263.483306440594,
+          24.105025324922792
+        ]
+      ],
+      "selected_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "camera_ground_height_m": 23.05881099749072,
+      "camera_height_above_ground_m": 2.2,
+      "camera_crown_section_clearance_m": 9.007034472200663,
+      "framing": {
+        "required_horizontal_fov_degrees": 22.701114690035066,
+        "required_vertical_fov_degrees": 14.307385597169493,
+        "assumed_horizontal_fov_degrees": 36.0,
+        "assumed_vertical_fov_degrees": 23.0,
+        "minimum_frame_margin_fraction": 0.1,
+        "scope": "Selected close-review region only"
+      },
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+          "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_AirForceGarden_Ground_02_04.npz",
+          "sha256": "8494f79e2dbabdd6d3f2e3da1aa7581b4ce0bdbb34c1c1f5aab7eac00a7aeaa7"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_AirForceGarden_Ground_03_04.npz",
+          "sha256": "589552a5e79cf41e83e8703cac7db72ae0ea8f419f58dacf22f076a4f9d7045d"
+        },
+        {
+          "path": "data/derived/named-buildings/SM_Named_Pavilion_RoofStepClosures.npz",
+          "sha256": "521d7662a6f5a613a1bc774462d5fbda9e469118033b19a7a4eaa1eba8f0b9cd"
+        },
+        {
+          "path": "data/derived/named-buildings/SM_Named_Pavilion_RoofSurvey.npz",
+          "sha256": "293a4835977f1fc8dd4da02a4aee319a15edc70fef6906b4cb8ce228c9e5294a"
+        },
+        {
+          "path": "data/derived/named-buildings/SM_Named_Pavilion_WallsReview.npz",
+          "sha256": "2e44f72f95e6406cc333db5625caf8147f6f6e8656c7a24180751e9d19c32ad6"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_11_02_04.npz",
+          "sha256": "577fd002d4febe2506a1ac94825ad800f174d793a4013cda035f81c7ab2a852d"
+        }
+      ],
+      "canopy_cluster_count": 77,
+      "live_review_status": "pending",
+      "accepted": false,
+      "self_occlusion_limit": "Own shell/ground meshes included in rays.",
+      "clear_candidates": 194
+    },
+    "garden_shakespeare_r3": {
+      "eye": [
+        500.3333333333333,
+        -316.3333333333333,
+        19.749606183369952
+      ],
+      "target": [
+        490.3333333333333,
+        -316.3333333333333,
+        16.99768826802572
+      ],
+      "purpose": "A close local arboretum-ground patch with retained source canopy and nearby path context.",
+      "feature_limits": "Selected garden bounds are inferred. This view does not accept exact boundaries, named trees, inscriptions or planting detail.",
+      "target_meshes": [
+        "SM_Ground_ShakespeareArboretumGround_02_03"
+      ],
+      "source_target_bounds_local_m": [
+        [
+          461.0,
+          -340.0,
+          14.87969603061676
+        ],
+        [
+          517.0,
+          -271.01935465843417,
+          19.752727722326913
+        ]
+      ],
+      "selected_samples_local_m": [
+        [
+          487.6666666666667,
+          -313.6666666666667,
+          16.900491053263348
+        ],
+        [
+          490.3333333333333,
+          -316.3333333333333,
+          16.99768826802572
+        ]
+      ],
+      "selected_samples_clear": [
+        true,
+        true
+      ],
+      "camera_ground_height_m": 17.549606183369953,
+      "camera_height_above_ground_m": 2.2,
+      "camera_crown_section_clearance_m": 6.493584110809884,
+      "framing": {
+        "required_horizontal_fov_degrees": 23.23892520795437,
+        "required_vertical_fov_degrees": 5.419786531311552,
+        "assumed_horizontal_fov_degrees": 36.0,
+        "assumed_vertical_fov_degrees": 23.0,
+        "minimum_frame_margin_fraction": 0.1,
+        "scope": "Selected close-review region only"
+      },
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+          "sha256": "1279ec4ea58d84eaf73a87576af02db2117f537b1d42f0b518644273346732ee"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_03.npz",
+          "sha256": "ec6924423a8a132c42b4f4c6c816118d45f9bf038f7fdfdf40cc4367a72ad409"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+          "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_01_02_03.npz",
+          "sha256": "fd8e3854348be83aaf82deafaccadc5534052cfca1f21b4dd2a3077118c9281e"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_02_02_03.npz",
+          "sha256": "e5326547aca82debe348629f10150b2c88bcdf85b96f0d149e10c11980bcfd27"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseGardenEast_Ground_02_03.npz",
+          "sha256": "f97415b856cd3b00d922b5052291c75ccd535b491a474f91a30fa812ef461949"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseGardenWest_Ground_02_03.npz",
+          "sha256": "487a2d10de6924e43f5eed6980533fe3ff45af753dea40d27c21603a94ef84a3"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_ShakespeareArboretumGround_02_03.npz",
+          "sha256": "edee89b38304f342a8c2258d2232032842b6fbb12acc93b26fe413d3de023ca4"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_03_02_04.npz",
+          "sha256": "ddf7905421d7d89cd86cfc2afed6d51613b0cb5891c00f1e17d44a4b84e64941"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseGardenEast_Ground_02_04.npz",
+          "sha256": "362334b16728112dc9d10c6e18417ac248e9dc51589dca25fef8b5ff6597c4ee"
+        }
+      ],
+      "canopy_cluster_count": 53,
+      "live_review_status": "pending",
+      "accepted": false,
+      "self_occlusion_limit": "Own shell/ground meshes included in rays.",
+      "clear_candidates": 209
+    },
+    "prospect_terrace_to_bridge_r3": {
+      "eye": [
+        64.0,
+        1249.0,
+        59.30377456545412
+      ],
+      "target": [
+        351.79615414096236,
+        1333.69577121481,
+        70.0
+      ],
+      "camera_terrace_height_m": 57.60377456545412,
+      "camera_height_above_terrace_m": 1.7,
+      "camera_crown_section_clearance_m": 1.0428829082992142,
+      "selected_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "required_sample_fov": {
+        "horizontal_degrees": 56.20574638497936,
+        "vertical_degrees": 48.926567849709556
+      },
+      "purpose": "View both source-positioned bridge towers and main deck from the actual Prospect lookout terrace.",
+      "inspection_horizontal_fov_degrees": 80.0,
+      "inspection_vertical_fov_degrees_at_16_10": 55.34838287182513,
+      "inspection_blender_lens_mm_for_36mm_sensor": 21.45156466669578,
+      "lens_application_required": "Existing inspect_m1_view helpers do not apply these fields. Root must set a wide inspection lens/FOV for this capture; a narrow default view cannot accept both towers.",
+      "source_bridge_samples": [
+        {
+          "label": "Tower top station 0",
+          "point": [
+            203.072998046875,
+            1220.2225341796875,
+            121.78596466064452
+          ]
+        },
+        {
+          "label": "Tower top station 472.2758544976373",
+          "point": [
+            446.6280059814453,
+            1624.8525390625,
+            121.7711978149414
+          ]
+        },
+        {
+          "label": "Deck station 0.0",
+          "point": [
+            203.072998046875,
+            1220.2225341796875,
+            60.32136389953273
+          ]
+        },
+        {
+          "label": "Deck station 80.0",
+          "point": [
+            244.32939608037452,
+            1288.7638328345968,
+            63.45431662135795
+          ]
+        },
+        {
+          "label": "Deck station 236.0",
+          "point": [
+            324.7793722456986,
+            1422.4193652116696,
+            67.27045131547169
+          ]
+        },
+        {
+          "label": "Deck station 390.0",
+          "point": [
+            404.1979384601851,
+            1554.36136512237,
+            63.51457980601113
+          ]
+        },
+        {
+          "label": "Deck station 472.2758544976373",
+          "point": [
+            446.6280059814453,
+            1624.8525390625,
+            60.289275547126714
+          ]
+        }
+      ],
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_05_02.npz",
+          "sha256": "421f0531738aecdb04ca66d94ec7733937eae079d10992b313405beb1a6773b1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_06_02.npz",
+          "sha256": "8bb3e19c6e3f506c83d98e6bd8850cbd9c239174978f8514637b05a2be2eeaf2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_05_03.npz",
+          "sha256": "a5234d8cda46a99360fa7b20f8034576d6201647ae789d0c5e929986ad889538"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_06_03.npz",
+          "sha256": "28c8ccb54add4cb4632e36f8ba6fec7b1e841ac8e9a6fcdda487d53b3fdf4b62"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_05_04.npz",
+          "sha256": "377385287a71ab8c0860564fbe0f00c3f5e4f479693b118e2a48c7da82203848"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_023.npz",
+          "sha256": "692c1ea974908533f872350f993b0dcf18e5a44a53d50f415272a3763ecdd6d5"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_023.npz",
+          "sha256": "f9b6adb9e4cc7538afbc17e6de6053c5e83ce687479ef1453e8f59a08bc9be1d"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_024.npz",
+          "sha256": "08559cd14f6259ab98119c5e0b18b3745e55ab9e9f5ec93dca4df48e0a16f0c6"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_024.npz",
+          "sha256": "c096285f5d2752d1177bc8c6f069c32721577d3690a7b09ecf976e048f11b024"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_025.npz",
+          "sha256": "fc2168c671306ce881ff779c403ac2428cb6e62508d498c25077e69911fa1a2c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_025.npz",
+          "sha256": "3f6ace4280b0e12e67ed4e886c87964210f6602a8ebd5ddfd9a470ea79e0bad9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_026.npz",
+          "sha256": "b3533571d3c89381d73be6a2da5de8c91838a94d471941607f02e7ba67622a2c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_026.npz",
+          "sha256": "0efc0c670d4164cb9d0e146710f6fe29a5399c3d8409fca0455af8c65fae0c35"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerA_Post0.npz",
+          "sha256": "3df86d3920ad333ac0733ea9e5a9f379586d761a7bbd544de204d3e48bc796c3"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerA_Post1.npz",
+          "sha256": "7d8536c0a6445f0ab2ea3e396a59a7e28712f790422792b0134326b87147c1e7"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerA_Rail0.npz",
+          "sha256": "7d9d736e24cc980a60cc21b9b61541a163fc70ed42b14d5563cb7c4c0f430d07"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerA_Rail1.npz",
+          "sha256": "e978c24100e0d69c402e62a93c0f446d6458e04909a7f18899edd6b44d619bcd"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerB_Post1.npz",
+          "sha256": "7f49ee3b3338072d2dd6b9e4d976d9699713241aa242661008c4dadd05c64fa4"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerB_Rail0.npz",
+          "sha256": "2e38e4316b27d2ad0a0bc4b7db9115f4effe120983a7bae92dec34dbe987003b"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerB_Rail1.npz",
+          "sha256": "7660d956d9661f4914470301ced1cfebb9b0b5ac916c724117515d4339c2218f"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_InnerReturn_Post1.npz",
+          "sha256": "b13e251f16d21219df692af7759f5e1c2f8451656d000dffd14d73f90aa40d5e"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_InnerReturn_Rail0.npz",
+          "sha256": "b63893e1e680df36922635830d0158615a3e72ce5efeb262103e20ff6fe7b1ea"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_InnerReturn_Rail1.npz",
+          "sha256": "a3c4edc35510757868b3cd7d7e52efc0da7ae9f874ea7aa5ca48537f58da1a1d"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectCafe_RoofSurvey.npz",
+          "sha256": "dbbf6f0f39c41507548b8dca1acc5d4bea520bda138c26b6c7c6053c9f2ec177"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectCafe_WallsReview.npz",
+          "sha256": "3ac736cb0248429d537b7f3ac48eb5274985723d10cc31a547fbf05dafdc944f"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_Beacon.npz",
+          "sha256": "2c72b7ad2a7446e45a66f4340a85e77d943ea882e7cddff5cb352e7c53caf5d2"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_LowerWhite.npz",
+          "sha256": "c6f6b287421c726f42b6aa8270ed564d905331b19953e5b7a9045742f62a76b5"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_RedBand.npz",
+          "sha256": "138c169ba8583a353aa75a2e860e01821e0db91685fe537bd935fde83dccb8fa"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_TopDeck.npz",
+          "sha256": "652f1d8c77d90f80c315899728953a94e081d1ecf0aaeaed7cd641850ccf5e5f"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_UpperWhite.npz",
+          "sha256": "cf873eae72f43e83231557da418390ee1fc811c1ac35972e825dbbd39018282e"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_03.npz",
+          "sha256": "b06d55e950682c49750ae4f4567f8338f7a70f62b721a6b6d43e04576ce090ee"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_04.npz",
+          "sha256": "85acc564ee20f38fdb0025441b200551009ca0ccf83f47adf7436b26b18836ea"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_05.npz",
+          "sha256": "e6540c9587a2831c916a1dbc44551849ecb7bb3cfb42e2202f7326570dc37cb9"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_06.npz",
+          "sha256": "26c8b1e7a80b5a834e0a8b4ed8d8f0b1210215f451779f2bcd0a36585a724505"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_07.npz",
+          "sha256": "15d0cfae3f9fa5c76f6d01dd8e385e45b88a834440cff38061ea41710c1c289e"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_08.npz",
+          "sha256": "157f92da389e757dc1398f6fc00b8de71047fdd2f95e33f841642449c69db2f2"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_09.npz",
+          "sha256": "ea799995608feab0808cc836bf28f5adfb4388a2dae03e712f33b7295144d5a8"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_10.npz",
+          "sha256": "72bc0aba5577b356dd7db444c57d3fbded0c47557867d0c4c74a5af07120e259"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_11.npz",
+          "sha256": "8b3011089d3d990b14724b39d4b283e811be65da3e1388c25ef3465a23dae7e2"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_12.npz",
+          "sha256": "9e10e6732f6344b236a5024f145dbd43e698f145d6c692d646b8fdf363ba53f2"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_13.npz",
+          "sha256": "4b9c27ec9741ecc1377792d160ac26218dc479b294eed59e9c47fbad5b5dfef3"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_TerraceSurvey.npz",
+          "sha256": "f5474864f0ac0af1eb98f45db092e3b06484dac7172817ee55bc8e2377e2ffa2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2336.npz",
+          "sha256": "7fecb72c2be0f1081260513b9936bbd6e48503596fdd49cd5d4e561212618275"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2532.npz",
+          "sha256": "f0fdf20b0f75bd3dc0b9a60af752f85bfe9f3c0fc0c9b9be2b9c77ddbd4fb2ab"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2693.npz",
+          "sha256": "86fc685237d81e95bd75fa9c977e4c9c2abc88c99084c9e512edc01d5645270f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2729.npz",
+          "sha256": "e6c5b1f985e3f63488ff7e330dcddf8949f2ccc272620152c664cae89f80ba2e"
+        }
+      ],
+      "live_review_status": "pending",
+      "accepted": false,
+      "limits": [
+        "Bridge member self-occlusion is not checked because its live Blender meshes are generated directly from the bridge manifest; the near terrain, named forms and source canopy are checked.",
+        "Width, member thickness and footing envelope retain the M1 limits in the bridge source manifest.",
+        "Seven clear rays do not prove the complete viewport, terrace foreground or all bridge surfaces are visible."
+      ]
+    },
+    "skyline_english_bay_shore_r3": {
+      "eye": [
+        -355.2431803263777,
+        -1294.8855138693875,
+        2.768216365867597
+      ],
+      "target": [
+        143.47224039159482,
+        -1912.6180091919377,
+        85.7166783267341
+      ],
+      "source_pedestrian_edge": "osm_way_103703109_03_0",
+      "source_edge_distance_m": 30.0,
+      "source_edge_offset_local_m": [
+        -15.0,
+        0.0
+      ],
+      "camera_ground_height_m": 1.068216365867597,
+      "camera_height_above_ground_m": 1.7,
+      "camera_crown_section_clearance_m": 510.81906493534876,
+      "selected_samples_clear": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "selected_samples_near_150m_clear": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "framing": {
+        "required_horizontal_fov_degrees": 19.951439558812424,
+        "required_vertical_fov_degrees": 1.6515129191387476,
+        "assumed_horizontal_fov_degrees": 36.0,
+        "assumed_vertical_fov_degrees": 23.0,
+        "minimum_frame_margin_fraction": 0.1,
+        "scope": "Clear selected West End roof/silhouette samples only; complete scene framing remains a live check."
+      },
+      "purpose": "View the English Bay / West End waterfront silhouette from source terrain beside the mapped pedestrian shoreline south of Second Beach.",
+      "selected_skyline_samples": [
+        {
+          "id": "way_51055658_0_Part0",
+          "name": "Beach Towers",
+          "source_url": "https://www.openstreetmap.org/way/51055658",
+          "point_local_m": [
+            49.35767167710583,
+            -2014.2623108956032,
+            76.50897354893434
+          ],
+          "ray_clear": true
+        },
+        {
+          "id": "way_311209819_0_Building0",
+          "name": "Surfcrest",
+          "source_url": "https://www.openstreetmap.org/way/311209819",
+          "point_local_m": [
+            234.71319829224376,
+            -1957.2404751270078,
+            86.62578621920768
+          ],
+          "ray_clear": false
+        },
+        {
+          "id": "way_1093420374_0_Part0",
+          "name": "Zephyr",
+          "source_url": "https://www.openstreetmap.org/way/1093420374",
+          "point_local_m": [
+            321.2497813052032,
+            -1891.9329199157655,
+            92.73409068953717
+          ],
+          "ray_clear": false
+        },
+        {
+          "id": "way_1093420377_0_Part0",
+          "name": "English Bay Residences",
+          "source_url": "https://www.openstreetmap.org/way/1093420377",
+          "point_local_m": [
+            237.58680910608382,
+            -1810.9737074882723,
+            94.92438310453386
+          ],
+          "ray_clear": true
+        },
+        {
+          "id": "way_312125684_0_Building0",
+          "name": "The Lauren",
+          "source_url": "https://www.openstreetmap.org/way/312125684",
+          "point_local_m": [
+            646.1426409101405,
+            -1898.988951283507,
+            99.86029100768332
+          ],
+          "ray_clear": false
+        },
+        {
+          "id": "way_310600279_0_Building0",
+          "name": "The Marquis",
+          "source_url": "https://www.openstreetmap.org/way/310600279",
+          "point_local_m": [
+            632.1021707623731,
+            -2046.9660673299804,
+            85.38591867262726
+          ],
+          "ray_clear": false
+        }
+      ],
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_01.npz",
+          "sha256": "520f8f7fa07fc1114761f3db694b3958cb24b43e66440cb38f546e6337eaaaee"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_01.npz",
+          "sha256": "96859fd3b0d26a9accbd7cb501b4141bd3be18b07760a1e8244fff5e52e656d9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_02.npz",
+          "sha256": "2c8ebabea31aabd9e51fcb09cda3332f4b877ae371f9d6dad8434d4d80d8f170"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_03.npz",
+          "sha256": "dc8989bf63b20a7b4a491b2887f60a1f5c2ff1eb705537d962fa734e8848667c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_04.npz",
+          "sha256": "f651ac093e1de2680f0773d4e4917a444a6c47801ec57d871fb0c69aa39cf59e"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+          "sha256": "4badc16c8769d73f50d10588c691a2d32b7287da550dfe8563cf757e9a50c878"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_043.npz",
+          "sha256": "f1974dc093de7c321172aeb0b5eb09c6ddbf70691475e628397ead547064ec43"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_043.npz",
+          "sha256": "2b59a97a5880a7f289c6d659b6ee50528357f181c82e6d9b7d83afbebdd7c258"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_045.npz",
+          "sha256": "2ed9e4a7902457ab833c46b953b093ff430d138acf17ce48afff9ebbfc620407"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_045.npz",
+          "sha256": "98ba6c07380e0312fa675c3ee293060960773853e5004c3cdfd9b4d5612a4d17"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_046.npz",
+          "sha256": "41f8ba2f3c5052841f559ba24bf53f85c9670d06c1174db0669d5fbc65ce8477"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_046.npz",
+          "sha256": "3e5c517321e9422152378d59fad1141af36e2d7202028cd4bb3c5133e74d94db"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_047.npz",
+          "sha256": "e0fee0cdc93072b7a74a4cb76ceb1bf64496042cadccfe5a574b639d0ad68485"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_047.npz",
+          "sha256": "308e62f4141a09956855518a518196e5d532e4de939efcad4088679b2ac22d85"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+          "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_048.npz",
+          "sha256": "799e8e00db90938d2bbc3e3052864ad84c89a2b46a0e0837b90ffb1ed55dd08f"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_00_02.npz",
+          "sha256": "5dd4db7175687ab1e9c6015825490c5e787f83a9707de74664f98346bc2b3b35"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_00_02.npz",
+          "sha256": "c3a6114b0bc1fe54dc42b926e0aab9a9d2cffd6abd6d526039c1ae838c3d6209"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_00_02.npz",
+          "sha256": "2d50ae4bf4a6816a2bb68916f1c7f6d99ace38fa7d4bdb4e7cb55c01101ec9f0"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_01.npz",
+          "sha256": "0d9ebfd44c25810ac3828f6b530a214adee5781a7e536dd8b91f931db9ecde4e"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_01.npz",
+          "sha256": "d4658cbc72b18b31211b8f45042d0867686ef219871e1401fdfb2bfd131f0e48"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_02.npz",
+          "sha256": "1d2f132268c2deaa24898d6e3edfaaebe8b514c66291fe0b63a34f80afd923a8"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_02.npz",
+          "sha256": "ee1d8ebeb2f2f3529339cc71ca413cdf8bdfd21534ba20e841e48fc6fee97fcb"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_03.npz",
+          "sha256": "12adf273282e4d13c7acd7fd0242bdfa3eec9e607979a5026da8aa9f62120984"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_03.npz",
+          "sha256": "a9bb471036c74ee002f3de3ff0f7bd37064aa199f539a3a82ce5dd6f462d661a"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_03.npz",
+          "sha256": "5b307fdb1bfe54d1b4831f7797dadaee84c9909692221f22552be45edcfacbe1"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_CurvedStoneWall.npz",
+          "sha256": "6d59ad2dfd92b386f7edb332f8ccbabf361dcd9d0c7b66462f9c0f7998b74383"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_LowNameSeat_Base.npz",
+          "sha256": "071e6cfd054656cbd5e180be0e51c484da5c42322bf2d60db6794c586a251ecb"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_LowNameSeat_StoneTop.npz",
+          "sha256": "611ac75a95a8862f0b5a971ec5baab67859374cfd7eebcedf47ba2acd5cd8758"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_LowNameSeat_TimberTop.npz",
+          "sha256": "735ab67e19848139b815156a52587fa0b94ed104de4bf1736bdbb798306fac79"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_StoneCap.npz",
+          "sha256": "a90174d3dc8f8b9a0e7ba13c3cca12d4e4f4c81fd551708360b2713dfb6e87c3"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_01_01_03.npz",
+          "sha256": "d77f762f690a36c0f55d705922a6abf101af0aeb2046c7782157d22cec85ce60"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_02_01_03.npz",
+          "sha256": "606c3ddc31ecede4a68d8c703576a7bfb404441f780b6934444e1d19a38d6638"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_03_01_03.npz",
+          "sha256": "9e6341aec1c0eb3f8c98613a38971004f46c18c4c97abbf5ac0087ecafffe347"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_04_01_03.npz",
+          "sha256": "e07edcf23b2dd6d3937d9680003e0230547144b42fb40d130f4bc242171c965c"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_05_01_03.npz",
+          "sha256": "ac26fbc747675e65266c3ce9e9d0d2ab56bf891d9ab2a2fbd2a22a8974cb6c75"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_06_01_03.npz",
+          "sha256": "292732a9cdd88e60e7310bfa1e322322a5da05118fc019dd3351325481a6c46c"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityGardenPath_01_03.npz",
+          "sha256": "b07e4f6e762ed8baefca3051f9908cc391032638248b7f6703806aa2ac2556f7"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863877_01_02.npz",
+          "sha256": "8cdaed4842f8c6adc17d009a7e087fb3a9c4426e867fbd46faa7a431558362f3"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863878_01_02.npz",
+          "sha256": "0cf0deb453caeacc97d11e02402c41fbc0716372a64e68ed0ed6bdb09a7dde9c"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863882_01_02.npz",
+          "sha256": "3718e91fd8f7cdc596d97b72baab4db11587cde6caa9836855c234807dff60f9"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863884_01_02.npz",
+          "sha256": "12a38bb20081c08236103d2ee69bae3e60fe5ba323ae6633b30a4bb1339876fa"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863885_01_02.npz",
+          "sha256": "b15a868e161468fb053c968662607a1626dc320a767fb881313efe2871f580e2"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863887_01_02.npz",
+          "sha256": "75a324ee965345a9a82a55202d189ee9191c2bdfc7813ba0d983a406ea8f1ad0"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863889_01_02.npz",
+          "sha256": "3574d83bc972b58dbab3823fd7d8d04cd97500b1530a914ab1f08ea4a066b47a"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863891_01_02.npz",
+          "sha256": "3d95acca75aaa5986547196bc60d84d5dff3eb977ab48381b202a3b0e86bbb95"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863893_01_02.npz",
+          "sha256": "1548ab1ae8272d440829c5a9c14315ea12a21fd4e4a88d56f618afe5d5400b32"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863895_01_02.npz",
+          "sha256": "edf4cc071cdf0c51a91fb5131836f191e84bc3350bbf102a2829bccd1fd86040"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863897_01_02.npz",
+          "sha256": "faf8a092f12f068b960dcf03d941cafc878f86db31aea69a7ab508d716127ee0"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863899_01_02.npz",
+          "sha256": "10cf053c5042c353d0ce329a99b0ab93d5dd65172a81fcc7a3c2a48bc6d1e000"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863903_01_02.npz",
+          "sha256": "cb90ed640fe1eea2741a2b01b91de5f97fc2eaf15f9f280e61e9284f9decc19f"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863905_01_02.npz",
+          "sha256": "88d0ce8401f0debd1a91991a404a280a087eaaa0b41f65957c557eeb6ef11085"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863907_01_02.npz",
+          "sha256": "49b7fb8b5c02054b4328b703b7d465a3cfed570cee990ea295757473a0cd2674"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863909_01_02.npz",
+          "sha256": "5abe9ecdafcb938fb5b57775eee2d499daa24a38cd17b1752ee1712358a9e17c"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863911_01_02.npz",
+          "sha256": "127156328ffda8275da7872d04207e1807882c9107cfd1748b3dba5dc5f9855e"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040275_01_02.npz",
+          "sha256": "6e04653e451ba6fddf12d334ce1b28e26096dc63b1190c41ce5d5cbf6815faea"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040276_01_02.npz",
+          "sha256": "cac7da8bae082959222509e9eb9b5b220aff202c4ca4e8b50498df3c0bb38f48"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040277_01_02.npz",
+          "sha256": "d559378a4d85d030ab6839eb2629bc29253e609128b318b9cbb5f9c3cf0925cf"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040279_01_02.npz",
+          "sha256": "d18f30b8004d8f81e0d1d4b06e12e2dc1b9427000dd116e39d66a51e7d2db0ba"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040280_01_02.npz",
+          "sha256": "7af3fd416f4750dd44a91fc3a17a77477a64e3f93d115659ed1eb9efd10aa47a"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040281_01_02.npz",
+          "sha256": "662694c10d97880cd4df28a29a34704db274613939b3ddc79042a47cf6c66abb"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040282_01_02.npz",
+          "sha256": "b7a891b52c41873a0040d60544cb437a53dad4155eb2981b8445797646b3a627"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040283_01_02.npz",
+          "sha256": "bd4e3369cca1469e6dceb15a4d141efd578bf8cf9438f573062b6bf5af7d05e6"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755047370_01_02.npz",
+          "sha256": "9314a07689b08d941c77de5b7493833d53937f27ae1f93d85e814dd963cf5de8"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755273129_01_02.npz",
+          "sha256": "085aa4ed39dc43b386e6f8fbf258f93dcb2b4166413a41e549d5f21f7a42d014"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenEast_Ground_01_02.npz",
+          "sha256": "65e7f1fcc3091e83ea54a655b7a3c7d59b6596ae347775d1132ed7a2dddcbfc0"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenWest_Ground_01_02.npz",
+          "sha256": "7658d25a0eb86b726d42c8aab9e9aba5ff60c5e6e0aba9d2386e884cd02b286d"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_BelowDeckExterior.npz",
+          "sha256": "8bed808b29117d2cd38f5b9d9466f6ceb032e15c977aa0b2d2cff3f298476198"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_00.npz",
+          "sha256": "d1a3b36677cbba4fe6e6d402ec7dd7b47d8efc78964110a327db6b5736c42536"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_01.npz",
+          "sha256": "7c407fbf9a8f27259a8a7f936f99ddbdaeda1dbbc31552953074362a411c2fb8"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_02.npz",
+          "sha256": "912dc6f3361c84b5bd67a74678d55a087fbd71de6b0910ea13333c8594406c18"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_03.npz",
+          "sha256": "a2811993c6278364f3467adcaa06761207584f3ca941873382f456c99ba3147c"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_04.npz",
+          "sha256": "b0ef35bdb55273b838b294169def22205c1c88d090feda06c062d5a576dc5017"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_05.npz",
+          "sha256": "f6e0b4e2f48b43511a9e591d32e4a836e7adfc729cd0323a516bbc5377f32c2d"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_06.npz",
+          "sha256": "0e8e96e2b4fa22d1bbb22a193e5e0655ea73d437fd442eb203e55e6ef6848387"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_07.npz",
+          "sha256": "31254c5f241a4c9775fb45d1c8fb9b528d7ab66db3e68876d8184dd97f0d3458"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_08.npz",
+          "sha256": "b9b6375817090577c53dd03cdfc944efb4bf492c8b4d294e43193a9ff4818ecb"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_09.npz",
+          "sha256": "ec5f9f73310f590b966181c685595c151785036365cf2d452f55beada924ddae"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_10.npz",
+          "sha256": "c1e09e174fe4f029999c3084459b76abf7e270b10aa83ab2811ca4f61766b644"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_11.npz",
+          "sha256": "58277fdda73808a8b0a4bb4318950794906033b4e76b181c571eca249b39b457"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_00.npz",
+          "sha256": "96debd140ac8f6e305af40bb98758a72b82f310ea3330588daec84c20d1d6cc8"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_01.npz",
+          "sha256": "c378a134d8e1b5847fab8fd9fe41fb881aae0e0b6bb3d3620fe99240c9c7840f"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_02.npz",
+          "sha256": "6c2287662ae71f3fb758834120a610229f85f42d2d057881ccbbf0fcaf4a75dd"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_03.npz",
+          "sha256": "6a06fdd6a809231b2e3eb59b72bb945c2d27ce27e2bf9261a233c84b730d87a4"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_04.npz",
+          "sha256": "f61ff5330074c41f340c0f2c960d0e935f72976bcbd995d9b2dd9f32e2190566"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_05.npz",
+          "sha256": "bf6c1ff8d03d8e4094c3b21cf2c07177a3b9eb24d9e779aa71f5e74feb84ef8c"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_06.npz",
+          "sha256": "b5b40a5ba9954bf69c735eb7832008c348691f1af5dbd9fd31440f4fc0be617c"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_07.npz",
+          "sha256": "94de69e88c116ee2ea60481d3a5f210f1af264ad236277579c36f62e118c9de2"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_08.npz",
+          "sha256": "20972159e56887e0d7a67f724a094de3fe933781374767a4220f8a4279b5d43e"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_09.npz",
+          "sha256": "657f7d50e02aedfef3ce689bd6b90db4d0665e7d12536208925a981188ade136"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_10.npz",
+          "sha256": "19cf3e44f037adc9a1e10222d6e95433cccf264f18c440cd8691c5fe17b8e2aa"
+        },
+        {
+          "path": "data/derived/nature-house-threshold/SM_NatureHouse_RearDeckThreshold.npz",
+          "sha256": "88086c8d208114305ca7357463780dc5a769d69e828b51369ca1cb6a45ac1722"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_ViewingDeck.npz",
+          "sha256": "009a070fb8bbcfbd3e20e7122a8414b6d99f62f802ef3af615fd5a1f7fd75063"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyBasketball_01_02.npz",
+          "sha256": "a0716e00d1c5ea0548d50a92493854385ad373adf951da77bd412e3da6f445ec"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_02.npz",
+          "sha256": "93eeb943e2d3c0c34ec5de42fc7ffcf2174048bfea264c601bbf994d2077eb9d"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyPlayground_01_02.npz",
+          "sha256": "071d1f45efafec33b58318622212d7bcfa84d14de67d1200dac14e1e40abcd76"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingNorth_01_02.npz",
+          "sha256": "c4cd4c94bf5908fdc795abdc72c3d87265bc88a12fb963d61129bc4ecfdcbc96"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingSouth_01_02.npz",
+          "sha256": "58e4852b8c024fe2b0de19a2cfb2e4396b026eb277d32ad0e3b6ab450933822f"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_01_01_02.npz",
+          "sha256": "32d6ea41af0c0b1953b650bee829318710a996d2f8ac02fb4ad3f9b9d6b822b9"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_02_01_02.npz",
+          "sha256": "ad015edfa9243460c1a6a93c44a28f3333b8a7b6bc9ec86ed5fca5bd1cb2183d"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_03_01_02.npz",
+          "sha256": "22d2c376a9d0c7fcfdad258af91864ae1b4f5fb333875139779302067092447d"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_04_01_02.npz",
+          "sha256": "4a91a77fb09499feaff382b041c87a5ae0b80112499ec1cb9260fe246f0447f7"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_05_01_02.npz",
+          "sha256": "1d94603397b847740ab8a849a58758e6675cf5908913f23fa7b1a24b1b4e1e36"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_06_01_02.npz",
+          "sha256": "16a512ad26aff32d38fe29b814ea34ce8ca20d25c99fe8151b6d92f3f4987b79"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_07_01_02.npz",
+          "sha256": "520ae0999399b0bdee9f7d8948900ca1ab84f7ab6cf6e430d758f56c00915752"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_08_01_02.npz",
+          "sha256": "942024ebbdd9038cb00f63c2c3359726ac3a4906ac557a464d90d5726fd3b0f1"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_09_01_02.npz",
+          "sha256": "91e8d75d353fb2daf6f8754555b1cf7c87a1b46d78f70594068b76c9b0782f92"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_10_01_02.npz",
+          "sha256": "be6736cbc9aa7104a6fa387601c20e2f6b8ca0eae6dc39111117d453140cf793"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_11_01_02.npz",
+          "sha256": "7993f1d31cacd349762d41f5d6e7c7cd63eaf9698e4d0ddbf1e770f5b514f457"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_12_01_02.npz",
+          "sha256": "530f65175e709cb9733e42cff6107ee441170f7ccb27a0a8bd6ecc097976a738"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_13_01_02.npz",
+          "sha256": "ec2fef5ad39031541c7172f989351e3f3e56865f0caf7a20c478fcf8851d7450"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_14_01_02.npz",
+          "sha256": "ed3c329e0bedffceb1af7af70c5e60f897e5c19a5097dbd496f416a10477f6fe"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_15_01_02.npz",
+          "sha256": "a74440074f4b0a68ee156c401f6f6b8c63d09c07064a0e6c1d74ca9b4d6e1805"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_16_01_02.npz",
+          "sha256": "9c92783383446599ee717c6c215f4b9c3b138b791605495b505b0779cd1d8f29"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_17_01_02.npz",
+          "sha256": "5c8a48f3fd55da7ba0c914d4bcec9eee2eaed76a00fc7cae1574a09218c75d24"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_18_01_02.npz",
+          "sha256": "4cc3042c15685d5fe440d7ec7a4397b7e69d9a8c8bf7eeb98d68c09147b5fa9b"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_19_01_03.npz",
+          "sha256": "d1f380f4e6bafd5af8b2c102bc87290b5e1405f01f1e0387d8259d9dada94eb0"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_20_01_03.npz",
+          "sha256": "f3dfb709c82acc540ee18e18818a64a2f9f18284629daff48b719bf7ac83bac3"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_21_01_03.npz",
+          "sha256": "4e23cb7600f059745e289a18c1b0a89f96b93d6b6217c668a74ffe9129147733"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_22_01_03.npz",
+          "sha256": "a02e3b53cefe1b3ed2109ad72549e63679712959054109acb3b79aeb7f43b3e0"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1233.npz",
+          "sha256": "143d57ca518421d1f31b11ded8954cebe7d44c40ed404b707b343af26fe7fdc8"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1953.npz",
+          "sha256": "8218beb585aeb912b357f1c6cc565bd5758d23808ec4d8bdd2f289eb184a7fa8"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2703.npz",
+          "sha256": "645f9f6dd397859d6f3986f861d0c46d19dbbd4719a3abd882fec3f625fd391b"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2704.npz",
+          "sha256": "526cf69a555694009532e59abff2c2be28e5369f2e5a4584642dcb7b27035225"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2886.npz",
+          "sha256": "383e239f247bf45648335b89047ed27413b725daff7b5f3322f655c14feb3662"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_3306.npz",
+          "sha256": "868c85eb9c1e80169a8327a9f7fcfc2a0ca8ac2774cd9dce2ed1a8ed34856df0"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_337.npz",
+          "sha256": "924ae0538fa47589491746b891f1c5e3b2d59fe03c16d0f78e008a1926d58b25"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_3540.npz",
+          "sha256": "a09f5effa11f6898267e08298da5ad1d7f37dcde33653af0f2b262d5d0599c36"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_03.npz",
+          "sha256": "edc16be6b5ff1a6be515f9a19113c0423c3b9fb25ee556c779c72505d9876ea9"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_04.npz",
+          "sha256": "5b74fef67f0ec23aec54b5d83de950ad0cb906eb3c9efe2148b4bd5cf335eeb4"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_01_03.npz",
+          "sha256": "45193eb342df5736912aeffd52e868e6e2263d5cd400c6b17531eaef77c78756"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_01_04.npz",
+          "sha256": "a0d6527730dc99acb76458314811724fa5dda98a645f5dee1959ddba4046f3c5"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_BasinGround_01_03.npz",
+          "sha256": "e07d8554a9e7e6b77ed42a20b8414782b738a19b19f56fc04a153b446df134cb"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_BasinGround_01_04.npz",
+          "sha256": "1be9e713ea181a6c89995865adfe2b351f58c818be3bd7b58f7119c6e0a5a42f"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n2_stone.npz",
+          "sha256": "b3c666d770e29507743d81f62943dff485cb520d84da54acd89b3e588caa1170"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n3_glass.npz",
+          "sha256": "c2259521d6bb68a987fb9be8895e7bdbbeffeaef6a395e8e692476981dd18917"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n3_stone.npz",
+          "sha256": "12aed7aed2eec7300f56e286d81f44048b4fdcf23079051edfdb6a927be47592"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n4_stone.npz",
+          "sha256": "22a047b87b3563f06bee0b95cc9e8d8bc8952c7be8419636da020ca673cfea64"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n5_stone.npz",
+          "sha256": "a684b946948168ff0f0fc5ef3970b12a8f137d4146f2e6b6f3993df51c99c0fe"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n2_stone.npz",
+          "sha256": "22ee2dcfc09abd16ec84ad24ec93b94d6a6d0152978b7488bfdbf02bf02cde83"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n3_glass.npz",
+          "sha256": "33feb300b9e324d2459469ab6f156a3836519dd499e9832c4d2a4cb640effd6c"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n3_stone.npz",
+          "sha256": "2c9176085b70b963c72d2ae5fc78031058a0caee1baa9f273d8219e26adc989a"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n4_stone.npz",
+          "sha256": "cf6836f7d03155881dc6a5e37245e4425a60e03e532f575a92eeebcae812820c"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n5_stone.npz",
+          "sha256": "7a131a263ce3b1fe64ad6a23246a0515ca2af331e59fa8f180a12de4bbb026a9"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_n1_n3_stone.npz",
+          "sha256": "6a683197eafdb82993c0ad115b471eee7b4470999f659997c8e89b405bd6fc7b"
+        }
+      ],
+      "live_review_status": "pending",
+      "accepted": false,
+      "limits": [
+        "Camera is a source-based inspection location, not a surveyed photo match.",
+        "Selected roof rays do not prove all skyline, lower facades or the complete viewport are visible.",
+        "Pedestrian eye placement does not change cycling permissions.",
+        "Building heights and forms retain the source/estimate limits in skyline-blockouts.json."
+      ],
+      "eye_inside_city_park_polygon": true,
+      "distance_to_city_park_boundary_m": 25.84673563773212
+    }
+  }
+}

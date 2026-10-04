@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "tile": "489000_5462000",
+      "manifest": "manifests/lidar2022-489000_5462000.json"
+    },
+    {
+      "tile": "490000_5462000",
+      "manifest": "manifests/lidar2022-490000_5462000.json"
+    }
+  ],
+  "bounds_method": "25m either side of a coarse orthophoto axis; crop only",
+  "preliminary_centres_local_m": [
+    [
+      206.0,
+      1220.0
+    ],
+    [
+      445.0,
+      1625.0
+    ]
+  ],
+  "vertical_datum": "CGVD2013; conversion is recorded in each source manifest",
+  "output": {
+    "path": "data/derived/lions-gate-survey.npz",
+    "sha256": "33655bac436cb2436b8b7738d7b3060138665cb96295e671c51a8fc81e08b5b2"
+  },
+  "reference_date": "2022-09-07/09",
+  "accepted": false
+}

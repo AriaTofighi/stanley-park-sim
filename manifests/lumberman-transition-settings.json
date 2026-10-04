@@ -1,0 +1,24 @@
+{
+  "road_osm_ways": [
+    "58361906",
+    "58361911",
+    "1353319157"
+  ],
+  "road_station_step_m": 2.0,
+  "west_outer_u_m": -44.0,
+  "west_full_u_m": -36.0,
+  "east_outer_u_m": 40.0,
+  "east_full_u_m": 30.0,
+  "outer_road_half_width_m": 4.0,
+  "road_bank_fade_m": 3.0,
+  "road_width_blend_length_m": 10.0,
+  "walking_outer_v_m": -20.0,
+  "walking_full_v_m": -16.0,
+  "walking_side_fade_m": 1.0,
+  "fit_road_u_radius_m": 1.75,
+  "fit_road_v_radius_m": 2.5,
+  "fit_walk_v_radius_m": 1.25,
+  "fit_residual_limit_m": 0.1,
+  "accuracy": "Raw 2022 LiDAR elevations and current OSM alignment; bank fade limits and outer road width are explicit M1 surface engineering estimates. No new surveyed construction dimensions.",
+  "boundary_rule": "Match actual saved deck/floor planes at the existing replacement cut. Fade to unchanged terrain at all new outer edges; keep the lower passage separate."
+}

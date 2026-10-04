@@ -1,0 +1,18 @@
+{
+  "id": "prospect-lookout",
+  "extraction_centre_local_m": [
+    70,
+    1245
+  ],
+  "extraction_radius_m": 40,
+  "source": "manifests/lidar2022-489000_5462000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 481507,
+  "output": {
+    "path": "data/derived/named-prospect-lookout-survey.npz",
+    "sha256": "1e92e3ff4d35c0f2e9700497f49d5884d9886b94d613017e55ef5eb763e0a975"
+  }
+}

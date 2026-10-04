@@ -1,0 +1,3016 @@
+{
+  "schema_version": 1,
+  "route_length_m": 9463.731873224766,
+  "section_length_m": 250,
+  "route_sha256": "4b65e26338d4811b02400328cb80312daafd5887770e4f68646948616b10b8fc",
+  "sections": [
+    {
+      "id": "section_000",
+      "start_m": 0.0,
+      "end_m": 250.0,
+      "view_station_m": 125.0,
+      "requested_camera": {
+        "location": {
+          "x": -69993.55998620912,
+          "y": 55407.44934447687,
+          "z": 511.0059003325306
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 29.766766531699925,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 0.0,
+      "boundary_camera": {
+        "location": {
+          "x": -81738.47292099566,
+          "y": 51830.98777763814,
+          "z": 483.9800451679709
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 59.831179420184334,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_001",
+      "start_m": 250.0,
+      "end_m": 500.0,
+      "view_station_m": 375.0,
+      "requested_camera": {
+        "location": {
+          "x": -62871.997374023405,
+          "y": 77101.41870258651,
+          "z": 453.4695244274153
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 82.62027827225712,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 250.0,
+      "boundary_camera": {
+        "location": {
+          "x": -62650.95550385156,
+          "y": 64955.286177333706,
+          "z": 465.4098631186435
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 84.64898684828313,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_002",
+      "start_m": 500.0,
+      "end_m": 750.0,
+      "view_station_m": 625.0,
+      "requested_camera": {
+        "location": {
+          "x": -57907.44643426309,
+          "y": 97075.26509960364,
+          "z": 476.2127647632198
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 158.16701615573803,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 500.0,
+      "boundary_camera": {
+        "location": {
+          "x": -55190.01132283272,
+          "y": 86786.04746804365,
+          "z": 475.2202995522568
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 48.307797964443004,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_003",
+      "start_m": 750.0,
+      "end_m": 1000.0,
+      "view_station_m": 875.0,
+      "requested_camera": {
+        "location": {
+          "x": -70690.4504706564,
+          "y": 113120.89419355975,
+          "z": 561.2446469248155
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 28.661954508282765,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 750.0,
+      "boundary_camera": {
+        "location": {
+          "x": -68944.41991287068,
+          "y": 102822.20906098203,
+          "z": 482.45180827999866
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 141.84571033263936,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_004",
+      "start_m": 1000.0,
+      "end_m": 1250.0,
+      "view_station_m": 1125.0,
+      "requested_camera": {
+        "location": {
+          "x": -53065.33719706044,
+          "y": 129243.73282092843,
+          "z": 473.3057575558722
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 73.8627408283738,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 1000.0,
+      "boundary_camera": {
+        "location": {
+          "x": -59724.76509284603,
+          "y": 119005.97553501932,
+          "z": 450.6455671155976
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 32.32085033273251,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_005",
+      "start_m": 1250.0,
+      "end_m": 1500.0,
+      "view_station_m": 1375.0,
+      "requested_camera": {
+        "location": {
+          "x": -49843.882223240726,
+          "y": 152332.9741705747,
+          "z": 465.39632345527326
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 36.20555813629592,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 1250.0,
+      "boundary_camera": {
+        "location": {
+          "x": -52808.892416179864,
+          "y": 141508.33247685572,
+          "z": 506.02182527756463
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 104.39939486150072,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_006",
+      "start_m": 1500.0,
+      "end_m": 1750.0,
+      "view_station_m": 1625.0,
+      "requested_camera": {
+        "location": {
+          "x": -48458.25316963527,
+          "y": 175472.6058888362,
+          "z": 767.8335319018598
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 100.61181825516363,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 1500.0,
+      "boundary_camera": {
+        "location": {
+          "x": -45709.69657278659,
+          "y": 163306.03592473033,
+          "z": 461.8270787301423
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 104.4779378788235,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_007",
+      "start_m": 1750.0,
+      "end_m": 2000.0,
+      "view_station_m": 1875.0,
+      "requested_camera": {
+        "location": {
+          "x": -33559.56137854416,
+          "y": 189687.87790267367,
+          "z": 931.577758458782
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 13.168068785442477,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 1750.0,
+      "boundary_camera": {
+        "location": {
+          "x": -45496.480095124585,
+          "y": 186485.44828002385,
+          "z": 834.3607549774968
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 27.21744524330605,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_008",
+      "start_m": 2000.0,
+      "end_m": 2250.0,
+      "view_station_m": 2125.0,
+      "requested_camera": {
+        "location": {
+          "x": -28621.533586598493,
+          "y": 182717.44467169093,
+          "z": 1137.5323935869342
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -144.15825030336526,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 2000.0,
+      "boundary_camera": {
+        "location": {
+          "x": -21497.927401555673,
+          "y": 190418.98929143036,
+          "z": 1098.1552203378242
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -39.78346777599814,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_009",
+      "start_m": 2250.0,
+      "end_m": 2500.0,
+      "view_station_m": 2375.0,
+      "requested_camera": {
+        "location": {
+          "x": -32014.044524200828,
+          "y": 160081.36145612542,
+          "z": 611.8840677177296
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -75.70785599221897,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 2250.0,
+      "boundary_camera": {
+        "location": {
+          "x": -34514.13519410581,
+          "y": 172301.6275893389,
+          "z": 597.7841147061238
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -89.86558329116444,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_010",
+      "start_m": 2500.0,
+      "end_m": 2750.0,
+      "view_station_m": 2625.0,
+      "requested_camera": {
+        "location": {
+          "x": -20196.846430316444,
+          "y": 138270.9261473351,
+          "z": 731.0498038229828
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -59.856407933904244,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 2500.0,
+      "boundary_camera": {
+        "location": {
+          "x": -26187.664549233843,
+          "y": 149170.6173599157,
+          "z": 772.1026953791373
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -56.24559952477706,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_011",
+      "start_m": 2750.0,
+      "end_m": 3000.0,
+      "view_station_m": 2875.0,
+      "requested_camera": {
+        "location": {
+          "x": -1966.3983494906854,
+          "y": 121487.57228198592,
+          "z": 600.8622125863461
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -31.590769477466573,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 2750.0,
+      "boundary_camera": {
+        "location": {
+          "x": -11585.50589334845,
+          "y": 129361.79682455494,
+          "z": 608.9270471459757
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -37.84569061048973,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_012",
+      "start_m": 3000.0,
+      "end_m": 3250.0,
+      "view_station_m": 3125.0,
+      "requested_camera": {
+        "location": {
+          "x": 1745.9170193720927,
+          "y": 97614.21729405694,
+          "z": 519.7818442539525
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -60.539788367419014,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 3000.0,
+      "boundary_camera": {
+        "location": {
+          "x": -1416.7278353257307,
+          "y": 109660.87018481613,
+          "z": 561.9670162413113
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -84.08542483587439,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_013",
+      "start_m": 3250.0,
+      "end_m": 3500.0,
+      "view_station_m": 3375.0,
+      "requested_camera": {
+        "location": {
+          "x": 20597.292264782227,
+          "y": 82726.99914789852,
+          "z": 491.7255109444982
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -30.796730614307066,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 3250.0,
+      "boundary_camera": {
+        "location": {
+          "x": 9480.183542730374,
+          "y": 88398.31427079297,
+          "z": 472.1491236207532
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -26.31953510696548,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_014",
+      "start_m": 3500.0,
+      "end_m": 3750.0,
+      "view_station_m": 3625.0,
+      "requested_camera": {
+        "location": {
+          "x": 40262.51145163671,
+          "y": 68517.51103277168,
+          "z": 474.88421532212027
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -55.6970759479881,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 3500.0,
+      "boundary_camera": {
+        "location": {
+          "x": 31718.480969229433,
+          "y": 77325.91578192134,
+          "z": 490.0467165062821
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -28.452080015466773,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_015",
+      "start_m": 3750.0,
+      "end_m": 4000.0,
+      "view_station_m": 3875.0,
+      "requested_camera": {
+        "location": {
+          "x": 57097.65403602181,
+          "y": 54197.60131577276,
+          "z": 469.3467325398315
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 12.075457576723407,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 3750.0,
+      "boundary_camera": {
+        "location": {
+          "x": 47377.690197371994,
+          "y": 58266.190895489104,
+          "z": 485.89266369242426
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -66.96397528496989,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_016",
+      "start_m": 4000.0,
+      "end_m": 4250.0,
+      "view_station_m": 4125.0,
+      "requested_camera": {
+        "location": {
+          "x": 80464.99088926287,
+          "y": 46237.128860900324,
+          "z": 464.6562007289715
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -29.056142204775742,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 4000.0,
+      "boundary_camera": {
+        "location": {
+          "x": 68847.6914802425,
+          "y": 50562.981996067574,
+          "z": 471.36614725870504
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -16.41277633342239,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_017",
+      "start_m": 4250.0,
+      "end_m": 4500.0,
+      "view_station_m": 4375.0,
+      "requested_camera": {
+        "location": {
+          "x": 100763.25570716697,
+          "y": 31921.957703332788,
+          "z": 495.1085065041628
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -30.665711250388533,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 4250.0,
+      "boundary_camera": {
+        "location": {
+          "x": 90895.64930121345,
+          "y": 39558.77362585498,
+          "z": 475.012246826196
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -33.94734608021143,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_018",
+      "start_m": 4500.0,
+      "end_m": 4750.0,
+      "view_station_m": 4625.0,
+      "requested_camera": {
+        "location": {
+          "x": 118549.43174504633,
+          "y": 17225.951331509837,
+          "z": 492.0436875439595
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -61.957793376826345,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 4500.0,
+      "boundary_camera": {
+        "location": {
+          "x": 112156.13656422829,
+          "y": 26954.204189120363,
+          "z": 477.2152970718404
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -19.08134781604146,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_019",
+      "start_m": 4750.0,
+      "end_m": 5000.0,
+      "view_station_m": 4875.0,
+      "requested_camera": {
+        "location": {
+          "x": 124546.62042672932,
+          "y": -1303.877955877115,
+          "z": 472.7814416676248
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -110.7440254967284,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 4750.0,
+      "boundary_camera": {
+        "location": {
+          "x": 127562.36584889321,
+          "y": 10580.534900618171,
+          "z": 466.2795112944071
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -105.40162059033904,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_020",
+      "start_m": 5000.0,
+      "end_m": 5250.0,
+      "view_station_m": 5125.0,
+      "requested_camera": {
+        "location": {
+          "x": 117370.07239180498,
+          "y": -24474.15941070673,
+          "z": 498.8917996086984
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -95.99162890490356,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 5000.0,
+      "boundary_camera": {
+        "location": {
+          "x": 121360.35413777722,
+          "y": -13233.536518011184,
+          "z": 488.13136355098356
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -100.56569892614381,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_021",
+      "start_m": 5250.0,
+      "end_m": 5500.0,
+      "view_station_m": 5375.0,
+      "requested_camera": {
+        "location": {
+          "x": 111908.43279918449,
+          "y": -48569.426433342014,
+          "z": 492.36228392234125
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -112.51154292112857,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 5250.0,
+      "boundary_camera": {
+        "location": {
+          "x": 114198.76469371752,
+          "y": -36428.71683647867,
+          "z": 494.2887881617253
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -108.82318461055294,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_022",
+      "start_m": 5500.0,
+      "end_m": 5750.0,
+      "view_station_m": 5625.0,
+      "requested_camera": {
+        "location": {
+          "x": 96897.40458249365,
+          "y": -67582.23279013496,
+          "z": 496.1313354948498
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -145.57483199673715,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 5500.0,
+      "boundary_camera": {
+        "location": {
+          "x": 105349.42262263127,
+          "y": -58958.44745535788,
+          "z": 481.9262224228459
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -122.27016153657952,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_023",
+      "start_m": 5750.0,
+      "end_m": 6000.0,
+      "view_station_m": 5875.0,
+      "requested_camera": {
+        "location": {
+          "x": 77387.15918893143,
+          "y": -78776.4809468463,
+          "z": 485.321201586099
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -127.21454454514789,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 5750.0,
+      "boundary_camera": {
+        "location": {
+          "x": 84684.67337855416,
+          "y": -68913.2370234957,
+          "z": 478.54537859696256
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -148.6319349969461,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_024",
+      "start_m": 6000.0,
+      "end_m": 6250.0,
+      "view_station_m": 6125.0,
+      "requested_camera": {
+        "location": {
+          "x": 63645.9749962149,
+          "y": -94369.97063218895,
+          "z": 492.7011666319918
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -157.05408079691597,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 6000.0,
+      "boundary_camera": {
+        "location": {
+          "x": 67586.73454924213,
+          "y": -86176.71589271892,
+          "z": 477.6543126700765
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -127.31195573133394,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_025",
+      "start_m": 6250.0,
+      "end_m": 6500.0,
+      "view_station_m": 6375.0,
+      "requested_camera": {
+        "location": {
+          "x": 39269.05318870831,
+          "y": -95295.43582677588,
+          "z": 472.44784901869474
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -161.77723738756688,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 6250.0,
+      "boundary_camera": {
+        "location": {
+          "x": 51499.72918502404,
+          "y": -93467.17282681631,
+          "z": 476.59810506082863
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -176.07928679345034,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_026",
+      "start_m": 6500.0,
+      "end_m": 6750.0,
+      "view_station_m": 6625.0,
+      "requested_camera": {
+        "location": {
+          "x": 15686.650186161467,
+          "y": -96352.12456573614,
+          "z": 531.9520828508156
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 179.3235620975899,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 6500.0,
+      "boundary_camera": {
+        "location": {
+          "x": 27753.400877376764,
+          "y": -95397.9507255094,
+          "z": 506.91020128468836
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -162.5857646710575,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_027",
+      "start_m": 6750.0,
+      "end_m": 7000.0,
+      "view_station_m": 6875.0,
+      "requested_camera": {
+        "location": {
+          "x": -7541.643796894959,
+          "y": -102177.40693059226,
+          "z": 475.7781946981397
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -127.12617707106769,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 6750.0,
+      "boundary_camera": {
+        "location": {
+          "x": 3270.838477339415,
+          "y": -97354.16926546619,
+          "z": 540.7835409673859
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -167.41249064934667,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_028",
+      "start_m": 7000.0,
+      "end_m": 7250.0,
+      "view_station_m": 7125.0,
+      "requested_camera": {
+        "location": {
+          "x": -24458.615785519345,
+          "y": -110273.39715449969,
+          "z": 488.33489536380813
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 165.31756311733264,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 7000.0,
+      "boundary_camera": {
+        "location": {
+          "x": -13227.619154827844,
+          "y": -113091.52165267603,
+          "z": 494.53068510909156
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -135.02666452389605,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_029",
+      "start_m": 7250.0,
+      "end_m": 7500.0,
+      "view_station_m": 7375.0,
+      "requested_camera": {
+        "location": {
+          "x": -48301.20503801568,
+          "y": -108156.71159594272,
+          "z": 484.95530727026403
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 152.7211973067807,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 7250.0,
+      "boundary_camera": {
+        "location": {
+          "x": -36098.38596166621,
+          "y": -110328.25813589524,
+          "z": 490.21810418363003
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 171.85338918528257,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_030",
+      "start_m": 7500.0,
+      "end_m": 7750.0,
+      "view_station_m": 7625.0,
+      "requested_camera": {
+        "location": {
+          "x": -53499.24648668117,
+          "y": -87359.20783919183,
+          "z": 482.22822489896686
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 80.74230836226228,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 7500.0,
+      "boundary_camera": {
+        "location": {
+          "x": -56533.75742483715,
+          "y": -99165.91900356632,
+          "z": 489.9868777840357
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 99.02738724645438,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_031",
+      "start_m": 7750.0,
+      "end_m": 8000.0,
+      "view_station_m": 7875.0,
+      "requested_camera": {
+        "location": {
+          "x": -70413.93665142753,
+          "y": -72401.56401221854,
+          "z": 459.9911981413999
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 159.25549132719502,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 7750.0,
+      "boundary_camera": {
+        "location": {
+          "x": -59030.123216358734,
+          "y": -77429.24618156669,
+          "z": 489.15999811230574
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 155.3147458681392,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_032",
+      "start_m": 8000.0,
+      "end_m": 8250.0,
+      "view_station_m": 8125.0,
+      "requested_camera": {
+        "location": {
+          "x": -75362.5821828087,
+          "y": -52581.6048729076,
+          "z": 501.0416386335532
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 143.964073006687,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 8000.0,
+      "boundary_camera": {
+        "location": {
+          "x": -76539.38849685228,
+          "y": -63426.6675810117,
+          "z": 546.0815667091106
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 89.9387482322868,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_033",
+      "start_m": 8250.0,
+      "end_m": 8500.0,
+      "view_station_m": 8375.0,
+      "requested_camera": {
+        "location": {
+          "x": -90957.99935799596,
+          "y": -36579.63944632708,
+          "z": 470.25560807562846
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 52.458743921323006,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 8250.0,
+      "boundary_camera": {
+        "location": {
+          "x": -83702.19917277954,
+          "y": -43725.44035529413,
+          "z": 433.82276292183326
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 139.295778455531,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_034",
+      "start_m": 8500.0,
+      "end_m": 8750.0,
+      "view_station_m": 8625.0,
+      "requested_camera": {
+        "location": {
+          "x": -81325.09039621068,
+          "y": -18157.97209836175,
+          "z": 507.9707804391074
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 135.19540818711965,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 8500.0,
+      "boundary_camera": {
+        "location": {
+          "x": -82218.54685888457,
+          "y": -28634.500218971596,
+          "z": 352.8694081026382
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 55.435070512356226,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_035",
+      "start_m": 8750.0,
+      "end_m": 9000.0,
+      "view_station_m": 8875.0,
+      "requested_camera": {
+        "location": {
+          "x": -97678.88077836268,
+          "y": 472.59055625430506,
+          "z": 671.9662049512284
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 112.94797708965406,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 8750.0,
+      "boundary_camera": {
+        "location": {
+          "x": -89715.79975399296,
+          "y": -8952.076300275066,
+          "z": 565.9347098793539
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 124.90536967094397,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_036",
+      "start_m": 9000.0,
+      "end_m": 9250.0,
+      "view_station_m": 9125.0,
+      "requested_camera": {
+        "location": {
+          "x": -96227.16394919193,
+          "y": 24679.019014126294,
+          "z": 621.6257150146356
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 56.73270668484733,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 9000.0,
+      "boundary_camera": {
+        "location": {
+          "x": -98344.76055545639,
+          "y": 12478.953409864705,
+          "z": 442.85114892166615
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 88.00285214810434,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    },
+    {
+      "id": "section_037",
+      "start_m": 9250.0,
+      "end_m": 9463.731873224766,
+      "view_station_m": 9356.865936612383,
+      "requested_camera": {
+        "location": {
+          "x": -88114.72327709835,
+          "y": 43598.47179021657,
+          "z": 365.67566803937706
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 38.77995878171993,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "fixed_view_status": "pending",
+      "boundary_station_m": 9250.0,
+      "boundary_camera": {
+        "location": {
+          "x": -95347.27529403372,
+          "y": 36565.41597602162,
+          "z": 679.2096219674531
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 75.82152807066996,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "boundary_view_status": "pending",
+      "scenery_status": "pending_actual_review",
+      "ridden_status": "pending"
+    }
+  ],
+  "landmark_views": [
+    {
+      "id": "SP_air_india",
+      "name": "Air India Memorial",
+      "station_m": 8343.811618676544,
+      "route_distance_m": 82.80828225493875,
+      "linked_meshes": [
+        "SM_AirIndia_CurvedStoneWall",
+        "SM_AirIndia_StoneCap",
+        "SM_AirIndia_LowNameSeat_Base",
+        "SM_AirIndia_LowNameSeat_StoneTop",
+        "SM_AirIndia_LowNameSeat_TimberTop"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -90823.25995545094,
+          "y": -39769.898030831944,
+          "z": 497.3749751888401
+        },
+        "rotation": {
+          "pitch": 2.4562950063365667,
+          "yaw": -138.66972259927277,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_brockton_light",
+      "name": "Brockton Point Lighthouse",
+      "station_m": 2017.3251679575324,
+      "route_distance_m": 18.212867332824338,
+      "linked_meshes": [
+        "SM_Brockton_ArchReview",
+        "SM_Brockton_Balcony",
+        "SM_Brockton_Lantern",
+        "SM_Brockton_LowerBody",
+        "SM_Brockton_RedBand",
+        "SM_Brockton_Roof",
+        "SM_Brockton_SeawallBaseReview",
+        "SM_Brockton_UpperBody",
+        "SM_Brockton_WalkingPlatformReview"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -21104.994300421607,
+          "y": 190060.3278084356,
+          "z": 1109.9192185433287
+        },
+        "rotation": {
+          "pitch": 12.063037228525856,
+          "yaw": -16.407840597091905,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_empress_japan",
+      "name": "Empress of Japan Figurehead",
+      "station_m": 2895.4510261334635,
+      "route_distance_m": 20.300512070161062,
+      "linked_meshes": [
+        "SM_Empress_FigureheadEnvelope_00",
+        "SM_Empress_FigureheadEnvelope_01",
+        "SM_Empress_FigureheadEnvelope_02",
+        "SM_Empress_FigureheadEnvelope_03",
+        "SM_Empress_StoneBase",
+        "SM_Empress_ConcealedMount"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -1319.1085717993158,
+          "y": 120951.796315189,
+          "z": 587.251785379971
+        },
+        "rotation": {
+          "pitch": 1.6588808770968844,
+          "yaw": -14.24564791908037,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_girl_wetsuit",
+      "name": "Girl in a Wetsuit Statue",
+      "station_m": 2877.0964517685643,
+      "route_distance_m": 39.04369484869926,
+      "linked_meshes": [
+        "SM_Wetsuit_IntertidalBoulder",
+        "SM_Wetsuit_Head",
+        "SM_Wetsuit_Torso",
+        "SM_Wetsuit_Neck",
+        "SM_Wetsuit_Thigh_0",
+        "SM_Wetsuit_Shin_0",
+        "SM_Wetsuit_Fin_0",
+        "SM_Wetsuit_Arm_0",
+        "SM_Wetsuit_Thigh_1",
+        "SM_Wetsuit_Shin_1",
+        "SM_Wetsuit_Fin_1",
+        "SM_Wetsuit_Arm_1"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -2763.2845432941626,
+          "y": 122071.71419251229,
+          "z": 610.3539701760839
+        },
+        "rotation": {
+          "pitch": 0.19331351248116097,
+          "yaw": 38.35202601650672,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_harry_jerome",
+      "name": "Harry Jerome Statue",
+      "station_m": 1613.471971023638,
+      "route_distance_m": 2.5514695494133597,
+      "linked_meshes": [
+        "SM_HarryJerome_Plinth",
+        "SM_HarryJerome_Head",
+        "SM_HarryJerome_Neck",
+        "SM_HarryJerome_Torso",
+        "SM_HarryJerome_Limb_00",
+        "SM_HarryJerome_Limb_01",
+        "SM_HarryJerome_Limb_02",
+        "SM_HarryJerome_Limb_03",
+        "SM_HarryJerome_Limb_04",
+        "SM_HarryJerome_Limb_05",
+        "SM_HarryJerome_Limb_06",
+        "SM_HarryJerome_Limb_07"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -47931.87549096225,
+          "y": 173181.52183541495,
+          "z": 753.7793660982231
+        },
+        "rotation": {
+          "pitch": 6.317442553896395,
+          "yaw": 116.85030458327445,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_jubilee",
+      "name": "Jubilee Fountain",
+      "station_m": 9381.654713261993,
+      "route_distance_m": 145.80039191962848,
+      "linked_meshes": [
+        "SM_Jubilee_OctagonalIsland",
+        "SM_Jubilee_RaisedDiamondPlatform",
+        "SM_Jubilee_Perimeter_00",
+        "SM_Jubilee_Perimeter_01",
+        "SM_Jubilee_Perimeter_02",
+        "SM_Jubilee_Perimeter_03",
+        "SM_Jubilee_Perimeter_04",
+        "SM_Jubilee_Perimeter_05",
+        "SM_Jubilee_Perimeter_06",
+        "SM_Jubilee_Perimeter_07",
+        "SM_Jubilee_ServicePlatform",
+        "SM_Jubilee_NorthMaintenancePad"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -87100.36657861609,
+          "y": 44375.805390199384,
+          "z": 333.31267799572055
+        },
+        "rotation": {
+          "pitch": 0.08308677950795126,
+          "yaw": -47.132843517371626,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_lord_stanley",
+      "name": "Lord Stanley Statue",
+      "station_m": 197.02494627976515,
+      "route_distance_m": 63.54291301723968,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -65358.260713953794,
+          "y": 59171.680906177775,
+          "z": 505.7469673124471
+        },
+        "rotation": {
+          "pitch": 0.19698459333318485,
+          "yaw": -19.335821030090663,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_lumberman_arch",
+      "name": "Lumberman's Arch",
+      "station_m": 3181.3220041628447,
+      "route_distance_m": 46.10874513075412,
+      "linked_meshes": [
+        "SM_LumbermanArch_MainLog",
+        "SM_LumbermanArch_SupportLog_00",
+        "SM_LumbermanArch_SupportLog_01",
+        "SM_LumbermanArch_MoundEnvelope"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 3620.177164450878,
+          "y": 93600.5523918521,
+          "z": 471.4045582139219
+        },
+        "rotation": {
+          "pitch": 7.681275839423451,
+          "yaw": -143.83019863603903,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_nine_oclock",
+      "name": "Nine O'Clock Gun",
+      "station_m": 1710.030528189544,
+      "route_distance_m": 30.044848897521465,
+      "linked_meshes": [
+        "SM_NineClockGun_GabledRoof",
+        "SM_NineClockGun_Post_00",
+        "SM_NineClockGun_Post_01",
+        "SM_NineClockGun_Post_10",
+        "SM_NineClockGun_Post_11",
+        "SM_NineClockGun_Rail_00",
+        "SM_NineClockGun_Rail_01",
+        "SM_NineClockGun_EndRail_00",
+        "SM_NineClockGun_EndRail_01",
+        "SM_NineClockGun_Rail_10",
+        "SM_NineClockGun_Rail_11",
+        "SM_NineClockGun_EndRail_10",
+        "SM_NineClockGun_EndRail_11",
+        "SM_NineClockGun_Rail_20",
+        "SM_NineClockGun_Rail_21",
+        "SM_NineClockGun_EndRail_20",
+        "SM_NineClockGun_EndRail_21",
+        "SM_NineClockGun_Rail_30",
+        "SM_NineClockGun_Rail_31",
+        "SM_NineClockGun_EndRail_30",
+        "SM_NineClockGun_EndRail_31",
+        "SM_NineClockGun_Barrel"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -48923.275743246464,
+          "y": 182667.1677309725,
+          "z": 847.3943564172171
+        },
+        "rotation": {
+          "pitch": 0.5307603370165462,
+          "yaw": 121.05278209574065,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_prospect_light",
+      "name": "Prospect Point Lighthouse",
+      "station_m": 4731.871950593226,
+      "route_distance_m": 4.5710377748780715,
+      "linked_meshes": [
+        "SM_ProspectLight_LowerWhite",
+        "SM_ProspectLight_RedBand",
+        "SM_ProspectLight_UpperWhite",
+        "SM_ProspectLight_TopDeck",
+        "SM_ProspectLight_Beacon"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 126769.45303601962,
+          "y": 13120.028482901364,
+          "z": 474.2427007245528
+        },
+        "rotation": {
+          "pitch": 36.0054467092382,
+          "yaw": -63.955570810946824,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_prospect_lookout",
+      "name": "Prospect Point Lookout and Cafe",
+      "station_m": 4784.450730891735,
+      "route_distance_m": 22.56323193240985,
+      "linked_meshes": [
+        "SM_ProspectLookout_TerraceSurvey",
+        "SM_ProspectLookout_Parapet_03",
+        "SM_ProspectLookout_Parapet_04",
+        "SM_ProspectLookout_Parapet_05",
+        "SM_ProspectLookout_Parapet_06",
+        "SM_ProspectLookout_Parapet_07",
+        "SM_ProspectLookout_Parapet_08",
+        "SM_ProspectLookout_Parapet_09",
+        "SM_ProspectLookout_Parapet_10",
+        "SM_ProspectLookout_Parapet_11",
+        "SM_ProspectLookout_Parapet_12",
+        "SM_ProspectLookout_Parapet_13",
+        "SM_ProspectCafe_RoofSurvey",
+        "SM_ProspectCafe_WallsReview"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 127010.29205264681,
+          "y": 8406.735877087445,
+          "z": 466.62119628366287
+        },
+        "rotation": {
+          "pitch": 25.861564978516704,
+          "yaw": -151.28039765019938,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_queen_victoria",
+      "name": "Queen Victoria Memorial",
+      "station_m": 241.3967997194986,
+      "route_distance_m": 24.473978703792923,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -63147.14588983665,
+          "y": 62964.72810936207,
+          "z": 473.2980373302526
+        },
+        "rotation": {
+          "pitch": 0.4445693209561487,
+          "yaw": 12.234920478250649,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_robert_burns",
+      "name": "Robert Burns Statue",
+      "station_m": 228.50756560921224,
+      "route_distance_m": 37.88574025699152,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -63760.48921565423,
+          "y": 61833.18686082531,
+          "z": 475.91547189299274
+        },
+        "rotation": {
+          "pitch": 0.32362381191352224,
+          "yaw": -6.869369874212359,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_siwash",
+      "name": "Siwash Rock",
+      "station_m": 6079.852930987941,
+      "route_distance_m": 16.428576569207937,
+      "linked_meshes": [
+        "SM_SiwashRock_CrownEnvelope",
+        "SM_SiwashRock_SurveyEnvelope"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 67588.63156299754,
+          "y": -92504.93239655903,
+          "z": 480.29738758404346
+        },
+        "rotation": {
+          "pitch": 29.3082837831841,
+          "yaw": -46.0772946147666,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_siwash_lookout",
+      "name": "Siwash Rock Viewpoint (Old Searchlight)",
+      "station_m": 6067.608557182586,
+      "route_distance_m": 15.222242804299018,
+      "linked_meshes": [
+        "SM_SiwashLookout_ConcreteRoof",
+        "SM_SiwashLookout_ShelterWall_00",
+        "SM_SiwashLookout_Rail_00_56",
+        "SM_SiwashLookout_Rail_00_108",
+        "SM_SiwashLookout_Post_00",
+        "SM_SiwashLookout_ShelterWall_01",
+        "SM_SiwashLookout_Rail_01_56",
+        "SM_SiwashLookout_Rail_01_108",
+        "SM_SiwashLookout_Post_01",
+        "SM_SiwashLookout_ShelterWall_02",
+        "SM_SiwashLookout_Rail_02_56",
+        "SM_SiwashLookout_Rail_02_108",
+        "SM_SiwashLookout_Post_02",
+        "SM_SiwashLookout_ShelterWall_03",
+        "SM_SiwashLookout_Rail_03_56",
+        "SM_SiwashLookout_Rail_03_108",
+        "SM_SiwashLookout_Post_03",
+        "SM_SiwashLookout_EndPost_03",
+        "SM_SiwashLookout_ShelterWall_04",
+        "SM_SiwashLookout_ShelterWall_05",
+        "SM_SiwashLookout_ShelterWall_06",
+        "SM_SiwashLookout_Rail_06_56",
+        "SM_SiwashLookout_Rail_06_108",
+        "SM_SiwashLookout_Post_06",
+        "SM_SiwashLookout_ShelterWall_07",
+        "SM_SiwashLookout_Rail_07_56",
+        "SM_SiwashLookout_Rail_07_108",
+        "SM_SiwashLookout_Post_07",
+        "SM_SiwashLookout_ShelterWall_08",
+        "SM_SiwashLookout_Rail_08_56",
+        "SM_SiwashLookout_Rail_08_108",
+        "SM_SiwashLookout_Post_08",
+        "SM_SiwashLookout_ShelterWall_09",
+        "SM_SiwashLookout_Rail_09_56",
+        "SM_SiwashLookout_Rail_09_108",
+        "SM_SiwashLookout_Post_09",
+        "SM_SiwashLookout_RaisedApproach",
+        "SM_SiwashApproach_Rail_0_0_56",
+        "SM_SiwashApproach_Rail_0_0_108",
+        "SM_SiwashApproach_Rail_0_1_56",
+        "SM_SiwashApproach_Rail_0_1_108",
+        "SM_SiwashApproach_Rail_0_2_56",
+        "SM_SiwashApproach_Rail_0_2_108",
+        "SM_SiwashApproach_Post_0_0",
+        "SM_SiwashApproach_Post_0_1",
+        "SM_SiwashApproach_Post_0_2",
+        "SM_SiwashApproach_Rail_2_0_56",
+        "SM_SiwashApproach_Rail_2_0_108",
+        "SM_SiwashApproach_Rail_2_1_56",
+        "SM_SiwashApproach_Rail_2_1_108",
+        "SM_SiwashApproach_Rail_2_2_56",
+        "SM_SiwashApproach_Rail_2_2_108",
+        "SM_SiwashApproach_Post_2_0",
+        "SM_SiwashApproach_Post_2_1",
+        "SM_SiwashApproach_Post_2_2",
+        "SM_SiwashApproach_PerimeterRail_0_56",
+        "SM_SiwashApproach_PerimeterRail_0_108",
+        "SM_SiwashApproach_PerimeterRail_1_56",
+        "SM_SiwashApproach_PerimeterRail_1_108",
+        "SM_SiwashApproach_PerimeterPost"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 67228.45344690706,
+          "y": -91346.48598085101,
+          "z": 472.98033030289173
+        },
+        "rotation": {
+          "pitch": 36.4068631589632,
+          "yaw": -129.24311735890518,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_people_amongst",
+      "name": "People Amongst the People",
+      "station_m": 1454.978161893034,
+      "route_distance_m": 22.12596840190709,
+      "linked_meshes": [
+        "SM_PeopleSouth_Pier_0",
+        "SM_PeopleSouth_Pier_1",
+        "SM_PeopleSouth_SlopedCrossbeam",
+        "SM_PeopleNorthEstimate_Pier_0",
+        "SM_PeopleNorthEstimate_Pier_1",
+        "SM_PeopleNorthEstimate_SlopedCrossbeam"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -45859.76289671121,
+          "y": 157696.62374325827,
+          "z": 437.16868055982127
+        },
+        "rotation": {
+          "pitch": 11.137551385075172,
+          "yaw": 15.540383109983807,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_shore_to_shore",
+      "name": "Shore to Shore",
+      "station_m": 1491.2617909252394,
+      "route_distance_m": 50.531821892470745,
+      "linked_meshes": [
+        "SM_ShoreToShore_StonePodium",
+        "SM_ShoreToShore_CentralForm",
+        "SM_ShoreToShore_UpperForm",
+        "SM_ShoreToShore_FigureHead_0",
+        "SM_ShoreToShore_FigureBody_0",
+        "SM_ShoreToShore_FigureHead_1",
+        "SM_ShoreToShore_FigureBody_1",
+        "SM_ShoreToShore_FigureHead_2",
+        "SM_ShoreToShore_FigureBody_2"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -45394.76906088029,
+          "y": 161271.1473914531,
+          "z": 452.6590435816129
+        },
+        "rotation": {
+          "pitch": 3.7961960998727124,
+          "yaw": 25.60147357255355,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_yelton_pole",
+      "name": "Yelton Memorial Pole",
+      "station_m": 1460.659006696785,
+      "route_distance_m": 66.72659237574149,
+      "linked_meshes": [
+        "SM_YeltonMemorial_CoarseProfile",
+        "SM_YeltonMemorial_BroadUpperMember"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -45720.553527097014,
+          "y": 158247.2752848249,
+          "z": 440.1275029459885
+        },
+        "rotation": {
+          "pitch": 8.466465441103313,
+          "yaw": 2.764498664057547,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_totem_precinct",
+      "name": "Totem Pole public space",
+      "station_m": 2396.937692813437,
+      "route_distance_m": 32.65337671352207,
+      "linked_meshes": [
+        "SM_Named_TotemVisitor_RoofStepClosures",
+        "SM_Named_TotemVisitor_RoofSurvey",
+        "SM_Named_TotemVisitor_WallsReview",
+        "SM_TotemMeasured_01_CoarseProfile",
+        "SM_TotemMeasured_02_CoarseProfile",
+        "SM_TotemMeasured_03_CoarseProfile",
+        "SM_TotemMeasured_03_BroadUpperMember",
+        "SM_TotemMeasured_04_CoarseProfile",
+        "SM_TotemMeasured_04_BroadUpperMember",
+        "SM_TotemMeasured_05_CoarseProfile",
+        "SM_TotemMeasured_06_CoarseProfile",
+        "SM_TotemMeasured_06_BroadUpperMember",
+        "SM_ChiefWakasRearEstimate_EstimatedEnvelope",
+        "SM_SkyChiefRearEstimate_EstimatedEnvelope"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -31787.612021007113,
+          "y": 159113.8517605407,
+          "z": 623.5340942381058
+        },
+        "rotation": {
+          "pitch": 13.679454734840464,
+          "yaw": -142.3861770340808,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_cricket_pavilion",
+      "name": "Brockton Cricket Pavilion and fields",
+      "station_m": 1179.891480814662,
+      "route_distance_m": 133.52586773931586,
+      "linked_meshes": [
+        "SM_Named_CricketPavilion_RoofStepClosures",
+        "SM_Named_CricketPavilion_RoofSurvey",
+        "SM_Named_CricketPavilion_WallsReview"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -52247.513823374815,
+          "y": 133438.81584966634,
+          "z": 459.86674914089053
+        },
+        "rotation": {
+          "pitch": 5.61510165073075,
+          "yaw": 7.483930517276366,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_rowing_club",
+      "name": "Vancouver Rowing Club",
+      "station_m": 232.26138184552337,
+      "route_distance_m": 31.58358673615226,
+      "linked_meshes": [
+        "SM_Named_RowingClub_RoofStepClosures",
+        "SM_Named_RowingClub_RoofSurvey",
+        "SM_Named_RowingClub_WallsReview"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -63561.842568664666,
+          "y": 62151.615659966636,
+          "z": 473.2493682736276
+        },
+        "rotation": {
+          "pitch": 21.34225347761209,
+          "yaw": 138.47598369155818,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_yacht_club",
+      "name": "Royal Vancouver Yacht Club",
+      "station_m": 854.7704235487994,
+      "route_distance_m": 78.51949037505712,
+      "linked_meshes": [
+        "SM_YachtPort_WestWide_RoofSurvey",
+        "SM_YachtPort_WestWide_WallsReview",
+        "SM_YachtPort_WestNarrow_RoofSurvey",
+        "SM_YachtPort_WestNarrow_WallsReview",
+        "SM_YachtPort_WestEnd_RoofSurvey",
+        "SM_YachtPort_WestEnd_WallsReview",
+        "SM_YachtPort_MiddleWestUpper_RoofSurvey",
+        "SM_YachtPort_MiddleWestUpper_WallsReview",
+        "SM_YachtPort_MiddleWestLower_RoofSurvey",
+        "SM_YachtPort_MiddleWestLower_WallsReview",
+        "SM_YachtPort_MiddleEastUpper_RoofSurvey",
+        "SM_YachtPort_MiddleEastUpper_WallsReview",
+        "SM_YachtPort_MiddleEastLower_RoofSurvey",
+        "SM_YachtPort_MiddleEastLower_WallsReview",
+        "SM_YachtPort_LongWest_RoofSurvey",
+        "SM_YachtPort_LongWest_WallsReview",
+        "SM_YachtPort_LongEast_RoofSurvey",
+        "SM_YachtPort_LongEast_WallsReview",
+        "SM_YachtPort_LongEnd_RoofSurvey",
+        "SM_YachtPort_LongEnd_WallsReview",
+        "SM_YachtPort_MainSouth_RoofSurvey",
+        "SM_YachtPort_MainSouth_WallsReview",
+        "SM_YachtPort_SouthOuter_RoofSurvey",
+        "SM_YachtPort_SouthOuter_WallsReview",
+        "SM_YachtPort_SouthInner_RoofSurvey",
+        "SM_YachtPort_SouthInner_WallsReview",
+        "SM_YachtPort_SouthSmall_RoofSurvey",
+        "SM_YachtPort_SouthSmall_WallsReview",
+        "SM_YachtPort_NorthInner_RoofSurvey",
+        "SM_YachtPort_NorthInner_WallsReview",
+        "SM_YachtPort_NorthOuter_RoofSurvey",
+        "SM_YachtPort_NorthOuter_WallsReview",
+        "SM_YachtPort_CentralServiceWest_RoofSurvey",
+        "SM_YachtPort_CentralServiceWest_WallsReview",
+        "SM_YachtPort_CentralServiceMain_RoofSurvey",
+        "SM_YachtPort_CentralServiceMain_WallsReview",
+        "SM_YachtPort_CentralServiceEntrance_RoofSurvey",
+        "SM_YachtPort_CentralServiceEntrance_WallsReview"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -72724.29973343977,
+          "y": 110743.93698078529,
+          "z": 464.60841099865195
+        },
+        "rotation": {
+          "pitch": 2.9511953107303643,
+          "yaw": 135.12236611773085,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_second_pool",
+      "name": "Second Beach Swimming Pool",
+      "station_m": 8059.14376151526,
+      "route_distance_m": 27.574790053585442,
+      "linked_meshes": [
+        "SM_Named_SecondPoolFacilities_RoofStepClosures",
+        "SM_Named_SecondPoolFacilities_RoofSurvey",
+        "SM_Named_SecondPoolFacilities_WallsReview",
+        "SM_SecondPool_SurfaceReview",
+        "SM_SecondPool_CopingSurvey",
+        "SM_SecondPool_SyntheticSafetyFloor",
+        "SM_SecondPool_BasinContainmentReview"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -75855.9379371118,
+          "y": -58974.39986169252,
+          "z": 535.6786028939522
+        },
+        "rotation": {
+          "pitch": 7.195909801732995,
+          "yaw": 109.42206908249439,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_teahouse",
+      "name": "Ferguson Point and Teahouse",
+      "station_m": 6891.932603640248,
+      "route_distance_m": 69.64113830745843,
+      "linked_meshes": [
+        "SM_Named_Teahouse_RoofStepClosures",
+        "SM_Named_Teahouse_RoofSurvey",
+        "SM_Named_Teahouse_WallsReview"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -7835.659384598728,
+          "y": -102573.29741099775,
+          "z": 465.2320037781839
+        },
+        "rotation": {
+          "pitch": 10.26497457377901,
+          "yaw": 173.49097344653396,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_nature_house",
+      "name": "Lost Lagoon Nature House and viewing plaza",
+      "station_m": 9279.50654273751,
+      "route_distance_m": 35.176023352069485,
+      "linked_meshes": [
+        "SM_NatureHouse_BelowDeckExterior",
+        "SM_NatureHouse_ViewingDeck",
+        "SM_NatureHouse_RailPost_00",
+        "SM_NatureHouse_RailPost_01",
+        "SM_NatureHouse_RailPost_02",
+        "SM_NatureHouse_RailPost_03",
+        "SM_NatureHouse_RailPost_04",
+        "SM_NatureHouse_RailPost_05",
+        "SM_NatureHouse_RailPost_06",
+        "SM_NatureHouse_RailPost_07",
+        "SM_NatureHouse_RailPost_08",
+        "SM_NatureHouse_RailPost_09",
+        "SM_NatureHouse_RailPost_10",
+        "SM_NatureHouse_RailPost_11",
+        "SM_NatureHouse_RailTop_00",
+        "SM_NatureHouse_RailTop_01",
+        "SM_NatureHouse_RailTop_02",
+        "SM_NatureHouse_RailTop_03",
+        "SM_NatureHouse_RailTop_04",
+        "SM_NatureHouse_RailTop_05",
+        "SM_NatureHouse_RailTop_06",
+        "SM_NatureHouse_RailTop_07",
+        "SM_NatureHouse_RailTop_08",
+        "SM_NatureHouse_RailTop_09",
+        "SM_NatureHouse_RailTop_10",
+        "SM_NatureHouse_RearDeckThreshold"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -94750.27948561251,
+          "y": 38207.509611305315,
+          "z": 663.7897962747564
+        },
+        "rotation": {
+          "pitch": -0.014693071713208125,
+          "yaw": -5.877609824545808,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_third_beach",
+      "name": "Third Beach and facilities",
+      "station_m": 6712.332764220936,
+      "route_distance_m": 39.623227238213026,
+      "linked_meshes": [
+        "SM_ThirdBeach_FacilitiesRoofSurvey",
+        "SM_ThirdBeach_RoofStepClosures",
+        "SM_ThirdBeach_FacilitiesWallsReview",
+        "SM_ThirdBeach_FacilitiesWallsReview_PathConflict"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 8163.956371174203,
+          "y": -96517.89880426956,
+          "z": 539.5982166127384
+        },
+        "rotation": {
+          "pitch": 12.772233203320933,
+          "yaw": 112.68816246858904,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_315",
+      "name": "S.S. Beaver Tablet and Cairn",
+      "station_m": 4866.394215263173,
+      "route_distance_m": 57.42359056769567,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": 125466.35022876161,
+          "y": 535.9920559706284,
+          "z": 472.01778847951863
+        },
+        "rotation": {
+          "pitch": 0.24475269048741183,
+          "yaw": 165.9296812121321,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_445",
+      "name": "Aerodynamic Forms in Space",
+      "station_m": 9396.231791150372,
+      "route_distance_m": 44.523353615085234,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -85950.31786990051,
+          "y": 45271.31556532989,
+          "z": 328.7293357942
+        },
+        "rotation": {
+          "pitch": 0.26631853991460963,
+          "yaw": 120.1824674915996,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_91",
+      "name": "Chief Wakas Pole",
+      "station_m": 2348.338612253886,
+      "route_distance_m": 46.59227059828536,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -32900.74762441698,
+          "y": 163843.65068099106,
+          "z": 610.225243814979
+        },
+        "rotation": {
+          "pitch": 0.23499894490048132,
+          "yaw": -150.85654157930958,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_93",
+      "name": "Chief Skedans Mortuary Pole",
+      "station_m": 2342.723103642326,
+      "route_distance_m": 54.4228591134413,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -33025.0585828053,
+          "y": 164391.22864908626,
+          "z": 615.8728408615399
+        },
+        "rotation": {
+          "pitch": 0.16018454901098436,
+          "yaw": -154.5493992241889,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_94",
+      "name": "Beaver Crest Pole",
+      "station_m": 2352.529599531312,
+      "route_distance_m": 48.052118366699986,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -32812.42625072735,
+          "y": 163433.97221304793,
+          "z": 607.7692916574952
+        },
+        "rotation": {
+          "pitch": 0.28126603516149173,
+          "yaw": -152.05648317925682,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_89",
+      "name": "Thunderbird House Post",
+      "station_m": 2342.9755371865313,
+      "route_distance_m": 51.41614556801109,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -33019.2153325848,
+          "y": 164366.67348873036,
+          "z": 615.5158126299312
+        },
+        "rotation": {
+          "pitch": 0.171168702839635,
+          "yaw": -153.7802746619123,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_92",
+      "name": "Sky Chief Pole",
+      "station_m": 2353.677314534553,
+      "route_distance_m": 43.33711359361549,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -32787.431006124396,
+          "y": 163321.95783217633,
+          "z": 607.1145859554308
+        },
+        "rotation": {
+          "pitch": 0.3045559627289228,
+          "yaw": -150.94568239996045,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_96",
+      "name": "Chehalis Cross",
+      "station_m": 2141.005991521569,
+      "route_distance_m": 6.068823338970718,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -28945.34492630796,
+          "y": 182481.76956620888,
+          "z": 1128.5084508470416
+        },
+        "rotation": {
+          "pitch": -1.1910068764461192,
+          "yaw": -168.93404686338954,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_102",
+      "name": "Pauline Johnson Memorial",
+      "station_m": 6875.513457149837,
+      "route_distance_m": 62.87636204964404,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -6794.508495619183,
+          "y": -101306.004228305,
+          "z": 492.0966416837807
+        },
+        "rotation": {
+          "pitch": 0.06890780314513623,
+          "yaw": 153.69610378343583,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "ART_202",
+      "name": "Kakaso'las",
+      "station_m": 2345.9761617274457,
+      "route_distance_m": 50.26026298764708,
+      "linked_meshes": [],
+      "requested_camera": {
+        "location": {
+          "x": -32951.715826136555,
+          "y": 164074.3246388812,
+          "z": 611.9786062778082
+        },
+        "rotation": {
+          "pitch": 0.1909857117323832,
+          "yaw": -152.23396717842192,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    },
+    {
+      "id": "SP_lumberman_concession",
+      "name": "Lumberman's Arch concession",
+      "station_m": 3207.5299701964586,
+      "route_distance_m": 63.743986681670286,
+      "linked_meshes": [
+        "SM_Named_LumbermanConcession_RoofStepClosures",
+        "SM_Named_LumbermanConcession_RoofSurvey",
+        "SM_Named_LumbermanConcession_WallsReview"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 4943.016779914805,
+          "y": 91380.36129180968,
+          "z": 465.4278903925612
+        },
+        "rotation": {
+          "pitch": 9.107149899402533,
+          "yaw": -114.5723639306562,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "visibility": "candidate_from_distance_only; actual route view required",
+      "review_status": "pending"
+    }
+  ],
+  "unlocated_feature_ids": [
+    "SP_air_force_garden",
+    "SP_biofiltration",
+    "SP_community_garden",
+    "SP_heron_colony",
+    "SP_painters_circle",
+    "SP_port_view",
+    "SP_portrait_painters",
+    "SP_restoration_donor",
+    "SP_rock_garden",
+    "SP_rose_garden",
+    "SP_salmon_stream",
+    "SP_greig_garden",
+    "SP_lawn_bowling",
+    "SP_water_park",
+    "SP_ceperley",
+    "SP_tennis",
+    "SP_pitch_putt",
+    "SP_second_beach",
+    "SP_lions_gate",
+    "SP_hallelujah",
+    "SP_devonian",
+    "ART_100",
+    "ART_533",
+    "ART_534",
+    "ART_499"
+  ],
+  "source_limit": "Source-based review plan. Proximity is not visibility or visual acceptance.",
+  "test_authorization": "User explicitly authorized required M3 checks after implementation on 2026-10-03."
+}

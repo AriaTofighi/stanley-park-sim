@@ -1,0 +1,277 @@
+{
+  "target_period": "September 2026",
+  "sources": [
+    {
+      "url": "https://www.notmar.gc.ca/publications/monthly/archives/eng/services/notmar/western-pdf/wes10e02.pdf",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "2002-10 CCG list",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Prospect Point Lighthouse"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/chs-shc-PAC201-eng-202411-4126986x.pdf",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "2024-11 edition",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Prospect Point Lighthouse"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://www.lighthousefriends.com/prospect1_2009.jpg",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "2009 photographer image",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Prospect Point Lighthouse"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Nine O'Clock Gun"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://vancouver.ca/images/cov/content/9-O-clock-Gun-Monument.jpg",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Nine O'Clock Gun"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://veterans.gc.ca/en/remembrance/memorials/canada/nine-oclock-gun",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Page modified 2025-05-25; coordinates approximate",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Nine O'Clock Gun"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://vancouver.ca/parks-recreation-culture/landmarks-in-stanley-park.aspx",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Prospect Point Lookout",
+        "Prospect Point Cafe and Gift Shop"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://geonetbc.gov.bc.ca/geonetbc/gcm/details/590034",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Prospect Point Lookout"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://bids.vancouver.ca/bidopp/ITT/documents/PS20181755-Drawings-ProspectPointPavementConstruction2019.pdf",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "2017-11-16 survey; pricing issue 2019-01-02",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Prospect Point Cafe and Gift Shop"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Printed revision 2026-05-19",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Vancouver Aquarium exterior",
+        "Stanley Park Pavilion",
+        "Malkin Bowl stage and entrance building",
+        "Vancouver Rowing Club",
+        "Brockton Cricket Pavilion",
+        "Brockton Point Totem Pole Visitor Centre",
+        "Ferguson Point Teahouse",
+        "Second Beach pool facilities",
+        "Lumberman's Arch concession",
+        "Royal Vancouver Yacht Club Coal Harbour marina"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://www.vanaqua.org/Contact-Us",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Vancouver Aquarium exterior"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://stanleyparkpavilion.com/faq/",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Stanley Park Pavilion"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://www.malkinbowl.com/getting-here",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Malkin Bowl stage and entrance building"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://vancouverrowingclub.ca/Club_Info/VRC_RCS",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Vancouver Rowing Club"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://parkboardmeetings.vancouver.ca/2005/050509/brockton_totem_poles_gift_shop_licence.pdf",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "2005-05-09; centre opened 2001",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Brockton Cricket Pavilion",
+        "Brockton Point Totem Pole Visitor Centre"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://vancouver.ca/parks-recreation-culture/stories-from-inside-the-park.aspx",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Ferguson Point Teahouse"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://vancouver.ca/parks-recreation-culture/second-beach-pool.aspx",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "2026 operating season; closed after 2026-09-07",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Second Beach pool facilities",
+        "Second Beach Pool outline and surface"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://vancouver.ca/parks-recreation-culture/stanley-park-water-park.aspx",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Lumberman's Arch concession"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://www.royalvan.com/home-ports",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "Undated reference; access date is not capture date",
+      "verification": "Page or image inspected during this task",
+      "coverage": [
+        "Royal Vancouver Yacht Club Coal Harbour marina"
+      ],
+      "intended_use": "Identity, form, history or condition reference; not geodetic control",
+      "incorporation": "Reference only. Do not package web photographs, page images, drawings or copied text.",
+      "licence": "No redistribution licence relied on; original owner retains rights"
+    },
+    {
+      "url": "https://vancouver.ca/files/cov/MEMO-LumbermansArchClosureInspection-20190201.pdf",
+      "accessed": "2026-09-27",
+      "capture_or_publication": "2019-02-01",
+      "verification": "Text read through web tool; direct file fetch returned 403; no local PDF claimed",
+      "coverage": [
+        "Lumberman's Arch"
+      ],
+      "intended_use": "Confirms two horizontal and two vertical cedar members on concrete; historical inspection closure, not current condition proof",
+      "licence": "Reference only",
+      "incorporation": "No content incorporated"
+    }
+  ],
+  "survey": {
+    "period": "2022-09-07/09",
+    "manifests": "manifests/named-*-survey.json and manifests/lidar2022-*.json",
+    "licence": "Open Government Licence - Vancouver",
+    "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2022/",
+    "use": "Derived measured geometry; retain City attribution and raw-source hashes"
+  },
+  "orthophotos": {
+    "period": "2022-06-06/2022-07-01",
+    "manifests": "evidence/corridor/ortho-utm/named-*.json",
+    "licence": "Open Government Licence - Vancouver",
+    "use": "Licensed map measurements and identity cross-check; no remote-photo texture atlas",
+    "source_url": "https://opendata.vancouver.ca/explore/dataset/orthophoto-imagery/"
+  },
+  "limits": [
+    "A publication date does not prove a 2026 physical condition",
+    "The Prospect paving tender describes proposed work and is not an as-built control",
+    "Photographer lighthouse images are not cleared for redistribution",
+    "Lumberman registry location did not resolve the cedar arch beneath canopy"
+  ]
+}

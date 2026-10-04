@@ -1,0 +1,32 @@
+{
+  "status": "M1 estimated widths from the fixed City 2022 bicycle edge bands; not survey-certified",
+  "authority": "User allows documented path-width estimates; docs/M1-MEASUREMENT-EXCEPTIONS.md",
+  "source_picks": "manifests/m1-pavement-correction-source-picks.json",
+  "uncertainty_m": 0.25,
+  "initial_failure": "evidence/m1-pavement-alignment/alignment-review-attempt-1.json",
+  "records": [
+    {
+      "id": "XY04_BROCKTON_PAVEMENT",
+      "start_source_m": 1427.0,
+      "full_width_start_source_m": 1433.0,
+      "full_width_end_source_m": 1447.0,
+      "end_source_m": 1453.0,
+      "width_m": 2.6,
+      "basis": "The fixed horizontal edge transect at source station 1440.238 m has a 2.56 m projection onto the corrected route normal. The previous 3 m development strip crosses the source grass edge at this bend. A 2.6 m blockout width follows that narrow band within the 0.25 m edge-pick uncertainty.",
+      "source_detail": "evidence/m1-pavement-alignment/xy04-bend-source-detail.png"
+    },
+    {
+      "id": "XY20_LOST_LAGOON_PAVEMENT",
+      "start_source_m": 8931.184569095218,
+      "full_width_start_source_m": 8935.0,
+      "full_width_end_source_m": 8990.0,
+      "end_source_m": 9001.38518402587,
+      "width_m": 2.8,
+      "basis": "The narrow bicycle strip has source bands near 3 m perpendicular width, with uncertain grass edges. The 2.8 m estimate leaves a small edge margin through the local curve. It returns to the existing 3 m width at the broad eastern roadway; it does not narrow that roadway.",
+      "repeat_note": "The first 8.8 m width transition left ten intermediate mesh-edge samples up to 0.286 m outside the fixed source envelope. A 3.82 m smooth entry transition preserves the endpoint width and fits the narrow lane sooner. Both failed attempts are retained."
+    }
+  ],
+  "interpolation": "Quintic smoothstep on each transition; no width change outside these source windows",
+  "source_geometry_unchanged": true,
+  "absolute_accuracy_accepted": false
+}

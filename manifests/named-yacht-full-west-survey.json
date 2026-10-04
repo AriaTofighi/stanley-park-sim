@@ -1,0 +1,18 @@
+{
+  "id": "yacht-full-west",
+  "extraction_centre_local_m": [
+    1180,
+    -850
+  ],
+  "extraction_radius_m": 330,
+  "source": "manifests/lidar2022-490000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 6110869,
+  "output": {
+    "path": "data/derived/named-yacht-full-west-survey.npz",
+    "sha256": "21c8222ef4d0d18aa666082d6b640c2bea757b4ce21a13b3c79e2f72871ab294"
+  }
+}

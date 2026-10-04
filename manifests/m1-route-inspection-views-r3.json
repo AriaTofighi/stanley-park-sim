@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "coordinates": "Local east/north/up metres, manifests/world-origin.json",
+  "scope": "Source-based camera candidates for live review. No scene, shared camera registry, route or application changes.",
+  "source_inputs": [
+    {
+      "path": "data/derived/paved-circuit-runtime.json",
+      "sha256": "4b65e26338d4811b02400328cb80312daafd5887770e4f68646948616b10b8fc"
+    },
+    {
+      "path": "manifests/surface-model.json",
+      "sha256": "8489fe1d9986b9dd5218299e635daf55c5a0eb8e7c1c03a68aca51bf227bc459"
+    },
+    {
+      "path": "data/derived/underpass-blockouts.json",
+      "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+    },
+    {
+      "path": "data/derived/underpass-closures.json",
+      "sha256": "5505a80f21717b3db2bcd36f477cbbd8d5bd91a3e7b392251868fbdd09321887"
+    },
+    {
+      "path": "data/derived/cover-blockout.json",
+      "sha256": "9187a028f7c073140ad7b113099b17f1f5827b5beab037eeb48bdf1b9b06ceef"
+    },
+    {
+      "path": "data/derived/canopy-zone-assignments.json",
+      "sha256": "c9db788cc9908de82b66efe3996872f82762a865daf157b2508f4fb6a63109ce"
+    },
+    {
+      "path": "manifests/blender-export.json",
+      "sha256": "be7984b24ffafa236f7550bef1e361b64e4d6e7f26c76e0c03450dfc8a62f96b"
+    },
+    {
+      "path": "pipeline/blender/build_cover_blockout.py",
+      "sha256": "848658e8bfe213886985ffbf44e19891e4b8badde7a396d0d2abe9213bb0b76b"
+    }
+  ],
+  "views": {
+    "ceperley_deck_side_r3": {
+      "eye": [
+        -359.16311866343995,
+        -902.2534886476907,
+        7.328153214561023
+      ],
+      "target": [
+        -369.76972038123813,
+        -912.8600903654889,
+        5.923051916181491
+      ],
+      "purpose": "Oblique side view of the complete retained road-deck span; inspect its roof ends and bank contact.",
+      "target_samples_local_m": [
+        [
+          -373.22729665431814,
+          -915.746223825878,
+          5.896029777526856
+        ],
+        [
+          -369.77885909003237,
+          -912.8503663594144,
+          5.923056907653809
+        ],
+        [
+          -366.3082686383532,
+          -909.9820389556265,
+          5.758084125518799
+        ],
+        [
+          -374.5721317648202,
+          -915.979695888297,
+          5.798138629450502
+        ],
+        [
+          -364.9530471336605,
+          -909.8161468809705,
+          5.6662672186279766
+        ],
+        [
+          -373.7847542780524,
+          -917.1495047707637,
+          5.872351248148727
+        ],
+        [
+          -365.6621957266857,
+          -908.597019750449,
+          5.661156900446329
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "camera_crown_section_clearance_m": 13.829770788332942,
+      "minimum_camera_crown_margin_required_m": 0.25,
+      "camera_outside_source_underpass_solids": true,
+      "local_source_inputs": [
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863897_01_02.npz",
+          "sha256": "faf8a092f12f068b960dcf03d941cafc878f86db31aea69a7ab508d716127ee0"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755047372_01_02.npz",
+          "sha256": "13354a0f283a7dc41d35eba0984adfd75d9dac29b43e4c79f80c99ff6f8669bd"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenWest_Ground_01_02.npz",
+          "sha256": "7658d25a0eb86b726d42c8aab9e9aba5ff60c5e6e0aba9d2386e884cd02b286d"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_043.npz",
+          "sha256": "2b59a97a5880a7f289c6d659b6ee50528357f181c82e6d9b7d83afbebdd7c258"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_043.npz",
+          "sha256": "f1974dc093de7c321172aeb0b5eb09c6ddbf70691475e628397ead547064ec43"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyBasketball_01_02.npz",
+          "sha256": "a0716e00d1c5ea0548d50a92493854385ad373adf951da77bd412e3da6f445ec"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_02.npz",
+          "sha256": "93eeb943e2d3c0c34ec5de42fc7ffcf2174048bfea264c601bbf994d2077eb9d"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowSouth_01_02.npz",
+          "sha256": "b9391e47e4d7f1b2c8bd3f4240b3514701234f4cd8ee7b016afda8fb7d6e0918"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyPlayground_01_02.npz",
+          "sha256": "071d1f45efafec33b58318622212d7bcfa84d14de67d1200dac14e1e40abcd76"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1233.npz",
+          "sha256": "143d57ca518421d1f31b11ded8954cebe7d44c40ed404b707b343af26fe7fdc8"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2704.npz",
+          "sha256": "526cf69a555694009532e59abff2c2be28e5369f2e5a4584642dcb7b27035225"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_3273.npz",
+          "sha256": "75e82f84d2c4654f40cc2f4ca2c1fa571d3cedf4e713d32fcb2021e81fb2dfbb"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_3306.npz",
+          "sha256": "868c85eb9c1e80169a8327a9f7fcfc2a0ca8ac2774cd9dce2ed1a8ed34856df0"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_Deck.npz",
+          "sha256": "018e69d54e96edbaf018c8570ab3816acadc192fc48c8eac4af9bd61fa262b4d"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_FloorExtensionLeft.npz",
+          "sha256": "9a5333faf5b28bcc931e5d76efb006740d3336971e3598cc8e84b5905cc7fa77"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_FloorExtensionRight.npz",
+          "sha256": "ce3f1d2bb3a828a28e793963b4cefb27e668e14d9f90ecd93b8a01dea55485ad"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_TerrainBoundaryClosure.npz",
+          "sha256": "68ef60778de4cd58e09af223b50bfcf67bb4750a1e8d2cf08c0fa3274854d126"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_WallLeft.npz",
+          "sha256": "5eb04f043fe50422d872fd6c8e140aa01fde0f974d41e9120cab29b7423e4ffb"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Ceperley_WallRight.npz",
+          "sha256": "3653e71dae88d3b992937c0c9bf1b0c4b72e25e3befae040ac141e07e7f6547e"
+        }
+      ],
+      "selected_canopy_clusters": 24,
+      "live_review_status": "pending",
+      "accepted": false,
+      "camera_ground_height_m": 2.8281532145610226,
+      "camera_height_above_ground_m": 4.5,
+      "deck_runtime_span_m": [
+        8363.836959663708,
+        8375.873485536245
+      ],
+      "target_mesh": "SM_Underpass_Ceperley_Deck",
+      "framing": {
+        "required_horizontal_fov_degrees": 31.802143847169308,
+        "required_vertical_fov_degrees": 14.666714399191825,
+        "assumed_horizontal_fov_degrees": 36.0,
+        "assumed_vertical_fov_degrees": 23.0,
+        "minimum_frame_margin_fraction": 0.1,
+        "scope": "All source deck vertices, including underside and end faces."
+      },
+      "clear_candidates": 104
+    },
+    "join_041_lower_r3": {
+      "eye": [
+        449.7739543921011,
+        -863.2112207367912,
+        3.152173967544415
+      ],
+      "target": [
+        454.81631819404447,
+        -857.0412466101646,
+        2.5770953969289847
+      ],
+      "purpose": "Lower route and upper crossing remain separate; inspect the tunnel opening, ceiling and floor without an at-grade connector.",
+      "target_samples_local_m": [
+        [
+          454.81631819404447,
+          -857.0412466101646,
+          2.0770953969289847
+        ],
+        [
+          454.81631819404447,
+          -857.0412466101646,
+          3.0770953969289847
+        ],
+        [
+          455.01631819404446,
+          -857.2412466101647,
+          2.5770953969289847
+        ],
+        [
+          454.6163181940445,
+          -856.8412466101646,
+          2.5770953969289847
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "camera_crown_section_clearance_m": 32.14197916006338,
+      "minimum_camera_crown_margin_required_m": 0.25,
+      "camera_outside_source_underpass_solids": true,
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_048.npz",
+          "sha256": "799e8e00db90938d2bbc3e3052864ad84c89a2b46a0e0837b90ffb1ed55dd08f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_049.npz",
+          "sha256": "90025da1c550f317596ee2581912241db1759f0301647b280e577bf68fb6befa"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+          "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_049.npz",
+          "sha256": "95cf7fbd11540b27c8cbb0b6cf8d8c515ee72ecfea1e1fee48bb49e0581b1a5f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1095.npz",
+          "sha256": "ee0fec273ada9b79e27245444eda6ea3f727499236f3f9f8dd9f993545ac7ced"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1812.npz",
+          "sha256": "366cdcf0362587078ce44cdff17cbdaacd6ad75dcd4793186064c4d5bd7d3d9c"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_03.npz",
+          "sha256": "edc16be6b5ff1a6be515f9a19113c0423c3b9fb25ee556c779c72505d9876ea9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_Deck.npz",
+          "sha256": "1804058311657c61fa57a1f2278ce8d3aa2cfd12e8859cf69f0f916753985135"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_FloorExtensionLeft.npz",
+          "sha256": "2c8864bbd11df713ef1e956b1cda425a40209f72fdc270c88d56bdbd384a7080"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_FloorExtensionRight.npz",
+          "sha256": "832abd634005e3a4dafb1d0c0a15e7cdbd9c77061ba8c6ea4de69f6de4acbd73"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_TerrainBoundaryClosure.npz",
+          "sha256": "7800068d0ef972a1cb83f80ac385baf04a4423d933d1804fa459ace86bffb217"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallFoundationLeft.npz",
+          "sha256": "0952bcd16d5d113f265cf1b8d48487b918f0067102bf4ae619ee2100c79442d9"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallFoundationRight.npz",
+          "sha256": "f9b4d3eb52e252377872d92b6681c3b44e3c5ff6745b605275e01893b41613d5"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallLeft.npz",
+          "sha256": "04251fcf308529b3b93fd145725ca120e000fe87d319fe0389b185b36e88c99b"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallRight.npz",
+          "sha256": "265952202172e06a62764e498076b855d6cb4ab61f414157bf38d82131893b77"
+        }
+      ],
+      "selected_canopy_clusters": 12,
+      "live_review_status": "pending",
+      "accepted": false,
+      "eye_runtime_chainage_m": 9379.5,
+      "target_runtime_chainage_m": 9387.47,
+      "eye_above_route_m": 1.6,
+      "target_floor_height_m": 1.5270953969289849,
+      "junction_runtime_chainage_m": 9387.47,
+      "grade_separated": true
+    },
+    "join_041_portal_side_r3": {
+      "eye": [
+        471.5431343268454,
+        -840.5084141047898,
+        3.048614587336468
+      ],
+      "target": [
+        467.3498861327929,
+        -844.3075391935375,
+        3.0208972102749865
+      ],
+      "purpose": "Lower route and upper crossing remain separate; inspect the tunnel opening, ceiling and floor without an at-grade connector.",
+      "target_samples_local_m": [
+        [
+          467.3498861327929,
+          -844.3075391935375,
+          2.5208972102749865
+        ],
+        [
+          467.3498861327929,
+          -844.3075391935375,
+          3.5208972102749865
+        ],
+        [
+          467.5498861327929,
+          -844.5075391935376,
+          3.0208972102749865
+        ],
+        [
+          467.1498861327929,
+          -844.1075391935375,
+          3.0208972102749865
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "camera_crown_section_clearance_m": 40.79823520935214,
+      "minimum_camera_crown_margin_required_m": 0.25,
+      "camera_outside_source_underpass_solids": true,
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_048.npz",
+          "sha256": "799e8e00db90938d2bbc3e3052864ad84c89a2b46a0e0837b90ffb1ed55dd08f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_049.npz",
+          "sha256": "90025da1c550f317596ee2581912241db1759f0301647b280e577bf68fb6befa"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+          "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_049.npz",
+          "sha256": "95cf7fbd11540b27c8cbb0b6cf8d8c515ee72ecfea1e1fee48bb49e0581b1a5f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1095.npz",
+          "sha256": "ee0fec273ada9b79e27245444eda6ea3f727499236f3f9f8dd9f993545ac7ced"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1812.npz",
+          "sha256": "366cdcf0362587078ce44cdff17cbdaacd6ad75dcd4793186064c4d5bd7d3d9c"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_03.npz",
+          "sha256": "edc16be6b5ff1a6be515f9a19113c0423c3b9fb25ee556c779c72505d9876ea9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_Deck.npz",
+          "sha256": "1804058311657c61fa57a1f2278ce8d3aa2cfd12e8859cf69f0f916753985135"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_FloorExtensionLeft.npz",
+          "sha256": "2c8864bbd11df713ef1e956b1cda425a40209f72fdc270c88d56bdbd384a7080"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_FloorExtensionRight.npz",
+          "sha256": "832abd634005e3a4dafb1d0c0a15e7cdbd9c77061ba8c6ea4de69f6de4acbd73"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_TerrainBoundaryClosure.npz",
+          "sha256": "7800068d0ef972a1cb83f80ac385baf04a4423d933d1804fa459ace86bffb217"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallFoundationLeft.npz",
+          "sha256": "0952bcd16d5d113f265cf1b8d48487b918f0067102bf4ae619ee2100c79442d9"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallFoundationRight.npz",
+          "sha256": "f9b4d3eb52e252377872d92b6681c3b44e3c5ff6745b605275e01893b41613d5"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallLeft.npz",
+          "sha256": "04251fcf308529b3b93fd145725ca120e000fe87d319fe0389b185b36e88c99b"
+        },
+        {
+          "path": "data/derived/underpasses/SM_Underpass_Chilco_WallRight.npz",
+          "sha256": "265952202172e06a62764e498076b855d6cb4ab61f414157bf38d82131893b77"
+        }
+      ],
+      "selected_canopy_clusters": 12,
+      "live_review_status": "pending",
+      "accepted": false,
+      "eye_runtime_chainage_m": 9411.0,
+      "target_runtime_chainage_m": 9405.33982052057,
+      "eye_above_route_m": 1.6,
+      "target_floor_height_m": 1.4708972102749864,
+      "junction_runtime_chainage_m": 9387.47,
+      "grade_separated": true
+    }
+  },
+  "unresolved": [],
+  "limitations": [
+    "Centre and sample rays do not prove the whole viewport is visible.",
+    "The source camera check retains the 2022 canopy proxies.",
+    "No image or interactive acceptance is claimed.",
+    "Underpass width, roof extent and interior floor retain the recorded M1 estimate limits."
+  ],
+  "helper_sha256": "4dd3f18f02c8e6c5e170701638bcf7fcdf35222507573ecb25def43d129512e7"
+}

@@ -1,0 +1,1200 @@
+{
+  "schema_version": 1,
+  "revision": "route-sculptures-m1-r1",
+  "assets": [
+    {
+      "name": "SM_Empress_FigureheadEnvelope_00",
+      "feature_id": "SP_empress_japan",
+      "mesh_path": "data/derived/route-sculptures/SM_Empress_FigureheadEnvelope_00.npz",
+      "sha256": "29593c8f89e50c3fb676ad01e17f1fcfe3d9586027c62673a7b0b2fa1ba93d04",
+      "material": "figure_white",
+      "color": [
+        0.77,
+        0.75,
+        0.62
+      ],
+      "collision": "complex",
+      "vertices": 111,
+      "triangles": 38,
+      "bounds_min_m": [
+        1202.2939453125,
+        8.503999710083008,
+        5.120320796966553
+      ],
+      "bounds_max_m": [
+        1204.126953125,
+        10.281000137329102,
+        5.61431884765625
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Empress_FigureheadEnvelope_01",
+      "feature_id": "SP_empress_japan",
+      "mesh_path": "data/derived/route-sculptures/SM_Empress_FigureheadEnvelope_01.npz",
+      "sha256": "ab80a6cbb9583c46aa8b93af7fc6aaf7b409beee09c0b3242bfa6193e84c3fc4",
+      "material": "figure_white",
+      "color": [
+        0.77,
+        0.75,
+        0.62
+      ],
+      "collision": "complex",
+      "vertices": 104,
+      "triangles": 40,
+      "bounds_min_m": [
+        1202.697998046875,
+        9.803000450134277,
+        5.143311977386475
+      ],
+      "bounds_max_m": [
+        1204.2060546875,
+        11.592000007629395,
+        5.9383158683776855
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Empress_FigureheadEnvelope_02",
+      "feature_id": "SP_empress_japan",
+      "mesh_path": "data/derived/route-sculptures/SM_Empress_FigureheadEnvelope_02.npz",
+      "sha256": "a6da4b59b8ead7fa1e6af99196241be130c1bf540e66c5fbfdf79e612c45a165",
+      "material": "figure_white",
+      "color": [
+        0.77,
+        0.75,
+        0.62
+      ],
+      "collision": "complex",
+      "vertices": 100,
+      "triangles": 38,
+      "bounds_min_m": [
+        1203.218994140625,
+        11.100000381469727,
+        5.152313232421875
+      ],
+      "bounds_max_m": [
+        1204.8070068359375,
+        12.784000396728516,
+        6.288312911987305
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Empress_FigureheadEnvelope_03",
+      "feature_id": "SP_empress_japan",
+      "mesh_path": "data/derived/route-sculptures/SM_Empress_FigureheadEnvelope_03.npz",
+      "sha256": "3d5714968c7d62ab836067a759b5afeab328e2f6d345c8d741d164722b661b1d",
+      "material": "figure_white",
+      "color": [
+        0.77,
+        0.75,
+        0.62
+      ],
+      "collision": "complex",
+      "vertices": 80,
+      "triangles": 40,
+      "bounds_min_m": [
+        1203.552001953125,
+        12.312000274658203,
+        5.933307647705078
+      ],
+      "bounds_max_m": [
+        1204.802978515625,
+        14.024999618530273,
+        6.604307651519775
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Empress_StoneBase",
+      "feature_id": "SP_empress_japan",
+      "mesh_path": "data/derived/route-sculptures/SM_Empress_StoneBase.npz",
+      "sha256": "a1ae413f36a40d65e1143afbea4fe6477ff8908fc7f2946ed3ba699fe3421341",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1201.9128222144443,
+        8.252052122663033,
+        3.31
+      ],
+      "bounds_max_m": [
+        1204.2871777855555,
+        12.847947877336969,
+        4.44
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Empress_ConcealedMount",
+      "feature_id": "SP_empress_japan",
+      "mesh_path": "data/derived/route-sculptures/SM_Empress_ConcealedMount.npz",
+      "sha256": "26fd071dbc1d170b1f520b36f511a84f05701c69ef71fa1db8a746d72ad6ae32",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1202.7756346862325,
+        10.175925044218577,
+        4.350432449014022
+      ],
+      "bounds_max_m": [
+        1203.4743653137675,
+        10.874074955781424,
+        5.569567550985978
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_IntertidalBoulder",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_IntertidalBoulder.npz",
+      "sha256": "2b900c4084c484b3e2eb38b10d6682db9ff7a73e7ab96fb358d4e388befd9331",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 582,
+      "triangles": 152,
+      "bounds_min_m": [
+        1244.35595703125,
+        2.615999937057495,
+        -0.9
+      ],
+      "bounds_max_m": [
+        1247.6619873046875,
+        6.357999801635742,
+        2.089899778366089
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Head",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Head.npz",
+      "sha256": "2695272f727b50f2502dc492011fb697eea8995b36cf345108984c5275d6a41e",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 86,
+      "triangles": 168,
+      "bounds_min_m": [
+        1245.78,
+        4.069999999999999,
+        2.455
+      ],
+      "bounds_max_m": [
+        1246.0600000000002,
+        4.37,
+        2.745
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Torso",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Torso.npz",
+      "sha256": "19e4d6f3df74b32f4a68e76c1ef788a9579160a63b24efd55120b3c29b1eed4a",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1245.7435098078029,
+        4.0835990656917405,
+        1.7798386152824421
+      ],
+      "bounds_max_m": [
+        1246.2464901921971,
+        4.6664009343082595,
+        2.4801613847175576
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Neck",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Neck.npz",
+      "sha256": "df0da12317c0b1403ddca36f8b6d80a5e24855981f6bdfd6147e7222a6f9c649",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1245.830420563049,
+        4.13268717498692,
+        2.32688071595028
+      ],
+      "bounds_max_m": [
+        1246.029579436951,
+        4.3573128250130795,
+        2.57311928404972
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Thigh_0",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Thigh_0.npz",
+      "sha256": "de11b372bcd4ca971c8b0dafa4d4bcd305ef722480792e1df85acd5ddf89fe5d",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1245.5793639142917,
+        4.222846746792685,
+        1.692384975539907
+      ],
+      "bounds_max_m": [
+        1246.1206360857084,
+        4.707153253207315,
+        2.027615024460093
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Shin_0",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Shin_0.npz",
+      "sha256": "d8415588c2a18022a7554ced3a7f0c96c3f09e629510b83096ed94405c764e8f",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1245.5008337992158,
+        4.535162232506654,
+        1.3301273253763808
+      ],
+      "bounds_max_m": [
+        1245.7291662007842,
+        4.854837767493346,
+        1.8398726746236194
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Fin_0",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Fin_0.npz",
+      "sha256": "a36c7d466957565595bf6cf9e881a9f7ef30853d0498e5898a0f2a661fc2f1b3",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 86,
+      "triangles": 168,
+      "bounds_min_m": [
+        1245.34,
+        4.63,
+        1.235
+      ],
+      "bounds_max_m": [
+        1245.6000000000001,
+        5.19,
+        1.325
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Arm_0",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Arm_0.npz",
+      "sha256": "821d597eb58b6cbae1bc9792543b6174651a966176a62152e625ce4c1607d99d",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1245.6203904463437,
+        3.9064691266679445,
+        1.8558637405120273
+      ],
+      "bounds_max_m": [
+        1245.9796095536565,
+        4.541530873332055,
+        2.3641362594879727
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Thigh_1",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Thigh_1.npz",
+      "sha256": "324438dce637e76aadb3bff4fc375b60e6f0f8c2400ad2e2447766d53127de3b",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1245.5793639142917,
+        4.542846746792685,
+        1.692384975539907
+      ],
+      "bounds_max_m": [
+        1246.1206360857084,
+        5.027153253207315,
+        2.027615024460093
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Shin_1",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Shin_1.npz",
+      "sha256": "74e19b438f14c41a0bdd98391e4cc05279d13707588a2943f0a2c5e14f912ab7",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1245.5008337992158,
+        4.855162232506654,
+        1.3301273253763808
+      ],
+      "bounds_max_m": [
+        1245.7291662007842,
+        5.174837767493346,
+        1.8398726746236194
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Fin_1",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Fin_1.npz",
+      "sha256": "7684c7df0e97367904d8bee4a117aa4fc5e1d647499b8c814881a4e534ab4395",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 86,
+      "triangles": 168,
+      "bounds_min_m": [
+        1245.34,
+        4.95,
+        1.235
+      ],
+      "bounds_max_m": [
+        1245.6000000000001,
+        5.510000000000001,
+        1.325
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_Wetsuit_Arm_1",
+      "feature_id": "SP_girl_wetsuit",
+      "mesh_path": "data/derived/route-sculptures/SM_Wetsuit_Arm_1.npz",
+      "sha256": "a0b3f00b5b243e39cfbf4affe395c315b2b82dd6d28772f4d62f7498d803034f",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1245.6211090408967,
+        4.440361301734756,
+        1.8636731510495856
+      ],
+      "bounds_max_m": [
+        1245.9788909591034,
+        4.871638698265245,
+        2.3563268489504146
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Plinth",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Plinth.npz",
+      "sha256": "fe1f68deb3912f1dfcb27dedc5ede99df81a5da80e3f316e2a7d107cc2e9cb4f",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1741.5687088254194,
+        -485.9251609866401,
+        5.53
+      ],
+      "bounds_max_m": [
+        1744.2430715224118,
+        -484.0404628449695,
+        6.59
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Head",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Head.npz",
+      "sha256": "a608ec032f0410cdb642798255c69e0e6484fdd89cf5d42af00dcbd6c4fbcb73",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 86,
+      "triangles": 168,
+      "bounds_min_m": [
+        1742.6599999999999,
+        -484.91999999999996,
+        8.530000000000001
+      ],
+      "bounds_max_m": [
+        1742.94,
+        -484.62,
+        8.91
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Neck",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Neck.npz",
+      "sha256": "2f026fa1be2a156ae11d889459bfb82abf705aab0b812f75815c32312c36e4e7",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1742.716251525691,
+        -485.04159951286726,
+        8.320543319630756
+      ],
+      "bounds_max_m": [
+        1743.063748474309,
+        -484.6884004871327,
+        8.679456680369244
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Torso",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Torso.npz",
+      "sha256": "07d7dbcdce56ebe2f9e456b08bc14bec5afe7623f2ad69b2a710b8365b513423",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1742.7771239679203,
+        -485.457641452318,
+        7.595114873479723
+      ],
+      "bounds_max_m": [
+        1743.5628760320797,
+        -484.742358547682,
+        8.574885126520275
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Limb_00",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Limb_00.npz",
+      "sha256": "dd9d73e62b1f1b3dcfede5a9b00dadd73fa7597c45499ca725425fbbc8b47613",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1743.2408971128998,
+        -485.68399614122285,
+        7.161364341814457
+      ],
+      "bounds_max_m": [
+        1743.9691028871,
+        -485.0860038587772,
+        7.868635658185544
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Limb_01",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Limb_01.npz",
+      "sha256": "e0cde81d16b72c71183370176158c956525060de4cd06312c34d8d32a84ced5f",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1743.7520391403034,
+        -485.93126399600624,
+        6.573091255291931
+      ],
+      "bounds_max_m": [
+        1744.1079608596965,
+        -485.44873600399376,
+        7.326908744708069
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Limb_02",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Limb_02.npz",
+      "sha256": "ce1877d20739a651a0872c8f03f107651cadf8c7b930b78ffd88270ba14e0e08",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1742.6140458414225,
+        -485.7499801243549,
+        7.014263893472467
+      ],
+      "bounds_max_m": [
+        1743.4059541585775,
+        -485.1900198756451,
+        7.855736106527533
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Limb_03",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Limb_03.npz",
+      "sha256": "93d9ae02ed1f2178b3464b58b1003223a747b9ef9475f6cbaf0cdaaf633e6378",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1742.6689388642676,
+        -485.8863730021877,
+        6.567955612963379
+      ],
+      "bounds_max_m": [
+        1743.4410611357325,
+        -485.5136269978123,
+        7.202044387036621
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Limb_04",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Limb_04.npz",
+      "sha256": "dee5621747084babe10e5fdaaacadeeb730998e31d7ffd39e27ca6360bddd8f0",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1742.883863917437,
+        -484.87964264001437,
+        7.861958900615217
+      ],
+      "bounds_max_m": [
+        1743.566136082563,
+        -484.42035735998564,
+        8.388041099384784
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Limb_05",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Limb_05.npz",
+      "sha256": "f6795d83b203bb93b8f0f1216372aec00bc4f14fb7137b4c62e48597441172ad",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1743.2513171568426,
+        -484.5699007111595,
+        7.904664715832555
+      ],
+      "bounds_max_m": [
+        1743.5786828431574,
+        -484.2500992888405,
+        8.465335284167445
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Limb_06",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Limb_06.npz",
+      "sha256": "0862cbf73beb59aca43ed696a3de84df48b1bdb079d655581f1f98386084696e",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1742.6108800516902,
+        -485.5789023707553,
+        7.90261640218111
+      ],
+      "bounds_max_m": [
+        1743.20911994831,
+        -485.1410976292447,
+        8.387383597818891
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_HarryJerome_Limb_07",
+      "feature_id": "SP_harry_jerome",
+      "mesh_path": "data/derived/route-sculptures/SM_HarryJerome_Limb_07.npz",
+      "sha256": "beab7ba238ac97aec59f7adef0379edafb4da5fe50c370b3ec9b641ce2dabb00",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1742.2255129590535,
+        -485.56571619315076,
+        7.911303545225747
+      ],
+      "bounds_max_m": [
+        1742.7144870409466,
+        -485.2142838068492,
+        8.248696454774253
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_ShoreToShore_StonePodium",
+      "feature_id": "SP_shore_to_shore",
+      "mesh_path": "data/derived/route-sculptures/SM_ShoreToShore_StonePodium.npz",
+      "sha256": "189b7c6d3d2b22c6fa7b1435eb32f5587535e5ca0af4b5f5408cda9b47c26d37",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 56,
+      "triangles": 108,
+      "bounds_min_m": [
+        1634.0672905815973,
+        -407.36661149282304,
+        3.53
+      ],
+      "bounds_max_m": [
+        1637.767290581597,
+        -403.666611492823,
+        4.25
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_ShoreToShore_CentralForm",
+      "feature_id": "SP_shore_to_shore",
+      "mesh_path": "data/derived/route-sculptures/SM_ShoreToShore_CentralForm.npz",
+      "sha256": "f5b56fdd97efa8395ac9520bcdc2a25e1600bb2151be8ca89bef134a981cec37",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1635.4000387637968,
+        -405.7,
+        4.235177472086771
+      ],
+      "bounds_max_m": [
+        1636.0499612362032,
+        -405.09999999999997,
+        7.354822527913229
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_ShoreToShore_UpperForm",
+      "feature_id": "SP_shore_to_shore",
+      "mesh_path": "data/derived/route-sculptures/SM_ShoreToShore_UpperForm.npz",
+      "sha256": "053b7dbb302d5a9b24d6680535e481f10a4ef125a276cfc888b23894a5593bf9",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 86,
+      "triangles": 168,
+      "bounds_min_m": [
+        1635.55,
+        -405.55,
+        7.29
+      ],
+      "bounds_max_m": [
+        1635.91,
+        -405.15000000000003,
+        8.09
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_ShoreToShore_FigureHead_0",
+      "feature_id": "SP_shore_to_shore",
+      "mesh_path": "data/derived/route-sculptures/SM_ShoreToShore_FigureHead_0.npz",
+      "sha256": "9aba1edcb0004ac83f3b5da55ceeac7bb483c9e1aa13d7ac615b21531b3e7435",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 86,
+      "triangles": 168,
+      "bounds_min_m": [
+        1634.9099999999999,
+        -405.31,
+        5.949999999999999
+      ],
+      "bounds_max_m": [
+        1635.19,
+        -405.03000000000003,
+        6.33
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_ShoreToShore_FigureBody_0",
+      "feature_id": "SP_shore_to_shore",
+      "mesh_path": "data/derived/route-sculptures/SM_ShoreToShore_FigureBody_0.npz",
+      "sha256": "d82f95a6962c1c6754c4a8dc57d32430f5ba249e3e48de55bc2675b6b78320b4",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1634.83,
+        -405.39000000000004,
+        4.36
+      ],
+      "bounds_max_m": [
+        1635.27,
+        -404.95,
+        5.97
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_ShoreToShore_FigureHead_1",
+      "feature_id": "SP_shore_to_shore",
+      "mesh_path": "data/derived/route-sculptures/SM_ShoreToShore_FigureHead_1.npz",
+      "sha256": "673fd40262a1491586602ad7e7415a85a0c00b01f2cbc564473b74f4cb198e46",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 86,
+      "triangles": 168,
+      "bounds_min_m": [
+        1636.01,
+        -405.24,
+        5.949999999999999
+      ],
+      "bounds_max_m": [
+        1636.2900000000002,
+        -404.96000000000004,
+        6.33
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_ShoreToShore_FigureBody_1",
+      "feature_id": "SP_shore_to_shore",
+      "mesh_path": "data/derived/route-sculptures/SM_ShoreToShore_FigureBody_1.npz",
+      "sha256": "13b1eab0ad7dc8503e01200b46c8c506cb6d383a973200a7cdc837ddfca216d7",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1635.93,
+        -405.32000000000005,
+        4.36
+      ],
+      "bounds_max_m": [
+        1636.3700000000001,
+        -404.88,
+        5.97
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_ShoreToShore_FigureHead_2",
+      "feature_id": "SP_shore_to_shore",
+      "mesh_path": "data/derived/route-sculptures/SM_ShoreToShore_FigureHead_2.npz",
+      "sha256": "6dd3717b04f0fad7728cb280c02315c56d5c4389a337d72586119c85e6890580",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 86,
+      "triangles": 168,
+      "bounds_min_m": [
+        1635.6299999999999,
+        -406.24,
+        5.949999999999999
+      ],
+      "bounds_max_m": [
+        1635.91,
+        -405.96000000000004,
+        6.33
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    },
+    {
+      "name": "SM_ShoreToShore_FigureBody_2",
+      "feature_id": "SP_shore_to_shore",
+      "mesh_path": "data/derived/route-sculptures/SM_ShoreToShore_FigureBody_2.npz",
+      "sha256": "7c2713b1a9b30e1d0f7d63fe520cbf2ef371acb2ac880e8b4fd37c8fdfd5058c",
+      "material": "bronze",
+      "color": [
+        0.18,
+        0.22,
+        0.18
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        1635.55,
+        -406.32000000000005,
+        4.36
+      ],
+      "bounds_max_m": [
+        1635.99,
+        -405.88,
+        5.97
+      ],
+      "collision_reason": "Closed source-located M1 envelope. Detailed triangle collision preserves open spaces between limbs and avoids a large invisible blocking box; live contact remains untested."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_empress_japan",
+      "name": "Empress of Japan figurehead",
+      "sources": [
+        "manifests/named-north-sculptures-survey.json",
+        "evidence/corridor/ortho-utm/named-north-sculptures.json",
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=98",
+        "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx"
+      ],
+      "measured": {
+        "centre_local_m": [
+          1203.3,
+          11.3
+        ],
+        "figure_returns": 304,
+        "figure_bounds_m": [
+          [
+            1202.2939453125,
+            8.503999710083008,
+            5.120320796966553
+          ],
+          [
+            1204.8070068359375,
+            14.024999618530273,
+            6.604307651519775
+          ]
+        ],
+        "hull_section_returns": [
+          111,
+          104,
+          100,
+          80
+        ],
+        "placement_correction": "The City registry point is about 695 m east of the actual figurehead. OSM node 1178757953 plus the 2022 ortho and separate rising survey trace identify the current form."
+      },
+      "estimates": {
+        "stone_base_xy_m": [
+          1.35,
+          4.4
+        ],
+        "stone_base_top_h_m": 4.44,
+        "hidden_mount_radius_m": 0.23,
+        "base_angle_degrees": -14
+      },
+      "limits": "Measured coarse figurehead envelope only. Dragon carving, mouth openings, paint, support detail and plaque are unfinished. Sparse airborne undersides are closed by local convex hull sections; this is not an exact artwork replica.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_girl_wetsuit",
+      "name": "Girl in Wetsuit and intertidal boulder",
+      "sources": [
+        "manifests/named-north-sculptures-survey.json",
+        "evidence/corridor/ortho-utm/named-north-sculptures.json",
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=97",
+        "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx"
+      ],
+      "measured": {
+        "centre_local_m": [
+          1245.92,
+          4.22
+        ],
+        "rock_returns": 505,
+        "head_returns": 11,
+        "head_maximum_h_m": 2.7448976039886475,
+        "rock_shell_bounds_m": [
+          [
+            1244.35595703125,
+            2.615999937057495,
+            -0.30211159586906433
+          ],
+          [
+            1247.6619873046875,
+            6.357999801635742,
+            2.089899778366089
+          ]
+        ],
+        "placement_correction": "OSM node 1337999643 plus isolated 2022 intertidal boulder and figure returns replace the incorrect registry search point."
+      },
+      "estimates": {
+        "hidden_rock_base_h_m": -0.9,
+        "body_pose": "Seated figure with bent legs and fins; limb pose, facing, radii and hidden attachment are M1 estimates anchored to the measured head and rock"
+      },
+      "limits": "Distinct boulder and seated figure are present. Face, hands, mask, exact body pose, bolts and submerged concrete ring are unfinished. Body fit uncertainty is about 0.3 m; no survey accuracy claim.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_harry_jerome",
+      "name": "Harry Jerome running statue",
+      "sources": [
+        "manifests/named-harry-jerome-survey.json",
+        "evidence/corridor/ortho-utm/named-harry-jerome.json",
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=162",
+        "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx",
+        "https://vancouver.ca/people-programs/honoring-black-history-in-parks.aspx"
+      ],
+      "measured": {
+        "centre_local_m": [
+          1742.8736339307013,
+          -484.91695444820493
+        ],
+        "plinth_returns": 131,
+        "plinth_outline_m": [
+          [
+            1743.9590680147721,
+            -485.9251609866401
+          ],
+          [
+            1741.5687088254194,
+            -485.4401426243837
+          ],
+          [
+            1741.8527123330593,
+            -484.0404628449695
+          ],
+          [
+            1744.2430715224118,
+            -484.52548120722594
+          ]
+        ],
+        "plinth_top_h_m": 6.59,
+        "head_observed_max_h_m": 8.911,
+        "identity": "Official site identifies the running statue; OSM point and nearby registry agree with the isolated plinth/bronze survey returns."
+      },
+      "estimates": {
+        "plinth_bottom_h_m": 5.53,
+        "limbs": "Runner pose and limb radii are an explicit anatomical envelope estimate; sparse returns constrain head, torso and plinth, not complete joints"
+      },
+      "limits": "M1 runner silhouette and survey plinth only. Exact limb pose, anatomy, facial likeness, finish and plaque remain unfinished; estimated joints are not survey controls.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_shore_to_shore",
+      "name": "Shore to Shore",
+      "sources": [
+        "manifests/named-totem-sculptures-survey.json",
+        "evidence/corridor/ortho-utm/named-totem-sculptures.json",
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=596",
+        "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx",
+        "https://shoretoshore.ca/"
+      ],
+      "measured": {
+        "centre_local_m": [
+          1635.9172905815972,
+          -405.516611492823
+        ],
+        "podium_returns": 126,
+        "podium_top_h_m": 4.25,
+        "upper_observed_h_m": 8.102,
+        "placement_correction": "OSM node 7519548166, circular podium in ortho and isolated bronze returns identify this position; registry point is about 368 m northeast."
+      },
+      "estimates": {
+        "podium_radius_m": 1.82,
+        "figures": "Three simple standing envelopes and central tall form; positions/radii estimated within measured outer envelope"
+      },
+      "limits": "No carving, individual face, garment, exact sculptural pose or stone inscriptions. The three figure count and 14-foot overall composition are supported by the artist; the small body arrangement remains a blockout estimate.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    }
+  ],
+  "acceptance": false,
+  "source_period": "City 2022 survey and imagery; individual official identity references",
+  "target_period": "September 2026",
+  "reference_rights": "City survey derivatives use OGL-Vancouver. Registry metadata does not grant artwork rights. No source photos, carving textures or text inscriptions are distributed.",
+  "input_hashes": {
+    "manifests/named-north-sculptures-survey.json": "025dd2bb27c9d2cbcbe3f21275918b140fa69cb5f801c892985d67cc04a38447",
+    "manifests/named-totem-sculptures-survey.json": "76b63c15278609b35909d37082ae987b11e93b7917dc87f24d0a47ae214907ba",
+    "manifests/named-harry-jerome-survey.json": "7ff04b56e8cc7a1351f9e7d2115e80a3b809f1760f5374adc9ca6f073c024c7b"
+  }
+}

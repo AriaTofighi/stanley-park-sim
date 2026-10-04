@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "revision": "air-india-m1-r2",
+  "assets": [
+    {
+      "name": "SM_AirIndia_CurvedStoneWall",
+      "feature_id": "SP_air_india",
+      "mesh_path": "data/derived/air-india/SM_AirIndia_CurvedStoneWall.npz",
+      "sha256": "6d59ad2dfd92b386f7edb332f8ccbabf361dcd9d0c7b66462f9c0f7998b74383",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 164,
+      "triangles": 324,
+      "bounds_min_m": [
+        -462.33777844674404,
+        -975.1821237893652,
+        6.342778053409594
+      ],
+      "bounds_max_m": [
+        -447.48063807826054,
+        -967.1917985280477,
+        8.508318290710449
+      ],
+      "collision_reason": "Closed narrow wall follows source curve; direct triangle collision, no solid polygon across the memorial garden. Live collision still requires review."
+    },
+    {
+      "name": "SM_AirIndia_StoneCap",
+      "feature_id": "SP_air_india",
+      "mesh_path": "data/derived/air-india/SM_AirIndia_StoneCap.npz",
+      "sha256": "a90174d3dc8f8b9a0e7ba13c3cca12d4e4f4c81fd551708360b2713dfb6e87c3",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 164,
+      "triangles": 324,
+      "bounds_min_m": [
+        -462.3567678059998,
+        -975.2211288877422,
+        7.545939653962041
+      ],
+      "bounds_max_m": [
+        -447.4470010675772,
+        -967.1701524773157,
+        8.64831829071045
+      ],
+      "collision_reason": "Closed narrow wall follows source curve; direct triangle collision, no solid polygon across the memorial garden. Live collision still requires review."
+    },
+    {
+      "name": "SM_AirIndia_LowNameSeat_Base",
+      "feature_id": "SP_air_india",
+      "mesh_path": "data/derived/air-india/SM_AirIndia_LowNameSeat_Base.npz",
+      "sha256": "071e6cfd054656cbd5e180be0e51c484da5c42322bf2d60db6794c586a251ecb",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 108,
+      "triangles": 212,
+      "bounds_min_m": [
+        -461.1380420610788,
+        -969.3063031196016,
+        6.180217322508494
+      ],
+      "bounds_max_m": [
+        -454.5566659630485,
+        -964.937994933949,
+        6.951563346646756
+      ],
+      "collision_reason": "Closed narrow wall follows source curve; direct triangle collision, no solid polygon across the memorial garden. Live collision still requires review."
+    },
+    {
+      "name": "SM_AirIndia_LowNameSeat_StoneTop",
+      "feature_id": "SP_air_india",
+      "mesh_path": "data/derived/air-india/SM_AirIndia_LowNameSeat_StoneTop.npz",
+      "sha256": "611ac75a95a8862f0b5a971ec5baab67859374cfd7eebcedf47ba2acd5cd8758",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 60,
+      "triangles": 116,
+      "bounds_min_m": [
+        -461.16449117897645,
+        -969.3292256884463,
+        6.6357811776127775
+      ],
+      "bounds_max_m": [
+        -457.73321387473175,
+        -966.0007226668833,
+        7.035345853603337
+      ],
+      "collision_reason": "Closed narrow wall follows source curve; direct triangle collision, no solid polygon across the memorial garden. Live collision still requires review."
+    },
+    {
+      "name": "SM_AirIndia_LowNameSeat_TimberTop",
+      "feature_id": "SP_air_india",
+      "mesh_path": "data/derived/air-india/SM_AirIndia_LowNameSeat_TimberTop.npz",
+      "sha256": "735ab67e19848139b815156a52587fa0b94ed104de4bf1736bdbb798306fac79",
+      "material": "wood",
+      "color": [
+        0.4,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 52,
+      "triangles": 100,
+      "bounds_min_m": [
+        -458.0767761587832,
+        -966.6103339536467,
+        6.7299999999999995
+      ],
+      "bounds_max_m": [
+        -454.55185107005383,
+        -964.9033277043878,
+        7.071563346646756
+      ],
+      "collision_reason": "Closed narrow wall follows source curve; direct triangle collision, no solid polygon across the memorial garden. Live collision still requires review."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_air_india",
+      "name": "Air India Memorial main wall and low name/seat arc",
+      "sources": [
+        "https://elac.ca/projects/air-india-memorial/",
+        "https://elac.ca/LEES+Associates/wp-content/uploads/2016/09/IMG_8854-10.jpg",
+        "https://elac.ca/LEES+Associates/wp-content/uploads/2016/09/4326-2.jpg",
+        "https://parkboardmeetings.vancouver.ca/2007/070402/air_india_memorial.pdf",
+        "https://vanmapp1.vancouver.ca/googleKml/stanley_park_monuments/",
+        "data/routes/raw/osm/park-map-20260927.osm",
+        "manifests/named-air-india-survey.json",
+        "evidence/corridor/ortho-utm/named-air-india.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          -454.26927128577944,
+          -972.5566248683887
+        ],
+        "source_way_id": "363402998",
+        "source_way_role": "Curved retaining-wall geometry, independently matched to the narrow survey face and primary memorial photographs",
+        "centreline_local_xy_m": [
+          [
+            -462.2547,
+            -973.2831
+          ],
+          [
+            -458.9862,
+            -975.0461
+          ],
+          [
+            -455.2767,
+            -974.4642
+          ],
+          [
+            -451.9286,
+            -972.7254
+          ],
+          [
+            -449.3783,
+            -970.0067
+          ],
+          [
+            -447.6278,
+            -967.2865
+          ]
+        ],
+        "fitted_wall_length_m": 18.203631419949453,
+        "wall_returns": 372,
+        "crest_stations_m": [
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          14.0,
+          16.0,
+          18.0,
+          20.0
+        ],
+        "crest_heights_cgvd2013_m": [
+          8.64831829071045,
+          8.609522438049316,
+          8.56403045654297,
+          8.506238842010498,
+          8.506238842010498,
+          8.506238842010498,
+          8.506238842010498,
+          8.279385852813721,
+          8.094989776611328,
+          7.6882017135620115,
+          7.676205158233643
+        ],
+        "low_seat_arc": {
+          "centreline_local_xy_m": [
+            [
+              -460.9,
+              -969.1
+            ],
+            [
+              -459.6,
+              -967.6
+            ],
+            [
+              -458.1,
+              -966.4
+            ],
+            [
+              -456.4,
+              -965.5
+            ],
+            [
+              -454.6,
+              -965.25
+            ]
+          ],
+          "length_m": 7.646697186063518,
+          "nearby_low_returns": 67,
+          "height_knots_m": [
+            6.758941411972046,
+            6.774947166442871,
+            6.755452871322632,
+            7.1664605140686035,
+            7.356466293334961,
+            6.85
+          ],
+          "terrain_inputs": [
+            {
+              "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+              "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+            }
+          ],
+          "method": "Narrow raised low-return band north of the wall, matched to the separate stone/timber seat shown in the primary designer photograph. Canopy conceals exact ends."
+        },
+        "photo_inspection": "Read-only Chrome on 2026-09-27: designer photos show tall abrupt west end, stone cap and separate curved low name/seat with timber section. Photos were viewed, not copied into distributed geometry."
+      },
+      "estimates": {
+        "wall_thickness_m": 0.35,
+        "cap_thickness_m": 0.14,
+        "cap_width_m": 0.43,
+        "ground_embed_m": 0.18,
+        "low_seat_width_m": 0.7,
+        "low_seat_position_uncertainty_m": 1.5,
+        "low_seat_height_uncertainty_m": 0.25,
+        "timber_fraction": "About half of the coarse arc, estimated from the photo; exact split and individual slats unfinished",
+        "uncertainty": "At least +/-0.3 m for concealed main-wall face width and crest between sparse returns"
+      },
+      "limits": "Main curved wall plus a source-bounded low name/seat envelope. Exact arc ends, timber split, names, inscriptions, paving stones and masonry detail remain unfinished. Low arc has 1.5 m working position uncertainty. City point is not the model origin. Gazebo retaining curve and north grass strip are not mislabeled as memorial forms. No photo/inscription reproduction licence is inferred.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    }
+  ],
+  "acceptance": false,
+  "source_period": "City 2022 survey/ortho, City2007 design and designer photos uploaded2016; OSM geometry current2026",
+  "target_period": "September2026",
+  "reference_rights": "City survey derivatives OGL-Vancouver; OSM wall line ODbL attributed in source register. Architect photos and text reference only, not distributed.",
+  "input_hashes": {
+    "manifests/named-air-india-survey.json": "623d5af51e1a4c1f78d923d74e1b5ce486cebb0f561a4aef352e7ae18dace8c9"
+  }
+}

@@ -1,0 +1,4217 @@
+{
+  "schema_version": 1,
+  "target_period": "September 2026",
+  "scope": "Named feature inventory seeded from the 2026 City map and complete saved park public-art extract",
+  "sources_cross_checked": [
+    "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+    "https://vancouver.ca/parks-recreation-culture/landmarks-in-stanley-park.aspx",
+    "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx"
+  ],
+  "inventory_complete": false,
+  "inventory_limit": "Named structure and artwork massing is source linked below. Ground spaces, skyline, gates, facilities and route signs have separate registers. See manifests/m1-form-group-crosswalk.json for the current cross-package coverage; named assets alone do not close a whole form group.",
+  "features": [
+    {
+      "id": "SP_air_force_garden",
+      "name": "Air Force Garden of Remembrance",
+      "kind": "garden",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F09",
+      "m1_remaining_task": "Trace named ground spaces and main paths from imagery and official-map context. Individual flowers, beds and statuary detail belong to M4.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_air_india",
+      "name": "Air India Memorial",
+      "kind": "memorial",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://elac.ca/projects/air-india-memorial/",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://elac.ca/LEES+Associates/wp-content/uploads/2016/09/IMG_8854-10.jpg",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://elac.ca/LEES+Associates/wp-content/uploads/2016/09/4326-2.jpg",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://parkboardmeetings.vancouver.ca/2007/070402/air_india_memorial.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://vanmapp1.vancouver.ca/googleKml/stanley_park_monuments/",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "data/routes/raw/osm/park-map-20260927.osm",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-air-india-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-air-india.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        -454.26927128577944,
+        -972.5566248683887
+      ],
+      "position_status": "Mixed source-fit and estimated component positions; group centre is not a survey control",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_AirIndia_CurvedStoneWall",
+        "SM_AirIndia_StoneCap",
+        "SM_AirIndia_LowNameSeat_Base",
+        "SM_AirIndia_LowNameSeat_StoneTop",
+        "SM_AirIndia_LowNameSeat_TimberTop"
+      ],
+      "model_status": "M1 massing contains measured and explicitly bounded estimated components; see component methods and unresolved forms in linked manifests",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F06",
+      "m1_remaining_task": "Identify Third Beach facilities individually, trace both beach/backshore access spaces and the memorial plaza. Existing terrain is only aggregate coast geometry.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_air_india",
+          "local_xy_m": [
+            -454.26927128577944,
+            -972.5566248683887
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/air-india-blockout.json",
+          "sha256": "a8346832da59ecb1e1fba902f000123e0a01af03c0f7229ea444caacc2883813"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Main curved wall plus a source-bounded low name/seat envelope. Exact arc ends, timber split, names, inscriptions, paving stones and masonry detail remain unfinished. Low arc has 1.5 m working position uncertainty. City point is not the model origin. Gazebo retaining curve and north grass strip are not mislabeled as memorial forms. No photo/inscription reproduction licence is inferred."
+      ]
+    },
+    {
+      "id": "SP_beaver_lake",
+      "name": "Beaver Lake",
+      "kind": "water",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        291.12000274658203,
+        165.9199924468994
+      ],
+      "position_status": "Model bounds centre; shoreline is generalized BC FWA geometry",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [
+        "SM_Water_BeaverLake"
+      ],
+      "model_status": "Blockout exists; source acceptance open",
+      "dimension_status": "See individual measured-source manifests; unresolved parts remain flagged",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "access": "Walking loop; no inferred cycle permission from universal access",
+      "named_source_manifests": [
+        {
+          "path": "manifests/water-references.json",
+          "sha256": "5350585ce34101ad4aa7e47de5b0143d3979912a61553c7e399729b399057e1c"
+        },
+        {
+          "path": "manifests/water-levels.json",
+          "sha256": "48a545ce231319916f7927975a611b33ae7b4c022453ee5b4d3ac5729e5a5bd7"
+        }
+      ],
+      "m1_geometry_available": true
+    },
+    {
+      "id": "SP_biofiltration",
+      "name": "Biofiltration Pond",
+      "kind": "wetland",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F07",
+      "m1_remaining_task": "Identify Nature House and its plaza, the fountain support/island under restoration, and the biofiltration pond envelope. Do not render an operating fountain from old photos.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_brockton_light",
+      "name": "Brockton Point Lighthouse",
+      "kind": "structure",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        1893.882110359381,
+        -188.2249065446548
+      ],
+      "position_status": "City 2022 source-fit centre; absolute accuracy unverified",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [
+        "SM_Brockton_ArchReview",
+        "SM_Brockton_Balcony",
+        "SM_Brockton_Lantern",
+        "SM_Brockton_LowerBody",
+        "SM_Brockton_RedBand",
+        "SM_Brockton_Roof",
+        "SM_Brockton_SeawallBaseReview",
+        "SM_Brockton_UpperBody",
+        "SM_Brockton_WalkingPlatformReview"
+      ],
+      "model_status": "Blockout exists; source acceptance open",
+      "dimension_status": "See individual measured-source manifests; unresolved parts remain flagged",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "named_source_manifests": [
+        {
+          "path": "manifests/coastal-landmark-blockouts.json",
+          "sha256": "e334648cc5773764b3d9fc008f5831c6370d6059581801051b2d6d27bd5e24c1"
+        }
+      ],
+      "m1_geometry_available": true
+    },
+    {
+      "id": "SP_chief_undersea",
+      "name": "Chief of the Undersea World",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=81",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_81"
+        }
+      ],
+      "art_registry_id": "81",
+      "position_local_m": [
+        880.4018342894851,
+        -284.2654720833525
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "SP_cob_house",
+      "name": "Cob House",
+      "kind": "building",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://stanleyparkecology.ca/about-stanley-park-ecology/cob-house/",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://bids.vancouver.ca/bidopp/ITT/ITT-PS20150687.htm",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "data/references/station-tender-2015-amd1.pdf",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-train-plaza-south-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-train-buildings.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        658.05,
+        -133.62
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_CobHouse_StoneFoot",
+        "SM_CobHouse_CurvedEarthShell",
+        "SM_CobHouse_WideLivingRoof",
+        "SM_CobHouse_ServiceShutter"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F10",
+      "m1_remaining_task": "Identify Cob House and railway exterior buildings, railway clearing/track envelope, stream and colony area. Do not create arbitrary buildings from map label positions.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_cob_house",
+          "local_xy_m": [
+            658.05,
+            -133.62
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/railway-structure-blockouts.json",
+          "sha256": "311a0fde89c5949acaf9acb082a23c979de078eec2f9ffc434c7ec4f6152da43"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Distinct small curved exterior and living-roof massing. No interior, bottle-window artwork, earth texture, individual stonework or exact serving aperture. Position is supported by two survey/context sources, while footprint regularization and hidden wall geometry remain provisional."
+      ]
+    },
+    {
+      "id": "SP_community_garden",
+      "name": "Community Garden",
+      "kind": "garden",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F09",
+      "m1_remaining_task": "Trace named ground spaces and main paths from imagery and official-map context. Individual flowers, beds and statuary detail belong to M4.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_empress_japan",
+      "name": "Empress of Japan Figurehead",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=98",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_98"
+        },
+        {
+          "path": "manifests/named-north-sculptures-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-north-sculptures.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": "98",
+      "position_local_m": [
+        1203.3,
+        11.3
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Empress_FigureheadEnvelope_00",
+        "SM_Empress_FigureheadEnvelope_01",
+        "SM_Empress_FigureheadEnvelope_02",
+        "SM_Empress_FigureheadEnvelope_03",
+        "SM_Empress_StoneBase",
+        "SM_Empress_ConcealedMount"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F04",
+      "m1_remaining_task": "Confirm each current position against independent ground imagery/survey before a simple silhouette. Defer faces, carving, inscriptions, patina and exact artwork to M4.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_empress_japan",
+          "local_xy_m": [
+            1203.3,
+            11.3
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/route-sculpture-blockouts.json",
+          "sha256": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Measured coarse figurehead envelope only. Dragon carving, mouth openings, paint, support detail and plaque are unfinished. Sparse airborne undersides are closed by local convex hull sections; this is not an exact artwork replica."
+      ]
+    },
+    {
+      "id": "SP_girl_wetsuit",
+      "name": "Girl in a Wetsuit Statue",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=97",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_97"
+        },
+        {
+          "path": "manifests/named-north-sculptures-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-north-sculptures.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": "97",
+      "position_local_m": [
+        1245.92,
+        4.22
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Wetsuit_IntertidalBoulder",
+        "SM_Wetsuit_Head",
+        "SM_Wetsuit_Torso",
+        "SM_Wetsuit_Neck",
+        "SM_Wetsuit_Thigh_0",
+        "SM_Wetsuit_Shin_0",
+        "SM_Wetsuit_Fin_0",
+        "SM_Wetsuit_Arm_0",
+        "SM_Wetsuit_Thigh_1",
+        "SM_Wetsuit_Shin_1",
+        "SM_Wetsuit_Fin_1",
+        "SM_Wetsuit_Arm_1"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F04",
+      "m1_remaining_task": "Confirm each current position against independent ground imagery/survey before a simple silhouette. Defer faces, carving, inscriptions, patina and exact artwork to M4.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_girl_wetsuit",
+          "local_xy_m": [
+            1245.92,
+            4.22
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/route-sculpture-blockouts.json",
+          "sha256": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Distinct boulder and seated figure are present. Face, hands, mask, exact body pose, bolts and submerged concrete ring are unfinished. Body fit uncertainty is about 0.3 m; no survey accuracy claim."
+      ]
+    },
+    {
+      "id": "SP_harry_jerome",
+      "name": "Harry Jerome Statue",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=162",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_162"
+        },
+        {
+          "path": "manifests/named-harry-jerome-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-harry-jerome.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://vancouver.ca/people-programs/honoring-black-history-in-parks.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": "162",
+      "position_local_m": [
+        1742.8736339307013,
+        -484.91695444820493
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_HarryJerome_Plinth",
+        "SM_HarryJerome_Head",
+        "SM_HarryJerome_Neck",
+        "SM_HarryJerome_Torso",
+        "SM_HarryJerome_Limb_00",
+        "SM_HarryJerome_Limb_01",
+        "SM_HarryJerome_Limb_02",
+        "SM_HarryJerome_Limb_03",
+        "SM_HarryJerome_Limb_04",
+        "SM_HarryJerome_Limb_05",
+        "SM_HarryJerome_Limb_06",
+        "SM_HarryJerome_Limb_07"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F04",
+      "m1_remaining_task": "Confirm each current position against independent ground imagery/survey before a simple silhouette. Defer faces, carving, inscriptions, patina and exact artwork to M4.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_harry_jerome",
+          "local_xy_m": [
+            1742.8736339307013,
+            -484.91695444820493
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/route-sculpture-blockouts.json",
+          "sha256": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "M1 runner silhouette and survey plinth only. Exact limb pose, anatomy, facial likeness, finish and plaque remain unfinished; estimated joints are not survey controls."
+      ]
+    },
+    {
+      "id": "SP_heron_colony",
+      "name": "Heron Colony",
+      "kind": "habitat",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F10",
+      "m1_remaining_task": "Identify Cob House and railway exterior buildings, railway clearing/track envelope, stream and colony area. Do not create arbitrary buildings from map label positions.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_hollow_tree",
+      "name": "Hollow Tree",
+      "kind": "natural_landmark",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/trees.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://apt.memberclicks.net/assets/docs/Kalman-42-4.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-hollow-tree-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-hollow-tree.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        -766.3,
+        484.8
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_HollowTree_Shell_00",
+        "SM_HollowTree_TopFlashing_00",
+        "SM_HollowTree_Shell_01",
+        "SM_HollowTree_TopFlashing_01",
+        "SM_HollowTree_Shell_02",
+        "SM_HollowTree_TopFlashing_02",
+        "SM_HollowTree_Shell_03",
+        "SM_HollowTree_TopFlashing_03",
+        "SM_HollowTree_Shell_04",
+        "SM_HollowTree_TopFlashing_04",
+        "SM_HollowTree_Shell_05",
+        "SM_HollowTree_TopFlashing_05",
+        "SM_HollowTree_Shell_06",
+        "SM_HollowTree_TopFlashing_06"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F02",
+      "m1_remaining_task": "Locate and mass the hollow stump and the separate old-searchlight lookout platform. Do not substitute ordinary trees or Siwash Rock itself.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_hollow_tree",
+          "local_xy_m": [
+            -766.3,
+            484.8
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/west-landmark-blockouts.json",
+          "sha256": "5e2e43d1f04992adf5bec8bd2a2ed5ff51bbc2c21c4082acf851998bf49c1d2f"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Recognizable hollow dead-cedar shell, no foliage. East/southeast entrance remains open. Wall thickness, individual cracks, braces, bark and exact cavity are unfinished. The 2011 conservation photos confirm the open shell and top flashing; City 2022 returns set present size. No independent accuracy or runtime acceptance."
+      ]
+    },
+    {
+      "id": "SP_japanese_memorial",
+      "name": "Japanese Canadian War Memorial",
+      "kind": "memorial",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=86",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_86"
+        }
+      ],
+      "art_registry_id": "86",
+      "position_local_m": [
+        803.8355390451616,
+        -165.512425201945
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_geometry_available": false,
+      "m1_scope": "Memorial site identity retained. Inspectable plaza/base massing needed if it affects a public path or a required viewpoint; inscriptions/sculpture detail belong to M4."
+    },
+    {
+      "id": "SP_jubilee",
+      "name": "Jubilee Fountain",
+      "kind": "structure",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=158",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_158"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-jubilee.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-jubilee-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": "158",
+      "position_local_m": [
+        336.47,
+        -771.42
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Jubilee_OctagonalIsland",
+        "SM_Jubilee_RaisedDiamondPlatform",
+        "SM_Jubilee_Perimeter_00",
+        "SM_Jubilee_Perimeter_01",
+        "SM_Jubilee_Perimeter_02",
+        "SM_Jubilee_Perimeter_03",
+        "SM_Jubilee_Perimeter_04",
+        "SM_Jubilee_Perimeter_05",
+        "SM_Jubilee_Perimeter_06",
+        "SM_Jubilee_Perimeter_07",
+        "SM_Jubilee_ServicePlatform",
+        "SM_Jubilee_NorthMaintenancePad"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "condition_override": "Under restoration on the 2026 map. Do not infer an operating fountain from registry In place.",
+      "m1_remaining_group": "M1-F07",
+      "m1_remaining_task": "Identify Nature House and its plaza, the fountain support/island under restoration, and the biofiltration pond envelope. Do not render an operating fountain from old photos.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_jubilee",
+          "local_xy_m": [
+            336.47,
+            -771.42
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/lagoon-structure-blockouts.json",
+          "sha256": "4f801064d341b56f5859c31f4432ace2ecf0441b1c2edcee3d48449c00f79e11"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "No running fountain, dynamic spray or claim of present restoration completion. Structure is not a public walk destination. Distinct major platforms are measured/traced; hidden underwater foundation, nozzle pipework and exact coping detail remain unfinished."
+      ]
+    },
+    {
+      "id": "SP_lord_stanley",
+      "name": "Lord Stanley Statue",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=84",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_84"
+        }
+      ],
+      "art_registry_id": "84",
+      "position_local_m": [
+        569.5601801953744,
+        -590.4397864863276
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "SP_lumberman_arch",
+      "name": "Lumberman's Arch",
+      "kind": "structure",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=99",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_99"
+        },
+        {
+          "url": "https://vancouver.ca/files/cov/MEMO-LumbermansArchClosureInspection-20190201.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://stanleyparkecology.ca/wp-content/uploads/2021/07/ParksCanada_Commemorative-Integrity-Statement-2002.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-lumberman-arch-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-lumberman-wide.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": "99",
+      "position_local_m": [
+        908.1997119140625,
+        -1.83209797044514
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_LumbermanArch_MainLog",
+        "SM_LumbermanArch_SupportLog_00",
+        "SM_LumbermanArch_SupportLog_01",
+        "SM_LumbermanArch_MoundEnvelope"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Inspect the three observed fitted log axes and estimated radii/mound. The second horizontal member named in the 2019 memo remains unresolved; do not count it as complete.",
+      "m1_remaining_group": "M1-F01",
+      "m1_remaining_task": "Locate the actual cedar members under the canopy using close ground reference plus the retained survey crop; fit the four-member form. The concession is a separate building.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_lumberman_arch",
+          "local_xy_m": [
+            908.1997119140625,
+            -1.83209797044514
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/cedar-arch-blockout.json",
+          "sha256": "4e1594dd6e92e4c7e1cbf5cc77f8cbc2e6daca79e25f9e588436742b2461c59e"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "City 2022 returns identify the straight rising main log and two converging support traces. The official registry point was used only as a search aid. Partial airborne shells require estimated radii and end sections. The second horizontal member in the 2019 memo is not isolated; it is not fabricated or counted as complete. Bark, exact concrete/rock support and close structural detail remain unfinished."
+      ]
+    },
+    {
+      "id": "SP_nine_oclock",
+      "name": "Nine O'Clock Gun",
+      "kind": "structure",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://vancouver.ca/images/cov/content/9-O-clock-Gun-Monument.jpg",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://veterans.gc.ca/en/remembrance/memorials/canada/nine-oclock-gun",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-gun-detail.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-nine-clock-gun-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        1855.5855214906223,
+        -506.6422203905256
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_NineClockGun_GabledRoof",
+        "SM_NineClockGun_Post_00",
+        "SM_NineClockGun_Post_01",
+        "SM_NineClockGun_Post_10",
+        "SM_NineClockGun_Post_11",
+        "SM_NineClockGun_Rail_00",
+        "SM_NineClockGun_Rail_01",
+        "SM_NineClockGun_EndRail_00",
+        "SM_NineClockGun_EndRail_01",
+        "SM_NineClockGun_Rail_10",
+        "SM_NineClockGun_Rail_11",
+        "SM_NineClockGun_EndRail_10",
+        "SM_NineClockGun_EndRail_11",
+        "SM_NineClockGun_Rail_20",
+        "SM_NineClockGun_Rail_21",
+        "SM_NineClockGun_EndRail_20",
+        "SM_NineClockGun_EndRail_21",
+        "SM_NineClockGun_Rail_30",
+        "SM_NineClockGun_Rail_31",
+        "SM_NineClockGun_EndRail_30",
+        "SM_NineClockGun_EndRail_31",
+        "SM_NineClockGun_Barrel"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_nine_oclock",
+          "local_xy_m": [
+            1855.5855214906223,
+            -506.6422203905256
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-feature-blockouts.json",
+          "sha256": "7c99271c191f92d6b843f34587b898180ab3500395de2d4403665f92dceab65a"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Open frame massing only; wire mesh, stone support, plaque and carriage need detail. VAC location is an approximate search point, not a survey control."
+      ]
+    },
+    {
+      "id": "SP_painters_circle",
+      "name": "Painters' Circle",
+      "kind": "public_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F09",
+      "m1_remaining_task": "Trace named ground spaces and main paths from imagery and official-map context. Individual flowers, beds and statuary detail belong to M4.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_port_view",
+      "name": "Port of Vancouver Viewpoint",
+      "kind": "viewpoint",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F11",
+      "m1_remaining_task": "Identify Deadman Island roof silhouettes and shore/access boundary, and trace named viewpoint/entrance spaces. Deadman remains closed to public traversal.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_portrait_painters",
+      "name": "Portrait Painters area",
+      "kind": "public_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F09",
+      "m1_remaining_task": "Trace named ground spaces and main paths from imagery and official-map context. Individual flowers, beds and statuary detail belong to M4.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_prospect_light",
+      "name": "Prospect Point Lighthouse",
+      "kind": "structure",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://www.notmar.gc.ca/publications/monthly/archives/eng/services/notmar/western-pdf/wes10e02.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/chs-shc-PAC201-eng-202411-4126986x.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://www.lighthousefriends.com/prospect1_2009.jpg",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-prospect-light.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-prospect-light-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        121.57230220053549,
+        1272.3996566362664
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_ProspectLight_LowerWhite",
+        "SM_ProspectLight_RedBand",
+        "SM_ProspectLight_UpperWhite",
+        "SM_ProspectLight_TopDeck",
+        "SM_ProspectLight_Beacon"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_prospect_light",
+          "local_xy_m": [
+            121.57230220053549,
+            1272.3996566362664
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-feature-blockouts.json",
+          "sha256": "7c99271c191f92d6b843f34587b898180ab3500395de2d4403665f92dceab65a"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "No ladder, door, aerials, rail or operational light. Minor details and hidden sides are estimates. Tower LAS returns are mainly class 5, not class 6."
+      ]
+    },
+    {
+      "id": "SP_prospect_lookout",
+      "name": "Prospect Point Lookout and Cafe",
+      "kind": "viewpoint",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/landmarks-in-stanley-park.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://geonetbc.gov.bc.ca/geonetbc/gcm/details/590034",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/survey-prospect.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-prospect-lookout-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://bids.vancouver.ca/bidopp/ITT/documents/PS20181755-Drawings-ProspectPointPavementConstruction2019.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-prospect-cafe.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-prospect-cafe-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        70.9367429253286,
+        1246.1388276059758
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_ProspectLookout_TerraceSurvey",
+        "SM_ProspectLookout_Parapet_03",
+        "SM_ProspectLookout_Parapet_04",
+        "SM_ProspectLookout_Parapet_05",
+        "SM_ProspectLookout_Parapet_06",
+        "SM_ProspectLookout_Parapet_07",
+        "SM_ProspectLookout_Parapet_08",
+        "SM_ProspectLookout_Parapet_09",
+        "SM_ProspectLookout_Parapet_10",
+        "SM_ProspectLookout_Parapet_11",
+        "SM_ProspectLookout_Parapet_12",
+        "SM_ProspectLookout_Parapet_13",
+        "SM_ProspectCafe_RoofSurvey",
+        "SM_ProspectCafe_WallsReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_prospect_lookout",
+          "local_xy_m": [
+            70.9367429253286,
+            1246.1388276059758
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        },
+        {
+          "component": "SP_prospect_cafe",
+          "local_xy_m": [
+            39.01975059509277,
+            1121.3612365722656
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-feature-blockouts.json",
+          "sha256": "7c99271c191f92d6b843f34587b898180ab3500395de2d4403665f92dceab65a"
+        },
+        {
+          "path": "manifests/named-feature-blockouts.json",
+          "sha256": "7c99271c191f92d6b843f34587b898180ab3500395de2d4403665f92dceab65a"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Three measured height modes and fitted flight envelopes replace noisy raw ground triangulation. Exact stair treads, parapet sections and rails remain unfinished. Terrain boundary closure and live contact require repeat checks.",
+        "2022 roof returns identify the building seen on the City map and 2017/2019 tender. Under-canopy holes, roof eaves and facade details remain approximate. Tender is proposed work, not as-built proof."
+      ]
+    },
+    {
+      "id": "SP_queen_victoria",
+      "name": "Queen Victoria Memorial",
+      "kind": "memorial",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=82",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_82"
+        }
+      ],
+      "art_registry_id": "82",
+      "position_local_m": [
+        635.6264348021359,
+        -603.8981495201588
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_geometry_available": false,
+      "m1_scope": "Memorial site identity retained. Inspectable plaza/base massing needed if it affects a public path or a required viewpoint; inscriptions/sculpture detail belong to M4."
+    },
+    {
+      "id": "SP_restoration_donor",
+      "name": "Restoration Donor Monument",
+      "kind": "memorial",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_geometry_available": false,
+      "m1_scope": "Memorial site identity retained. Inspectable plaza/base massing needed if it affects a public path or a required viewpoint; inscriptions/sculpture detail belong to M4."
+    },
+    {
+      "id": "SP_robert_burns",
+      "name": "Robert Burns Statue",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=83",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_83"
+        }
+      ],
+      "art_registry_id": "83",
+      "position_local_m": [
+        613.4628618278075,
+        -597.1884387442842
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "SP_rock_garden",
+      "name": "Rock Garden",
+      "kind": "garden",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F09",
+      "m1_remaining_task": "Trace named ground spaces and main paths from imagery and official-map context. Individual flowers, beds and statuary detail belong to M4.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_rose_garden",
+      "name": "Rose and Perennial Garden",
+      "kind": "garden",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F09",
+      "m1_remaining_task": "Trace named ground spaces and main paths from imagery and official-map context. Individual flowers, beds and statuary detail belong to M4.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_salmon_stream",
+      "name": "Salmon Demonstration Stream",
+      "kind": "wetland",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F10",
+      "m1_remaining_task": "Identify Cob House and railway exterior buildings, railway clearing/track envelope, stream and colony area. Do not create arbitrary buildings from map label positions.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_shakespeare",
+      "name": "Shakespeare Memorial and Garden",
+      "kind": "garden",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=88",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_88"
+        }
+      ],
+      "art_registry_id": "88",
+      "position_local_m": [
+        496.3070438692812,
+        -288.70038378983736
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F09",
+      "m1_remaining_task": "Trace named ground spaces and main paths from imagery and official-map context. Individual flowers, beds and statuary detail belong to M4.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_siwash",
+      "name": "Siwash Rock",
+      "kind": "natural_landmark",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        -941.926025390625,
+        692.1400146484375
+      ],
+      "position_status": "City 2022 source-fit centre; absolute accuracy unverified",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [
+        "SM_SiwashRock_CrownEnvelope",
+        "SM_SiwashRock_SurveyEnvelope"
+      ],
+      "model_status": "Blockout exists; source acceptance open",
+      "dimension_status": "See individual measured-source manifests; unresolved parts remain flagged",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "named_source_manifests": [
+        {
+          "path": "manifests/coastal-landmark-blockouts.json",
+          "sha256": "e334648cc5773764b3d9fc008f5831c6370d6059581801051b2d6d27bd5e24c1"
+        }
+      ],
+      "m1_geometry_available": true
+    },
+    {
+      "id": "SP_siwash_lookout",
+      "name": "Siwash Rock Viewpoint (Old Searchlight)",
+      "kind": "viewpoint",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/landmarks-in-stanley-park.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://www.vancouvergunners.ca/uploads/2/5/3/2/25322670/photographic_record_of_historical_remains.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://www.vancouvergunners.ca/uploads/2/5/3/2/25322670/stanleypark_docent_package_as_at_27aug_2021.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-siwash-lookout-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-siwash-lookout.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        -927.4586145206115,
+        660.853960166744
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_SiwashLookout_ConcreteRoof",
+        "SM_SiwashLookout_ShelterWall_00",
+        "SM_SiwashLookout_Rail_00_56",
+        "SM_SiwashLookout_Rail_00_108",
+        "SM_SiwashLookout_Post_00",
+        "SM_SiwashLookout_ShelterWall_01",
+        "SM_SiwashLookout_Rail_01_56",
+        "SM_SiwashLookout_Rail_01_108",
+        "SM_SiwashLookout_Post_01",
+        "SM_SiwashLookout_ShelterWall_02",
+        "SM_SiwashLookout_Rail_02_56",
+        "SM_SiwashLookout_Rail_02_108",
+        "SM_SiwashLookout_Post_02",
+        "SM_SiwashLookout_ShelterWall_03",
+        "SM_SiwashLookout_Rail_03_56",
+        "SM_SiwashLookout_Rail_03_108",
+        "SM_SiwashLookout_Post_03",
+        "SM_SiwashLookout_EndPost_03",
+        "SM_SiwashLookout_ShelterWall_04",
+        "SM_SiwashLookout_ShelterWall_05",
+        "SM_SiwashLookout_ShelterWall_06",
+        "SM_SiwashLookout_Rail_06_56",
+        "SM_SiwashLookout_Rail_06_108",
+        "SM_SiwashLookout_Post_06",
+        "SM_SiwashLookout_ShelterWall_07",
+        "SM_SiwashLookout_Rail_07_56",
+        "SM_SiwashLookout_Rail_07_108",
+        "SM_SiwashLookout_Post_07",
+        "SM_SiwashLookout_ShelterWall_08",
+        "SM_SiwashLookout_Rail_08_56",
+        "SM_SiwashLookout_Rail_08_108",
+        "SM_SiwashLookout_Post_08",
+        "SM_SiwashLookout_ShelterWall_09",
+        "SM_SiwashLookout_Rail_09_56",
+        "SM_SiwashLookout_Rail_09_108",
+        "SM_SiwashLookout_Post_09",
+        "SM_SiwashLookout_RaisedApproach",
+        "SM_SiwashApproach_Rail_0_0_56",
+        "SM_SiwashApproach_Rail_0_0_108",
+        "SM_SiwashApproach_Rail_0_1_56",
+        "SM_SiwashApproach_Rail_0_1_108",
+        "SM_SiwashApproach_Rail_0_2_56",
+        "SM_SiwashApproach_Rail_0_2_108",
+        "SM_SiwashApproach_Post_0_0",
+        "SM_SiwashApproach_Post_0_1",
+        "SM_SiwashApproach_Post_0_2",
+        "SM_SiwashApproach_Rail_2_0_56",
+        "SM_SiwashApproach_Rail_2_0_108",
+        "SM_SiwashApproach_Rail_2_1_56",
+        "SM_SiwashApproach_Rail_2_1_108",
+        "SM_SiwashApproach_Rail_2_2_56",
+        "SM_SiwashApproach_Rail_2_2_108",
+        "SM_SiwashApproach_Post_2_0",
+        "SM_SiwashApproach_Post_2_1",
+        "SM_SiwashApproach_Post_2_2",
+        "SM_SiwashApproach_PerimeterRail_0_56",
+        "SM_SiwashApproach_PerimeterRail_0_108",
+        "SM_SiwashApproach_PerimeterRail_1_56",
+        "SM_SiwashApproach_PerimeterRail_1_108",
+        "SM_SiwashApproach_PerimeterPost"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F02",
+      "m1_remaining_task": "Locate and mass the hollow stump and the separate old-searchlight lookout platform. Do not substitute ordinary trees or Siwash Rock itself.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_siwash_lookout",
+          "local_xy_m": [
+            -927.4586145206115,
+            660.853960166744
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        },
+        {
+          "component": "SP_siwash_lookout",
+          "local_xy_m": [
+            -925.549621147651,
+            657.956316361179
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/west-landmark-blockouts.json",
+          "sha256": "5e2e43d1f04992adf5bec8bd2a2ed5ff51bbc2c21c4082acf851998bf49c1d2f"
+        },
+        {
+          "path": "manifests/siwash-approach-blockout.json",
+          "sha256": "662b60d507d97c4225997372a5ccc2ec6871d605734babcaf044f0ac9840b393"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Concrete deck form and height are source-backed. Rail details, window/sill height, wall base and approach transition are blockout estimates. Upper public approach needs terrain/contact review; do not mark this asset walkable from a successful import.",
+        "The raised approach is observed in unclassified survey returns; slab thickness, rail sections and exact edge width remain M1 estimates. The profile is a continuous contact envelope, not a claim of exact stair treads. No terrain cut is required. Terrain-contact values are internal consistency, not independent accuracy."
+      ]
+    },
+    {
+      "id": "SP_pavilion",
+      "name": "Stanley Park Pavilion",
+      "kind": "building",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://stanleyparkpavilion.com/faq/",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-central-buildings.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lidar2022-490000_5460000.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        664.7246301352573,
+        -319.03486301136667
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Named_Pavilion_RoofStepClosures",
+        "SM_Named_Pavilion_RoofSurvey",
+        "SM_Named_Pavilion_WallsReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_pavilion",
+          "local_xy_m": [
+            664.7246301352573,
+            -319.03486301136667
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-building-blockouts.json",
+          "sha256": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Building north of the circular garden, west of Aquarium, at 610 Pipeline Road. Roof survey includes the multiple pitched wings. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished."
+      ]
+    },
+    {
+      "id": "SP_people_amongst",
+      "name": "People Amongst the People",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=424",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_424"
+        },
+        {
+          "url": "https://vancouver.ca/files/cov/people-amongst-the-people-susan-point.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-totem-sculptures-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-totem-sculptures.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": "424",
+      "position_local_m": [
+        1583.8575670646899,
+        -433.8161362156724
+      ],
+      "position_status": "Mixed source-fit and estimated component positions; group centre is not a survey control",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_PeopleSouth_Pier_0",
+        "SM_PeopleSouth_Pier_1",
+        "SM_PeopleSouth_SlopedCrossbeam",
+        "SM_PeopleNorthEstimate_Pier_0",
+        "SM_PeopleNorthEstimate_Pier_1",
+        "SM_PeopleNorthEstimate_SlopedCrossbeam"
+      ],
+      "model_status": "M1 massing contains measured and explicitly bounded estimated components; see component methods and unresolved forms in linked manifests",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F04",
+      "m1_remaining_task": "Confirm each current position against independent ground imagery/survey before a simple silhouette. Defer faces, carving, inscriptions, patina and exact artwork to M4.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_people_amongst",
+          "local_xy_m": [
+            1583.8575670646899,
+            -433.8161362156724
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/totem-precinct-forms.json",
+          "sha256": "6221c1403f663c0d099b9ff2ce081c2c444827709c95327ca27d4945396547cb"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Southern portal is survey fitted; northern portal is a bounded setting/ortho estimate. Southwest portal remains visibly missing, with two candidate areas and the exact missing source control recorded. Carved figures, colour patterns and exact post outlines remain unfinished."
+      ]
+    },
+    {
+      "id": "SP_shore_to_shore",
+      "name": "Shore to Shore",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=596",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_596"
+        },
+        {
+          "path": "manifests/named-totem-sculptures-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-totem-sculptures.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://shoretoshore.ca/",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": "596",
+      "position_local_m": [
+        1635.9172905815972,
+        -405.516611492823
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_ShoreToShore_StonePodium",
+        "SM_ShoreToShore_CentralForm",
+        "SM_ShoreToShore_UpperForm",
+        "SM_ShoreToShore_FigureHead_0",
+        "SM_ShoreToShore_FigureBody_0",
+        "SM_ShoreToShore_FigureHead_1",
+        "SM_ShoreToShore_FigureBody_1",
+        "SM_ShoreToShore_FigureHead_2",
+        "SM_ShoreToShore_FigureBody_2"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F04",
+      "m1_remaining_task": "Confirm each current position against independent ground imagery/survey before a simple silhouette. Defer faces, carving, inscriptions, patina and exact artwork to M4.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_shore_to_shore",
+          "local_xy_m": [
+            1635.9172905815972,
+            -405.516611492823
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/route-sculpture-blockouts.json",
+          "sha256": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "No carving, individual face, garment, exact sculptural pose or stone inscriptions. The three figure count and 14-foot overall composition are supported by the artist; the small body arrangement remains a blockout estimate."
+      ]
+    },
+    {
+      "id": "SP_yelton_pole",
+      "name": "Yelton Memorial Pole",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=563",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights",
+          "source_id": "city_public_art_563"
+        },
+        {
+          "path": "manifests/named-totem-sculptures-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-totem-sculptures.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "data/routes/raw/osm/park-map-20260927.osm",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": "563",
+      "position_local_m": [
+        1585.8,
+        -388.3
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_YeltonMemorial_CoarseProfile",
+        "SM_YeltonMemorial_BroadUpperMember"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F04",
+      "m1_remaining_task": "Confirm each current position against independent ground imagery/survey before a simple silhouette. Defer faces, carving, inscriptions, patina and exact artwork to M4.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_yelton_pole",
+          "local_xy_m": [
+            1585.8,
+            -388.3
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/totem-precinct-forms.json",
+          "sha256": "6221c1403f663c0d099b9ff2ce081c2c444827709c95327ca27d4945396547cb"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Source-located memorial pole envelope only. No carved figures, exact wing contour or painted artwork. Branch returns are excluded by classification and radius but sparse airborne data does not independently certify the body dimensions."
+      ]
+    },
+    {
+      "id": "SP_totem_precinct",
+      "name": "Totem Pole public space",
+      "kind": "public_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://parkboardmeetings.vancouver.ca/2005/050509/brockton_totem_poles_gift_shop_licence.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-east-buildings.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lidar2022-491000_5460000.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-totem-sculptures-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-totem-sculptures.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "data/routes/raw/osm/park-map-20260927.osm",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "data/raw/city/public-art-park-records-0.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=91",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=92",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        1569.6617134712837,
+        -345.7504049765097
+      ],
+      "position_status": "Mixed source-fit and estimated component positions; group centre is not a survey control",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Named_TotemVisitor_RoofStepClosures",
+        "SM_Named_TotemVisitor_RoofSurvey",
+        "SM_Named_TotemVisitor_WallsReview",
+        "SM_TotemMeasured_01_CoarseProfile",
+        "SM_TotemMeasured_02_CoarseProfile",
+        "SM_TotemMeasured_03_CoarseProfile",
+        "SM_TotemMeasured_03_BroadUpperMember",
+        "SM_TotemMeasured_04_CoarseProfile",
+        "SM_TotemMeasured_04_BroadUpperMember",
+        "SM_TotemMeasured_05_CoarseProfile",
+        "SM_TotemMeasured_06_CoarseProfile",
+        "SM_TotemMeasured_06_BroadUpperMember",
+        "SM_ChiefWakasRearEstimate_EstimatedEnvelope",
+        "SM_SkyChiefRearEstimate_EstimatedEnvelope"
+      ],
+      "model_status": "M1 massing contains measured and explicitly bounded estimated components; see component methods and unresolved forms in linked manifests",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_totem_precinct",
+          "local_xy_m": [
+            1569.6617134712837,
+            -345.7504049765097
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        },
+        {
+          "component": "SP_totem_precinct",
+          "local_xy_m": [
+            1614.5,
+            -371.25
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-building-blockouts.json",
+          "sha256": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2"
+        },
+        {
+          "path": "manifests/totem-precinct-forms.json",
+          "sha256": "6221c1403f663c0d099b9ff2ce081c2c444827709c95327ca27d4945396547cb"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Visitor centre at the north-west side of the Totem Pole court. This asset does not stand in for the individual poles or artwork. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+        "Six individually measured open-display forms and two explicitly estimated canopy-hidden rear envelopes. Rear positions have a 2 m working uncertainty and heights have a 2.5 m uncertainty; these are not surveyed dimensions. Name-to-pole crosswalk is provisional where source points conflict. No carving, plaques or visitor barriers; full precinct acceptance is false."
+      ],
+      "m1_remaining_group": "M1-F03",
+      "m1_remaining_task": "Trace the Totem Pole court, visitor approaches and two named field outlines. Building roofs exist; court/field geometry and measured pole silhouettes remain separate."
+    },
+    {
+      "id": "SP_greig_garden",
+      "name": "Ted and Mary Greig Rhododendron Garden",
+      "kind": "garden",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F09",
+      "m1_remaining_task": "Trace named ground spaces and main paths from imagery and official-map context. Individual flowers, beds and statuary detail belong to M4.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_cricket_pavilion",
+      "name": "Brockton Cricket Pavilion and fields",
+      "kind": "building",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://parkboardmeetings.vancouver.ca/2005/050509/brockton_totem_poles_gift_shop_licence.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-east-buildings.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lidar2022-490000_5460000.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        1351.9582981016579,
+        -388.72682003858614
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Named_CricketPavilion_RoofStepClosures",
+        "SM_Named_CricketPavilion_RoofSurvey",
+        "SM_Named_CricketPavilion_WallsReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_cricket_pavilion",
+          "local_xy_m": [
+            1351.9582981016579,
+            -388.72682003858614
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-building-blockouts.json",
+          "sha256": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Pavilion between Brockton Oval and the cricket ground; distinguished from the western oval grandstand. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished."
+      ],
+      "m1_remaining_group": "M1-F03",
+      "m1_remaining_task": "Trace the Totem Pole court, visitor approaches and two named field outlines. Building roofs exist; court/field geometry and measured pole silhouettes remain separate."
+    },
+    {
+      "id": "SP_lawn_bowling",
+      "name": "Stanley Park Lawn Bowling Club",
+      "kind": "public_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F08",
+      "m1_remaining_task": "Trace the meadow, court enclosures, bowling green and golf open-space boundaries; identify visible clubhouse roof forms. Playground equipment and sport simulation are later scope.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_rowing_club",
+      "name": "Vancouver Rowing Club",
+      "kind": "building",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://vancouverrowingclub.ca/Club_Info/VRC_RCS",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-harbour-buildings.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lidar2022-490000_5460000.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        643.1882675426632,
+        -660.0936110512505
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Named_RowingClub_RoofStepClosures",
+        "SM_Named_RowingClub_RoofSurvey",
+        "SM_Named_RowingClub_WallsReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_rowing_club",
+          "local_xy_m": [
+            643.1882675426632,
+            -660.0936110512505
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-building-blockouts.json",
+          "sha256": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Distinct pitched waterfront roof at north-west corner of Coal Harbour, beside the first jetty. Dock and boat geometry is separate. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished."
+      ]
+    },
+    {
+      "id": "SP_yacht_club",
+      "name": "Royal Vancouver Yacht Club",
+      "kind": "building",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://www.royalvan.com/home-ports",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-yacht-full.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-yacht-full-west-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        1165.1712646484375,
+        -785.2220153808594
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_YachtPort_WestWide_RoofSurvey",
+        "SM_YachtPort_WestWide_WallsReview",
+        "SM_YachtPort_WestNarrow_RoofSurvey",
+        "SM_YachtPort_WestNarrow_WallsReview",
+        "SM_YachtPort_WestEnd_RoofSurvey",
+        "SM_YachtPort_WestEnd_WallsReview",
+        "SM_YachtPort_MiddleWestUpper_RoofSurvey",
+        "SM_YachtPort_MiddleWestUpper_WallsReview",
+        "SM_YachtPort_MiddleWestLower_RoofSurvey",
+        "SM_YachtPort_MiddleWestLower_WallsReview",
+        "SM_YachtPort_MiddleEastUpper_RoofSurvey",
+        "SM_YachtPort_MiddleEastUpper_WallsReview",
+        "SM_YachtPort_MiddleEastLower_RoofSurvey",
+        "SM_YachtPort_MiddleEastLower_WallsReview",
+        "SM_YachtPort_LongWest_RoofSurvey",
+        "SM_YachtPort_LongWest_WallsReview",
+        "SM_YachtPort_LongEast_RoofSurvey",
+        "SM_YachtPort_LongEast_WallsReview",
+        "SM_YachtPort_LongEnd_RoofSurvey",
+        "SM_YachtPort_LongEnd_WallsReview",
+        "SM_YachtPort_MainSouth_RoofSurvey",
+        "SM_YachtPort_MainSouth_WallsReview",
+        "SM_YachtPort_SouthOuter_RoofSurvey",
+        "SM_YachtPort_SouthOuter_WallsReview",
+        "SM_YachtPort_SouthInner_RoofSurvey",
+        "SM_YachtPort_SouthInner_WallsReview",
+        "SM_YachtPort_SouthSmall_RoofSurvey",
+        "SM_YachtPort_SouthSmall_WallsReview",
+        "SM_YachtPort_NorthInner_RoofSurvey",
+        "SM_YachtPort_NorthInner_WallsReview",
+        "SM_YachtPort_NorthOuter_RoofSurvey",
+        "SM_YachtPort_NorthOuter_WallsReview",
+        "SM_YachtPort_CentralServiceWest_RoofSurvey",
+        "SM_YachtPort_CentralServiceWest_WallsReview",
+        "SM_YachtPort_CentralServiceMain_RoofSurvey",
+        "SM_YachtPort_CentralServiceMain_WallsReview",
+        "SM_YachtPort_CentralServiceEntrance_RoofSurvey",
+        "SM_YachtPort_CentralServiceEntrance_WallsReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_yacht_club",
+          "local_xy_m": [
+            1165.1712646484375,
+            -785.2220153808594
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-waterfront-blockouts.json",
+          "sha256": "4cedbd2ede75cbb58d696926e1db9d495bb8d12c87d48e05458876703dbc0e0d"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Floating roof groups are measured in City LAS; most are not class 6. Dock level and wall extrusion are provisional. Tide, boats, dock network, piles and individual shed walls need further work. Central service roof is not yet assigned to Mermaid Inn by identity. No marina collision or water alignment acceptance."
+      ]
+    },
+    {
+      "id": "SP_aquarium",
+      "name": "Vancouver Aquarium exterior",
+      "kind": "building",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://www.vanaqua.org/Contact-Us",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-central-buildings.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lidar2022-490000_5460000.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        879.9595733072291,
+        -225.60890639596388
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Named_Aquarium_RoofStepClosures",
+        "SM_Named_Aquarium_RoofSurvey",
+        "SM_Named_Aquarium_WallsReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_aquarium",
+          "local_xy_m": [
+            879.9595733072291,
+            -225.60890639596388
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-building-blockouts.json",
+          "sha256": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Large eastern complex beside Avison Way; outdoor pool courtyards retained as roof gaps; northern service roof included. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished."
+      ]
+    },
+    {
+      "id": "SP_malkin_bowl",
+      "name": "Malkin Bowl",
+      "kind": "structure",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://www.malkinbowl.com/getting-here",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-central-buildings.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lidar2022-490000_5460000.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        696.1708507537842,
+        -429.2608914375305
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Named_MalkinBowl_RoofStepClosures",
+        "SM_Named_MalkinBowl_RoofSurvey",
+        "SM_Named_MalkinBowl_WallsReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_malkin_bowl",
+          "local_xy_m": [
+            696.1708507537842,
+            -429.2608914375305
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-building-blockouts.json",
+          "sha256": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Stage at south end of the open seating lawn; small northern entrance roof opposite Pavilion. Seating and temporary event equipment not modeled. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished."
+      ]
+    },
+    {
+      "id": "SP_water_park",
+      "name": "Variety Kids Water Park",
+      "kind": "public_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F05",
+      "m1_remaining_task": "Trace the hard-surface play area and principal low structures; retain its separate relation to the cedar arch and concession.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_second_pool",
+      "name": "Second Beach Swimming Pool",
+      "kind": "structure",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/second-beach-pool.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-second-pool.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lidar2022-489000_5460000.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-second-pool-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-second-pool-west-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        -560.7836938094347,
+        -768.770452539793
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Named_SecondPoolFacilities_RoofStepClosures",
+        "SM_Named_SecondPoolFacilities_RoofSurvey",
+        "SM_Named_SecondPoolFacilities_WallsReview",
+        "SM_SecondPool_SurfaceReview",
+        "SM_SecondPool_CopingSurvey",
+        "SM_SecondPool_SyntheticSafetyFloor",
+        "SM_SecondPool_BasinContainmentReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_second_pool",
+          "local_xy_m": [
+            -560.7836938094347,
+            -768.770452539793
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        },
+        {
+          "component": "SP_second_pool",
+          "local_xy_m": [
+            -605.8611102600665,
+            -790.9528619367751
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-building-blockouts.json",
+          "sha256": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2"
+        },
+        {
+          "path": "manifests/named-waterfront-blockouts.json",
+          "sha256": "4cedbd2ede75cbb58d696926e1db9d495bb8d12c87d48e05458876703dbc0e0d"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Curved concession/change building north-east of pool, plus small roof near pool deck. Pool basin is a separate form. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+        "Pool floor, depth, railings, slides and fence are not measured models. City says 50 m lane section and 80 m pool length; the traced outer lane edge is 50.65 m, while freeform pool length definition is unresolved. No false scale adjustment was made. Requires terrain cut; no swimming or collision. Closed after 7 September in 2026. A synthetic floor and vertical basin sides prevent fall-through; these do not assert measured pool depth. No perimeter fence model exists yet."
+      ]
+    },
+    {
+      "id": "SP_ceperley",
+      "name": "Ceperley Meadow, field and playground",
+      "kind": "public_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F08",
+      "m1_remaining_task": "Trace the meadow, court enclosures, bowling green and golf open-space boundaries; identify visible clubhouse roof forms. Playground equipment and sport simulation are later scope.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_tennis",
+      "name": "English Bay and Lagoon Drive tennis courts",
+      "kind": "public_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F08",
+      "m1_remaining_task": "Trace the meadow, court enclosures, bowling green and golf open-space boundaries; identify visible clubhouse roof forms. Playground equipment and sport simulation are later scope.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_pitch_putt",
+      "name": "Stanley Park Pitch and Putt",
+      "kind": "public_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F08",
+      "m1_remaining_task": "Trace the meadow, court enclosures, bowling green and golf open-space boundaries; identify visible clubhouse roof forms. Playground equipment and sport simulation are later scope.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_teahouse",
+      "name": "Ferguson Point and Teahouse",
+      "kind": "building",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/stories-from-inside-the-park.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-teahouse.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lidar2022-488000_5460000.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        -1017.4613609313965,
+        -150.85406284332277
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_Named_Teahouse_RoofStepClosures",
+        "SM_Named_Teahouse_RoofSurvey",
+        "SM_Named_Teahouse_WallsReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "component_positions": [
+        {
+          "component": "SP_teahouse",
+          "local_xy_m": [
+            -1017.4613609313965,
+            -150.85406284332277
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-building-blockouts.json",
+          "sha256": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Measured pitched roof and conservatory at the Ferguson Point hairpin. Figure-based registry placements are not used. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished."
+      ]
+    },
+    {
+      "id": "SP_nature_house",
+      "name": "Lost Lagoon Nature House and viewing plaza",
+      "kind": "building",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://stanleyparkecology.ca/2020/07/16/the-new-nature-house-is-open/",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-nature-house.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-nature-house-west-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-nature-house-east-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lagoon-structure-blockouts.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/nature-house-terrain-refinement.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        378.33250000000004,
+        -911.1475
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_NatureHouse_BelowDeckExterior",
+        "SM_NatureHouse_ViewingDeck",
+        "SM_NatureHouse_RailPost_00",
+        "SM_NatureHouse_RailPost_01",
+        "SM_NatureHouse_RailPost_02",
+        "SM_NatureHouse_RailPost_03",
+        "SM_NatureHouse_RailPost_04",
+        "SM_NatureHouse_RailPost_05",
+        "SM_NatureHouse_RailPost_06",
+        "SM_NatureHouse_RailPost_07",
+        "SM_NatureHouse_RailPost_08",
+        "SM_NatureHouse_RailPost_09",
+        "SM_NatureHouse_RailPost_10",
+        "SM_NatureHouse_RailPost_11",
+        "SM_NatureHouse_RailTop_00",
+        "SM_NatureHouse_RailTop_01",
+        "SM_NatureHouse_RailTop_02",
+        "SM_NatureHouse_RailTop_03",
+        "SM_NatureHouse_RailTop_04",
+        "SM_NatureHouse_RailTop_05",
+        "SM_NatureHouse_RailTop_06",
+        "SM_NatureHouse_RailTop_07",
+        "SM_NatureHouse_RailTop_08",
+        "SM_NatureHouse_RailTop_09",
+        "SM_NatureHouse_RailTop_10",
+        "SM_NatureHouse_RearDeckThreshold"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F07",
+      "m1_remaining_task": "Identify Nature House and its plaza, the fountain support/island under restoration, and the biofiltration pond envelope. Do not render an operating fountain from old photos.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_nature_house",
+          "local_xy_m": [
+            378.33250000000004,
+            -911.1475
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        },
+        {
+          "component": "SP_nature_house",
+          "local_xy_m": [
+            379.48,
+            -914.34
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/lagoon-structure-blockouts.json",
+          "sha256": "4f801064d341b56f5859c31f4432ace2ecf0441b1c2edcee3d48449c00f79e11"
+        },
+        {
+          "path": "manifests/nature-house-threshold.json",
+          "sha256": "4811a2181f8bbb249b7a3af980a93ebf81284180a8b3094db761277db58784a0"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Closed building exterior below a measured upper viewing deck; interiors, individual door/window positions and display detail are outside M1. Upper approach requires refine_nature_house_terrain.py before contact acceptance. Rail spacing and concealed foundation are estimated. The current coarse terrain does not prove the two separate public levels.",
+        "The front and side retaining edges remain part of the closed building. Detailed edge railing and exact accessibility grades need live/source review. This threshold does not create a ramp down the western side."
+      ]
+    },
+    {
+      "id": "SP_lost_lagoon",
+      "name": "Lost Lagoon",
+      "kind": "water",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        140.0425033569336,
+        -759.1004943847656
+      ],
+      "position_status": "Model bounds centre; shoreline is generalized BC FWA geometry",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [
+        "SM_Water_LostLagoon"
+      ],
+      "model_status": "Blockout exists; source acceptance open",
+      "dimension_status": "See individual measured-source manifests; unresolved parts remain flagged",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "named_source_manifests": [
+        {
+          "path": "manifests/water-references.json",
+          "sha256": "5350585ce34101ad4aa7e47de5b0143d3979912a61553c7e399729b399057e1c"
+        },
+        {
+          "path": "manifests/water-levels.json",
+          "sha256": "48a545ce231319916f7927975a611b33ae7b4c022453ee5b4d3ac5729e5a5bd7"
+        }
+      ],
+      "m1_geometry_available": true
+    },
+    {
+      "id": "SP_train",
+      "name": "Stanley Park miniature railway exterior",
+      "kind": "structure",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://parkboardmeetings.vancouver.ca/2018/20181001/REPORT-ParkBoardConcessionStrategy-AFreshApproach-20181001.pdf",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/stanley-park-train.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-train-buildings.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://bids.vancouver.ca/bidopp/ITT/ITT-PS20150687.htm",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "data/references/station-tender-2015-amd1.pdf",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://www.rjc.ca/project-details/stanley-park-mini-train-station-and-waiting.html",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-train-plaza-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        695.6263974211937,
+        -154.2405839077262
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_RailwayCafe_RoofSurvey",
+        "SM_RailwayCafe_RoofStepClosures",
+        "SM_RailwayCafe_WallsReview",
+        "SM_RailStation_GableRoof_0",
+        "SM_RailStation_GableRoof_1",
+        "SM_RailStation_Column_0_0",
+        "SM_RailStation_Column_0_1",
+        "SM_RailStation_Column_1_0",
+        "SM_RailStation_Column_1_1",
+        "SM_RailStation_Column_2_0",
+        "SM_RailStation_Column_2_1",
+        "SM_RailStation_EaveBeam_0",
+        "SM_RailStation_EaveBeam_1",
+        "SM_RailQueue_LowRoof",
+        "SM_RailQueue_Column_0_0",
+        "SM_RailQueue_Column_0_1",
+        "SM_RailQueue_Column_0_2",
+        "SM_RailQueue_Column_1_0",
+        "SM_RailQueue_Column_1_1",
+        "SM_RailQueue_Column_1_2",
+        "SM_RailQueue_Column_2_0",
+        "SM_RailQueue_Column_2_1",
+        "SM_RailQueue_Column_2_2",
+        "SM_RailQueue_Column_3_0",
+        "SM_RailQueue_Column_3_1",
+        "SM_RailQueue_Column_3_2"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F10",
+      "m1_remaining_task": "Identify Cob House and railway exterior buildings, railway clearing/track envelope, stream and colony area. Do not create arbitrary buildings from map label positions.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_train",
+          "local_xy_m": [
+            695.6263974211937,
+            -154.2405839077262
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        },
+        {
+          "component": "SP_train",
+          "local_xy_m": [
+            662.5870361751789,
+            -83.33082109958535
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/harbour-interior-building-blockouts.json",
+          "sha256": "ad87bbcd5ca56449e03dda749e3d53ac80ad90785e62c2345ad05ea0a5877617"
+        },
+        {
+          "path": "manifests/railway-structure-blockouts.json",
+          "sha256": "311a0fde89c5949acaf9acb082a23c979de078eec2f9ffc434c7ec4f6152da43"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Measured major roof planes with individually checked identities and orthophoto placement. No interior model. No independent accuracy or live acceptance. This only identifies the Cafe/visitor roof; the separate Cob House, station and waiting shelter need their own forms.",
+        "M1 open structural massing. 2015 tender is not an as-built drawing: eaves/column details, exact pavement grades, railings, queues, platform edge, track operation and station signage remain unfinished. Source roof fit has canopy/multi-return uncertainty; no public train boarding simulation."
+      ]
+    },
+    {
+      "id": "SP_third_beach",
+      "name": "Third Beach and facilities",
+      "kind": "shore_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/third-beach.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/dining-in-stanley-park.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/named-third-beach-survey.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-third-beach.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        -927.6194669283353,
+        65.93719269679143
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_ThirdBeach_FacilitiesRoofSurvey",
+        "SM_ThirdBeach_RoofStepClosures",
+        "SM_ThirdBeach_FacilitiesWallsReview",
+        "SM_ThirdBeach_FacilitiesWallsReview_PathConflict"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "m1_remaining_group": "M1-F06",
+      "m1_remaining_task": "Identify Third Beach facilities individually, trace both beach/backshore access spaces and the memorial plaza. Existing terrain is only aggregate coast geometry.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_third_beach",
+          "local_xy_m": [
+            -927.6194669283353,
+            65.93719269679143
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/west-landmark-blockouts.json",
+          "sha256": "5e2e43d1f04992adf5bec8bd2a2ed5ff51bbc2c21c4082acf851998bf49c1d2f"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "The distinct angled facility roof is individually identified. Forecourt, stairs, parking, beach access and exact facades remain unfinished; this building alone does not complete the Third Beach public-space group."
+      ]
+    },
+    {
+      "id": "SP_second_beach",
+      "name": "Second Beach and facilities",
+      "kind": "shore_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F06",
+      "m1_remaining_task": "Identify Third Beach facilities individually, trace both beach/backshore access spaces and the memorial plaza. Existing terrain is only aggregate coast geometry.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_deadman",
+      "name": "Deadman Island public-view silhouette and access boundary",
+      "kind": "context",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://www.pc.gc.ca/apps/dfhd/page_fhbro_eng.aspx?id=8202",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "url": "https://www.canada.ca/en/navy/services/history/ships-histories/discovery.html",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-deadman-buildings.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": [
+        1438.3542610691748,
+        -823.7830492333658
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "linked_meshes": [
+        "SM_DeadmanAdminDrill_RoofSurvey",
+        "SM_DeadmanAdminDrill_RoofStepClosures",
+        "SM_DeadmanAdminDrill_WallsReview",
+        "SM_DeadmanSouthHall_RoofSurvey",
+        "SM_DeadmanSouthHall_RoofStepClosures",
+        "SM_DeadmanSouthHall_WallsReview",
+        "SM_DeadmanSouthwestHall_RoofSurvey",
+        "SM_DeadmanSouthwestHall_RoofStepClosures",
+        "SM_DeadmanSouthwestHall_WallsReview",
+        "SM_DeadmanGatehouse_RoofSurvey",
+        "SM_DeadmanGatehouse_RoofStepClosures",
+        "SM_DeadmanGatehouse_WallsReview",
+        "SM_DeadmanWestStore_RoofSurvey",
+        "SM_DeadmanWestStore_RoofStepClosures",
+        "SM_DeadmanWestStore_WallsReview"
+      ],
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures",
+      "access": "Closed to the public on the 2026 map; no public navigation edge",
+      "m1_remaining_group": "M1-F11",
+      "m1_remaining_task": "Identify Deadman Island roof silhouettes and shore/access boundary, and trace named viewpoint/entrance spaces. Deadman remains closed to public traversal.",
+      "m1_geometry_available": true,
+      "component_positions": [
+        {
+          "component": "SP_deadman",
+          "local_xy_m": [
+            1438.3542610691748,
+            -823.7830492333658
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "named_source_manifests": [
+        {
+          "path": "manifests/harbour-interior-building-blockouts.json",
+          "sha256": "ad87bbcd5ca56449e03dda749e3d53ac80ad90785e62c2345ad05ea0a5877617"
+        }
+      ],
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Measured major roof planes with individually checked identities and orthophoto placement. No interior model. No independent accuracy or live acceptance. The island is closed to public access; these roofs are public-view silhouettes and do not provide navigation or building contact."
+      ]
+    },
+    {
+      "id": "SP_lions_gate",
+      "name": "Lions Gate Bridge and visible approaches",
+      "kind": "context",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [
+        "SM_LionsGate_Hangers",
+        "SM_LionsGate_MainCables",
+        "SM_LionsGate_NorthBermReview",
+        "SM_LionsGate_NorthFootingReview",
+        "SM_LionsGate_Road",
+        "SM_LionsGate_SouthFootingReview",
+        "SM_LionsGate_Towers",
+        "SM_LionsGate_WalkEast",
+        "SM_LionsGate_WalkWest"
+      ],
+      "model_status": "Blockout exists; source acceptance open",
+      "dimension_status": "See individual measured-source manifests; unresolved parts remain flagged",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_geometry_available": true
+    },
+    {
+      "id": "SP_hallelujah",
+      "name": "Hallelujah Point",
+      "kind": "shore_space",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F11",
+      "m1_remaining_task": "Identify Deadman Island roof silhouettes and shore/access boundary, and trace named viewpoint/entrance spaces. Deadman remains closed to public traversal.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_devonian",
+      "name": "Devonian Harbour Park entrance connection",
+      "kind": "entry",
+      "critical": true,
+      "critical_reason": "Official map feature, route landmark, access feature, or named public space",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        }
+      ],
+      "art_registry_id": null,
+      "position_local_m": null,
+      "position_status": "Individual placement work required",
+      "source_status": "Listed on the 2026 City map",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; GIS review for placement",
+      "next_action": "Compare the individual form, placement and sightlines with dated references",
+      "m1_remaining_group": "M1-F11",
+      "m1_remaining_task": "Identify Deadman Island roof silhouettes and shore/access boundary, and trace named viewpoint/entrance spaces. Deadman remains closed to public traversal.",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "ART_315",
+      "name": "S.S. Beaver Tablet and Cairn",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=315",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "315",
+      "position_local_m": [
+        19.787827296881005,
+        1197.0974003663287
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_103",
+      "name": "David Oppenheimer",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=103",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "103",
+      "position_local_m": [
+        -218.65202469879296,
+        -1343.603782011196
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_445",
+      "name": "Aerodynamic Forms in Space",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=445",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "445",
+      "position_local_m": [
+        492.1829031475354,
+        -882.4589542197064
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_100",
+      "name": "Thunderbird Dynasty Pole",
+      "kind": "art",
+      "critical": false,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=100",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "100",
+      "position_local_m": null,
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "No longer in place",
+      "linked_meshes": [],
+      "model_status": "Excluded from present-day placement pending contrary evidence",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Retain the exclusion record",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "ART_101",
+      "name": "Untitled (Lions: pair)",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=101",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "101",
+      "position_local_m": [
+        84.89686029328732,
+        1034.4417741205543
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_91",
+      "name": "Chief Wakas Pole",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=91",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "91",
+      "position_local_m": [
+        1614.8473700126633,
+        -371.31324625667185
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_93",
+      "name": "Chief Skedans Mortuary Pole",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=93",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "93",
+      "position_local_m": [
+        1619.9216780297575,
+        -380.6597460657358
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_94",
+      "name": "Beaver Crest Pole",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=94",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "94",
+      "position_local_m": [
+        1611.1386118663359,
+        -371.86317095253617
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_533",
+      "name": "Oscar Matilpi Pole",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=533",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "533",
+      "position_local_m": null,
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_534",
+      "name": "Ga'akstalas",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=534",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "534",
+      "position_local_m": null,
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_87",
+      "name": "Harding Memorial Sculpture",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=87",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "87",
+      "position_local_m": [
+        505.63729216728825,
+        -477.04146528057754
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_89",
+      "name": "Thunderbird House Post",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=89",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "89",
+      "position_local_m": [
+        1620.289991960919,
+        -377.6587099386379
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_92",
+      "name": "Sky Chief Pole",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=92",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "92",
+      "position_local_m": [
+        1611.4370721449377,
+        -367.0832830052823
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_96",
+      "name": "Chehalis Cross",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=96",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "96",
+      "position_local_m": [
+        1822.1589086444583,
+        -303.0481557305902
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_102",
+      "name": "Pauline Johnson Memorial",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=102",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "102",
+      "position_local_m": [
+        -984.3788717127172,
+        -125.96709005348384
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_202",
+      "name": "Kakaso'las",
+      "kind": "art",
+      "critical": true,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=202",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "202",
+      "position_local_m": [
+        1616.5127923009568,
+        -375.5404180139303
+      ],
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "In place",
+      "linked_meshes": [],
+      "model_status": "Individual blockout not complete",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Confirm physical presence and obtain model references",
+      "m1_geometry_available": false,
+      "m1_scope": "Identity/source register retained; detailed sculpture and exact artwork production belong to M4. No fabricated marker model."
+    },
+    {
+      "id": "ART_499",
+      "name": "Portal",
+      "kind": "art",
+      "critical": false,
+      "critical_reason": "City public-art inventory; current condition must be confirmed",
+      "sources": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=499",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ],
+      "art_registry_id": "499",
+      "position_local_m": null,
+      "position_status": "Approximate registry point; not accepted",
+      "source_status": "No longer in place",
+      "linked_meshes": [],
+      "model_status": "Excluded from present-day placement pending contrary evidence",
+      "dimension_status": "Measurements and individual references required",
+      "acceptance": false,
+      "owner": "Environment artist; artwork rights review",
+      "next_action": "Retain the exclusion record",
+      "m1_geometry_available": false
+    },
+    {
+      "id": "SP_lumberman_concession",
+      "name": "Lumberman's Arch concession",
+      "kind": "building",
+      "critical": true,
+      "critical_reason": "Individually identified visitor facility beside water park; separate from cedar arch",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://vancouver.ca/parks-recreation-culture/stanley-park-water-park.aspx",
+          "rights": "Reference only; do not distribute page/photo content",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "evidence/corridor/ortho-utm/named-lumberman-wide.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        },
+        {
+          "path": "manifests/lidar2022-490000_5461000.json",
+          "rights": "See linked source record; City derivatives use OGL-Vancouver",
+          "accessed": "2026-09-27"
+        }
+      ],
+      "position_local_m": [
+        853.6943572669901,
+        21.945064631841515
+      ],
+      "position_status": "Individually identified source form in the shared local coordinate system; absolute accuracy remains unverified",
+      "linked_meshes": [
+        "SM_Named_LumbermanConcession_RoofStepClosures",
+        "SM_Named_LumbermanConcession_RoofSurvey",
+        "SM_Named_LumbermanConcession_WallsReview"
+      ],
+      "acceptance": false,
+      "owner": "Environment artist; GIS review",
+      "component_positions": [
+        {
+          "component": "SP_lumberman_concession",
+          "local_xy_m": [
+            853.6943572669901,
+            21.945064631841515
+          ],
+          "meaning": "Survey/model group centre; not a geodetic control"
+        }
+      ],
+      "source_status": "City 2022 survey/imagery cross-checked against official 2026 map and individual identity references",
+      "model_status": "M1 measured massing generated; Blender and runtime inspection remain separate acceptance steps",
+      "dimension_status": "Measured roof/outline data and explicit estimates in linked manifests; M4 facade/art detail unfinished",
+      "named_source_manifests": [
+        {
+          "path": "manifests/named-building-blockouts.json",
+          "sha256": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2"
+        }
+      ],
+      "m1_geometry_available": true,
+      "runtime_inspection_accepted": false,
+      "m1_limits": [
+        "Concession behind water park across Stanley Park Drive. This is not the cedar arch, whose placement remains unresolved. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished."
+      ],
+      "next_action": "Import stable packages; inspect form, source alignment and public-path contact; retain any failures"
+    }
+  ],
+  "totals": {
+    "features": 77,
+    "critical": 75,
+    "linked_blockout_features": 34,
+    "accepted_features": 0
+  },
+  "source_hashes": {
+    "data/routes/raw/official-park-map-2026.pdf": "41ab78e010ab93977788d880cf152e509578e7f2534df112774c6e51758765f0",
+    "data/derived/landmark-registry.json": "eb321efd798df5240b6e04f144c7507fa35e3f9398fec871a9ba395bea8969d8"
+  },
+  "m1_named_geometry_review": "All current map/art records classified; important missing ground forms remain explicit. Linked assets do not imply M1 acceptance.",
+  "m1_remaining_form_groups": [
+    {
+      "id": "M1-F01",
+      "name": "Lumberman cedar arch",
+      "feature_ids": [
+        "SP_lumberman_arch"
+      ],
+      "task": "Locate the actual cedar members under the canopy using close ground reference plus the retained survey crop; fit the four-member form. The concession is a separate building.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": [
+        "SP_lumberman_arch"
+      ]
+    },
+    {
+      "id": "M1-F02",
+      "name": "Hollow Tree and Siwash lookout",
+      "feature_ids": [
+        "SP_hollow_tree",
+        "SP_siwash_lookout"
+      ],
+      "task": "Locate and mass the hollow stump and the separate old-searchlight lookout platform. Do not substitute ordinary trees or Siwash Rock itself.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": [
+        "SP_hollow_tree",
+        "SP_siwash_lookout"
+      ]
+    },
+    {
+      "id": "M1-F03",
+      "name": "Brockton public courts and fields",
+      "feature_ids": [
+        "SP_totem_precinct",
+        "SP_cricket_pavilion"
+      ],
+      "task": "Trace the Totem Pole court, visitor approaches and two named field outlines. Building roofs exist; court/field geometry and measured pole silhouettes remain separate.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": [
+        "SP_totem_precinct",
+        "SP_cricket_pavilion"
+      ]
+    },
+    {
+      "id": "M1-F04",
+      "name": "Route sculpture silhouettes",
+      "feature_ids": [
+        "SP_empress_japan",
+        "SP_girl_wetsuit",
+        "SP_harry_jerome",
+        "SP_shore_to_shore",
+        "SP_people_amongst",
+        "SP_yelton_pole"
+      ],
+      "task": "Confirm each current position against independent ground imagery/survey before a simple silhouette. Defer faces, carving, inscriptions, patina and exact artwork to M4.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": [
+        "SP_empress_japan",
+        "SP_girl_wetsuit",
+        "SP_harry_jerome",
+        "SP_shore_to_shore",
+        "SP_people_amongst",
+        "SP_yelton_pole"
+      ]
+    },
+    {
+      "id": "M1-F05",
+      "name": "North-side water park",
+      "feature_ids": [
+        "SP_water_park"
+      ],
+      "task": "Trace the hard-surface play area and principal low structures; retain its separate relation to the cedar arch and concession.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": []
+    },
+    {
+      "id": "M1-F06",
+      "name": "West coast beach spaces",
+      "feature_ids": [
+        "SP_third_beach",
+        "SP_second_beach",
+        "SP_air_india"
+      ],
+      "task": "Identify Third Beach facilities individually, trace both beach/backshore access spaces and the memorial plaza. Existing terrain is only aggregate coast geometry.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": [
+        "SP_third_beach",
+        "SP_air_india"
+      ]
+    },
+    {
+      "id": "M1-F07",
+      "name": "Lost Lagoon public edge",
+      "feature_ids": [
+        "SP_nature_house",
+        "SP_jubilee",
+        "SP_biofiltration"
+      ],
+      "task": "Identify Nature House and its plaza, the fountain support/island under restoration, and the biofiltration pond envelope. Do not render an operating fountain from old photos.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": [
+        "SP_nature_house",
+        "SP_jubilee"
+      ]
+    },
+    {
+      "id": "M1-F08",
+      "name": "South park recreation grounds",
+      "feature_ids": [
+        "SP_ceperley",
+        "SP_tennis",
+        "SP_pitch_putt",
+        "SP_lawn_bowling"
+      ],
+      "task": "Trace the meadow, court enclosures, bowling green and golf open-space boundaries; identify visible clubhouse roof forms. Playground equipment and sport simulation are later scope.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": []
+    },
+    {
+      "id": "M1-F09",
+      "name": "Gardens and public clearings",
+      "feature_ids": [
+        "SP_air_force_garden",
+        "SP_community_garden",
+        "SP_painters_circle",
+        "SP_portrait_painters",
+        "SP_rock_garden",
+        "SP_rose_garden",
+        "SP_shakespeare",
+        "SP_greig_garden"
+      ],
+      "task": "Trace named ground spaces and main paths from imagery and official-map context. Individual flowers, beds and statuary detail belong to M4.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": []
+    },
+    {
+      "id": "M1-F10",
+      "name": "Interior visitor facilities and habitat",
+      "feature_ids": [
+        "SP_cob_house",
+        "SP_train",
+        "SP_salmon_stream",
+        "SP_heron_colony"
+      ],
+      "task": "Identify Cob House and railway exterior buildings, railway clearing/track envelope, stream and colony area. Do not create arbitrary buildings from map label positions.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": [
+        "SP_cob_house",
+        "SP_train"
+      ]
+    },
+    {
+      "id": "M1-F11",
+      "name": "Harbour edge and entrances",
+      "feature_ids": [
+        "SP_deadman",
+        "SP_hallelujah",
+        "SP_devonian",
+        "SP_port_view"
+      ],
+      "task": "Identify Deadman Island roof silhouettes and shore/access boundary, and trace named viewpoint/entrance spaces. Deadman remains closed to public traversal.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": [
+        "SP_deadman"
+      ]
+    },
+    {
+      "id": "M1-F12",
+      "name": "Distant built silhouettes",
+      "feature_ids": [],
+      "task": "Measure a finite set of visible Downtown/Coal Harbour towers, Canada Place/harbour structures and North Shore port forms from each critical route viewpoint. Regional terrain exists, but no named city skyline assets are exported.",
+      "status": "See current cross-package review in manifests/m1-form-group-crosswalk.json; no acceptance granted by this inventory script",
+      "named_geometry_features": []
+    }
+  ],
+  "finite_named_form_gaps": [
+    {
+      "feature": "SP_totem_precinct",
+      "remaining": "Eight display envelopes plus separate Yelton envelope exist. Two rear forms have estimated dimensions and 2 m position/2.5 m height working uncertainty. Some name-to-pole assignments remain provisional.",
+      "next_action": "Inspect all nine envelopes, retain bounded estimates, and resolve exact carved shapes and identities during detailed art production."
+    },
+    {
+      "feature": "SP_people_amongst",
+      "remaining": "Southern portal is measured and northern portal is a bounded ortho/photo setting estimate. Southwest portal remains unplaced. Candidate boxes [1543,-398,1564,-380] and [1564,-388,1584,-368] fit the official southwest-of-path relation but canopy prevents a unique match.",
+      "next_action": "Retain this missing visible form explicitly. A ground view showing the portal, gift shop and path bend together, or a post-centre site plan, is needed for a supported placement. No arbitrary gate is inserted."
+    },
+    {
+      "feature": "SP_air_india",
+      "remaining": "Main curved wall and low name/seat arc exist. Seat ends, timber split and width are bounded estimates. Associated paving stones and inscriptions remain unfinished.",
+      "next_action": "Inspect source alignment and collision; exact lettering, masonry and timber slats belong to detailed production."
+    },
+    {
+      "feature": "SP_nature_house",
+      "remaining": "v23 lower-front terrain check passed; root reported full facade visible without spikes. Rear threshold numerically joins the actual terrain at a 0.025 m step. Side railing extent and runtime access remain unverified.",
+      "next_action": "Inspect updated upper threshold and runtime contact. Side edges are retaining edges, not ramps; no accessibility-grade certification is claimed."
+    },
+    {
+      "feature": "SP_lumberman_arch",
+      "remaining": "Three observed log axes are modeled; one additional horizontal member described in the memo is unresolved.",
+      "next_action": "Keep the partial source statement visible; obtain a matching view before adding another log."
+    }
+  ]
+}

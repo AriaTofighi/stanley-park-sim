@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "source_names": [
+    "SM_Named_RowingClub_RoofSurvey",
+    "SM_Named_RowingClub_RoofStepClosures",
+    "SM_Named_RowingClub_WallsReview"
+  ],
+  "origin_local_m": [
+    644.0,
+    -661.5,
+    0.0
+  ],
+  "roof_axis_xy": [
+    0.994,
+    0.1094
+  ],
+  "roof_u_extent_m": [
+    -14.0,
+    13.0
+  ],
+  "roof_v_extent_m": [
+    -8.0,
+    8.0
+  ],
+  "ridge_u_extent_m": [
+    -8.0,
+    6.0
+  ],
+  "eave_height_m": 6.85,
+  "ridge_height_m": 16.65,
+  "cross_gables": [
+    {
+      "u_m": -8.5,
+      "half_width_m": 2.6,
+      "front_v_m": -9.0,
+      "back_v_m": -2.5,
+      "front_peak_m": 11.5,
+      "back_peak_m": 14.4
+    },
+    {
+      "u_m": 0.0,
+      "half_width_m": 3.4,
+      "front_v_m": -9.0,
+      "back_v_m": -1.0,
+      "front_peak_m": 13.2,
+      "back_peak_m": 15.9
+    },
+    {
+      "u_m": 8.0,
+      "half_width_m": 2.6,
+      "front_v_m": -8.7,
+      "back_v_m": -2.5,
+      "front_peak_m": 11.5,
+      "back_peak_m": 14.4
+    },
+    {
+      "u_m": -8.5,
+      "half_width_m": 2.6,
+      "front_v_m": 9.0,
+      "back_v_m": 2.5,
+      "front_peak_m": 11.5,
+      "back_peak_m": 14.4
+    },
+    {
+      "u_m": 0.0,
+      "half_width_m": 3.4,
+      "front_v_m": 9.0,
+      "back_v_m": 1.0,
+      "front_peak_m": 13.2,
+      "back_peak_m": 15.9
+    },
+    {
+      "u_m": 8.0,
+      "half_width_m": 2.6,
+      "front_v_m": 8.7,
+      "back_v_m": 2.5,
+      "front_peak_m": 11.5,
+      "back_peak_m": 14.4
+    }
+  ],
+  "materials": [
+    {
+      "name": "Timber",
+      "rgb": [
+        0.11,
+        0.065,
+        0.041
+      ],
+      "roughness": 0.86,
+      "metallic": 0
+    },
+    {
+      "name": "Roof",
+      "rgb": [
+        0.105,
+        0.09,
+        0.075
+      ],
+      "roughness": 0.92,
+      "metallic": 0
+    },
+    {
+      "name": "White",
+      "rgb": [
+        0.72,
+        0.7,
+        0.64
+      ],
+      "roughness": 0.78,
+      "metallic": 0
+    },
+    {
+      "name": "Glass",
+      "rgb": [
+        0.035,
+        0.06,
+        0.075
+      ],
+      "roughness": 0.35,
+      "metallic": 0
+    },
+    {
+      "name": "Deck",
+      "rgb": [
+        0.23,
+        0.18,
+        0.12
+      ],
+      "roughness": 0.91,
+      "metallic": 0
+    }
+  ],
+  "reference_files": [
+    "data/references/m3-landmarks/rowing-club-official-front.jpg",
+    "data/references/m3-landmarks/rowing-club-torecles-2008.jpg",
+    "evidence/corridor/ortho-utm/named-harbour-buildings.json"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vancouverrowingclub.ca/Club_Info/Clubhouse_Info/Clubhouse_Gallery",
+      "image_url": "https://www.vancouverrowingclub.ca/getattachment/9323c3d8-68b9-481b-888f-245e869a6fdb/Club1.aspx",
+      "local_file": "data/references/m3-landmarks/rowing-club-official-front.jpg",
+      "role": "Operator photograph: steep continuous main roof, cross gables, dark timber, pale gable infill and white rails."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_Rowing_Club_Clubhouse_01.jpg",
+      "local_file": "data/references/m3-landmarks/rowing-club-torecles-2008.jpg",
+      "author": "Torecles",
+      "date": "2008-07-28",
+      "license": "CC BY-SA 3.0",
+      "role": "Waterfront side photograph: hipped main roof, three lower cross gables, upper balcony and continuous white deck rail. Used only as a geometry reference; no photo texture is embedded."
+    },
+    {
+      "url": "https://vancouverrowingclub.ca/Club_Info/VRC_RCS",
+      "role": "Operator identifies the 1911 rustic Tudor heritage clubhouse."
+    }
+  ],
+  "limits": [
+    "Continuous roof planes, gable dimensions, wall cladding, windows and rails are visual estimates from photos within the measured source footprint and height range.",
+    "The original measured roof, estimated source walls and closures remain unchanged and are only hidden for rendering.",
+    "Exact facade, doors, stairs, interior, deck use and timber joints are not reconstructed. No collision geometry is changed.",
+    "The retained low deck faces preserve their original coordinates. No reference photograph is used as a material texture."
+  ]
+}

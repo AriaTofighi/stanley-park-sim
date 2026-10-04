@@ -1,0 +1,1855 @@
+{
+  "schema_version": 1,
+  "settings_path": "manifests/lumberman-facility-settings.json",
+  "settings_sha256": "941b96f877b3db4a29087163c6b996bec9439edf44bd962c86fffbc619a1833e",
+  "source_inputs": [
+    {
+      "path": "data/derived/named-lumberman-arch-survey.npz",
+      "sha256": "9db4dcf672c91aaa9b54538c8573e57353d58a446c8a8cfffc16d83699d1dfd3"
+    },
+    {
+      "path": "manifests/named-lumberman-arch-survey.json",
+      "sha256": "4f66af77584d176105beb38353b848ade248bea7e061eb371bd0b2a8df18fe1a"
+    },
+    {
+      "path": "data/raw/facilities/PS20180362-ADD2.pdf",
+      "sha256": "52a2e716a428236d747cea8f787c8c2f66ae2cc2557e14d0e0ef2a09e730e32d"
+    },
+    {
+      "path": "data/raw/corridor/maze-gates-2025.pdf",
+      "sha256": "b85c80b18c50cb7fca205d599de5844df984f0e9d95b6848bad5a00f56171804"
+    },
+    {
+      "path": "data/routes/raw/osm/park-map-20260927.osm",
+      "sha256": "bf0ee22b717a95178a6d8f173cb26f69a08a49a51c23e5cba885c6c597de6f25"
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/named-lumberman-wide.json",
+      "sha256": "989aa88d1cecb701d5fa5dd0c3c5b9c280e3aafe3c1997235db16d1ca5c5b380"
+    }
+  ],
+  "assets": [
+    {
+      "name": "SM_LumbermanFacility_PedestrianFloor",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_PedestrianFloor.npz",
+      "sha256": "c03a077330ddf8fa2b4abf8c37be155d8bfc19269d912c217f5243da35391c46",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        878.3895848350215,
+        28.419514867145608,
+        2.5149719729024205
+      ],
+      "bounds_max_m": [
+        911.4407140844265,
+        59.67705315639277,
+        2.8270465298765823
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_RoadDeck",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_RoadDeck.npz",
+      "sha256": "f1acf5d130182be286b1c0ca29b093026da831567f288d06f41b4496daf1a4e6",
+      "material": "asphalt",
+      "color": [
+        0.12,
+        0.125,
+        0.12
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        880.4043293733394,
+        32.10472916828443,
+        5.561882267707513
+      ],
+      "bounds_max_m": [
+        909.521909762219,
+        56.16732525054628,
+        6.371201840250398
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_WaterparkFacade",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_WaterparkFacade.npz",
+      "sha256": "0a409cfa11db60acc47a55ec355180c2ea2882d63c0806071a4c6933de65a225",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        885.4795668055783,
+        49.72300561437773,
+        2.6567147060500282
+      ],
+      "bounds_max_m": [
+        895.843733351408,
+        56.16732525054628,
+        5.699410247823551
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_ParkFacade",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_ParkFacade.npz",
+      "sha256": "dbf7867c7ab22eca956eab87dc59b662878e7c87d29020e747ac25287c7c94e5",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        880.4043293733394,
+        40.43977530341375,
+        2.6613242352254507
+      ],
+      "bounds_max_m": [
+        890.768495919169,
+        46.88409493958228,
+        5.721201840250398
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_OuterReturn",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_OuterReturn.npz",
+      "sha256": "ec25dab0bb238ba80a6befbfb8b962f9e13801010366fb2631d757a4104eaf05",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        880.5098636110608,
+        46.76948805522426,
+        2.656810556373147
+      ],
+      "bounds_max_m": [
+        885.667641731227,
+        55.97429021572472,
+        5.720748706948516
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_PassageWall",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_PassageWall.npz",
+      "sha256": "5fd6254d44a80faf3cfbf5915635b854b0dd60eff10f4873224ea2762614ffff",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        890.5804209935204,
+        40.6328103382353,
+        2.725722115226048
+      ],
+      "bounds_max_m": [
+        895.7381991136866,
+        49.837612498735766,
+        5.663079360681703
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_ClosedDoor",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_ClosedDoor.npz",
+      "sha256": "12ec54b0c597d9ba409d738ef04d7511137a6009e8309c286a4735fb1bf2da06",
+      "material": "green",
+      "color": [
+        0.24,
+        0.43,
+        0.055
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        890.2708358661636,
+        52.772548814434,
+        2.688761143553077
+      ],
+      "bounds_max_m": [
+        891.1709504577191,
+        53.334507748676025,
+        4.7448550370366736
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_UpperGreenBand",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperGreenBand.npz",
+      "sha256": "75cab7dfa27683e8b7007e22f0e45f429dec8438fa1dca2ca6bab3fab098abc2",
+      "material": "green",
+      "color": [
+        0.24,
+        0.43,
+        0.055
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        885.6544513275151,
+        49.95947074382786,
+        5.120565319477905
+      ],
+      "bounds_max_m": [
+        895.7839770888039,
+        56.141443795446946,
+        5.713561352708548
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_UpperPanel_0",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_0.npz",
+      "sha256": "9de200493fc35cb96dcef54898a48337147c89810ce0a89d3b9582dd1e0f67a9",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        885.731476829019,
+        55.747283967981225,
+        5.234778958818789
+      ],
+      "bounds_max_m": [
+        886.3185557394451,
+        56.11205261244176,
+        5.618132635746196
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_UpperPanel_1",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_1.npz",
+      "sha256": "f5727c917f9c953af5a6a9a48c112776660a5788bf9a92b740ee86a68f764486",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        887.298767876091,
+        54.792226598330984,
+        5.225803820039291
+      ],
+      "bounds_max_m": [
+        887.885846786517,
+        55.156995242791524,
+        5.609157496966699
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_UpperPanel_2",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_2.npz",
+      "sha256": "f8adf97b2ebaeec5a695450e73c2106b464429178dfe27e819c2777122c81a7b",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        888.8660589231631,
+        53.83716922868076,
+        5.216828681259792
+      ],
+      "bounds_max_m": [
+        889.4531378335893,
+        54.20193787314129,
+        5.600182358187201
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_UpperPanel_3",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_3.npz",
+      "sha256": "2b24a5ae2071ae9335d39156004ecbe71a4c54d2376185c25af7957c68c69fdd",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        890.4333499702352,
+        52.882111859030516,
+        5.2078535424802945
+      ],
+      "bounds_max_m": [
+        891.0204288806613,
+        53.246880503491056,
+        5.591207219407702
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_UpperPanel_4",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_4.npz",
+      "sha256": "36be49663b771c0e707d6e4ec88552e2854d73c115957d14682cfabb9a66147a",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        892.0006410173073,
+        51.92705448938028,
+        5.198878403700796
+      ],
+      "bounds_max_m": [
+        892.5877199277334,
+        52.29182313384082,
+        5.582232080628204
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_UpperPanel_5",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_5.npz",
+      "sha256": "34fd6824d18e722edcb57ca2e265bb82a29b57869c1b1473ad181c9921556387",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        893.5679320643794,
+        50.97199711973005,
+        5.1899032649212975
+      ],
+      "bounds_max_m": [
+        894.1550109748055,
+        51.33676576419059,
+        5.573256941848705
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_West_UpperPanel_6",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_West_UpperPanel_6.npz",
+      "sha256": "cfa8a619874b52ef1205e647869d93b630aee128a989bc1e4a5484c6f81450ae",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        895.1352231114515,
+        50.016939750079814,
+        5.180928126141799
+      ],
+      "bounds_max_m": [
+        895.7223020218776,
+        50.38170839454035,
+        5.564281803069207
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_WaterparkFacade",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_WaterparkFacade.npz",
+      "sha256": "b6b1289056987ae04f0926b4bc355141bfc3ba29d977d7a3c0f5d28359b50cf9",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        899.1577432163895,
+        41.387959479248416,
+        2.750312748634614
+      ],
+      "bounds_max_m": [
+        909.521909762219,
+        47.83227911541696,
+        5.621081763929747
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_ParkFacade",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_ParkFacade.npz",
+      "sha256": "719776dd1aa3b11d8878b3039d5ce5754ab36476be788c97892e6fd0991657c3",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        894.0825057841505,
+        32.10472916828443,
+        2.7549222778100364
+      ],
+      "bounds_max_m": [
+        904.4466723299801,
+        38.549048804452966,
+        5.642873356356594
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_OuterReturn",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_OuterReturn.npz",
+      "sha256": "940d0f71ae6f42b38d7f4a04701ca2804cc91e4a976e51fdfa76483c62e31d91",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        904.2585974043313,
+        32.297764203105984,
+        2.8193201578106337
+      ],
+      "bounds_max_m": [
+        909.4163755244977,
+        41.50256636360645,
+        5.5847508767879
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_PassageWall",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_PassageWall.npz",
+      "sha256": "2d3bb4cc687ed839cd59ea3ad66f909263dc5bb55d88215d1509db3a3651ca5f",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        894.1880400218719,
+        38.43444192009494,
+        2.7504085989577325
+      ],
+      "bounds_max_m": [
+        899.345818142038,
+        47.639244080595404,
+        5.642420223054712
+      ],
+      "collision_reason": "Closed physical building or slab envelope"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_ClosedDoor",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_ClosedDoor.npz",
+      "sha256": "db3b93db36858f5cdd1e7c09e2a902cb5e2ebc1aba179a856147dcfc33a09851",
+      "material": "green",
+      "color": [
+        0.24,
+        0.43,
+        0.055
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        903.9490122769747,
+        44.437502679304686,
+        2.7823591861376626
+      ],
+      "bounds_max_m": [
+        904.8491268685301,
+        44.99946161354671,
+        4.838453079621258
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_UpperGreenBand",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperGreenBand.npz",
+      "sha256": "67a8f00febc5edb9ddd0a1c0d3ee5b3a38b6f16f2ec053469dd0015dd789716d",
+      "material": "green",
+      "color": [
+        0.24,
+        0.43,
+        0.055
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        899.332627738326,
+        41.62442460869854,
+        5.042236835584101
+      ],
+      "bounds_max_m": [
+        909.4621534996148,
+        47.80639766031763,
+        5.635232868814745
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_UpperPanel_0",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_0.npz",
+      "sha256": "0c8ff6bc9dc7afb44c3008d8ea202607e877a5390ac3d4a7b4de165d4058d46a",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        899.4096532398299,
+        47.41223783285191,
+        5.156450474924986
+      ],
+      "bounds_max_m": [
+        899.996732150256,
+        47.77700647731244,
+        5.539804151852394
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_UpperPanel_1",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_1.npz",
+      "sha256": "10a53f50a819b8b8a9cf5ac3db692ba01205ccc36cbbbac6bd03fd7b75033681",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        900.976944286902,
+        46.457180463201674,
+        5.1474753361454875
+      ],
+      "bounds_max_m": [
+        901.5640231973281,
+        46.821949107662206,
+        5.5308290130728945
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_UpperPanel_2",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_2.npz",
+      "sha256": "e3ecb21aacf7d6e3bf3fce9809fef004009d49e15f7f68c2997f7a23d0efaa72",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        902.5442353339741,
+        45.50212309355143,
+        5.138500197365989
+      ],
+      "bounds_max_m": [
+        903.1313142444002,
+        45.86689173801197,
+        5.521853874293397
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_UpperPanel_3",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_3.npz",
+      "sha256": "ccedda64c023a915f68bc64c4f85635b6fb187c4e55c40fb28cf4abe08ba8e75",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        904.1115263810462,
+        44.5470657239012,
+        5.12952505858649
+      ],
+      "bounds_max_m": [
+        904.6986052914723,
+        44.91183436836174,
+        5.5128787355138975
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_UpperPanel_4",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_4.npz",
+      "sha256": "d5b2ee814a39fa1f478037b19d349312ed6cd6947ee71406a77f612f41ee03f8",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        905.6788174281182,
+        43.592008354250964,
+        5.120549919806993
+      ],
+      "bounds_max_m": [
+        906.2658963385444,
+        43.956776998711504,
+        5.5039035967344
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_UpperPanel_5",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_5.npz",
+      "sha256": "09d9afab129e7b7564356a108b0f2d925bf5192ee20afc19acf6463520c06ffa",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        907.2461084751905,
+        42.63695098460073,
+        5.111574781027494
+      ],
+      "bounds_max_m": [
+        907.8331873856165,
+        43.00171962906127,
+        5.494928457954902
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_East_UpperPanel_6",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_6.npz",
+      "sha256": "04b39ac3b2aedca7cd33b2e915c7a076e7e9ae0a2f09f2179c59632058932288",
+      "material": "glass",
+      "color": [
+        0.39,
+        0.45,
+        0.38
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        908.8133995222624,
+        41.681893614950496,
+        5.102599642247996
+      ],
+      "bounds_max_m": [
+        909.4004784326885,
+        42.04666225941103,
+        5.485953319175403
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_0",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_0.npz",
+      "sha256": "c3efd64315524dacc42067b5cfc27a1df669bc53eba124fdd9bef848d59c2053",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        885.5151010432998,
+        56.09732525054628,
+        6.34895711452167
+      ],
+      "bounds_max_m": [
+        885.6551010432999,
+        56.23732525054628,
+        7.29895711452167
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_1",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_1.npz",
+      "sha256": "4f1f3b2d464d978fd40f7c55278cf9a8488c90da9b8701aa6c4da3e1ccfc8fd1",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        887.2248730946511,
+        55.055444483655116,
+        6.339166054034944
+      ],
+      "bounds_max_m": [
+        887.3648730946512,
+        55.195444483655116,
+        7.289166054034944
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_2",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_2.npz",
+      "sha256": "297b77f07e2e9fcc1a6cf22a8cf7113ee72db0b8bfacd95e2567e815d2dae5ac",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        888.9346451460025,
+        54.01356371676395,
+        6.329374993548218
+      ],
+      "bounds_max_m": [
+        889.0746451460026,
+        54.15356371676395,
+        7.279374993548219
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_3",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_3.npz",
+      "sha256": "6e3b01ad79f54a9737e532a220d7aff2a80fd5aaee097f122176d0ef53c6f55f",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        890.6444171973538,
+        52.971682949872786,
+        6.319583933061494
+      ],
+      "bounds_max_m": [
+        890.784417197354,
+        53.11168294987279,
+        7.269583933061494
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_4",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_4.npz",
+      "sha256": "5c23250092d31b1bda29f99d8463379ea104754dce5a717c29a4cf65b134b3d0",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        892.3541892487052,
+        51.92980218298162,
+        6.309792872574768
+      ],
+      "bounds_max_m": [
+        892.4941892487053,
+        52.06980218298162,
+        7.259792872574768
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_5",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_5.npz",
+      "sha256": "2c014e8866768d8cb671b0000677e88f8300916f527e8c66668296edaeec0fe3",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        894.0639613000566,
+        50.88792141609045,
+        6.300001812088042
+      ],
+      "bounds_max_m": [
+        894.2039613000567,
+        51.02792141609045,
+        7.250001812088042
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_6",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_6.npz",
+      "sha256": "046889da93b5e9ef3b8c2893aac01fc2a76d2ce48bd32ebadc66bbb445a87e96",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        895.7737333514079,
+        49.84604064919929,
+        6.290210751601317
+      ],
+      "bounds_max_m": [
+        895.913733351408,
+        49.98604064919929,
+        7.240210751601317
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_7",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_7.npz",
+      "sha256": "1debcdab947065057b0f07964e22605ce0e2a2f8e65b8727bb9742ef4289749f",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        897.4835054027593,
+        48.80415988230813,
+        6.2804196911145915
+      ],
+      "bounds_max_m": [
+        897.6235054027594,
+        48.94415988230813,
+        7.230419691114592
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_8",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_8.npz",
+      "sha256": "593c675299b7ce02d5b2bc2cba265560c7f29efee171bba0029b35f7e2bcc354",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        899.1932774541108,
+        47.76227911541696,
+        6.270628630627866
+      ],
+      "bounds_max_m": [
+        899.3332774541109,
+        47.90227911541696,
+        7.220628630627866
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_9",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_9.npz",
+      "sha256": "8de4fdb68149eb6be07de0f66a3f91582dced872b21d9c4d64eb2eddc65a60a9",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        900.903049505462,
+        46.7203983485258,
+        6.260837570141141
+      ],
+      "bounds_max_m": [
+        901.0430495054621,
+        46.8603983485258,
+        7.210837570141141
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_10",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_10.npz",
+      "sha256": "df7d8a70754c1963dc64445caef29bc53522f111ebc95715bcb4816bf32566f0",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        902.6128215568135,
+        45.67851758163463,
+        6.251046509654415
+      ],
+      "bounds_max_m": [
+        902.7528215568136,
+        45.81851758163463,
+        7.201046509654415
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_11",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_11.npz",
+      "sha256": "caaf373c403e4366b225742857f1c509be91b5db343868f5adc90c105d06ecc7",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        904.3225936081648,
+        44.63663681474346,
+        6.2412554491676895
+      ],
+      "bounds_max_m": [
+        904.4625936081649,
+        44.77663681474346,
+        7.19125544916769
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_12",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_12.npz",
+      "sha256": "02c0127850f969090f1a51d7b32c3558636af83030bb9f38432259b8b92a9ada",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        906.0323656595162,
+        43.5947560478523,
+        6.231464388680965
+      ],
+      "bounds_max_m": [
+        906.1723656595163,
+        43.7347560478523,
+        7.181464388680965
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_13",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_13.npz",
+      "sha256": "9765343c67de06aa4439b9eb34661b41ee58c05d05981d854ee8119752ca70b4",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        907.7421377108676,
+        42.55287528096113,
+        6.221673328194239
+      ],
+      "bounds_max_m": [
+        907.8821377108677,
+        42.69287528096113,
+        7.171673328194239
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetPost_14",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_14.npz",
+      "sha256": "1034e70b3ae371bb510dc65f68a866a980c921f2d200efb45ee72215d081f36d",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        909.451909762219,
+        41.51099451406997,
+        6.211882267707513
+      ],
+      "bounds_max_m": [
+        909.5919097622191,
+        41.65099451406997,
+        7.161882267707513
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetRail_0",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetRail_0.npz",
+      "sha256": "f11581147afd026c6dbf465f52952c209e29785afe1252f8bb31cbf33e852237",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        885.5667420802224,
+        41.55101743430264,
+        6.356882686184362
+      ],
+      "bounds_max_m": [
+        909.5402687252964,
+        56.197302330313605,
+        6.56395669604482
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Waterpark_ParapetRail_1",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetRail_1.npz",
+      "sha256": "27b5c5d9a2b2a887659f02134f85f03d6ff6d025ff9d1e4e92d3c6bb88d89567",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        885.5667420802224,
+        41.55101743430264,
+        7.076882686184363
+      ],
+      "bounds_max_m": [
+        909.5402687252964,
+        56.197302330313605,
+        7.283956696044821
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_0",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_0.npz",
+      "sha256": "627ed5c62b95eb9aa567d9bd9093154e70fa3bf380044a98bfcce4a54a7e70bd",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        880.3343293733393,
+        46.62105990476073,
+        6.371201840250398
+      ],
+      "bounds_max_m": [
+        880.4743293733394,
+        46.76105990476073,
+        7.321201840250398
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_1",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_1.npz",
+      "sha256": "defcaff9617e90f0665d039c7c3170608f8d9adfafebc0c41875e36add5752ff",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        882.0441014246908,
+        45.579179137869566,
+        6.3614107797636725
+      ],
+      "bounds_max_m": [
+        882.1841014246909,
+        45.71917913786957,
+        7.311410779763673
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_2",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_2.npz",
+      "sha256": "ab95efb8cc20e7f86f88e24d44ba8c918c22b0fe5f37e607601d6faa4303c68f",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        883.7538734760421,
+        44.5372983709784,
+        6.351619719276947
+      ],
+      "bounds_max_m": [
+        883.8938734760422,
+        44.6772983709784,
+        7.301619719276947
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_3",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_3.npz",
+      "sha256": "74c108fac344b3cdf409560c6fdb0eca8629a125af54adc75d6b6486a6206fc3",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        885.4636455273935,
+        43.495417604087244,
+        6.341828658790222
+      ],
+      "bounds_max_m": [
+        885.6036455273936,
+        43.635417604087245,
+        7.291828658790222
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_4",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_4.npz",
+      "sha256": "65539c9ae3e2330b2727c6405cdac3a18ed4253abb94051ed76efda6eb14d280",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        887.1734175787449,
+        42.453536837196076,
+        6.332037598303496
+      ],
+      "bounds_max_m": [
+        887.313417578745,
+        42.593536837196076,
+        7.282037598303496
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_5",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_5.npz",
+      "sha256": "f849982dbc0aad1e84a9b5f68e518fa5caa96d51a2bc696904765c179d0243a7",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        888.8831896300962,
+        41.41165607030491,
+        6.3222465378167705
+      ],
+      "bounds_max_m": [
+        889.0231896300963,
+        41.55165607030491,
+        7.272246537816771
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_6",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_6.npz",
+      "sha256": "421bdd10abdd9e3d268ea5ff13a589791b79f4e86150d8953a53bbf4409415a2",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        890.5929616814476,
+        40.369775303413746,
+        6.312455477330046
+      ],
+      "bounds_max_m": [
+        890.7329616814477,
+        40.50977530341375,
+        7.262455477330046
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_7",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_7.npz",
+      "sha256": "fd8b43b6255d707bcb9597e4d70886e5e4426f572ff18652a25dfa77f688c42d",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        892.302733732799,
+        39.32789453652258,
+        6.30266441684332
+      ],
+      "bounds_max_m": [
+        892.4427337327991,
+        39.46789453652258,
+        7.25266441684332
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_8",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_8.npz",
+      "sha256": "85c5e454e54dbf4eb5e25287eec9f3f91ffe05a3aef0ddad2cffc532095afbd1",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        894.0125057841504,
+        38.28601376963141,
+        6.292873356356594
+      ],
+      "bounds_max_m": [
+        894.1525057841505,
+        38.42601376963141,
+        7.242873356356594
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_9",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_9.npz",
+      "sha256": "297cb9cdba7479f08196ad6bc968c69e8111808be4155303ee2529c44f156758",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        895.7222778355017,
+        37.24413300274025,
+        6.283082295869869
+      ],
+      "bounds_max_m": [
+        895.8622778355018,
+        37.38413300274025,
+        7.2330822958698695
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_10",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_10.npz",
+      "sha256": "dec471067a392a05189b00b7a231447ba6be369d017f4e6f94672bcf291c8d55",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        897.4320498868532,
+        36.20225223584908,
+        6.273291235383144
+      ],
+      "bounds_max_m": [
+        897.5720498868533,
+        36.34225223584908,
+        7.223291235383144
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_11",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_11.npz",
+      "sha256": "eecec25f9d3febb11aab2be0f8b38fc688f8796af810ad52a91864fff8396bfc",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        899.1418219382044,
+        35.16037146895792,
+        6.263500174896418
+      ],
+      "bounds_max_m": [
+        899.2818219382045,
+        35.30037146895792,
+        7.213500174896418
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_12",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_12.npz",
+      "sha256": "16876561a98127a5689fd5e9f121f9c7569629d46fd3ef71e3ab86ce61d8b854",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        900.8515939895559,
+        34.11849070206676,
+        6.253709114409693
+      ],
+      "bounds_max_m": [
+        900.991593989556,
+        34.25849070206676,
+        7.203709114409693
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_13",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_13.npz",
+      "sha256": "9431f1dba8a989de2e2f2f33cba536f8917cc659f2e313dd897e577d1aa19be0",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        902.5613660409072,
+        33.07660993517559,
+        6.243918053922967
+      ],
+      "bounds_max_m": [
+        902.7013660409073,
+        33.21660993517559,
+        7.1939180539229675
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetPost_14",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_14.npz",
+      "sha256": "a0c2b96b5c9af4dc81664e004f99d277f5b27a362b025db5b52bb88ac01f107e",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        904.2711380922586,
+        32.03472916828443,
+        6.2341269934362415
+      ],
+      "bounds_max_m": [
+        904.4111380922587,
+        32.17472916828443,
+        7.184126993436242
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetRail_0",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetRail_0.npz",
+      "sha256": "739cf7ebf2dd0379de5e8abd9edb435df42aafef3948693d849a8b9e2b40ab7a",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        880.385970410262,
+        32.0747520885171,
+        6.379127411913091
+      ],
+      "bounds_max_m": [
+        904.3594970553361,
+        46.721036984528055,
+        6.5862014217735485
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    },
+    {
+      "name": "SM_LumbermanFacility_Park_ParapetRail_1",
+      "feature_id": "SP_lumberman_washrooms",
+      "mesh_path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetRail_1.npz",
+      "sha256": "9a971caff1631ff66a4617a8e7ad3c28d42b6fe33a0a9e2feee66f9710981224",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        880.385970410262,
+        32.0747520885171,
+        7.099127411913091
+      ],
+      "bounds_max_m": [
+        904.3594970553361,
+        46.721036984528055,
+        7.306201421773549
+      ],
+      "collision_reason": "Small facade/rail detail; no separate collision"
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_lumberman_washrooms",
+      "name": "Lumberman’s Arch below-road washrooms and pedestrian underpass",
+      "replace_cover_ids": [],
+      "limits": "M1 massing: interior rooms omitted, central pedestrian passage open. Hidden width, slab depth, facade spans, door/window layout and rails are estimates. No current facade survey or independent accuracy control.",
+      "source_identity_verified": true,
+      "release_accepted": false
+    }
+  ],
+  "replacement_footprints_path": "data/derived/lumberman-facilities/replacement-footprints-local.geojson",
+  "replacement_footprints_sha256": "38001dea7abc1af8b3920f1d01d792bab038a7e3b968e9462a5225b6726bbdab",
+  "plane_convention": "z=coef[0]+coef[1]*u+coef[2]*v; localXY=origin+road_u*u+waterpark_v*(v+skew*u)",
+  "frame": {
+    "origin": [
+      895.155,
+      44.487
+    ],
+    "road_u": [
+      0.8774319764616246,
+      -0.479701080551886
+    ],
+    "waterpark_v": [
+      0.479701080551886,
+      0.8774319764616246
+    ],
+    "skew": -0.047
+  },
+  "road_plane_coefficients": [
+    6.290718175248262,
+    -0.004895530243362716,
+    -0.0020596968267340594
+  ],
+  "road_fit": {
+    "candidate_returns": 3919,
+    "inliers": 3579,
+    "rms_m": 0.024144437035815196,
+    "p95_m": 0.05065807263595241
+  },
+  "floor_plane_coefficients": [
+    2.7407914097460506,
+    0.005849877661536602,
+    -0.0004356832869019292
+  ],
+  "floor_fit": {
+    "candidate_returns": 1594,
+    "inliers": 1572,
+    "rms_m": 0.023853886584037098,
+    "p95_m": 0.05182505396070237
+  },
+  "floor_controls": [
+    {
+      "id": "floor_0",
+      "xy_local_m": [
+        888.6482171431297,
+        36.754561002274926
+      ],
+      "z_cgvd2013_m": 2.7334484872919966,
+      "uv_m": [
+        -2.0,
+        -10.0
+      ]
+    },
+    {
+      "id": "floor_1",
+      "xy_local_m": [
+        892.0677612458326,
+        34.67079946849259
+      ],
+      "z_cgvd2013_m": 2.756847997938143,
+      "uv_m": [
+        2.0,
+        -10.0
+      ]
+    },
+    {
+      "id": "floor_2",
+      "xy_local_m": [
+        897.7625376736155,
+        53.42576855504579
+      ],
+      "z_cgvd2013_m": 2.72517050484086,
+      "uv_m": [
+        -2.0,
+        9.0
+      ]
+    },
+    {
+      "id": "floor_3",
+      "xy_local_m": [
+        901.1820817763183,
+        51.342007021263456
+      ],
+      "z_cgvd2013_m": 2.7485700154870063,
+      "uv_m": [
+        2.0,
+        9.0
+      ]
+    },
+    {
+      "id": "floor_4",
+      "xy_local_m": [
+        892.372733732799,
+        39.39789453652258
+      ],
+      "z_cgvd2013_m": 2.743318372810082,
+      "uv_m": [
+        0,
+        -5.8
+      ]
+    },
+    {
+      "id": "floor_5",
+      "xy_local_m": [
+        897.5535054027594,
+        48.87415988230813
+      ],
+      "z_cgvd2013_m": 2.738612993311541,
+      "uv_m": [
+        0,
+        5.0
+      ]
+    }
+  ],
+  "roof_controls": [
+    {
+      "id": "deck_0",
+      "xy_local_m": [
+        880.4043293733394,
+        46.69105990476073
+      ],
+      "top_cgvd2013_m": 6.371201840250398,
+      "underside_cgvd2013_m": 5.721201840250398,
+      "uv_m": [
+        -14.0,
+        -5.8
+      ]
+    },
+    {
+      "id": "deck_1",
+      "xy_local_m": [
+        904.3411380922587,
+        32.10472916828443
+      ],
+      "top_cgvd2013_m": 6.2341269934362415,
+      "underside_cgvd2013_m": 5.584126993436241,
+      "uv_m": [
+        14.0,
+        -5.8
+      ]
+    },
+    {
+      "id": "deck_2",
+      "xy_local_m": [
+        909.521909762219,
+        41.58099451406997
+      ],
+      "top_cgvd2013_m": 6.211882267707513,
+      "underside_cgvd2013_m": 5.561882267707513,
+      "uv_m": [
+        14.0,
+        5.0
+      ]
+    },
+    {
+      "id": "deck_3",
+      "xy_local_m": [
+        885.5851010432998,
+        56.16732525054628
+      ],
+      "top_cgvd2013_m": 6.34895711452167,
+      "underside_cgvd2013_m": 5.6989571145216695,
+      "uv_m": [
+        -14.0,
+        5.0
+      ]
+    },
+    {
+      "id": "deck_4",
+      "xy_local_m": [
+        895.155,
+        44.487
+      ],
+      "top_cgvd2013_m": 6.290718175248262,
+      "underside_cgvd2013_m": 5.640718175248262,
+      "uv_m": [
+        0,
+        0
+      ]
+    }
+  ],
+  "minimum_estimated_clearance_m": 2.8703158819932515,
+  "opening_width_estimate_m": 4.0,
+  "geometry_checks": {
+    "finite": true,
+    "nondegenerate": true,
+    "minimum_clearance_above_2_4m": true
+  },
+  "required_integration": [
+    "Cut the explicit ground/pedestrian footprint and road-deck replacement area, then stitch floor perimeter and deck edges.",
+    "Keep seawall cycling pavement untouched. The lower passage belongs to the pedestrian footway, not the main cycling loop.",
+    "Review terrace levels, portal view and all seams in Blender, then walk through and cross the road deck in the application."
+  ],
+  "licences": {
+    "lidar": "City Open Government Licence Vancouver",
+    "osm": "ODbL-1.0; attribution © OpenStreetMap contributors",
+    "reference_documents": "Reference only; PDF/photo pixels not incorporated or redistributed"
+  },
+  "release_accepted": false,
+  "application_review": "not run"
+}

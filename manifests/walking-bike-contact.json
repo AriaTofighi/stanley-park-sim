@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "coordinate_contract": "bicycle_local_forward_right_up_cm",
+  "source_path": "pipeline/blender/build_kit.py",
+  "source_sha256": "c24d38820f8cfc6588aa6c51b126ebff7e187dab7e5ab46ab3805db7d0553149",
+  "scope": "M1 approximate walking bicycle clearance, centred frame and unsteered front wheel; root rider capsule remains active",
+  "wheel_source": {
+    "hub_forward_cm": [
+      -55,
+      55
+    ],
+    "hub_height_cm": 34,
+    "torus_major_radius_cm": 32,
+    "tyre_radius_cm": 2.3
+  },
+  "handlebar_source": {
+    "forward_cm": 38,
+    "height_cm": 106,
+    "half_width_cm": 31
+  },
+  "omitted_contact": "Bottom120 degrees of tyres: support traces handle ground contact. This is not full bicycle rigid-body collision.",
+  "wheel_probe_outer_skin_cm": 1.2,
+  "minimum_level_probe_bottom_above_frame_base_cm": 12.5,
+  "maximum_rotation_segment_degrees": 2.0,
+  "frame_origin_below_actor_cm": 70.0,
+  "probes": [
+    {
+      "id": "front_rim_-30",
+      "centre_cm": [
+        79.2487113,
+        0.0,
+        20.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_-15",
+      "centre_cm": [
+        82.0459231,
+        0.0,
+        26.7530667
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_0",
+      "centre_cm": [
+        83.0,
+        0.0,
+        34.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_15",
+      "centre_cm": [
+        82.0459231,
+        0.0,
+        41.2469333
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_30",
+      "centre_cm": [
+        79.2487113,
+        0.0,
+        48.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_45",
+      "centre_cm": [
+        74.7989899,
+        0.0,
+        53.7989899
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_60",
+      "centre_cm": [
+        69.0,
+        0.0,
+        58.2487113
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_75",
+      "centre_cm": [
+        62.2469333,
+        0.0,
+        61.0459231
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_90",
+      "centre_cm": [
+        55.0,
+        0.0,
+        62.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_105",
+      "centre_cm": [
+        47.7530667,
+        0.0,
+        61.0459231
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_120",
+      "centre_cm": [
+        41.0,
+        0.0,
+        58.2487113
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_135",
+      "centre_cm": [
+        35.2010101,
+        0.0,
+        53.7989899
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_150",
+      "centre_cm": [
+        30.7512887,
+        0.0,
+        48.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_165",
+      "centre_cm": [
+        27.9540769,
+        0.0,
+        41.2469333
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_180",
+      "centre_cm": [
+        27.0,
+        0.0,
+        34.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_195",
+      "centre_cm": [
+        27.9540769,
+        0.0,
+        26.7530667
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "front_rim_210",
+      "centre_cm": [
+        30.7512887,
+        0.0,
+        20.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_-30",
+      "centre_cm": [
+        -30.7512887,
+        0.0,
+        20.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_-15",
+      "centre_cm": [
+        -27.9540769,
+        0.0,
+        26.7530667
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_0",
+      "centre_cm": [
+        -27.0,
+        0.0,
+        34.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_15",
+      "centre_cm": [
+        -27.9540769,
+        0.0,
+        41.2469333
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_30",
+      "centre_cm": [
+        -30.7512887,
+        0.0,
+        48.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_45",
+      "centre_cm": [
+        -35.2010101,
+        0.0,
+        53.7989899
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_60",
+      "centre_cm": [
+        -41.0,
+        0.0,
+        58.2487113
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_75",
+      "centre_cm": [
+        -47.7530667,
+        0.0,
+        61.0459231
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_90",
+      "centre_cm": [
+        -55.0,
+        0.0,
+        62.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_105",
+      "centre_cm": [
+        -62.2469333,
+        0.0,
+        61.0459231
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_120",
+      "centre_cm": [
+        -69.0,
+        0.0,
+        58.2487113
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_135",
+      "centre_cm": [
+        -74.7989899,
+        0.0,
+        53.7989899
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_150",
+      "centre_cm": [
+        -79.2487113,
+        0.0,
+        48.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_165",
+      "centre_cm": [
+        -82.0459231,
+        0.0,
+        41.2469333
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_180",
+      "centre_cm": [
+        -83.0,
+        0.0,
+        34.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_195",
+      "centre_cm": [
+        -82.0459231,
+        0.0,
+        26.7530667
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "rear_rim_210",
+      "centre_cm": [
+        -79.2487113,
+        0.0,
+        20.0
+      ],
+      "radius_cm": 7.5
+    },
+    {
+      "id": "handlebar_0",
+      "centre_cm": [
+        38.0,
+        -25.0,
+        106.0
+      ],
+      "radius_cm": 6.0
+    },
+    {
+      "id": "handlebar_1",
+      "centre_cm": [
+        38.0,
+        -16.6666667,
+        106.0
+      ],
+      "radius_cm": 6.0
+    },
+    {
+      "id": "handlebar_2",
+      "centre_cm": [
+        38.0,
+        -8.3333333,
+        106.0
+      ],
+      "radius_cm": 6.0
+    },
+    {
+      "id": "handlebar_3",
+      "centre_cm": [
+        38.0,
+        0.0,
+        106.0
+      ],
+      "radius_cm": 6.0
+    },
+    {
+      "id": "handlebar_4",
+      "centre_cm": [
+        38.0,
+        8.3333333,
+        106.0
+      ],
+      "radius_cm": 6.0
+    },
+    {
+      "id": "handlebar_5",
+      "centre_cm": [
+        38.0,
+        16.6666667,
+        106.0
+      ],
+      "radius_cm": 6.0
+    },
+    {
+      "id": "handlebar_6",
+      "centre_cm": [
+        38.0,
+        25.0,
+        106.0
+      ],
+      "radius_cm": 6.0
+    }
+  ],
+  "runtime_review": "not run",
+  "release_accepted": false
+}

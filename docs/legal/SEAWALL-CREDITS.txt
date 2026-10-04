@@ -1,0 +1,63 @@
+STANLEY PARK SEAWALL — CREDITS AND SOURCE NOTICE
+
+Original project work
+
+The simulation code, procedural tree library and textures, gull meshes and
+motion, explorer model and animation, bicycle kit, and procedural scenery
+were created for this project. The included original project sources do not
+grant a new blanket open-source licence. Data-derived content retains the
+licences named in its source records.
+
+Data providers
+
+City of Vancouver — park and route data, 2022 LiDAR and orthophoto-derived
+measurements, historical shore and building data. Contains information
+licensed under the Open Government Licence – Vancouver.
+https://opendata.vancouver.ca/pages/licence/
+
+Province of British Columbia — vegetation zones, freshwater geometry,
+geographical names and height conversion data. Contains information licensed
+under the Open Government Licence – British Columbia.
+https://www2.gov.bc.ca/gov/content/data/policy-standards/data-policies/open-data/open-government-licence-bc
+
+Natural Resources Canada — historical HRDEM and regional MRDEM terrain.
+Fisheries and Oceans Canada — the fixed mean-water reference.
+Contains information licensed under the Open Government Licence – Canada.
+https://open.canada.ca/en/open-government-licence-canada
+
+OpenStreetMap contributors — source and adapted databases under the Open
+Database Licence 1.0. The SourceData directory includes the registered source
+extracts, derived databases, editable mesh arrays and a SHA-256 index.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+
+Copernicus — the MRDEM product includes Copernicus GLO-30 source data. The
+project modifies terrain by clipping, height conversion, mesh generation and
+surface simplification. The component notice is in DATA-ATTRIBUTION.txt.
+https://natural-resources.canada.ca/maps-tools-publications/satellite-elevation-air-photos/national-elevation-data-strategy
+https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM
+
+Tools and engine
+
+Unreal Engine is a trademark or registered trademark of Epic Games, Inc. in
+the United States of America and elsewhere.
+Unreal Engine, Copyright 1998–2026, Epic Games, Inc. All rights reserved.
+Unreal Engine and its included native assets retain Epic's applicable terms.
+No Unreal Engine source code is included in the public repository or asset archive.
+
+Blender was used to author and export the original models and textures.
+Python and geospatial libraries were used for the recorded source pipeline.
+These tools are not included in the game or licensed by this notice.
+
+Source and scope
+
+DATA-ATTRIBUTION.txt retains the detailed notices, source dates, source URLs
+and data limitations. The public repository and editable asset archive contain the project sources.
+SourceData contains the registered data distribution. The source-data index and public archive hashes identify the delivered files.
+
+Reference photos, engineering PDF pages, artwork images, carved details,
+inscriptions, and logos are not supplied as source media or game textures.
+The source records distinguish measured geometry from authored estimates.
+Open-data permissions do not grant separate rights in depicted artwork.
+The public build uses the Shipping configuration. No data provider or engine supplier endorses it.
+

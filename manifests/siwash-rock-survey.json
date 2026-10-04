@@ -1,0 +1,34 @@
+{
+  "id": "siwash-rock",
+  "lon": -123.15583333333333,
+  "lat": 49.308611111111105,
+  "radius_m": 60.0,
+  "source": "https://apps.gov.bc.ca/pub/bcgnws/names/76640.html",
+  "reference_date": "BC geographical names; approximate centre; accessed 2026-09-26",
+  "center_local_m": [
+    -926.3367548037786,
+    674.5828891396523
+  ],
+  "source_accuracy": "Name point is for extraction only; measured placement must be fitted and inspected",
+  "sources": [
+    "manifests/lidar2022-488000_5461000.json"
+  ],
+  "vertical_datum": "CGVD2013",
+  "survey_period": "2022-09-07/09",
+  "bounds_min": [
+    -986.3170166015625,
+    614.5859985351562,
+    -0.37815168499946594
+  ],
+  "bounds_max": [
+    -866.344970703125,
+    734.5809936523438,
+    65.79975891113281
+  ],
+  "returns": 372749,
+  "output": {
+    "path": "data/derived/siwash-rock-survey.npz",
+    "sha256": "acf5e127f91e382d22c5df527ff962698dec6352fca9351199bd077a7025cd5c"
+  },
+  "accepted": false
+}

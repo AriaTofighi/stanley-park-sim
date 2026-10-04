@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-26T22:04:37.062808+00:00",
+  "product": "terrain_park",
+  "source_id": "VILLE_VANCOUVER-VILLE_VANCOUVER-1m",
+  "source_url": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/hrdem-lidar/VILLE_VANCOUVER-VILLE_VANCOUVER-1m-dtm.tif",
+  "source_datetime": "2013-02-19T12:00:00Z",
+  "source_header": {
+    "crs": "EPSG:3979",
+    "crs_wkt": "PROJCS[\"NAD83(CSRS) / Canada Atlas Lambert\",GEOGCS[\"NAD83(CSRS)\",DATUM[\"NAD83_Canadian_Spatial_Reference_System\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6140\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4617\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",49],PARAMETER[\"central_meridian\",-95],PARAMETER[\"standard_parallel_1\",49],PARAMETER[\"standard_parallel_2\",77],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3979\"]]",
+    "transform": [
+      1.0,
+      0.0,
+      -1996021.0,
+      0.0,
+      -1.0,
+      490712.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "width": 30868,
+    "height": 35645,
+    "nodata": -32767.0,
+    "dtype": "float32",
+    "tags": {
+      "TIFFTAG_DATETIME": "2013:02:19 12:00:00",
+      "AREA_OR_POINT": "Area"
+    },
+    "source_window": [
+      15551,
+      10045,
+      4889,
+      4698
+    ],
+    "decimation_before_reproject": 2
+  },
+  "origin_file": "manifests/world-origin.json",
+  "coordinate_contract": "x east, y north, z up; metres; x/y ascending; z[row_y,col_x]",
+  "horizontal_crs": "EPSG:3157",
+  "vertical_datum": "CGVD2013",
+  "missing_values": "NaN in NPZ; -32767 in GeoTIFF; absent faces in OBJ",
+  "licence": "OGL-Canada-2.0",
+  "licence_links": [],
+  "attribution": "Contains information licensed under the Open Government Licence – Canada. See source collection for additional source notices.",
+  "source_range_cache": "data\\raw\\nrcan\\terrain_park-ranges",
+  "stats": {
+    "grid_shape": [
+      1700,
+      1900
+    ],
+    "resolution_m": 2,
+    "valid_cells": 2778158,
+    "valid_fraction": 0.8601108359133127,
+    "height_min_m": -13.545897483825684,
+    "height_max_m": 76.91519165039062,
+    "height_percentiles_m": [
+      -3.7447015023231507,
+      -1.8552343845367432,
+      0.069427739828825,
+      14.949467658996582,
+      66.62320709228516
+    ],
+    "park_cells": 1045125,
+    "park_valid_fraction": 1.0
+  },
+  "mesh": {
+    "vertices": 173866,
+    "triangles": 345804,
+    "stride": 4,
+    "path": "data\\derived\\terrain_park.obj",
+    "bytes": 11911452,
+    "sha256": "849ffb04c0316a60cac39b7e012ca6d4f49ae6750cff83c69c1873d272a7e948"
+  },
+  "files": [
+    {
+      "path": "data\\derived\\terrain_park_utm.tif",
+      "sha256": "9013482e409d0255a039cdc3c4bb7a6e2d98110b177d51e2f401291aa27bdfec",
+      "bytes": 9428230
+    },
+    {
+      "path": "data\\derived\\terrain_park.npz",
+      "sha256": "cb0e0a79d7b1e19e3ed4016cea79131f6a54e95ccbabd394f626c2c834c05231",
+      "bytes": 9918384
+    }
+  ],
+  "limitations": [
+    "Measured source predates September 2026; this is a geographic blockout input, not a current survey.",
+    "No independent ground-control accuracy check has been completed.",
+    "Cliffs/overhangs and narrow path details need separate authored geometry.",
+    "No ocean or inland water elevation is assigned by this terrain product."
+  ]
+}

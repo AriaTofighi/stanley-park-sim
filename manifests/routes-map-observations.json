@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "source_id": "city_park_map_2026",
+  "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+  "title": "Stanley Park Map + Guide 2026",
+  "printed_revision": "2026-05-19",
+  "observed_date": "2026-09-26",
+  "method": "Visual inspection in Chrome through computer-use tools; both PDF pages and Second Beach inset inspected. No geographic dimensions measured from the diagram.",
+  "download_status": "Initial HTTP request returned 403. A later normal download from the City printable-map page succeeded through the in-app browser. Both saved pages were rendered and inspected.",
+  "local_path": "data/routes/raw/official-park-map-2026.pdf",
+  "sha256": "41ab78e010ab93977788d880cf152e509578e7f2534df112774c6e51758765f0",
+  "pdf_created": "2026-06-01T09:40:59-07:00",
+  "saved_copy_verified_utc": "2026-09-27T03:28:54Z",
+  "incorporation": "reference_only",
+  "observations": [
+    {
+      "id": "MAP_CCW",
+      "page": 2,
+      "finding": "Park perimeter bicycle arrows run counter-clockwise, from Coal Harbour around Brockton, the north coast and west coast to Second Beach.",
+      "source_edge_ids": [2986, 1748, 1459, 2120, 3550, 2909, 131]
+    },
+    {
+      "id": "MAP_RETURN",
+      "page": 2,
+      "finding": "The Second Beach inset and main map show the inland bicycle connection beside Ceperley and the south side of Lost Lagoon. It returns to the east entrance. Pedestrian shoreline and bicycle connections are distinct.",
+      "source_edge_ids": [1307, 42, 1207, 2814, 278, 138, 723],
+      "limit": "Map confirms the corridor and permitted mode, not surveyed line accuracy or underpass heights. City geometry supplies coordinates. Exact source ID match is an overlay interpretation."
+    },
+    {
+      "id": "MAP_SPEED",
+      "page": 2,
+      "finding": "The map shows maximum 15 km/h for bicycles and inline skates, and maximum 30 km/h for cars.",
+      "implementation": "Use the 15 km/h bicycle cap. Do not copy vehicle speed fields into the bicycle controller."
+    },
+    {
+      "id": "MAP_WALK",
+      "page": 2,
+      "finding": "Walk-bikes callouts remain at Lumberman's Arch, Prospect Point and Third Beach.",
+      "implementation": "Retain three required push-zone tasks. The 2025 proposed gate removal does not remove the map's walk-bike guidance.",
+      "limit": "Exact starts/ends, gate construction state and current ground signs are not verified."
+    },
+    {
+      "id": "MAP_BEAVER",
+      "page": 2,
+      "finding": "A callout states that bicycles are not allowed on the indicated universal access trails at Beaver Lake/Ravine.",
+      "implementation": "Do not infer cycle permission from accessibility or from a walking trail. Do not add the lake walking loop to the bicycle graph."
+    },
+    {
+      "id": "MAP_CLIFF",
+      "page": 2,
+      "finding": "No access to trails from the seawall roughly between the 4.5 km and 6.5 km markers is shown.",
+      "implementation": "Do not connect spatially near cliff-top trails to the seawall. Require source-backed stairs/ramps and explicit travel mode."
+    }
+  ],
+  "source_order_chain": [2986, 1748, 1459, 2120, 3550, 2909, 131, -1307, -42, -1207, 2814, 278, 138, 723],
+  "negative_id_meaning": "Traverse the immutable source coordinate array in reverse."
+}

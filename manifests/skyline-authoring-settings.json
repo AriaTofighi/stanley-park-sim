@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "reference_period": "2026-09 OSM snapshot, with source dates and historic height limits per part",
+  "group_cell_m": 512,
+  "generic_floor_spacing_m": 3.1,
+  "commercial_floor_spacing_m": 3.7,
+  "unknown_low_building_height_m": 9.0,
+  "podium_height_cap_m": 14.0,
+  "stack": {
+    "osm_id": "223089079",
+    "height_m": 161.0,
+    "box_height_boundaries_m": [0, 38, 77, 118, 161],
+    "box_scale_xy": [[0.78, 0.82], [0.72, 0.76], [0.86, 0.88], [0.85, 0.88]],
+    "box_rotation_deg": [0, 0, 8, -7],
+    "height_basis": "Ledcor project page: 161m and four twisting boxes",
+    "proportions_basis": "Editable visual estimates after contractor photograph inspection; not construction dimensions"
+  },
+  "alberni": {
+    "osm_id": "611334033",
+    "height_m": 132.35,
+    "height_basis": "City 2016 rezoning design height; not an as-built height survey",
+    "floors": 43,
+    "profile_levels": 28,
+    "scoop_depth_fractions": [0.27, 0.20],
+    "scoop_center_height_fractions": [0.30, 0.44],
+    "scoop_half_height_fractions": [0.29, 0.28],
+    "proportions_basis": "M1 estimates from current OSM envelope plus three primary architect photos; façade/balcony details excluded"
+  },
+  "canada_place": {
+    "osm_id": "223635729",
+    "sail_low_cgvd28_m": 24.8,
+    "sail_high_fallback_cgvd28_m": 38.65,
+    "membrane_grid_m": 2.0,
+    "shape_basis": "Five OSM fabric footprints; paired tension peaks and sag inferred from SEABC 2017 Canada Place photographs, not structural form-finding",
+    "vertical_basis": "City2009 overlapping roof top elevations; regional CGVD28-to-CGVD2013 geoid conversion. City metadata calls heights geodetic without an explicit datum field, so CGVD28 is a recorded project assumption."
+  },
+  "harbour_centre": {
+    "mast_diameter_estimate_m": 0.8,
+    "basis": "SEABC 2017 PDF page 27 shows a thin central mast. Width is an explicit M1 estimate. Current OSM deck and cap provide the 156 to 167 m connector end heights. Contradictory intermediate OSM part remains excluded."
+  },
+  "significant_parent_ids": ["91998136", "362187535", "653660958", "611334033", "223089079", "223635729", "1371268997", "139571552", "687478069"],
+  "no_historic_height_parent_ids": ["362187535", "653660958", "611334033", "223089079", "687478069"],
+  "release_accepted": false
+}

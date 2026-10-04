@@ -1,0 +1,18 @@
+{
+  "id": "harry-jerome",
+  "extraction_centre_local_m": [
+    1744.48,
+    -485.37
+  ],
+  "extraction_radius_m": 20,
+  "source": "manifests/lidar2022-491000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 63699,
+  "output": {
+    "path": "data/derived/named-harry-jerome-survey.npz",
+    "sha256": "88f4c5dc651144aed414f6fa7de3fb39b07e0ac851edd2c306f50ea939fec9ac"
+  }
+}

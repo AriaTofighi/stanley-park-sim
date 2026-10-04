@@ -1,0 +1,1436 @@
+{
+  "schema_version": 1,
+  "scope": "Reconcile25 legacy unlocated feature IDs from existing M1 source geometry. This is a planning/source record, not an application test.",
+  "input_hashes": {
+    "manifests/seawall-m3-sections.json": "8a5f52a482fdc22f7793ec70649a64308103a66701e8ba270e93f3e8e46ccf23",
+    "manifests/critical-features.json": "b4b5827c33c6acd711a6a0853c73476eba19a5f8b7862c55c3a710f41a0b3126",
+    "manifests/m1-form-group-crosswalk.json": "570bc7054d1d57c2b24d5893e2fb46e4e415318206e66a8d6a62b63f22ba6817",
+    "manifests/m1-existing-site-linkage.json": "16d29ce4dc57339889de453dd65a1896e27ac203d4d734716cefe39353d06cf7",
+    "manifests/blender-export.json": "be7984b24ffafa236f7550bef1e361b64e4d6e7f26c76e0c03450dfc8a62f96b",
+    "manifests/totem-precinct-forms.json": "6221c1403f663c0d099b9ff2ce081c2c444827709c95327ca27d4945396547cb",
+    "data/derived/paved-circuit-runtime.json": "4b65e26338d4811b02400328cb80312daafd5887770e4f68646948616b10b8fc",
+    "data/derived/ground-spaces/meshes/SM_Ground_AirForceGarden_Ground_02_04.npz": "8494f79e2dbabdd6d3f2e3da1aa7581b4ce0bdbb34c1c1f5aab7eac00a7aeaa7",
+    "data/derived/ground-spaces/meshes/SM_Ground_AirForceGarden_Ground_03_04.npz": "589552a5e79cf41e83e8703cac7db72ae0ea8f419f58dacf22f076a4f9d7045d",
+    "manifests/ground-space-blockouts.json": "85e08bc35de5229f2fee50610f22cbf4e2f6e961762cbf9dcb7d9de84e2a768a",
+    "data/derived/ground-spaces/meshes/SM_Ground_BiofilterVisiblePool_02_03.npz": "b4490dd90489fa3bc20e838e8247d920f1fe482d131889c3401e0b4f5d67dd01",
+    "data/derived/ground-spaces/meshes/SM_Ground_BiofilterWetlandGround_02_03.npz": "d94435deb1ce6c70798bf567efd30240a40f5747099557d585e95bee7e2be485",
+    "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_01_01_03.npz": "d77f762f690a36c0f55d705922a6abf101af0aeb2046c7782157d22cec85ce60",
+    "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_02_01_03.npz": "606c3ddc31ecede4a68d8c703576a7bfb404441f780b6934444e1d19a38d6638",
+    "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_03_01_03.npz": "9e6341aec1c0eb3f8c98613a38971004f46c18c4c97abbf5ac0087ecafffe347",
+    "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_04_01_03.npz": "e07edcf23b2dd6d3937d9680003e0230547144b42fb40d130f4bc242171c965c",
+    "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_05_01_03.npz": "ac26fbc747675e65266c3ce9e9d0d2ab56bf891d9ab2a2fbd2a22a8974cb6c75",
+    "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_06_01_03.npz": "292732a9cdd88e60e7310bfa1e322322a5da05118fc019dd3351325481a6c46c",
+    "data/derived/ground-spaces/meshes/SM_Ground_CommunityGardenPath_01_03.npz": "b07e4f6e762ed8baefca3051f9908cc391032638248b7f6703806aa2ac2556f7",
+    "data/derived/site-completions/meshes/SM_Site_PaintersCircleCourt_02_04.npz": "dfbba4ca70cf7208c5b4af693a797f44d532a7950ba634aa3799640f61e64c84",
+    "manifests/site-completion-blockouts.json": "346d13aaa3869ba41a74e844a43af609b7f048e18a04ab15e8ced2b6e67bba7d",
+    "data/derived/site-completions/meshes/SM_Site_PortViewPlatform_02_06.npz": "d2b647f7f50dbc031b749bc589ffd2f72855a7f815d155f7abb64e3f0eaeb141",
+    "data/derived/site-completions/meshes/SM_Site_PortViewPlatform_03_06.npz": "f4ae96aa3f5a608d9f4c83ce49caa9e9d84d79900bb041aa205e35689026a462",
+    "data/derived/site-completions/meshes/SM_Site_PortraitPaintersGround_02_04.npz": "dc5b8380e1d072a0abf381d58c5f9c773ab0d6b65614233b36b04248455251df",
+    "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_01_02_03.npz": "fd8e3854348be83aaf82deafaccadc5534052cfca1f21b4dd2a3077118c9281e",
+    "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_02_02_03.npz": "e5326547aca82debe348629f10150b2c88bcdf85b96f0d149e10c11980bcfd27",
+    "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_04_02_03.npz": "753a7999f556f4847ac778ae43ce4df138bc0f9c06003d58106ca6ebdc4a78e2",
+    "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_05_02_03.npz": "18124306bd9ec94f02a23c7c3d3f3d2fe2a5b891593cdcc879be582f1c05b878",
+    "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_06_02_03.npz": "00cfe4152eb8fcea91aaa477b5d6364af8fa61bdb7eb7ad5859cd42d406a70a6",
+    "data/derived/ground-spaces/meshes/SM_Ground_RoseGardenEast_Ground_02_03.npz": "f97415b856cd3b00d922b5052291c75ccd535b491a474f91a30fa812ef461949",
+    "data/derived/ground-spaces/meshes/SM_Ground_RoseGardenWest_Ground_02_03.npz": "487a2d10de6924e43f5eed6980533fe3ff45af753dea40d27c21603a94ef84a3",
+    "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_03_02_04.npz": "ddf7905421d7d89cd86cfc2afed6d51613b0cb5891c00f1e17d44a4b84e64941",
+    "data/derived/ground-spaces/meshes/SM_Ground_RoseGardenEast_Ground_02_04.npz": "362334b16728112dc9d10c6e18417ac248e9dc51589dca25fef8b5ff6597c4ee",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_01_02_04.npz": "b7ab7e5191877c70e58727fe2f938ec2468faf0aef451f18fde68a2d659aeb3b",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_02_02_04.npz": "58bd7fdb672bbfe3e938f9fd30ad4479da0feacba8bb3a24e3d60cc2bc7ae237",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_03_02_04.npz": "b07edcf0569a9ddbdb31eb81f283a1d82de23ee2f634c5dd5f6488a5bab32da2",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_04_02_04.npz": "8fb6553676ee993a23995b52d083ac06bfbff836c276e2f11a9b9d2eb72b1a28",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_05_02_04.npz": "534fb24ac187611961b2d21f983a148b87afd807676ee00a849218faf4e92725",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_06_02_04.npz": "53ddf7cd9bfb603c8cc172cd630e70c95118dd8288e6e45a0d5f0b2e9c867701",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_07_02_04.npz": "747cbdd9f58789910cfdd8484e86904252efc152ac6d947ed0c15c7c08d15410",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_08_02_04.npz": "264a500f95be242f7f9e50e80d7895c252757941669a5bbfb26069960776bc84",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_09_02_04.npz": "b86d6e6dbeefa28b3bf92c4074fe20a6d246d117be95a804f6ab53eb02df9fda",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_10_02_04.npz": "4563bc68c51ed4a7fac2431e68333310aa3d1fadc98f9100478bd4a30ae2835a",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_11_02_04.npz": "577fd002d4febe2506a1ac94825ad800f174d793a4013cda035f81c7ab2a852d",
+    "data/derived/public-spaces/public-space-meshes.json": "3f7b13ece70065c9d0808a89f8f26488b4873ff2d42bf7d5336bcc6c2e86bf78",
+    "data/derived/site-completions/meshes/SM_Site_SalmonLowerPool_02_04.npz": "cec3964d57233fc5e827a89ab8088ada58d3b546214d2d90e4dad11b20f64fdc",
+    "data/derived/site-completions/meshes/SM_Site_SalmonChannel_1495282021_02_04.npz": "dcfca23a26eb163f198f164dfa8f78ca9a8e3c15e2945bac092eedfebe802dea",
+    "data/derived/site-completions/meshes/SM_Site_SalmonChannel_1495282022_02_04.npz": "cb8db06065c7c8b9425456b244735bac3a47d70b926158f4a41c5206fa1ae828",
+    "data/derived/site-completions/meshes/SM_Site_SalmonChannel_Middle_02_04.npz": "868964a4e629cf3f2b44cb9d9859ea2f332c82fa9b3c53bf5b55ad07a7d828cf",
+    "data/derived/site-completions/meshes/SM_Site_SalmonChannel_OutletApproach_02_04.npz": "a079809dd131a86c4c8647eeb599aa77fdb6b62ecfb006759ad92f66d094903e",
+    "data/derived/site-completions/meshes/SM_Site_SalmonLowerPool_BasinGround_02_04.npz": "1dfed437112be72de5efe6ec20e8b03adef75d1738285bd128ecc1b9affe6835",
+    "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenWest_Ground_01_02.npz": "7658d25a0eb86b726d42c8aab9e9aba5ff60c5e6e0aba9d2386e884cd02b286d",
+    "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenEast_Ground_01_02.npz": "65e7f1fcc3091e83ea54a655b7a3c7d59b6596ae347775d1132ed7a2dddcbfc0",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingNorth_01_02.npz": "c4cd4c94bf5908fdc795abdc72c3d87265bc88a12fb963d61129bc4ecfdcbc96",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingSouth_01_02.npz": "58e4852b8c024fe2b0de19a2cfb2e4396b026eb277d32ad0e3b6ab450933822f",
+    "data/derived/site-completions/meshes/SM_Site_WaterParkBoatPad_03_04.npz": "611d89ab509222548ee360f6473ef0042b19de92d991c33df476088c6edc599f",
+    "data/derived/waterpark-low-forms/SM_WaterPark_ClimbingOutcrop.npz": "ed235afbf76552d1949c20f14484260e9b96c2224611764af465af3644c83bf2",
+    "data/derived/waterpark-low-forms/SM_WaterPark_BoatOpenRim.npz": "8cebd8384e65060a886f0a4a281bd24dfbdba50e845d4f831e43b8a68dfaf509",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_VarietyWaterPark_03_04.npz": "bbe51a1588101451d61e17b56ffbbeda41d66d2a5f34aacd0dbdde6ac875f0b9",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_LumbermanPlayground_03_04.npz": "9ecfd36d8ed54c50847f45aa9e7119277a6f20bcee4823856835e71867d34f9d",
+    "manifests/waterpark-low-forms.json": "594382c6b61ce52722e1123f37aa16c0951e828ba3793d77894c39bf7a3eb416",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_01.npz": "e7c22428eca5341e6e51f11e76cf44d898e8eb0fdb0df4b03b755b6e5798a144",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowSouth_01_02.npz": "b9391e47e4d7f1b2c8bd3f4240b3514701234f4cd8ee7b016afda8fb7d6e0918",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowNorth_01_02.npz": "85fc3b6f3d9fb404fe8e044862f05a569eb7f564c91385ae56c71a91bf6be76c",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_02.npz": "93eeb943e2d3c0c34ec5de42fc7ffcf2174048bfea264c601bbf994d2077eb9d",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyPlayground_01_02.npz": "071d1f45efafec33b58318622212d7bcfa84d14de67d1200dac14e1e40abcd76",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyBasketball_01_02.npz": "a0716e00d1c5ea0548d50a92493854385ad373adf951da77bd412e3da6f445ec",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowNorth_02_02.npz": "ffbb0c094a49e410ccbab1e753a15e257076d1bc23e7173732cd3a600b86e325",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_01_01_02.npz": "32d6ea41af0c0b1953b650bee829318710a996d2f8ac02fb4ad3f9b9d6b822b9",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_02_01_02.npz": "ad015edfa9243460c1a6a93c44a28f3333b8a7b6bc9ec86ed5fca5bd1cb2183d",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_03_01_02.npz": "22d2c376a9d0c7fcfdad258af91864ae1b4f5fb333875139779302067092447d",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_04_01_02.npz": "4a91a77fb09499feaff382b041c87a5ae0b80112499ec1cb9260fe246f0447f7",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_05_01_02.npz": "1d94603397b847740ab8a849a58758e6675cf5908913f23fa7b1a24b1b4e1e36",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_06_01_02.npz": "16a512ad26aff32d38fe29b814ea34ce8ca20d25c99fe8151b6d92f3f4987b79",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_07_01_02.npz": "520ae0999399b0bdee9f7d8948900ca1ab84f7ab6cf6e430d758f56c00915752",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_08_01_02.npz": "942024ebbdd9038cb00f63c2c3359726ac3a4906ac557a464d90d5726fd3b0f1",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_09_01_02.npz": "91e8d75d353fb2daf6f8754555b1cf7c87a1b46d78f70594068b76c9b0782f92",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_10_01_02.npz": "be6736cbc9aa7104a6fa387601c20e2f6b8ca0eae6dc39111117d453140cf793",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_11_01_02.npz": "7993f1d31cacd349762d41f5d6e7c7cd63eaf9698e4d0ddbf1e770f5b514f457",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_12_01_02.npz": "530f65175e709cb9733e42cff6107ee441170f7ccb27a0a8bd6ecc097976a738",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_13_01_02.npz": "ec2fef5ad39031541c7172f989351e3f3e56865f0caf7a20c478fcf8851d7450",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_14_01_02.npz": "ed3c329e0bedffceb1af7af70c5e60f897e5c19a5097dbd496f416a10477f6fe",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_15_01_02.npz": "a74440074f4b0a68ee156c401f6f6b8c63d09c07064a0e6c1d74ca9b4d6e1805",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_16_01_02.npz": "9c92783383446599ee717c6c215f4b9c3b138b791605495b505b0779cd1d8f29",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_17_01_02.npz": "5c8a48f3fd55da7ba0c914d4bcec9eee2eaed76a00fc7cae1574a09218c75d24",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_18_01_02.npz": "4cc3042c15685d5fe440d7ec7a4397b7e69d9a8c8bf7eeb98d68c09147b5fa9b",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_19_01_03.npz": "d1f380f4e6bafd5af8b2c102bc87290b5e1405f01f1e0387d8259d9dada94eb0",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_20_01_03.npz": "f3dfb709c82acc540ee18e18818a64a2f9f18284629daff48b719bf7ac83bac3",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_21_01_03.npz": "4e23cb7600f059745e289a18c1b0a89f96b93d6b6217c668a74ffe9129147733",
+    "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_22_01_03.npz": "a02e3b53cefe1b3ed2109ad72549e63679712959054109acb3b79aeb7f43b3e0",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863877_01_02.npz": "8cdaed4842f8c6adc17d009a7e087fb3a9c4426e867fbd46faa7a431558362f3",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863878_01_02.npz": "0cf0deb453caeacc97d11e02402c41fbc0716372a64e68ed0ed6bdb09a7dde9c",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863882_01_02.npz": "3718e91fd8f7cdc596d97b72baab4db11587cde6caa9836855c234807dff60f9",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863884_01_02.npz": "12a38bb20081c08236103d2ee69bae3e60fe5ba323ae6633b30a4bb1339876fa",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863885_01_02.npz": "b15a868e161468fb053c968662607a1626dc320a767fb881313efe2871f580e2",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863887_01_02.npz": "75a324ee965345a9a82a55202d189ee9191c2bdfc7813ba0d983a406ea8f1ad0",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863889_01_02.npz": "3574d83bc972b58dbab3823fd7d8d04cd97500b1530a914ab1f08ea4a066b47a",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863891_01_02.npz": "3d95acca75aaa5986547196bc60d84d5dff3eb977ab48381b202a3b0e86bbb95",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863893_01_02.npz": "1548ab1ae8272d440829c5a9c14315ea12a21fd4e4a88d56f618afe5d5400b32",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863895_01_02.npz": "edf4cc071cdf0c51a91fb5131836f191e84bc3350bbf102a2829bccd1fd86040",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863897_01_02.npz": "faf8a092f12f068b960dcf03d941cafc878f86db31aea69a7ab508d716127ee0",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863899_01_02.npz": "10cf053c5042c353d0ce329a99b0ab93d5dd65172a81fcc7a3c2a48bc6d1e000",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863901_01_02.npz": "edec103818e40ba0eee05e9c760a31078e393a9e03d8bc50219492caea976100",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863903_01_02.npz": "cb90ed640fe1eea2741a2b01b91de5f97fc2eaf15f9f280e61e9284f9decc19f",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863905_01_02.npz": "88d0ce8401f0debd1a91991a404a280a087eaaa0b41f65957c557eeb6ef11085",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863907_01_02.npz": "49b7fb8b5c02054b4328b703b7d465a3cfed570cee990ea295757473a0cd2674",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863909_01_02.npz": "5abe9ecdafcb938fb5b57775eee2d499daa24a38cd17b1752ee1712358a9e17c",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863911_01_02.npz": "127156328ffda8275da7872d04207e1807882c9107cfd1748b3dba5dc5f9855e",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040275_01_02.npz": "6e04653e451ba6fddf12d334ce1b28e26096dc63b1190c41ce5d5cbf6815faea",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040276_01_02.npz": "cac7da8bae082959222509e9eb9b5b220aff202c4ca4e8b50498df3c0bb38f48",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040277_01_02.npz": "d559378a4d85d030ab6839eb2629bc29253e609128b318b9cbb5f9c3cf0925cf",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040278_01_02.npz": "0cae8ab87637408c8e92e0623f8526f172a1f4c8a9a46836f1af31033733c3c9",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040279_01_02.npz": "d18f30b8004d8f81e0d1d4b06e12e2dc1b9427000dd116e39d66a51e7d2db0ba",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040280_01_02.npz": "7af3fd416f4750dd44a91fc3a17a77477a64e3f93d115659ed1eb9efd10aa47a",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040281_01_02.npz": "662694c10d97880cd4df28a29a34704db274613939b3ddc79042a47cf6c66abb",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040282_01_02.npz": "b7a891b52c41873a0040d60544cb437a53dad4155eb2981b8445797646b3a627",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040283_01_02.npz": "bd4e3369cca1469e6dceb15a4d141efd578bf8cf9438f573062b6bf5af7d05e6",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755047370_01_02.npz": "9314a07689b08d941c77de5b7493833d53937f27ae1f93d85e814dd963cf5de8",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755047372_01_02.npz": "13354a0f283a7dc41d35eba0984adfd75d9dac29b43e4c79f80c99ff6f8669bd",
+    "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755273129_01_02.npz": "085aa4ed39dc43b386e6f8fbf258f93dcb2b4166413a41e549d5f21f7a42d014",
+    "data/derived/named-buildings/SM_Named_SecondPoolFacilities_RoofStepClosures.npz": "cffc817e92f9e9536a849a2cb5de4c2b46a28c872d068f06e39589fe16e18947",
+    "data/derived/named-buildings/SM_Named_SecondPoolFacilities_RoofSurvey.npz": "f3a9a02a5ca8233def90550633562860af600b7029e93f8f82cc31b22ed52a97",
+    "data/derived/named-buildings/SM_Named_SecondPoolFacilities_WallsReview.npz": "7ed84df37032bd9ec591e81d16e43327a1e593c49c2e4872dfa31e7623fd9cce",
+    "data/derived/named-waterfront/SM_SecondPool_SurfaceReview.npz": "db646f50a6d017def3411cd3121490b6a008d0a08bf237eed1dac8e23fc0657a",
+    "data/derived/named-waterfront/SM_SecondPool_CopingSurvey.npz": "1de124bb44283e4605f2da3feaaaee95f725371cb99b7d5dc798c9160be9101e",
+    "data/derived/named-waterfront/SM_SecondPool_SyntheticSafetyFloor.npz": "f72723b2600c691df23d9369e838882304af922c2f8bdfd6da049df66313b4a0",
+    "data/derived/named-waterfront/SM_SecondPool_BasinContainmentReview.npz": "94ac8e5ad0d49ec9c1a512d33a9ab858566b64c8bee63277e9bc27fe965731bf",
+    "manifests/named-building-blockouts.json": "381ef360b77128ee8241f01d84e79935530ad7fc45e9047009363bea20d82db2",
+    "manifests/named-waterfront-blockouts.json": "4cedbd2ede75cbb58d696926e1db9d495bb8d12c87d48e05458876703dbc0e0d",
+    "manifests/lions-gate-blockout.json": "4275692e720cd417728fb180a16c51ef76800fbea1690a756c239a620876abfd",
+    "data/derived/site-completions/meshes/SM_Site_DevonianPond_01_03.npz": "45193eb342df5736912aeffd52e868e6e2263d5cd400c6b17531eaef77c78756",
+    "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_03.npz": "edc16be6b5ff1a6be515f9a19113c0423c3b9fb25ee556c779c72505d9876ea9",
+    "data/derived/site-completions/meshes/SM_Site_DevonianPond_BasinGround_01_03.npz": "e07d8554a9e7e6b77ed42a20b8414782b738a19b19f56fc04a153b446df134cb",
+    "data/derived/site-completions/meshes/SM_Site_DevonianPond_01_04.npz": "a0d6527730dc99acb76458314811724fa5dda98a645f5dee1959ddba4046f3c5",
+    "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_04.npz": "5b74fef67f0ec23aec54b5d83de950ad0cb906eb3c9efe2148b4bd5cf335eeb4",
+    "data/derived/site-completions/meshes/SM_Site_DevonianPond_BasinGround_01_04.npz": "1be9e713ea181a6c89995865adfe2b351f58c818be3bd7b58f7119c6e0a5a42f"
+  },
+  "features": [
+    {
+      "id": "SP_air_force_garden",
+      "name": "Air Force Garden of Remembrance",
+      "linked_meshes": [
+        "SM_Ground_AirForceGarden_Ground_02_04",
+        "SM_Ground_AirForceGarden_Ground_03_04"
+      ],
+      "source_manifests": [
+        "manifests/ground-space-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        632.3749313354492,
+        -265.9732494354248,
+        24.623435974121094
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        615.9459228515625,
+        -282.3780822753906,
+        22.921764373779297
+      ],
+      "bounds_max_m": [
+        648.8039398193359,
+        -249.56841659545898,
+        26.32510757446289
+      ],
+      "station_m": 306.8450597624235,
+      "route_distance_m": 356.5499853196213,
+      "disposition": "distant/interior candidate; retain coarse forms and check section sightlines",
+      "requested_camera": {
+        "location": {
+          "x": -61507.17609469727,
+          "y": 70488.78356480184,
+          "z": 478.3473191618972
+        },
+        "rotation": {
+          "pitch": 3.184897279082962,
+          "yaw": -11.734315925797564,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_biofiltration",
+      "name": "Biofiltration Pond",
+      "linked_meshes": [
+        "SM_Ground_BiofilterVisiblePool_02_03",
+        "SM_Ground_BiofilterWetlandGround_02_03"
+      ],
+      "source_manifests": [
+        "manifests/ground-space-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        321.1128387451172,
+        -576.7979354858398,
+        1.6362543106079102
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        235.856201171875,
+        -604.2258453369141,
+        0.8464009761810303
+      ],
+      "bounds_max_m": [
+        406.3694763183594,
+        -549.3700256347656,
+        2.42610764503479
+      ],
+      "station_m": 122.73209282035857,
+      "route_distance_m": 263.4660283263908,
+      "disposition": "distant/interior candidate; retain coarse forms and check section sightlines",
+      "requested_camera": {
+        "location": {
+          "x": -70191.47519303719,
+          "y": 55297.51477236742,
+          "z": 501.8527433759754
+        },
+        "rotation": {
+          "pitch": -0.7355002525537319,
+          "yaw": -61.64795162092087,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_community_garden",
+      "name": "Community Garden",
+      "linked_meshes": [
+        "SM_Ground_CommunityBed_01_01_03",
+        "SM_Ground_CommunityBed_02_01_03",
+        "SM_Ground_CommunityBed_03_01_03",
+        "SM_Ground_CommunityBed_04_01_03",
+        "SM_Ground_CommunityBed_05_01_03",
+        "SM_Ground_CommunityBed_06_01_03",
+        "SM_Ground_CommunityGardenPath_01_03"
+      ],
+      "source_manifests": [
+        "manifests/ground-space-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        324.45001220703125,
+        -989.1999969482422,
+        10.350531578063965
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        306.70001220703125,
+        -996.3999938964844,
+        9.285337448120117
+      ],
+      "bounds_max_m": [
+        342.20001220703125,
+        -982.0,
+        11.415725708007812
+      ],
+      "station_m": 9190.786326373927,
+      "route_distance_m": 42.52302494641481,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -94863.05352884652,
+          "y": 31170.92731692319,
+          "z": 573.7884894679054
+        },
+        "rotation": {
+          "pitch": 6.19090158830526,
+          "yaw": 162.56523281471726,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_heron_colony",
+      "name": "Heron Colony",
+      "linked_meshes": [
+        "SM_Terrain_00_02",
+        "SM_Terrain_01_02"
+      ],
+      "source_manifests": [
+        "manifests/m1-existing-site-linkage.json"
+      ],
+      "source_limits": [
+        "City identifies current colony around Park Lane and Park Board office tennis trees. No exact nest census or individual nesting-tree claim."
+      ],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        -172.5,
+        -1217.5,
+        0.0
+      ],
+      "position_basis": "Centre of current linked source geometry bounds; for selection-only sites, centre of the recorded search polygon; not a surveyed feature point.",
+      "bounds_min_m": [
+        -265.0,
+        -1290.0,
+        0.0
+      ],
+      "bounds_max_m": [
+        -80.0,
+        -1145.0,
+        0.0
+      ],
+      "station_m": 8839.82232192133,
+      "route_distance_m": 296.20559112703415,
+      "disposition": "distant/interior candidate; retain coarse forms and check section sightlines",
+      "requested_camera": {
+        "location": {
+          "x": -96043.72163539258,
+          "y": -2533.8600580697826,
+          "z": 544.657205938028
+        },
+        "rotation": {
+          "pitch": -0.03868648838663245,
+          "yaw": -150.21004520668671,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_painters_circle",
+      "name": "Painters' Circle",
+      "linked_meshes": [
+        "SM_Site_PaintersCircleCourt_02_04"
+      ],
+      "source_manifests": [
+        "manifests/site-completion-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        829.1710968017578,
+        -466.3000030517578,
+        4.780799865722656
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        823.1421813964844,
+        -472.6000061035156,
+        4.511030197143555
+      ],
+      "bounds_max_m": [
+        835.2000122070312,
+        -460.0,
+        5.050569534301758
+      ],
+      "station_m": 507.070719720197,
+      "route_distance_m": 92.82614713144622,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -54779.22681371965,
+          "y": 87361.99924293601,
+          "z": 466.4040356855251
+        },
+        "rotation": {
+          "pitch": 0.07206831000515758,
+          "yaw": -28.60968436767232,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_port_view",
+      "name": "Port of Vancouver Viewpoint",
+      "linked_meshes": [
+        "SM_Site_PortViewPlatform_02_06",
+        "SM_Site_PortViewPlatform_03_06"
+      ],
+      "source_manifests": [
+        "manifests/site-completion-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        1930.2342834472656,
+        -262.25631403923035,
+        2.7277334332466125
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        1925.9080200195312,
+        -265.4126281738281,
+        1.6504157781600952
+      ],
+      "bounds_max_m": [
+        1934.560546875,
+        -259.09999990463257,
+        3.80505108833313
+      ],
+      "station_m": 1951.8134074280579,
+      "route_distance_m": 16.159383589348106,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -26073.682623006556,
+          "y": 191414.64981806264,
+          "z": 1014.7276418157336
+        },
+        "rotation": {
+          "pitch": -24.662110061328622,
+          "yaw": 95.39556767622456,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_portrait_painters",
+      "name": "Portrait Painters area",
+      "linked_meshes": [
+        "SM_Site_PortraitPaintersGround_02_04"
+      ],
+      "source_manifests": [
+        "manifests/site-completion-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        884.0095062255859,
+        -340.10276794433594,
+        12.185279369354248
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        863.09130859375,
+        -353.60552978515625,
+        11.056235313415527
+      ],
+      "bounds_max_m": [
+        904.9277038574219,
+        -326.6000061035156,
+        13.314323425292969
+      ],
+      "station_m": 540.040734615152,
+      "route_distance_m": 198.34295315664272,
+      "disposition": "distant/interior candidate; retain coarse forms and check section sightlines",
+      "requested_camera": {
+        "location": {
+          "x": -53736.36255283493,
+          "y": 90469.96278327148,
+          "z": 469.04711587248596
+        },
+        "rotation": {
+          "pitch": 2.164012694385347,
+          "yaw": -5.987695384375967,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_restoration_donor",
+      "name": "Restoration Donor Monument",
+      "linked_meshes": [],
+      "source_manifests": [],
+      "source_limits": [
+        "Identity match is inferred from the donor-recognition marker text and Prospect Point context. The marker point is not a survey control.",
+        "No monument geometry or exact dimensions are claimed. The approximate point is a source-search target only.",
+        "Existing terrain vertices within25m of the approximate point have heights60.86484 to67.57289m. The nearest route point is2.99081m. This elevation difference supports an upper-cliff setting, but is not a visibility proof."
+      ],
+      "visibility": "not established by source reconciliation",
+      "review_status": "route sightline and scope decision pending",
+      "disposition": "upper-cliff source candidate; shape unresolved; inspect from seawall before route-scope closure",
+      "source_references": [
+        {
+          "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+          "printed_revision": "2026-05-19",
+          "page": 2,
+          "rights": "Reference only"
+        },
+        {
+          "url": "https://www.hmdb.org/m.asp?m=236127",
+          "kind": "Firsthand dated field marker record",
+          "observer": "Adam Margolis",
+          "photo_date": "2023-10-09",
+          "page_revision": "2023-11-23",
+          "accessed": "2026-10-03",
+          "coordinate": "49 degrees18.788 minutes North,123 degrees8.58 minutes West",
+          "rights": "Reference only; no photograph or inscription distributed"
+        }
+      ],
+      "candidate_xy_local_m": [
+        7.463513844006229,
+        1175.4792947163805
+      ],
+      "station_m": 4879.035831373823,
+      "route_distance_m": 72.75510352927705
+    },
+    {
+      "id": "SP_rock_garden",
+      "name": "Rock Garden",
+      "linked_meshes": [
+        "SM_Terrain_02_04"
+      ],
+      "source_manifests": [
+        "manifests/m1-existing-site-linkage.json"
+      ],
+      "source_limits": [
+        "Finite Pavilion-south garden context from City map and adjacent source beds. This links existing terrain, canopy and garden beds; no invented rock monument."
+      ],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        681.0,
+        -363.0,
+        0.0
+      ],
+      "position_basis": "Centre of current linked source geometry bounds; for selection-only sites, centre of the recorded search polygon; not a surveyed feature point.",
+      "bounds_min_m": [
+        650.0,
+        -389.0,
+        0.0
+      ],
+      "bounds_max_m": [
+        712.0,
+        -337.0,
+        0.0
+      ],
+      "station_m": 308.91072197005724,
+      "route_distance_m": 253.05971313008192,
+      "disposition": "distant/interior candidate; retain coarse forms and check section sightlines",
+      "requested_camera": {
+        "location": {
+          "x": -61472.83311757896,
+          "y": 70692.42298425888,
+          "z": 477.1634754413851
+        },
+        "rotation": {
+          "pitch": -0.04528240933737575,
+          "yaw": -5.879874390051246,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_rose_garden",
+      "name": "Rose and Perennial Garden",
+      "linked_meshes": [
+        "SM_Ground_RoseBedGroup_01_02_03",
+        "SM_Ground_RoseBedGroup_02_02_03",
+        "SM_Ground_RoseBedGroup_03_02_04",
+        "SM_Ground_RoseBedGroup_04_02_03",
+        "SM_Ground_RoseBedGroup_05_02_03",
+        "SM_Ground_RoseBedGroup_06_02_03",
+        "SM_Ground_RoseGardenEast_Ground_02_03",
+        "SM_Ground_RoseGardenEast_Ground_02_04",
+        "SM_Ground_RoseGardenWest_Ground_02_03",
+        "SM_PublicSpace_PavilionGardenBed_01_02_04",
+        "SM_PublicSpace_PavilionGardenBed_02_02_04",
+        "SM_PublicSpace_PavilionGardenBed_03_02_04",
+        "SM_PublicSpace_PavilionGardenBed_04_02_04",
+        "SM_PublicSpace_PavilionGardenBed_05_02_04",
+        "SM_PublicSpace_PavilionGardenBed_06_02_04",
+        "SM_PublicSpace_PavilionGardenBed_07_02_04",
+        "SM_PublicSpace_PavilionGardenBed_08_02_04",
+        "SM_PublicSpace_PavilionGardenBed_09_02_04",
+        "SM_PublicSpace_PavilionGardenBed_10_02_04",
+        "SM_PublicSpace_PavilionGardenBed_11_02_04"
+      ],
+      "source_manifests": [
+        "data/derived/public-spaces/public-space-meshes.json",
+        "manifests/ground-space-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        573.0124588012695,
+        -413.0835876464844,
+        14.077915668487549
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        442.2337646484375,
+        -517.2170104980469,
+        5.660214424133301
+      ],
+      "bounds_max_m": [
+        703.7911529541016,
+        -308.9501647949219,
+        22.495616912841797
+      ],
+      "station_m": 237.43773015115607,
+      "route_distance_m": 225.0769623038072,
+      "disposition": "distant/interior candidate; retain coarse forms and check section sightlines",
+      "requested_camera": {
+        "location": {
+          "x": -62880.236673237836,
+          "y": 63723.898999828125,
+          "z": 461.0708839814855
+        },
+        "rotation": {
+          "pitch": 2.408560323331103,
+          "yaw": -16.579988694875865,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_salmon_stream",
+      "name": "Salmon Demonstration Stream",
+      "linked_meshes": [
+        "SM_Site_SalmonChannel_1495282021_02_04",
+        "SM_Site_SalmonChannel_1495282022_02_04",
+        "SM_Site_SalmonChannel_Middle_02_04",
+        "SM_Site_SalmonChannel_OutletApproach_02_04",
+        "SM_Site_SalmonLowerPool_02_04",
+        "SM_Site_SalmonLowerPool_BasinGround_02_04"
+      ],
+      "source_manifests": [
+        "manifests/site-completion-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        841.1551361083984,
+        -419.9451446533203,
+        6.669593811035156
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        810.7592163085938,
+        -526.8172607421875,
+        3.3563919067382812
+      ],
+      "bounds_max_m": [
+        871.5510559082031,
+        -313.0730285644531,
+        9.982795715332031
+      ],
+      "station_m": 522.2034829314765,
+      "route_distance_m": 130.39972469513924,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -54182.74301800589,
+          "y": 88751.0250986335,
+          "z": 468.6292240540101
+        },
+        "rotation": {
+          "pitch": 0.8713672421452867,
+          "yaw": -20.823157138596066,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_greig_garden",
+      "name": "Ted and Mary Greig Rhododendron Garden",
+      "linked_meshes": [
+        "SM_Ground_GreigGardenEast_Ground_01_02",
+        "SM_Ground_GreigGardenWest_Ground_01_02"
+      ],
+      "source_manifests": [
+        "manifests/ground-space-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        -163.60299682617188,
+        -925.3306503295898,
+        7.009392142295837
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        -363.4792785644531,
+        -1057.8404388427734,
+        1.566176176071167
+      ],
+      "bounds_max_m": [
+        36.273284912109375,
+        -792.8208618164062,
+        12.452608108520508
+      ],
+      "station_m": 8715.928430580901,
+      "route_distance_m": 68.99517562545672,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -87628.33258108958,
+          "y": -11507.780525369548,
+          "z": 583.6352213043622
+        },
+        "rotation": {
+          "pitch": 0.9740356731853413,
+          "yaw": -135.30659995059497,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_lawn_bowling",
+      "name": "Stanley Park Lawn Bowling Club",
+      "linked_meshes": [
+        "SM_PublicSpace_LawnBowlingNorth_01_02",
+        "SM_PublicSpace_LawnBowlingSouth_01_02"
+      ],
+      "source_manifests": [
+        "data/derived/public-spaces/public-space-meshes.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        -302.7211227416992,
+        -1239.8104265928268,
+        10.560519695281982
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        -344.9091339111328,
+        -1283.6238210201263,
+        10.412005424499512
+      ],
+      "bounds_max_m": [
+        -260.5331115722656,
+        -1195.9970321655273,
+        10.709033966064453
+      ],
+      "station_m": 8353.84794697101,
+      "route_distance_m": 327.74646290554324,
+      "disposition": "distant/interior candidate; retain coarse forms and check section sightlines",
+      "requested_camera": {
+        "location": {
+          "x": -92179.85102264235,
+          "y": -38200.64618408187,
+          "z": 482.8239060549782
+        },
+        "rotation": {
+          "pitch": 1.0020001472000704,
+          "yaw": 166.0006677930439,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_water_park",
+      "name": "Variety Kids Water Park",
+      "linked_meshes": [
+        "SM_PublicSpace_LumbermanPlayground_03_04",
+        "SM_PublicSpace_VarietyWaterPark_03_04",
+        "SM_Site_WaterParkBoatPad_03_04",
+        "SM_WaterPark_BoatOpenRim",
+        "SM_WaterPark_ClimbingOutcrop"
+      ],
+      "source_manifests": [
+        "data/derived/public-spaces/public-space-meshes.json",
+        "manifests/site-completion-blockouts.json",
+        "manifests/waterpark-low-forms.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        862.6017074584961,
+        -5.88189697265625,
+        10.367767870426178
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        751.9260101318359,
+        -99.77423095703125,
+        1.7119685411453247
+      ],
+      "bounds_max_m": [
+        973.2774047851562,
+        88.01043701171875,
+        19.02356719970703
+      ],
+      "station_m": 3191.044787658005,
+      "route_distance_m": 75.10445847346769,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": 4639.0138381019415,
+          "y": 91653.04938584969,
+          "z": 460.47512164250753
+        },
+        "rotation": {
+          "pitch": 4.387898556976022,
+          "yaw": -134.10624850408394,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_ceperley",
+      "name": "Ceperley Meadow, field and playground",
+      "linked_meshes": [
+        "SM_PublicSpace_CeperleyBasketball_01_02",
+        "SM_PublicSpace_CeperleyField_01_01",
+        "SM_PublicSpace_CeperleyField_01_02",
+        "SM_PublicSpace_CeperleyMeadowNorth_01_02",
+        "SM_PublicSpace_CeperleyMeadowNorth_02_02",
+        "SM_PublicSpace_CeperleyMeadowSouth_01_02",
+        "SM_PublicSpace_CeperleyPlayground_01_02"
+      ],
+      "source_manifests": [
+        "data/derived/public-spaces/public-space-meshes.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        -375.19864654541016,
+        -868.9356920719147,
+        3.4956215620040894
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        -492.8099365234375,
+        -967.513671875,
+        1.3026583194732666
+      ],
+      "bounds_max_m": [
+        -257.5873565673828,
+        -770.3577122688293,
+        5.688584804534912
+      ],
+      "station_m": 8407.946711529758,
+      "route_distance_m": 20.812739075835964,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -87928.6574500319,
+          "y": -35714.23639603325,
+          "z": 412.0392981198483
+        },
+        "rotation": {
+          "pitch": -1.719428602653926,
+          "yaw": -60.176226053158416,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_tennis",
+      "name": "English Bay and Lagoon Drive tennis courts",
+      "linked_meshes": [
+        "SM_PublicSpace_Tennis_01_01_02",
+        "SM_PublicSpace_Tennis_02_01_02",
+        "SM_PublicSpace_Tennis_03_01_02",
+        "SM_PublicSpace_Tennis_04_01_02",
+        "SM_PublicSpace_Tennis_05_01_02",
+        "SM_PublicSpace_Tennis_06_01_02",
+        "SM_PublicSpace_Tennis_07_01_02",
+        "SM_PublicSpace_Tennis_08_01_02",
+        "SM_PublicSpace_Tennis_09_01_02",
+        "SM_PublicSpace_Tennis_10_01_02",
+        "SM_PublicSpace_Tennis_11_01_02",
+        "SM_PublicSpace_Tennis_12_01_02",
+        "SM_PublicSpace_Tennis_13_01_02",
+        "SM_PublicSpace_Tennis_14_01_02",
+        "SM_PublicSpace_Tennis_15_01_02",
+        "SM_PublicSpace_Tennis_16_01_02",
+        "SM_PublicSpace_Tennis_17_01_02",
+        "SM_PublicSpace_Tennis_18_01_02",
+        "SM_PublicSpace_Tennis_19_01_03",
+        "SM_PublicSpace_Tennis_20_01_03",
+        "SM_PublicSpace_Tennis_21_01_03",
+        "SM_PublicSpace_Tennis_22_01_03"
+      ],
+      "source_manifests": [
+        "data/derived/public-spaces/public-space-meshes.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        44.739990234375,
+        -1096.4514236450195,
+        10.006277322769165
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        -243.4193115234375,
+        -1227.2932891845703,
+        5.635097026824951
+      ],
+      "bounds_max_m": [
+        332.8992919921875,
+        -965.6095581054688,
+        14.377457618713379
+      ],
+      "station_m": 8917.56442424739,
+      "route_distance_m": 102.5893263357486,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -99386.25337951443,
+          "y": 4444.072882209744,
+          "z": 785.5429247369026
+        },
+        "rotation": {
+          "pitch": 1.2010651601017723,
+          "yaw": 179.83286331215277,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_pitch_putt",
+      "name": "Stanley Park Pitch and Putt",
+      "linked_meshes": [
+        "SM_Ground_Golf_green_752863877_01_02",
+        "SM_Ground_Golf_green_752863878_01_02",
+        "SM_Ground_Golf_green_752863882_01_02",
+        "SM_Ground_Golf_green_752863884_01_02",
+        "SM_Ground_Golf_green_752863885_01_02",
+        "SM_Ground_Golf_green_752863887_01_02",
+        "SM_Ground_Golf_green_752863889_01_02",
+        "SM_Ground_Golf_green_752863891_01_02",
+        "SM_Ground_Golf_green_752863893_01_02",
+        "SM_Ground_Golf_green_752863895_01_02",
+        "SM_Ground_Golf_green_752863897_01_02",
+        "SM_Ground_Golf_green_752863899_01_02",
+        "SM_Ground_Golf_green_752863901_01_02",
+        "SM_Ground_Golf_green_752863903_01_02",
+        "SM_Ground_Golf_green_752863905_01_02",
+        "SM_Ground_Golf_green_752863907_01_02",
+        "SM_Ground_Golf_green_752863909_01_02",
+        "SM_Ground_Golf_green_752863911_01_02",
+        "SM_Ground_Golf_tee_755040275_01_02",
+        "SM_Ground_Golf_tee_755040276_01_02",
+        "SM_Ground_Golf_tee_755040277_01_02",
+        "SM_Ground_Golf_tee_755040278_01_02",
+        "SM_Ground_Golf_tee_755040279_01_02",
+        "SM_Ground_Golf_tee_755040280_01_02",
+        "SM_Ground_Golf_tee_755040281_01_02",
+        "SM_Ground_Golf_tee_755040282_01_02",
+        "SM_Ground_Golf_tee_755040283_01_02",
+        "SM_Ground_Golf_tee_755047370_01_02",
+        "SM_Ground_Golf_tee_755047372_01_02",
+        "SM_Ground_Golf_tee_755273129_01_02"
+      ],
+      "source_manifests": [
+        "manifests/ground-space-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        -183.46270751953125,
+        -951.0048065185547,
+        7.033777236938477
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        -329.86773681640625,
+        -1055.6947326660156,
+        2.7719039916992188
+      ],
+      "bounds_max_m": [
+        -37.05767822265625,
+        -846.3148803710938,
+        11.295650482177734
+      ],
+      "station_m": 8722.451524617558,
+      "route_distance_m": 101.21265997146384,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -88089.52699897268,
+          "y": -11046.506765212116,
+          "z": 579.4994480932897
+        },
+        "rotation": {
+          "pitch": 0.7012312471576878,
+          "yaw": -133.84384783335318,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_second_beach",
+      "name": "Second Beach and facilities",
+      "linked_meshes": [
+        "SM_Named_SecondPoolFacilities_RoofStepClosures",
+        "SM_Named_SecondPoolFacilities_RoofSurvey",
+        "SM_Named_SecondPoolFacilities_WallsReview",
+        "SM_SecondPool_BasinContainmentReview",
+        "SM_SecondPool_CopingSurvey",
+        "SM_SecondPool_SurfaceReview",
+        "SM_SecondPool_SyntheticSafetyFloor"
+      ],
+      "source_manifests": [
+        "manifests/named-building-blockouts.json",
+        "manifests/named-waterfront-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        -605.8610982894897,
+        -790.9528636932373,
+        6.049523830413818
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        -671.0712089538574,
+        -835.7727375030518,
+        2.865199089050293
+      ],
+      "bounds_max_m": [
+        -540.6509876251221,
+        -746.1329898834229,
+        9.233848571777344
+      ],
+      "station_m": 8024.204300641026,
+      "route_distance_m": 23.007939456884646,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -76825.79808973007,
+          "y": -60964.36335411919,
+          "z": 488.35738871316573
+        },
+        "rotation": {
+          "pitch": 2.9010382910417825,
+          "yaw": 170.53754321752527,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_lions_gate",
+      "name": "Lions Gate Bridge and visible approaches",
+      "linked_meshes": [
+        "SM_LionsGate_Hangers",
+        "SM_LionsGate_MainCables",
+        "SM_LionsGate_NorthBermReview",
+        "SM_LionsGate_NorthFootingReview",
+        "SM_LionsGate_Road",
+        "SM_LionsGate_SouthFootingReview",
+        "SM_LionsGate_Towers",
+        "SM_LionsGate_WalkEast",
+        "SM_LionsGate_WalkWest"
+      ],
+      "source_manifests": [
+        "manifests/lions-gate-blockout.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        341.0985336303711,
+        1422.243049621582,
+        59.892982482910156
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        99.19708251953125,
+        1055.3484649658203,
+        -1.0
+      ],
+      "bounds_max_m": [
+        582.9999847412109,
+        1789.1376342773438,
+        120.78596496582031
+      ],
+      "station_m": 4724.453154290899,
+      "route_distance_m": 260.002441228854,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": 127211.63112136087,
+          "y": 12881.751267007035,
+          "z": 464.85920003345865
+        },
+        "rotation": {
+          "pitch": 11.99560718282177,
+          "yaw": 54.731761835387445,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_hallelujah",
+      "name": "Hallelujah Point",
+      "linked_meshes": [
+        "SM_Terrain_02_06"
+      ],
+      "source_manifests": [
+        "manifests/m1-existing-site-linkage.json"
+      ],
+      "source_limits": [
+        "Finite south Brockton shore/grass/canopy site. Bounds select existing landforms; they are not a survey boundary."
+      ],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        1732.5,
+        -475.0,
+        0.0
+      ],
+      "position_basis": "Centre of current linked source geometry bounds; for selection-only sites, centre of the recorded search polygon; not a surveyed feature point.",
+      "bounds_min_m": [
+        1650.0,
+        -530.0,
+        0.0
+      ],
+      "bounds_max_m": [
+        1815.0,
+        -420.0,
+        0.0
+      ],
+      "station_m": 1600.8101390032894,
+      "route_distance_m": 4.340443343467997,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -47917.28381737261,
+          "y": 173130.54833639713,
+          "z": 743.3392023670001
+        },
+        "rotation": {
+          "pitch": -2.6382227042124704,
+          "yaw": 15.974298825883622,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "SP_devonian",
+      "name": "Devonian Harbour Park entrance connection",
+      "linked_meshes": [
+        "SM_Site_DevonianParkGround_01_03",
+        "SM_Site_DevonianParkGround_01_04",
+        "SM_Site_DevonianPond_01_03",
+        "SM_Site_DevonianPond_01_04",
+        "SM_Site_DevonianPond_BasinGround_01_03",
+        "SM_Site_DevonianPond_BasinGround_01_04"
+      ],
+      "source_manifests": [
+        "manifests/site-completion-blockouts.json"
+      ],
+      "source_limits": [],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        624.6935501098633,
+        -948.0748901367188,
+        4.344039164483547
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        470.9742431640625,
+        -1091.6200256347656,
+        0.22408811748027802
+      ],
+      "bounds_max_m": [
+        778.4128570556641,
+        -804.5297546386719,
+        8.463990211486816
+      ],
+      "station_m": 2.8236838297159195,
+      "route_distance_m": 168.24906273510365,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -81583.80341843545,
+          "y": 52066.87403812486,
+          "z": 479.19490931818933
+        },
+        "rotation": {
+          "pitch": -0.15253153552359514,
+          "yaw": 141.80945619248826,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "ART_100",
+      "name": "Thunderbird Dynasty Pole",
+      "linked_meshes": [],
+      "source_manifests": [],
+      "source_limits": [
+        "No current placement is invented. This is the retained project reference-period decision, not a new2026 condition survey."
+      ],
+      "visibility": "not established by source reconciliation",
+      "review_status": "source exclusion retained",
+      "disposition": "excluded as absent by retained City registry record",
+      "source_references": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=100",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ]
+    },
+    {
+      "id": "ART_533",
+      "name": "Oscar Matilpi Pole",
+      "linked_meshes": [
+        "SM_TotemMeasured_02_CoarseProfile"
+      ],
+      "source_manifests": [
+        "manifests/totem-precinct-forms.json"
+      ],
+      "source_limits": [
+        "Provisional Oscar Matilpi identity only. The OSM node is about1.6m east of this source-fitted display pole."
+      ],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        1610.300048828125,
+        -362.6000061035156,
+        6.528867483139038
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        1609.7800488471985,
+        -363.1069686412811,
+        3.0377345085144043
+      ],
+      "bounds_max_m": [
+        1610.8200488090515,
+        -362.0930435657501,
+        10.020000457763672
+      ],
+      "station_m": 2356.393111995741,
+      "route_distance_m": 39.215224062280946,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -32427.72167380096,
+          "y": 161861.85591215585,
+          "z": 591.8877965823805
+        },
+        "rotation": {
+          "pitch": 0.8911591701372734,
+          "yaw": -167.75311676147246,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "ART_534",
+      "name": "Ga'akstalas",
+      "linked_meshes": [
+        "SM_TotemMeasured_05_CoarseProfile"
+      ],
+      "source_manifests": [
+        "manifests/totem-precinct-forms.json"
+      ],
+      "source_limits": [
+        "Provisional Ga'akstalas identity only. OSM node8555605624 is about1.5m east of this source-fitted tall pole."
+      ],
+      "visibility": "not established by source reconciliation",
+      "review_status": "pending",
+      "position_local_m": [
+        1620.199951171875,
+        -377.8999938964844,
+        9.026294827461243
+      ],
+      "position_basis": "Centre of linked current export bounds transformed from Unreal local centimetres plus actor position into east/north/up metres. Bounds centre is a review target, not a surveyed feature point.",
+      "bounds_min_m": [
+        1619.6799511909485,
+        -378.4069564342499,
+        3.252589464187622
+      ],
+      "bounds_max_m": [
+        1620.7199511528015,
+        -377.3930313587189,
+        14.800000190734863
+      ],
+      "station_m": 2342.652382423614,
+      "route_distance_m": 51.6715759107273,
+      "disposition": "route-view candidate",
+      "requested_camera": {
+        "location": {
+          "x": -32758.316328337332,
+          "y": 163195.44530392255,
+          "z": 596.3227171974735
+        },
+        "rotation": {
+          "pitch": 3.392497799859696,
+          "yaw": -166.85095922814048,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "ART_499",
+      "name": "Portal",
+      "linked_meshes": [],
+      "source_manifests": [],
+      "source_limits": [
+        "No current placement is invented. This is the retained project reference-period decision, not a new2026 condition survey."
+      ],
+      "visibility": "not established by source reconciliation",
+      "review_status": "source exclusion retained",
+      "disposition": "excluded as absent by retained City registry record",
+      "source_references": [
+        {
+          "url": "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=499",
+          "rights": "Registry metadata licence does not grant artwork or photograph reproduction rights"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "total": 25,
+    "located": 22,
+    "source_excluded": 2,
+    "unresolved": 0,
+    "approximate_source_candidates": 1,
+    "unresolved_shapes": 1
+  },
+  "distance_is_visibility": false,
+  "source_contract": "Keep all recorded2022 survey,2026 map, OSM, artwork identity and boundary limits. Bounding centres are review targets only.",
+  "additional_source_method": "The restoration-donor candidate uses a dated firsthand field-marker record, transformed WGS84 to EPSG3157 with the project origin. No source media was copied."
+}

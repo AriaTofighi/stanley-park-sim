@@ -1,0 +1,57 @@
+{
+  "acquired_utc": "2026-09-27T19:27:26.646407+00:00",
+  "files": [
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/building-footprints-2009",
+      "path": "data\\raw\\skyline\\city-building-2009-metadata.json",
+      "bytes": 6065,
+      "sha256": "8df02631695898b6b99c6b2198a038cfe1206fb2417479a89024686f435eb2a0"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/building-footprints-2009/exports/geojson?where=within%28geo_point_2d%2C+GEOM%27POLYGON%28%28-123.150+49.274%2C-123.097+49.274%2C-123.097+49.299%2C-123.150+49.299%2C-123.150+49.274%29%29%27%29",
+      "path": "data\\raw\\skyline\\city-building-2009-downtown.geojson",
+      "bytes": 3802406,
+      "sha256": "73dae9dacd6302a201165ef5c89b22831a138d3a23e23ac6ed81334f7310c3eb"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-123.150,49.274,-123.124,49.287",
+      "path": "data\\raw\\skyline\\osm-downtown-0-20260927.osm",
+      "bytes": 10346474,
+      "sha256": "ea205dd35651256339220a8810630b4c766856315ca4b11d44d836b40152991c"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-123.124,49.274,-123.097,49.287",
+      "path": "data\\raw\\skyline\\osm-downtown-1-20260927.osm",
+      "bytes": 14559773,
+      "sha256": "c902e92f11891525cb753a6c0a1eb86e52b12ccff84ce4798a918fd2993f2840"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-123.150,49.287,-123.124,49.299",
+      "path": "data\\raw\\skyline\\osm-downtown-2-20260927.osm",
+      "bytes": 7668407,
+      "sha256": "40c7ca44e932af563c5564a553c3fd80c94d2d79aebcb622b960c247c9cfdf97"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-123.124,49.287,-123.097,49.299",
+      "path": "data\\raw\\skyline\\osm-downtown-3-20260927.osm",
+      "bytes": 2366208,
+      "sha256": "6e4deff6ab507f8fcfb8b796d07a58f299273e1a30938e59bca6c14e9cab5aea"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://opendata.vancouver.ca/explore/dataset/building-footprints-2009/",
+      "capture": "2009",
+      "licence": "Open Government Licence - Vancouver",
+      "use": "Historic distant massing reference; check demolition and later towers individually"
+    },
+    {
+      "url": "https://www.openstreetmap.org/copyright",
+      "capture": "API snapshot 2026-09-27; feature dates vary",
+      "licence": "ODbL-1.0",
+      "use": "Current feature names, footprints and tagged dimensions; not survey certification"
+    }
+  ],
+  "accepted": false,
+  "limitations": "Acquisition only. Do not import historical buildings without a current identity/change check."
+}

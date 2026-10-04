@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "Reviewed development corrections; independent survey acceptance remains open",
+  "reference_period": "2022 LiDAR and orthophoto; 2024 field photographs in 2025 report",
+  "surface_constraints": [
+    {
+      "start_m": 3180,
+      "end_m": 3670,
+      "height_range_m": [2.4, 4.0],
+      "offset_range_m": [-25, 7.5],
+      "reason": "Approximate City line crosses the vegetated bank. Six measured cross-sections and the orthophoto show continuous low seawall pavement seaward of the bank. The upper flat returns belong to Stanley Park Drive.",
+      "evidence": ["evidence/corridor/lidar-north-lumberman-sections.png", "evidence/corridor/ortho-utm/north-lumberman-issue-review.png"],
+      "accuracy_accepted": false
+    }
+  ],
+  "occluded_underpasses": [
+    {
+      "name": "Ceperley under Stanley Park Drive",
+      "start_m": 8332,
+      "end_m": 8370,
+      "reason": "The road deck and adjacent banks are above the bicycle underpass. Connect measured portal heights through the occluded span. Interior survey and roof clearance remain unresolved.",
+      "evidence": "evidence/corridor/ortho-utm/return-crossing-review.png",
+      "accuracy_accepted": false
+    },
+    {
+      "name": "Georgia Causeway entrance underpass",
+      "start_m": 9344,
+      "end_m": 9390,
+      "reason": "Airborne returns do not measure the tunnel floor below the Causeway deck. Interpolate measured entrance heights for the development surface only.",
+      "evidence": "evidence/corridor/ortho-utm/entrance-underpass-review.png",
+      "accuracy_accepted": false
+    }
+  ]
+}

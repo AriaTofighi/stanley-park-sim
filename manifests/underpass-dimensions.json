@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "M1 structural blockout estimates; not as-built survey",
+  "chainage_reference": "paved-circuit-runtime.json chainage_source_m, not chainage_runtime_m",
+  "route_floor": "Existing portal interpolation is retained. Airborne LiDAR does not measure the interior floor.",
+  "sites": [
+    {
+      "id": "Ceperley",
+      "floor_envelope_source_m": [8332, 8370],
+      "roof_source_m": [8347, 8359],
+      "roof_extent_basis": "2022 classes 1/2 returns change from portal/bank to a continuous road deck at these stations; checked against the 2022 orthophoto. Estimate uncertainty is 2 m at each portal.",
+      "roof_portal_uncertainty_m": 2,
+      "clear_width_m": 3.6,
+      "clearance_m": 2.4,
+      "wall_thickness_m": 0.3,
+      "floor_slab_thickness_m": 0.15,
+      "approach_taper_m": 3,
+      "deck_height_band_m": [5.2, 6.2],
+      "dimension_basis": "Clear width, clearance, wall thickness and floor slab are editable M1 estimates. Public sources confirm the tunnel and constrained visibility, but no as-built dimensions were found. Clearance must be checked in the runtime.",
+      "sources": ["city-lidar-2022", "city-ortho-2022-return-crossing", "city-cycling-plan-2012"],
+      "licence": "City OGL Vancouver survey-derived geometry; original estimated structural mesh",
+      "release_accepted": false
+    },
+    {
+      "id": "Chilco",
+      "floor_envelope_source_m": [9344, 9390],
+      "roof_source_m": [9347, 9384],
+      "roof_extent_basis": "2022 classes 1/2 road deck returns are continuous between these portal regions; 2022 orthophoto and OSM mapped tunnel endpoints provide independent plan checks. Estimate uncertainty is 2 m at each portal.",
+      "roof_portal_uncertainty_m": 2,
+      "clear_width_m": 4.0,
+      "clearance_m": 3.0,
+      "wall_thickness_m": 0.3,
+      "floor_slab_thickness_m": 0.15,
+      "approach_taper_m": 3,
+      "deck_height_band_m": [4.5, 5.6],
+      "dimension_basis": "4 m cyclist section and 3 m vertical clearance use the 2001 City recommended design. Final construction is not verified. Bay location follows the current authored bicycle centreline. Wall thickness and roof slab profile are M1 estimates.",
+      "design_overall_width_m": 13.0,
+      "design_sections": "Three 4 m sections; the skating section had a proposed raised floor and 2.5 m clearance. Other section positions and final construction are unresolved.",
+      "design_envelope_policy": "Reference-only wire object, hidden in render and excluded from export/collision. Do not infer three built bays or pedestrian permissions from this design record.",
+      "sources": ["city-lidar-2022", "city-ortho-2022-entrance-underpass", "city-chilco-design-2001", "osm-20260927"],
+      "licence": "City OGL Vancouver survey-derived geometry; original estimated structural mesh. OSM used only for a reference comparison, not mesh coordinates.",
+      "release_accepted": false
+    }
+  ]
+}

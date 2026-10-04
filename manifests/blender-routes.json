@@ -1,0 +1,1050 @@
+[
+  {
+    "edge_id": "city_bikeways_60",
+    "mesh": "SM_Route_60",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0214,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_99",
+    "mesh": "SM_Route_99",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.2283,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_118",
+    "mesh": "SM_Route_118",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0826,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_159",
+    "mesh": "SM_Route_159",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0861,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_188",
+    "mesh": "SM_Route_188",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0646,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_337",
+    "mesh": "SM_Route_337",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0704,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_569",
+    "mesh": "SM_Route_569",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.6429,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_580",
+    "mesh": "SM_Route_580",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0649,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_642",
+    "mesh": "SM_Route_642",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1549,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_655",
+    "mesh": "SM_Route_655",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1235,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_706",
+    "mesh": "SM_Route_706",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1634,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_800",
+    "mesh": "SM_Route_800",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1657,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_873",
+    "mesh": "SM_Route_873",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0511,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1043",
+    "mesh": "SM_Route_1043",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 1.0954,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1095",
+    "mesh": "SM_Route_1095",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.5717,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1160",
+    "mesh": "SM_Route_1160",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0716,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1233",
+    "mesh": "SM_Route_1233",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0883,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1250",
+    "mesh": "SM_Route_1250",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0449,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1292",
+    "mesh": "SM_Route_1292",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1273,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1320",
+    "mesh": "SM_Route_1320",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0468,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1326",
+    "mesh": "SM_Route_1326",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0521,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1367",
+    "mesh": "SM_Route_1367",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.5176,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1410",
+    "mesh": "SM_Route_1410",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.6387,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1489",
+    "mesh": "SM_Route_1489",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1514,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1573",
+    "mesh": "SM_Route_1573",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0647,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1751",
+    "mesh": "SM_Route_1751",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0768,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1812",
+    "mesh": "SM_Route_1812",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.166,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1953",
+    "mesh": "SM_Route_1953",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.3156,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_1992",
+    "mesh": "SM_Route_1992",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0865,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2064",
+    "mesh": "SM_Route_2064",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1204,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2108",
+    "mesh": "SM_Route_2108",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0458,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2336",
+    "mesh": "SM_Route_2336",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.2472,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2340",
+    "mesh": "SM_Route_2340",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0673,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2425",
+    "mesh": "SM_Route_2425",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1407,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2532",
+    "mesh": "SM_Route_2532",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0807,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2576",
+    "mesh": "SM_Route_2576",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0942,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2630",
+    "mesh": "SM_Route_2630",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.134,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2693",
+    "mesh": "SM_Route_2693",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 1.3188,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2703",
+    "mesh": "SM_Route_2703",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0444,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2704",
+    "mesh": "SM_Route_2704",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0557,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2729",
+    "mesh": "SM_Route_2729",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.7087,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2775",
+    "mesh": "SM_Route_2775",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0784,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2783",
+    "mesh": "SM_Route_2783",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.2132,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2810",
+    "mesh": "SM_Route_2810",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1109,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2820",
+    "mesh": "SM_Route_2820",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1244,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_2886",
+    "mesh": "SM_Route_2886",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0393,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3102",
+    "mesh": "SM_Route_3102",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0365,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3258",
+    "mesh": "SM_Route_3258",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 1.5178,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3273",
+    "mesh": "SM_Route_3273",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1014,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3287",
+    "mesh": "SM_Route_3287",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.1507,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3306",
+    "mesh": "SM_Route_3306",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0431,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3318",
+    "mesh": "SM_Route_3318",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.2219,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3343",
+    "mesh": "SM_Route_3343",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0537,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3474",
+    "mesh": "SM_Route_3474",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.2796,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3540",
+    "mesh": "SM_Route_3540",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.0169,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "edge_id": "city_bikeways_3555",
+    "mesh": "SM_Route_3555",
+    "width_status": "3m development proxy, unsurveyed",
+    "raw_max_grade": 0.2565,
+    "collision": "none",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_000",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_000",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_001",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_001",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_002",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_002",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_003",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_003",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_004",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_004",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_005",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_005",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_006",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_006",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_007",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_007",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_008",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_008",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_009",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_009",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_010",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_010",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_011",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_011",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_012",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_012",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_013",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_013",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_014",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_014",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_015",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_015",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_016",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_016",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_017",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_017",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_018",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_018",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_019",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_019",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_020",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_020",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_021",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_021",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_022",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_022",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_023",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_023",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_024",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_024",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_025",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_025",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_026",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_026",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_027",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_027",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_028",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_028",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_029",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_029",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_030",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_030",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_031",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_031",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_032",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_032",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_033",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_033",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_034",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_034",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_035",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_035",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_036",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_036",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_037",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_037",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_038",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_038",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_039",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_039",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_040",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_040",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_041",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_041",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_042",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_042",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_043",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_043",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_044",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_044",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_045",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_045",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_046",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_046",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_047",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_047",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_048",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_048",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_Pavement_049",
+    "collision": "complex",
+    "role": "pavement",
+    "release_accepted": false
+  },
+  {
+    "mesh": "SM_PavementSupport_049",
+    "collision": "complex",
+    "role": "support",
+    "release_accepted": false
+  }
+]

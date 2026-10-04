@@ -1,0 +1,39 @@
+{
+  "retrieved_utc": "2026-09-26T23:00:36.951249+00:00",
+  "records": [
+    {
+      "url": "https://parkboardmeetings.vancouver.ca/2025/20250310/REPORT-EnhancedAccessibilityonSeawallCyclingPath-ReportBack-20250310.pdf",
+      "rights": "reference_only",
+      "status": "user_supplied_download",
+      "path": "data/raw/corridor/maze-gates-2025.pdf",
+      "bytes": 18912600,
+      "sha256": "b85c80b18c50cb7fca205d599de5844df984f0e9d95b6848bad5a00f56171804",
+      "document_date": "2025-02-27",
+      "meeting_date": "2025-03-10",
+      "observations_dates": [
+        "2024-08-14",
+        "2024-08-17",
+        "2024-08-29"
+      ],
+      "baseline_note": "Existing-condition pages 21-23 apply as historical references. Proposed 2027 construction is not 2026 as-built geometry."
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/orthophoto-imagery-2022",
+      "path": "data\\raw\\corridor\\orthophoto-2022-metadata.json",
+      "bytes": 4500,
+      "sha256": "744a781fb257119c9922a319e36f8e703b6f0a6a0ec18f65ff071a6111eb3070",
+      "rights": "Open Government Licence - Vancouver",
+      "capture_or_document_period": "2022-06-06 through 2022-07-01 capture",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://maps.vancouver.ca/portal/sharing/rest/content/items/89af6990b7334aeab8792b50351287a6?f=pjson",
+      "path": "data\\raw\\corridor\\orthophoto-portal-item.json",
+      "bytes": 1799,
+      "sha256": "9ee6fc77444b48af72950c5965879324d6c627a3410fb16ffe52d965078e647b",
+      "rights": "check service item terms",
+      "capture_or_document_period": "2022 imagery service descriptor",
+      "status": "downloaded"
+    }
+  ]
+}

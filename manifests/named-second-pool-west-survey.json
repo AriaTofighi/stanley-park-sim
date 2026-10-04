@@ -1,0 +1,18 @@
+{
+  "id": "second-pool-west",
+  "extraction_centre_local_m": [
+    -620,
+    -810
+  ],
+  "extraction_radius_m": 85,
+  "source": "manifests/lidar2022-488000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 397880,
+  "output": {
+    "path": "data/derived/named-second-pool-west-survey.npz",
+    "sha256": "8b6136a87a0cd5806b8752fd254319700167bb9a89aa79a2ffa5b53983b51d16"
+  }
+}

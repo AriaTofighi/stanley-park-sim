@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-09-27T01:24:57.789852+00:00",
+  "input_path": "data/raw/city/lidar2022/491000_5460000.zip",
+  "source_url": "https://webtransfer.vancouver.ca/opendata/2022LiDAR/491000_5460000.zip",
+  "delivery": "Public download from City portal; original retained",
+  "input_sha256": "64b8b6a91e860cd6652ba1aa2dd2652f70a2632be980e2f17499b37a088e61ff",
+  "metadata_url": "https://opendata.vancouver.ca/explore/dataset/lidar-2022/information/",
+  "capture_dates": [
+    "2022-09-07",
+    "2022-09-09"
+  ],
+  "licence": "Open Government Licence - Vancouver",
+  "distribution": "Derived geometry allowed with attribution; archive retained as source, not shipped in game",
+  "header": {
+    "version": "1.4",
+    "format": 7,
+    "points": 12474223,
+    "minima": [
+      491000.0,
+      5460000.001,
+      -6.845
+    ],
+    "maxima": [
+      491999.999,
+      5460999.999,
+      64.299
+    ],
+    "crs": "PROJCRS[\"NAD83 / UTM zone 10N\",BASEGEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"UTM zone 10N\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",-123,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9996,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",500000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",26910]]"
+  },
+  "class_counts": {
+    "1": 1175089,
+    "2": 4138115,
+    "3": 375567,
+    "5": 5974606,
+    "6": 173852,
+    "7": 5212,
+    "9": 631782
+  },
+  "water_sampling": "Each fiftieth LAS class-9 return per read chunk; not a tide datum",
+  "canopy_sampling": "5m cells, maximum height and count of class-5 returns; not individual tree identities",
+  "building_sampling": "Each tenth class-6 return; blockout height/footprint reference",
+  "horizontal_reference": "Catalogue: NAD83(CSRS) 4.0.0.BC.1.GVRD / UTM 10; LAS generic EPSG26910 is less specific",
+  "horizontal_treatment": "Keep source UTM coordinates; realization/epoch residual not independently established",
+  "vertical_reference_input": "CGVD28GVRD, HTMVBC00_Abb geoid",
+  "vertical_reference_output": "CGVD2013(CGG2013a); regional realization residual remains open",
+  "formula": "H2013 = H28 + N_HTMVBC00_Abb - N_CGG2013an83; bilinear grid-centre interpolation in metres",
+  "correction_range_m": [
+    0.14377698302268982,
+    0.14802491664886475
+  ],
+  "geoid_sources": [
+    {
+      "path": "data/raw/geoid/HTMVBC00_Abb.byn",
+      "sha256": "37439d9aea31efc2fbf22af0002821f3f935dccfffd562d41cf8a5bf5d505366"
+    },
+    {
+      "path": "data/raw/geoid/ca_nrc_CGG2013an83.tif",
+      "sha256": "a129e9e9b023bb5c7133b3a91e41f1d528892fc28e99dcecb251cd71292968cb"
+    }
+  ],
+  "geoid_documentation": [
+    "https://www2.gov.bc.ca/gov/content/data/geographic-data-services/geo-spatial-referencing/height-transformations",
+    "https://cdn.proj.org/ca_nrc_README.txt",
+    "https://gdal.org/en/stable/drivers/raster/byn.html"
+  ],
+  "output": {
+    "path": "data/derived/lidar2022_491000_5460000.npz",
+    "sha256": "e57b26880b0e91629a63a179d6cf9c12a337176c8a18e520b4a0218f3b58af31",
+    "columns": [
+      "local_east_m",
+      "local_north_m",
+      "H_CGVD2013_m",
+      "H_native_m"
+    ]
+  },
+  "source_reported_vertical_accuracy_95_m": 0.081,
+  "acceptance": "Source ingested, not accepted as independent centimetre survey control; check on flat pavement"
+}

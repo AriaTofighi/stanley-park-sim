@@ -1,0 +1,1836 @@
+{
+  "schema_version": 1,
+  "coordinates": "Local east/north/up metres",
+  "method": "Finite camera search against saved terrain, pavement, building envelopes, named meshes and exact source canopy proxy triangles. Five local target samples; no scene or application operation. Shore camera filters use the park plus Devonian park bounds and full source pond footprints, not only rendered water patches.",
+  "limits": [
+    "These are candidates for live review, not completed visual acceptance.",
+    "Clear centre/local samples do not prove that the complete viewport or full feature is visible.",
+    "Source canopy is the unchanged 2022 blockout; no vegetation was removed to expose a view.",
+    "Existing-site views show a small landform area only."
+  ],
+  "source_inputs": [
+    {
+      "path": "data/derived/canopy-zone-assignments.json",
+      "sha256": "c9db788cc9908de82b66efe3996872f82762a865daf157b2508f4fb6a63109ce"
+    },
+    {
+      "path": "data/derived/cover-blockout.json",
+      "sha256": "9187a028f7c073140ad7b113099b17f1f5827b5beab037eeb48bdf1b9b06ceef"
+    },
+    {
+      "path": "data/derived/lake-surfaces.geojson",
+      "sha256": "ffe78fcbf94e9df5bb02eff8a5b5ffffbca8c7182e0d767a37f9aaa8a1b0bcca"
+    },
+    {
+      "path": "data/derived/park_boundary.geojson",
+      "sha256": "cec46d5864d7869f37bc344cb4cc9604debe7aa74343bced4027bcf0ff5ed5a3"
+    },
+    {
+      "path": "data/derived/site-completions/site-completions-local.geojson",
+      "sha256": "a1d3c19603f3ec425d8ea0cab62407d10b76c715a4abfac575d509945cd852b9"
+    },
+    {
+      "path": "manifests/ground-space-blockouts.json",
+      "sha256": "85e08bc35de5229f2fee50610f22cbf4e2f6e961762cbf9dcb7d9de84e2a768a"
+    },
+    {
+      "path": "manifests/lagoon-structure-blockouts.json",
+      "sha256": "4f801064d341b56f5859c31f4432ace2ecf0441b1c2edcee3d48449c00f79e11"
+    },
+    {
+      "path": "manifests/lumberman-facility-blockouts.json",
+      "sha256": "5a88101ae6ce00c170e96314a81dbe3988f7fff6d2abf1f9e03abfc76e1d46e0"
+    },
+    {
+      "path": "manifests/m1-existing-site-linkage.json",
+      "sha256": "16d29ce4dc57339889de453dd65a1896e27ac203d4d734716cefe39353d06cf7"
+    },
+    {
+      "path": "manifests/named-feature-blockouts.json",
+      "sha256": "7c99271c191f92d6b843f34587b898180ab3500395de2d4403665f92dceab65a"
+    },
+    {
+      "path": "manifests/railway-structure-blockouts.json",
+      "sha256": "311a0fde89c5949acaf9acb082a23c979de078eec2f9ffc434c7ec4f6152da43"
+    },
+    {
+      "path": "manifests/route-sculpture-blockouts.json",
+      "sha256": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1"
+    },
+    {
+      "path": "manifests/site-completion-blockouts.json",
+      "sha256": "346d13aaa3869ba41a74e844a43af609b7f048e18a04ab15e8ced2b6e67bba7d"
+    },
+    {
+      "path": "manifests/surface-model.json",
+      "sha256": "8489fe1d9986b9dd5218299e635daf55c5a0eb8e7c1c03a68aca51bf227bc459"
+    },
+    {
+      "path": "manifests/waterpark-low-forms.json",
+      "sha256": "594382c6b61ce52722e1123f37aa16c0951e828ba3793d77894c39bf7a3eb416"
+    },
+    {
+      "path": "manifests/west-landmark-blockouts.json",
+      "sha256": "5e2e43d1f04992adf5bec8bd2a2ed5ff51bbc2c21c4082acf851998bf49c1d2f"
+    },
+    {
+      "path": "pipeline/blender/build_cover_blockout.py",
+      "sha256": "848658e8bfe213886985ffbf44e19891e4b8badde7a396d0d2abe9213bb0b76b"
+    },
+    {
+      "path": "pipeline/gis/propose_ground_review_cameras.py",
+      "sha256": "99da087ff6cc87d002aafee2975d402e4cc5ecc86e05f7f7c585ccf30be71dfa"
+    }
+  ],
+  "views": {
+    "ground_golf_greens_r2": {
+      "eye": [
+        -215.6667,
+        -1032.1707,
+        11.9059
+      ],
+      "target": [
+        -229.6667,
+        -1032.1707,
+        10.0079
+      ],
+      "purpose": "One complete green and its surrounding ground",
+      "accepted": false,
+      "camera_ground_height_m": 9.705938419628094,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_Golf_green_752863893_01_02"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          -240.7731959623634,
+          -1040.9782255860046
+        ],
+        [
+          -226.2036495709326,
+          -1024.024681834504
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          -230.31724856460312,
+          -1034.6935449383052,
+          10.036217155239605
+        ],
+        [
+          -229.66666666666666,
+          -1032.170714404557,
+          10.007881099971726
+        ],
+        [
+          -226.58960752454144,
+          -1031.6253807513665,
+          9.969202702472165
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 140,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 30,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_community_garden_r2": {
+      "eye": [
+        331.9198,
+        -990.5938,
+        12.7851
+      ],
+      "target": [
+        317.9198,
+        -990.5938,
+        10.6291
+      ],
+      "purpose": "Central bed groups from the open north side",
+      "accepted": false,
+      "camera_ground_height_m": 10.585141678536758,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_CommunityBed_01_01_03",
+        "SM_Ground_CommunityBed_02_01_03",
+        "SM_Ground_CommunityBed_03_01_03",
+        "SM_Ground_CommunityBed_04_01_03",
+        "SM_Ground_CommunityBed_05_01_03",
+        "SM_Ground_CommunityBed_06_01_03"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          308.2,
+          -994.3
+        ],
+        [
+          340.4,
+          -982.7
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          315.24361820199783,
+          -991.72893081761,
+          10.7932364881881
+        ],
+        [
+          316.27106918238997,
+          -992.1355974842767,
+          10.898605308172836
+        ],
+        [
+          317.56666666666666,
+          -987.4480477767742,
+          9.805801824169396
+        ],
+        [
+          317.9198412698413,
+          -990.5937984496123,
+          10.629115207731703
+        ],
+        [
+          321.1531746031746,
+          -989.6333333333333,
+          10.338678507029071
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 117,
+      "finite_clear_candidates": 116,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 18,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_047.npz",
+          "sha256": "e0fee0cdc93072b7a74a4cb76ceb1bf64496042cadccfe5a574b639d0ad68485"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_047.npz",
+          "sha256": "308e62f4141a09956855518a518196e5d532e4de939efcad4088679b2ac22d85"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+          "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_048.npz",
+          "sha256": "799e8e00db90938d2bbc3e3052864ad84c89a2b46a0e0837b90ffb1ed55dd08f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_278.npz",
+          "sha256": "df01c6304b9b7ba29ec6d6aca86e53dbe619b1323ddbf5c338ad1f942e5e3c82"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_03.npz",
+          "sha256": "12adf273282e4d13c7acd7fd0242bdfa3eec9e607979a5026da8aa9f62120984"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_03.npz",
+          "sha256": "5b307fdb1bfe54d1b4831f7797dadaee84c9909692221f22552be45edcfacbe1"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_railway_tracks_r2": {
+      "eye": [
+        689.2027,
+        -62.9937,
+        26.3481
+      ],
+      "target": [
+        676.2684,
+        -68.3513,
+        24.8944
+      ],
+      "purpose": "A short paired-rail segment near the station",
+      "accepted": false,
+      "camera_ground_height_m": 24.148134246981215,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_MiniatureRail_241887212_L_03_04",
+        "SM_Ground_MiniatureRail_241887212_R_03_04",
+        "SM_Ground_MiniatureRail_241887212_Bed_03_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          586.7319501396324,
+          -81.4957425264748
+        ],
+        [
+          743.8323449027434,
+          173.07098674314216
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          673.6624280420183,
+          -68.96560251389828,
+          24.867019264705824
+        ],
+        [
+          674.5511112148541,
+          -69.42612054973314,
+          24.900308794252876
+        ],
+        [
+          676.2683835717186,
+          -68.35125798538137,
+          24.894418867807595
+        ],
+        [
+          678.3011819086756,
+          -65.53095983455825,
+          24.733062334946155
+        ],
+        [
+          678.6250074622776,
+          -66.10958208788352,
+          24.73522082335669
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 141,
+      "finite_clear_candidates": 138,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 45,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+          "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_04.npz",
+          "sha256": "cd84aa5a1e94324ecd03aef4506e3f416e58997cb3b030da3e122d1b212636f1"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_04.npz",
+          "sha256": "f20c7a018a427e0255e53b1c8c495f2f4197efde49c0f2daf521d3031b81902a"
+        }
+      ],
+      "local_named_occluder_inputs": [
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_GableRoof_0.npz",
+          "sha256": "e2baf8f876b562abdb2b57057daed30210061fe4c1fdbf37685bd4df040a3e10"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_GableRoof_1.npz",
+          "sha256": "69098451a139243f4803c750d6d7207a60e5645eaa41ce815ad0ed10078200a0"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_0_0.npz",
+          "sha256": "fc2cf7dcb385a0b40f45bb2613a1bb79e302b494f3a96e89b6204c1f9ed4bcc2"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_0_1.npz",
+          "sha256": "97c43d58484656be65ad1cfb5ab58bdb0b45d1d999031d5112f59243e6d2351b"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_1_0.npz",
+          "sha256": "9398f6074f82efde4f6660ab643e43ebd59182dc69c9e1930954726fb7756213"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_1_1.npz",
+          "sha256": "52d4ee47dd4a25d8cdceaf3e4c411e2eb09251830334f62431a570fa10da7747"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_2_0.npz",
+          "sha256": "a0f9cfdcbbeb0f358af85b63962cf7fcada3d590b53c4cfed3f1cece0df2fb40"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_Column_2_1.npz",
+          "sha256": "b85a3a2e12c3831f3df67299907cc8f19e46192cd9cf5ca2f694e051301bdf8a"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_EaveBeam_0.npz",
+          "sha256": "6a2bf27dbb596eb1f36f84ac96b6592dc2fb2f2c563747a641ca5c731c51078f"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailStation_EaveBeam_1.npz",
+          "sha256": "9177e587e97622823c27ac0058fa52a9803ab31c73a1f5bb79d991cef1a51019"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_LowRoof.npz",
+          "sha256": "586035411ee3bf94ebac6fefc1e46799ef186a65a27d5bf2255faba04734df60"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_0_0.npz",
+          "sha256": "249b7d9744cc743207a377fac8d4d46c36f591d326e631152756a988eb9b9a7c"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_0_1.npz",
+          "sha256": "e6102a7b1b41276335f652b2476a7f21ea36586911b1e1a3c4bd66ff0d43252e"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_0_2.npz",
+          "sha256": "ee0d2e9abd490a7f45d72f4c31611596824608ff3bbc19c53b52cc23f2633a26"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_1_0.npz",
+          "sha256": "e401a09de147679adaca280d29021749104b8b20f34e38f7c53bf10dc8a26100"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_1_1.npz",
+          "sha256": "c9c26cfa130897b693234a86e9f3fd1be9efab7380b8b755f291482c2419bca8"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_1_2.npz",
+          "sha256": "e3fbd0b08d3df03d6ff913e03aedd426a1e1be21765695af40db7776cac73c7c"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_2_0.npz",
+          "sha256": "879ff652e00232526fe7484cdbe2e2b1cacb6968b73af6a4452d4f72d9a445ec"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_2_1.npz",
+          "sha256": "4f751a63831782d038ca47b679950ca6d625fc2c8f887e5483483209ba4efb8c"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_2_2.npz",
+          "sha256": "e9848a76636b795790c2bdfc4fdbaf2bf6988ffc97a47bc8b900d0d14e7d6976"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_3_0.npz",
+          "sha256": "ac8d2261ce27757f3a7eb2ee1d821f6ff80d3853e6531a90246a6015c9ed9f1d"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_3_1.npz",
+          "sha256": "2d753c0b93b0afcf8a792129a640db6bdf0ea0645d88fddc08b95149f73509a6"
+        },
+        {
+          "path": "data/derived/railway-structures/SM_RailQueue_Column_3_2.npz",
+          "sha256": "baacb3c9169e236effdfaf2196e1028205ad38e98520c543178eb8f06d5fdfc6"
+        }
+      ],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_biofilter_r2": {
+      "eye": [
+        390.6001,
+        -561.6667,
+        4.2925
+      ],
+      "target": [
+        376.6001,
+        -561.6667,
+        0.9664
+      ],
+      "purpose": "Visible pool portion and wetland rim",
+      "accepted": false,
+      "camera_ground_height_m": 2.0924890228106525,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_BiofilterVisiblePool_02_03"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          367.97479747974796,
+          -570.6480648064806
+        ],
+        [
+          385.1941803233046,
+          -556.7626606026184
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          375.6666666666667,
+          -564.3333333333334,
+          0.9664010000228882
+        ],
+        [
+          376.60007514128006,
+          -561.6666666666666,
+          0.9664010000228882
+        ],
+        [
+          379.26674180794674,
+          -563.3999248587199,
+          0.9664010000228882
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 69,
+      "finite_clear_candidates": 65,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 36,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+          "sha256": "1279ec4ea58d84eaf73a87576af02db2117f537b1d42f0b518644273346732ee"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_569.npz",
+          "sha256": "a3aa49b218d73b3d1a419173503e5ea83fb06244319c97a88134fd264a1735f9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_706.npz",
+          "sha256": "3e1422b19e4653a04b530a920f4eb432917e35649ed22836099f0f307c249fd1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1095.npz",
+          "sha256": "ee0fec273ada9b79e27245444eda6ea3f727499236f3f9f8dd9f993545ac7ced"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1326.npz",
+          "sha256": "7736f08cbb6c4b1148416ef871c9906b4fbe3e984bd5596ffb5700ebb8184a44"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1751.npz",
+          "sha256": "b751f44417235e8994ddb221bfbdc823f0f3b1e33505a8c5a7a634c36f7ad539"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2775.npz",
+          "sha256": "0e4ff57658f5cdee95c36625a23514a78b913631010fed14cea3114675189397"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_03.npz",
+          "sha256": "de7556437de15a54f5c08ce241a7de980d3fc3df845f0175fb1ba102a2b941b6"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_03.npz",
+          "sha256": "b05553a489840642d3643c957c0d4ae8f28b58dfc7a642126c0ddad61964019a"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_rose_gardens_r2": {
+      "eye": [
+        525.8971,
+        -424.1942,
+        16.7603
+      ],
+      "target": [
+        511.8971,
+        -424.1942,
+        13.4636
+      ],
+      "purpose": "One visible rose-bed group and retained path context",
+      "accepted": false,
+      "camera_ground_height_m": 14.56032796585255,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_RoseBedGroup_01_02_03",
+        "SM_Ground_RoseBedGroup_02_02_03",
+        "SM_Ground_RoseBedGroup_04_02_03",
+        "SM_Ground_RoseBedGroup_05_02_03",
+        "SM_Ground_RoseBedGroup_06_02_03",
+        "SM_Ground_RoseBedGroup_03_02_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          488.7375,
+          -437.925
+        ],
+        [
+          571.5125,
+          -349.50625
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          508.9291666666666,
+          -423.03541666666666,
+          13.188457627991834
+        ],
+        [
+          511.82258333333334,
+          -421.7498697916667,
+          13.597819287252301
+        ],
+        [
+          511.89710256410257,
+          -424.1942307692307,
+          13.463579177703611
+        ],
+        [
+          513.0312900641024,
+          -427.36037660256414,
+          13.426864983882652
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 144,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 17,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+          "sha256": "1279ec4ea58d84eaf73a87576af02db2117f537b1d42f0b518644273346732ee"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_03.npz",
+          "sha256": "de7556437de15a54f5c08ce241a7de980d3fc3df845f0175fb1ba102a2b941b6"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "ground_greig_garden_r2": {
+      "eye": [
+        -70.8414,
+        -1034.6043,
+        12.0559
+      ],
+      "target": [
+        -84.8414,
+        -1034.6043,
+        10.2281
+      ],
+      "purpose": "A local understorey/lawn patch, not the full garden",
+      "accepted": false,
+      "camera_ground_height_m": 9.855869858681206,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Ground_GreigGardenEast_Ground_01_02"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          -141.67486841283971,
+          -1057.8404330536723
+        ],
+        [
+          36.273291614837945,
+          -929.8380205044523
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          -84.84136185242134,
+          -1034.604325187739,
+          10.228084016038569
+        ],
+        [
+          -81.81960975720831,
+          -1036.3227451262874,
+          10.41841614487022
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 136,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 41,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_heron_habitat_r2": {
+      "eye": [
+        -197.0,
+        -1245.0,
+        13.7966
+      ],
+      "target": [
+        -211.0,
+        -1245.0,
+        11.5592
+      ],
+      "purpose": "Existing colony-region ground and nearby source canopy; no bird claim",
+      "accepted": false,
+      "camera_ground_height_m": 11.596606170654297,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [],
+      "target_source_bounds_local_xy_m": [
+        -261,
+        -1295,
+        -161,
+        -1195
+      ],
+      "target_samples_local_m": [
+        [
+          -211.0,
+          -1245.0,
+          11.559233331680298
+        ],
+        [
+          -213.0,
+          -1245.0,
+          11.509689712524414
+        ],
+        [
+          -209.0,
+          -1245.0,
+          11.605098390579224
+        ],
+        [
+          -211.0,
+          -1247.0,
+          11.53761329650879
+        ],
+        [
+          -211.0,
+          -1243.0,
+          11.580853366851807
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 138,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 33,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_02.npz",
+          "sha256": "2c8ebabea31aabd9e51fcb09cda3332f4b877ae371f9d6dad8434d4d80d8f170"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_00_02.npz",
+          "sha256": "5dd4db7175687ab1e9c6015825490c5e787f83a9707de74664f98346bc2b3b35"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_00_02.npz",
+          "sha256": "2d50ae4bf4a6816a2bb68916f1c7f6d99ace38fa7d4bdb4e7cb55c01101ec9f0"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_hallelujah_r2": {
+      "eye": [
+        1754.0,
+        -496.0,
+        6.1914
+      ],
+      "target": [
+        1740.0,
+        -496.0,
+        4.0805
+      ],
+      "purpose": "Existing near-shore landform and retained canopy context",
+      "accepted": false,
+      "camera_ground_height_m": 3.9914448261260986,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [],
+      "target_source_bounds_local_xy_m": [
+        1690,
+        -546,
+        1790,
+        -446
+      ],
+      "target_samples_local_m": [
+        [
+          1740.0,
+          -496.0,
+          4.08047833442688
+        ],
+        [
+          1738.0,
+          -496.0,
+          4.107665860652924
+        ],
+        [
+          1742.0,
+          -496.0,
+          4.050465250015259
+        ],
+        [
+          1740.0,
+          -498.0,
+          3.780791902542114
+        ],
+        [
+          1740.0,
+          -494.0,
+          4.415729188919068
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 135,
+      "finite_clear_candidates": 135,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 18,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+          "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_008.npz",
+          "sha256": "91049c271df2505208856c6f7b0fe2c07b2d5b48eddc476a2462036270fb61eb"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_008.npz",
+          "sha256": "a35bee6d6e7e95ef2ee887b4d1406adfb7a94e0dba733652a181d190787da450"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+          "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1748.npz",
+          "sha256": "63172f0d7c3edd1861f875ba15efdbe53ae959b98bd7e6e35e6a301e06e80c4a"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_06.npz",
+          "sha256": "dfbdf36557b7d616e27b3eaeda5ea9d8bb1e1d0685a66156613612e00378f684"
+        }
+      ],
+      "local_named_occluder_inputs": [
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Plinth.npz",
+          "sha256": "fe1f68deb3912f1dfcb27dedc5ede99df81a5da80e3f316e2a7d107cc2e9cb4f"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Head.npz",
+          "sha256": "a608ec032f0410cdb642798255c69e0e6484fdd89cf5d42af00dcbd6c4fbcb73"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Neck.npz",
+          "sha256": "2f026fa1be2a156ae11d889459bfb82abf705aab0b812f75815c32312c36e4e7"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Torso.npz",
+          "sha256": "07d7dbcdce56ebe2f9e456b08bc14bec5afe7623f2ad69b2a710b8365b513423"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_00.npz",
+          "sha256": "dd9d73e62b1f1b3dcfede5a9b00dadd73fa7597c45499ca725425fbbc8b47613"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_01.npz",
+          "sha256": "e0cde81d16b72c71183370176158c956525060de4cd06312c34d8d32a84ced5f"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_02.npz",
+          "sha256": "ce1877d20739a651a0872c8f03f107651cadf8c7b930b78ffd88270ba14e0e08"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_03.npz",
+          "sha256": "93d9ae02ed1f2178b3464b58b1003223a747b9ef9475f6cbaf0cdaaf633e6378"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_04.npz",
+          "sha256": "dee5621747084babe10e5fdaaacadeeb730998e31d7ffd39e27ca6360bddd8f0"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_05.npz",
+          "sha256": "f6795d83b203bb93b8f0f1216372aec00bc4f14fb7137b4c62e48597441172ad"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_06.npz",
+          "sha256": "0862cbf73beb59aca43ed696a3de84df48b1bdb079d655581f1f98386084696e"
+        },
+        {
+          "path": "data/derived/route-sculptures/SM_HarryJerome_Limb_07.npz",
+          "sha256": "beab7ba238ac97aec59f7adef0379edafb4da5fe50c370b3ec9b641ce2dabb00"
+        }
+      ],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_port_view_r2": {
+      "eye": [
+        1925.4107,
+        -250.4652,
+        5.9783
+      ],
+      "target": [
+        1930.7683,
+        -263.3995,
+        3.2841
+      ],
+      "purpose": "Small source-defined platform projection",
+      "accepted": false,
+      "camera_ground_height_m": 3.7782833011380124,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_PortViewPlatform_02_06",
+        "SM_Site_PortViewPlatform_03_06"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          1925.9080107447708,
+          -265.412631808609
+        ],
+        [
+          1934.5605413438757,
+          -259.1
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          1927.3627820800814,
+          -262.7321040113036,
+          3.8601284038025825
+        ],
+        [
+          1928.5201935254518,
+          -260.74619975913566,
+          3.152216302631889
+        ],
+        [
+          1930.5714105500235,
+          -265.11921348761217,
+          3.036003332570142
+        ],
+        [
+          1930.7683002743634,
+          -263.39954543672474,
+          3.2841347067980586
+        ],
+        [
+          1934.1013790338245,
+          -262.7971925369786,
+          2.54666021148989
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 81,
+      "finite_clear_candidates": 79,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 8,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+          "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_06.npz",
+          "sha256": "efc7f326dfa13b7c16ef1950b29b64fdb4a490b18a3718a57884fd91ea127785"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_009.npz",
+          "sha256": "9f7e514828fdade133aef45d20a3d089648985a55b055ad65f4d57544b789823"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_009.npz",
+          "sha256": "ab07a801bb65d0bfcea47cccd1fefbf0a3f7f6ed0e4119739de9090f68b8cc4b"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_010.npz",
+          "sha256": "3ea731516c52fac976a1fdc7e789e4dd29ac6f2d749dcb323f202a4c992453eb"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_010.npz",
+          "sha256": "594ef2e5ced9087aee3c2a4cfc1fb443aaf580faf94dce997ffec7120c8d97ab"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+          "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_06.npz",
+          "sha256": "dfbdf36557b7d616e27b3eaeda5ea9d8bb1e1d0685a66156613612e00378f684"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_06.npz",
+          "sha256": "4817ba3ec516a1603eb0d83ad5ab9e24be5f3752e2282148bb43940adfdbe546"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_rock_garden_r2": {
+      "eye": [
+        696.0,
+        -367.0,
+        20.6391
+      ],
+      "target": [
+        682.0,
+        -367.0,
+        18.9552
+      ],
+      "purpose": "Existing Pavilion-south garden ground, not a new monument",
+      "accepted": false,
+      "camera_ground_height_m": 18.439149379730225,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [],
+      "target_source_bounds_local_xy_m": [
+        632,
+        -417,
+        732,
+        -317
+      ],
+      "target_samples_local_m": [
+        [
+          682.0,
+          -367.0,
+          18.95520749092102
+        ],
+        [
+          680.0,
+          -367.0,
+          18.99102702140808
+        ],
+        [
+          684.0,
+          -367.0,
+          18.91938796043396
+        ],
+        [
+          682.0,
+          -369.0,
+          18.913574277877807
+        ],
+        [
+          682.0,
+          -365.0,
+          19.024972581863402
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 138,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 38,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_04.npz",
+          "sha256": "f0eacca728504a15d7e99912937355ed5c0dbd70340a4d148494700fe5a552fe"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_painters_circle_r2": {
+      "eye": [
+        840.951,
+        -465.0577,
+        6.9487
+      ],
+      "target": [
+        826.951,
+        -465.0577,
+        4.9224
+      ],
+      "purpose": "Court edge and central paved meeting circle",
+      "accepted": false,
+      "camera_ground_height_m": 4.748725154018328,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_PaintersCircleCourt_02_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          823.1421877251962,
+          -472.6
+        ],
+        [
+          835.2,
+          -460.0
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          823.6396877749348,
+          -466.1156551112078,
+          5.004598537606018
+        ],
+        [
+          826.2533940322737,
+          -461.8427071783162,
+          5.086030052357799
+        ],
+        [
+          826.9510146581985,
+          -465.0577117007861,
+          4.922417939426091
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 133,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 48,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_04.npz",
+          "sha256": "f0eacca728504a15d7e99912937355ed5c0dbd70340a4d148494700fe5a552fe"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_portrait_painters_r2": {
+      "eye": [
+        901.6667,
+        -340.3333,
+        15.0593
+      ],
+      "target": [
+        887.6667,
+        -340.3333,
+        12.2473
+      ],
+      "purpose": "Lawn island and its adjacent public path",
+      "accepted": false,
+      "camera_ground_height_m": 12.859304189682007,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_PortraitPaintersGround_02_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          863.0913048517582,
+          -353.60551659360897
+        ],
+        [
+          904.9277168465183,
+          -326.6
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          887.6666666666666,
+          -340.3333333333333,
+          12.247276280721028
+        ]
+      ],
+      "target_samples_clear": [
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 141,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 38,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_salmon_lower_pool_r2": {
+      "eye": [
+        870.7092,
+        -448.3676,
+        6.6655
+      ],
+      "target": [
+        857.7749,
+        -453.7252,
+        4.4389
+      ],
+      "purpose": "Source lower basin form; water level remains a proxy",
+      "accepted": false,
+      "camera_ground_height_m": 4.46550250694088,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_SalmonLowerPool_BasinGround_02_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          854.0231454468449,
+          -468.1995919859037
+        ],
+        [
+          871.5510707695503,
+          -442.9757230123505
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          857.2241731738881,
+          -456.58728028771776,
+          4.464692004159317
+        ],
+        [
+          857.7748638461735,
+          -453.7252075702251,
+          4.438898440536849
+        ],
+        [
+          859.725207570225,
+          -451.0585409035584,
+          4.338218879124345
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 120,
+      "finite_clear_candidates": 114,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 53,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+          "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_04.npz",
+          "sha256": "5f19cfb9813a6bf75bac6bd5b8b6c67b53438da560dd85fd769793dddd1912bf"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_waterpark_low_forms_r2": {
+      "eye": [
+        967.9191,
+        59.6873,
+        3.1642
+      ],
+      "target": [
+        953.9191,
+        59.6873,
+        3.5395
+      ],
+      "purpose": "Open low boat form; separate rock view is also supplied",
+      "accepted": false,
+      "camera_ground_height_m": 0.9641757457027698,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_WaterPark_BoatOpenRim"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          949.6200289349615,
+          55.32022457900199
+        ],
+        [
+          958.0799089771937,
+          60.07984395315661
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          950.8928010247474,
+          59.36414587093151,
+          3.515543798731835
+        ],
+        [
+          951.0791760831457,
+          59.053243827620456,
+          3.983152941365712
+        ],
+        [
+          953.8925065019517,
+          60.04651061982329,
+          4.007717697762874
+        ],
+        [
+          953.9190603409191,
+          59.687304665296324,
+          3.5395122741471474
+        ],
+        [
+          957.2392042389148,
+          59.51223916184123,
+          3.946826571111948
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 123,
+      "finite_clear_candidates": 119,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 9,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+          "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_016.npz",
+          "sha256": "eda5018620d54048e8bf9ca892d2a2b4c2fa24417398c3a19f972627fac4057d"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_016.npz",
+          "sha256": "4e4ea1737dfd41c31c60a94249af5d7372a5cd60ee39d54c5af42bd54aff4ba3"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+          "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2120.npz",
+          "sha256": "0d5ee426dc2e89d4ae40299b8380600c5936c784fe236da1b8916fddd4306485"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_04.npz",
+          "sha256": "cd84aa5a1e94324ecd03aef4506e3f416e58997cb3b030da3e122d1b212636f1"
+        }
+      ],
+      "local_named_occluder_inputs": [
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_PedestrianFloor.npz",
+          "sha256": "c03a077330ddf8fa2b4abf8c37be155d8bfc19269d912c217f5243da35391c46"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_RoadDeck.npz",
+          "sha256": "f1acf5d130182be286b1c0ca29b093026da831567f288d06f41b4496daf1a4e6"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_WaterparkFacade.npz",
+          "sha256": "b6b1289056987ae04f0926b4bc355141bfc3ba29d977d7a3c0f5d28359b50cf9"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_ParkFacade.npz",
+          "sha256": "719776dd1aa3b11d8878b3039d5ce5754ab36476be788c97892e6fd0991657c3"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_OuterReturn.npz",
+          "sha256": "940d0f71ae6f42b38d7f4a04701ca2804cc91e4a976e51fdfa76483c62e31d91"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_ClosedDoor.npz",
+          "sha256": "db3b93db36858f5cdd1e7c09e2a902cb5e2ebc1aba179a856147dcfc33a09851"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperGreenBand.npz",
+          "sha256": "67a8f00febc5edb9ddd0a1c0d3ee5b3a38b6f16f2ec053469dd0015dd789716d"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_3.npz",
+          "sha256": "ccedda64c023a915f68bc64c4f85635b6fb187c4e55c40fb28cf4abe08ba8e75"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_4.npz",
+          "sha256": "d5b2ee814a39fa1f478037b19d349312ed6cd6947ee71406a77f612f41ee03f8"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_5.npz",
+          "sha256": "09d9afab129e7b7564356a108b0f2d925bf5192ee20afc19acf6463520c06ffa"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_East_UpperPanel_6.npz",
+          "sha256": "04b39ac3b2aedca7cd33b2e915c7a076e7e9ae0a2f09f2179c59632058932288"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_11.npz",
+          "sha256": "caaf373c403e4366b225742857f1c509be91b5db343868f5adc90c105d06ecc7"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_12.npz",
+          "sha256": "02c0127850f969090f1a51d7b32c3558636af83030bb9f38432259b8b92a9ada"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_13.npz",
+          "sha256": "9765343c67de06aa4439b9eb34661b41ee58c05d05981d854ee8119752ca70b4"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetPost_14.npz",
+          "sha256": "1034e70b3ae371bb510dc65f68a866a980c921f2d200efb45ee72215d081f36d"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetRail_0.npz",
+          "sha256": "f11581147afd026c6dbf465f52952c209e29785afe1252f8bb31cbf33e852237"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Waterpark_ParapetRail_1.npz",
+          "sha256": "27b5c5d9a2b2a887659f02134f85f03d6ff6d025ff9d1e4e92d3c6bb88d89567"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetPost_14.npz",
+          "sha256": "a0c2b96b5c9af4dc81664e004f99d277f5b27a362b025db5b52bb88ac01f107e"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetRail_0.npz",
+          "sha256": "739cf7ebf2dd0379de5e8abd9edb435df42aafef3948693d849a8b9e2b40ab7a"
+        },
+        {
+          "path": "data/derived/lumberman-facilities/SM_LumbermanFacility_Park_ParapetRail_1.npz",
+          "sha256": "9a971caff1631ff66a4617a8e7ad3c28d42b6fe33a0a9e2feee66f9710981224"
+        },
+        {
+          "path": "data/derived/waterpark-low-forms/SM_WaterPark_ClimbingOutcrop.npz",
+          "sha256": "ed235afbf76552d1949c20f14484260e9b96c2224611764af465af3644c83bf2"
+        }
+      ],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_waterpark_rock_r2": {
+      "eye": [
+        977.8676,
+        50.2242,
+        3.3558
+      ],
+      "target": [
+        964.9333,
+        44.8667,
+        5.8367
+      ],
+      "purpose": "Climbing outcrop and the retained canopy overlap for review",
+      "accepted": false,
+      "camera_ground_height_m": 1.1558373352709834,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_WaterPark_ClimbingOutcrop"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          960.5,
+          38.099999999999994
+        ],
+        [
+          970.8,
+          54.5
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          961.6666666666666,
+          44.166666666666664,
+          2.956755225790872
+        ],
+        [
+          963.6999999999999,
+          41.666666666666664,
+          3.024449127515156
+        ],
+        [
+          964.9333333333334,
+          44.86666666666665,
+          5.836745742162068
+        ],
+        [
+          964.9333333333334,
+          48.36666666666665,
+          5.961151634852092
+        ],
+        [
+          968.4333333333334,
+          44.86666666666665,
+          3.385406334996224
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 132,
+      "finite_clear_candidates": 119,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 7,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+          "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_016.npz",
+          "sha256": "eda5018620d54048e8bf9ca892d2a2b4c2fa24417398c3a19f972627fac4057d"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_016.npz",
+          "sha256": "4e4ea1737dfd41c31c60a94249af5d7372a5cd60ee39d54c5af42bd54aff4ba3"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+          "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2120.npz",
+          "sha256": "0d5ee426dc2e89d4ae40299b8380600c5936c784fe236da1b8916fddd4306485"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_04.npz",
+          "sha256": "cd84aa5a1e94324ecd03aef4506e3f416e58997cb3b030da3e122d1b212636f1"
+        }
+      ],
+      "local_named_occluder_inputs": [
+        {
+          "path": "data/derived/waterpark-low-forms/SM_WaterPark_BoatOpenRim.npz",
+          "sha256": "8cebd8384e65060a886f0a4a281bd24dfbdba50e845d4f831e43b8a68dfaf509"
+        }
+      ],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    },
+    "site_pitch_putt_clubhouse_r2": {
+      "eye": [
+        -244.2,
+        -1057.0,
+        12.4324
+      ],
+      "target": [
+        -258.2,
+        -1057.0,
+        12.4958
+      ],
+      "purpose": "Measured existing clubhouse envelope",
+      "accepted": false,
+      "camera_ground_height_m": 10.232358598709109,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [],
+      "target_source_bounds_local_xy_m": [
+        -265.6470031738281,
+        -1062.6829833984375,
+        -253.46600341796875,
+        -1050.4859619140625
+      ],
+      "target_samples_local_m": [
+        [
+          -258.2,
+          -1057.0,
+          12.495806192649233
+        ]
+      ],
+      "target_samples_clear": [
+        true
+      ],
+      "candidate_positions_evaluated": 144,
+      "finite_clear_candidates": 137,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 35,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [
+        "lidar2022_489000_5460000_8"
+      ],
+      "live_review_status": "pending"
+    },
+    "site_devonian_pond_r2": {
+      "eye": [
+        543.3122,
+        -902.7274,
+        5.4973
+      ],
+      "target": [
+        557.3122,
+        -902.7274,
+        2.3869
+      ],
+      "purpose": "A source basin/water patch without the distant high-rise obstruction",
+      "accepted": false,
+      "camera_ground_height_m": 3.2972965471109204,
+      "camera_height_above_ground_m": 2.2,
+      "target_meshes": [
+        "SM_Site_DevonianPond_01_04"
+      ],
+      "target_source_bounds_local_xy_m": [
+        [
+          549.0,
+          -919.9713167858533
+        ],
+        [
+          589.1279296633004,
+          -843.4141795604403
+        ]
+      ],
+      "target_samples_local_m": [
+        [
+          556.5730105223274,
+          -902.7273809594944,
+          2.3868532371520996
+        ],
+        [
+          557.3121541571837,
+          -902.7273809594944,
+          2.3868532371520996
+        ],
+        [
+          557.3163616153274,
+          -905.983028281994,
+          2.3868532371520996
+        ],
+        [
+          557.6285157725113,
+          -903.3163616153274,
+          2.3868532371520996
+        ]
+      ],
+      "target_samples_clear": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "candidate_positions_evaluated": 66,
+      "finite_clear_candidates": 66,
+      "camera_to_target_xy_m": 14.0,
+      "selected_canopy_clusters": 1,
+      "local_terrain_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+          "sha256": "4badc16c8769d73f50d10588c691a2d32b7287da550dfe8563cf757e9a50c878"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1953.npz",
+          "sha256": "8218beb585aeb912b357f1c6cc565bd5758d23808ec4d8bdd2f289eb184a7fa8"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_03.npz",
+          "sha256": "12adf273282e4d13c7acd7fd0242bdfa3eec9e607979a5026da8aa9f62120984"
+        }
+      ],
+      "local_named_occluder_inputs": [],
+      "omitted_named_replacement_cover_ids": [
+        "lidar2022_488000_5461000_1",
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2",
+        "lidar2022_490000_5461000_2",
+        "lidar2022_491000_5460000_11"
+      ],
+      "own_building_target_ids": [],
+      "live_review_status": "pending"
+    }
+  },
+  "unresolved": []
+}

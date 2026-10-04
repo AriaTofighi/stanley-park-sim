@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "authoring_geometry": "data/derived/ground-spaces/ground-spaces-local.geojson",
+  "source_inputs": [
+    {
+      "path": "data/routes/raw/osm/park-map-20260927.osm",
+      "sha256": "bf0ee22b717a95178a6d8f173cb26f69a08a49a51c23e5cba885c6c597de6f25"
+    },
+    {
+      "path": "data/derived/public-spaces/public-space-blockouts-local.geojson",
+      "sha256": "1998f7f12cb9150393a6b27890e10b3f352015d93e4c6dd067db1dda0214e736"
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/m1-community-garden.json",
+      "sha256": "99d780b950372f911ab2319e34a7f47fb79a5a664e8802098c1b01a85c211ef2"
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/m1-community-garden.png",
+      "sha256": "eb750c14b372996582f7fade1ecf3e5a9d5870be33d6011a0859213fe2cb99a6"
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/m1-gardens-north.json",
+      "sha256": "c56ed92c352e6b25c7d1231c26da326df9648acf05e7dbbac0e70d5db9430f99"
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/m1-gardens-north.png",
+      "sha256": "f3071c020b9667251bf0ae8d997ae2d7f32c563be1a75ba2affa01d211558c90"
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/m1-biofilter.json",
+      "sha256": "3c742d5fa9d583a929f6b855dadeea066943aac2e76d733a8d10171b639b584b"
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/m1-biofilter.png",
+      "sha256": "4e3db678ab2e2d4f228676cd4e15d92b28e10645308aaf3e9b88410c82c3ad02"
+    }
+  ],
+  "source_period": "City imagery June 6–July 1 2022; OSM saved September 27 2026; official park map May 19 2026",
+  "references": [
+    {
+      "component_id": "MiniatureRail_241887213",
+      "feature_id": "SP_train",
+      "source_way_id": 241887213,
+      "reason": "Bridge/tunnel requires independent vertical structure; not draped onto terrain",
+      "completed": false
+    },
+    {
+      "component_id": "MiniatureRail_660884659",
+      "feature_id": "SP_train",
+      "source_way_id": 660884659,
+      "reason": "Bridge/tunnel requires independent vertical structure; not draped onto terrain",
+      "completed": false
+    }
+  ],
+  "unresolved": [
+    "Rock Garden finite extent and boulder forms",
+    "Painters Circle and Portrait Painters finite ground footprints",
+    "Salmon Demonstration Stream local channel extent",
+    "Heron Colony habitat extent",
+    "Rail bridge and tunnel vertical forms"
+  ],
+  "licence": "OSM source-derived polygons ODbL-1.0; City image traces OGL Vancouver; approximate project envelopes identified separately",
+  "full_m1_groups_complete": false,
+  "application_visual_check": "pending"
+}

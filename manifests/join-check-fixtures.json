@@ -1,0 +1,382 @@
+{
+  "runtime_path": "unreal/Content/WorldData/join_checks.json",
+  "sha256": "11a74e76988d0bb837ef8f75c39178901782f293cc53036186256f8a3f3ae587",
+  "schema_version": 1,
+  "coordinate_contract": "unreal_north_east_up_cm",
+  "source_world_sha1": "7746DA1F2B992A4BBBB8DE638C4EB0384E8B7CD4",
+  "source_inputs": [
+    {
+      "path": "data/derived/paved-circuit-runtime.json",
+      "sha256": "4b65e26338d4811b02400328cb80312daafd5887770e4f68646948616b10b8fc"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_000.npz",
+      "sha256": "d35716dd6fe02f5e29471c76712b52d9e24d361ceafb780181241e530b008201"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_021.npz",
+      "sha256": "ddddafc159b539f927b5715271553be17d1c1ee87ad3e7bee27ec8e123f19a94"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_042.npz",
+      "sha256": "eed954f7768d9bc5944dc86ddc93f9e20fbb32c04ad76ac8ffe583785ef97fe6"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_043.npz",
+      "sha256": "f1974dc093de7c321172aeb0b5eb09c6ddbf70691475e628397ead547064ec43"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_044.npz",
+      "sha256": "74fe1806c3837a0c1c8349a2c7f93689f49a18e29eec67c3c4352b781d400172"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+      "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_049.npz",
+      "sha256": "95cf7fbd11540b27c8cbb0b6cf8d8c515ee72ecfea1e1fee48bb49e0581b1a5f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_01.npz",
+      "sha256": "f60fde231073bd04dfac72df68c94ac60b4f9b93b626df85e984538da1fb1f14"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_02.npz",
+      "sha256": "49a79a1e08a8ba3200f88e0d927459a57fcae65a3052ada4d7f64688088ec6df"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_03.npz",
+      "sha256": "a5234d8cda46a99360fa7b20f8034576d6201647ae789d0c5e929986ad889538"
+    },
+    {
+      "path": "data/routes/derived/city-branch-connections-reviewed.json",
+      "sha256": "4fde94f912b7f5cf06e778559a1069173f4f027c1b35de953af4cc1de1bc8c6d"
+    },
+    {
+      "path": "data/routes/derived/city-branch-junctions.json",
+      "sha256": "c3a7578d96d0fda4ab2346c411837e7984a0679f0157a514198fa1fa3d8fac0c"
+    },
+    {
+      "path": "manifests/surface-model.json",
+      "sha256": "8489fe1d9986b9dd5218299e635daf55c5a0eb8e7c1c03a68aca51bf227bc459"
+    }
+  ],
+  "excluded_junctions": [
+    "city_junction_041"
+  ],
+  "fixture_count": 13,
+  "branch_end_count": 8,
+  "runtime_tested": false,
+  "release_accepted": false,
+  "licence": "Contains City OGL Vancouver data and OSM-derived direction review under ODbL-1.0; retain the project source distribution and attribution.",
+  "fixtures": [
+    {
+      "id": "004-655-out",
+      "junction_id": "city_junction_004",
+      "branch_id": "city_bikeways_655",
+      "direction": "out",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "end",
+      "main_chainage_cm": 811020.3690252337,
+      "main_contact_cm": [
+        -74271.2376296963,
+        -53569.70339801294,
+        383.34890066040424
+      ],
+      "finish_distance_cm": 1205.4228011118566,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        1.6681780755247653
+      ],
+      "starting_surface": "main pavement",
+      "final_surface": "branch contact",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "004-655-in",
+      "junction_id": "city_junction_004",
+      "branch_id": "city_bikeways_655",
+      "direction": "in",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "end",
+      "main_chainage_cm": 811020.3690252337,
+      "main_contact_cm": [
+        -74271.2376296963,
+        -53569.70339801294,
+        383.34890066040424
+      ],
+      "finish_distance_cm": 1395.5230319740156,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        1.6681780755247653
+      ],
+      "starting_surface": "branch contact",
+      "final_surface": "main pavement",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "006-3273-in",
+      "junction_id": "city_junction_006",
+      "branch_id": "city_bikeways_3273",
+      "direction": "in",
+      "source_permitted_direction": "forward_relative_to_city_geometry",
+      "branch_endpoint": "end",
+      "main_chainage_cm": 825580.1884915619,
+      "main_contact_cm": [
+        -84142.77095686205,
+        -43347.952776653336,
+        255.40073459403038
+      ],
+      "finish_distance_cm": 1391.453125023752,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        1.6865133823940854
+      ],
+      "starting_surface": "branch contact",
+      "final_surface": "main pavement",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "007-1233-out",
+      "junction_id": "city_junction_007",
+      "branch_id": "city_bikeways_1233",
+      "direction": "out",
+      "source_permitted_direction": "forward_relative_to_city_geometry",
+      "branch_endpoint": "start",
+      "main_chainage_cm": 832262.6070107606,
+      "main_contact_cm": [
+        -89983.0723411248,
+        -40140.79859369115,
+        326.0489150378636
+      ],
+      "finish_distance_cm": 1200.637199837574,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        1.8426603723495694
+      ],
+      "starting_surface": "main pavement",
+      "final_surface": "branch contact",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "015-2783-out",
+      "junction_id": "city_junction_015",
+      "branch_id": "city_bikeways_2783",
+      "direction": "out",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "start",
+      "main_chainage_cm": 858198.806856451,
+      "main_contact_cm": [
+        -78616.24949007333,
+        -21379.484176152117,
+        260.36844017093705
+      ],
+      "finish_distance_cm": 1203.0330716612928,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        1.876849439644018
+      ],
+      "starting_surface": "main pavement",
+      "final_surface": "branch contact",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "015-2783-in",
+      "junction_id": "city_junction_015",
+      "branch_id": "city_bikeways_2783",
+      "direction": "in",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "start",
+      "main_chainage_cm": 858198.806856451,
+      "main_contact_cm": [
+        -78616.24949007333,
+        -21379.484176152117,
+        260.36844017093705
+      ],
+      "finish_distance_cm": 1404.8000938139378,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        1.876849439644018
+      ],
+      "starting_surface": "branch contact",
+      "final_surface": "main pavement",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "035-2703-out",
+      "junction_id": "city_junction_035",
+      "branch_id": "city_bikeways_2703",
+      "direction": "out",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "start",
+      "main_chainage_cm": 929738.1858464385,
+      "main_contact_cm": [
+        -93241.93946823213,
+        40722.159154795205,
+        425.2779957056024
+      ],
+      "finish_distance_cm": 1200.842904374592,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        0.6356060944422113
+      ],
+      "starting_surface": "main pavement",
+      "final_surface": "branch contact",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "035-2703-in",
+      "junction_id": "city_junction_035",
+      "branch_id": "city_bikeways_2703",
+      "direction": "in",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "start",
+      "main_chainage_cm": 929738.1858464385,
+      "main_contact_cm": [
+        -93241.93946823213,
+        40722.159154795205,
+        425.2779957056024
+      ],
+      "finish_distance_cm": 1260.802764583622,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        0.6356060944422113
+      ],
+      "starting_surface": "branch contact",
+      "final_surface": "main pavement",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "036-2336-out",
+      "junction_id": "city_junction_036",
+      "branch_id": "city_bikeways_2336",
+      "direction": "out",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "end",
+      "main_chainage_cm": 421218.68321685033,
+      "main_contact_cm": [
+        87481.66389433175,
+        41139.26449700321,
+        325.81845560981367
+      ],
+      "finish_distance_cm": 1207.3122373274475,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        3.0014870478727054
+      ],
+      "starting_surface": "main pavement",
+      "final_surface": "branch contact",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "036-2336-in",
+      "junction_id": "city_junction_036",
+      "branch_id": "city_bikeways_2336",
+      "direction": "in",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "end",
+      "main_chainage_cm": 421218.68321685033,
+      "main_contact_cm": [
+        87481.66389433175,
+        41139.26449700321,
+        325.81845560981367
+      ],
+      "finish_distance_cm": 1399.545960308793,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        3.0014870478727054
+      ],
+      "starting_surface": "branch contact",
+      "final_surface": "main pavement",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "045-1160-out",
+      "junction_id": "city_junction_045",
+      "branch_id": "city_bikeways_1160",
+      "direction": "out",
+      "source_permitted_direction": "forward_relative_to_city_geometry",
+      "branch_endpoint": "start",
+      "main_chainage_cm": 946373.1060938751,
+      "main_contact_cm": [
+        -81738.51044515058,
+        51830.915738022304,
+        308.9794819232892
+      ],
+      "finish_distance_cm": 1202.160792181784,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        0.8162781230957364
+      ],
+      "starting_surface": "main pavement",
+      "final_surface": "branch contact",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "045-1953-out",
+      "junction_id": "city_junction_045",
+      "branch_id": "city_bikeways_1953",
+      "direction": "out",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "end",
+      "main_chainage_cm": 946373.1060938751,
+      "main_contact_cm": [
+        -81738.51044515058,
+        51830.915738022304,
+        308.9794819232892
+      ],
+      "finish_distance_cm": 1200.6025608170116,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        2.18719050619957
+      ],
+      "starting_surface": "main pavement",
+      "final_surface": "branch contact",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    },
+    {
+      "id": "045-1953-in",
+      "junction_id": "city_junction_045",
+      "branch_id": "city_bikeways_1953",
+      "direction": "in",
+      "source_permitted_direction": "both",
+      "branch_endpoint": "end",
+      "main_chainage_cm": 946373.1060938751,
+      "main_contact_cm": [
+        -81738.51044515058,
+        51830.915738022304,
+        308.9794819232892
+      ],
+      "finish_distance_cm": 1390.6716137792303,
+      "minimum_branch_source_extent_m": 12.0,
+      "main_pavement_seam_source_distances_m": [
+        2.18719050619957
+      ],
+      "starting_surface": "branch contact",
+      "final_surface": "main pavement",
+      "geometry_setup": "One initial fixture placement, aligned with the source branch. No movement or route permission is changed.",
+      "scope": "Contact crossing on the first 12 m of the source branch; not a complete turn along the main circuit or acceptance of the rest of the branch"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Traffic_and_Transportation/MapServer/135?f=pjson",
+    "path": "data/routes/raw/city-oneway-layer.json",
+    "sha256": "86f0c2d9fd702356ab8030bf55bd2eb65d72099944961f3a8c7cacbed6456df8",
+    "retrieved_utc": "2026-09-27T18:18:41.889122+00:00",
+    "incorporation": "reference_data; City source geometry not needed for runtime",
+    "licence_url": "https://vancouver.opendatasoft.com/pages/licence/"
+  },
+  {
+    "url": "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Traffic_and_Transportation/MapServer/135/query?f=json&where=1%3D1&geometry=488000%2C5459500%2C491600%2C5462600&geometryType=esriGeometryEnvelope&inSR=3157&outSR=3157&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSTREET_NAME%2CHBLOCK%2CONEWAY%2CDIRECTION%2CFROM_STREET_LONG%2CTO_STREET_LONG%2CSURFACE_WIDTH%2CLASTUPDATE&returnGeometry=true",
+    "path": "data/routes/raw/city-oneway-park.json",
+    "sha256": "abe58f4145d0d03dd19bae8872ea594fbd85d8a483a0a08cec732220f75400c4",
+    "retrieved_utc": "2026-09-27T18:18:42.796273+00:00",
+    "incorporation": "reference_data; City source geometry not needed for runtime",
+    "licence_url": "https://vancouver.opendatasoft.com/pages/licence/"
+  }
+]

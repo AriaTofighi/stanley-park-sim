@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "views": [
+    {
+      "id": "SP_lord_stanley_front_form_only",
+      "feature_id": "SP_lord_stanley",
+      "kind": "form-only",
+      "name": "Bearded bronze man in formal coat with both open arms raised, left arm higher, on stepped granite pedestal.",
+      "requested_camera": {
+        "location": {
+          "x": -54944.52222824986,
+          "y": 59674.437650678956,
+          "z": 1712.9970335960386
+        },
+        "rotation": {
+          "pitch": -1.0787722236294863,
+          "yaw": 22.13010235415565,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        596.7443765067895,
+        -549.4452222824985,
+        17.129970335960387
+      ],
+      "target_local_m": [
+        600.74,
+        -539.62,
+        16.93024428844452
+      ],
+      "source_asset_names": [
+        "SM_M3Form_lord_f94a5244158e"
+      ],
+      "source_manifest": "exports/m3-landmark-forms/f94a5244158e/manifest.json",
+      "camera_derivation": "Use the source asset ground and height. Place the eye 10.5 m in front and 1.5 m to its right, rotated by the source yaw. Height is 55 percent of the complete monument. Aim at 51 percent height.",
+      "view_scope": "Close source-facing form review only. This camera is not on the seawall and gives no route visibility proof. Actual occlusion requires image inspection.",
+      "inspected": false,
+      "accepted": false,
+      "source_manifest_sha256": "68f065b72542c2b225f281726324f724a47591ba6f5fd37d91834be6681c9acb"
+    },
+    {
+      "id": "SP_robert_burns_front_form_only",
+      "feature_id": "SP_robert_burns",
+      "kind": "form-only",
+      "name": "Standing bronze figure with folded arms, long coat, a forward leg, high tapered granite pedestal and dark front plaque.",
+      "requested_camera": {
+        "location": {
+          "x": -60770.52222824985,
+          "y": 60536.437650678956,
+          "z": 1400.6288075447083
+        },
+        "rotation": {
+          "pitch": -1.2465613068109382,
+          "yaw": 22.13010235415565,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        605.3643765067895,
+        -607.7052222824985,
+        14.006288075447083
+      ],
+      "target_local_m": [
+        609.36,
+        -597.88,
+        13.77548807621002
+      ],
+      "source_asset_names": [
+        "SM_M3Form_burns_f94a5244158e"
+      ],
+      "source_manifest": "exports/m3-landmark-forms/f94a5244158e/manifest.json",
+      "camera_derivation": "Use the source asset ground and height. Place the eye 10.5 m in front and 1.5 m to its right, rotated by the source yaw. Height is 55 percent of the complete monument. Aim at 51 percent height.",
+      "view_scope": "Close source-facing form review only. This camera is not on the seawall and gives no route visibility proof. Actual occlusion requires image inspection.",
+      "inspected": false,
+      "accepted": false,
+      "source_manifest_sha256": "68f065b72542c2b225f281726324f724a47591ba6f5fd37d91834be6681c9acb"
+    },
+    {
+      "id": "SP_queen_victoria_front_form_only",
+      "feature_id": "SP_queen_victoria",
+      "kind": "form-only",
+      "name": "Broad granite steps and side seats, raised central memorial with bronze plaque, oval cameo and projecting demi-lune basin.",
+      "requested_camera": {
+        "location": {
+          "x": -60634.52222824985,
+          "y": 65313.437650678956,
+          "z": 1184.421306848526
+        },
+        "rotation": {
+          "pitch": -0.7583821703673979,
+          "yaw": 22.13010235415565,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        653.1343765067895,
+        -606.3452222824985,
+        11.84421306848526
+      ],
+      "target_local_m": [
+        657.13,
+        -596.52,
+        11.70381306886673
+      ],
+      "source_asset_names": [
+        "SM_M3Form_victoria_f94a5244158e"
+      ],
+      "source_manifest": "exports/m3-landmark-forms/f94a5244158e/manifest.json",
+      "camera_derivation": "Use the source asset ground and height. Place the eye 10.5 m in front and 1.5 m to its right, rotated by the source yaw. Height is 55 percent of the complete monument. Aim at 51 percent height.",
+      "view_scope": "Close source-facing form review only. This camera is not on the seawall and gives no route visibility proof. Actual occlusion requires image inspection.",
+      "inspected": false,
+      "accepted": false,
+      "source_manifest_sha256": "68f065b72542c2b225f281726324f724a47591ba6f5fd37d91834be6681c9acb"
+    }
+  ],
+  "input_hashes": {
+    "exports/m3-landmark-forms/f94a5244158e/manifest.json": "68f065b72542c2b225f281726324f724a47591ba6f5fd37d91834be6681c9acb",
+    "exports/m3-landmark-forms/latest.json": "284d4469ff2e1366abbf74acca1091a81e37aac60a9ee671f04b459f8b3b8caf",
+    "manifests/m3-landmark-form-settings.json": "b86036976e9df93d5e923923d11487297accd85dcd1e05afdb4a9f14e80e0445",
+    "pipeline/blender/build_m3_landmark_forms.py": "d0f3bfa8d084d8aa79f36bc8273575e2752b3dc23fc2f7f2e9091c373b538e1c"
+  },
+  "scope": "Three extra front views to resolve tree occlusion and side-only shape evidence. Existing route cameras and all source assets stay fixed."
+}

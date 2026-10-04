@@ -1,0 +1,18 @@
+{
+  "id": "totem-context",
+  "extraction_centre_local_m": [
+    1575,
+    -365
+  ],
+  "extraction_radius_m": 145,
+  "source": "manifests/lidar2022-491000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 3117281,
+  "output": {
+    "path": "data/derived/named-totem-context-survey.npz",
+    "sha256": "ee15a694096a1bc3f882ea7ceaf7b5a07d1eab5988e58dac3eb2c0e1cb36c49f"
+  }
+}

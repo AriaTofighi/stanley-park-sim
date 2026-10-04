@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "decision_date": "2026-09-27",
+  "decision_type": "Implementation planning amendment within the original delegated reference-period choice; not a new user approval",
+  "user_instruction": "Choose a consistent reference date or period for the recreation.",
+  "previous_plan_choice": "September 2026 route/condition baseline in plan sections 1, 2 and 13.2",
+  "m1_environment_baseline": {
+    "survey": "City 2022 LiDAR",
+    "capture_dates": [
+      "2022-09-07",
+      "2022-09-09"
+    ],
+    "imagery_period": "2022-06-06/2022-07-01",
+    "canopy": "Unchanged measured 2022 canopy envelopes; dated habitat proxies remain separately labelled"
+  },
+  "route_access_overlay": "Current source-backed routes, modes, directions and restrictions, with each map/report/snapshot date recorded separately. This is an explicit operational overlay, not evidence that 2022 paths had identical rules.",
+  "scope_limit": "M1 is a measured blockout with a dated 2022 environmental baseline and separately dated later source overlays. It is neither a certified September 2026 forest nor an exact historical 2022 snapshot of every feature.",
+  "later_condition_work": "Reconstruct September 2026 vegetation only when usable dated and located references support changes. Before any later current-forest claim, verify major visible openings against those sources.",
+  "pending_question": {
+    "status": "withdrawn",
+    "reason": "The date gate was introduced by the plan; the original user delegated selection of the reference period.",
+    "accepted_answer": false,
+    "user_approval_inferred": false
+  },
+  "preserved_limits": {
+    "current_forest_accepted": false,
+    "crown_deletions": 0,
+    "review_areas_retained": 10,
+    "runtime_overrides": 0,
+    "independent_controls_accepted": 0,
+    "collision_visual_route_requirements_unchanged": true,
+    "numerical_tolerances_unchanged": true,
+    "unapplied_override_candidates": 1
+  },
+  "m1_complete": false,
+  "baseline_evidence": [
+    {
+      "path": "manifests/lidar2022-ingest.json",
+      "sha256": "7e1fff919e7fb5fef7e1aa4f04c7d6d5340b2df0a1b9fae8e03f8cf47385ae2f"
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/named-totem-sculptures.json",
+      "sha256": "de6fd033f111fb97e5ffda85c95337cd9dc9c459752b04775089854606f1358d"
+    }
+  ]
+}

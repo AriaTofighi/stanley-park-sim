@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-26T22:04:46.180639+00:00",
+  "product": "terrain_surroundings",
+  "source_id": "mrdem",
+  "source_url": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-dtm.tif",
+  "source_datetime": "2026-06-22T12:00:00Z",
+  "source_header": {
+    "crs": "EPSG:3979",
+    "crs_wkt": "PROJCS[\"NAD83(CSRS) / Canada Atlas Lambert\",GEOGCS[\"NAD83(CSRS)\",DATUM[\"NAD83_Canadian_Spatial_Reference_System\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6140\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4617\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",49],PARAMETER[\"central_meridian\",-95],PARAMETER[\"standard_parallel_1\",49],PARAMETER[\"standard_parallel_2\",77],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3979\"]]",
+    "transform": [
+      30.0,
+      0.0,
+      -2500020.0,
+      0.0,
+      -30.0,
+      4000020.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "width": 185220,
+    "height": 166668,
+    "nodata": -32767.0,
+    "dtype": "float32",
+    "tags": {
+      "TIFFTAG_DATETIME": "2026:06:22 12:00:00",
+      "AREA_OR_POINT": "Area"
+    },
+    "source_window": [
+      16354,
+      115604,
+      2424,
+      2551
+    ],
+    "decimation_before_reproject": 2
+  },
+  "origin_file": "manifests/world-origin.json",
+  "coordinate_contract": "x east, y north, z up; metres; x/y ascending; z[row_y,col_x]",
+  "horizontal_crs": "EPSG:3157",
+  "vertical_datum": "CGVD2013",
+  "missing_values": "NaN in NPZ; -32767 in GeoTIFF; absent faces in OBJ",
+  "licence": "OGL-Canada-2.0",
+  "licence_links": [],
+  "attribution": "Contains information licensed under the Open Government Licence â€“ Canada. See source collection for additional source notices.",
+  "source_range_cache": "data\\raw\\nrcan\\terrain_surroundings-ranges",
+  "stats": {
+    "grid_shape": [
+      750,
+      650
+    ],
+    "resolution_m": 80,
+    "valid_cells": 487500,
+    "valid_fraction": 1.0,
+    "height_min_m": -8.582273483276367,
+    "height_max_m": 1970.058349609375,
+    "height_percentiles_m": [
+      -1.5113064789772033,
+      0.2565746456384659,
+      226.12725830078125,
+      872.4722900390625,
+      1569.439869384766
+    ],
+    "park_cells": 648,
+    "park_valid_fraction": 1.0
+  },
+  "mesh": {
+    "vertices": 485740,
+    "triangles": 968512,
+    "stride": 1,
+    "path": "data\\derived\\terrain_surroundings.obj",
+    "bytes": 35970094,
+    "sha256": "0f3cce4b94fde987f9c18fb151982d1cc922c2879731db1ecef3005aaea63254",
+    "overlap_note": "Near crop extends 100 m beyond omitted far-mesh interior. Reconcile edge heights before final art."
+  },
+  "files": [
+    {
+      "path": "data\\derived\\terrain_surroundings_utm.tif",
+      "sha256": "59b854070b485822a1d3074b0c13969216d4d2a4eaf52623e23182756fbf3231",
+      "bytes": 1761986
+    },
+    {
+      "path": "data\\derived\\terrain_surroundings.npz",
+      "sha256": "a0293f8ba546fc7b3d6a3c78ab9b9c5f4656172a8455130a919cebec1679a86a",
+      "bytes": 1789813
+    }
+  ],
+  "limitations": [
+    "Measured source predates September 2026; this is a geographic blockout input, not a current survey.",
+    "No independent ground-control accuracy check has been completed.",
+    "Cliffs/overhangs and narrow path details need separate authored geometry.",
+    "No ocean or inland water elevation is assigned by this terrain product."
+  ]
+}

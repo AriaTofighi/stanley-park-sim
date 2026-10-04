@@ -1,0 +1,18 @@
+{
+  "id": "north-sculptures",
+  "extraction_centre_local_m": [
+    1222.0,
+    5.0
+  ],
+  "extraction_radius_m": 60,
+  "source": "manifests/lidar2022-490000_5461000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 478664,
+  "output": {
+    "path": "data/derived/named-north-sculptures-survey.npz",
+    "sha256": "a2f6ec817e07c67d8feea3ac521bccffe1d0a115c3ca9beb7f546506d1dc6a62"
+  }
+}

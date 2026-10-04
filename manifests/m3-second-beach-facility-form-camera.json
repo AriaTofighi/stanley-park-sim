@@ -1,0 +1,45 @@
+{
+  "id": "SP_second_beach_facility_form_only",
+  "kind": "form-only",
+  "feature_id": "SP_second_beach",
+  "name": "Second Beach concession canopy and facilities",
+  "requested_camera": {
+    "location": {
+      "x": -76902.72727272726,
+      "y": -58990.0,
+      "z": 568.8871383666992
+    },
+    "rotation": {
+      "pitch": -0.852515150165672,
+      "yaw": 99.49588317355386,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "camera_local_m": [
+    -589.9,
+    -769.0272727272727,
+    5.688871383666992
+  ],
+  "target_local_m": [
+    -562.507973586702,
+    -773.6091026269839,
+    5.275607195767489
+  ],
+  "source_manifest": "exports/m3-second-beach-detail/fc28910a58b1/manifest.json",
+  "source_manifest_sha256": "a125118c68953a2430555e5aadea88dce533fa69c2d52c2e0a3e57cab246854c",
+  "source_pointer_sha256": "c3beaec295a8e783b1f1994a62fe6f0461995e973021b6e392ea172502042469",
+  "source_asset_names": [
+    "SM_M3SecondBeach_WallsReview_fc28910a58b1",
+    "SM_M3SecondBeach_RoofStepClosures_fc28910a58b1",
+    "SM_M3SecondBeach_CanopyFacade_fc28910a58b1"
+  ],
+  "camera_derivation": "Target is the mean traced canopy curve moved halfway toward its inner facade; target height is the mean of sampled ground and roof levels. Eye is 18 m west of the westmost canopy point, 6 m north of its mean northing, and 2.25 m above the mean sampled ground. The north-west view avoids the separate small pool-deck kiosk.",
+  "view_scope": "Supplemental facility form and solid-colour shading review only. This is not a route view or route-visibility proof. Actual occlusion still requires image inspection.",
+  "inspected": false,
+  "accepted": false
+}

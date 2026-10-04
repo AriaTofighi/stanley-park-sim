@@ -1,0 +1,23 @@
+Pedestrian network and derived walking geometry
+
+© OpenStreetMap contributors
+https://www.openstreetmap.org/copyright
+
+The pedestrian database is adapted from OpenStreetMap data under the
+Open Data Commons Open Database License 1.0 (ODbL):
+https://opendatacommons.org/licenses/odbl/1-0/
+
+When a build contains these walking meshes, distribute the editable derived
+pedestrian database with it. This includes pedestrian-network.json,
+pedestrian-network-local.geojson, pedestrian-dimensions.json and the source
+ledger. Keep this notice with that data and display OpenStreetMap attribution
+in the game credits/data-source screen. The licence for this database does
+not make a licence claim about the simulation code or independently made art.
+
+Heights and the terrain used by the overlay also contain information licensed
+under the Open Government Licence - Vancouver.
+https://vancouver.opendatasoft.com/pages/licence/
+
+The City branch-junction register is a separate City source product. The City
+2026 park map and other City PDF graphics remain reference material and are
+not included as game textures.

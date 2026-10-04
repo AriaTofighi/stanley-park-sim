@@ -1,0 +1,4389 @@
+{
+  "schema_version": 1,
+  "source_manifest": "manifests/ground-space-sources.json",
+  "source_manifest_sha256": "c5a643b8446ed09930b8af307cd9f3e9697a9e79113c70ff1274aabec70e59ff",
+  "source_inputs": [
+    {
+      "path": "manifests/ground-space-sources.json",
+      "sha256": "c5a643b8446ed09930b8af307cd9f3e9697a9e79113c70ff1274aabec70e59ff"
+    },
+    {
+      "path": "data/derived/ground-spaces/ground-spaces-local.geojson",
+      "sha256": "ae1bfc69c6ca96ca0ac17c5ee3809770e717a53da41c3cd6ee68de7f56490d28"
+    },
+    {
+      "path": "manifests/surface-model.json",
+      "sha256": "8489fe1d9986b9dd5218299e635daf55c5a0eb8e7c1c03a68aca51bf227bc459"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-surfaces.json",
+      "sha256": "77c63dcd705a77caee68803babf6dda1c1ac63161db14f6c7c722542bb2e3355"
+    },
+    {
+      "path": "data/derived/public-spaces/public-space-meshes.json",
+      "sha256": "3f7b13ece70065c9d0808a89f8f26488b4873ff2d42bf7d5336bcc6c2e86bf78"
+    },
+    {
+      "path": "data/derived/lake-surfaces.geojson",
+      "sha256": "ffe78fcbf94e9df5bb02eff8a5b5ffffbca8c7182e0d767a37f9aaa8a1b0bcca"
+    },
+    {
+      "path": "data/derived/underpass-openings.geojson",
+      "sha256": "8b9826fed0db53c7fb43b95064371d46e52d4d1caa9df8253d4d06645a306cdf"
+    },
+    {
+      "path": "data/derived/cover-blockout.json",
+      "sha256": "9187a028f7c073140ad7b113099b17f1f5827b5beab037eeb48bdf1b9b06ceef"
+    }
+  ],
+  "exclusion_mesh_inputs": [
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_000.npz",
+      "sha256": "d35716dd6fe02f5e29471c76712b52d9e24d361ceafb780181241e530b008201"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_001.npz",
+      "sha256": "ee3c09f1f31dc7ab8d8c632b281c32e87f80576ef6db6bc2ec12d09a246e2386"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_002.npz",
+      "sha256": "f68f6cc7b86622923a8a30cbe4f0888535041aec1392d6025cf5ebd5989e0d93"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_003.npz",
+      "sha256": "c6a76222ccd56877eb98645328adfc39338de3de464f6ad407802611c63d90fa"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_004.npz",
+      "sha256": "8fabe841dab1160bdf01e74f7b1725e5bdce6b9e19c340d25c6626e92e639424"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_005.npz",
+      "sha256": "62abad2429792afe68bbb2966eb22c0032b59a5c7c0c22a574745d6dd9da5d15"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_006.npz",
+      "sha256": "fb9a49ce7fd359d69a4ccac05bbe0434e1a11a8bc56e552192f656b98a3b547e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_007.npz",
+      "sha256": "370820a82f7b75284faf14c13cf5658c70b3b512a32e5ef556612f5835893c7c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_008.npz",
+      "sha256": "91049c271df2505208856c6f7b0fe2c07b2d5b48eddc476a2462036270fb61eb"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_009.npz",
+      "sha256": "9f7e514828fdade133aef45d20a3d089648985a55b055ad65f4d57544b789823"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_010.npz",
+      "sha256": "3ea731516c52fac976a1fdc7e789e4dd29ac6f2d749dcb323f202a4c992453eb"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_011.npz",
+      "sha256": "eb1dfdb244786de335620ac9942236d58e9cbd1f1c40c9f708778a7720ac03cf"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_012.npz",
+      "sha256": "be1cbe8f278b562c7fbe99c6041d828f08be0f44b68985827e0ff0d20e623e34"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_013.npz",
+      "sha256": "25595fef702f7a249843b8dc1026030973dfa28c01b0d5dfe62380f2784238a7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_014.npz",
+      "sha256": "e3121c7b79753bc9331abee74359c2675c7fae7c7d0a603b51b46f1e4b51e1a4"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_015.npz",
+      "sha256": "8d984c5941c85cb1a72e0eecc708a80695810c924f0507736e639943b8be2a5f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_016.npz",
+      "sha256": "eda5018620d54048e8bf9ca892d2a2b4c2fa24417398c3a19f972627fac4057d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_017.npz",
+      "sha256": "d3b2d88cc7c5ed6c43bcb5e7327c5e98dd981dc6cddab3e48e10d67522e54538"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_018.npz",
+      "sha256": "cb4a99507737425ba17f089820942f9af26b7c152dd68bf1a4e0538cafc87112"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_019.npz",
+      "sha256": "bb668151559e149abfc4d3979367f3e9a40f0fe5d7f7f24e3d8f7562f95c5c72"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_020.npz",
+      "sha256": "1d08c288a06a16e8f547973a9fb7f481c0261cdf4d331520a71ae0f474c21757"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_021.npz",
+      "sha256": "ddddafc159b539f927b5715271553be17d1c1ee87ad3e7bee27ec8e123f19a94"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_022.npz",
+      "sha256": "6a8734aacb736faed35f188b1c3c5f36ba6097862cb0a17905f05b2f2faf2a18"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_023.npz",
+      "sha256": "692c1ea974908533f872350f993b0dcf18e5a44a53d50f415272a3763ecdd6d5"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_024.npz",
+      "sha256": "08559cd14f6259ab98119c5e0b18b3745e55ab9e9f5ec93dca4df48e0a16f0c6"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_025.npz",
+      "sha256": "fc2168c671306ce881ff779c403ac2428cb6e62508d498c25077e69911fa1a2c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_026.npz",
+      "sha256": "b3533571d3c89381d73be6a2da5de8c91838a94d471941607f02e7ba67622a2c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_027.npz",
+      "sha256": "c376721ec59d012295f57dce8149093136e99bb556e1c88d38ce1f30f729437a"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_028.npz",
+      "sha256": "ce95a2039d2c2f623a6d3f2a55de23a0ad3effb23f930bf91d36002d35336f2f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_029.npz",
+      "sha256": "e315ffc58a615995a96cf2d7e7991352ffbeaf51307d51aed382cd69fca21e7c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_030.npz",
+      "sha256": "7d61419a92334f9da9b6d91493098c027573a0adae92021edd3744c82d5a3ed6"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_031.npz",
+      "sha256": "4f679a5cb70437b8c3f3c271f6ba224286a28d68b3b66662f5ab66fb01a7b88e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_032.npz",
+      "sha256": "107f46e2fc41e37a5afc14785d099d10d0bdcacfc5d0c0588e8d4c8b891db9dd"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_033.npz",
+      "sha256": "2322fc9d869b06a63c0d0b0c97c23f11e691039c203d96da7cbb4c354269bca7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_034.npz",
+      "sha256": "c56e4857ab20d24f5f831bc3ca1bd2c62d5a156aa7235f1d944de00897892545"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_035.npz",
+      "sha256": "a7cd5098f7bc5f713826883969783f403ae1052ee7a8e84768344986746051ca"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_036.npz",
+      "sha256": "7f53788c344f3a18406d898bf4510ba4211a3ab1184afcc6e2c49d0b2307cd6f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_037.npz",
+      "sha256": "451633ec6d76a7a453e725a57216364b62d690736103935f2353fe868d850959"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_038.npz",
+      "sha256": "faede3ff2e74ba5e7ddbd8e11ae822fc509947f5f16c9ebcad38e61ccb09e5bf"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_039.npz",
+      "sha256": "a60ac2886141f019afb218515a9f11ea21aae3666cb5ecb68fd6820fd2feeb8d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_040.npz",
+      "sha256": "021f3fdbebe5738f2f106c8badd536c2d38cedb8f21f973a8f22ea83b9bb4705"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_041.npz",
+      "sha256": "0f2337615611e7c305941c24ef0629fbb8e9762efa04d91d37ce10908d4eef36"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_042.npz",
+      "sha256": "eed954f7768d9bc5944dc86ddc93f9e20fbb32c04ad76ac8ffe583785ef97fe6"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_043.npz",
+      "sha256": "f1974dc093de7c321172aeb0b5eb09c6ddbf70691475e628397ead547064ec43"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_044.npz",
+      "sha256": "74fe1806c3837a0c1c8349a2c7f93689f49a18e29eec67c3c4352b781d400172"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_045.npz",
+      "sha256": "2ed9e4a7902457ab833c46b953b093ff430d138acf17ce48afff9ebbfc620407"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_046.npz",
+      "sha256": "41f8ba2f3c5052841f559ba24bf53f85c9670d06c1174db0669d5fbc65ce8477"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_047.npz",
+      "sha256": "e0fee0cdc93072b7a74a4cb76ceb1bf64496042cadccfe5a574b639d0ad68485"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+      "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_049.npz",
+      "sha256": "95cf7fbd11540b27c8cbb0b6cf8d8c515ee72ecfea1e1fee48bb49e0581b1a5f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_42.npz",
+      "sha256": "8f8e2792a38041724d95449af1a600b1bbf0d1c6afa536a2ecf1fcd41f84b3a5"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_60.npz",
+      "sha256": "d285cef9d859fc21f6ac49f53b8d2d81c801b292a4ed374f1f6b2f968aa1de9f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_99.npz",
+      "sha256": "3f85063d4642f58969ec7b07e926bba11df0051af26904ee023fc41d49ddd46e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_118.npz",
+      "sha256": "413220a6cda2832b5908dcfafb65208baae416b886d0e705d38985528e8dd4a6"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_131.npz",
+      "sha256": "db12e78b7c5947e51bd2921dfa2c967f6250808c58332acda5d1dfb4e9245d8f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_138.npz",
+      "sha256": "3674109d9e03eb3b05fa4fc0ca7942c4811b645347d84e4cd50cf66f1bc7fa8a"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_159.npz",
+      "sha256": "606f04ee807de91b79a6521ffd224348c2088128b754d4c327172a4085df6954"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_188.npz",
+      "sha256": "fb628b41ac86f1b3b930e8441742b1f48f67985a98d902f5a8cb51c2ce28436d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_278.npz",
+      "sha256": "df01c6304b9b7ba29ec6d6aca86e53dbe619b1323ddbf5c338ad1f942e5e3c82"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_337.npz",
+      "sha256": "924ae0538fa47589491746b891f1c5e3b2d59fe03c16d0f78e008a1926d58b25"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_569.npz",
+      "sha256": "a3aa49b218d73b3d1a419173503e5ea83fb06244319c97a88134fd264a1735f9"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_580.npz",
+      "sha256": "783772ac9b903da665062a30601c7a58b884ddaadbcbe325bf43977777c5b5af"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_642.npz",
+      "sha256": "6b4d18291c9cdad2c5f8399ee4d261a062b55fbed290bd2ceadbe85df023de52"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_655.npz",
+      "sha256": "f2ba5ef2ed54869c292a37ca8177a1d5f12526ae6b0ecf02104a9db8f50e8d61"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_706.npz",
+      "sha256": "3e1422b19e4653a04b530a920f4eb432917e35649ed22836099f0f307c249fd1"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_723.npz",
+      "sha256": "980dfdaf25160dbd898633247721a43cc8e1973dfaf39dd8167b4b66dd7b154e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_800.npz",
+      "sha256": "0a7f0301f314daf06dd404ce24dbc899e150e75ef1898226b0b1e103a87f2953"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_873.npz",
+      "sha256": "92cafeff2a5eedcd5ddbd396352068a3c3c18b735cec62327fbbcf39619eea1f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1043.npz",
+      "sha256": "9f960228289abe0306033c23f3977b126efbb9f28c09a2e9a3036766265690ac"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1095.npz",
+      "sha256": "ee0fec273ada9b79e27245444eda6ea3f727499236f3f9f8dd9f993545ac7ced"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1160.npz",
+      "sha256": "021a95a81b0ac1cf15d3dc8eaa4e4a78e0041415414c2c9a4f80cbfbe9f45c8f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1207.npz",
+      "sha256": "18fe69c439ff5cf50fea4753922d08ea67bbfcd33173770fa3bd1964e130abe0"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1233.npz",
+      "sha256": "143d57ca518421d1f31b11ded8954cebe7d44c40ed404b707b343af26fe7fdc8"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1250.npz",
+      "sha256": "75316d6fdd9047b7655b6b8bde36893ff0e3595c857b2240e328afa89cd28334"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1292.npz",
+      "sha256": "f1fabe603e3b14f1280809743dff3087979700997688dab619b422516a3f899d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1307.npz",
+      "sha256": "5ea4992e06607f2c519cfd89c4ead22bcc30ee2ebb1bb4773e4fbd9cac6b2865"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1320.npz",
+      "sha256": "39a1c6aeaa60cadff0c56ba8d09f53be4a3750c3614c8ad8839fca14a4322c23"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1326.npz",
+      "sha256": "7736f08cbb6c4b1148416ef871c9906b4fbe3e984bd5596ffb5700ebb8184a44"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1367.npz",
+      "sha256": "4ae58e0018c5bd900bdcb40ddb50f070bf4e374a303eb33ae884206750a03b30"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1410.npz",
+      "sha256": "7ae9426eb234f6177101ba9f4dac022a46a91e7cfcea52578d3b749f71c741a2"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+      "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1489.npz",
+      "sha256": "b743ab1d14467b1d28efaea5cfd098ee895421984e4cdcf5e102541c7e26c5d3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1573.npz",
+      "sha256": "50efec5b71cfc304156a10fe95cf4e0b6d5f235344dde542c8c2bea02edc5a43"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1748.npz",
+      "sha256": "63172f0d7c3edd1861f875ba15efdbe53ae959b98bd7e6e35e6a301e06e80c4a"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1751.npz",
+      "sha256": "b751f44417235e8994ddb221bfbdc823f0f3b1e33505a8c5a7a634c36f7ad539"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1812.npz",
+      "sha256": "366cdcf0362587078ce44cdff17cbdaacd6ad75dcd4793186064c4d5bd7d3d9c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1953.npz",
+      "sha256": "8218beb585aeb912b357f1c6cc565bd5758d23808ec4d8bdd2f289eb184a7fa8"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1992.npz",
+      "sha256": "0018ae6eedcab1b384372c6a52847ec3600c3d35290ce61eb98f87710af89414"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2064.npz",
+      "sha256": "0d7ef1a9607067538248f8daa2f841e6dbfacd92300963801d78ff3fbf259cf9"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2108.npz",
+      "sha256": "14d06a29a6a41db0959793e0ececf6ac7f5cc22e4198b70379f9d08509174d7c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2120.npz",
+      "sha256": "0d5ee426dc2e89d4ae40299b8380600c5936c784fe236da1b8916fddd4306485"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2336.npz",
+      "sha256": "7fecb72c2be0f1081260513b9936bbd6e48503596fdd49cd5d4e561212618275"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2340.npz",
+      "sha256": "daac13a27c3f711bf3141f522970b7b5de2fad6c682a5287e3f6225ca0af77f3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2425.npz",
+      "sha256": "7e928bae07a9cb1baa800cede4089041a9a9afc2fa28606c0c7fe50eef1e8045"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2532.npz",
+      "sha256": "f0fdf20b0f75bd3dc0b9a60af752f85bfe9f3c0fc0c9b9be2b9c77ddbd4fb2ab"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2576.npz",
+      "sha256": "4c62559d0d411c5b2432f7b79d56a36ca06ab98f12e3ea44b07b4d3211c817f3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2630.npz",
+      "sha256": "87975da47bf9c028de246f1aab0c3708fe6d89d14df5e34bcf0afdc89621c157"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2693.npz",
+      "sha256": "86fc685237d81e95bd75fa9c977e4c9c2abc88c99084c9e512edc01d5645270f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2703.npz",
+      "sha256": "645f9f6dd397859d6f3986f861d0c46d19dbbd4719a3abd882fec3f625fd391b"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2704.npz",
+      "sha256": "526cf69a555694009532e59abff2c2be28e5369f2e5a4584642dcb7b27035225"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2729.npz",
+      "sha256": "e6c5b1f985e3f63488ff7e330dcddf8949f2ccc272620152c664cae89f80ba2e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2775.npz",
+      "sha256": "0e4ff57658f5cdee95c36625a23514a78b913631010fed14cea3114675189397"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2783.npz",
+      "sha256": "1fa86c39c381a9367a83558d4bbb9ce550be48ead6e0530593db6e58b8b021b1"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2810.npz",
+      "sha256": "f3e529e377fdc4c8317d684b9a39a2c89a4f55309273acdf1eddaabf8d7055e2"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2814.npz",
+      "sha256": "c97c384a80efee4843f95e6dbb32967cb62ea27b83bec45ee5e8f3f9de4cb540"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2820.npz",
+      "sha256": "c74ac8a331fcd83af28eb484593abdb96615fd5c7a970359f610f191a4f424c7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2886.npz",
+      "sha256": "383e239f247bf45648335b89047ed27413b725daff7b5f3322f655c14feb3662"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2909.npz",
+      "sha256": "498643f8528b4b72b5488f71220fabe6cb6f831a42069ea0fefeb77510141400"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2986.npz",
+      "sha256": "1bca71f1c20321f192c583019f87f94dfe52e08566c43ca6ae2b4177ddc1cbd7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3102.npz",
+      "sha256": "fbd0769b65d2301a7f979bc1db04330fe0f95960f0bb5791679a3606be129fa5"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3258.npz",
+      "sha256": "96fd9f1565f3140b09de1f3dc208fe9a20d458ef442ffdbbd1222954d8883252"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3273.npz",
+      "sha256": "75e82f84d2c4654f40cc2f4ca2c1fa571d3cedf4e713d32fcb2021e81fb2dfbb"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3287.npz",
+      "sha256": "da13a793fa8fcc99d6d543fae18537bed805f59fae4c550c556e846fbc7bb3fa"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3306.npz",
+      "sha256": "868c85eb9c1e80169a8327a9f7fcfc2a0ca8ac2774cd9dce2ed1a8ed34856df0"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3318.npz",
+      "sha256": "6ba0796ba49e84ab07b1eb8ce1661c4ed02332309c52ec18c3266290ea83bac5"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3343.npz",
+      "sha256": "53ba01121a3f656be9144bdf6b9b199d92031dc45948d7ca4295265c06c8a693"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3474.npz",
+      "sha256": "90d0d6a16158405ce207b89de17626f36a1f7b3a0e06775f7cdf140cfeb2da82"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3540.npz",
+      "sha256": "a09f5effa11f6898267e08298da5ad1d7f37dcde33653af0f2b262d5d0599c36"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3550.npz",
+      "sha256": "77d6660d637ad88698cfae9a6520ffdc7e443e7357c49a294a47a98336e4b4a0"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3555.npz",
+      "sha256": "35d6830bf739b27e6219c144f4b0f5f903900a8e4f6d5637e15d34b5be93de37"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_00_02.npz",
+      "sha256": "5dd4db7175687ab1e9c6015825490c5e787f83a9707de74664f98346bc2b3b35"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_00_02.npz",
+      "sha256": "c3a6114b0bc1fe54dc42b926e0aab9a9d2cffd6abd6d526039c1ae838c3d6209"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_00_02.npz",
+      "sha256": "2d50ae4bf4a6816a2bb68916f1c7f6d99ace38fa7d4bdb4e7cb55c01101ec9f0"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_01.npz",
+      "sha256": "0d9ebfd44c25810ac3828f6b530a214adee5781a7e536dd8b91f931db9ecde4e"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_01.npz",
+      "sha256": "d4658cbc72b18b31211b8f45042d0867686ef219871e1401fdfb2bfd131f0e48"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+      "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_02.npz",
+      "sha256": "1d2f132268c2deaa24898d6e3edfaaebe8b514c66291fe0b63a34f80afd923a8"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_02.npz",
+      "sha256": "ee1d8ebeb2f2f3529339cc71ca413cdf8bdfd21534ba20e841e48fc6fee97fcb"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_03.npz",
+      "sha256": "12adf273282e4d13c7acd7fd0242bdfa3eec9e607979a5026da8aa9f62120984"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_03.npz",
+      "sha256": "a9bb471036c74ee002f3de3ff0f7bd37064aa199f539a3a82ce5dd6f462d661a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_03.npz",
+      "sha256": "5b307fdb1bfe54d1b4831f7797dadaee84c9909692221f22552be45edcfacbe1"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_00.npz",
+      "sha256": "6d622d94333d8bc1ede1375071619df6248287d14987a495f7b3752d778c085a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_00.npz",
+      "sha256": "c45fdbf88242936861c12f147281eb76175c16febb5aef6737a74dd668fe57e6"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_00.npz",
+      "sha256": "b6573f83b640d9c10de79030e919de35697239c790e470fe27bd4dcde564c2eb"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_01.npz",
+      "sha256": "db4fb197a2cd7807f037f36f38c074b846585391eec6a4a6f0619a49cd6657cc"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_01.npz",
+      "sha256": "d814f7f121a9717e6e8fdf66409cce52405ec3257a98c171abfac09d3c6e2215"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_01.npz",
+      "sha256": "90b8f674659e7c7e38183936a38b8c39db0c809bf951d7411ca7599026ac9ba3"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_02.npz",
+      "sha256": "5fe37323a41426c5ef5f673fd1cc29b67d5ece1f8651151402ca3c92134c763a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_02.npz",
+      "sha256": "53b7da0621d323f8d34cce570aac48e5f4f83d0da35947d0c3142ccd3e94f30e"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_02.npz",
+      "sha256": "54f6a5da33b1b3ec17c9143552f800ab38f9439bfc8faf1d7f28685d4ce70270"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_03.npz",
+      "sha256": "de7556437de15a54f5c08ce241a7de980d3fc3df845f0175fb1ba102a2b941b6"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_03.npz",
+      "sha256": "b05553a489840642d3643c957c0d4ae8f28b58dfc7a642126c0ddad61964019a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_03.npz",
+      "sha256": "6134eadf21b9bb9980bba803c0011cf425e80490faa7fd0e414a66a05b8d2be0"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+      "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_04.npz",
+      "sha256": "5f19cfb9813a6bf75bac6bd5b8b6c67b53438da560dd85fd769793dddd1912bf"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_04.npz",
+      "sha256": "f0eacca728504a15d7e99912937355ed5c0dbd70340a4d148494700fe5a552fe"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_05.npz",
+      "sha256": "8a70784c30cda05bee952e390eb30f0dbab7f2c4630bbbe8d94be67dece1f4a3"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_05.npz",
+      "sha256": "5a1cbed15f625d72f397588a3d6b16dac3a9522b8db4efffeab4b47b465fd21a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_05.npz",
+      "sha256": "1a2d4bd13d702cdceea2090e625b577d8bff7dc6de8d707adb36959389953160"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_06.npz",
+      "sha256": "dfbdf36557b7d616e27b3eaeda5ea9d8bb1e1d0685a66156613612e00378f684"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_06.npz",
+      "sha256": "5767c6e49b669c5c220ec8baed82e76aca255ca8aad3ac25b377cc173f6608e6"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_00.npz",
+      "sha256": "7296b9d934ee90ee12aa5889e4e8cb1688f0943f1371232ff20d3bc81064daa0"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_00.npz",
+      "sha256": "14fb40f46098a2a4482b3b1499a1286cfb8dd2fc0f666a6337a9b3d088e05a69"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_01.npz",
+      "sha256": "d905bdeb76ef8c2de313d15be733646c3984669ae85cbab526735351ce70e13f"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_01.npz",
+      "sha256": "7fd460990cf7231ac3170e2183fe4252f3f3d7342434f90f09b4f2e3f7b91a33"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_01.npz",
+      "sha256": "b455d4937bcdf37478d4b9d5f5cb76ab02e96d30c4ab14828205d48740d2c534"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_02.npz",
+      "sha256": "a06e468fc4fc925463225f54e87ccd8b73016db0b962a9120937824075850702"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_02.npz",
+      "sha256": "140d0d292c27ddcbe37eb7bb60b71be65b93c6d291c4dcc729c0d834e7eb100b"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_02.npz",
+      "sha256": "29703c4054941cb5a64c9f0580e2ed08202c63e6aa7b15ca816d85141ac4877f"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_03.npz",
+      "sha256": "57007ed42e6da40ba6092edb467b6abbc6d88e508f63d7bd7c7036122f725df1"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_03.npz",
+      "sha256": "8721cf6e46ff055af0ecdcaac5b339b4d6e7f2770b23acf58676b2a231ce8ed7"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_03.npz",
+      "sha256": "fb891de40d6a45352b02b1ab0b638cea83b0b4089e5fbe228ebe800ae41ab321"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_04.npz",
+      "sha256": "cd84aa5a1e94324ecd03aef4506e3f416e58997cb3b030da3e122d1b212636f1"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_04.npz",
+      "sha256": "c603de85435d22b367b97f4f3622dd3fd73ef0a8b76e0024b49221b478b8c63d"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_04.npz",
+      "sha256": "f20c7a018a427e0255e53b1c8c495f2f4197efde49c0f2daf521d3031b81902a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_05.npz",
+      "sha256": "636a990ff70aedca71ef2020a3bd2daa86ddf58f4b996409e5876e4297bdde4b"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_05.npz",
+      "sha256": "7f3bb0f0695b44c9f9a56108aa0b2f7af166ba28fd6c2a5bde39d6a80292b195"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_06.npz",
+      "sha256": "4817ba3ec516a1603eb0d83ad5ab9e24be5f3752e2282148bb43940adfdbe546"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_04_01.npz",
+      "sha256": "8dd3dad0db0bf0daf368c8c8c90f3a376c99bb91a5ef06401d086d9e5e226360"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_04_01.npz",
+      "sha256": "f97320ded8a825a1496258a471334f193a929fb37fd1707bd22e4d9b58527895"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_04_02.npz",
+      "sha256": "4a0ccfea453a5fe9c139531a4cdf5e23a0e0f140125620329a4e5d3273fac2cf"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_04_02.npz",
+      "sha256": "17da24560ffdbe59523b4d388c4db2cacae4fd899e7306c276f90112ecbd4c4e"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_04_02.npz",
+      "sha256": "5bff16d0676828fbe8fc2360637206a0ea2a99b5fa0a1304c72a95c5723a0fac"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_04_03.npz",
+      "sha256": "8ab588b2ba5ed9e9669c0b9766ea1c9448f0ab9a9f31a0d3d859dcbb42aa3661"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_04_03.npz",
+      "sha256": "a48b92f87a951c6af90ca2ba06606b289775ed5114199ec4215977f5c81b1681"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_04_04.npz",
+      "sha256": "cc6369c9695d2b6ca4639801cac62c63c48d984bdd5e1dac5e842521796c5736"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_04_04.npz",
+      "sha256": "eb426f4189bfd55a46d7f61ed7030312522be8d6f3dd3960b163b35827f52a81"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_05_01.npz",
+      "sha256": "8fbd3b59b8892d2e7d095a667a0faf01a65295e872fd47f57d0cd040db5109ff"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_05_01.npz",
+      "sha256": "f7db4be12ff2a2720d428d98e927deabed7910c21039119a5d52034a05aeb630"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_05_02.npz",
+      "sha256": "12073cc4642bde8a98e5c598f39ebbd7d04125ab42b9df8b87e78b4338f453bb"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_05_02.npz",
+      "sha256": "00d115a42c3181ae8b214204df869f1a955b06a2f1eaab089a3fc9563eee3142"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_05_02.npz",
+      "sha256": "10683524be5be0c56195a588d865cd551dfcf8b26b27ba5e6c6b2b9cd34f913b"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_05_03.npz",
+      "sha256": "b0aa88736223ddd44e65bd3065f3cb637b9fddf4cdacda55bdf457d9129e4500"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_05_03.npz",
+      "sha256": "1a19622906694c8195ecc1d5f20e2d7917b86048739290c48610175787201140"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_05_03.npz",
+      "sha256": "32c9e90c557c48c9d307973413d3628b0903fdc6def00c6674a9f8ed3eef6a8a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_06_03.npz",
+      "sha256": "940f21bc741bad9d97059ff9b49e19288627eab2d8a2d6aa6723189edfa744dd"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_01.npz",
+      "sha256": "e7c22428eca5341e6e51f11e76cf44d898e8eb0fdb0df4b03b755b6e5798a144"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowSouth_01_02.npz",
+      "sha256": "b9391e47e4d7f1b2c8bd3f4240b3514701234f4cd8ee7b016afda8fb7d6e0918"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowNorth_01_02.npz",
+      "sha256": "85fc3b6f3d9fb404fe8e044862f05a569eb7f564c91385ae56c71a91bf6be76c"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_02.npz",
+      "sha256": "93eeb943e2d3c0c34ec5de42fc7ffcf2174048bfea264c601bbf994d2077eb9d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyPlayground_01_02.npz",
+      "sha256": "071d1f45efafec33b58318622212d7bcfa84d14de67d1200dac14e1e40abcd76"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyBasketball_01_02.npz",
+      "sha256": "a0716e00d1c5ea0548d50a92493854385ad373adf951da77bd412e3da6f445ec"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingNorth_01_02.npz",
+      "sha256": "c4cd4c94bf5908fdc795abdc72c3d87265bc88a12fb963d61129bc4ecfdcbc96"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingSouth_01_02.npz",
+      "sha256": "58e4852b8c024fe2b0de19a2cfb2e4396b026eb277d32ad0e3b6ab450933822f"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_01_01_02.npz",
+      "sha256": "32d6ea41af0c0b1953b650bee829318710a996d2f8ac02fb4ad3f9b9d6b822b9"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_02_01_02.npz",
+      "sha256": "ad015edfa9243460c1a6a93c44a28f3333b8a7b6bc9ec86ed5fca5bd1cb2183d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_03_01_02.npz",
+      "sha256": "22d2c376a9d0c7fcfdad258af91864ae1b4f5fb333875139779302067092447d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_04_01_02.npz",
+      "sha256": "4a91a77fb09499feaff382b041c87a5ae0b80112499ec1cb9260fe246f0447f7"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_05_01_02.npz",
+      "sha256": "1d94603397b847740ab8a849a58758e6675cf5908913f23fa7b1a24b1b4e1e36"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_06_01_02.npz",
+      "sha256": "16a512ad26aff32d38fe29b814ea34ce8ca20d25c99fe8151b6d92f3f4987b79"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_07_01_02.npz",
+      "sha256": "520ae0999399b0bdee9f7d8948900ca1ab84f7ab6cf6e430d758f56c00915752"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_08_01_02.npz",
+      "sha256": "942024ebbdd9038cb00f63c2c3359726ac3a4906ac557a464d90d5726fd3b0f1"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_09_01_02.npz",
+      "sha256": "91e8d75d353fb2daf6f8754555b1cf7c87a1b46d78f70594068b76c9b0782f92"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_10_01_02.npz",
+      "sha256": "be6736cbc9aa7104a6fa387601c20e2f6b8ca0eae6dc39111117d453140cf793"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_11_01_02.npz",
+      "sha256": "7993f1d31cacd349762d41f5d6e7c7cd63eaf9698e4d0ddbf1e770f5b514f457"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_12_01_02.npz",
+      "sha256": "530f65175e709cb9733e42cff6107ee441170f7ccb27a0a8bd6ecc097976a738"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_13_01_02.npz",
+      "sha256": "ec2fef5ad39031541c7172f989351e3f3e56865f0caf7a20c478fcf8851d7450"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_14_01_02.npz",
+      "sha256": "ed3c329e0bedffceb1af7af70c5e60f897e5c19a5097dbd496f416a10477f6fe"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_15_01_02.npz",
+      "sha256": "a74440074f4b0a68ee156c401f6f6b8c63d09c07064a0e6c1d74ca9b4d6e1805"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_16_01_02.npz",
+      "sha256": "9c92783383446599ee717c6c215f4b9c3b138b791605495b505b0779cd1d8f29"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_17_01_02.npz",
+      "sha256": "5c8a48f3fd55da7ba0c914d4bcec9eee2eaed76a00fc7cae1574a09218c75d24"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_18_01_02.npz",
+      "sha256": "4cc3042c15685d5fe440d7ec7a4397b7e69d9a8c8bf7eeb98d68c09147b5fa9b"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowNorth_02_02.npz",
+      "sha256": "ffbb0c094a49e410ccbab1e753a15e257076d1bc23e7173732cd3a600b86e325"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_19_01_03.npz",
+      "sha256": "d1f380f4e6bafd5af8b2c102bc87290b5e1405f01f1e0387d8259d9dada94eb0"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_20_01_03.npz",
+      "sha256": "f3dfb709c82acc540ee18e18818a64a2f9f18284629daff48b719bf7ac83bac3"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_21_01_03.npz",
+      "sha256": "4e23cb7600f059745e289a18c1b0a89f96b93d6b6217c668a74ffe9129147733"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_22_01_03.npz",
+      "sha256": "a02e3b53cefe1b3ed2109ad72549e63679712959054109acb3b79aeb7f43b3e0"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_01_02_04.npz",
+      "sha256": "b7ab7e5191877c70e58727fe2f938ec2468faf0aef451f18fde68a2d659aeb3b"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_02_02_04.npz",
+      "sha256": "58bd7fdb672bbfe3e938f9fd30ad4479da0feacba8bb3a24e3d60cc2bc7ae237"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_03_02_04.npz",
+      "sha256": "b07edcf0569a9ddbdb31eb81f283a1d82de23ee2f634c5dd5f6488a5bab32da2"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_04_02_04.npz",
+      "sha256": "8fb6553676ee993a23995b52d083ac06bfbff836c276e2f11a9b9d2eb72b1a28"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_05_02_04.npz",
+      "sha256": "534fb24ac187611961b2d21f983a148b87afd807676ee00a849218faf4e92725"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_06_02_04.npz",
+      "sha256": "53ddf7cd9bfb603c8cc172cd630e70c95118dd8288e6e45a0d5f0b2e9c867701"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_07_02_04.npz",
+      "sha256": "747cbdd9f58789910cfdd8484e86904252efc152ac6d947ed0c15c7c08d15410"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_08_02_04.npz",
+      "sha256": "264a500f95be242f7f9e50e80d7895c252757941669a5bbfb26069960776bc84"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_09_02_04.npz",
+      "sha256": "b86d6e6dbeefa28b3bf92c4074fe20a6d246d117be95a804f6ab53eb02df9fda"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_10_02_04.npz",
+      "sha256": "4563bc68c51ed4a7fac2431e68333310aa3d1fadc98f9100478bd4a30ae2835a"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_11_02_04.npz",
+      "sha256": "577fd002d4febe2506a1ac94825ad800f174d793a4013cda035f81c7ab2a852d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_VarietyWaterPark_03_04.npz",
+      "sha256": "bbe51a1588101451d61e17b56ffbbeda41d66d2a5f34aacd0dbdde6ac875f0b9"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LumbermanPlayground_03_04.npz",
+      "sha256": "9ecfd36d8ed54c50847f45aa9e7119277a6f20bcee4823856835e71867d34f9d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonOval_02_05.npz",
+      "sha256": "8b2bec88b095169f6e3cf26242ec311463a8c3609b23495455fa613a793861c0"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonWestField_02_05.npz",
+      "sha256": "0bec2acde5ace09fc7f12687e464e1f3dcb824df33c8ec0b39acada7d51d92d0"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonCricketNorth_02_05.npz",
+      "sha256": "555a54144ce5fd4aaa6aaeff810baa223690e7a17bc218baf2c87cf24fd87a55"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonCricketSouth_02_05.npz",
+      "sha256": "32da31d4b26a8713d11bad334637685e11a9969f98cce166e19bbe5e1492c604"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonOval_03_05.npz",
+      "sha256": "0fe8dab496efcf19d9ebbbf5b8cb199208763bd5e3b25585a16f111e8ed9e7ff"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_TotemNorthCourt_02_06.npz",
+      "sha256": "adcc6a5b8942ef3feb2d7ca84820235e0f255aabbcc75a8926e978d644383699"
+    }
+  ],
+  "terrain_inputs": [
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_00.npz",
+      "sha256": "5572d1ec0d38ea124519627cfb8b7e5c1288de4c1de47036d04edb2ebfa55543"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_00.npz",
+      "sha256": "58b70c3bd875551365c6057ea0ac69760625469b30217cd68745a7f9f2be4724"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_00.npz",
+      "sha256": "59f25d0bc8cd2588d01a0e7ff610b50900270538e3b7055b9fe4127e2b939e8c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_00.npz",
+      "sha256": "d14a2610c7744a1f2365564b1d61db3d1cc276189de6ae7ca01d300a5958d376"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_00.npz",
+      "sha256": "1ec0699ecc421219c2ed0d86d9b29d1a9e8ff3c50e20962c298322c02e2b3aac"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_00.npz",
+      "sha256": "61c91fd7ae9320a26ffe462959d561a6f189be44d1d785d4be5fbc653aa1c592"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_06_00.npz",
+      "sha256": "4bd47684cab5f9bfd2ba593c1a2f1221e58b6ae5e4262f05218f776aac65ddee"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_01.npz",
+      "sha256": "520f8f7fa07fc1114761f3db694b3958cb24b43e66440cb38f546e6337eaaaee"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_01.npz",
+      "sha256": "96859fd3b0d26a9accbd7cb501b4141bd3be18b07760a1e8244fff5e52e656d9"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_01.npz",
+      "sha256": "f60fde231073bd04dfac72df68c94ac60b4f9b93b626df85e984538da1fb1f14"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_01.npz",
+      "sha256": "a81a1d5ad2c23d9e255d148adb072296be39058fc009e680661043bfc3251dbd"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_01.npz",
+      "sha256": "29cf5611406a9cd347285114a48695e1da93d851226ae0799f9f3ecefb733a56"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_01.npz",
+      "sha256": "3222a600c70e19465ab5f9e606f7b3e82a6fdac4ccc848625680d91c16015218"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_06_01.npz",
+      "sha256": "34bad1d28beb7a7ee7f9dc0dd107aa130330670247d779d079f50386d413a313"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_02.npz",
+      "sha256": "2c8ebabea31aabd9e51fcb09cda3332f4b877ae371f9d6dad8434d4d80d8f170"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_02.npz",
+      "sha256": "49a79a1e08a8ba3200f88e0d927459a57fcae65a3052ada4d7f64688088ec6df"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_02.npz",
+      "sha256": "27ba10582c793cce88265c22e89f0e36dc793eb37a41e2424de530123e43c69d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_02.npz",
+      "sha256": "50ac1c483949b1e4cbfcb2386efd23ed1be28e0e34f899b7c83a20299adaeec9"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_02.npz",
+      "sha256": "421f0531738aecdb04ca66d94ec7733937eae079d10992b313405beb1a6773b1"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_06_02.npz",
+      "sha256": "8bb3e19c6e3f506c83d98e6bd8850cbd9c239174978f8514637b05a2be2eeaf2"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_03.npz",
+      "sha256": "dc8989bf63b20a7b4a491b2887f60a1f5c2ff1eb705537d962fa734e8848667c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "sha256": "1279ec4ea58d84eaf73a87576af02db2117f537b1d42f0b518644273346732ee"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_03.npz",
+      "sha256": "ec6924423a8a132c42b4f4c6c816118d45f9bf038f7fdfdf40cc4367a72ad409"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_03.npz",
+      "sha256": "4a5b6a8c05bda321ef5bb6a1da4e1c8b2821ba34fb1cd957d3b6b3623fe919b7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_03.npz",
+      "sha256": "a5234d8cda46a99360fa7b20f8034576d6201647ae789d0c5e929986ad889538"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_06_03.npz",
+      "sha256": "28c8ccb54add4cb4632e36f8ba6fec7b1e841ac8e9a6fcdda487d53b3fdf4b62"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_04.npz",
+      "sha256": "f651ac093e1de2680f0773d4e4917a444a6c47801ec57d871fb0c69aa39cf59e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+      "sha256": "4badc16c8769d73f50d10588c691a2d32b7287da550dfe8563cf757e9a50c878"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_04.npz",
+      "sha256": "b89b2f1ad33a181f1e7a20474c8893a85e1fa09e5a3f987f9a5130dd2904dd68"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_04.npz",
+      "sha256": "377385287a71ab8c0860564fbe0f00c3f5e4f479693b118e2a48c7da82203848"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_05.npz",
+      "sha256": "ef60d0858c0b048b093819313d4557387c0c0816fdcb76517bd85d82f5789f29"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_05.npz",
+      "sha256": "fae1d19105d2cb3266c75e1ef94aba2b3018a97b90f3123f2965a97a4c7f71c3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_05.npz",
+      "sha256": "46f6b6eb015d5cbb6584e0bfe05164245dbedae727e320b575b4d7a5298e8cfc"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_05.npz",
+      "sha256": "72b221bfd7ad3c9ff9d469c37f9c97a665830172a3f11c204fb9ae548fee985b"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_05.npz",
+      "sha256": "dd2bf5bc8dd7c82f303e4983b07c820deb05ed683ed910113eee46c72fd6fc01"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_05.npz",
+      "sha256": "4eeaf210cc51d0996d12c1f8cb9276e31c2f1aed9bb4fa0d7b007caede803f13"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_06.npz",
+      "sha256": "97f4cb7778e68935316d743bd9661ad75a94976913acce003e7d56ce97d05394"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_06.npz",
+      "sha256": "b1a788bc18ba30d19b0ded4735e4251d0b7e8d7926d94bd5d71eca8e83c275bb"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+      "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_06.npz",
+      "sha256": "efc7f326dfa13b7c16ef1950b29b64fdb4a490b18a3718a57884fd91ea127785"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_06.npz",
+      "sha256": "5ea66b87ee360b4e758b163887d13f5d815c2473b2bd2d37e3386799be968fb3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_07.npz",
+      "sha256": "2f4aa6852e844e5671d63f0e7b3e22c99371a82e10966641ed0da5e7c1eddca0"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_07.npz",
+      "sha256": "ad21526092ecfe008fe6e8c849b10d9c649fd3efc8b58828876925210e73ca4f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_07.npz",
+      "sha256": "ef16c85e71f7d8387ef69823fcef8487250b2e547ffb5de10f6757eee3b012d8"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_07.npz",
+      "sha256": "68e505e4be49ccf536a2059ed57e0057352fae625a752aecc37dd1a5808ab08f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_07.npz",
+      "sha256": "45fbc53bcfb4a8a64219cc3454cc2027bb06bd234bcaf0112e72e88633ec2be4"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SM_Ground_Golf_green_752863877_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863877_01_02.npz",
+      "sha256": "8cdaed4842f8c6adc17d009a7e087fb3a9c4426e867fbd46faa7a431558362f3",
+      "component_id": "Golf_green_752863877",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 36,
+      "triangles": 37,
+      "area_xy_m2": 223.71122969561443,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863877,
+        "url": "https://www.openstreetmap.org/way/752863877",
+        "timestamp": "2019-12-13T17:47:41Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863878_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863878_01_02.npz",
+      "sha256": "0cf0deb453caeacc97d11e02402c41fbc0716372a64e68ed0ed6bdb09a7dde9c",
+      "component_id": "Golf_green_752863878",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 33,
+      "triangles": 34,
+      "area_xy_m2": 224.8252086900931,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863878,
+        "url": "https://www.openstreetmap.org/way/752863878",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863882_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863882_01_02.npz",
+      "sha256": "3718e91fd8f7cdc596d97b72baab4db11587cde6caa9836855c234807dff60f9",
+      "component_id": "Golf_green_752863882",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 34,
+      "triangles": 36,
+      "area_xy_m2": 208.22582620245285,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863882,
+        "url": "https://www.openstreetmap.org/way/752863882",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863884_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863884_01_02.npz",
+      "sha256": "12a38bb20081c08236103d2ee69bae3e60fe5ba323ae6633b30a4bb1339876fa",
+      "component_id": "Golf_green_752863884",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 27,
+      "triangles": 28,
+      "area_xy_m2": 176.39298707706573,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863884,
+        "url": "https://www.openstreetmap.org/way/752863884",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863885_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863885_01_02.npz",
+      "sha256": "b15a868e161468fb053c968662607a1626dc320a767fb881313efe2871f580e2",
+      "component_id": "Golf_green_752863885",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 29,
+      "triangles": 29,
+      "area_xy_m2": 194.54898476887462,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863885,
+        "url": "https://www.openstreetmap.org/way/752863885",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863887_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863887_01_02.npz",
+      "sha256": "75a324ee965345a9a82a55202d189ee9191c2bdfc7813ba0d983a406ea8f1ad0",
+      "component_id": "Golf_green_752863887",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 33,
+      "triangles": 35,
+      "area_xy_m2": 222.57280906856988,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863887,
+        "url": "https://www.openstreetmap.org/way/752863887",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863889_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863889_01_02.npz",
+      "sha256": "3574d83bc972b58dbab3823fd7d8d04cd97500b1530a914ab1f08ea4a066b47a",
+      "component_id": "Golf_green_752863889",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 25,
+      "triangles": 25,
+      "area_xy_m2": 143.4665337839559,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863889,
+        "url": "https://www.openstreetmap.org/way/752863889",
+        "timestamp": "2019-12-12T23:48:41Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863891_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863891_01_02.npz",
+      "sha256": "3d95acca75aaa5986547196bc60d84d5dff3eb977ab48381b202a3b0e86bbb95",
+      "component_id": "Golf_green_752863891",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 24,
+      "triangles": 24,
+      "area_xy_m2": 222.4905328208078,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863891,
+        "url": "https://www.openstreetmap.org/way/752863891",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863893_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863893_01_02.npz",
+      "sha256": "1548ab1ae8272d440829c5a9c14315ea12a21fd4e4a88d56f618afe5d5400b32",
+      "component_id": "Golf_green_752863893",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 30,
+      "triangles": 31,
+      "area_xy_m2": 185.44972659805725,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863893,
+        "url": "https://www.openstreetmap.org/way/752863893",
+        "timestamp": "2019-12-13T17:47:41Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863895_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863895_01_02.npz",
+      "sha256": "edf4cc071cdf0c51a91fb5131836f191e84bc3350bbf102a2829bccd1fd86040",
+      "component_id": "Golf_green_752863895",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 37,
+      "triangles": 39,
+      "area_xy_m2": 207.93252928382537,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863895,
+        "url": "https://www.openstreetmap.org/way/752863895",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863897_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863897_01_02.npz",
+      "sha256": "faf8a092f12f068b960dcf03d941cafc878f86db31aea69a7ab508d716127ee0",
+      "component_id": "Golf_green_752863897",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 36,
+      "triangles": 38,
+      "area_xy_m2": 215.6062322199022,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863897,
+        "url": "https://www.openstreetmap.org/way/752863897",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863899_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863899_01_02.npz",
+      "sha256": "10cf053c5042c353d0ce329a99b0ab93d5dd65172a81fcc7a3c2a48bc6d1e000",
+      "component_id": "Golf_green_752863899",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 34,
+      "triangles": 35,
+      "area_xy_m2": 187.29954721198408,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863899,
+        "url": "https://www.openstreetmap.org/way/752863899",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863901_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863901_01_02.npz",
+      "sha256": "edec103818e40ba0eee05e9c760a31078e393a9e03d8bc50219492caea976100",
+      "component_id": "Golf_green_752863901",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 31,
+      "triangles": 32,
+      "area_xy_m2": 206.698581483311,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863901,
+        "url": "https://www.openstreetmap.org/way/752863901",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863903_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863903_01_02.npz",
+      "sha256": "cb90ed640fe1eea2741a2b01b91de5f97fc2eaf15f9f280e61e9284f9decc19f",
+      "component_id": "Golf_green_752863903",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 35,
+      "triangles": 38,
+      "area_xy_m2": 271.22989868508904,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863903,
+        "url": "https://www.openstreetmap.org/way/752863903",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863905_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863905_01_02.npz",
+      "sha256": "88d0ce8401f0debd1a91991a404a280a087eaaa0b41f65957c557eeb6ef11085",
+      "component_id": "Golf_green_752863905",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 38,
+      "triangles": 40,
+      "area_xy_m2": 203.32806213397407,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863905,
+        "url": "https://www.openstreetmap.org/way/752863905",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863907_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863907_01_02.npz",
+      "sha256": "49b7fb8b5c02054b4328b703b7d465a3cfed570cee990ea295757473a0cd2674",
+      "component_id": "Golf_green_752863907",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 30,
+      "triangles": 30,
+      "area_xy_m2": 207.19766375110282,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863907,
+        "url": "https://www.openstreetmap.org/way/752863907",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863909_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863909_01_02.npz",
+      "sha256": "5abe9ecdafcb938fb5b57775eee2d499daa24a38cd17b1752ee1712358a9e17c",
+      "component_id": "Golf_green_752863909",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 32,
+      "triangles": 32,
+      "area_xy_m2": 201.07930101502944,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863909,
+        "url": "https://www.openstreetmap.org/way/752863909",
+        "timestamp": "2019-12-13T17:47:41Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_green_752863911_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863911_01_02.npz",
+      "sha256": "127156328ffda8275da7872d04207e1807882c9107cfd1748b3dba5dc5f9855e",
+      "component_id": "Golf_green_752863911",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_green",
+      "material_color": [
+        0.24,
+        0.39,
+        0.16,
+        1
+      ],
+      "vertices": 41,
+      "triangles": 44,
+      "area_xy_m2": 230.3379519906196,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 752863911,
+        "url": "https://www.openstreetmap.org/way/752863911",
+        "timestamp": "2019-12-13T17:47:41Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755040275_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040275_01_02.npz",
+      "sha256": "6e04653e451ba6fddf12d334ce1b28e26096dc63b1190c41ce5d5cbf6815faea",
+      "component_id": "Golf_tee_755040275",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 6,
+      "triangles": 4,
+      "area_xy_m2": 12.364675542169222,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755040275,
+        "url": "https://www.openstreetmap.org/way/755040275",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755040276_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040276_01_02.npz",
+      "sha256": "cac7da8bae082959222509e9eb9b5b220aff202c4ca4e8b50498df3c0bb38f48",
+      "component_id": "Golf_tee_755040276",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 8,
+      "triangles": 6,
+      "area_xy_m2": 12.372982792793195,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755040276,
+        "url": "https://www.openstreetmap.org/way/755040276",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755040277_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040277_01_02.npz",
+      "sha256": "d559378a4d85d030ab6839eb2629bc29253e609128b318b9cbb5f9c3cf0925cf",
+      "component_id": "Golf_tee_755040277",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 10,
+      "triangles": 8,
+      "area_xy_m2": 12.364123578893071,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755040277,
+        "url": "https://www.openstreetmap.org/way/755040277",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755040278_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040278_01_02.npz",
+      "sha256": "0cae8ab87637408c8e92e0623f8526f172a1f4c8a9a46836f1af31033733c3c9",
+      "component_id": "Golf_tee_755040278",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 8,
+      "triangles": 6,
+      "area_xy_m2": 22.815999277302534,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755040278,
+        "url": "https://www.openstreetmap.org/way/755040278",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755040279_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040279_01_02.npz",
+      "sha256": "d18f30b8004d8f81e0d1d4b06e12e2dc1b9427000dd116e39d66a51e7d2db0ba",
+      "component_id": "Golf_tee_755040279",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 8,
+      "triangles": 6,
+      "area_xy_m2": 23.52215360948414,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755040279,
+        "url": "https://www.openstreetmap.org/way/755040279",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755040280_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040280_01_02.npz",
+      "sha256": "7af3fd416f4750dd44a91fc3a17a77477a64e3f93d115659ed1eb9efd10aa47a",
+      "component_id": "Golf_tee_755040280",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 10,
+      "triangles": 8,
+      "area_xy_m2": 23.522248164645774,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755040280,
+        "url": "https://www.openstreetmap.org/way/755040280",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755040281_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040281_01_02.npz",
+      "sha256": "662694c10d97880cd4df28a29a34704db274613939b3ddc79042a47cf6c66abb",
+      "component_id": "Golf_tee_755040281",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 11,
+      "triangles": 10,
+      "area_xy_m2": 12.37294977872851,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755040281,
+        "url": "https://www.openstreetmap.org/way/755040281",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755040282_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040282_01_02.npz",
+      "sha256": "b7a891b52c41873a0040d60544cb437a53dad4155eb2981b8445797646b3a627",
+      "component_id": "Golf_tee_755040282",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 8,
+      "triangles": 6,
+      "area_xy_m2": 23.538032623302666,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755040282,
+        "url": "https://www.openstreetmap.org/way/755040282",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755040283_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040283_01_02.npz",
+      "sha256": "bd4e3369cca1469e6dceb15a4d141efd578bf8cf9438f573062b6bf5af7d05e6",
+      "component_id": "Golf_tee_755040283",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 9,
+      "triangles": 8,
+      "area_xy_m2": 23.529508227788643,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755040283,
+        "url": "https://www.openstreetmap.org/way/755040283",
+        "timestamp": "2019-12-12T22:56:44Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755047370_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755047370_01_02.npz",
+      "sha256": "9314a07689b08d941c77de5b7493833d53937f27ae1f93d85e814dd963cf5de8",
+      "component_id": "Golf_tee_755047370",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 13,
+      "triangles": 12,
+      "area_xy_m2": 23.548993564554117,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755047370,
+        "url": "https://www.openstreetmap.org/way/755047370",
+        "timestamp": "2019-12-12T23:48:41Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755047372_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755047372_01_02.npz",
+      "sha256": "13354a0f283a7dc41d35eba0984adfd75d9dac29b43e4c79f80c99ff6f8669bd",
+      "component_id": "Golf_tee_755047372",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 14,
+      "triangles": 13,
+      "area_xy_m2": 23.568299403421516,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755047372,
+        "url": "https://www.openstreetmap.org/way/755047372",
+        "timestamp": "2019-12-12T23:48:41Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_Golf_tee_755273129_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755273129_01_02.npz",
+      "sha256": "085aa4ed39dc43b386e6f8fbf258f93dcb2b4166413a41e549d5f21f7a42d014",
+      "component_id": "Golf_tee_755273129",
+      "feature_id": "SP_pitch_putt",
+      "m1_group": "M1-F08",
+      "material_role": "golf_tee",
+      "material_color": [
+        0.29,
+        0.39,
+        0.18,
+        1
+      ],
+      "vertices": 6,
+      "triangles": 4,
+      "area_xy_m2": 12.380708618591232,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM original polygon",
+        "way_id": 755273129,
+        "url": "https://www.openstreetmap.org/way/755273129",
+        "timestamp": "2019-12-13T17:35:12Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_GreigGardenWest_Ground_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenWest_Ground_01_02.npz",
+      "sha256": "7658d25a0eb86b726d42c8aab9e9aba5ff60c5e6e0aba9d2386e884cd02b286d",
+      "component_id": "GreigGardenWest_Ground",
+      "feature_id": "SP_greig_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_understorey",
+      "material_color": [
+        0.24,
+        0.31,
+        0.15,
+        1
+      ],
+      "vertices": 2561,
+      "triangles": 3412,
+      "area_xy_m2": 13306.155591453167,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM garden envelope",
+        "way_id": 503109512,
+        "url": "https://www.openstreetmap.org/way/503109512",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Coarse ground cover only. Existing canopy and separate paths/beds remain. No individual species or flower display is represented.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_GreigGardenEast_Ground_01_02",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenEast_Ground_01_02.npz",
+      "sha256": "65e7f1fcc3091e83ea54a655b7a3c7d59b6596ae347775d1132ed7a2dddcbfc0",
+      "component_id": "GreigGardenEast_Ground",
+      "feature_id": "SP_greig_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_understorey",
+      "material_color": [
+        0.24,
+        0.31,
+        0.15,
+        1
+      ],
+      "vertices": 805,
+      "triangles": 1078,
+      "area_xy_m2": 6573.49256464851,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM garden envelope",
+        "way_id": 503109517,
+        "url": "https://www.openstreetmap.org/way/503109517",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Coarse ground cover only. Existing canopy and separate paths/beds remain. No individual species or flower display is represented.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_CommunityBed_01_01_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_01_01_03.npz",
+      "sha256": "d77f762f690a36c0f55d705922a6abf101af0aeb2046c7782157d22cec85ce60",
+      "component_id": "CommunityBed_01",
+      "feature_id": "SP_community_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 6,
+      "triangles": 4,
+      "area_xy_m2": 6.025000000000054,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-community-garden.png",
+        "image_sha256": "eb750c14b372996582f7fade1ecf3e5a9d5870be33d6011a0859213fe2cb99a6",
+        "metadata": "evidence/corridor/ortho-utm/m1-community-garden.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            307,
+            522
+          ],
+          [
+            327,
+            518
+          ],
+          [
+            338,
+            547
+          ],
+          [
+            316,
+            548
+          ]
+        ],
+        "picked_display_size": [
+          1050,
+          1050
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Coarse bed group, not an exact plot/plant inventory.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_CommunityBed_02_01_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_02_01_03.npz",
+      "sha256": "606c3ddc31ecede4a68d8c703576a7bfb404441f780b6934444e1d19a38d6638",
+      "component_id": "CommunityBed_02",
+      "feature_id": "SP_community_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 11,
+      "triangles": 10,
+      "area_xy_m2": 21.944999999999695,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-community-garden.png",
+        "image_sha256": "eb750c14b372996582f7fade1ecf3e5a9d5870be33d6011a0859213fe2cb99a6",
+        "metadata": "evidence/corridor/ortho-utm/m1-community-garden.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            349,
+            521
+          ],
+          [
+            435,
+            487
+          ],
+          [
+            452,
+            502
+          ],
+          [
+            357,
+            544
+          ]
+        ],
+        "picked_display_size": [
+          1050,
+          1050
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Coarse bed group, not an exact plot/plant inventory.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_CommunityBed_03_01_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_03_01_03.npz",
+      "sha256": "9e6341aec1c0eb3f8c98613a38971004f46c18c4c97abbf5ac0087ecafffe347",
+      "component_id": "CommunityBed_03",
+      "feature_id": "SP_community_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 8,
+      "triangles": 6,
+      "area_xy_m2": 13.219999999999638,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-community-garden.png",
+        "image_sha256": "eb750c14b372996582f7fade1ecf3e5a9d5870be33d6011a0859213fe2cb99a6",
+        "metadata": "evidence/corridor/ortho-utm/m1-community-garden.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            331,
+            492
+          ],
+          [
+            412,
+            472
+          ],
+          [
+            423,
+            480
+          ],
+          [
+            341,
+            510
+          ]
+        ],
+        "picked_display_size": [
+          1050,
+          1050
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Coarse bed group, not an exact plot/plant inventory.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_CommunityBed_04_01_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_04_01_03.npz",
+      "sha256": "e07edcf23b2dd6d3937d9680003e0230547144b42fb40d130f4bc242171c965c",
+      "component_id": "CommunityBed_04",
+      "feature_id": "SP_community_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 8,
+      "triangles": 6,
+      "area_xy_m2": 10.56500000000007,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-community-garden.png",
+        "image_sha256": "eb750c14b372996582f7fade1ecf3e5a9d5870be33d6011a0859213fe2cb99a6",
+        "metadata": "evidence/corridor/ortho-utm/m1-community-garden.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            463,
+            480
+          ],
+          [
+            532,
+            454
+          ],
+          [
+            538,
+            466
+          ],
+          [
+            474,
+            493
+          ]
+        ],
+        "picked_display_size": [
+          1050,
+          1050
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Coarse bed group, not an exact plot/plant inventory.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_CommunityBed_05_01_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_05_01_03.npz",
+      "sha256": "ac26fbc747675e65266c3ce9e9d0d2ab56bf891d9ab2a2fbd2a22a8974cb6c75",
+      "component_id": "CommunityBed_05",
+      "feature_id": "SP_community_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 8,
+      "triangles": 6,
+      "area_xy_m2": 6.184999999999894,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-community-garden.png",
+        "image_sha256": "eb750c14b372996582f7fade1ecf3e5a9d5870be33d6011a0859213fe2cb99a6",
+        "metadata": "evidence/corridor/ortho-utm/m1-community-garden.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            463,
+            451
+          ],
+          [
+            521,
+            442
+          ],
+          [
+            519,
+            450
+          ],
+          [
+            470,
+            465
+          ]
+        ],
+        "picked_display_size": [
+          1050,
+          1050
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Coarse bed group, not an exact plot/plant inventory.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_CommunityBed_06_01_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_06_01_03.npz",
+      "sha256": "292732a9cdd88e60e7310bfa1e322322a5da05118fc019dd3351325481a6c46c",
+      "component_id": "CommunityBed_06",
+      "feature_id": "SP_community_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 9,
+      "triangles": 7,
+      "area_xy_m2": 19.134999999999756,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-community-garden.png",
+        "image_sha256": "eb750c14b372996582f7fade1ecf3e5a9d5870be33d6011a0859213fe2cb99a6",
+        "metadata": "evidence/corridor/ortho-utm/m1-community-garden.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            560,
+            448
+          ],
+          [
+            583,
+            432
+          ],
+          [
+            608,
+            435
+          ],
+          [
+            629,
+            455
+          ],
+          [
+            610,
+            473
+          ],
+          [
+            576,
+            471
+          ]
+        ],
+        "picked_display_size": [
+          1050,
+          1050
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Coarse bed group, not an exact plot/plant inventory.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_CommunityGardenPath_01_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityGardenPath_01_03.npz",
+      "sha256": "b07e4f6e762ed8baefca3051f9908cc391032638248b7f6703806aa2ac2556f7",
+      "component_id": "CommunityGardenPath",
+      "feature_id": "SP_community_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_path",
+      "material_color": [
+        0.5,
+        0.47,
+        0.38,
+        1
+      ],
+      "vertices": 92,
+      "triangles": 104,
+      "area_xy_m2": 145.34500000000037,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-community-garden.png",
+        "image_sha256": "eb750c14b372996582f7fade1ecf3e5a9d5870be33d6011a0859213fe2cb99a6",
+        "metadata": "evidence/corridor/ortho-utm/m1-community-garden.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            292,
+            510
+          ],
+          [
+            331,
+            489
+          ],
+          [
+            424,
+            466
+          ],
+          [
+            470,
+            444
+          ],
+          [
+            548,
+            434
+          ],
+          [
+            574,
+            425
+          ],
+          [
+            613,
+            428
+          ],
+          [
+            643,
+            452
+          ],
+          [
+            647,
+            469
+          ],
+          [
+            607,
+            487
+          ],
+          [
+            557,
+            486
+          ],
+          [
+            477,
+            510
+          ],
+          [
+            398,
+            548
+          ],
+          [
+            343,
+            569
+          ],
+          [
+            306,
+            559
+          ]
+        ],
+        "picked_display_size": [
+          1050,
+          1050
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": null,
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_RoseBedGroup_01_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_01_02_03.npz",
+      "sha256": "fd8e3854348be83aaf82deafaccadc5534052cfca1f21b4dd2a3077118c9281e",
+      "component_id": "RoseBedGroup_01",
+      "feature_id": "SP_rose_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 21,
+      "triangles": 21,
+      "area_xy_m2": 74.41129932254245,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-gardens-north.png",
+        "image_sha256": "f3071c020b9667251bf0ae8d997ae2d7f32c563be1a75ba2affa01d211558c90",
+        "metadata": "evidence/corridor/ortho-utm/m1-gardens-north.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            389,
+            1008
+          ],
+          [
+            407,
+            996
+          ],
+          [
+            421,
+            1008
+          ],
+          [
+            414,
+            1032
+          ],
+          [
+            403,
+            1048
+          ],
+          [
+            395,
+            1043
+          ]
+        ],
+        "picked_display_size": [
+          1600,
+          1600
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Selected visible bed groups only; other beds and individual flowers remain deferred.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_RoseBedGroup_02_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_02_02_03.npz",
+      "sha256": "e5326547aca82debe348629f10150b2c88bcdf85b96f0d149e10c11980bcfd27",
+      "component_id": "RoseBedGroup_02",
+      "feature_id": "SP_rose_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 22,
+      "triangles": 23,
+      "area_xy_m2": 114.19019531250014,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-gardens-north.png",
+        "image_sha256": "f3071c020b9667251bf0ae8d997ae2d7f32c563be1a75ba2affa01d211558c90",
+        "metadata": "evidence/corridor/ortho-utm/m1-gardens-north.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            449,
+            957
+          ],
+          [
+            467,
+            947
+          ],
+          [
+            477,
+            962
+          ],
+          [
+            474,
+            985
+          ],
+          [
+            463,
+            1026
+          ],
+          [
+            451,
+            1024
+          ]
+        ],
+        "picked_display_size": [
+          1600,
+          1600
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Selected visible bed groups only; other beds and individual flowers remain deferred.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_RoseBedGroup_04_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_04_02_03.npz",
+      "sha256": "753a7999f556f4847ac778ae43ce4df138bc0f9c06003d58106ca6ebdc4a78e2",
+      "component_id": "RoseBedGroup_04",
+      "feature_id": "SP_rose_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 11,
+      "triangles": 10,
+      "area_xy_m2": 35.64380859374958,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-gardens-north.png",
+        "image_sha256": "f3071c020b9667251bf0ae8d997ae2d7f32c563be1a75ba2affa01d211558c90",
+        "metadata": "evidence/corridor/ortho-utm/m1-gardens-north.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            392,
+            1210
+          ],
+          [
+            408,
+            1215
+          ],
+          [
+            413,
+            1243
+          ],
+          [
+            394,
+            1240
+          ]
+        ],
+        "picked_display_size": [
+          1600,
+          1600
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Selected visible bed groups only; other beds and individual flowers remain deferred.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_RoseBedGroup_05_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_05_02_03.npz",
+      "sha256": "18124306bd9ec94f02a23c7c3d3f3d2fe2a5b891593cdcc879be582f1c05b878",
+      "component_id": "RoseBedGroup_05",
+      "feature_id": "SP_rose_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 10,
+      "triangles": 8,
+      "area_xy_m2": 31.635234375000067,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-gardens-north.png",
+        "image_sha256": "f3071c020b9667251bf0ae8d997ae2d7f32c563be1a75ba2affa01d211558c90",
+        "metadata": "evidence/corridor/ortho-utm/m1-gardens-north.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            389,
+            1251
+          ],
+          [
+            409,
+            1250
+          ],
+          [
+            405,
+            1271
+          ],
+          [
+            386,
+            1276
+          ]
+        ],
+        "picked_display_size": [
+          1600,
+          1600
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Selected visible bed groups only; other beds and individual flowers remain deferred.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_RoseBedGroup_06_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_06_02_03.npz",
+      "sha256": "00cfe4152eb8fcea91aaa477b5d6364af8fa61bdb7eb7ad5859cd42d406a70a6",
+      "component_id": "RoseBedGroup_06",
+      "feature_id": "SP_rose_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 12,
+      "triangles": 11,
+      "area_xy_m2": 29.829570312499804,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-gardens-north.png",
+        "image_sha256": "f3071c020b9667251bf0ae8d997ae2d7f32c563be1a75ba2affa01d211558c90",
+        "metadata": "evidence/corridor/ortho-utm/m1-gardens-north.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            461,
+            1214
+          ],
+          [
+            477,
+            1213
+          ],
+          [
+            478,
+            1238
+          ],
+          [
+            461,
+            1239
+          ]
+        ],
+        "picked_display_size": [
+          1600,
+          1600
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Selected visible bed groups only; other beds and individual flowers remain deferred.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_BiofilterVisiblePool_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_BiofilterVisiblePool_02_03.npz",
+      "sha256": "b4490dd90489fa3bc20e838e8247d920f1fe482d131889c3401e0b4f5d67dd01",
+      "component_id": "BiofilterVisiblePool",
+      "feature_id": "SP_biofiltration",
+      "m1_group": "M1-F07",
+      "material_role": "pond_water",
+      "material_color": [
+        0.14,
+        0.24,
+        0.25,
+        1
+      ],
+      "vertices": 25,
+      "triangles": 26,
+      "area_xy_m2": 143.72314721156076,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.025,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-biofilter.png",
+        "image_sha256": "4e3db678ab2e2d4f228676cd4e15d92b28e10645308aaf3e9b88410c82c3ad02",
+        "metadata": "evidence/corridor/ortho-utm/m1-biofilter.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            830,
+            375
+          ],
+          [
+            852,
+            369
+          ],
+          [
+            871,
+            380
+          ],
+          [
+            891,
+            383
+          ],
+          [
+            916,
+            396
+          ],
+          [
+            929,
+            413
+          ],
+          [
+            922,
+            435
+          ],
+          [
+            891,
+            445
+          ],
+          [
+            865,
+            439
+          ],
+          [
+            839,
+            448
+          ],
+          [
+            824,
+            428
+          ],
+          [
+            822,
+            401
+          ]
+        ],
+        "picked_display_size": [
+          1111,
+          1111
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Small open-water patch visible in 2022. Level uses adjoining lagoon flight-day median as an unmeasured local proxy.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_BiofilterWetlandGround_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_BiofilterWetlandGround_02_03.npz",
+      "sha256": "d94435deb1ce6c70798bf567efd30240a40f5747099557d585e95bee7e2be485",
+      "component_id": "BiofilterWetlandGround",
+      "feature_id": "SP_biofiltration",
+      "m1_group": "M1-F07",
+      "material_role": "wetland",
+      "material_color": [
+        0.28,
+        0.34,
+        0.12,
+        1
+      ],
+      "vertices": 131,
+      "triangles": 132,
+      "area_xy_m2": 626.8781662191002,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM wetland near official-map Biofiltration Pond",
+        "way_id": 190668729,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Terrain-backed wetland rim only above the 2022 lagoon water level plus 5 cm. This is not an engineered basin boundary or current operating water level.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_RoseGardenEast_Ground_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseGardenEast_Ground_02_03.npz",
+      "sha256": "f97415b856cd3b00d922b5052291c75ccd535b491a474f91a30fa812ef461949",
+      "component_id": "RoseGardenEast_Ground",
+      "feature_id": "SP_rose_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_lawn",
+      "material_color": [
+        0.29,
+        0.38,
+        0.18,
+        1
+      ],
+      "vertices": 508,
+      "triangles": 519,
+      "area_xy_m2": 1471.2701891425838,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM garden envelope",
+        "way_id": 58305162,
+        "url": "https://www.openstreetmap.org/way/58305162",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Coarse ground cover only. Existing canopy and separate paths/beds remain. No individual species or flower display is represented.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_RoseGardenWest_Ground_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseGardenWest_Ground_02_03.npz",
+      "sha256": "487a2d10de6924e43f5eed6980533fe3ff45af753dea40d27c21603a94ef84a3",
+      "component_id": "RoseGardenWest_Ground",
+      "feature_id": "SP_rose_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_lawn",
+      "material_color": [
+        0.29,
+        0.38,
+        0.18,
+        1
+      ],
+      "vertices": 1144,
+      "triangles": 1283,
+      "area_xy_m2": 9907.315962906037,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM garden envelope",
+        "way_id": 58305175,
+        "url": "https://www.openstreetmap.org/way/58305175",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Coarse ground cover only. Existing canopy and separate paths/beds remain. No individual species or flower display is represented.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_ShakespeareArboretumGround_02_03",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_ShakespeareArboretumGround_02_03.npz",
+      "sha256": "edee89b38304f342a8c2258d2232032842b6fbb12acc93b26fe413d3de023ca4",
+      "component_id": "ShakespeareArboretumGround",
+      "feature_id": "SP_shakespeare",
+      "m1_group": "M1-F09",
+      "material_role": "garden_understorey",
+      "material_color": [
+        0.24,
+        0.31,
+        0.15,
+        1
+      ],
+      "vertices": 245,
+      "triangles": 282,
+      "area_xy_m2": 2716.088963013885,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Inferred finite arboretum envelope",
+        "url": "https://vancouver.ca/parks-recreation-culture/gardens-in-stanley-park.aspx",
+        "corroborating_registry_point": [
+          496.3070438692812,
+          -288.70038378983736
+        ],
+        "licence": "Project-authored approximate geometry; City context reference only"
+      },
+      "limit": "Between Rose Garden and forest; existing trees retained. Monument detail is not included.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_RoseBedGroup_03_02_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseBedGroup_03_02_04.npz",
+      "sha256": "ddf7905421d7d89cd86cfc2afed6d51613b0cb5891c00f1e17d44a4b84e64941",
+      "component_id": "RoseBedGroup_03",
+      "feature_id": "SP_rose_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_bed",
+      "material_color": [
+        0.24,
+        0.19,
+        0.11,
+        1
+      ],
+      "vertices": 25,
+      "triangles": 26,
+      "area_xy_m2": 192.59212890625042,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Manual coarse image trace",
+        "image": "evidence/corridor/ortho-utm/m1-gardens-north.png",
+        "image_sha256": "f3071c020b9667251bf0ae8d997ae2d7f32c563be1a75ba2affa01d211558c90",
+        "metadata": "evidence/corridor/ortho-utm/m1-gardens-north.json",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            638,
+            1049
+          ],
+          [
+            653,
+            1045
+          ],
+          [
+            671,
+            1063
+          ],
+          [
+            687,
+            1083
+          ],
+          [
+            694,
+            1118
+          ],
+          [
+            685,
+            1127
+          ],
+          [
+            666,
+            1120
+          ],
+          [
+            651,
+            1098
+          ],
+          [
+            638,
+            1076
+          ]
+        ],
+        "picked_display_size": [
+          1600,
+          1600
+        ],
+        "licence": "Open Government Licence - Vancouver"
+      },
+      "limit": "Selected visible bed groups only; other beds and individual flowers remain deferred.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_AirForceGarden_Ground_02_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_AirForceGarden_Ground_02_04.npz",
+      "sha256": "8494f79e2dbabdd6d3f2e3da1aa7581b4ce0bdbb34c1c1f5aab7eac00a7aeaa7",
+      "component_id": "AirForceGarden_Ground",
+      "feature_id": "SP_air_force_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_understorey",
+      "material_color": [
+        0.24,
+        0.31,
+        0.15,
+        1
+      ],
+      "vertices": 88,
+      "triangles": 86,
+      "area_xy_m2": 300.70929392619297,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM garden envelope",
+        "way_id": 921530492,
+        "url": "https://www.openstreetmap.org/way/921530492",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Coarse ground cover only. Existing canopy and separate paths/beds remain. No individual species or flower display is represented.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_RoseGardenEast_Ground_02_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_RoseGardenEast_Ground_02_04.npz",
+      "sha256": "362334b16728112dc9d10c6e18417ac248e9dc51589dca25fef8b5ff6597c4ee",
+      "component_id": "RoseGardenEast_Ground",
+      "feature_id": "SP_rose_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_lawn",
+      "material_color": [
+        0.29,
+        0.38,
+        0.18,
+        1
+      ],
+      "vertices": 488,
+      "triangles": 540,
+      "area_xy_m2": 4248.956957619399,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM garden envelope",
+        "way_id": 58305162,
+        "url": "https://www.openstreetmap.org/way/58305162",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Coarse ground cover only. Existing canopy and separate paths/beds remain. No individual species or flower display is represented.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MalkinAudienceGround_02_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MalkinAudienceGround_02_04.npz",
+      "sha256": "39273b8d120f847ece390e72ccf951f224e3f915aed6d7bcde71a417df71093f",
+      "component_id": "MalkinAudienceGround",
+      "feature_id": "SP_malkin_bowl",
+      "m1_group": "M1-F09",
+      "material_role": "garden_lawn",
+      "material_color": [
+        0.29,
+        0.38,
+        0.18,
+        1
+      ],
+      "vertices": 410,
+      "triangles": 429,
+      "area_xy_m2": 1919.6286309517582,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM event-space envelope",
+        "way_id": 732702648,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Coarse lawn around existing stage/building mass; individual audience equipment is deferred.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_241887212_L_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_241887212_L_03_04.npz",
+      "sha256": "cea1c032cfcac38a6b470de564024494b422ea6ed0be917058b8fced0f6a1001",
+      "component_id": "MiniatureRail_241887212_L",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "rail",
+      "material_color": [
+        0.29,
+        0.3,
+        0.28,
+        1
+      ],
+      "vertices": 592,
+      "triangles": 586,
+      "area_xy_m2": 24.14816917811377,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway",
+        "way_id": 241887212,
+        "gauge_m": 0.508,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "At-grade rail strip. Gauge from OSM; 30 mm rail width is an M1 estimate. No operating railway is claimed.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_241887212_R_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_241887212_R_03_04.npz",
+      "sha256": "55aa495f9f2cd5d63b1317e85358d3f3fe12ca22fb5210e59db9bc7e4305e75a",
+      "component_id": "MiniatureRail_241887212_R",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "rail",
+      "material_color": [
+        0.29,
+        0.3,
+        0.28,
+        1
+      ],
+      "vertices": 680,
+      "triangles": 675,
+      "area_xy_m2": 24.220310767691146,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway",
+        "way_id": 241887212,
+        "gauge_m": 0.508,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "At-grade rail strip. Gauge from OSM; 30 mm rail width is an M1 estimate. No operating railway is claimed.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_241887215_L_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_241887215_L_03_04.npz",
+      "sha256": "47de319b4f8594e7402500fa6bcb433042825d2d29b77d625e89a802f1b3a83d",
+      "component_id": "MiniatureRail_241887215_L",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "rail",
+      "material_color": [
+        0.29,
+        0.3,
+        0.28,
+        1
+      ],
+      "vertices": 45,
+      "triangles": 41,
+      "area_xy_m2": 1.5291671090874501,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway",
+        "way_id": 241887215,
+        "gauge_m": 0.508,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "At-grade rail strip. Gauge from OSM; 30 mm rail width is an M1 estimate. No operating railway is claimed.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_241887215_R_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_241887215_R_03_04.npz",
+      "sha256": "4e3b5ee43806b7540379d9d3bdab872784938f79815673b413ffda8c4b9210dc",
+      "component_id": "MiniatureRail_241887215_R",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "rail",
+      "material_color": [
+        0.29,
+        0.3,
+        0.28,
+        1
+      ],
+      "vertices": 51,
+      "triangles": 47,
+      "area_xy_m2": 1.5414160745019139,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway",
+        "way_id": 241887215,
+        "gauge_m": 0.508,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "At-grade rail strip. Gauge from OSM; 30 mm rail width is an M1 estimate. No operating railway is claimed.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_241887216_L_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_241887216_L_03_04.npz",
+      "sha256": "2bd740d0355a45dff6ddc9618b39e2a4dc4078a228fd337573210a2f244e1261",
+      "component_id": "MiniatureRail_241887216_L",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "rail",
+      "material_color": [
+        0.29,
+        0.3,
+        0.28,
+        1
+      ],
+      "vertices": 109,
+      "triangles": 105,
+      "area_xy_m2": 4.281648621273093,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway",
+        "way_id": 241887216,
+        "gauge_m": 0.508,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "At-grade rail strip. Gauge from OSM; 30 mm rail width is an M1 estimate. No operating railway is claimed.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_241887216_R_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_241887216_R_03_04.npz",
+      "sha256": "7e86f371af8668aaf8e35f31ecbb7758884e50c3d7ddbb52b32537e185ab6f2f",
+      "component_id": "MiniatureRail_241887216_R",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "rail",
+      "material_color": [
+        0.29,
+        0.3,
+        0.28,
+        1
+      ],
+      "vertices": 126,
+      "triangles": 118,
+      "area_xy_m2": 4.299005611279236,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway",
+        "way_id": 241887216,
+        "gauge_m": 0.508,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "At-grade rail strip. Gauge from OSM; 30 mm rail width is an M1 estimate. No operating railway is claimed.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_660884658_L_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_660884658_L_03_04.npz",
+      "sha256": "67fbfa8e97ecd470a964d7f4326c3e96711c66e5f3dd9faa80905c8d8b50c182",
+      "component_id": "MiniatureRail_660884658_L",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "rail",
+      "material_color": [
+        0.29,
+        0.3,
+        0.28,
+        1
+      ],
+      "vertices": 22,
+      "triangles": 20,
+      "area_xy_m2": 1.2279098296438538,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway",
+        "way_id": 660884658,
+        "gauge_m": 0.508,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "At-grade rail strip. Gauge from OSM; 30 mm rail width is an M1 estimate. No operating railway is claimed.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_660884658_R_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_660884658_R_03_04.npz",
+      "sha256": "277b828f99bb66e7dfcc59ee61b422ac09dda24058bf43b1faff34a134011b78",
+      "component_id": "MiniatureRail_660884658_R",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "rail",
+      "material_color": [
+        0.29,
+        0.3,
+        0.28,
+        1
+      ],
+      "vertices": 22,
+      "triangles": 20,
+      "area_xy_m2": 1.2279098296438307,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway",
+        "way_id": 660884658,
+        "gauge_m": 0.508,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "At-grade rail strip. Gauge from OSM; 30 mm rail width is an M1 estimate. No operating railway is claimed.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_241887212_Bed_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_241887212_Bed_03_04.npz",
+      "sha256": "de0bd88cbf62c4869fec06cd9d19d6cf4b84a7ea33f9307198644e287e1772c0",
+      "component_id": "MiniatureRail_241887212_Bed",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "track_bed",
+      "material_color": [
+        0.3,
+        0.28,
+        0.25,
+        1
+      ],
+      "vertices": 1887,
+      "triangles": 1880,
+      "area_xy_m2": 837.624549347185,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway alignment",
+        "way_id": 241887212,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "1.10 m coarse ballast width is estimated. No collision or rail operations.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_241887215_Bed_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_241887215_Bed_03_04.npz",
+      "sha256": "fae983dccc3569fdd7818ddc79bf95ea0ee2c843eb267ec95a6eafe064468cd3",
+      "component_id": "MiniatureRail_241887215_Bed",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "track_bed",
+      "material_color": [
+        0.3,
+        0.28,
+        0.25,
+        1
+      ],
+      "vertices": 139,
+      "triangles": 129,
+      "area_xy_m2": 51.76645920726958,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway alignment",
+        "way_id": 241887215,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "1.10 m coarse ballast width is estimated. No collision or rail operations.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_241887216_Bed_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_241887216_Bed_03_04.npz",
+      "sha256": "2b99287d174af705f4be8b35e3a87b0f806f8bfd34b00ece6704c44884c298cd",
+      "component_id": "MiniatureRail_241887216_Bed",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "track_bed",
+      "material_color": [
+        0.3,
+        0.28,
+        0.25,
+        1
+      ],
+      "vertices": 327,
+      "triangles": 320,
+      "area_xy_m2": 146.420367117625,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway alignment",
+        "way_id": 241887216,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "1.10 m coarse ballast width is estimated. No collision or rail operations.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_MiniatureRail_660884658_Bed_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_MiniatureRail_660884658_Bed_03_04.npz",
+      "sha256": "e00f1e87697d5023d738ebf3a5c60eb9cf4c5ff1dd064ca552a7db18702e61e5",
+      "component_id": "MiniatureRail_660884658_Bed",
+      "feature_id": "SP_train",
+      "m1_group": "M1-F10",
+      "material_role": "track_bed",
+      "material_color": [
+        0.3,
+        0.28,
+        0.25,
+        1
+      ],
+      "vertices": 66,
+      "triangles": 60,
+      "area_xy_m2": 42.56754076096227,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM miniature railway alignment",
+        "way_id": 660884658,
+        "licence": "ODbL-1.0"
+      },
+      "limit": "1.10 m coarse ballast width is estimated. No collision or rail operations.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Ground_AirForceGarden_Ground_03_04",
+      "path": "data/derived/ground-spaces/meshes/SM_Ground_AirForceGarden_Ground_03_04.npz",
+      "sha256": "589552a5e79cf41e83e8703cac7db72ae0ea8f419f58dacf22f076a4f9d7045d",
+      "component_id": "AirForceGarden_Ground",
+      "feature_id": "SP_air_force_garden",
+      "m1_group": "M1-F09",
+      "material_role": "garden_understorey",
+      "material_color": [
+        0.24,
+        0.31,
+        0.15,
+        1
+      ],
+      "vertices": 27,
+      "triangles": 25,
+      "area_xy_m2": 217.59168096645703,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM garden envelope",
+        "way_id": 921530492,
+        "url": "https://www.openstreetmap.org/way/921530492",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Coarse ground cover only. Existing canopy and separate paths/beds remain. No individual species or flower display is represented.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    }
+  ],
+  "components": [
+    {
+      "component_id": "MiniatureRail_241887212_L",
+      "feature_id": "SP_train",
+      "source_area_m2": 24.221778351967345,
+      "authoring_area_m2": 24.1481691781136,
+      "rendered_area_m2": 24.14816917811377,
+      "minimum_terrain_z_m": 22.608156204223633,
+      "maximum_terrain_z_m": 27.76300048828125,
+      "masked_area_m2": 0.07360917385374321,
+      "exclusion_overlap_m2": 2.0984741091334367e-17
+    },
+    {
+      "component_id": "MiniatureRail_241887212_R",
+      "feature_id": "SP_train",
+      "source_area_m2": 24.33937718680103,
+      "authoring_area_m2": 24.220310767692666,
+      "rendered_area_m2": 24.220310767691146,
+      "minimum_terrain_z_m": 22.440448760986328,
+      "maximum_terrain_z_m": 25.672536849975586,
+      "masked_area_m2": 0.11906641910836413,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MiniatureRail_241887215_L",
+      "feature_id": "SP_train",
+      "source_area_m2": 1.5315928032939468,
+      "authoring_area_m2": 1.5291671090872463,
+      "rendered_area_m2": 1.5291671090874501,
+      "minimum_terrain_z_m": 24.06720733642578,
+      "maximum_terrain_z_m": 24.892763137817383,
+      "masked_area_m2": 0.0024256942067004683,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MiniatureRail_241887215_R",
+      "feature_id": "SP_train",
+      "source_area_m2": 1.5437371693947224,
+      "authoring_area_m2": 1.5414160745011651,
+      "rendered_area_m2": 1.5414160745019139,
+      "minimum_terrain_z_m": 24.06720733642578,
+      "maximum_terrain_z_m": 24.892763137817383,
+      "masked_area_m2": 0.0023210948935572517,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MiniatureRail_241887216_L",
+      "feature_id": "SP_train",
+      "source_area_m2": 4.283034610394539,
+      "authoring_area_m2": 4.281648621273363,
+      "rendered_area_m2": 4.281648621273093,
+      "minimum_terrain_z_m": 23.760143280029297,
+      "maximum_terrain_z_m": 25.36829376220703,
+      "masked_area_m2": 0.0013859891211760456,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MiniatureRail_241887216_R",
+      "feature_id": "SP_train",
+      "source_area_m2": 4.3052361721065555,
+      "authoring_area_m2": 4.299005611280006,
+      "rendered_area_m2": 4.299005611279236,
+      "minimum_terrain_z_m": 23.760143280029297,
+      "maximum_terrain_z_m": 25.36829376220703,
+      "masked_area_m2": 0.0062305608265491585,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MiniatureRail_660884658_L",
+      "feature_id": "SP_train",
+      "source_area_m2": 1.2279098296438065,
+      "authoring_area_m2": 1.2279098296438065,
+      "rendered_area_m2": 1.2279098296438538,
+      "minimum_terrain_z_m": 23.928281784057617,
+      "maximum_terrain_z_m": 28.116235733032227,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MiniatureRail_660884658_R",
+      "feature_id": "SP_train",
+      "source_area_m2": 1.2279098296438065,
+      "authoring_area_m2": 1.2279098296438065,
+      "rendered_area_m2": 1.2279098296438307,
+      "minimum_terrain_z_m": 23.928281784057617,
+      "maximum_terrain_z_m": 28.116235733032227,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863877",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 223.71122969561463,
+      "authoring_area_m2": 223.7112296956146,
+      "rendered_area_m2": 223.71122969561443,
+      "minimum_terrain_z_m": 10.057307243347168,
+      "maximum_terrain_z_m": 11.216845512390137,
+      "masked_area_m2": 2.842170943040401e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863878",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 224.8252086900934,
+      "authoring_area_m2": 224.82520869009335,
+      "rendered_area_m2": 224.8252086900931,
+      "minimum_terrain_z_m": 9.51862621307373,
+      "maximum_terrain_z_m": 11.010371208190918,
+      "masked_area_m2": 5.684341886080802e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863882",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 208.22582620245277,
+      "authoring_area_m2": 208.2258262024528,
+      "rendered_area_m2": 208.22582620245285,
+      "minimum_terrain_z_m": 4.601932525634766,
+      "maximum_terrain_z_m": 6.136049270629883,
+      "masked_area_m2": -2.842170943040401e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863884",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 176.3929870770658,
+      "authoring_area_m2": 176.39298707706587,
+      "rendered_area_m2": 176.39298707706573,
+      "minimum_terrain_z_m": 4.446663856506348,
+      "maximum_terrain_z_m": 5.650038242340088,
+      "masked_area_m2": -5.684341886080802e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863885",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 194.5489847688743,
+      "authoring_area_m2": 194.54898476887433,
+      "rendered_area_m2": 194.54898476887462,
+      "minimum_terrain_z_m": 4.8090338706970215,
+      "maximum_terrain_z_m": 5.388003826141357,
+      "masked_area_m2": -2.842170943040401e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863887",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 222.57280906856974,
+      "authoring_area_m2": 222.57280906856974,
+      "rendered_area_m2": 222.57280906856988,
+      "minimum_terrain_z_m": 5.355594158172607,
+      "maximum_terrain_z_m": 6.260889530181885,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863889",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 143.46653378395564,
+      "authoring_area_m2": 143.46653378395564,
+      "rendered_area_m2": 143.4665337839559,
+      "minimum_terrain_z_m": 6.269562721252441,
+      "maximum_terrain_z_m": 8.628885269165039,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863891",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 222.49053282080808,
+      "authoring_area_m2": 222.49053282080808,
+      "rendered_area_m2": 222.4905328208078,
+      "minimum_terrain_z_m": 7.418249607086182,
+      "maximum_terrain_z_m": 8.36240291595459,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863893",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 185.4497265980571,
+      "authoring_area_m2": 185.4497265980571,
+      "rendered_area_m2": 185.44972659805725,
+      "minimum_terrain_z_m": 9.475892066955566,
+      "maximum_terrain_z_m": 10.022797584533691,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863895",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 207.93252928382546,
+      "authoring_area_m2": 207.93252928382546,
+      "rendered_area_m2": 207.93252928382537,
+      "minimum_terrain_z_m": 5.782923698425293,
+      "maximum_terrain_z_m": 7.323800563812256,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863897",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 215.60623221990232,
+      "authoring_area_m2": 215.6062322199023,
+      "rendered_area_m2": 215.6062322199022,
+      "minimum_terrain_z_m": 3.849090099334717,
+      "maximum_terrain_z_m": 4.539346694946289,
+      "masked_area_m2": 2.842170943040401e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863899",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 187.29954721198413,
+      "authoring_area_m2": 187.29954721198416,
+      "rendered_area_m2": 187.29954721198408,
+      "minimum_terrain_z_m": 4.452321529388428,
+      "maximum_terrain_z_m": 5.306910514831543,
+      "masked_area_m2": -2.842170943040401e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863901",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 206.69858148331105,
+      "authoring_area_m2": 206.69858148331105,
+      "rendered_area_m2": 206.698581483311,
+      "minimum_terrain_z_m": 3.403012752532959,
+      "maximum_terrain_z_m": 4.77021598815918,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863903",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 271.22989868508915,
+      "authoring_area_m2": 271.22989868508904,
+      "rendered_area_m2": 271.22989868508904,
+      "minimum_terrain_z_m": 4.536985874176025,
+      "maximum_terrain_z_m": 6.058017730712891,
+      "masked_area_m2": 1.1368683772161603e-13,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863905",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 203.32806213397413,
+      "authoring_area_m2": 203.32806213397413,
+      "rendered_area_m2": 203.32806213397407,
+      "minimum_terrain_z_m": 5.457765102386475,
+      "maximum_terrain_z_m": 6.911662578582764,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863907",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 207.19766375110305,
+      "authoring_area_m2": 207.19766375110302,
+      "rendered_area_m2": 207.19766375110282,
+      "minimum_terrain_z_m": 5.596811294555664,
+      "maximum_terrain_z_m": 7.3388895988464355,
+      "masked_area_m2": 2.842170943040401e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863909",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 201.07930101502964,
+      "authoring_area_m2": 201.07930101502964,
+      "rendered_area_m2": 201.07930101502944,
+      "minimum_terrain_z_m": 7.193447113037109,
+      "maximum_terrain_z_m": 8.277426719665527,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_green_752863911",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 230.33795199061956,
+      "authoring_area_m2": 230.3379519906196,
+      "rendered_area_m2": 230.3379519906196,
+      "minimum_terrain_z_m": 8.783032417297363,
+      "maximum_terrain_z_m": 9.799348831176758,
+      "masked_area_m2": -2.842170943040401e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755040275",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 12.364675542169259,
+      "authoring_area_m2": 12.364675542169257,
+      "rendered_area_m2": 12.364675542169222,
+      "minimum_terrain_z_m": 8.185955047607422,
+      "maximum_terrain_z_m": 8.8518705368042,
+      "masked_area_m2": 1.7763568394002505e-15,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755040276",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 12.372982792793028,
+      "authoring_area_m2": 12.372982792793028,
+      "rendered_area_m2": 12.372982792793195,
+      "minimum_terrain_z_m": 8.984997749328613,
+      "maximum_terrain_z_m": 9.798147201538086,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755040277",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 12.364123578893272,
+      "authoring_area_m2": 12.364123578893272,
+      "rendered_area_m2": 12.364123578893071,
+      "minimum_terrain_z_m": 6.418212890625,
+      "maximum_terrain_z_m": 8.067071914672852,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755040278",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 22.815999277302666,
+      "authoring_area_m2": 22.815999277302666,
+      "rendered_area_m2": 22.815999277302534,
+      "minimum_terrain_z_m": 4.180509090423584,
+      "maximum_terrain_z_m": 4.623414516448975,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755040279",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 23.522153609484075,
+      "authoring_area_m2": 23.52215360948407,
+      "rendered_area_m2": 23.52215360948414,
+      "minimum_terrain_z_m": 4.737858295440674,
+      "maximum_terrain_z_m": 4.940841197967529,
+      "masked_area_m2": 3.552713678800501e-15,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755040280",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 23.522248164645738,
+      "authoring_area_m2": 23.522248164645738,
+      "rendered_area_m2": 23.522248164645774,
+      "minimum_terrain_z_m": 5.0273308753967285,
+      "maximum_terrain_z_m": 6.0029144287109375,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755040281",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 12.372949778728467,
+      "authoring_area_m2": 12.372949778728467,
+      "rendered_area_m2": 12.37294977872851,
+      "minimum_terrain_z_m": 6.992837905883789,
+      "maximum_terrain_z_m": 9.026247024536133,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755040282",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 23.538032623302744,
+      "authoring_area_m2": 23.538032623302744,
+      "rendered_area_m2": 23.538032623302666,
+      "minimum_terrain_z_m": 6.316422939300537,
+      "maximum_terrain_z_m": 7.088967323303223,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755040283",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 23.529508227788583,
+      "authoring_area_m2": 23.529508227788583,
+      "rendered_area_m2": 23.529508227788643,
+      "minimum_terrain_z_m": 5.157733917236328,
+      "maximum_terrain_z_m": 5.4794769287109375,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755047370",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 23.548993564554166,
+      "authoring_area_m2": 23.548993564554163,
+      "rendered_area_m2": 23.548993564554117,
+      "minimum_terrain_z_m": 3.9924776554107666,
+      "maximum_terrain_z_m": 5.030168056488037,
+      "masked_area_m2": 3.552713678800501e-15,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755047372",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 23.56829940342171,
+      "authoring_area_m2": 23.56829940342171,
+      "rendered_area_m2": 23.568299403421516,
+      "minimum_terrain_z_m": 2.7146849632263184,
+      "maximum_terrain_z_m": 3.045426845550537,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "Golf_tee_755273129",
+      "feature_id": "SP_pitch_putt",
+      "source_area_m2": 12.380708618591171,
+      "authoring_area_m2": 12.38070861859117,
+      "rendered_area_m2": 12.380708618591232,
+      "minimum_terrain_z_m": 10.762832641601562,
+      "maximum_terrain_z_m": 11.880756378173828,
+      "masked_area_m2": 1.7763568394002505e-15,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "CommunityBed_01",
+      "feature_id": "SP_community_garden",
+      "source_area_m2": 6.0249999999999915,
+      "authoring_area_m2": 6.0249999999999915,
+      "rendered_area_m2": 6.025000000000054,
+      "minimum_terrain_z_m": 10.226119041442871,
+      "maximum_terrain_z_m": 11.24239730834961,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "CommunityBed_02",
+      "feature_id": "SP_community_garden",
+      "source_area_m2": 21.94499999999976,
+      "authoring_area_m2": 21.94499999999976,
+      "rendered_area_m2": 21.944999999999695,
+      "minimum_terrain_z_m": 8.502434730529785,
+      "maximum_terrain_z_m": 13.00830364227295,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "CommunityBed_03",
+      "feature_id": "SP_community_garden",
+      "source_area_m2": 13.21999999999963,
+      "authoring_area_m2": 13.21999999999963,
+      "rendered_area_m2": 13.219999999999638,
+      "minimum_terrain_z_m": 8.24665355682373,
+      "maximum_terrain_z_m": 10.606714248657227,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "CommunityBed_04",
+      "feature_id": "SP_community_garden",
+      "source_area_m2": 10.564999999999973,
+      "authoring_area_m2": 10.564999999999973,
+      "rendered_area_m2": 10.56500000000007,
+      "minimum_terrain_z_m": 8.502434730529785,
+      "maximum_terrain_z_m": 10.642048835754395,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "CommunityBed_05",
+      "feature_id": "SP_community_garden",
+      "source_area_m2": 6.184999999999774,
+      "authoring_area_m2": 6.184999999999775,
+      "rendered_area_m2": 6.184999999999894,
+      "minimum_terrain_z_m": 8.502434730529785,
+      "maximum_terrain_z_m": 10.642048835754395,
+      "masked_area_m2": -8.881784197001252e-16,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "CommunityBed_06",
+      "feature_id": "SP_community_garden",
+      "source_area_m2": 19.134999999999778,
+      "authoring_area_m2": 19.134999999999778,
+      "rendered_area_m2": 19.134999999999756,
+      "minimum_terrain_z_m": 8.237977027893066,
+      "maximum_terrain_z_m": 11.451498031616211,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "RoseBedGroup_01",
+      "feature_id": "SP_rose_garden",
+      "source_area_m2": 74.61003906250014,
+      "authoring_area_m2": 74.4112993225423,
+      "rendered_area_m2": 74.41129932254245,
+      "minimum_terrain_z_m": 13.25904369354248,
+      "maximum_terrain_z_m": 15.370821952819824,
+      "masked_area_m2": 0.1987397399578299,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "RoseBedGroup_02",
+      "feature_id": "SP_rose_garden",
+      "source_area_m2": 114.19019531250032,
+      "authoring_area_m2": 114.19019531250031,
+      "rendered_area_m2": 114.19019531250014,
+      "minimum_terrain_z_m": 14.55693244934082,
+      "maximum_terrain_z_m": 16.841386795043945,
+      "masked_area_m2": 1.4210854715202004e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "RoseBedGroup_03",
+      "feature_id": "SP_rose_garden",
+      "source_area_m2": 192.5921289062508,
+      "authoring_area_m2": 192.5921289062508,
+      "rendered_area_m2": 192.59212890625042,
+      "minimum_terrain_z_m": 18.664770126342773,
+      "maximum_terrain_z_m": 20.590206146240234,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "RoseBedGroup_04",
+      "feature_id": "SP_rose_garden",
+      "source_area_m2": 35.64380859374975,
+      "authoring_area_m2": 35.64380859374975,
+      "rendered_area_m2": 35.64380859374958,
+      "minimum_terrain_z_m": 11.171809196472168,
+      "maximum_terrain_z_m": 12.468018531799316,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "RoseBedGroup_05",
+      "feature_id": "SP_rose_garden",
+      "source_area_m2": 31.635234375000003,
+      "authoring_area_m2": 31.635234375000003,
+      "rendered_area_m2": 31.635234375000067,
+      "minimum_terrain_z_m": 10.39752197265625,
+      "maximum_terrain_z_m": 11.829108238220215,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "RoseBedGroup_06",
+      "feature_id": "SP_rose_garden",
+      "source_area_m2": 29.82957031249991,
+      "authoring_area_m2": 29.829570312499914,
+      "rendered_area_m2": 29.829570312499804,
+      "minimum_terrain_z_m": 11.829108238220215,
+      "maximum_terrain_z_m": 13.96938705444336,
+      "masked_area_m2": -3.552713678800501e-15,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "BiofilterVisiblePool",
+      "feature_id": "SP_biofiltration",
+      "source_area_m2": 194.45508907326422,
+      "authoring_area_m2": 194.45508907326425,
+      "rendered_area_m2": 143.72314721156076,
+      "minimum_terrain_z_m": 0.3214010000228882,
+      "maximum_terrain_z_m": 2.7457406520843506,
+      "masked_area_m2": -2.842170943040401e-14,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "CommunityGardenPath",
+      "feature_id": "SP_community_garden",
+      "source_area_m2": 222.42000000000016,
+      "authoring_area_m2": 145.34500000000122,
+      "rendered_area_m2": 145.34500000000037,
+      "minimum_terrain_z_m": 8.14183521270752,
+      "maximum_terrain_z_m": 13.00830364227295,
+      "masked_area_m2": 77.07499999999894,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "BiofilterWetlandGround",
+      "feature_id": "SP_biofiltration",
+      "source_area_m2": 5672.637527688248,
+      "authoring_area_m2": 5478.182438614985,
+      "rendered_area_m2": 626.8781662191002,
+      "minimum_terrain_z_m": 0.3214010000228882,
+      "maximum_terrain_z_m": 3.2553789615631104,
+      "masked_area_m2": 194.45508907326348,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MiniatureRail_241887212_Bed",
+      "feature_id": "SP_train",
+      "source_area_m2": 890.3048112136421,
+      "authoring_area_m2": 837.6245493472059,
+      "rendered_area_m2": 837.624549347185,
+      "minimum_terrain_z_m": 22.440448760986328,
+      "maximum_terrain_z_m": 27.76300048828125,
+      "masked_area_m2": 52.68026186643624,
+      "exclusion_overlap_m2": 6.895525817007808e-16
+    },
+    {
+      "component_id": "MiniatureRail_241887215_Bed",
+      "feature_id": "SP_train",
+      "source_area_m2": 56.38210044502598,
+      "authoring_area_m2": 51.766459207270586,
+      "rendered_area_m2": 51.76645920726958,
+      "minimum_terrain_z_m": 24.06720733642578,
+      "maximum_terrain_z_m": 24.892763137817383,
+      "masked_area_m2": 4.615641237755398,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MiniatureRail_241887216_Bed",
+      "feature_id": "SP_train",
+      "source_area_m2": 157.4550133890601,
+      "authoring_area_m2": 146.42036711762398,
+      "rendered_area_m2": 146.420367117625,
+      "minimum_terrain_z_m": 23.760143280029297,
+      "maximum_terrain_z_m": 25.36829376220703,
+      "masked_area_m2": 11.034646271436117,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MiniatureRail_660884658_Bed",
+      "feature_id": "SP_train",
+      "source_area_m2": 45.02336042025064,
+      "authoring_area_m2": 42.567540760962686,
+      "rendered_area_m2": 42.56754076096227,
+      "minimum_terrain_z_m": 23.928281784057617,
+      "maximum_terrain_z_m": 28.116235733032227,
+      "masked_area_m2": 2.455819659287954,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "AirForceGarden_Ground",
+      "feature_id": "SP_air_force_garden",
+      "source_area_m2": 585.9838749159887,
+      "authoring_area_m2": 518.3009748926503,
+      "rendered_area_m2": 518.30097489265,
+      "minimum_terrain_z_m": 21.987056732177734,
+      "maximum_terrain_z_m": 26.613014221191406,
+      "masked_area_m2": 67.68290002333845,
+      "exclusion_overlap_m2": 4.0780520482037696e-14
+    },
+    {
+      "component_id": "GreigGardenWest_Ground",
+      "feature_id": "SP_greig_garden",
+      "source_area_m2": 14338.258500962827,
+      "authoring_area_m2": 13306.155591453155,
+      "rendered_area_m2": 13306.155591453167,
+      "minimum_terrain_z_m": 1.5461761951446533,
+      "maximum_terrain_z_m": 8.408731460571289,
+      "masked_area_m2": 1032.1029095096728,
+      "exclusion_overlap_m2": 8.542290423143426e-14
+    },
+    {
+      "component_id": "GreigGardenEast_Ground",
+      "feature_id": "SP_greig_garden",
+      "source_area_m2": 6960.029863793547,
+      "authoring_area_m2": 6573.492564648508,
+      "rendered_area_m2": 6573.49256464851,
+      "minimum_terrain_z_m": 3.2158162593841553,
+      "maximum_terrain_z_m": 12.451857566833496,
+      "masked_area_m2": 386.53729914503856,
+      "exclusion_overlap_m2": 5.330421311850632e-17
+    },
+    {
+      "component_id": "RoseGardenEast_Ground",
+      "feature_id": "SP_rose_garden",
+      "source_area_m2": 6816.867882576733,
+      "authoring_area_m2": 5720.227146761986,
+      "rendered_area_m2": 5720.227146761983,
+      "minimum_terrain_z_m": 12.12458324432373,
+      "maximum_terrain_z_m": 22.6033935546875,
+      "masked_area_m2": 1096.6407358147471,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "RoseGardenWest_Ground",
+      "feature_id": "SP_rose_garden",
+      "source_area_m2": 11251.541275834194,
+      "authoring_area_m2": 9907.315962906037,
+      "rendered_area_m2": 9907.315962906037,
+      "minimum_terrain_z_m": 4.455112457275391,
+      "maximum_terrain_z_m": 18.346054077148438,
+      "masked_area_m2": 1344.2253129281562,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "MalkinAudienceGround",
+      "feature_id": "SP_malkin_bowl",
+      "source_area_m2": 2627.0906804648384,
+      "authoring_area_m2": 1919.6286309517604,
+      "rendered_area_m2": 1919.6286309517582,
+      "minimum_terrain_z_m": 11.611669540405273,
+      "maximum_terrain_z_m": 20.10588836669922,
+      "masked_area_m2": 707.462049513078,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "ShakespeareArboretumGround",
+      "feature_id": "SP_shakespeare",
+      "source_area_m2": 3190.0,
+      "authoring_area_m2": 2716.088963013884,
+      "rendered_area_m2": 2716.088963013885,
+      "minimum_terrain_z_m": 14.497819900512695,
+      "maximum_terrain_z_m": 20.80780601501465,
+      "masked_area_m2": 473.91103698611596,
+      "exclusion_overlap_m2": 0.0
+    }
+  ],
+  "unresolved": [
+    "Rock Garden finite extent and boulder forms",
+    "Painters Circle and Portrait Painters finite ground footprints",
+    "Salmon Demonstration Stream local channel extent",
+    "Heron Colony habitat extent",
+    "Rail bridge and tunnel vertical forms"
+  ],
+  "reference_only": [
+    {
+      "component_id": "MiniatureRail_241887213",
+      "feature_id": "SP_train",
+      "source_way_id": 241887213,
+      "reason": "Bridge/tunnel requires independent vertical structure; not draped onto terrain",
+      "completed": false
+    },
+    {
+      "component_id": "MiniatureRail_660884659",
+      "feature_id": "SP_train",
+      "source_way_id": 660884659,
+      "reason": "Bridge/tunnel requires independent vertical structure; not draped onto terrain",
+      "completed": false
+    }
+  ],
+  "attribution": [
+    "© OpenStreetMap contributors",
+    "Contains information licensed under the Open Government Licence - Vancouver."
+  ],
+  "licence": "OSM source-derived polygons ODbL-1.0; City image traces OGL Vancouver; approximate project envelopes identified separately",
+  "application_visual_check": "pending",
+  "full_m1_groups_complete": false,
+  "release_accepted": false
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version":1,
+  "feature_id":"SP_girl_wetsuit",
+  "source_manifest":"manifests/route-sculpture-blockouts.json",
+  "reference_sources":[{"url":"https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=97&FromArtworkSearch=True","accessed":"2026-10-03","supported":"The City describes a seated bronze woman in a wetsuit, with flippers and a mask raised to the forehead, on the intertidal boulder."}],
+  "materials":[{"name":"Bronze","rgb":[0.18,0.22,0.18],"roughness":0.62,"metallic":0.6}],
+  "retained_head_centre_local_m":[1245.92,4.22,2.6],
+  "limits":"Boulder mesh, original source mesh coordinates and collision remain unchanged. The source head centre is retained. The new seated body, arm pose, fingers, leg bend, fins and forehead mask are visual estimates. Original limbs were below the fixed source boulder. New skin clearance is measured against that model, not a new real-world survey. Exact portrait, pose, mask design and artwork surface detail are not claimed. No source artwork textures or images are distributed.",
+  "visual_acceptance":false
+}

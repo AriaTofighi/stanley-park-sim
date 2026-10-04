@@ -1,0 +1,18 @@
+{
+  "id": "siwash-lookout",
+  "extraction_centre_local_m": [
+    -923.12,
+    655.9
+  ],
+  "extraction_radius_m": 22,
+  "source": "manifests/lidar2022-488000_5461000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 98237,
+  "output": {
+    "path": "data/derived/named-siwash-lookout-survey.npz",
+    "sha256": "b6571fd1af5e3e3110f86c1e88c0b5a0f4c1fbba3dca15168afc4d60f847a031"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "retrieved_utc": "2026-09-26T22:06:59.032845+00:00",
+  "records": [
+    {
+      "url": "https://datacube.services.geo.ca/stac/api/search?collections=hrdem-lidar&bbox=-123.17%2C49.285%2C-123.105%2C49.32&limit=100",
+      "path": "data\\raw\\nrcan\\hrdem-search.json",
+      "bytes": 53466,
+      "sha256": "7d1a6213c4b781878dc9c1ef916a86881954503149e91ecf66c8bc3fd5400a0e"
+    },
+    {
+      "url": "https://datacube.services.geo.ca/stac/api/collections/hrdem-lidar",
+      "path": "data\\raw\\nrcan\\hrdem-collection.json",
+      "bytes": 2692,
+      "sha256": "882f2ca26d1a60e4a95cf5ca40b2105511984295116fd8c4b9b0d91850387fe4"
+    },
+    {
+      "url": "https://datacube.services.geo.ca/stac/api/search?collections=mrdem-30&bbox=-123.6%2C49.15%2C-122.8%2C49.6&limit=100",
+      "path": "data\\raw\\nrcan\\mrdem-search.json",
+      "bytes": 17295,
+      "sha256": "b0470b5ec7c0770a666cb7d60b215a34c2d5979e24319f22806c63c1591b408f"
+    },
+    {
+      "url": "https://datacube.services.geo.ca/stac/api/collections/mrdem-30",
+      "path": "data\\raw\\nrcan\\mrdem-collection.json",
+      "bytes": 1489,
+      "sha256": "0fd4df5cf9916c994a0923a7dbc86620191570b76efacfb1611cd8683ceaf051"
+    },
+    {
+      "url": "https://open.canada.ca/en/open-government-licence-canada",
+      "path": "data\\raw\\licences\\ogl-canada.html",
+      "bytes": 23079,
+      "sha256": "d7648d6d694d66a0891502f85c3383f9263d5e541b47e14fbf33450974af158f"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/pages/licence/",
+      "path": "data\\raw\\licences\\ogl-vancouver.html",
+      "bytes": 61907,
+      "sha256": "8acc8ea6e947899946df6de0edc08a2210f0a4e6041d3193f750d4f6c313228a"
+    }
+  ],
+  "hrdem_catalogue": "https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995",
+  "mrdem_catalogue": "https://open.canada.ca/data/en/dataset/18752265-bda3-498c-a4ba-9dfe68cb98da",
+  "licence": "OGL-Canada-2.0 as declared in both STAC collections",
+  "attribution": "Contains information licensed under the Open Government Licence – Canada.",
+  "additional_mrdem_notice": "MRDEM includes Copernicus GLO-30 and HRDEM sources. Review the product usage guide for required source notices before public distribution.",
+  "release_rights_status": "Public OGL collection verified; final combined credits and source notices not signed off.",
+  "vertical_datum_authority": "NRCan HRDEM and MRDEM product catalogue states CGVD2013. GeoTIFF horizontal CRS alone does not encode the height datum."
+}

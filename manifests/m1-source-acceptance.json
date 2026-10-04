@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "audit_utc": "2026-09-27T18:11:14.806203+00:00",
+  "target_period": "M1 measured 2022 environment; separately dated current route/access overlay",
+  "m1_complete": true,
+  "scope": "Source acceptance audit; no model changes or application tests",
+  "accepted_independent_controls": {
+    "horizontal": 0,
+    "height": 0,
+    "original_later_certification_minimum_horizontal": 20,
+    "original_later_certification_minimum_height": 10,
+    "independent_certification_required_for_m1": false
+  },
+  "measurement_exception": {
+    "authority": "User reply 2026-09-26: no extra measurements; find public sources and make do if unavailable",
+    "allowed": [
+      "path widths",
+      "gate openings",
+      "Ceperley underpass",
+      "Causeway underpass"
+    ],
+    "not_an_independent_accuracy_pass": true,
+    "record": "docs/M1-MEASUREMENT-EXCEPTIONS.md"
+  },
+  "gates": [
+    {
+      "number": 1,
+      "status": "closed_for_m1_with_recorded_limits",
+      "owner": "Technical director",
+      "close_action": "No remaining M1 execution action. See the final completion record; retained source and later-art limits remain.",
+      "evidence_snapshots": [
+        {
+          "path": "docs/BLENDER-MCP-SETUP.md",
+          "exists": true,
+          "sha256": "828dfc424e38598ef54dc300978d00f9a3da325dd5b03ee8f4f8b5e0031ac79f"
+        },
+        {
+          "path": "evidence/blender-park-survey-blockout-ui.png",
+          "exists": true,
+          "sha256": "bad4bc658f4dc35497b56dfb181c1191e15e39835a881c79a0a3be7ff4f50066"
+        },
+        {
+          "path": "evidence/unreal-material-slot-repeat.json",
+          "exists": true,
+          "sha256": "1b293f53efe4e767fc260f994ed1575e86331e5ec843fdf04c01050891a08d45"
+        }
+      ],
+      "status_before_completion": "evidence_present_final_snapshot_needed",
+      "close_action_before_completion": "Record final live scene query and build tool versions",
+      "completion": {
+        "path": "evidence/m1-completion-v29.json",
+        "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+      }
+    },
+    {
+      "number": 2,
+      "status": "closed_for_m1_with_recorded_limits",
+      "owner": "GIS/research",
+      "close_action": "No remaining M1 execution action. See the final completion record; retained source and later-art limits remain.",
+      "evidence_snapshots": [
+        {
+          "path": "manifests/lidar2022-ingest.json",
+          "exists": true,
+          "sha256": "7e1fff919e7fb5fef7e1aa4f04c7d6d5340b2df0a1b9fae8e03f8cf47385ae2f"
+        },
+        {
+          "path": "manifests/forest-condition-sources.json",
+          "exists": true,
+          "sha256": "e560e0beae948797c794604655837c4a3006d2977e4839d02d4e6f8803513bee",
+          "snapshot_note": "Refreshed for the documented reference-period planning amendment; no current-forest acceptance."
+        },
+        {
+          "path": "manifests/routes-sources.json",
+          "exists": true,
+          "sha256": "da1d6e22df94f9896a529cd03fcc1076388b48ab0d98540eae9f01b429878b67"
+        },
+        {
+          "path": "manifests/m1-reference-period.json",
+          "exists": true,
+          "sha256": "efb3c17271fa25ec92fa02d361f23e002412446222b8e1f0bdbcf85ed0e2d075",
+          "snapshot_note": "Refreshed for the documented reference-period planning amendment; no current-forest acceptance."
+        }
+      ],
+      "previous_status_before_v27": "amended_baseline_documented_final_ledger_snapshot_needed",
+      "latest_evidence_snapshots": [
+        {
+          "path": "manifests/m1-reference-period.json",
+          "sha256": "efb3c17271fa25ec92fa02d361f23e002412446222b8e1f0bdbcf85ed0e2d075"
+        },
+        {
+          "path": "evidence/source-bundle-provenance-audit-v27.json",
+          "sha256": "8fe3e93cd3f11b2a48f4adcc5c9399552f48b30d222c680d5d606b003d9a1b22"
+        }
+      ],
+      "status_before_completion": "amended_baseline_and_packaged_sources_documented",
+      "close_action_before_completion": "Retain 2022 measured environment source hashes, separately dated route/access evidence, all 10 treatment flags and per-feature limits. No current-forest certification is required at M1 under the planning amendment.",
+      "completion": {
+        "path": "evidence/m1-completion-v29.json",
+        "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+      }
+    },
+    {
+      "number": 3,
+      "status": "closed_for_m1_with_recorded_limits",
+      "owner": "Pipeline engineer",
+      "close_action": "No remaining M1 execution action. See the final completion record; retained source and later-art limits remain.",
+      "evidence_snapshots": [
+        {
+          "path": "manifests/world-origin.json",
+          "exists": true,
+          "sha256": "86ab4975f2006971e9080461de30fd15736e0537031c8b5f04f966acbc26205a"
+        },
+        {
+          "path": "evidence/unreal-material-slot-repeat.json",
+          "exists": true,
+          "sha256": "1b293f53efe4e767fc260f994ed1575e86331e5ec843fdf04c01050891a08d45"
+        },
+        {
+          "path": "evidence/unreal-animation-fixture.json",
+          "exists": true,
+          "sha256": "a1a33fc54c493e315d059b1012b7fa166708cc72d93be1a3c3e49fe7172e04b1"
+        },
+        {
+          "path": "evidence/unreal-surface-transfer.json",
+          "exists": true,
+          "sha256": "df5712a34ef1f51579e33d147b3983cbbe895f3540ceba6e305dad9891536c7f"
+        }
+      ],
+      "previous_status_before_v27": "passed_for_saved_export",
+      "latest_evidence_snapshots": [
+        {
+          "path": "evidence/unreal-source-surface-transfer-v26.json",
+          "sha256": "8847337fb3a93eb4593a3643cceb92c04ced450a74101f9e20dc13df9b58e129"
+        }
+      ],
+      "status_before_completion": "saved_import_and_fixed_transfer_pass_runtime_separate",
+      "close_action_before_completion": "Repeat checks only for changed geometry/material/animation/contact exports; geographic acceptance remains separate",
+      "completion": {
+        "path": "evidence/m1-completion-v29.json",
+        "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+      }
+    },
+    {
+      "number": 4,
+      "status": "closed_for_m1_with_recorded_limits",
+      "owner": "Environment artist",
+      "close_action": "No remaining M1 execution action. See the final completion record; retained source and later-art limits remain.",
+      "evidence_snapshots": [
+        {
+          "path": "manifests/critical-features.json",
+          "exists": true,
+          "sha256": "2dda99cf77d7bcd69d4e7130af7b8ba162313c35878b24bb8244d180ddbbc749"
+        },
+        {
+          "path": "manifests/water-levels.json",
+          "exists": true,
+          "sha256": "48a545ce231319916f7927975a611b33ae7b4c022453ee5b4d3ac5729e5a5bd7"
+        },
+        {
+          "path": "manifests/vegetation-zones.json",
+          "exists": true,
+          "sha256": "3159330c20ba96d086a6823652a2e762ac4d99cd8b10766e71c7cfe0e9ab170c"
+        }
+      ],
+      "previous_status_before_v27": "partial",
+      "latest_evidence_snapshots": [
+        {
+          "path": "manifests/m1-form-group-crosswalk.json",
+          "sha256": "56c5d7224dcef8431b28e4d4be968f0dace80633ce28624cc2e94411425271ab"
+        },
+        {
+          "path": "manifests/m1-named-view-coverage.json",
+          "sha256": "21959ccfffca1e6681e531bbdab28bf8c7ccb0a3653144be521f031d97b58245"
+        }
+      ],
+      "status_before_completion": "all_twelve_groups_linked_regional_view_repeats_pending",
+      "close_action_before_completion": "Complete individually identified critical blockout forms, water/shore checks and named skyline views; finish art later",
+      "completion": {
+        "path": "evidence/m1-completion-v29.json",
+        "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+      }
+    },
+    {
+      "number": 5,
+      "status": "closed_for_m1_with_recorded_limits",
+      "owner": "Route engineer",
+      "close_action": "No remaining M1 execution action. See the final completion record; retained source and later-art limits remain.",
+      "evidence_snapshots": [
+        {
+          "path": "manifests/routes-validation.json",
+          "exists": true,
+          "sha256": "1dcc8e0e7d5454fcfa980192560be3dd5c668e53f627846ab3223108e3265439"
+        },
+        {
+          "path": "evidence/ride-paved-v5-full-coverage.json",
+          "exists": true,
+          "sha256": "c18393a6fa04b0f1281386bc47900f2c1cdec763904b023ed40106f1885027ff"
+        }
+      ],
+      "previous_status_before_v27": "partial",
+      "latest_evidence_snapshots": [
+        {
+          "path": "evidence/join-fixtures-m1-v27.json",
+          "sha256": "11a74e76988d0bb837ef8f75c39178901782f293cc53036186256f8a3f3ae587"
+        }
+      ],
+      "status_before_completion": "source_directions_resolved_join_checks_and_full_lap_pending",
+      "close_action_before_completion": "Complete sourced separate walking surfaces, entries, junctions, restriction endpoints and collision",
+      "completion": {
+        "path": "evidence/m1-completion-v29.json",
+        "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+      }
+    },
+    {
+      "number": 6,
+      "status": "closed_for_m1_with_recorded_limits",
+      "owner": "Simulation engineer",
+      "close_action": "No remaining M1 execution action. See the final completion record; retained source and later-art limits remain.",
+      "evidence_snapshots": [
+        {
+          "path": "evidence/ride-paved-v5-full-circuit-summary.json",
+          "exists": true,
+          "sha256": "3600495bfb53f3c2bd65e918f68f8d9bdd3ed272b8a40b319d9e8342d1f67a4f"
+        },
+        {
+          "path": "evidence/ride-paved-v8-forest-summary.json",
+          "exists": true,
+          "sha256": "f3bc7e1a679aa5b650205b2c2b64be6e441c1601f07f30c510512534fe8c0a3b"
+        }
+      ],
+      "previous_status_before_v27": "earlier_build_pass_current_changes_pending",
+      "latest_evidence_snapshots": [
+        {
+          "path": "evidence/m1-v26-standalone-settings-review.json",
+          "sha256": "e5279dc9193eccef5ecbc138f2b2808c4153f209f61c872e967348c56b8661a2"
+        },
+        {
+          "path": "evidence/m1-v27-settings-restart-review.json",
+          "sha256": "9980e4857c9fca6d592ec458352fec9250682fdc0998299b57d777d34878abc1"
+        },
+        {
+          "path": "evidence/m1-v27-action-status-from-coordinator.json",
+          "sha256": "35b105c953ef6d25eb7b5b140e09da09d7d25ae12269add3cd4dc928cfe1e76f"
+        },
+        {
+          "path": "evidence/ride-m1-v27-lumberman-summary.json",
+          "sha256": "319963778850ba0dff0f309ee41cda38893a2841c4a4e21e61c6a405eb6790ac"
+        },
+        {
+          "path": "evidence/m1-lumberman-recording-visual-review-v27.json",
+          "sha256": "da95d1d8c98e96b4e73849071ad1d7d2d617a225cb5233d8c383ad4369a8bf5f"
+        }
+      ],
+      "status_before_completion": "standalone_settings_pass_full_circuit_running",
+      "close_action_before_completion": "Check new faster controller and F1 sliders; manual action coverage; final circuit after contact changes",
+      "completion": {
+        "path": "evidence/m1-completion-v29.json",
+        "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+      }
+    },
+    {
+      "number": 7,
+      "status": "closed_for_m1_with_recorded_limits",
+      "owner": "GIS lead",
+      "close_action": "No remaining M1 execution action. See the final completion record; retained source and later-art limits remain.",
+      "evidence_snapshots": [
+        {
+          "path": "evidence/corridor/geodetic-control-review.json",
+          "exists": true,
+          "sha256": "a43b8b39933dcf360d5f7e99f0bd20a3b0e350ae97526c9d871d50e6b8d446e2"
+        },
+        {
+          "path": "evidence/corridor/independent-height-comparison.json",
+          "exists": true,
+          "sha256": "96240a23928d2e2feb2fae13f91cb9360c282cf4fdfbd377e3d609f318eae0f4"
+        },
+        {
+          "path": "data/raw/acceptance/additional-control-candidates.json",
+          "exists": true,
+          "sha256": "ff1e9f9bcfe28b4f3b0cc944545fa5a3d927aeda6fb69e4f7555e7bb750febc1"
+        },
+        {
+          "path": "evidence/m1-source-review/review-results.json",
+          "exists": true,
+          "sha256": "ab567e1eaf6bde0d25ac1ae73d3e573822effac2cfa5e166610220c62eeaa33f"
+        },
+        {
+          "path": "evidence/m1-source-review/review-results.json",
+          "exists": true,
+          "sha256": "ee51b7cc1621d45581d66ea819dd687abbc670645aa6e92259b47fa549f7f22a"
+        },
+        {
+          "path": "evidence/m1-source-review/review-results.json",
+          "exists": true,
+          "sha256": "ee51b7cc1621d45581d66ea819dd687abbc670645aa6e92259b47fa549f7f22a"
+        }
+      ],
+      "status_before_completion": "fixed_source_review_and_two_correction_repeats_complete_accuracy_unverified",
+      "close_action_before_completion": "Retain all 20 XY / 10 height areas and the pre-v14 failures. Absolute accuracy stays unverified. Root must still inspect corrected pavement in Blender and runtime; independent survey certification is later work under the user decision.",
+      "completion": {
+        "path": "evidence/m1-completion-v29.json",
+        "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+      }
+    },
+    {
+      "number": 8,
+      "status": "closed_for_m1_with_recorded_limits",
+      "owner": "QA/technical director",
+      "close_action": "No remaining M1 execution action. See the final completion record; retained source and later-art limits remain.",
+      "evidence_snapshots": [
+        {
+          "path": "evidence/ride-paved-v5-full-circuit-summary.json",
+          "exists": true,
+          "sha256": "3600495bfb53f3c2bd65e918f68f8d9bdd3ed272b8a40b319d9e8342d1f67a4f"
+        },
+        {
+          "path": "evidence/ride-paved-v5-full-coverage.json",
+          "exists": true,
+          "sha256": "c18393a6fa04b0f1281386bc47900f2c1cdec763904b023ed40106f1885027ff"
+        }
+      ],
+      "previous_status_before_v27": "partial",
+      "latest_evidence_snapshots": [
+        {
+          "path": "manifests/m1-named-view-coverage.json",
+          "sha256": "21959ccfffca1e6681e531bbdab28bf8c7ccb0a3653144be521f031d97b58245"
+        },
+        {
+          "path": "evidence/m1-garden-close-paired-review-v27.json",
+          "sha256": "8ba92f6621420f65f47af94f3c48859ba3cd68ed79a508016bbaf2c2b99e5a17"
+        }
+      ],
+      "status_before_completion": "named_views_partial_two_regional_repeats_and_full_lap_pending",
+      "close_action_before_completion": "Complete named Blender/runtime views and final build-specific circuit/video/coverage/timing evidence",
+      "completion": {
+        "path": "evidence/m1-completion-v29.json",
+        "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+      }
+    },
+    {
+      "number": 9,
+      "status": "closed_for_m1_with_recorded_limits",
+      "owner": "Build/QA",
+      "close_action": "No remaining M1 execution action. See the final completion record; retained source and later-art limits remain.",
+      "evidence_snapshots": [
+        {
+          "path": "evidence/build-paved-v8-provenance.json",
+          "exists": true,
+          "sha256": "6f54eb0ea52335d72645670409d4762f059062deae69061d88c1294c9a6380b8"
+        },
+        {
+          "path": "evidence/ride-paved-v8-forest-summary.json",
+          "exists": true,
+          "sha256": "f3bc7e1a679aa5b650205b2c2b64be6e441c1601f07f30c510512534fe8c0a3b"
+        }
+      ],
+      "previous_status_before_v27": "earlier_build_pass_final_build_pending",
+      "latest_evidence_snapshots": [
+        {
+          "path": "evidence/build-m1-v27-provenance.json",
+          "sha256": "c90fc9ebfaa2c401dfbf0e533ec5a1503c4e9ca7872bcc37d0193bc1239137e1"
+        },
+        {
+          "path": "evidence/source-bundle-provenance-audit-v27.json",
+          "sha256": "8fe3e93cd3f11b2a48f4adcc5c9399552f48b30d222c680d5d606b003d9a1b22"
+        }
+      ],
+      "status_before_completion": "v27_sealed_and_source_bundle_verified_runtime_acceptance_open",
+      "close_action_before_completion": "Final standalone package, live controls, affected repeats and sealed provenance",
+      "completion": {
+        "path": "evidence/m1-completion-v29.json",
+        "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "MV2022-BE",
+      "publisher": "Metro Vancouver",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/d510200c39294832aa7dffab716adfa2?f=pjson",
+      "coverage": "Vancouver, UBC, UEL and Electoral Area A",
+      "capture_period": "2022 regional missions, April-September; not City September 7/9 acquisition",
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "source_file": {
+        "path": "data/raw/acceptance/metro-vancouver-bare-earth-2022.json",
+        "exists": true,
+        "sha256": "2c3cd1f98945d57ca17e6b4b59be6c504554d7bb8ff8c9e3ff868804740d54cc"
+      },
+      "intended_use": "Independent survey lead and datum comparison; dataset was not downloaded",
+      "rights": "Dataset item links Metro Vancouver Open Government Licence",
+      "licence_url": "https://open-data-portal-metrovancouver.hub.arcgis.com/pages/Open%20Government%20Licence",
+      "asset_incorporation": "No new data incorporated",
+      "distinction": "NAD83(CSRS) v6 epoch 2002, CGVD28GVRD2018, nominal 2 points/m2; different acquisition from City 49 points/m2"
+    },
+    {
+      "id": "MV2022-REPORT",
+      "publisher": "Metro Vancouver; report author Aeroquest Mapcon",
+      "url": "https://metrovancouver.maps.arcgis.com/sharing/rest/content/items/5668f8b1d4914c36960e3829e2aa6639/data",
+      "document_date": "2023-09-07 from publisher filename; no printed date confirmed",
+      "coverage": "Regional 2022 LiDAR",
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "source_file": {
+        "path": "data/raw/acceptance/metro-lidar-2022-report.pdf",
+        "exists": true,
+        "sha256": "7eee1f1d70185396bdfcdb17fe831167fcea4f6b6b6c3dae9a39a25d7b502db1"
+      },
+      "metadata_file": {
+        "path": "data/raw/acceptance/metro-lidar-2022-report-metadata.json",
+        "exists": true,
+        "sha256": "721ddfea7ad11298265428c5b514af063ea51a3f69356b3208b2ac048dce5b7a"
+      },
+      "intended_use": "Read processing methods and published checkpoint comparison",
+      "rights": "Reference only; metadata has no licence field; report contains company-confidential footer",
+      "asset_incorporation": "None; report/text/page images ignored by Git and excluded from game",
+      "review": "All 7 pages text extracted; pages 2, 6, 7 rendered; acquisition map, density map and accuracy table inspected",
+      "checkpoint_count": 21,
+      "usable_checkpoints": 20,
+      "park_checkpoints": 1,
+      "prospect_point": {
+        "tablet": "293",
+        "gcm": 590034,
+        "xy_m": [
+          489666.588,
+          5462349.341
+        ],
+        "known_native_height_m": 57.134,
+        "regional_laser_height_m": 57.162,
+        "regional_residual_m": 0.028,
+        "status": "Corroboration only; project independent-control acceptance unchanged"
+      },
+      "rms_m": 0.139
+    },
+    {
+      "id": "CITY-FOREST-20260927",
+      "publisher": "City of Vancouver",
+      "url": "https://vancouver.ca/parks-recreation-culture/stanley-park-forest-management.aspx",
+      "page_date": null,
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "coverage": "Park treatment phases",
+      "intended_use": "Separate completed west-side spring 2026 work from announced east-side fall 2026 work",
+      "rights": "Reference only; no page or map image distributed",
+      "review": "Current primary page read through web tool; existing downloaded report/map hashes in forest-condition-sources.json",
+      "facts": {
+        "spring_2026_period": [
+          "2026-01",
+          "2026-04"
+        ],
+        "spring_2026_area_ha": 34,
+        "removed_or_treated": 2982,
+        "named_areas": [
+          "Lovers Walk",
+          "Tatlow Walk",
+          "Lake Trail"
+        ],
+        "next_work": "Eastern internal trails, fall 2026 to spring 2027; not evidenced complete"
+      },
+      "limit": "Treatment counts do not locate individual removed crowns. Do not convert cluster count or treatment area into wholesale canopy deletion."
+    },
+    {
+      "id": "CITY-ORTHO-CATALOGUE-20260927",
+      "publisher": "City of Vancouver",
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets?where=search(title,%22orthophoto%22)&limit=100",
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "source_file": {
+        "path": "data/raw/acceptance/city-orthophoto-catalogue-search.json",
+        "exists": true,
+        "sha256": "b185268fbecc4c1e8d585bdebd0e4f1fd28668026049a07bf32f93a7b6a7dbbb"
+      },
+      "coverage": "City catalogue titles matching orthophoto",
+      "newest_dataset_year": 2022,
+      "intended_use": "Bounded check for a later public City orthophoto product",
+      "rights": "Open Government Licence - Vancouver for dataset; metadata reference",
+      "limit": "Does not prove no later photo exists elsewhere. Pixel size does not establish positional accuracy."
+    },
+    {
+      "id": "BC-GCM-501718",
+      "publisher": "GeoBC",
+      "url": "https://a100.gov.bc.ca/pub/mascotw/protected/longf.html?Q_GCM_NO=501718&Q_OPT=1",
+      "current_url": "https://geonetbc.gov.bc.ca/geonetbc/gcm/details/501718",
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "coverage": "One monument",
+      "capture_period": "2018 height publication; legacy marker condition dates old or absent",
+      "source_file": {
+        "path": "data/raw/corridor/mascot-501718-complete-report.html",
+        "exists": true,
+        "sha256": "00bd5609892eaa49bd9facdf9ffaa729f76eaa0a82ebd6f91629f61fa7d99662"
+      },
+      "intended_use": "Candidate physical height reference",
+      "rights": "Internal reference only; complete report excluded from Git/game",
+      "accepted": false,
+      "horizontal_accuracy": "APPROXIMATE ONLY, no coordinate standard deviation",
+      "height_CVD28GVRD2018_m": 1.663,
+      "next_action": "Check current condition; locate exact marker and its physical surface; do not sample rounded XY as a sub-metre control"
+    },
+    {
+      "id": "BC-GCM-582635",
+      "publisher": "GeoBC",
+      "url": "https://a100.gov.bc.ca/pub/mascotw/protected/longf.html?Q_GCM_NO=582635&Q_OPT=1",
+      "current_url": "https://geonetbc.gov.bc.ca/geonetbc/gcm/details/582635",
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "coverage": "One monument",
+      "capture_period": "2018 height publication; legacy marker condition dates old or absent",
+      "source_file": {
+        "path": "data/raw/corridor/mascot-582635-complete-report.html",
+        "exists": true,
+        "sha256": "3d9ae89f50913a6fb53e56bf0774abd0954274edae91234aeebce4a0caa289e5"
+      },
+      "intended_use": "Candidate physical height reference",
+      "rights": "Internal reference only; complete report excluded from Git/game",
+      "accepted": false,
+      "horizontal_accuracy": "APPROXIMATE ONLY, no coordinate standard deviation",
+      "height_CVD28GVRD2018_m": 17.307,
+      "next_action": "Check current condition; locate exact marker and its physical surface; do not sample rounded XY as a sub-metre control"
+    },
+    {
+      "id": "BC-GCM-741405",
+      "publisher": "GeoBC",
+      "url": "https://a100.gov.bc.ca/pub/mascotw/protected/longf.html?Q_GCM_NO=741405&Q_OPT=1",
+      "current_url": "https://geonetbc.gov.bc.ca/geonetbc/gcm/details/741405",
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "coverage": "One monument",
+      "capture_period": "2018 height publication; legacy marker condition dates old or absent",
+      "source_file": {
+        "path": "data/raw/corridor/mascot-741405-complete-report.html",
+        "exists": true,
+        "sha256": "53f164117fbe9a550d2957f1ec8e44dfae987df3601b8c227d5ac05e931cfc9d"
+      },
+      "intended_use": "Candidate physical height reference",
+      "rights": "Internal reference only; complete report excluded from Git/game",
+      "accepted": false,
+      "horizontal_accuracy": "APPROXIMATE ONLY, no coordinate standard deviation",
+      "height_CVD28GVRD2018_m": 3.058,
+      "next_action": "Check current condition; locate exact marker and its physical surface; do not sample rounded XY as a sub-metre control"
+    },
+    {
+      "id": "BC-GCM-258087",
+      "publisher": "GeoBC",
+      "url": "https://a100.gov.bc.ca/pub/mascotw/protected/longf.html?Q_GCM_NO=258087&Q_OPT=1",
+      "current_url": "https://geonetbc.gov.bc.ca/geonetbc/gcm/details/258087",
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "coverage": "One monument",
+      "capture_period": "2018 height publication; legacy marker condition dates old or absent",
+      "source_file": {
+        "path": "data/raw/corridor/mascot-258087-complete-report.html",
+        "exists": true,
+        "sha256": "fd540a8145216d6e1649838e2dc0ec924ae459c75f652737ed3db8d1470da194"
+      },
+      "intended_use": "Candidate physical height reference",
+      "rights": "Internal reference only; complete report excluded from Git/game",
+      "accepted": false,
+      "horizontal_accuracy": "APPROXIMATE ONLY, no coordinate standard deviation",
+      "height_CVD28GVRD2018_m": 6.453,
+      "next_action": "Check current condition; locate exact marker and its physical surface; do not sample rounded XY as a sub-metre control"
+    },
+    {
+      "id": "BC-GCM-23713",
+      "publisher": "GeoBC",
+      "url": "https://a100.gov.bc.ca/pub/mascotw/protected/longf.html?Q_GCM_NO=23713&Q_OPT=1",
+      "current_url": "https://geonetbc.gov.bc.ca/geonetbc/gcm/details/23713",
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "coverage": "One monument",
+      "capture_period": "2018 height publication; legacy marker condition dates old or absent",
+      "source_file": {
+        "path": "data/raw/corridor/mascot-23713-complete-report.html",
+        "exists": true,
+        "sha256": "a58b5d61ae71221de33f83bdc261e00a3bf2e4bd39a57d6ffe84c8629509b77f"
+      },
+      "intended_use": "Candidate physical height reference",
+      "rights": "Internal reference only; complete report excluded from Git/game",
+      "accepted": false,
+      "horizontal_accuracy": "APPROXIMATE ONLY, no coordinate standard deviation",
+      "height_CVD28GVRD2018_m": 0.467,
+      "next_action": "Check current condition; locate exact marker and its physical surface; do not sample rounded XY as a sub-metre control"
+    },
+    {
+      "id": "BC-GCM-575548",
+      "publisher": "GeoBC",
+      "url": "https://a100.gov.bc.ca/pub/mascotw/protected/longf.html?Q_GCM_NO=575548&Q_OPT=1",
+      "current_url": "https://geonetbc.gov.bc.ca/geonetbc/gcm/details/575548",
+      "retrieved_utc": "2026-09-27T18:11:14.806203+00:00",
+      "coverage": "One monument",
+      "capture_period": "2018 height publication; legacy marker condition dates old or absent",
+      "source_file": {
+        "path": "data/raw/corridor/mascot-575548-complete-report.html",
+        "exists": true,
+        "sha256": "c8e810dff23c83d4fd03e9066cb4c19fd767e54d567aa84fd80e3598d2a70235"
+      },
+      "intended_use": "Candidate physical height reference",
+      "rights": "Internal reference only; complete report excluded from Git/game",
+      "accepted": false,
+      "horizontal_accuracy": "APPROXIMATE ONLY, no coordinate standard deviation",
+      "height_CVD28GVRD2018_m": 6.192,
+      "next_action": "Check current condition; locate exact marker and its physical surface; do not sample rounded XY as a sub-metre control"
+    }
+  ],
+  "decision_rules": [
+    "M1 blockout forms can be simple; finished M4 art is not required. Each critical form must still be individually identified and placed.",
+    "No generic coordinate round-trip or source-to-export check can count as independent survey control.",
+    "Approximate marker XY cannot validate a sub-metre model. Physical surface identity must be established.",
+    "The Metro 2022 regional acquisition does not certify the City 2022 acquisition datum or accuracy.",
+    "M1 retains the dated 2022 canopy baseline. Later current-forest corrections require dated local evidence; never delete canopy clusters from treatment totals."
+  ],
+  "readable_audit": "docs/M1-ACCEPTANCE-AUDIT.md",
+  "m1_accuracy_decision": {
+    "date": "2026-09-27",
+    "user_choice": "Complete M1 with recorded accuracy limits",
+    "authority": "docs/M1-MEASUREMENT-EXCEPTIONS.md; development plan section 13.7",
+    "absolute_accuracy_accepted": false,
+    "independent_certification_required_for_m1": false
+  },
+  "reference_period_amendment": {
+    "path": "manifests/m1-reference-period.json",
+    "decision_type": "planning amendment, not user approval",
+    "pending_question": "withdrawn, no accepted answer"
+  },
+  "latest_status_audit_utc": "2026-09-28T00:20:16.840368+00:00",
+  "latest_status_scope": "Final reviewed M1 blockout acceptance with recorded limits.",
+  "full_circuit_current": {
+    "build": "m1-v29",
+    "status": "passed_with_complete_video_and_actual_critical_image_review",
+    "completed": true,
+    "completion": {
+      "path": "evidence/m1-completion-v29.json",
+      "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+    }
+  },
+  "completion": {
+    "path": "evidence/m1-completion-v29.json",
+    "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+  },
+  "final_status_updated_utc": "2026-09-28T00:20:16.840368+00:00",
+  "historical_snapshot_note": "Earlier evidence snapshots and per-feature source/art flags remain historical or limited in scope. Exact pre-completion files are saved under evidence/m1-status-before-completion/."
+}

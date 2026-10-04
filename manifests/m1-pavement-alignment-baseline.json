@@ -1,0 +1,8 @@
+{
+  "source_runtime_sha256": "6c0edcc889c3411b59b8ebf628fd98c0e284c009ce2bfacc0869143f3d91ec53",
+  "source_proposal_sha256": "facef4267431633c0e98f20e742fe76e5a9d325769099d16258fe2161187c90f",
+  "draft_sha256": "b19ff940d2f1ca1604d575cb9c1b4d2609a34144ba12d84cdf6888b305e83c8f",
+  "baseline_sha256": "f64cc95963e95096fcc155e0b624d7f1ec9d16949b4ebe794ddb62db513d4f27",
+  "purpose": "Immutable pre-correction authoring input; not a new survey",
+  "source_geometry_unchanged": true
+}

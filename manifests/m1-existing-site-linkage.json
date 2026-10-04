@@ -1,0 +1,799 @@
+{
+  "schema_version": 1,
+  "links": [
+    {
+      "feature_id": "SP_heron_colony",
+      "selection_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.0,
+              -1290.0
+            ],
+            [
+              -80.0,
+              -1145.0
+            ],
+            [
+              -265.0,
+              -1145.0
+            ],
+            [
+              -265.0,
+              -1290.0
+            ],
+            [
+              -80.0,
+              -1290.0
+            ]
+          ]
+        ]
+      },
+      "selection_is_surveyed_boundary": false,
+      "existing_terrain": [
+        {
+          "name": "SM_Terrain_00_02",
+          "path": "data/derived/surface-meshes/SM_Terrain_00_02.npz",
+          "sha256": "2c8ebabea31aabd9e51fcb09cda3332f4b877ae371f9d6dad8434d4d80d8f170",
+          "selected_area_m2": 555.0
+        },
+        {
+          "name": "SM_Terrain_01_02",
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed",
+          "selected_area_m2": 26270.0
+        }
+      ],
+      "existing_canopy": [
+        {
+          "name": "SM_Canopy_489000_5459000",
+          "cover_tile": "lidar2022_489000_5459000",
+          "point_indices": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            174,
+            175,
+            176
+          ],
+          "cluster_count": 79
+        }
+      ],
+      "source_urls": [
+        "https://vancouver.ca/parks-recreation-culture/history-of-herons-in-stanley-park.aspx",
+        "https://vancouver.ca/news-calendar/stanley-park-herons-return-to-raise-next-generation.aspx"
+      ],
+      "source_date": "City map May19 2026; imagery/survey2022; primary pages read2026-09-27",
+      "limit": "City identifies current colony around Park Lane and Park Board office tennis trees. No exact nest census or individual nesting-tree claim.",
+      "rendered_geometry_reused": true,
+      "live_visual_acceptance": false
+    },
+    {
+      "feature_id": "SP_hallelujah",
+      "selection_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1815.0,
+              -530.0
+            ],
+            [
+              1815.0,
+              -420.0
+            ],
+            [
+              1650.0,
+              -420.0
+            ],
+            [
+              1650.0,
+              -530.0
+            ],
+            [
+              1815.0,
+              -530.0
+            ]
+          ]
+        ]
+      },
+      "selection_is_surveyed_boundary": false,
+      "existing_terrain": [
+        {
+          "name": "SM_Terrain_02_06",
+          "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+          "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c",
+          "selected_area_m2": 17645.551438226412
+        }
+      ],
+      "existing_canopy": [
+        {
+          "name": "SM_Canopy_491000_5460000",
+          "cover_tile": "lidar2022_491000_5460000",
+          "point_indices": [
+            14,
+            15,
+            16,
+            22,
+            23,
+            24,
+            28,
+            29,
+            35,
+            36,
+            37,
+            38,
+            39,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ],
+          "cluster_count": 45
+        }
+      ],
+      "source_urls": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx"
+      ],
+      "source_date": "City map May19 2026; imagery/survey2022; primary pages read2026-09-27",
+      "limit": "Finite south Brockton shore/grass/canopy site. Bounds select existing landforms; they are not a survey boundary.",
+      "rendered_geometry_reused": true,
+      "live_visual_acceptance": false
+    },
+    {
+      "feature_id": "SP_port_view",
+      "selection_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1952.0,
+              -281.0
+            ],
+            [
+              1952.0,
+              -227.0
+            ],
+            [
+              1905.0,
+              -227.0
+            ],
+            [
+              1905.0,
+              -281.0
+            ],
+            [
+              1952.0,
+              -281.0
+            ]
+          ]
+        ]
+      },
+      "selection_is_surveyed_boundary": false,
+      "existing_terrain": [
+        {
+          "name": "SM_Terrain_02_06",
+          "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+          "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c",
+          "selected_area_m2": 790.7688664062791
+        },
+        {
+          "name": "SM_Terrain_03_06",
+          "path": "data/derived/surface-meshes/SM_Terrain_03_06.npz",
+          "sha256": "efc7f326dfa13b7c16ef1950b29b64fdb4a490b18a3718a57884fd91ea127785",
+          "selected_area_m2": 1582.5841138535152
+        }
+      ],
+      "existing_canopy": [],
+      "source_urls": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "evidence/corridor/ortho-utm/m1-port-view.json"
+      ],
+      "source_date": "City map May19 2026; imagery/survey2022; primary pages read2026-09-27",
+      "limit": "Port viewpoint is the visible semicircular seawall projection south of Brockton lighthouse. Surrounding landform links retain existing terrain and walking surface.",
+      "rendered_geometry_reused": true,
+      "live_visual_acceptance": false
+    },
+    {
+      "feature_id": "SP_rock_garden",
+      "selection_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              712.0,
+              -389.0
+            ],
+            [
+              712.0,
+              -337.0
+            ],
+            [
+              650.0,
+              -337.0
+            ],
+            [
+              650.0,
+              -389.0
+            ],
+            [
+              712.0,
+              -389.0
+            ]
+          ]
+        ]
+      },
+      "selection_is_surveyed_boundary": false,
+      "existing_terrain": [
+        {
+          "name": "SM_Terrain_02_04",
+          "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+          "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817",
+          "selected_area_m2": 3224.0
+        }
+      ],
+      "existing_canopy": [
+        {
+          "name": "SM_Canopy_490000_5460000",
+          "cover_tile": "lidar2022_490000_5460000",
+          "point_indices": [
+            790,
+            791,
+            792,
+            836,
+            884
+          ],
+          "cluster_count": 5
+        }
+      ],
+      "source_urls": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/parks-recreation-culture/gardens-in-stanley-park.aspx"
+      ],
+      "source_date": "City map May19 2026; imagery/survey2022; primary pages read2026-09-27",
+      "limit": "Finite Pavilion-south garden context from City map and adjacent source beds. This links existing terrain, canopy and garden beds; no invented rock monument.",
+      "rendered_geometry_reused": true,
+      "live_visual_acceptance": false
+    },
+    {
+      "feature_id": "SP_devonian",
+      "selection_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              527.2168983024894,
+              -804.3686085753143
+            ],
+            [
+              526.7708361427067,
+              -805.779682315886
+            ],
+            [
+              525.8881987155764,
+              -811.4144800128415
+            ],
+            [
+              525.5881523122662,
+              -816.5389366298914
+            ],
+            [
+              507.37760838185204,
+              -839.0072473343462
+            ],
+            [
+              470.97425502806436,
+              -869.8583191102371
+            ],
+            [
+              472.77575454692123,
+              -874.8309297394007
+            ],
+            [
+              475.49300252180547,
+              -880.0275362916291
+            ],
+            [
+              477.76172122283606,
+              -883.9670962374657
+            ],
+            [
+              480.2350150371785,
+              -887.3622853280976
+            ],
+            [
+              483.1735769720399,
+              -890.8027814766392
+            ],
+            [
+              534.8488860540092,
+              -947.5042015723884
+            ],
+            [
+              559.1321208607988,
+              -973.1504815034568
+            ],
+            [
+              676.1369989273953,
+              -1089.6216441402212
+            ],
+            [
+              677.712802202208,
+              -1090.7917300723493
+            ],
+            [
+              679.2821607996011,
+              -1091.494885031134
+            ],
+            [
+              680.8961699379142,
+              -1091.6200281819329
+            ],
+            [
+              682.7000975481933,
+              -1091.256353335455
+            ],
+            [
+              684.3226948630181,
+              -1090.6366635076702
+            ],
+            [
+              685.9029807778425,
+              -1089.272051250562
+            ],
+            [
+              726.2506349050673,
+              -1048.4322177320719
+            ],
+            [
+              750.9652493198519,
+              -1023.7956581488252
+            ],
+            [
+              764.9428055136232,
+              -1005.9104992551729
+            ],
+            [
+              778.4128494581091,
+              -995.4395369570702
+            ],
+            [
+              765.9560456591425,
+              -983.7224984215572
+            ],
+            [
+              760.4675478214631,
+              -974.730237656273
+            ],
+            [
+              757.4023351484211,
+              -968.7549645313993
+            ],
+            [
+              750.7383474656963,
+              -958.3932246994227
+            ],
+            [
+              743.5805793249165,
+              -951.8104309458286
+            ],
+            [
+              726.8992330816691,
+              -940.2081655040383
+            ],
+            [
+              698.9760595798725,
+              -920.8151438487694
+            ],
+            [
+              691.1284185934346,
+              -913.7974952189252
+            ],
+            [
+              687.7875472703017,
+              -911.6348691359162
+            ],
+            [
+              684.3471444004681,
+              -908.1935956599191
+            ],
+            [
+              679.9113214939134,
+              -904.3503427831456
+            ],
+            [
+              678.0236575471936,
+              -894.5416990052909
+            ],
+            [
+              675.9738267041976,
+              -890.0912218475714
+            ],
+            [
+              676.2289025546052,
+              -889.7581594744697
+            ],
+            [
+              683.4613522574655,
+              -878.6871791770682
+            ],
+            [
+              684.1907131781918,
+              -877.4099994115531
+            ],
+            [
+              684.4479501158348,
+              -875.8540566703305
+            ],
+            [
+              684.561064232199,
+              -873.5641288114712
+            ],
+            [
+              684.3684819976334,
+              -871.4515344565734
+            ],
+            [
+              683.6180583077366,
+              -868.1928897704929
+            ],
+            [
+              682.4248524664436,
+              -864.5110111571848
+            ],
+            [
+              680.2367824502871,
+              -860.1158765088767
+            ],
+            [
+              675.949183351302,
+              -850.6031479798257
+            ],
+            [
+              672.8815345950425,
+              -846.0952823897824
+            ],
+            [
+              669.6963941219728,
+              -842.2431174330413
+            ],
+            [
+              666.6550820599077,
+              -839.291692590341
+            ],
+            [
+              660.8403104323661,
+              -834.0563401170075
+            ],
+            [
+              652.4172552035307,
+              -827.7046424122527
+            ],
+            [
+              644.8210526636685,
+              -822.5105808544904
+            ],
+            [
+              633.106914580334,
+              -814.6855488000438
+            ],
+            [
+              625.9247947898693,
+              -809.7145394515246
+            ],
+            [
+              622.1547122626798,
+              -807.7289833826944
+            ],
+            [
+              619.0008588184137,
+              -806.7561802305281
+            ],
+            [
+              616.5657970716711,
+              -806.3627457208931
+            ],
+            [
+              614.4210374427494,
+              -806.2699895668775
+            ],
+            [
+              611.7013612287119,
+              -806.4652537666261
+            ],
+            [
+              608.9812886373256,
+              -806.8828584607691
+            ],
+            [
+              606.3626120737754,
+              -807.5229850737378
+            ],
+            [
+              603.8890756422188,
+              -808.3190089780837
+            ],
+            [
+              599.5011074651266,
+              -810.3345015291125
+            ],
+            [
+              596.102377408708,
+              -812.1294131297618
+            ],
+            [
+              592.6661595320329,
+              -814.5579319689423
+            ],
+            [
+              588.8066371102468,
+              -817.8750630188733
+            ],
+            [
+              580.848332824593,
+              -824.1197899850085
+            ],
+            [
+              576.102378323907,
+              -827.0795799382031
+            ],
+            [
+              572.5161963631981,
+              -827.9736545365304
+            ],
+            [
+              568.6401105534169,
+              -828.3447031406686
+            ],
+            [
+              558.4696018842515,
+              -827.4704778920859
+            ],
+            [
+              544.8904301043949,
+              -821.7541710054502
+            ],
+            [
+              540.3592151424964,
+              -818.4887239839882
+            ],
+            [
+              537.1453391956165,
+              -814.5030246051028
+            ],
+            [
+              534.1940990921576,
+              -810.0286412555724
+            ],
+            [
+              532.5992494827951,
+              -807.3799011418596
+            ],
+            [
+              530.631867956603,
+              -805.6865644240752
+            ],
+            [
+              527.2168983024894,
+              -804.3686085753143
+            ]
+          ]
+        ]
+      },
+      "selection_is_surveyed_boundary": false,
+      "existing_terrain": [
+        {
+          "name": "SM_Terrain_01_03",
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937",
+          "selected_area_m2": 6518.196846734476
+        },
+        {
+          "name": "SM_Terrain_01_04",
+          "path": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+          "sha256": "4badc16c8769d73f50d10588c691a2d32b7287da550dfe8563cf757e9a50c878",
+          "selected_area_m2": 36789.131349992975
+        }
+      ],
+      "existing_canopy": [
+        {
+          "name": "SM_Canopy_490000_5460000",
+          "cover_tile": "lidar2022_490000_5460000",
+          "point_indices": [
+            7
+          ],
+          "cluster_count": 1
+        }
+      ],
+      "source_urls": [
+        "https://covapp.vancouver.ca/parkfinder/parkdetail.aspx?inparkid=18"
+      ],
+      "source_date": "City map May19 2026; imagery/survey2022; primary pages read2026-09-27",
+      "limit": "City park identity and OSM boundary; existing path/shore/cover geometry retained.",
+      "rendered_geometry_reused": true,
+      "live_visual_acceptance": false
+    },
+    {
+      "feature_id": "SP_pitch_putt",
+      "part": "Rental/ticket clubhouse",
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 722554183,
+        "url": "https://www.openstreetmap.org/way/722554183",
+        "timestamp": "2024-07-15T20:57:23Z",
+        "licence": "ODbL-1.0"
+      },
+      "source_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -262.45085568580544,
+              -1052.1502254214138
+            ],
+            [
+              -264.5044063864043,
+              -1061.2178174108267
+            ],
+            [
+              -255.55008826049743,
+              -1063.2251533940434
+            ],
+            [
+              -253.87795360479504,
+              -1055.8577393414453
+            ],
+            [
+              -252.84589006059105,
+              -1056.0931998360902
+            ],
+            [
+              -251.9437697805697,
+              -1052.0927823111415
+            ],
+            [
+              -258.49230648908997,
+              -1050.612623874098
+            ],
+            [
+              -259.01304925163276,
+              -1052.9239765722305
+            ],
+            [
+              -262.45085568580544,
+              -1052.1502254214138
+            ]
+          ]
+        ]
+      },
+      "existing_building_candidates": [
+        {
+          "cover_id": "lidar2022_489000_5460000_8",
+          "intersection_m2": 88.72487301763343,
+          "source_footprint_fraction": 0.8612226540580377,
+          "object_name": "SM_BuildingMass_lidar2022_489000_5460000",
+          "base_m": 10.301687191511846,
+          "roof_m": 14.689925193786621
+        }
+      ],
+      "primary_url": "https://vancouver.ca/parks-recreation-culture/stanley-park-pitch-putt.aspx",
+      "image_reference": "evidence/ground-spaces/heron-golf-source-crop.png",
+      "limit": "OSM named retail footprint and visible2022roof agree with measured park cover. No skyline duplicate or interior is used.",
+      "live_visual_acceptance": false
+    }
+  ],
+  "source_inputs": [
+    {
+      "path": "data/derived/cover-blockout.json",
+      "sha256": "9187a028f7c073140ad7b113099b17f1f5827b5beab037eeb48bdf1b9b06ceef"
+    },
+    {
+      "path": "manifests/surface-model.json",
+      "sha256": "8489fe1d9986b9dd5218299e635daf55c5a0eb8e7c1c03a68aca51bf227bc459"
+    }
+  ],
+  "purpose": "Link actual existing land/cover to named M1 sites; not extra geometry or accepted visual evidence"
+}

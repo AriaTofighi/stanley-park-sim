@@ -1,0 +1,49 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Simulation",
+  "Description": "Stanley Park bicycle experience. Source-controlled Blender authoring and measured terrain.",
+  "Modules": [
+    {
+      "Name": "StanleyParkSim",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true,
+      "TargetAllowList": [
+        "Editor"
+      ]
+    },
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true,
+      "TargetAllowList": [
+        "Editor"
+      ]
+    },
+    {
+      "Name": "ModelContextProtocol",
+      "Enabled": false,
+      "TargetAllowList": [
+        "Editor"
+      ],
+      "Optional": true
+    },
+    {
+      "Name": "EditorToolset",
+      "Enabled": false,
+      "TargetAllowList": [
+        "Editor"
+      ],
+      "Optional": true
+    },
+    {
+      "Name": "AndroidFileServer",
+      "Enabled": false
+    }
+  ]
+}

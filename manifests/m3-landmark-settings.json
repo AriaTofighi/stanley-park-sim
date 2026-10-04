@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "revision": "m3-landmark-surfaces-r1",
+  "scope": "Original surface finish on existing route-visible named forms. No geometry, placement, collision, vegetation or artwork reconstruction.",
+  "route_distance_limit_m": 180,
+  "groups": {
+    "Brockton Point lighthouse": ["SM_Brockton_"],
+    "Prospect Point lighthouse": ["SM_ProspectLight_"],
+    "Siwash Rock": ["SM_SiwashRock_SurveyEnvelope"],
+    "Lions Gate Bridge": ["SM_LionsGate_Towers", "SM_LionsGate_MainCables", "SM_LionsGate_Hangers", "SM_LionsGate_NorthFootingReview", "SM_LionsGate_SouthFootingReview"],
+    "Nine O'Clock Gun": ["SM_NineClockGun_"],
+    "Harry Jerome statue": ["SM_HarryJerome_"],
+    "Route sculpture forms": ["SM_Empress_", "SM_Wetsuit_"],
+    "Lumberman's Arch": ["SM_LumbermanArch_", "SM_LumbermanFacility_", "SM_Named_LumbermanConcession_"],
+    "Siwash lookout": ["SM_SiwashLookout_", "SM_SiwashApproach_"],
+    "Third Beach facilities": ["SM_ThirdBeach_"],
+    "Second Beach pool": ["SM_SecondPool_", "SM_Named_SecondPoolFacilities_"],
+    "Teahouse": ["SM_Named_Teahouse_"],
+    "Rowing club and marina": ["SM_Named_RowingClub_", "SM_YachtPort_"],
+    "Air India Memorial": ["SM_AirIndia_"],
+    "Totem precinct": ["SM_TotemMeasured_", "SM_ChiefWakasRearEstimate_", "SM_SkyChiefRearEstimate_", "SM_YeltonMemorial_", "SM_PeopleSouth_", "SM_PeopleNorthEstimate_", "SM_Named_TotemVisitor_"]
+  },
+  "distance_exempt_groups": ["Lions Gate Bridge"],
+  "exclude_material_fragments": ["water", "crown", "asphalt"],
+  "excluded_object_fragments": ["WalkingPlatform", "PedestrianFloor", "RoadDeck", "RaisedApproach", "SyntheticSafetyFloor", "SurfaceReview"],
+  "source_contract": "Existing M1 2022 City survey geometry and separately dated identity references. Existing estimates remain estimates. Surface grain, weathering and roughness are original visual interpretations, not measured material samples.",
+  "licence": "New texture and shader artwork is original procedural work. Existing City survey attribution remains Open Government Licence - Vancouver. Existing OSM attribution remains ODbL-1.0 where listed by the source. No source photos, carved patterns or inscriptions are included.",
+  "unresolved_limits": [
+    "The Siwash vegetation envelope is excluded from this surface pass; the tree layer owns vegetation.",
+    "Sculptures and totem forms retain coarse profiles. This pass does not reproduce an artist's detailed work.",
+    "The missing southwest People Amongst the People portal remains a source-limited inland feature. Its location is not invented.",
+    "Building windows, doors and individual masonry joints are not invented from generic patterns.",
+    "Route visibility, landmark recognition and material appearance require the authorized visual review; distance screening is not a sightline proof."
+  ]
+}

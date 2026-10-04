@@ -1,0 +1,18 @@
+{
+  "id": "train-plaza",
+  "extraction_centre_local_m": [
+    685,
+    -80
+  ],
+  "extraction_radius_m": 70,
+  "source": "manifests/lidar2022-490000_5461000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 1119046,
+  "output": {
+    "path": "data/derived/named-train-plaza-survey.npz",
+    "sha256": "9b7a1926480edee33ddde9977e942ae66d5dde7335685afed50b218a081989aa"
+  }
+}

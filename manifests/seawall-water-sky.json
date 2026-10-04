@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "revision": "seawall-water-sky-v4-spectral",
+  "status": "V3 remains visually rejected: broad rectangular patches and weakly perceived motion. V4 replaces the value-noise shader with original spectral normal textures and native time-driven panning. Integration and motion acceptance are pending.",
+  "map_path": "/Game/Maps/StanleyParkSeawall",
+  "protected_map": "/Game/Maps/StanleyPark",
+  "engine_prefix": "5.8.3",
+  "asset_folder": "/Game/StanleyPark/Seawall/WaterSky",
+  "actor_tag": "SP_SeawallWaterSky",
+  "water_actors": [
+    {"label": "SM_Water_OceanMean", "required": true},
+    {"label": "SM_Water_LostLagoon", "required": false},
+    {"label": "SM_Water_BeaverLake", "required": false}
+  ],
+  "water": {
+    "base_color_linear": [0.025, 0.070, 0.082],
+    "roughness_near": 0.16,
+    "roughness_far": 0.24,
+    "specular": 0.255,
+    "opacity": 0.18,
+    "scattering_per_cm": [0.00035, 0.0010, 0.00115],
+    "absorption_per_cm": [0.0040, 0.0017, 0.0011],
+    "phase_g": 0.15,
+    "color_scale_behind_water": 1.0,
+    "texture_manifest": "manifests/seawall-water-textures-v4.json",
+    "texture_authoring": {
+      "revision": "spectral-v1",
+      "resolution": 1024,
+      "seed": 581032,
+      "tile_metres": 32.0,
+      "wind_axis_xy": [0.8, 0.6],
+      "slope_rms": 0.16,
+      "longest_wavelength_metres": 8.0,
+      "shortest_wavelength_metres": 0.28,
+      "bands": [
+        {"wavelength_metres": 2.4, "log_width": 0.52, "weight": 0.75},
+        {"wavelength_metres": 0.75, "log_width": 0.38, "weight": 0.25}
+      ]
+    },
+    "texture_layers": [
+      {"axis_xy": [0.8, 0.6], "tile_cm": 3200.0, "strength": 0.85, "flow_world_cm_per_second": [45.0, 15.0], "offset_uv": [0.0, 0.0]},
+      {"axis_xy": [-0.6, 0.8], "tile_cm": 2170.0, "strength": 0.60, "flow_world_cm_per_second": [22.0, -27.0], "offset_uv": [0.317, 0.619]},
+      {"axis_xy": [0.28, -0.96], "tile_cm": 930.0, "strength": 0.30, "flow_world_cm_per_second": [-13.0, 23.0], "offset_uv": [0.743, 0.163]}
+    ],
+    "normal_fade_start_cm": 20000.0,
+    "normal_fade_end_cm": 100000.0,
+    "time_source": "Explicit native MaterialExpressionTime: ignore_pause=false, override_period=false. Native Panner uses fractional time offsets for precision.",
+    "filter_policy": "Normal-map compression, wrapping UVs, regular mips, texture-group filtering and no negative view mip bias. No pixel-footprint hard cutoff or lattice noise.",
+    "color_variation": "None. Base color and volume coefficients are uniform; surface movement comes from displaced spectral normals.",
+    "position_displacement": false,
+    "level_source": "manifests/water-levels.json",
+    "level_policy": "Keep all source transforms, mesh geometry, collision and datum heights. Change only component material overrides."
+  },
+  "sky": {
+    "sphere_asset": "/Engine/BasicShapes/Sphere",
+    "sphere_scale": 100000.0,
+    "cloud_dark_linear": [0.30, 0.33, 0.37],
+    "cloud_light_linear": [0.67, 0.69, 0.71],
+    "horizon_linear": [0.58, 0.61, 0.64],
+    "noise_scale": 4.0,
+    "noise_octaves": 3,
+    "sun_intensity": 2.5,
+    "sun_rotation_deg": [-32.0, -30.0, 0.0],
+    "sun_source_angle_deg": 8.0,
+    "sun_cast_shadows": false,
+    "sun_shadow_policy": "Fixed deep overcast uses directional fill without cast shadows. The 6200 m capture pair confirms that cast shadows caused the pale dry-shore streaks and hard route patches. Keep captured sky light and existing ambient occlusion.",
+    "skylight_intensity": 1.0,
+    "skylight_capture_resolution": 128,
+    "skylight_distance_threshold_cm": 2000000.0,
+    "fog_density": 0.0015,
+    "fog_start_distance_cm": 30000.0,
+    "fog_cutoff_distance_cm": 3000000.0,
+    "volumetric_fog": false,
+    "real_time_sky_capture": false,
+    "weather_policy": "Fixed artistic overcast. This is not a weather observation or calibrated daylight model."
+  },
+  "cost_policy": {
+    "new_materials": 2,
+    "new_actors": 4,
+    "water_texture_samples": 3,
+    "water_texture_assets": 1,
+    "water_texture_resolution": [1024, 1024],
+    "sky_texture_samples": 0,
+    "cloud_octaves": 3,
+    "water_runtime_noise_layers": 0,
+    "water_runtime_noise_corner_hashes": 0,
+    "cloud_ray_march": false,
+    "ray_tracing": false,
+    "terrain_edits": false,
+    "performance_verified": false
+  },
+  "sources": [
+    {"url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/single-layer-water-shading-model-in-unreal-engine", "accessed": "2026-10-02", "use": "Opaque Single Layer Water material and four volume inputs. Local header defines coefficient units as 1/cm."},
+    {"url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/sky-lights-in-unreal-engine", "accessed": "2026-10-02", "use": "Movable sky light, captured scene, resolution and capture cost."},
+    {"url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/sky-atmosphere-component-in-unreal-engine", "accessed": "2026-10-02", "use": "Opaque unlit sky material with Is Sky. The fixed dome replaces the blue atmosphere in this map."},
+    {"url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/custom-material-expressions-in-unreal-engine", "accessed": "2026-10-02", "use": "Bounded HLSL custom nodes. Custom nodes can prevent constant folding; no claim of measured GPU cost."},
+    {"url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/animating-uv-coordinates-in-unreal-engine", "accessed": "2026-10-02", "use": "Native Panner coordinates and explicit Time input. Fractional pan offsets preserve precision during long runs."},
+    {"url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/texture-asset-editor-in-unreal-engine", "accessed": "2026-10-02", "use": "Normal-map texture settings, mip generation and wrapping filters."}
+  ],
+  "local_api_evidence": {
+    "engine_root": "D:/Epic Games/UE_5.8/Engine",
+    "engine_version": "5.8.3-58210709",
+    "python_stub": "unreal/Intermediate/PythonStub/unreal.py",
+    "files_sha256": {
+      "Build/Build.version": "eab58750e84719489f3ee0d42d05a533ceb357eb3ee511777e9408d27a85f43c",
+      "Source/Editor/MaterialEditor/Public/MaterialEditingLibrary.h": "5201a2be4ed754246bca79d115626dd3b59471989366f87cd7110a206047375f",
+      "Source/Runtime/Engine/Public/Materials/MaterialExpressionCustom.h": "31db809a8bb1a9090eb509dbc80f229ae15bd716692592d564ec3d42dde45069",
+      "Source/Runtime/Engine/Public/Materials/MaterialExpressionSingleLayerWaterMaterialOutput.h": "8cde71590666f97799d7fb81b51154080291415d846d1f4bdec0512577f95648",
+      "Source/Runtime/Engine/Classes/Components/SkyLightComponent.h": "cb30c4f34c2d354a3b09d60ca9dfce0ddd98a6cad3a1a053782573866935cd20",
+      "Source/Runtime/Engine/Public/Materials/MaterialExpressionPanner.h": "fb08a4602bb69cdf306ef86b9952869b2b69c356174bbff0fc37c2ac265f7f79",
+      "Source/Runtime/Engine/Private/Materials/MaterialExpressions.cpp": "66909943c30bdcea8f8bc47bd3b719093eeed4d11715b94cb120fb4f4330d815",
+      "Source/Editor/UnrealEd/Private/MaterialGraphNode.cpp": "026d9a5c896af1e590e4bd8e42f1ec4788c8210198007d79c5051f8792716dd9",
+      "Content/BasicShapes/Sphere.uasset": "0870a30b75af88e6117261b1ce6138ed90da85c90fde9fc39380705ab1870b61"
+    }
+  },
+  "asset_license": {
+    "engine_sphere": "Built-in Epic engine content. Use under the project's applicable Unreal Engine license. Do not publish the engine source asset as a standalone asset pack.",
+    "procedural_shader": "Original project code and original generated spectral normal texture. No external image, normal map, HDRI, paid content or Water plugin is required.",
+    "source_water_geometry": "Existing project sources and license records remain in force. This script does not replace them."
+  },
+  "capture_plan": {
+    "status": "V1-V3 remain failed visual variants. V4 requires actual fixed-camera 0.5-2 second motion captures and representative GPU measurement by root.",
+    "reviewed_v1_fingerprint": "be9ea62b00790ae6031dda82a335d91b8c3744e5e54b930ce96ef576df793003",
+    "reviewed_v1_images": ["evidence/seawall-initial-00000.png", "evidence/seawall-initial-05350.png", "evidence/seawall-initial-06200.png"],
+    "v1_findings": "Water shows regular parallel reflection bands near the camera and dark alias patterns at distance. The fixed cloudy sky is plausible in these stills; its settings stay unchanged.",
+    "reviewed_v2_fingerprint": "448b43d224ee5fe76e138919196953cf3f303811796df19c02a2b9cbe763eff4",
+    "reviewed_v2_images": ["evidence/seawall-corrected-00000.png", "evidence/seawall-corrected-02400.png", "evidence/seawall-corrected-07500.png"],
+    "v2_findings": "Stripes are absent but water is nearly uniform at bicycle viewing distances. The conservative pixel-footprint filter and small weak noise are the likely causes. Global reflections remain disabled; V3 reuses the noise for mild base-color, scattering and roughness variation.",
+    "v3_review": "evidence/seawall-computer-use-review-20261002.json",
+    "v3_findings": "Play images show pattern changes, but broad rectangular patches are visible and the user cannot perceive convincing water movement. Root confirms the ocean is a four-vertex quad; nearshore polygon edges can come from the underlying terrain/refraction. Shore geometry is owned by root.",
+    "views": ["Second Beach west water and horizon", "Siwash Rock north water", "Brockton Point east water and skyline"],
+    "record": ["map path", "material paths", "manifest and script hashes", "engine version", "camera transform and field of view", "image dimensions", "fixed exposure", "compile errors", "water collision and transform readback"],
+    "limits": "Editor stills can show composition and material faults. They cannot prove a full ride or frame performance."
+  }
+}

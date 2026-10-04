@@ -1,0 +1,42 @@
+{
+  "retrieved_utc": "2026-09-27T02:23:08.711938+00:00",
+  "sources": [
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/public-art",
+      "path": "data\\raw\\city\\public-art-metadata.json",
+      "bytes": 9521,
+      "sha256": "2056f5b4ab260ca6c263925f74a369bc0799867ade330190516b5ac7111fdbb5",
+      "intended_use": "Identity and approximate location",
+      "rights": "Open Government Licence - Vancouver"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/public-art/records?limit=100&where=neighbourhood+%3D+%27Stanley+Park%27+OR+sitename+like+%27%25Stanley%25%27",
+      "path": "data\\raw\\city\\public-art-park-records-0.json",
+      "bytes": 42030,
+      "sha256": "db1e12b8363b64753e5f42ca77c67675aad34f33c7e40bf06f578d20c2255e37"
+    },
+    {
+      "url": "https://www.canada.ca/en/news/archive/2010/05/lions-gate-bridge-national-historic-site.html",
+      "status": "unavailable",
+      "error": "The read operation timed out",
+      "period": "2010-05; page details 2016-12-15"
+    },
+    {
+      "url": "https://www2.gov.bc.ca/assets/gov/driving-and-transportation/reports-and-reference/reports-and-studies/lower-mainland/2018-03-16-lions-gate-risk-assessment.pdf",
+      "path": "data\\raw\\landmarks\\lions-gate-risk-2018.pdf",
+      "bytes": 13280494,
+      "sha256": "cb99fbcc5ba005fc03410566a6897c0182ef5ad324e5c973caf9d057cf9c37a5",
+      "status": "downloaded",
+      "intended_use": "Measurement and identity reference only",
+      "rights": "Reference only; do not distribute page images or text",
+      "period": "2018-03-16"
+    },
+    {
+      "url": "https://vancouver.ca/parks-recreation-culture/landmarks-in-stanley-park.aspx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "period": "Undated page; accessed 2026-09-26"
+    }
+  ],
+  "limitation": "Identity register only. Individual geometry and location acceptance remain open."
+}

@@ -1,0 +1,1657 @@
+{
+  "schema_version": 1,
+  "source_period": "City 2022 survey and imagery",
+  "target_period": "September 2026",
+  "assets": [
+    {
+      "name": "SM_Named_Aquarium_RoofStepClosures",
+      "feature_id": "SP_aquarium",
+      "mesh_path": "data/derived/named-buildings/SM_Named_Aquarium_RoofStepClosures.npz",
+      "sha256": "bb87ef6e39565976fc5686da7ac78ecfb793d0883dbaddeb162be15a7901ddd1",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 1264,
+      "triangles": 632,
+      "bounds_min_m": [
+        853.765991,
+        -299.417511,
+        14.961786372598162
+      ],
+      "bounds_max_m": [
+        916.665427,
+        -128.466995,
+        22.507186662903493
+      ]
+    },
+    {
+      "name": "SM_Named_Aquarium_RoofSurvey",
+      "feature_id": "SP_aquarium",
+      "mesh_path": "data/derived/named-buildings/SM_Named_Aquarium_RoofSurvey.npz",
+      "sha256": "f719a3020d2b723e1b61fe92e84efe4fcee05b12ad1857eaf1b1bcc117166fe6",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 907,
+      "triangles": 852,
+      "bounds_min_m": [
+        807.7009887695312,
+        -317.08599853515625,
+        14.936819180541466
+      ],
+      "bounds_max_m": [
+        918.0280151367188,
+        -126.06099700927734,
+        22.507186661690316
+      ]
+    },
+    {
+      "name": "SM_Named_Aquarium_WallsReview",
+      "feature_id": "SP_aquarium",
+      "mesh_path": "data/derived/named-buildings/SM_Named_Aquarium_WallsReview.npz",
+      "sha256": "c9d9d02c2a08a7c7156af6e29b48a402f697a533592d6a4335e41bdee49e328b",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 1088,
+      "triangles": 544,
+      "bounds_min_m": [
+        807.700989,
+        -317.085999,
+        3.7415298399000365
+      ],
+      "bounds_max_m": [
+        918.028015,
+        -126.060997,
+        22.507186662903493
+      ]
+    },
+    {
+      "name": "SM_Named_Pavilion_RoofStepClosures",
+      "feature_id": "SP_pavilion",
+      "mesh_path": "data/derived/named-buildings/SM_Named_Pavilion_RoofStepClosures.npz",
+      "sha256": "521d7662a6f5a613a1bc774462d5fbda9e469118033b19a7a4eaa1eba8f0b9cd",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 232,
+      "triangles": 116,
+      "bounds_min_m": [
+        646.223511,
+        -335.440002,
+        22.248862255467536
+      ],
+      "bounds_max_m": [
+        681.932495,
+        -297.283005,
+        35.34954054640239
+      ]
+    },
+    {
+      "name": "SM_Named_Pavilion_RoofSurvey",
+      "feature_id": "SP_pavilion",
+      "mesh_path": "data/derived/named-buildings/SM_Named_Pavilion_RoofSurvey.npz",
+      "sha256": "293a4835977f1fc8dd4da02a4aee319a15edc70fef6906b4cb8ce228c9e5294a",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 147,
+      "triangles": 135,
+      "bounds_min_m": [
+        645.3155212402344,
+        -338.7590026855469,
+        22.248862365802093
+      ],
+      "bounds_max_m": [
+        686.4130249023438,
+        -295.53700256347656,
+        35.715560241569094
+      ]
+    },
+    {
+      "name": "SM_Named_Pavilion_WallsReview",
+      "feature_id": "SP_pavilion",
+      "mesh_path": "data/derived/named-buildings/SM_Named_Pavilion_WallsReview.npz",
+      "sha256": "2e44f72f95e6406cc333db5625caf8147f6f6e8656c7a24180751e9d19c32ad6",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 124,
+      "triangles": 62,
+      "bounds_min_m": [
+        645.315521,
+        -338.759003,
+        19.776521641095876
+      ],
+      "bounds_max_m": [
+        686.413025,
+        -295.537003,
+        35.71556041078968
+      ]
+    },
+    {
+      "name": "SM_Named_MalkinBowl_RoofStepClosures",
+      "feature_id": "SP_malkin_bowl",
+      "mesh_path": "data/derived/named-buildings/SM_Named_MalkinBowl_RoofStepClosures.npz",
+      "sha256": "889e0fbce5d206cf6997084737baaba01e29dc5959df36c15ee83e0f42319f77",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 72,
+      "triangles": 36,
+      "bounds_min_m": [
+        676.10199,
+        -463.372986,
+        19.564511769493812
+      ],
+      "bounds_max_m": [
+        711.633484,
+        -388.651505,
+        29.246541091423335
+      ]
+    },
+    {
+      "name": "SM_Named_MalkinBowl_RoofSurvey",
+      "feature_id": "SP_malkin_bowl",
+      "mesh_path": "data/derived/named-buildings/SM_Named_MalkinBowl_RoofSurvey.npz",
+      "sha256": "41115ee1ced46f1b8565b7ec88e62343b9ffa877f12db265af7dae5b90edfba6",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 64,
+      "triangles": 54,
+      "bounds_min_m": [
+        673.9530029296875,
+        -463.4110107421875,
+        19.18153193200598
+      ],
+      "bounds_max_m": [
+        721.2440185546875,
+        -387.9700012207031,
+        29.248969020738404
+      ]
+    },
+    {
+      "name": "SM_Named_MalkinBowl_WallsReview",
+      "feature_id": "SP_malkin_bowl",
+      "mesh_path": "data/derived/named-buildings/SM_Named_MalkinBowl_WallsReview.npz",
+      "sha256": "67fe430fd8dc6e4e310122ff534d37dc287cef78029e0bc8a19b12c1409779dd",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 112,
+      "triangles": 56,
+      "bounds_min_m": [
+        673.953003,
+        -463.411011,
+        12.924894223783664
+      ],
+      "bounds_max_m": [
+        721.244019,
+        -387.970001,
+        29.248969095554664
+      ]
+    },
+    {
+      "name": "SM_Named_RowingClub_RoofStepClosures",
+      "feature_id": "SP_rowing_club",
+      "mesh_path": "data/derived/named-buildings/SM_Named_RowingClub_RoofStepClosures.npz",
+      "sha256": "76b4cefb0e9386fbf723e1891895baf7bff5fa013d3fbe32b72438310e34f931",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 312,
+      "triangles": 156,
+      "bounds_min_m": [
+        625.549988,
+        -673.941498,
+        6.073101482189525
+      ],
+      "bounds_max_m": [
+        659.383972,
+        -650.513,
+        17.506043964881258
+      ]
+    },
+    {
+      "name": "SM_Named_RowingClub_RoofSurvey",
+      "feature_id": "SP_rowing_club",
+      "mesh_path": "data/derived/named-buildings/SM_Named_RowingClub_RoofSurvey.npz",
+      "sha256": "63711d85087f7a1be18b0c392ffd936894499547f526cfadb595887e70199762",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 179,
+      "triangles": 169,
+      "bounds_min_m": [
+        619.8110046386719,
+        -677.6199951171875,
+        5.919628240954662
+      ],
+      "bounds_max_m": [
+        660.0079956054688,
+        -635.8209838867188,
+        17.50604348588461
+      ]
+    },
+    {
+      "name": "SM_Named_RowingClub_WallsReview",
+      "feature_id": "SP_rowing_club",
+      "mesh_path": "data/derived/named-buildings/SM_Named_RowingClub_WallsReview.npz",
+      "sha256": "5d915fd3f122920296b86a9eb357869ef62b7a1d24ba5eed8d09786c976ea40f",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 92,
+      "triangles": 46,
+      "bounds_min_m": [
+        619.811005,
+        -677.619995,
+        -1.7240187533528586
+      ],
+      "bounds_max_m": [
+        660.007996,
+        -635.820984,
+        9.621473126694235
+      ]
+    },
+    {
+      "name": "SM_Named_CricketPavilion_RoofStepClosures",
+      "feature_id": "SP_cricket_pavilion",
+      "mesh_path": "data/derived/named-buildings/SM_Named_CricketPavilion_RoofStepClosures.npz",
+      "sha256": "14bacb6f491dfabd08463efb0dd1540716620fe35acd4d3873461bf473cf2319",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 48,
+      "triangles": 24,
+      "bounds_min_m": [
+        1342.267944,
+        -397.897995,
+        17.416727484840507
+      ],
+      "bounds_max_m": [
+        1360.501465,
+        -379.72699,
+        19.141672174522046
+      ]
+    },
+    {
+      "name": "SM_Named_CricketPavilion_RoofSurvey",
+      "feature_id": "SP_cricket_pavilion",
+      "mesh_path": "data/derived/named-buildings/SM_Named_CricketPavilion_RoofSurvey.npz",
+      "sha256": "9699235f7afeed64c77494e0db358b5d6917a7088204983d018b17b3b042e40b",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 41,
+      "triangles": 37,
+      "bounds_min_m": [
+        1340.2779541015625,
+        -399.3840026855469,
+        11.441736717939666
+      ],
+      "bounds_max_m": [
+        1363.4560546875,
+        -378.02349853515625,
+        19.14167255160369
+      ]
+    },
+    {
+      "name": "SM_Named_CricketPavilion_WallsReview",
+      "feature_id": "SP_cricket_pavilion",
+      "mesh_path": "data/derived/named-buildings/SM_Named_CricketPavilion_WallsReview.npz",
+      "sha256": "6c439fefe67990b7e0e5e541b637ddd99f4277f4178fb473298ebb281a4e211f",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 68,
+      "triangles": 34,
+      "bounds_min_m": [
+        1340.277954,
+        -399.384003,
+        9.350759738631586
+      ],
+      "bounds_max_m": [
+        1363.456055,
+        -378.023499,
+        18.89077264959717
+      ]
+    },
+    {
+      "name": "SM_Named_TotemVisitor_RoofStepClosures",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/named-buildings/SM_Named_TotemVisitor_RoofStepClosures.npz",
+      "sha256": "a311a8db57d785a22f10ff73f2317dc77ec8dd701eeee6e512a4a7d237090f9e",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 36,
+      "triangles": 18,
+      "bounds_min_m": [
+        1560.807983,
+        -355.48999,
+        7.835181119077485
+      ],
+      "bounds_max_m": [
+        1573.791016,
+        -335.329987,
+        8.334205432793855
+      ]
+    },
+    {
+      "name": "SM_Named_TotemVisitor_RoofSurvey",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/named-buildings/SM_Named_TotemVisitor_RoofSurvey.npz",
+      "sha256": "6c44dfd05e2480331f383988e33fb0b69f9e4ec024f6f47c7bf4d63fbbbda071",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 37,
+      "triangles": 33,
+      "bounds_min_m": [
+        1555.362060546875,
+        -366.32049560546875,
+        7.835181106755699
+      ],
+      "bounds_max_m": [
+        1584.5059814453125,
+        -332.93701171875,
+        9.464520928755778
+      ]
+    },
+    {
+      "name": "SM_Named_TotemVisitor_WallsReview",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/named-buildings/SM_Named_TotemVisitor_WallsReview.npz",
+      "sha256": "b56a7f380889581d6839a56cceb1b7de20f24a07c49bfc0ffdfc148869cdff31",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 76,
+      "triangles": 38,
+      "bounds_min_m": [
+        1555.362061,
+        -366.320496,
+        4.134374826459489
+      ],
+      "bounds_max_m": [
+        1584.505981,
+        -332.937012,
+        9.464520982777275
+      ]
+    },
+    {
+      "name": "SM_Named_Teahouse_RoofStepClosures",
+      "feature_id": "SP_teahouse",
+      "mesh_path": "data/derived/named-buildings/SM_Named_Teahouse_RoofStepClosures.npz",
+      "sha256": "3493e6f33b95bfd58ffe1b214e39deb2249c0f14823591f5ade80c8d09caaa4a",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 124,
+      "triangles": 62,
+      "bounds_min_m": [
+        -1026.04895,
+        -158.007004,
+        21.028263087857198
+      ],
+      "bounds_max_m": [
+        -1008.687988,
+        -144.295494,
+        28.924596882261103
+      ]
+    },
+    {
+      "name": "SM_Named_Teahouse_RoofSurvey",
+      "feature_id": "SP_teahouse",
+      "mesh_path": "data/derived/named-buildings/SM_Named_Teahouse_RoofSurvey.npz",
+      "sha256": "44582b9727efeff3eb578b9d556f590144267d77d61dd315938b5266eb82191c",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 80,
+      "triangles": 74,
+      "bounds_min_m": [
+        -1027.7330322265625,
+        -171.75999450683594,
+        20.697002892940972
+      ],
+      "bounds_max_m": [
+        -1008.4409790039062,
+        -136.3179931640625,
+        28.924596479762414
+      ]
+    },
+    {
+      "name": "SM_Named_Teahouse_WallsReview",
+      "feature_id": "SP_teahouse",
+      "mesh_path": "data/derived/named-buildings/SM_Named_Teahouse_WallsReview.npz",
+      "sha256": "317dff14e0f7140e52cdcbc85fdf83b42aeef08993827b972e168c7a4481bbbc",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 72,
+      "triangles": 36,
+      "bounds_min_m": [
+        -1027.733032,
+        -171.759995,
+        17.76110363463352
+      ],
+      "bounds_max_m": [
+        -1008.440979,
+        -136.317993,
+        27.9552379213359
+      ]
+    },
+    {
+      "name": "SM_Named_SecondPoolFacilities_RoofStepClosures",
+      "feature_id": "SP_second_pool",
+      "mesh_path": "data/derived/named-buildings/SM_Named_SecondPoolFacilities_RoofStepClosures.npz",
+      "sha256": "cffc817e92f9e9536a849a2cb5de4c2b46a28c872d068f06e39589fe16e18947",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 180,
+      "triangles": 90,
+      "bounds_min_m": [
+        -569.669006,
+        -784.344971,
+        6.069857431196819
+      ],
+      "bounds_max_m": [
+        -541.780029,
+        -746.42834,
+        9.233848902332612
+      ]
+    },
+    {
+      "name": "SM_Named_SecondPoolFacilities_RoofSurvey",
+      "feature_id": "SP_second_pool",
+      "mesh_path": "data/derived/named-buildings/SM_Named_SecondPoolFacilities_RoofSurvey.npz",
+      "sha256": "f3a9a02a5ca8233def90550633562860af600b7029e93f8f82cc31b22ed52a97",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 136,
+      "triangles": 124,
+      "bounds_min_m": [
+        -577.7000122070312,
+        -789.6939697265625,
+        6.069857475621601
+      ],
+      "bounds_max_m": [
+        -540.6510009765625,
+        -746.1329956054688,
+        9.233848908185628
+      ]
+    },
+    {
+      "name": "SM_Named_SecondPoolFacilities_WallsReview",
+      "feature_id": "SP_second_pool",
+      "mesh_path": "data/derived/named-buildings/SM_Named_SecondPoolFacilities_WallsReview.npz",
+      "sha256": "7ed84df37032bd9ec591e81d16e43327a1e593c49c2e4872dfa31e7623fd9cce",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 192,
+      "triangles": 96,
+      "bounds_min_m": [
+        -577.700012,
+        -789.69397,
+        3.3240561657172023
+      ],
+      "bounds_max_m": [
+        -540.651001,
+        -746.132996,
+        9.013535630135886
+      ]
+    },
+    {
+      "name": "SM_Named_LumbermanConcession_RoofStepClosures",
+      "feature_id": "SP_lumberman_concession",
+      "mesh_path": "data/derived/named-buildings/SM_Named_LumbermanConcession_RoofStepClosures.npz",
+      "sha256": "562f7732bb10c1d3530177e9dcbf75b1adfcf54585c306e46e9f143a01419801",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 160,
+      "triangles": 80,
+      "bounds_min_m": [
+        844.68103,
+        14.883,
+        9.350313680172047
+      ],
+      "bounds_max_m": [
+        860.920502,
+        29.966,
+        15.249447674052934
+      ]
+    },
+    {
+      "name": "SM_Named_LumbermanConcession_RoofSurvey",
+      "feature_id": "SP_lumberman_concession",
+      "mesh_path": "data/derived/named-buildings/SM_Named_LumbermanConcession_RoofSurvey.npz",
+      "sha256": "1a11246dd40f452b1fcf61d37dfb8c55762524f1dedc9cbdd52ce49e47981cee",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 93,
+      "triangles": 79,
+      "bounds_min_m": [
+        844.427978515625,
+        10.980999946594238,
+        9.35031373112276
+      ],
+      "bounds_max_m": [
+        863.8499755859375,
+        31.759000778198242,
+        15.249447603573927
+      ]
+    },
+    {
+      "name": "SM_Named_LumbermanConcession_WallsReview",
+      "feature_id": "SP_lumberman_concession",
+      "mesh_path": "data/derived/named-buildings/SM_Named_LumbermanConcession_WallsReview.npz",
+      "sha256": "ac70494648030ca35cbff954e0387e901ab15848f7cb28cec7296545048f30ac",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 52,
+      "triangles": 26,
+      "bounds_min_m": [
+        844.427979,
+        10.981,
+        6.780593581098366
+      ],
+      "bounds_max_m": [
+        863.849976,
+        31.759001,
+        11.950983601397962
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_aquarium",
+      "name": "Vancouver Aquarium exterior",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://www.vanaqua.org/Contact-Us",
+        "evidence/corridor/ortho-utm/named-central-buildings.json",
+        "manifests/lidar2022-490000_5460000.json"
+      ],
+      "measured": {
+        "source_roof_ids": [
+          "lidar2022_490000_5460000_27",
+          "lidar2022_490000_5460000_31",
+          "lidar2022_490000_5460000_36",
+          "lidar2022_490000_5460000_38"
+        ],
+        "roof_returns": 30220,
+        "sampling_m": 0.8,
+        "roof_min_m": 14.936819180541466,
+        "roof_max_m": 22.507186661690316,
+        "centroid_local_m": [
+          879.9595733072291,
+          -225.60890639596388
+        ],
+        "source_extent_area_m2": 14080.555912766675
+      },
+      "estimates": {
+        "walls": "Vertical extrusion of roof boundary to terrain, not independently measured wall faces"
+      },
+      "limits": "Large eastern complex beside Avison Way; outdoor pool courtyards retained as roof gaps; northern service roof included. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_490000_5460000_27",
+        "lidar2022_490000_5460000_31",
+        "lidar2022_490000_5460000_36",
+        "lidar2022_490000_5460000_38"
+      ],
+      "identity_review": "Official-map layout, individual operator/City reference and City 2022 orthophoto reviewed together",
+      "roof_plane_review": {
+        "seed": 731,
+        "planes": [
+          {
+            "coefficients_local": [
+              -0.005181885389034235,
+              -0.008398053671736143,
+              18.62673265119246
+            ],
+            "support_vertices": 1563,
+            "median_abs_residual_m": 0.058626939853368754
+          },
+          {
+            "coefficients_local": [
+              0.0016696778390076171,
+              0.002690278885268268,
+              18.018904271714256
+            ],
+            "support_vertices": 1165,
+            "median_abs_residual_m": 0.03272670827247737
+          },
+          {
+            "coefficients_local": [
+              0.0031754831718641702,
+              0.008275097508987469,
+              21.397876800907422
+            ],
+            "support_vertices": 1568,
+            "median_abs_residual_m": 0.04920696165141969
+          },
+          {
+            "coefficients_local": [
+              -0.003930344207169813,
+              0.0030807850947093865,
+              19.157242377651716
+            ],
+            "support_vertices": 700,
+            "median_abs_residual_m": 0.03551362949923487
+          },
+          {
+            "coefficients_local": [
+              -0.013418079005319383,
+              -0.03532534269126993,
+              18.97730443060479
+            ],
+            "support_vertices": 423,
+            "median_abs_residual_m": 0.05048549299069549
+          },
+          {
+            "coefficients_local": [
+              0.025014741600230424,
+              -0.04036870910234045,
+              18.895351273153814
+            ],
+            "support_vertices": 234,
+            "median_abs_residual_m": 0.06854878178682178
+          },
+          {
+            "coefficients_local": [
+              -0.0021208292801683988,
+              -0.0006328348458271046,
+              22.420805958981216
+            ],
+            "support_vertices": 637,
+            "median_abs_residual_m": 0.028375811726927935
+          },
+          {
+            "coefficients_local": [
+              0.016294061321385857,
+              -0.009534564387836028,
+              17.039762301662844
+            ],
+            "support_vertices": 177,
+            "median_abs_residual_m": 0.0348484528299835
+          },
+          {
+            "coefficients_local": [
+              -0.0024350647180998515,
+              -0.01678155817174913,
+              19.081686699249374
+            ],
+            "support_vertices": 85,
+            "median_abs_residual_m": 0.04111105013276273
+          },
+          {
+            "coefficients_local": [
+              0.0005865195909595092,
+              -0.0008693541811634507,
+              21.25033483004169
+            ],
+            "support_vertices": 291,
+            "median_abs_residual_m": 0.017306971122462045
+          },
+          {
+            "coefficients_local": [
+              -0.0009900017504608817,
+              -0.0019858456224168086,
+              18.426465175574762
+            ],
+            "support_vertices": 87,
+            "median_abs_residual_m": 0.01326402264039217
+          }
+        ],
+        "coordinate_origin_xy_m": [
+          882.3527072734292,
+          -230.7216369255317
+        ],
+        "direct_plane_support": 6930,
+        "vertices": 13070,
+        "unsupported_vertices_snapped_to_nearby_plane": 6140,
+        "displacement_p95_m": 4.755503644943045,
+        "displacement_max_m": 8.59924738999219,
+        "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+        "boundary_simplification_m": 0.85,
+        "spatial_label_vote": "13 neighbours, two passes; no height blending",
+        "planes_retained": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "discarded_tiny_patch_area_m2": 1.8631248543441346,
+        "patch_regions": 56,
+        "roof_triangles": 852
+      }
+    },
+    {
+      "id": "SP_pavilion",
+      "name": "Stanley Park Pavilion",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://stanleyparkpavilion.com/faq/",
+        "evidence/corridor/ortho-utm/named-central-buildings.json",
+        "manifests/lidar2022-490000_5460000.json"
+      ],
+      "measured": {
+        "source_roof_ids": [
+          "lidar2022_490000_5460000_25"
+        ],
+        "roof_returns": 3853,
+        "sampling_m": 0.8,
+        "roof_min_m": 22.248862365802093,
+        "roof_max_m": 35.715560241569094,
+        "centroid_local_m": [
+          664.7246301352573,
+          -319.03486301136667
+        ],
+        "source_extent_area_m2": 1300.3748054456241
+      },
+      "estimates": {
+        "walls": "Vertical extrusion of roof boundary to terrain, not independently measured wall faces"
+      },
+      "limits": "Building north of the circular garden, west of Aquarium, at 610 Pipeline Road. Roof survey includes the multiple pitched wings. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_490000_5460000_25"
+      ],
+      "identity_review": "Official-map layout, individual operator/City reference and City 2022 orthophoto reviewed together",
+      "roof_plane_review": {
+        "seed": 731,
+        "planes": [
+          {
+            "coefficients_local": [
+              -0.16802214692740752,
+              0.5473431901579496,
+              34.74643487426185
+            ],
+            "support_vertices": 284,
+            "median_abs_residual_m": 0.041521208139831955
+          },
+          {
+            "coefficients_local": [
+              0.17498475601899813,
+              -0.553930523318066,
+              31.805276817409617
+            ],
+            "support_vertices": 216,
+            "median_abs_residual_m": 0.03285462271135309
+          },
+          {
+            "coefficients_local": [
+              0.5585817646036001,
+              0.17341068658464306,
+              28.705537914166715
+            ],
+            "support_vertices": 192,
+            "median_abs_residual_m": 0.02439283502252465
+          },
+          {
+            "coefficients_local": [
+              0.16871611625202979,
+              -0.527173766538573,
+              26.877046670660473
+            ],
+            "support_vertices": 145,
+            "median_abs_residual_m": 0.03625245021086698
+          },
+          {
+            "coefficients_local": [
+              -0.5603677523977265,
+              -0.16806707468459434,
+              29.254066890575658
+            ],
+            "support_vertices": 134,
+            "median_abs_residual_m": 0.024798585631693015
+          },
+          {
+            "coefficients_local": [
+              -0.5424504824883015,
+              -0.17426262806830317,
+              32.097120606972446
+            ],
+            "support_vertices": 86,
+            "median_abs_residual_m": 0.021604262577222144
+          }
+        ],
+        "coordinate_origin_xy_m": [
+          665.8684695867391,
+          -319.09191968807806
+        ],
+        "direct_plane_support": 1057,
+        "vertices": 1664,
+        "unsupported_vertices_snapped_to_nearby_plane": 607,
+        "displacement_p95_m": 4.848487963580866,
+        "displacement_max_m": 10.362595062381963,
+        "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+        "boundary_simplification_m": 0.85,
+        "spatial_label_vote": "13 neighbours, two passes; no height blending",
+        "planes_retained": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "discarded_tiny_patch_area_m2": 0.0,
+        "patch_regions": 6,
+        "roof_triangles": 135
+      }
+    },
+    {
+      "id": "SP_malkin_bowl",
+      "name": "Malkin Bowl stage and entrance building",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://www.malkinbowl.com/getting-here",
+        "evidence/corridor/ortho-utm/named-central-buildings.json",
+        "manifests/lidar2022-490000_5460000.json"
+      ],
+      "measured": {
+        "source_roof_ids": [
+          "lidar2022_490000_5460000_21",
+          "lidar2022_490000_5460000_22"
+        ],
+        "roof_returns": 1529,
+        "sampling_m": 0.8,
+        "roof_min_m": 19.18153193200598,
+        "roof_max_m": 29.248969020738404,
+        "centroid_local_m": [
+          696.1708507537842,
+          -429.2608914375305
+        ],
+        "source_extent_area_m2": 561.255049595371
+      },
+      "estimates": {
+        "walls": "Vertical extrusion of roof boundary to terrain, not independently measured wall faces"
+      },
+      "limits": "Stage at south end of the open seating lawn; small northern entrance roof opposite Pavilion. Seating and temporary event equipment not modeled. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_490000_5460000_21",
+        "lidar2022_490000_5460000_22"
+      ],
+      "identity_review": "Official-map layout, individual operator/City reference and City 2022 orthophoto reviewed together",
+      "roof_plane_review": {
+        "seed": 731,
+        "planes": [
+          {
+            "coefficients_local": [
+              0.0006753172288226166,
+              -0.0026229783574771687,
+              22.849224375824978
+            ],
+            "support_vertices": 70,
+            "median_abs_residual_m": 0.06584075553939428
+          },
+          {
+            "coefficients_local": [
+              0.11670514451594403,
+              0.5928731439891782,
+              33.14107821660635
+            ],
+            "support_vertices": 50,
+            "median_abs_residual_m": 0.07205274703330566
+          },
+          {
+            "coefficients_local": [
+              -0.4141885361021125,
+              0.4092210846591125,
+              33.864652363387435
+            ],
+            "support_vertices": 62,
+            "median_abs_residual_m": 0.06978684584116301
+          },
+          {
+            "coefficients_local": [
+              -0.3588351531922542,
+              -0.11275657956464187,
+              20.668257497696388
+            ],
+            "support_vertices": 39,
+            "median_abs_residual_m": 0.01796734262522648
+          },
+          {
+            "coefficients_local": [
+              0.3405804223648628,
+              0.105518430171997,
+              26.36227273459307
+            ],
+            "support_vertices": 36,
+            "median_abs_residual_m": 0.034669896073959094
+          }
+        ],
+        "coordinate_origin_xy_m": [
+          701.976311843333,
+          -438.77877498222387
+        ],
+        "direct_plane_support": 257,
+        "vertices": 651,
+        "unsupported_vertices_snapped_to_nearby_plane": 394,
+        "displacement_p95_m": 5.124198714422361,
+        "displacement_max_m": 11.971314283656671,
+        "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+        "boundary_simplification_m": 0.85,
+        "spatial_label_vote": "13 neighbours, two passes; no height blending",
+        "planes_retained": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "discarded_tiny_patch_area_m2": 0.0,
+        "patch_regions": 5,
+        "roof_triangles": 54
+      }
+    },
+    {
+      "id": "SP_rowing_club",
+      "name": "Vancouver Rowing Club",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouverrowingclub.ca/Club_Info/VRC_RCS",
+        "evidence/corridor/ortho-utm/named-harbour-buildings.json",
+        "manifests/lidar2022-490000_5460000.json"
+      ],
+      "measured": {
+        "source_roof_ids": [
+          "lidar2022_490000_5460000_18"
+        ],
+        "roof_returns": 4344,
+        "sampling_m": 0.8,
+        "roof_min_m": 5.919628240954662,
+        "roof_max_m": 17.50604348588461,
+        "centroid_local_m": [
+          643.1882675426632,
+          -660.0936110512505
+        ],
+        "source_extent_area_m2": 1393.7594838465072
+      },
+      "estimates": {
+        "walls": "Vertical extrusion of roof boundary to terrain, not independently measured wall faces"
+      },
+      "limits": "Distinct pitched waterfront roof at north-west corner of Coal Harbour, beside the first jetty. Dock and boat geometry is separate. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_490000_5460000_18"
+      ],
+      "identity_review": "Official-map layout, individual operator/City reference and City 2022 orthophoto reviewed together",
+      "roof_plane_review": {
+        "seed": 731,
+        "planes": [
+          {
+            "coefficients_local": [
+              -0.006097983998293972,
+              -0.001356168340517503,
+              6.749313410360559
+            ],
+            "support_vertices": 529,
+            "median_abs_residual_m": 0.03716467732040929
+          },
+          {
+            "coefficients_local": [
+              -0.019421439360193696,
+              -0.0019069101973408023,
+              9.848580362854173
+            ],
+            "support_vertices": 99,
+            "median_abs_residual_m": 0.011250143327261597
+          },
+          {
+            "coefficients_local": [
+              0.11075523541978008,
+              -0.9164337968010297,
+              11.085006983395763
+            ],
+            "support_vertices": 63,
+            "median_abs_residual_m": 0.046396931482620474
+          },
+          {
+            "coefficients_local": [
+              -0.0010924693658000302,
+              0.042397215781513876,
+              6.819883533604565
+            ],
+            "support_vertices": 56,
+            "median_abs_residual_m": 0.008530705657581183
+          },
+          {
+            "coefficients_local": [
+              -0.13515146840345263,
+              0.947620892101244,
+              21.446726299337374
+            ],
+            "support_vertices": 93,
+            "median_abs_residual_m": 0.029819362726243526
+          }
+        ],
+        "coordinate_origin_xy_m": [
+          640.4543788321909,
+          -656.0359232908281
+        ],
+        "direct_plane_support": 840,
+        "vertices": 1823,
+        "unsupported_vertices_snapped_to_nearby_plane": 983,
+        "displacement_p95_m": 4.318271138573224,
+        "displacement_max_m": 8.103190836272336,
+        "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+        "boundary_simplification_m": 0.85,
+        "spatial_label_vote": "13 neighbours, two passes; no height blending",
+        "planes_retained": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "discarded_tiny_patch_area_m2": 0.5012044184841216,
+        "patch_regions": 6,
+        "roof_triangles": 169
+      }
+    },
+    {
+      "id": "SP_cricket_pavilion",
+      "name": "Brockton Cricket Pavilion",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://parkboardmeetings.vancouver.ca/2005/050509/brockton_totem_poles_gift_shop_licence.pdf",
+        "evidence/corridor/ortho-utm/named-east-buildings.json",
+        "manifests/lidar2022-490000_5460000.json"
+      ],
+      "measured": {
+        "source_roof_ids": [
+          "lidar2022_490000_5460000_23"
+        ],
+        "roof_returns": 1211,
+        "sampling_m": 0.8,
+        "roof_min_m": 11.441736717939666,
+        "roof_max_m": 19.14167255160369,
+        "centroid_local_m": [
+          1351.9582981016579,
+          -388.72682003858614
+        ],
+        "source_extent_area_m2": 397.73936172095273
+      },
+      "estimates": {
+        "walls": "Vertical extrusion of roof boundary to terrain, not independently measured wall faces"
+      },
+      "limits": "Pavilion between Brockton Oval and the cricket ground; distinguished from the western oval grandstand. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_490000_5460000_23"
+      ],
+      "identity_review": "Official-map layout, individual operator/City reference and City 2022 orthophoto reviewed together",
+      "roof_plane_review": {
+        "seed": 731,
+        "planes": [
+          {
+            "coefficients_local": [
+              0.4435415624053152,
+              0.4838808910201703,
+              18.476052430121758
+            ],
+            "support_vertices": 163,
+            "median_abs_residual_m": 0.02529901548654223
+          },
+          {
+            "coefficients_local": [
+              -0.4383710438062114,
+              -0.48169250966763033,
+              18.07762334076529
+            ],
+            "support_vertices": 129,
+            "median_abs_residual_m": 0.02420667522440567
+          }
+        ],
+        "coordinate_origin_xy_m": [
+          1351.9694971026797,
+          -388.4452489217122
+        ],
+        "direct_plane_support": 292,
+        "vertices": 528,
+        "unsupported_vertices_snapped_to_nearby_plane": 236,
+        "displacement_p95_m": 2.659744558538521,
+        "displacement_max_m": 4.9029572028158555,
+        "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+        "boundary_simplification_m": 0.85,
+        "spatial_label_vote": "13 neighbours, two passes; no height blending",
+        "planes_retained": [
+          0,
+          1
+        ],
+        "discarded_tiny_patch_area_m2": 0.0,
+        "patch_regions": 2,
+        "roof_triangles": 37
+      }
+    },
+    {
+      "id": "SP_totem_precinct",
+      "name": "Brockton Point Totem Pole Visitor Centre",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://parkboardmeetings.vancouver.ca/2005/050509/brockton_totem_poles_gift_shop_licence.pdf",
+        "evidence/corridor/ortho-utm/named-east-buildings.json",
+        "manifests/lidar2022-491000_5460000.json"
+      ],
+      "measured": {
+        "source_roof_ids": [
+          "lidar2022_491000_5460000_12"
+        ],
+        "roof_returns": 1424,
+        "sampling_m": 0.8,
+        "roof_min_m": 7.835181106755699,
+        "roof_max_m": 9.464520928755778,
+        "centroid_local_m": [
+          1569.6617134712837,
+          -345.7504049765097
+        ],
+        "source_extent_area_m2": 590.0858535811864
+      },
+      "estimates": {
+        "walls": "Vertical extrusion of roof boundary to terrain, not independently measured wall faces"
+      },
+      "limits": "Visitor centre at the north-west side of the Totem Pole court. This asset does not stand in for the individual poles or artwork. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_491000_5460000_12"
+      ],
+      "identity_review": "Official-map layout, individual operator/City reference and City 2022 orthophoto reviewed together",
+      "roof_plane_review": {
+        "seed": 731,
+        "planes": [
+          {
+            "coefficients_local": [
+              0.10104185062592651,
+              -0.07028901615511673,
+              8.34534520941778
+            ],
+            "support_vertices": 456,
+            "median_abs_residual_m": 0.023701470590625107
+          },
+          {
+            "coefficients_local": [
+              -0.1047773123476031,
+              0.07246465731158803,
+              7.808934532679736
+            ],
+            "support_vertices": 245,
+            "median_abs_residual_m": 0.0117733307310246
+          }
+        ],
+        "coordinate_origin_xy_m": [
+          1569.6185817395226,
+          -348.2899305268196
+        ],
+        "direct_plane_support": 701,
+        "vertices": 708,
+        "unsupported_vertices_snapped_to_nearby_plane": 7,
+        "displacement_p95_m": 0.12363278345822884,
+        "displacement_max_m": 0.400054041687973,
+        "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+        "boundary_simplification_m": 0.85,
+        "spatial_label_vote": "13 neighbours, two passes; no height blending",
+        "planes_retained": [
+          0,
+          1
+        ],
+        "discarded_tiny_patch_area_m2": 0.0,
+        "patch_regions": 2,
+        "roof_triangles": 33
+      }
+    },
+    {
+      "id": "SP_teahouse",
+      "name": "Ferguson Point Teahouse",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/parks-recreation-culture/stories-from-inside-the-park.aspx",
+        "evidence/corridor/ortho-utm/named-teahouse.json",
+        "manifests/lidar2022-488000_5460000.json"
+      ],
+      "measured": {
+        "source_roof_ids": [
+          "lidar2022_488000_5460000_1"
+        ],
+        "roof_returns": 1640,
+        "sampling_m": 0.8,
+        "roof_min_m": 20.697002892940972,
+        "roof_max_m": 28.924596479762414,
+        "centroid_local_m": [
+          -1017.4613609313965,
+          -150.85406284332277
+        ],
+        "source_extent_area_m2": 572.6897601982615
+      },
+      "estimates": {
+        "walls": "Vertical extrusion of roof boundary to terrain, not independently measured wall faces"
+      },
+      "limits": "Measured pitched roof and conservatory at the Ferguson Point hairpin. Figure-based registry placements are not used. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_488000_5460000_1"
+      ],
+      "identity_review": "Official-map layout, individual operator/City reference and City 2022 orthophoto reviewed together",
+      "roof_plane_review": {
+        "seed": 731,
+        "planes": [
+          {
+            "coefficients_local": [
+              -0.011043424781279673,
+              -0.030326737299586234,
+              21.376937324382272
+            ],
+            "support_vertices": 166,
+            "median_abs_residual_m": 0.06876160818225863
+          },
+          {
+            "coefficients_local": [
+              -0.2453218681471945,
+              -0.6226192168520281,
+              31.020469834903775
+            ],
+            "support_vertices": 91,
+            "median_abs_residual_m": 0.03410445016799457
+          },
+          {
+            "coefficients_local": [
+              -0.013696939059314215,
+              -0.004901142657516717,
+              21.224260746651535
+            ],
+            "support_vertices": 41,
+            "median_abs_residual_m": 0.023258330786063652
+          }
+        ],
+        "coordinate_origin_xy_m": [
+          -1018.5335956047497,
+          -153.12417861958903
+        ],
+        "direct_plane_support": 298,
+        "vertices": 747,
+        "unsupported_vertices_snapped_to_nearby_plane": 449,
+        "displacement_p95_m": 3.1622039083806457,
+        "displacement_max_m": 7.071021347193643,
+        "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+        "boundary_simplification_m": 0.85,
+        "spatial_label_vote": "13 neighbours, two passes; no height blending",
+        "planes_retained": [
+          0,
+          1,
+          2
+        ],
+        "discarded_tiny_patch_area_m2": 0.0,
+        "patch_regions": 3,
+        "roof_triangles": 74
+      }
+    },
+    {
+      "id": "SP_second_pool",
+      "name": "Second Beach pool facilities",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/parks-recreation-culture/second-beach-pool.aspx",
+        "evidence/corridor/ortho-utm/named-second-pool.json",
+        "manifests/lidar2022-489000_5460000.json"
+      ],
+      "measured": {
+        "source_roof_ids": [
+          "lidar2022_489000_5460000_28",
+          "lidar2022_489000_5460000_29"
+        ],
+        "roof_returns": 1899,
+        "sampling_m": 0.8,
+        "roof_min_m": 6.069857475621601,
+        "roof_max_m": 9.233848908185628,
+        "centroid_local_m": [
+          -560.7836938094347,
+          -768.770452539793
+        ],
+        "source_extent_area_m2": 930.2731927471
+      },
+      "estimates": {
+        "walls": "Vertical extrusion of roof boundary to terrain, not independently measured wall faces"
+      },
+      "limits": "Curved concession/change building north-east of pool, plus small roof near pool deck. Pool basin is a separate form. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_489000_5460000_28",
+        "lidar2022_489000_5460000_29"
+      ],
+      "identity_review": "Official-map layout, individual operator/City reference and City 2022 orthophoto reviewed together",
+      "roof_plane_review": {
+        "seed": 731,
+        "planes": [
+          {
+            "coefficients_local": [
+              -0.002435260704049196,
+              -0.001872555440476094,
+              6.712739610521111
+            ],
+            "support_vertices": 405,
+            "median_abs_residual_m": 0.06306171061676125
+          },
+          {
+            "coefficients_local": [
+              -0.0734220735786923,
+              -0.06508613802117878,
+              6.425490279261899
+            ],
+            "support_vertices": 148,
+            "median_abs_residual_m": 0.0407154584518139
+          },
+          {
+            "coefficients_local": [
+              0.03611060971051001,
+              0.0005375237451202817,
+              6.6744931216412215
+            ],
+            "support_vertices": 74,
+            "median_abs_residual_m": 0.049156188130533796
+          },
+          {
+            "coefficients_local": [
+              -0.04684767090792735,
+              -0.03844254996122742,
+              9.124922655283223
+            ],
+            "support_vertices": 98,
+            "median_abs_residual_m": 0.0357179144518005
+          }
+        ],
+        "coordinate_origin_xy_m": [
+          -559.2948664243306,
+          -769.249981768293
+        ],
+        "direct_plane_support": 725,
+        "vertices": 929,
+        "unsupported_vertices_snapped_to_nearby_plane": 204,
+        "displacement_p95_m": 1.8614708688937107,
+        "displacement_max_m": 2.882875640443519,
+        "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+        "boundary_simplification_m": 0.85,
+        "spatial_label_vote": "13 neighbours, two passes; no height blending",
+        "planes_retained": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "discarded_tiny_patch_area_m2": 0.8598462929238508,
+        "patch_regions": 11,
+        "roof_triangles": 124
+      }
+    },
+    {
+      "id": "SP_lumberman_concession",
+      "name": "Lumberman's Arch concession",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/parks-recreation-culture/stanley-park-water-park.aspx",
+        "evidence/corridor/ortho-utm/named-lumberman-wide.json",
+        "manifests/lidar2022-490000_5461000.json"
+      ],
+      "measured": {
+        "source_roof_ids": [
+          "lidar2022_490000_5461000_5"
+        ],
+        "roof_returns": 1402,
+        "sampling_m": 0.8,
+        "roof_min_m": 9.35031373112276,
+        "roof_max_m": 15.249447603573927,
+        "centroid_local_m": [
+          853.6943572669901,
+          21.945064631841515
+        ],
+        "source_extent_area_m2": 354.668079727946
+      },
+      "estimates": {
+        "walls": "Vertical extrusion of roof boundary to terrain, not independently measured wall faces"
+      },
+      "limits": "Concession behind water park across Stanley Park Drive. This is not the cedar arch, whose placement remains unresolved. M1 form only; roof holes and small appendages, facades, steps, railings and interiors remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_490000_5461000_5"
+      ],
+      "identity_review": "Official-map layout, individual operator/City reference and City 2022 orthophoto reviewed together",
+      "roof_plane_review": {
+        "seed": 731,
+        "planes": [
+          {
+            "coefficients_local": [
+              -0.005129065596756892,
+              0.0008684212393983738,
+              10.609236879131469
+            ],
+            "support_vertices": 143,
+            "median_abs_residual_m": 0.025362273144491354
+          },
+          {
+            "coefficients_local": [
+              -0.14623537933489983,
+              -0.9396043689081032,
+              18.208422711604378
+            ],
+            "support_vertices": 72,
+            "median_abs_residual_m": 0.03856896122254749
+          },
+          {
+            "coefficients_local": [
+              0.1549354312381537,
+              0.9480094298085081,
+              16.719509183093486
+            ],
+            "support_vertices": 59,
+            "median_abs_residual_m": 0.04342709562386915
+          },
+          {
+            "coefficients_local": [
+              -0.000977792393808107,
+              0.008465381021134545,
+              12.881335426471194
+            ],
+            "support_vertices": 54,
+            "median_abs_residual_m": 0.02069459464051704
+          },
+          {
+            "coefficients_local": [
+              0.924934888630328,
+              -0.15466878054842004,
+              18.7789678584041
+            ],
+            "support_vertices": 50,
+            "median_abs_residual_m": 0.029347868863661475
+          },
+          {
+            "coefficients_local": [
+              -0.9085225716492676,
+              0.1434426080673295,
+              15.970147229506068
+            ],
+            "support_vertices": 53,
+            "median_abs_residual_m": 0.024251074559737518
+          }
+        ],
+        "coordinate_origin_xy_m": [
+          854.4928740183512,
+          22.08486353357633
+        ],
+        "direct_plane_support": 431,
+        "vertices": 480,
+        "unsupported_vertices_snapped_to_nearby_plane": 49,
+        "displacement_p95_m": 0.3970392593152916,
+        "displacement_max_m": 4.434145049561096,
+        "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+        "boundary_simplification_m": 0.85,
+        "spatial_label_vote": "13 neighbours, two passes; no height blending",
+        "planes_retained": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "discarded_tiny_patch_area_m2": 0.0,
+        "patch_regions": 7,
+        "roof_triangles": 79
+      }
+    }
+  ],
+  "acceptance": false,
+  "method": "Reconstructed class-6 roof surfaces; individually identified records; walls are explicit extrusion estimates",
+  "reference_rights": "Official map, operator pages, City photos and tender drawings are reference only. City survey derivatives use OGL-Vancouver.",
+  "input_hashes": {
+    "manifests/lidar2022-490000_5460000.json": "a887050e08dad153cf8c93f8747807a427b2773734d9cc7ea4c6a9327edd60e4",
+    "manifests/lidar2022-491000_5460000.json": "903d04c6d96034b304fa85cde060d0e5d363d2e9a619f3eec7dee470011c138a",
+    "manifests/lidar2022-488000_5460000.json": "88a8b35bed14452fcdf00d47f21aaa9ef984bdb45d06b62ebb6a3f7e443f5fe8",
+    "manifests/lidar2022-489000_5460000.json": "53e532855d167470c0fba67385646972d72dbb096aef5bb54e2341e563adab3c",
+    "manifests/lidar2022-490000_5461000.json": "f78124fdb6247d68b1bf68c4411ff0727836c8acee05b6a67961563f6820e7ad"
+  }
+}

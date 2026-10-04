@@ -1,0 +1,18 @@
+{
+  "id": "port-view",
+  "extraction_centre_local_m": [
+    1932,
+    -258
+  ],
+  "extraction_radius_m": 28,
+  "source": "manifests/lidar2022-491000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 52754,
+  "output": {
+    "path": "data/derived/named-port-view-survey.npz",
+    "sha256": "514cbd8a0ba381e4a9f5f2f7d5106f7d48557d4bab581fa6a7ee5d263be50992"
+  }
+}

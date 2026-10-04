@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "source_manifest": "exports/m3-edges/16523863637c/manifest.json",
+  "source_manifest_sha256": "c870b450e6273d3efee83eba94f3239acfa4166efcdff568fed0d2adac6799e4",
+  "scope": "Source analysis of exported placements; no actual view acceptance.",
+  "total_stones": 2830,
+  "retained_pilot_stones": 749,
+  "new_stones": 2081,
+  "placement_attempts": 11830,
+  "sections_with_stones": 33,
+  "zero_stone_sections": [
+    {
+      "id": "section_032",
+      "start_m": 8000,
+      "end_m": 8250,
+      "attempts": 320,
+      "exclusions": {
+        "away_from_approximate_coast": 316,
+        "no_low_shore_surface": 4
+      }
+    },
+    {
+      "id": "section_033",
+      "start_m": 8250,
+      "end_m": 8500,
+      "attempts": 310,
+      "exclusions": {
+        "away_from_approximate_coast": 310
+      }
+    },
+    {
+      "id": "section_034",
+      "start_m": 8500,
+      "end_m": 8750,
+      "attempts": 310,
+      "exclusions": {
+        "away_from_approximate_coast": 310
+      }
+    },
+    {
+      "id": "section_035",
+      "start_m": 8750,
+      "end_m": 9000,
+      "attempts": 310,
+      "exclusions": {
+        "away_from_approximate_coast": 310
+      }
+    },
+    {
+      "id": "section_036",
+      "start_m": 9000,
+      "end_m": 9250,
+      "attempts": 320,
+      "exclusions": {
+        "away_from_approximate_coast": 320
+      }
+    }
+  ],
+  "largest_station_gap_m": [
+    7936,
+    9432
+  ],
+  "station_gap_limit": "These are generating route stations, not continuous visibility measurements or distances between stone bounds.",
+  "material_override_count": 50,
+  "priorities": [
+    {
+      "id": "return_gap",
+      "stations_m": [
+        7750,
+        8000,
+        8059,
+        8250,
+        8344,
+        8500,
+        8750,
+        9000,
+        9250,
+        9280,
+        9432
+      ],
+      "sections": [
+        "section_031",
+        "section_032",
+        "section_033",
+        "section_034",
+        "section_035",
+        "section_036",
+        "section_037"
+      ],
+      "reason": "No placement stations between 7936 and 9432 m. Check Second Beach, the required return, Nature House and the return join. The approximate coast mask rejected nearly all new candidates in sections 032-036. Do not infer that these views have no visible shore."
+    },
+    {
+      "id": "pilot_density_boundaries",
+      "stations_m": [
+        5200,
+        5500,
+        5600,
+        5750,
+        6000,
+        6040,
+        6250,
+        6330,
+        6500,
+        7400,
+        7500,
+        7580,
+        7750
+      ],
+      "sections": [
+        "section_020",
+        "section_021",
+        "section_022",
+        "section_023",
+        "section_024",
+        "section_025",
+        "section_026",
+        "section_029",
+        "section_030",
+        "section_031"
+      ],
+      "reason": "Retained M2 placements add density within the pilot bands. Check that density changes do not appear as straight edges or isolated patches."
+    },
+    {
+      "id": "low_coastal_density",
+      "stations_m": [
+        1500,
+        1613,
+        1710,
+        2000,
+        2017,
+        2141,
+        7000,
+        7048,
+        7216,
+        7250
+      ],
+      "sections": [
+        "section_006",
+        "section_008",
+        "section_028"
+      ],
+      "reason": "These sections have 32, 26 and 30 stones. Check exposed shore and retaining transitions around Harry Jerome, the gun, Brockton Point and the sparse west section."
+    },
+    {
+      "id": "support_silhouette",
+      "stations_m": [
+        3181,
+        4500,
+        4732,
+        4784,
+        5000,
+        6068,
+        6080,
+        6250
+      ],
+      "sections": [
+        "section_012",
+        "section_018",
+        "section_019",
+        "section_020",
+        "section_024",
+        "section_025"
+      ],
+      "reason": "Inspect source support faces, cliff junctions, under-structure views and Siwash rail/rock clearances. The mineral material does not correct a wrong support shape or missing retaining wall."
+    }
+  ],
+  "actual_view_review": "pending_coordinator",
+  "application_tests_run": false
+}

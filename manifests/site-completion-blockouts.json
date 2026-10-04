@@ -1,0 +1,2813 @@
+{
+  "schema_version": 1,
+  "source_manifest": "manifests/site-completion-sources.json",
+  "source_manifest_sha256": "3547a93586740a1bbf9c7e02d78e19466da389b4e9f19eaf43bfff67a93533b8",
+  "source_inputs": [
+    {
+      "path": "manifests/site-completion-sources.json",
+      "sha256": "3547a93586740a1bbf9c7e02d78e19466da389b4e9f19eaf43bfff67a93533b8"
+    },
+    {
+      "path": "data/derived/site-completions/site-completions-local.geojson",
+      "sha256": "a1d3c19603f3ec425d8ea0cab62407d10b76c715a4abfac575d509945cd852b9"
+    },
+    {
+      "path": "manifests/surface-model.json",
+      "sha256": "8489fe1d9986b9dd5218299e635daf55c5a0eb8e7c1c03a68aca51bf227bc459"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-surfaces.json",
+      "sha256": "77c63dcd705a77caee68803babf6dda1c1ac63161db14f6c7c722542bb2e3355"
+    },
+    {
+      "path": "data/derived/public-spaces/public-space-meshes.json",
+      "sha256": "3f7b13ece70065c9d0808a89f8f26488b4873ff2d42bf7d5336bcc6c2e86bf78"
+    },
+    {
+      "path": "data/derived/lake-surfaces.geojson",
+      "sha256": "ffe78fcbf94e9df5bb02eff8a5b5ffffbca8c7182e0d767a37f9aaa8a1b0bcca"
+    },
+    {
+      "path": "data/derived/underpass-openings.geojson",
+      "sha256": "8b9826fed0db53c7fb43b95064371d46e52d4d1caa9df8253d4d06645a306cdf"
+    },
+    {
+      "path": "data/derived/cover-blockout.json",
+      "sha256": "9187a028f7c073140ad7b113099b17f1f5827b5beab037eeb48bdf1b9b06ceef"
+    }
+  ],
+  "exclusion_mesh_inputs": [
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_000.npz",
+      "sha256": "d35716dd6fe02f5e29471c76712b52d9e24d361ceafb780181241e530b008201"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_001.npz",
+      "sha256": "ee3c09f1f31dc7ab8d8c632b281c32e87f80576ef6db6bc2ec12d09a246e2386"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_002.npz",
+      "sha256": "f68f6cc7b86622923a8a30cbe4f0888535041aec1392d6025cf5ebd5989e0d93"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_003.npz",
+      "sha256": "c6a76222ccd56877eb98645328adfc39338de3de464f6ad407802611c63d90fa"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_004.npz",
+      "sha256": "8fabe841dab1160bdf01e74f7b1725e5bdce6b9e19c340d25c6626e92e639424"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_005.npz",
+      "sha256": "62abad2429792afe68bbb2966eb22c0032b59a5c7c0c22a574745d6dd9da5d15"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_006.npz",
+      "sha256": "fb9a49ce7fd359d69a4ccac05bbe0434e1a11a8bc56e552192f656b98a3b547e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_007.npz",
+      "sha256": "370820a82f7b75284faf14c13cf5658c70b3b512a32e5ef556612f5835893c7c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_008.npz",
+      "sha256": "91049c271df2505208856c6f7b0fe2c07b2d5b48eddc476a2462036270fb61eb"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_009.npz",
+      "sha256": "9f7e514828fdade133aef45d20a3d089648985a55b055ad65f4d57544b789823"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_010.npz",
+      "sha256": "3ea731516c52fac976a1fdc7e789e4dd29ac6f2d749dcb323f202a4c992453eb"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_011.npz",
+      "sha256": "eb1dfdb244786de335620ac9942236d58e9cbd1f1c40c9f708778a7720ac03cf"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_012.npz",
+      "sha256": "be1cbe8f278b562c7fbe99c6041d828f08be0f44b68985827e0ff0d20e623e34"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_013.npz",
+      "sha256": "25595fef702f7a249843b8dc1026030973dfa28c01b0d5dfe62380f2784238a7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_014.npz",
+      "sha256": "e3121c7b79753bc9331abee74359c2675c7fae7c7d0a603b51b46f1e4b51e1a4"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_015.npz",
+      "sha256": "8d984c5941c85cb1a72e0eecc708a80695810c924f0507736e639943b8be2a5f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_016.npz",
+      "sha256": "eda5018620d54048e8bf9ca892d2a2b4c2fa24417398c3a19f972627fac4057d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_017.npz",
+      "sha256": "d3b2d88cc7c5ed6c43bcb5e7327c5e98dd981dc6cddab3e48e10d67522e54538"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_018.npz",
+      "sha256": "cb4a99507737425ba17f089820942f9af26b7c152dd68bf1a4e0538cafc87112"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_019.npz",
+      "sha256": "bb668151559e149abfc4d3979367f3e9a40f0fe5d7f7f24e3d8f7562f95c5c72"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_020.npz",
+      "sha256": "1d08c288a06a16e8f547973a9fb7f481c0261cdf4d331520a71ae0f474c21757"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_021.npz",
+      "sha256": "ddddafc159b539f927b5715271553be17d1c1ee87ad3e7bee27ec8e123f19a94"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_022.npz",
+      "sha256": "6a8734aacb736faed35f188b1c3c5f36ba6097862cb0a17905f05b2f2faf2a18"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_023.npz",
+      "sha256": "692c1ea974908533f872350f993b0dcf18e5a44a53d50f415272a3763ecdd6d5"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_024.npz",
+      "sha256": "08559cd14f6259ab98119c5e0b18b3745e55ab9e9f5ec93dca4df48e0a16f0c6"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_025.npz",
+      "sha256": "fc2168c671306ce881ff779c403ac2428cb6e62508d498c25077e69911fa1a2c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_026.npz",
+      "sha256": "b3533571d3c89381d73be6a2da5de8c91838a94d471941607f02e7ba67622a2c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_027.npz",
+      "sha256": "c376721ec59d012295f57dce8149093136e99bb556e1c88d38ce1f30f729437a"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_028.npz",
+      "sha256": "ce95a2039d2c2f623a6d3f2a55de23a0ad3effb23f930bf91d36002d35336f2f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_029.npz",
+      "sha256": "e315ffc58a615995a96cf2d7e7991352ffbeaf51307d51aed382cd69fca21e7c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_030.npz",
+      "sha256": "7d61419a92334f9da9b6d91493098c027573a0adae92021edd3744c82d5a3ed6"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_031.npz",
+      "sha256": "4f679a5cb70437b8c3f3c271f6ba224286a28d68b3b66662f5ab66fb01a7b88e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_032.npz",
+      "sha256": "107f46e2fc41e37a5afc14785d099d10d0bdcacfc5d0c0588e8d4c8b891db9dd"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_033.npz",
+      "sha256": "2322fc9d869b06a63c0d0b0c97c23f11e691039c203d96da7cbb4c354269bca7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_034.npz",
+      "sha256": "c56e4857ab20d24f5f831bc3ca1bd2c62d5a156aa7235f1d944de00897892545"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_035.npz",
+      "sha256": "a7cd5098f7bc5f713826883969783f403ae1052ee7a8e84768344986746051ca"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_036.npz",
+      "sha256": "7f53788c344f3a18406d898bf4510ba4211a3ab1184afcc6e2c49d0b2307cd6f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_037.npz",
+      "sha256": "451633ec6d76a7a453e725a57216364b62d690736103935f2353fe868d850959"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_038.npz",
+      "sha256": "faede3ff2e74ba5e7ddbd8e11ae822fc509947f5f16c9ebcad38e61ccb09e5bf"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_039.npz",
+      "sha256": "a60ac2886141f019afb218515a9f11ea21aae3666cb5ecb68fd6820fd2feeb8d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_040.npz",
+      "sha256": "021f3fdbebe5738f2f106c8badd536c2d38cedb8f21f973a8f22ea83b9bb4705"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_041.npz",
+      "sha256": "0f2337615611e7c305941c24ef0629fbb8e9762efa04d91d37ce10908d4eef36"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_042.npz",
+      "sha256": "eed954f7768d9bc5944dc86ddc93f9e20fbb32c04ad76ac8ffe583785ef97fe6"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_043.npz",
+      "sha256": "f1974dc093de7c321172aeb0b5eb09c6ddbf70691475e628397ead547064ec43"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_044.npz",
+      "sha256": "74fe1806c3837a0c1c8349a2c7f93689f49a18e29eec67c3c4352b781d400172"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_045.npz",
+      "sha256": "2ed9e4a7902457ab833c46b953b093ff430d138acf17ce48afff9ebbfc620407"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_046.npz",
+      "sha256": "41f8ba2f3c5052841f559ba24bf53f85c9670d06c1174db0669d5fbc65ce8477"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_047.npz",
+      "sha256": "e0fee0cdc93072b7a74a4cb76ceb1bf64496042cadccfe5a574b639d0ad68485"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+      "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Pavement_049.npz",
+      "sha256": "95cf7fbd11540b27c8cbb0b6cf8d8c515ee72ecfea1e1fee48bb49e0581b1a5f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_42.npz",
+      "sha256": "8f8e2792a38041724d95449af1a600b1bbf0d1c6afa536a2ecf1fcd41f84b3a5"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_60.npz",
+      "sha256": "d285cef9d859fc21f6ac49f53b8d2d81c801b292a4ed374f1f6b2f968aa1de9f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_99.npz",
+      "sha256": "3f85063d4642f58969ec7b07e926bba11df0051af26904ee023fc41d49ddd46e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_118.npz",
+      "sha256": "413220a6cda2832b5908dcfafb65208baae416b886d0e705d38985528e8dd4a6"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_131.npz",
+      "sha256": "db12e78b7c5947e51bd2921dfa2c967f6250808c58332acda5d1dfb4e9245d8f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_138.npz",
+      "sha256": "3674109d9e03eb3b05fa4fc0ca7942c4811b645347d84e4cd50cf66f1bc7fa8a"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_159.npz",
+      "sha256": "606f04ee807de91b79a6521ffd224348c2088128b754d4c327172a4085df6954"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_188.npz",
+      "sha256": "fb628b41ac86f1b3b930e8441742b1f48f67985a98d902f5a8cb51c2ce28436d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_278.npz",
+      "sha256": "df01c6304b9b7ba29ec6d6aca86e53dbe619b1323ddbf5c338ad1f942e5e3c82"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_337.npz",
+      "sha256": "924ae0538fa47589491746b891f1c5e3b2d59fe03c16d0f78e008a1926d58b25"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_569.npz",
+      "sha256": "a3aa49b218d73b3d1a419173503e5ea83fb06244319c97a88134fd264a1735f9"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_580.npz",
+      "sha256": "783772ac9b903da665062a30601c7a58b884ddaadbcbe325bf43977777c5b5af"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_642.npz",
+      "sha256": "6b4d18291c9cdad2c5f8399ee4d261a062b55fbed290bd2ceadbe85df023de52"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_655.npz",
+      "sha256": "f2ba5ef2ed54869c292a37ca8177a1d5f12526ae6b0ecf02104a9db8f50e8d61"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_706.npz",
+      "sha256": "3e1422b19e4653a04b530a920f4eb432917e35649ed22836099f0f307c249fd1"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_723.npz",
+      "sha256": "980dfdaf25160dbd898633247721a43cc8e1973dfaf39dd8167b4b66dd7b154e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_800.npz",
+      "sha256": "0a7f0301f314daf06dd404ce24dbc899e150e75ef1898226b0b1e103a87f2953"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_873.npz",
+      "sha256": "92cafeff2a5eedcd5ddbd396352068a3c3c18b735cec62327fbbcf39619eea1f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1043.npz",
+      "sha256": "9f960228289abe0306033c23f3977b126efbb9f28c09a2e9a3036766265690ac"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1095.npz",
+      "sha256": "ee0fec273ada9b79e27245444eda6ea3f727499236f3f9f8dd9f993545ac7ced"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1160.npz",
+      "sha256": "021a95a81b0ac1cf15d3dc8eaa4e4a78e0041415414c2c9a4f80cbfbe9f45c8f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1207.npz",
+      "sha256": "18fe69c439ff5cf50fea4753922d08ea67bbfcd33173770fa3bd1964e130abe0"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1233.npz",
+      "sha256": "143d57ca518421d1f31b11ded8954cebe7d44c40ed404b707b343af26fe7fdc8"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1250.npz",
+      "sha256": "75316d6fdd9047b7655b6b8bde36893ff0e3595c857b2240e328afa89cd28334"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1292.npz",
+      "sha256": "f1fabe603e3b14f1280809743dff3087979700997688dab619b422516a3f899d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1307.npz",
+      "sha256": "5ea4992e06607f2c519cfd89c4ead22bcc30ee2ebb1bb4773e4fbd9cac6b2865"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1320.npz",
+      "sha256": "39a1c6aeaa60cadff0c56ba8d09f53be4a3750c3614c8ad8839fca14a4322c23"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1326.npz",
+      "sha256": "7736f08cbb6c4b1148416ef871c9906b4fbe3e984bd5596ffb5700ebb8184a44"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1367.npz",
+      "sha256": "4ae58e0018c5bd900bdcb40ddb50f070bf4e374a303eb33ae884206750a03b30"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1410.npz",
+      "sha256": "7ae9426eb234f6177101ba9f4dac022a46a91e7cfcea52578d3b749f71c741a2"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+      "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1489.npz",
+      "sha256": "b743ab1d14467b1d28efaea5cfd098ee895421984e4cdcf5e102541c7e26c5d3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1573.npz",
+      "sha256": "50efec5b71cfc304156a10fe95cf4e0b6d5f235344dde542c8c2bea02edc5a43"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1748.npz",
+      "sha256": "63172f0d7c3edd1861f875ba15efdbe53ae959b98bd7e6e35e6a301e06e80c4a"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1751.npz",
+      "sha256": "b751f44417235e8994ddb221bfbdc823f0f3b1e33505a8c5a7a634c36f7ad539"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1812.npz",
+      "sha256": "366cdcf0362587078ce44cdff17cbdaacd6ad75dcd4793186064c4d5bd7d3d9c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1953.npz",
+      "sha256": "8218beb585aeb912b357f1c6cc565bd5758d23808ec4d8bdd2f289eb184a7fa8"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_1992.npz",
+      "sha256": "0018ae6eedcab1b384372c6a52847ec3600c3d35290ce61eb98f87710af89414"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2064.npz",
+      "sha256": "0d7ef1a9607067538248f8daa2f841e6dbfacd92300963801d78ff3fbf259cf9"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2108.npz",
+      "sha256": "14d06a29a6a41db0959793e0ececf6ac7f5cc22e4198b70379f9d08509174d7c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2120.npz",
+      "sha256": "0d5ee426dc2e89d4ae40299b8380600c5936c784fe236da1b8916fddd4306485"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2336.npz",
+      "sha256": "7fecb72c2be0f1081260513b9936bbd6e48503596fdd49cd5d4e561212618275"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2340.npz",
+      "sha256": "daac13a27c3f711bf3141f522970b7b5de2fad6c682a5287e3f6225ca0af77f3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2425.npz",
+      "sha256": "7e928bae07a9cb1baa800cede4089041a9a9afc2fa28606c0c7fe50eef1e8045"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2532.npz",
+      "sha256": "f0fdf20b0f75bd3dc0b9a60af752f85bfe9f3c0fc0c9b9be2b9c77ddbd4fb2ab"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2576.npz",
+      "sha256": "4c62559d0d411c5b2432f7b79d56a36ca06ab98f12e3ea44b07b4d3211c817f3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2630.npz",
+      "sha256": "87975da47bf9c028de246f1aab0c3708fe6d89d14df5e34bcf0afdc89621c157"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2693.npz",
+      "sha256": "86fc685237d81e95bd75fa9c977e4c9c2abc88c99084c9e512edc01d5645270f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2703.npz",
+      "sha256": "645f9f6dd397859d6f3986f861d0c46d19dbbd4719a3abd882fec3f625fd391b"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2704.npz",
+      "sha256": "526cf69a555694009532e59abff2c2be28e5369f2e5a4584642dcb7b27035225"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2729.npz",
+      "sha256": "e6c5b1f985e3f63488ff7e330dcddf8949f2ccc272620152c664cae89f80ba2e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2775.npz",
+      "sha256": "0e4ff57658f5cdee95c36625a23514a78b913631010fed14cea3114675189397"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2783.npz",
+      "sha256": "1fa86c39c381a9367a83558d4bbb9ce550be48ead6e0530593db6e58b8b021b1"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2810.npz",
+      "sha256": "f3e529e377fdc4c8317d684b9a39a2c89a4f55309273acdf1eddaabf8d7055e2"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2814.npz",
+      "sha256": "c97c384a80efee4843f95e6dbb32967cb62ea27b83bec45ee5e8f3f9de4cb540"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2820.npz",
+      "sha256": "c74ac8a331fcd83af28eb484593abdb96615fd5c7a970359f610f191a4f424c7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2886.npz",
+      "sha256": "383e239f247bf45648335b89047ed27413b725daff7b5f3322f655c14feb3662"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2909.npz",
+      "sha256": "498643f8528b4b72b5488f71220fabe6cb6f831a42069ea0fefeb77510141400"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_2986.npz",
+      "sha256": "1bca71f1c20321f192c583019f87f94dfe52e08566c43ca6ae2b4177ddc1cbd7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3102.npz",
+      "sha256": "fbd0769b65d2301a7f979bc1db04330fe0f95960f0bb5791679a3606be129fa5"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3258.npz",
+      "sha256": "96fd9f1565f3140b09de1f3dc208fe9a20d458ef442ffdbbd1222954d8883252"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3273.npz",
+      "sha256": "75e82f84d2c4654f40cc2f4ca2c1fa571d3cedf4e713d32fcb2021e81fb2dfbb"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3287.npz",
+      "sha256": "da13a793fa8fcc99d6d543fae18537bed805f59fae4c550c556e846fbc7bb3fa"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3306.npz",
+      "sha256": "868c85eb9c1e80169a8327a9f7fcfc2a0ca8ac2774cd9dce2ed1a8ed34856df0"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3318.npz",
+      "sha256": "6ba0796ba49e84ab07b1eb8ce1661c4ed02332309c52ec18c3266290ea83bac5"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3343.npz",
+      "sha256": "53ba01121a3f656be9144bdf6b9b199d92031dc45948d7ca4295265c06c8a693"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3474.npz",
+      "sha256": "90d0d6a16158405ce207b89de17626f36a1f7b3a0e06775f7cdf140cfeb2da82"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3540.npz",
+      "sha256": "a09f5effa11f6898267e08298da5ad1d7f37dcde33653af0f2b262d5d0599c36"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3550.npz",
+      "sha256": "77d6660d637ad88698cfae9a6520ffdc7e443e7357c49a294a47a98336e4b4a0"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Route_3555.npz",
+      "sha256": "35d6830bf739b27e6219c144f4b0f5f903900a8e4f6d5637e15d34b5be93de37"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_00_02.npz",
+      "sha256": "5dd4db7175687ab1e9c6015825490c5e787f83a9707de74664f98346bc2b3b35"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_00_02.npz",
+      "sha256": "c3a6114b0bc1fe54dc42b926e0aab9a9d2cffd6abd6d526039c1ae838c3d6209"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_00_02.npz",
+      "sha256": "2d50ae4bf4a6816a2bb68916f1c7f6d99ace38fa7d4bdb4e7cb55c01101ec9f0"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_01.npz",
+      "sha256": "0d9ebfd44c25810ac3828f6b530a214adee5781a7e536dd8b91f931db9ecde4e"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_01.npz",
+      "sha256": "d4658cbc72b18b31211b8f45042d0867686ef219871e1401fdfb2bfd131f0e48"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+      "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_02.npz",
+      "sha256": "1d2f132268c2deaa24898d6e3edfaaebe8b514c66291fe0b63a34f80afd923a8"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_02.npz",
+      "sha256": "ee1d8ebeb2f2f3529339cc71ca413cdf8bdfd21534ba20e841e48fc6fee97fcb"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_03.npz",
+      "sha256": "12adf273282e4d13c7acd7fd0242bdfa3eec9e607979a5026da8aa9f62120984"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_03.npz",
+      "sha256": "a9bb471036c74ee002f3de3ff0f7bd37064aa199f539a3a82ce5dd6f462d661a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_03.npz",
+      "sha256": "5b307fdb1bfe54d1b4831f7797dadaee84c9909692221f22552be45edcfacbe1"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_00.npz",
+      "sha256": "6d622d94333d8bc1ede1375071619df6248287d14987a495f7b3752d778c085a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_00.npz",
+      "sha256": "c45fdbf88242936861c12f147281eb76175c16febb5aef6737a74dd668fe57e6"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_00.npz",
+      "sha256": "b6573f83b640d9c10de79030e919de35697239c790e470fe27bd4dcde564c2eb"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_01.npz",
+      "sha256": "db4fb197a2cd7807f037f36f38c074b846585391eec6a4a6f0619a49cd6657cc"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_01.npz",
+      "sha256": "d814f7f121a9717e6e8fdf66409cce52405ec3257a98c171abfac09d3c6e2215"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_01.npz",
+      "sha256": "90b8f674659e7c7e38183936a38b8c39db0c809bf951d7411ca7599026ac9ba3"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_02.npz",
+      "sha256": "5fe37323a41426c5ef5f673fd1cc29b67d5ece1f8651151402ca3c92134c763a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_02.npz",
+      "sha256": "53b7da0621d323f8d34cce570aac48e5f4f83d0da35947d0c3142ccd3e94f30e"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_02.npz",
+      "sha256": "54f6a5da33b1b3ec17c9143552f800ab38f9439bfc8faf1d7f28685d4ce70270"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_03.npz",
+      "sha256": "de7556437de15a54f5c08ce241a7de980d3fc3df845f0175fb1ba102a2b941b6"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_03.npz",
+      "sha256": "b05553a489840642d3643c957c0d4ae8f28b58dfc7a642126c0ddad61964019a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_03.npz",
+      "sha256": "6134eadf21b9bb9980bba803c0011cf425e80490faa7fd0e414a66a05b8d2be0"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_04.npz",
+      "sha256": "0bacbef7792a2f34ec15cd0f2bd8fcd8cd4043562f230a8624b1cfc5a024b313"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_04.npz",
+      "sha256": "5f19cfb9813a6bf75bac6bd5b8b6c67b53438da560dd85fd769793dddd1912bf"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_04.npz",
+      "sha256": "f0eacca728504a15d7e99912937355ed5c0dbd70340a4d148494700fe5a552fe"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_05.npz",
+      "sha256": "8a70784c30cda05bee952e390eb30f0dbab7f2c4630bbbe8d94be67dece1f4a3"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_05.npz",
+      "sha256": "5a1cbed15f625d72f397588a3d6b16dac3a9522b8db4efffeab4b47b465fd21a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_02_05.npz",
+      "sha256": "1a2d4bd13d702cdceea2090e625b577d8bff7dc6de8d707adb36959389953160"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_02_06.npz",
+      "sha256": "dfbdf36557b7d616e27b3eaeda5ea9d8bb1e1d0685a66156613612e00378f684"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_02_06.npz",
+      "sha256": "5767c6e49b669c5c220ec8baed82e76aca255ca8aad3ac25b377cc173f6608e6"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_00.npz",
+      "sha256": "7296b9d934ee90ee12aa5889e4e8cb1688f0943f1371232ff20d3bc81064daa0"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_00.npz",
+      "sha256": "14fb40f46098a2a4482b3b1499a1286cfb8dd2fc0f666a6337a9b3d088e05a69"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_01.npz",
+      "sha256": "d905bdeb76ef8c2de313d15be733646c3984669ae85cbab526735351ce70e13f"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_01.npz",
+      "sha256": "7fd460990cf7231ac3170e2183fe4252f3f3d7342434f90f09b4f2e3f7b91a33"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_01.npz",
+      "sha256": "b455d4937bcdf37478d4b9d5f5cb76ab02e96d30c4ab14828205d48740d2c534"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_02.npz",
+      "sha256": "a06e468fc4fc925463225f54e87ccd8b73016db0b962a9120937824075850702"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_02.npz",
+      "sha256": "140d0d292c27ddcbe37eb7bb60b71be65b93c6d291c4dcc729c0d834e7eb100b"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_02.npz",
+      "sha256": "29703c4054941cb5a64c9f0580e2ed08202c63e6aa7b15ca816d85141ac4877f"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_03.npz",
+      "sha256": "57007ed42e6da40ba6092edb467b6abbc6d88e508f63d7bd7c7036122f725df1"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_03.npz",
+      "sha256": "8721cf6e46ff055af0ecdcaac5b339b4d6e7f2770b23acf58676b2a231ce8ed7"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_03.npz",
+      "sha256": "fb891de40d6a45352b02b1ab0b638cea83b0b4089e5fbe228ebe800ae41ab321"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_04.npz",
+      "sha256": "cd84aa5a1e94324ecd03aef4506e3f416e58997cb3b030da3e122d1b212636f1"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_04.npz",
+      "sha256": "c603de85435d22b367b97f4f3622dd3fd73ef0a8b76e0024b49221b478b8c63d"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_03_04.npz",
+      "sha256": "f20c7a018a427e0255e53b1c8c495f2f4197efde49c0f2daf521d3031b81902a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_05.npz",
+      "sha256": "636a990ff70aedca71ef2020a3bd2daa86ddf58f4b996409e5876e4297bdde4b"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_03_05.npz",
+      "sha256": "7f3bb0f0695b44c9f9a56108aa0b2f7af166ba28fd6c2a5bde39d6a80292b195"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_03_06.npz",
+      "sha256": "4817ba3ec516a1603eb0d83ad5ab9e24be5f3752e2282148bb43940adfdbe546"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_04_01.npz",
+      "sha256": "8dd3dad0db0bf0daf368c8c8c90f3a376c99bb91a5ef06401d086d9e5e226360"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_04_01.npz",
+      "sha256": "f97320ded8a825a1496258a471334f193a929fb37fd1707bd22e4d9b58527895"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_04_02.npz",
+      "sha256": "4a0ccfea453a5fe9c139531a4cdf5e23a0e0f140125620329a4e5d3273fac2cf"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_04_02.npz",
+      "sha256": "17da24560ffdbe59523b4d388c4db2cacae4fd899e7306c276f90112ecbd4c4e"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_04_02.npz",
+      "sha256": "5bff16d0676828fbe8fc2360637206a0ea2a99b5fa0a1304c72a95c5723a0fac"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_04_03.npz",
+      "sha256": "8ab588b2ba5ed9e9669c0b9766ea1c9448f0ab9a9f31a0d3d859dcbb42aa3661"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_04_03.npz",
+      "sha256": "a48b92f87a951c6af90ca2ba06606b289775ed5114199ec4215977f5c81b1681"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_04_04.npz",
+      "sha256": "cc6369c9695d2b6ca4639801cac62c63c48d984bdd5e1dac5e842521796c5736"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_04_04.npz",
+      "sha256": "eb426f4189bfd55a46d7f61ed7030312522be8d6f3dd3960b163b35827f52a81"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_05_01.npz",
+      "sha256": "8fbd3b59b8892d2e7d095a667a0faf01a65295e872fd47f57d0cd040db5109ff"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_05_01.npz",
+      "sha256": "f7db4be12ff2a2720d428d98e927deabed7910c21039119a5d52034a05aeb630"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_05_02.npz",
+      "sha256": "12073cc4642bde8a98e5c598f39ebbd7d04125ab42b9df8b87e78b4338f453bb"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_05_02.npz",
+      "sha256": "00d115a42c3181ae8b214204df869f1a955b06a2f1eaab089a3fc9563eee3142"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_05_02.npz",
+      "sha256": "10683524be5be0c56195a588d865cd551dfcf8b26b27ba5e6c6b2b9cd34f913b"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_05_03.npz",
+      "sha256": "b0aa88736223ddd44e65bd3065f3cb637b9fddf4cdacda55bdf457d9129e4500"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_05_03.npz",
+      "sha256": "1a19622906694c8195ecc1d5f20e2d7917b86048739290c48610175787201140"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_05_03.npz",
+      "sha256": "32c9e90c557c48c9d307973413d3628b0903fdc6def00c6674a9f8ed3eef6a8a"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_06_03.npz",
+      "sha256": "940f21bc741bad9d97059ff9b49e19288627eab2d8a2d6aa6723189edfa744dd"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_01.npz",
+      "sha256": "e7c22428eca5341e6e51f11e76cf44d898e8eb0fdb0df4b03b755b6e5798a144"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowSouth_01_02.npz",
+      "sha256": "b9391e47e4d7f1b2c8bd3f4240b3514701234f4cd8ee7b016afda8fb7d6e0918"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowNorth_01_02.npz",
+      "sha256": "85fc3b6f3d9fb404fe8e044862f05a569eb7f564c91385ae56c71a91bf6be76c"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_02.npz",
+      "sha256": "93eeb943e2d3c0c34ec5de42fc7ffcf2174048bfea264c601bbf994d2077eb9d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyPlayground_01_02.npz",
+      "sha256": "071d1f45efafec33b58318622212d7bcfa84d14de67d1200dac14e1e40abcd76"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyBasketball_01_02.npz",
+      "sha256": "a0716e00d1c5ea0548d50a92493854385ad373adf951da77bd412e3da6f445ec"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingNorth_01_02.npz",
+      "sha256": "c4cd4c94bf5908fdc795abdc72c3d87265bc88a12fb963d61129bc4ecfdcbc96"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingSouth_01_02.npz",
+      "sha256": "58e4852b8c024fe2b0de19a2cfb2e4396b026eb277d32ad0e3b6ab450933822f"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_01_01_02.npz",
+      "sha256": "32d6ea41af0c0b1953b650bee829318710a996d2f8ac02fb4ad3f9b9d6b822b9"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_02_01_02.npz",
+      "sha256": "ad015edfa9243460c1a6a93c44a28f3333b8a7b6bc9ec86ed5fca5bd1cb2183d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_03_01_02.npz",
+      "sha256": "22d2c376a9d0c7fcfdad258af91864ae1b4f5fb333875139779302067092447d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_04_01_02.npz",
+      "sha256": "4a91a77fb09499feaff382b041c87a5ae0b80112499ec1cb9260fe246f0447f7"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_05_01_02.npz",
+      "sha256": "1d94603397b847740ab8a849a58758e6675cf5908913f23fa7b1a24b1b4e1e36"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_06_01_02.npz",
+      "sha256": "16a512ad26aff32d38fe29b814ea34ce8ca20d25c99fe8151b6d92f3f4987b79"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_07_01_02.npz",
+      "sha256": "520ae0999399b0bdee9f7d8948900ca1ab84f7ab6cf6e430d758f56c00915752"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_08_01_02.npz",
+      "sha256": "942024ebbdd9038cb00f63c2c3359726ac3a4906ac557a464d90d5726fd3b0f1"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_09_01_02.npz",
+      "sha256": "91e8d75d353fb2daf6f8754555b1cf7c87a1b46d78f70594068b76c9b0782f92"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_10_01_02.npz",
+      "sha256": "be6736cbc9aa7104a6fa387601c20e2f6b8ca0eae6dc39111117d453140cf793"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_11_01_02.npz",
+      "sha256": "7993f1d31cacd349762d41f5d6e7c7cd63eaf9698e4d0ddbf1e770f5b514f457"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_12_01_02.npz",
+      "sha256": "530f65175e709cb9733e42cff6107ee441170f7ccb27a0a8bd6ecc097976a738"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_13_01_02.npz",
+      "sha256": "ec2fef5ad39031541c7172f989351e3f3e56865f0caf7a20c478fcf8851d7450"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_14_01_02.npz",
+      "sha256": "ed3c329e0bedffceb1af7af70c5e60f897e5c19a5097dbd496f416a10477f6fe"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_15_01_02.npz",
+      "sha256": "a74440074f4b0a68ee156c401f6f6b8c63d09c07064a0e6c1d74ca9b4d6e1805"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_16_01_02.npz",
+      "sha256": "9c92783383446599ee717c6c215f4b9c3b138b791605495b505b0779cd1d8f29"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_17_01_02.npz",
+      "sha256": "5c8a48f3fd55da7ba0c914d4bcec9eee2eaed76a00fc7cae1574a09218c75d24"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_18_01_02.npz",
+      "sha256": "4cc3042c15685d5fe440d7ec7a4397b7e69d9a8c8bf7eeb98d68c09147b5fa9b"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyMeadowNorth_02_02.npz",
+      "sha256": "ffbb0c094a49e410ccbab1e753a15e257076d1bc23e7173732cd3a600b86e325"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_19_01_03.npz",
+      "sha256": "d1f380f4e6bafd5af8b2c102bc87290b5e1405f01f1e0387d8259d9dada94eb0"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_20_01_03.npz",
+      "sha256": "f3dfb709c82acc540ee18e18818a64a2f9f18284629daff48b719bf7ac83bac3"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_21_01_03.npz",
+      "sha256": "4e23cb7600f059745e289a18c1b0a89f96b93d6b6217c668a74ffe9129147733"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_22_01_03.npz",
+      "sha256": "a02e3b53cefe1b3ed2109ad72549e63679712959054109acb3b79aeb7f43b3e0"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_01_02_04.npz",
+      "sha256": "b7ab7e5191877c70e58727fe2f938ec2468faf0aef451f18fde68a2d659aeb3b"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_02_02_04.npz",
+      "sha256": "58bd7fdb672bbfe3e938f9fd30ad4479da0feacba8bb3a24e3d60cc2bc7ae237"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_03_02_04.npz",
+      "sha256": "b07edcf0569a9ddbdb31eb81f283a1d82de23ee2f634c5dd5f6488a5bab32da2"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_04_02_04.npz",
+      "sha256": "8fb6553676ee993a23995b52d083ac06bfbff836c276e2f11a9b9d2eb72b1a28"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_05_02_04.npz",
+      "sha256": "534fb24ac187611961b2d21f983a148b87afd807676ee00a849218faf4e92725"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_06_02_04.npz",
+      "sha256": "53ddf7cd9bfb603c8cc172cd630e70c95118dd8288e6e45a0d5f0b2e9c867701"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_07_02_04.npz",
+      "sha256": "747cbdd9f58789910cfdd8484e86904252efc152ac6d947ed0c15c7c08d15410"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_08_02_04.npz",
+      "sha256": "264a500f95be242f7f9e50e80d7895c252757941669a5bbfb26069960776bc84"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_09_02_04.npz",
+      "sha256": "b86d6e6dbeefa28b3bf92c4074fe20a6d246d117be95a804f6ab53eb02df9fda"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_10_02_04.npz",
+      "sha256": "4563bc68c51ed4a7fac2431e68333310aa3d1fadc98f9100478bd4a30ae2835a"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_PavilionGardenBed_11_02_04.npz",
+      "sha256": "577fd002d4febe2506a1ac94825ad800f174d793a4013cda035f81c7ab2a852d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_VarietyWaterPark_03_04.npz",
+      "sha256": "bbe51a1588101451d61e17b56ffbbeda41d66d2a5f34aacd0dbdde6ac875f0b9"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LumbermanPlayground_03_04.npz",
+      "sha256": "9ecfd36d8ed54c50847f45aa9e7119277a6f20bcee4823856835e71867d34f9d"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonOval_02_05.npz",
+      "sha256": "8b2bec88b095169f6e3cf26242ec311463a8c3609b23495455fa613a793861c0"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonWestField_02_05.npz",
+      "sha256": "0bec2acde5ace09fc7f12687e464e1f3dcb824df33c8ec0b39acada7d51d92d0"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonCricketNorth_02_05.npz",
+      "sha256": "555a54144ce5fd4aaa6aaeff810baa223690e7a17bc218baf2c87cf24fd87a55"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonCricketSouth_02_05.npz",
+      "sha256": "32da31d4b26a8713d11bad334637685e11a9969f98cce166e19bbe5e1492c604"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_BrocktonOval_03_05.npz",
+      "sha256": "0fe8dab496efcf19d9ebbbf5b8cb199208763bd5e3b25585a16f111e8ed9e7ff"
+    },
+    {
+      "path": "data/derived/public-spaces/meshes/SM_PublicSpace_TotemNorthCourt_02_06.npz",
+      "sha256": "adcc6a5b8942ef3feb2d7ca84820235e0f255aabbcc75a8926e978d644383699"
+    }
+  ],
+  "terrain_inputs": [
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_00.npz",
+      "sha256": "5572d1ec0d38ea124519627cfb8b7e5c1288de4c1de47036d04edb2ebfa55543"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_00.npz",
+      "sha256": "58b70c3bd875551365c6057ea0ac69760625469b30217cd68745a7f9f2be4724"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_00.npz",
+      "sha256": "59f25d0bc8cd2588d01a0e7ff610b50900270538e3b7055b9fe4127e2b939e8c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_00.npz",
+      "sha256": "d14a2610c7744a1f2365564b1d61db3d1cc276189de6ae7ca01d300a5958d376"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_00.npz",
+      "sha256": "1ec0699ecc421219c2ed0d86d9b29d1a9e8ff3c50e20962c298322c02e2b3aac"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_00.npz",
+      "sha256": "61c91fd7ae9320a26ffe462959d561a6f189be44d1d785d4be5fbc653aa1c592"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_06_00.npz",
+      "sha256": "4bd47684cab5f9bfd2ba593c1a2f1221e58b6ae5e4262f05218f776aac65ddee"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_01.npz",
+      "sha256": "520f8f7fa07fc1114761f3db694b3958cb24b43e66440cb38f546e6337eaaaee"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_01.npz",
+      "sha256": "96859fd3b0d26a9accbd7cb501b4141bd3be18b07760a1e8244fff5e52e656d9"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_01.npz",
+      "sha256": "f60fde231073bd04dfac72df68c94ac60b4f9b93b626df85e984538da1fb1f14"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_01.npz",
+      "sha256": "a81a1d5ad2c23d9e255d148adb072296be39058fc009e680661043bfc3251dbd"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_01.npz",
+      "sha256": "29cf5611406a9cd347285114a48695e1da93d851226ae0799f9f3ecefb733a56"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_01.npz",
+      "sha256": "3222a600c70e19465ab5f9e606f7b3e82a6fdac4ccc848625680d91c16015218"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_06_01.npz",
+      "sha256": "34bad1d28beb7a7ee7f9dc0dd107aa130330670247d779d079f50386d413a313"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_02.npz",
+      "sha256": "2c8ebabea31aabd9e51fcb09cda3332f4b877ae371f9d6dad8434d4d80d8f170"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_02.npz",
+      "sha256": "49a79a1e08a8ba3200f88e0d927459a57fcae65a3052ada4d7f64688088ec6df"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_02.npz",
+      "sha256": "27ba10582c793cce88265c22e89f0e36dc793eb37a41e2424de530123e43c69d"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_02.npz",
+      "sha256": "50ac1c483949b1e4cbfcb2386efd23ed1be28e0e34f899b7c83a20299adaeec9"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_02.npz",
+      "sha256": "421f0531738aecdb04ca66d94ec7733937eae079d10992b313405beb1a6773b1"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_06_02.npz",
+      "sha256": "8bb3e19c6e3f506c83d98e6bd8850cbd9c239174978f8514637b05a2be2eeaf2"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_03.npz",
+      "sha256": "dc8989bf63b20a7b4a491b2887f60a1f5c2ff1eb705537d962fa734e8848667c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "sha256": "1279ec4ea58d84eaf73a87576af02db2117f537b1d42f0b518644273346732ee"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_03.npz",
+      "sha256": "ec6924423a8a132c42b4f4c6c816118d45f9bf038f7fdfdf40cc4367a72ad409"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_03.npz",
+      "sha256": "4a5b6a8c05bda321ef5bb6a1da4e1c8b2821ba34fb1cd957d3b6b3623fe919b7"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_03.npz",
+      "sha256": "a5234d8cda46a99360fa7b20f8034576d6201647ae789d0c5e929986ad889538"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_06_03.npz",
+      "sha256": "28c8ccb54add4cb4632e36f8ba6fec7b1e841ac8e9a6fcdda487d53b3fdf4b62"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_04.npz",
+      "sha256": "f651ac093e1de2680f0773d4e4917a444a6c47801ec57d871fb0c69aa39cf59e"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+      "sha256": "4badc16c8769d73f50d10588c691a2d32b7287da550dfe8563cf757e9a50c878"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_04.npz",
+      "sha256": "b89b2f1ad33a181f1e7a20474c8893a85e1fa09e5a3f987f9a5130dd2904dd68"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_04.npz",
+      "sha256": "377385287a71ab8c0860564fbe0f00c3f5e4f479693b118e2a48c7da82203848"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_05.npz",
+      "sha256": "ef60d0858c0b048b093819313d4557387c0c0816fdcb76517bd85d82f5789f29"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_05.npz",
+      "sha256": "fae1d19105d2cb3266c75e1ef94aba2b3018a97b90f3123f2965a97a4c7f71c3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_05.npz",
+      "sha256": "46f6b6eb015d5cbb6584e0bfe05164245dbedae727e320b575b4d7a5298e8cfc"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_05.npz",
+      "sha256": "72b221bfd7ad3c9ff9d469c37f9c97a665830172a3f11c204fb9ae548fee985b"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_05.npz",
+      "sha256": "dd2bf5bc8dd7c82f303e4983b07c820deb05ed683ed910113eee46c72fd6fc01"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_05_05.npz",
+      "sha256": "4eeaf210cc51d0996d12c1f8cb9276e31c2f1aed9bb4fa0d7b007caede803f13"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_06.npz",
+      "sha256": "97f4cb7778e68935316d743bd9661ad75a94976913acce003e7d56ce97d05394"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_06.npz",
+      "sha256": "b1a788bc18ba30d19b0ded4735e4251d0b7e8d7926d94bd5d71eca8e83c275bb"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+      "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_06.npz",
+      "sha256": "efc7f326dfa13b7c16ef1950b29b64fdb4a490b18a3718a57884fd91ea127785"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_06.npz",
+      "sha256": "5ea66b87ee360b4e758b163887d13f5d815c2473b2bd2d37e3386799be968fb3"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_00_07.npz",
+      "sha256": "2f4aa6852e844e5671d63f0e7b3e22c99371a82e10966641ed0da5e7c1eddca0"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_07.npz",
+      "sha256": "ad21526092ecfe008fe6e8c849b10d9c649fd3efc8b58828876925210e73ca4f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_02_07.npz",
+      "sha256": "ef16c85e71f7d8387ef69823fcef8487250b2e547ffb5de10f6757eee3b012d8"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_07.npz",
+      "sha256": "68e505e4be49ccf536a2059ed57e0057352fae625a752aecc37dd1a5808ab08f"
+    },
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_04_07.npz",
+      "sha256": "45fbc53bcfb4a8a64219cc3454cc2027bb06bd234bcaf0112e72e88633ec2be4"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SM_Site_DevonianPond_01_03",
+      "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_01_03.npz",
+      "sha256": "45193eb342df5736912aeffd52e868e6e2263d5cd400c6b17531eaef77c78756",
+      "component_id": "DevonianPond",
+      "feature_id": "SP_devonian",
+      "m1_group": "M1-F11",
+      "material_role": "pond_water",
+      "material_color": [
+        0.14,
+        0.24,
+        0.25,
+        1
+      ],
+      "vertices": 11,
+      "triangles": 8,
+      "area_xy_m2": 0.8312438086217794,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.025,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 5405086,
+        "url": "https://www.openstreetmap.org/way/5405086",
+        "timestamp": "2024-05-23T18:32:07Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Source pond boundary, flight-period survey context. No hydraulic or current water-state claim. Render only where current terrain lies below this proxy.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_DevonianParkGround_01_03",
+      "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_03.npz",
+      "sha256": "edc16be6b5ff1a6be515f9a19113c0423c3b9fb25ee556c779c72505d9876ea9",
+      "component_id": "DevonianParkGround",
+      "feature_id": "SP_devonian",
+      "m1_group": "M1-F11",
+      "material_role": "public_lawn",
+      "material_color": [
+        0.3,
+        0.38,
+        0.18,
+        1
+      ],
+      "vertices": 1411,
+      "triangles": 1698,
+      "area_xy_m2": 5393.231893713702,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 37056115,
+        "url": "https://www.openstreetmap.org/way/37056115",
+        "timestamp": "2025-04-20T04:55:06Z",
+        "licence": "ODbL-1.0",
+        "original_park_geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                527.2168983024894,
+                -804.3686085753143
+              ],
+              [
+                526.7708361427067,
+                -805.779682315886
+              ],
+              [
+                525.8881987155764,
+                -811.4144800128415
+              ],
+              [
+                525.5881523122662,
+                -816.5389366298914
+              ],
+              [
+                507.37760838185204,
+                -839.0072473343462
+              ],
+              [
+                470.97425502806436,
+                -869.8583191102371
+              ],
+              [
+                472.77575454692123,
+                -874.8309297394007
+              ],
+              [
+                475.49300252180547,
+                -880.0275362916291
+              ],
+              [
+                477.76172122283606,
+                -883.9670962374657
+              ],
+              [
+                480.2350150371785,
+                -887.3622853280976
+              ],
+              [
+                483.1735769720399,
+                -890.8027814766392
+              ],
+              [
+                534.8488860540092,
+                -947.5042015723884
+              ],
+              [
+                559.1321208607988,
+                -973.1504815034568
+              ],
+              [
+                676.1369989273953,
+                -1089.6216441402212
+              ],
+              [
+                677.712802202208,
+                -1090.7917300723493
+              ],
+              [
+                679.2821607996011,
+                -1091.494885031134
+              ],
+              [
+                680.8961699379142,
+                -1091.6200281819329
+              ],
+              [
+                682.7000975481933,
+                -1091.256353335455
+              ],
+              [
+                684.3226948630181,
+                -1090.6366635076702
+              ],
+              [
+                685.9029807778425,
+                -1089.272051250562
+              ],
+              [
+                726.2506349050673,
+                -1048.4322177320719
+              ],
+              [
+                750.9652493198519,
+                -1023.7956581488252
+              ],
+              [
+                764.9428055136232,
+                -1005.9104992551729
+              ],
+              [
+                778.4128494581091,
+                -995.4395369570702
+              ],
+              [
+                765.9560456591425,
+                -983.7224984215572
+              ],
+              [
+                760.4675478214631,
+                -974.730237656273
+              ],
+              [
+                757.4023351484211,
+                -968.7549645313993
+              ],
+              [
+                750.7383474656963,
+                -958.3932246994227
+              ],
+              [
+                743.5805793249165,
+                -951.8104309458286
+              ],
+              [
+                726.8992330816691,
+                -940.2081655040383
+              ],
+              [
+                698.9760595798725,
+                -920.8151438487694
+              ],
+              [
+                691.1284185934346,
+                -913.7974952189252
+              ],
+              [
+                687.7875472703017,
+                -911.6348691359162
+              ],
+              [
+                684.3471444004681,
+                -908.1935956599191
+              ],
+              [
+                679.9113214939134,
+                -904.3503427831456
+              ],
+              [
+                678.0236575471936,
+                -894.5416990052909
+              ],
+              [
+                675.9738267041976,
+                -890.0912218475714
+              ],
+              [
+                676.2289025546052,
+                -889.7581594744697
+              ],
+              [
+                683.4613522574655,
+                -878.6871791770682
+              ],
+              [
+                684.1907131781918,
+                -877.4099994115531
+              ],
+              [
+                684.4479501158348,
+                -875.8540566703305
+              ],
+              [
+                684.561064232199,
+                -873.5641288114712
+              ],
+              [
+                684.3684819976334,
+                -871.4515344565734
+              ],
+              [
+                683.6180583077366,
+                -868.1928897704929
+              ],
+              [
+                682.4248524664436,
+                -864.5110111571848
+              ],
+              [
+                680.2367824502871,
+                -860.1158765088767
+              ],
+              [
+                675.949183351302,
+                -850.6031479798257
+              ],
+              [
+                672.8815345950425,
+                -846.0952823897824
+              ],
+              [
+                669.6963941219728,
+                -842.2431174330413
+              ],
+              [
+                666.6550820599077,
+                -839.291692590341
+              ],
+              [
+                660.8403104323661,
+                -834.0563401170075
+              ],
+              [
+                652.4172552035307,
+                -827.7046424122527
+              ],
+              [
+                644.8210526636685,
+                -822.5105808544904
+              ],
+              [
+                633.106914580334,
+                -814.6855488000438
+              ],
+              [
+                625.9247947898693,
+                -809.7145394515246
+              ],
+              [
+                622.1547122626798,
+                -807.7289833826944
+              ],
+              [
+                619.0008588184137,
+                -806.7561802305281
+              ],
+              [
+                616.5657970716711,
+                -806.3627457208931
+              ],
+              [
+                614.4210374427494,
+                -806.2699895668775
+              ],
+              [
+                611.7013612287119,
+                -806.4652537666261
+              ],
+              [
+                608.9812886373256,
+                -806.8828584607691
+              ],
+              [
+                606.3626120737754,
+                -807.5229850737378
+              ],
+              [
+                603.8890756422188,
+                -808.3190089780837
+              ],
+              [
+                599.5011074651266,
+                -810.3345015291125
+              ],
+              [
+                596.102377408708,
+                -812.1294131297618
+              ],
+              [
+                592.6661595320329,
+                -814.5579319689423
+              ],
+              [
+                588.8066371102468,
+                -817.8750630188733
+              ],
+              [
+                580.848332824593,
+                -824.1197899850085
+              ],
+              [
+                576.102378323907,
+                -827.0795799382031
+              ],
+              [
+                572.5161963631981,
+                -827.9736545365304
+              ],
+              [
+                568.6401105534169,
+                -828.3447031406686
+              ],
+              [
+                558.4696018842515,
+                -827.4704778920859
+              ],
+              [
+                544.8904301043949,
+                -821.7541710054502
+              ],
+              [
+                540.3592151424964,
+                -818.4887239839882
+              ],
+              [
+                537.1453391956165,
+                -814.5030246051028
+              ],
+              [
+                534.1940990921576,
+                -810.0286412555724
+              ],
+              [
+                532.5992494827951,
+                -807.3799011418596
+              ],
+              [
+                530.631867956603,
+                -805.6865644240752
+              ],
+              [
+                527.2168983024894,
+                -804.3686085753143
+              ]
+            ]
+          ]
+        },
+        "excluded_parking_way_ids": [
+          115939862
+        ]
+      },
+      "limit": "Park envelope with roads, paths, buildings and pond removed. Canopy and current measured terrain remain; no blanket tree removal or city simulation.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_DevonianPond_BasinGround_01_03",
+      "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_BasinGround_01_03.npz",
+      "sha256": "e07d8554a9e7e6b77ed42a20b8414782b738a19b19f56fc04a153b446df134cb",
+      "component_id": "DevonianPond_BasinGround",
+      "feature_id": "SP_devonian",
+      "m1_group": "M1-F11",
+      "material_role": "stream_bed",
+      "material_color": [
+        0.24,
+        0.27,
+        0.22,
+        1
+      ],
+      "vertices": 56,
+      "triangles": 62,
+      "area_xy_m2": 694.874142450988,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 5405086,
+        "url": "https://www.openstreetmap.org/way/5405086",
+        "timestamp": "2024-05-23T18:32:07Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Complete source basin footprint draped on coarse current terrain. This is a ground-space blockout, not a surveyed basin floor or a flat operating water surface. The partial proxy-water mesh stays separate.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_DevonianPond_01_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_01_04.npz",
+      "sha256": "a0d6527730dc99acb76458314811724fa5dda98a645f5dee1959ddba4046f3c5",
+      "component_id": "DevonianPond",
+      "feature_id": "SP_devonian",
+      "m1_group": "M1-F11",
+      "material_role": "pond_water",
+      "material_color": [
+        0.14,
+        0.24,
+        0.25,
+        1
+      ],
+      "vertices": 174,
+      "triangles": 196,
+      "area_xy_m2": 284.372953104345,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+      "visual_lift_m": 0.025,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 5405086,
+        "url": "https://www.openstreetmap.org/way/5405086",
+        "timestamp": "2024-05-23T18:32:07Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Source pond boundary, flight-period survey context. No hydraulic or current water-state claim. Render only where current terrain lies below this proxy.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_DevonianParkGround_01_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_04.npz",
+      "sha256": "5b74fef67f0ec23aec54b5d83de950ad0cb906eb3c9efe2148b4bd5cf335eeb4",
+      "component_id": "DevonianParkGround",
+      "feature_id": "SP_devonian",
+      "m1_group": "M1-F11",
+      "material_role": "public_lawn",
+      "material_color": [
+        0.3,
+        0.38,
+        0.18,
+        1
+      ],
+      "vertices": 4101,
+      "triangles": 6154,
+      "area_xy_m2": 28566.77121612035,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 37056115,
+        "url": "https://www.openstreetmap.org/way/37056115",
+        "timestamp": "2025-04-20T04:55:06Z",
+        "licence": "ODbL-1.0",
+        "original_park_geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                527.2168983024894,
+                -804.3686085753143
+              ],
+              [
+                526.7708361427067,
+                -805.779682315886
+              ],
+              [
+                525.8881987155764,
+                -811.4144800128415
+              ],
+              [
+                525.5881523122662,
+                -816.5389366298914
+              ],
+              [
+                507.37760838185204,
+                -839.0072473343462
+              ],
+              [
+                470.97425502806436,
+                -869.8583191102371
+              ],
+              [
+                472.77575454692123,
+                -874.8309297394007
+              ],
+              [
+                475.49300252180547,
+                -880.0275362916291
+              ],
+              [
+                477.76172122283606,
+                -883.9670962374657
+              ],
+              [
+                480.2350150371785,
+                -887.3622853280976
+              ],
+              [
+                483.1735769720399,
+                -890.8027814766392
+              ],
+              [
+                534.8488860540092,
+                -947.5042015723884
+              ],
+              [
+                559.1321208607988,
+                -973.1504815034568
+              ],
+              [
+                676.1369989273953,
+                -1089.6216441402212
+              ],
+              [
+                677.712802202208,
+                -1090.7917300723493
+              ],
+              [
+                679.2821607996011,
+                -1091.494885031134
+              ],
+              [
+                680.8961699379142,
+                -1091.6200281819329
+              ],
+              [
+                682.7000975481933,
+                -1091.256353335455
+              ],
+              [
+                684.3226948630181,
+                -1090.6366635076702
+              ],
+              [
+                685.9029807778425,
+                -1089.272051250562
+              ],
+              [
+                726.2506349050673,
+                -1048.4322177320719
+              ],
+              [
+                750.9652493198519,
+                -1023.7956581488252
+              ],
+              [
+                764.9428055136232,
+                -1005.9104992551729
+              ],
+              [
+                778.4128494581091,
+                -995.4395369570702
+              ],
+              [
+                765.9560456591425,
+                -983.7224984215572
+              ],
+              [
+                760.4675478214631,
+                -974.730237656273
+              ],
+              [
+                757.4023351484211,
+                -968.7549645313993
+              ],
+              [
+                750.7383474656963,
+                -958.3932246994227
+              ],
+              [
+                743.5805793249165,
+                -951.8104309458286
+              ],
+              [
+                726.8992330816691,
+                -940.2081655040383
+              ],
+              [
+                698.9760595798725,
+                -920.8151438487694
+              ],
+              [
+                691.1284185934346,
+                -913.7974952189252
+              ],
+              [
+                687.7875472703017,
+                -911.6348691359162
+              ],
+              [
+                684.3471444004681,
+                -908.1935956599191
+              ],
+              [
+                679.9113214939134,
+                -904.3503427831456
+              ],
+              [
+                678.0236575471936,
+                -894.5416990052909
+              ],
+              [
+                675.9738267041976,
+                -890.0912218475714
+              ],
+              [
+                676.2289025546052,
+                -889.7581594744697
+              ],
+              [
+                683.4613522574655,
+                -878.6871791770682
+              ],
+              [
+                684.1907131781918,
+                -877.4099994115531
+              ],
+              [
+                684.4479501158348,
+                -875.8540566703305
+              ],
+              [
+                684.561064232199,
+                -873.5641288114712
+              ],
+              [
+                684.3684819976334,
+                -871.4515344565734
+              ],
+              [
+                683.6180583077366,
+                -868.1928897704929
+              ],
+              [
+                682.4248524664436,
+                -864.5110111571848
+              ],
+              [
+                680.2367824502871,
+                -860.1158765088767
+              ],
+              [
+                675.949183351302,
+                -850.6031479798257
+              ],
+              [
+                672.8815345950425,
+                -846.0952823897824
+              ],
+              [
+                669.6963941219728,
+                -842.2431174330413
+              ],
+              [
+                666.6550820599077,
+                -839.291692590341
+              ],
+              [
+                660.8403104323661,
+                -834.0563401170075
+              ],
+              [
+                652.4172552035307,
+                -827.7046424122527
+              ],
+              [
+                644.8210526636685,
+                -822.5105808544904
+              ],
+              [
+                633.106914580334,
+                -814.6855488000438
+              ],
+              [
+                625.9247947898693,
+                -809.7145394515246
+              ],
+              [
+                622.1547122626798,
+                -807.7289833826944
+              ],
+              [
+                619.0008588184137,
+                -806.7561802305281
+              ],
+              [
+                616.5657970716711,
+                -806.3627457208931
+              ],
+              [
+                614.4210374427494,
+                -806.2699895668775
+              ],
+              [
+                611.7013612287119,
+                -806.4652537666261
+              ],
+              [
+                608.9812886373256,
+                -806.8828584607691
+              ],
+              [
+                606.3626120737754,
+                -807.5229850737378
+              ],
+              [
+                603.8890756422188,
+                -808.3190089780837
+              ],
+              [
+                599.5011074651266,
+                -810.3345015291125
+              ],
+              [
+                596.102377408708,
+                -812.1294131297618
+              ],
+              [
+                592.6661595320329,
+                -814.5579319689423
+              ],
+              [
+                588.8066371102468,
+                -817.8750630188733
+              ],
+              [
+                580.848332824593,
+                -824.1197899850085
+              ],
+              [
+                576.102378323907,
+                -827.0795799382031
+              ],
+              [
+                572.5161963631981,
+                -827.9736545365304
+              ],
+              [
+                568.6401105534169,
+                -828.3447031406686
+              ],
+              [
+                558.4696018842515,
+                -827.4704778920859
+              ],
+              [
+                544.8904301043949,
+                -821.7541710054502
+              ],
+              [
+                540.3592151424964,
+                -818.4887239839882
+              ],
+              [
+                537.1453391956165,
+                -814.5030246051028
+              ],
+              [
+                534.1940990921576,
+                -810.0286412555724
+              ],
+              [
+                532.5992494827951,
+                -807.3799011418596
+              ],
+              [
+                530.631867956603,
+                -805.6865644240752
+              ],
+              [
+                527.2168983024894,
+                -804.3686085753143
+              ]
+            ]
+          ]
+        },
+        "excluded_parking_way_ids": [
+          115939862
+        ]
+      },
+      "limit": "Park envelope with roads, paths, buildings and pond removed. Canopy and current measured terrain remain; no blanket tree removal or city simulation.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_DevonianPond_BasinGround_01_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_BasinGround_01_04.npz",
+      "sha256": "1be9e713ea181a6c89995865adfe2b351f58c818be3bd7b58f7119c6e0a5a42f",
+      "component_id": "DevonianPond_BasinGround",
+      "feature_id": "SP_devonian",
+      "m1_group": "M1-F11",
+      "material_role": "stream_bed",
+      "material_color": [
+        0.24,
+        0.27,
+        0.22,
+        1
+      ],
+      "vertices": 221,
+      "triangles": 278,
+      "area_xy_m2": 1888.4921625224474,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 5405086,
+        "url": "https://www.openstreetmap.org/way/5405086",
+        "timestamp": "2024-05-23T18:32:07Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Complete source basin footprint draped on coarse current terrain. This is a ground-space blockout, not a surveyed basin floor or a flat operating water surface. The partial proxy-water mesh stays separate.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_SalmonLowerPool_02_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_SalmonLowerPool_02_04.npz",
+      "sha256": "cec3964d57233fc5e827a89ab8088ada58d3b546214d2d90e4dad11b20f64fdc",
+      "component_id": "SalmonLowerPool",
+      "feature_id": "SP_salmon_stream",
+      "m1_group": "M1-F10",
+      "material_role": "pond_water",
+      "material_color": [
+        0.14,
+        0.24,
+        0.25,
+        1
+      ],
+      "vertices": 9,
+      "triangles": 8,
+      "area_xy_m2": 0.3830488907772159,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.025,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 1170395077,
+        "url": "https://www.openstreetmap.org/way/1170395077",
+        "timestamp": "2023-05-08T20:25:46Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Source pond boundary, flight-period survey context. No hydraulic or current water-state claim. Render only where current terrain lies below this proxy.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_PaintersCircleCourt_02_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_PaintersCircleCourt_02_04.npz",
+      "sha256": "dfbba4ca70cf7208c5b4af693a797f44d532a7950ba634aa3799640f61e64c84",
+      "component_id": "PaintersCircleCourt",
+      "feature_id": "SP_painters_circle",
+      "m1_group": "M1-F09",
+      "material_role": "public_concrete",
+      "material_color": [
+        0.5,
+        0.49,
+        0.45,
+        1
+      ],
+      "vertices": 50,
+      "triangles": 43,
+      "area_xy_m2": 69.99814246644094,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Coarse visible image trace",
+        "metadata": "evidence/corridor/ortho-utm/m1-painters-stream.json",
+        "image_sha256": "9b3f84996d728d05fa9ef0a9e782341b4520f677c4fbdcca693fb00a2a382c24",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            832,
+            1000
+          ],
+          [
+            859,
+            1000
+          ],
+          [
+            876,
+            1017
+          ],
+          [
+            876,
+            1045
+          ],
+          [
+            858,
+            1063
+          ],
+          [
+            831,
+            1061
+          ],
+          [
+            813,
+            1042
+          ],
+          [
+            813,
+            1019
+          ]
+        ],
+        "picked_display_size": [
+          1600,
+          1600
+        ],
+        "licence": "OGL Vancouver"
+      },
+      "limit": "Finite central paved meeting circle from official inset B and 2022 image. Artist stalls, art and occupancy are not added.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_PortraitPaintersGround_02_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_PortraitPaintersGround_02_04.npz",
+      "sha256": "dc5b8380e1d072a0abf381d58c5f9c773ab0d6b65614233b36b04248455251df",
+      "component_id": "PortraitPaintersGround",
+      "feature_id": "SP_portrait_painters",
+      "m1_group": "M1-F09",
+      "material_role": "public_lawn",
+      "material_color": [
+        0.3,
+        0.38,
+        0.18,
+        1
+      ],
+      "vertices": 59,
+      "triangles": 68,
+      "area_xy_m2": 809.000780681136,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Coarse visible image trace",
+        "metadata": "evidence/corridor/ortho-utm/m1-painters-stream.json",
+        "image_sha256": "9b3f84996d728d05fa9ef0a9e782341b4520f677c4fbdcca693fb00a2a382c24",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            1100,
+            340
+          ],
+          [
+            1150,
+            333
+          ],
+          [
+            1207,
+            350
+          ],
+          [
+            1230,
+            382
+          ],
+          [
+            1220,
+            429
+          ],
+          [
+            1200,
+            458
+          ],
+          [
+            1156,
+            470
+          ],
+          [
+            1108,
+            455
+          ],
+          [
+            1066,
+            430
+          ],
+          [
+            1037,
+            408
+          ],
+          [
+            1015,
+            384
+          ],
+          [
+            1026,
+            352
+          ],
+          [
+            1056,
+            340
+          ]
+        ],
+        "picked_display_size": [
+          1600,
+          1600
+        ],
+        "licence": "OGL Vancouver"
+      },
+      "limit": "Visible lawn/tree island within the public paths south of Aquarium. Existing walking surfaces remain separate. Official map location is approximate; this is not a licensed vending boundary or an interior exhibit.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_SalmonChannel_1495282021_02_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_SalmonChannel_1495282021_02_04.npz",
+      "sha256": "dcfca23a26eb163f198f164dfa8f78ca9a8e3c15e2945bac092eedfebe802dea",
+      "component_id": "SalmonChannel_1495282021",
+      "feature_id": "SP_salmon_stream",
+      "m1_group": "M1-F10",
+      "material_role": "stream_bed",
+      "material_color": [
+        0.24,
+        0.27,
+        0.22,
+        1
+      ],
+      "vertices": 75,
+      "triangles": 74,
+      "area_xy_m2": 12.547534657869008,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 1495282021,
+        "url": "https://www.openstreetmap.org/way/1495282021",
+        "timestamp": "2026-04-01T21:20:35Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "1.6 m visible coarse channel width is estimated. Culvert segments are not painted across paths.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_SalmonChannel_1495282022_02_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_SalmonChannel_1495282022_02_04.npz",
+      "sha256": "cb8db06065c7c8b9425456b244735bac3a47d70b926158f4a41c5206fa1ae828",
+      "component_id": "SalmonChannel_1495282022",
+      "feature_id": "SP_salmon_stream",
+      "m1_group": "M1-F10",
+      "material_role": "stream_bed",
+      "material_color": [
+        0.24,
+        0.27,
+        0.22,
+        1
+      ],
+      "vertices": 88,
+      "triangles": 87,
+      "area_xy_m2": 22.801890204744776,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 1495282022,
+        "url": "https://www.openstreetmap.org/way/1495282022",
+        "timestamp": "2026-04-01T21:20:35Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "1.6 m visible coarse channel width is estimated. Culvert segments are not painted across paths.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_SalmonChannel_Middle_02_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_SalmonChannel_Middle_02_04.npz",
+      "sha256": "868964a4e629cf3f2b44cb9d9859ea2f332c82fa9b3c53bf5b55ad07a7d828cf",
+      "component_id": "SalmonChannel_Middle",
+      "feature_id": "SP_salmon_stream",
+      "m1_group": "M1-F10",
+      "material_role": "stream_bed",
+      "material_color": [
+        0.24,
+        0.27,
+        0.22,
+        1
+      ],
+      "vertices": 173,
+      "triangles": 169,
+      "area_xy_m2": 198.2929202125037,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Approximate canopy-occluded channel trace",
+        "primary_map": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "map_revision": "2026-05-19",
+        "primary_description": "https://stanleyparkecology.ca/wp-content/uploads/2021/07/SOPEI-Full-2010.pdf",
+        "source_page": 80,
+        "image": "evidence/corridor/ortho-utm/m1-painters-stream.json",
+        "coordinates_local_m": [
+          [
+            812.4,
+            -339.9
+          ],
+          [
+            821,
+            -354
+          ],
+          [
+            830,
+            -367
+          ],
+          [
+            836,
+            -391
+          ],
+          [
+            846,
+            -413
+          ],
+          [
+            854,
+            -432
+          ],
+          [
+            860,
+            -444
+          ]
+        ],
+        "licence": "Project estimate from reference context"
+      },
+      "limit": "Inferred short channel continuation joining visible/source water. 1.8 m width is a blockout estimate. Existing crossing pavements are retained; buried outlet and fish-ladder detail are later work.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_SalmonChannel_OutletApproach_02_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_SalmonChannel_OutletApproach_02_04.npz",
+      "sha256": "a079809dd131a86c4c8647eeb599aa77fdb6b62ecfb006759ad92f66d094903e",
+      "component_id": "SalmonChannel_OutletApproach",
+      "feature_id": "SP_salmon_stream",
+      "m1_group": "M1-F10",
+      "material_role": "stream_bed",
+      "material_color": [
+        0.24,
+        0.27,
+        0.22,
+        1
+      ],
+      "vertices": 100,
+      "triangles": 101,
+      "area_xy_m2": 112.0119984757253,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Approximate canopy-occluded channel trace",
+        "primary_map": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "map_revision": "2026-05-19",
+        "primary_description": "https://stanleyparkecology.ca/wp-content/uploads/2021/07/SOPEI-Full-2010.pdf",
+        "source_page": 80,
+        "image": "evidence/corridor/ortho-utm/m1-painters-stream.json",
+        "coordinates_local_m": [
+          [
+            863,
+            -466
+          ],
+          [
+            860,
+            -481
+          ],
+          [
+            861,
+            -496
+          ],
+          [
+            866,
+            -511
+          ],
+          [
+            867,
+            -526
+          ]
+        ],
+        "licence": "Project estimate from reference context"
+      },
+      "limit": "Inferred short channel continuation joining visible/source water. 1.8 m width is a blockout estimate. Existing crossing pavements are retained; buried outlet and fish-ladder detail are later work.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_SalmonLowerPool_BasinGround_02_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_SalmonLowerPool_BasinGround_02_04.npz",
+      "sha256": "1dfed437112be72de5efe6ec20e8b03adef75d1738285bd128ecc1b9affe6835",
+      "component_id": "SalmonLowerPool_BasinGround",
+      "feature_id": "SP_salmon_stream",
+      "m1_group": "M1-F10",
+      "material_role": "stream_bed",
+      "material_color": [
+        0.24,
+        0.27,
+        0.22,
+        1
+      ],
+      "vertices": 38,
+      "triangles": 41,
+      "area_xy_m2": 274.09417661180134,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "OSM source geometry",
+        "way_id": 1170395077,
+        "url": "https://www.openstreetmap.org/way/1170395077",
+        "timestamp": "2023-05-08T20:25:46Z",
+        "licence": "ODbL-1.0"
+      },
+      "limit": "Complete source basin footprint draped on coarse current terrain. This is a ground-space blockout, not a surveyed basin floor or a flat operating water surface. The partial proxy-water mesh stays separate.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_WaterParkBoatPad_03_04",
+      "path": "data/derived/site-completions/meshes/SM_Site_WaterParkBoatPad_03_04.npz",
+      "sha256": "611d89ab509222548ee360f6473ef0042b19de92d991c33df476088c6edc599f",
+      "component_id": "WaterParkBoatPad",
+      "feature_id": "SP_water_park",
+      "m1_group": "M1-F05",
+      "material_role": "play_rubber",
+      "material_color": [
+        0.16,
+        0.17,
+        0.16,
+        1
+      ],
+      "vertices": 16,
+      "triangles": 16,
+      "area_xy_m2": 88.55000000000052,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "visual_lift_m": 0.045,
+      "collision": false,
+      "source": {
+        "type": "Coarse visible image trace",
+        "metadata": "evidence/corridor/ortho-utm/m1-waterpark.json",
+        "image_sha256": "44be5f3df239adaa55847403cd6e50c35fcd5da1dee00ec15a93ba33f3b551e1",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            723,
+            724
+          ],
+          [
+            838,
+            724
+          ],
+          [
+            838,
+            801
+          ],
+          [
+            723,
+            801
+          ]
+        ],
+        "picked_display_size": [
+          1400,
+          1400
+        ],
+        "licence": "OGL Vancouver"
+      },
+      "limit": "Visible internal dark play-surface rectangle, layered 0.025 m above the prior pad for a total0.045m terrain display lift.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_PortViewPlatform_02_06",
+      "path": "data/derived/site-completions/meshes/SM_Site_PortViewPlatform_02_06.npz",
+      "sha256": "d2b647f7f50dbc031b749bc589ffd2f72855a7f815d155f7abb64e3f0eaeb141",
+      "component_id": "PortViewPlatform",
+      "feature_id": "SP_port_view",
+      "m1_group": "M1-F11",
+      "material_role": "public_concrete",
+      "material_color": [
+        0.5,
+        0.49,
+        0.45,
+        1
+      ],
+      "vertices": 55,
+      "triangles": 53,
+      "area_xy_m2": 8.118589886531147,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Coarse visible image trace",
+        "metadata": "evidence/corridor/ortho-utm/m1-port-view.json",
+        "image_sha256": "caa922b8be1692a181d9f98f348faa43203fe2431fa9a2876d998e82fd2c3eb7",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            434,
+            516
+          ],
+          [
+            454,
+            519
+          ],
+          [
+            474,
+            514
+          ],
+          [
+            496,
+            511
+          ],
+          [
+            516,
+            516
+          ],
+          [
+            534,
+            531
+          ],
+          [
+            543,
+            548
+          ],
+          [
+            540,
+            563
+          ],
+          [
+            528,
+            576
+          ],
+          [
+            508,
+            581
+          ],
+          [
+            489,
+            576
+          ],
+          [
+            474,
+            561
+          ],
+          [
+            452,
+            558
+          ]
+        ],
+        "picked_display_size": [
+          1000,
+          1000
+        ],
+        "licence": "OGL Vancouver"
+      },
+      "limit": "Visible semicircular seawall projection. Actual terrain supplies Z; no independent wall/deck thickness is inferred.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    },
+    {
+      "name": "SM_Site_PortViewPlatform_03_06",
+      "path": "data/derived/site-completions/meshes/SM_Site_PortViewPlatform_03_06.npz",
+      "sha256": "f4ae96aa3f5a608d9f4c83ce49caa9e9d84d79900bb041aa205e35689026a462",
+      "component_id": "PortViewPlatform",
+      "feature_id": "SP_port_view",
+      "m1_group": "M1-F11",
+      "material_role": "public_concrete",
+      "material_color": [
+        0.5,
+        0.49,
+        0.45,
+        1
+      ],
+      "vertices": 192,
+      "triangles": 188,
+      "area_xy_m2": 9.996021068464545,
+      "contact_surface": "data/derived/surface-meshes/SM_Terrain_03_06.npz",
+      "visual_lift_m": 0.02,
+      "collision": false,
+      "source": {
+        "type": "Coarse visible image trace",
+        "metadata": "evidence/corridor/ortho-utm/m1-port-view.json",
+        "image_sha256": "caa922b8be1692a181d9f98f348faa43203fe2431fa9a2876d998e82fd2c3eb7",
+        "capture_period": "2022-06-06/2022-07-01",
+        "pixels": [
+          [
+            434,
+            516
+          ],
+          [
+            454,
+            519
+          ],
+          [
+            474,
+            514
+          ],
+          [
+            496,
+            511
+          ],
+          [
+            516,
+            516
+          ],
+          [
+            534,
+            531
+          ],
+          [
+            543,
+            548
+          ],
+          [
+            540,
+            563
+          ],
+          [
+            528,
+            576
+          ],
+          [
+            508,
+            581
+          ],
+          [
+            489,
+            576
+          ],
+          [
+            474,
+            561
+          ],
+          [
+            452,
+            558
+          ]
+        ],
+        "picked_display_size": [
+          1000,
+          1000
+        ],
+        "licence": "OGL Vancouver"
+      },
+      "limit": "Visible semicircular seawall projection. Actual terrain supplies Z; no independent wall/deck thickness is inferred.",
+      "absolute_accuracy_accepted": false,
+      "release_accepted": false
+    }
+  ],
+  "components": [
+    {
+      "component_id": "DevonianPond",
+      "feature_id": "SP_devonian",
+      "source_area_m2": 2613.8212114845032,
+      "authoring_area_m2": 2583.366304973435,
+      "rendered_area_m2": 285.2041969129668,
+      "minimum_terrain_z_m": 1.333876609802246,
+      "maximum_terrain_z_m": 4.306904315948486,
+      "masked_area_m2": 30.454906511068202,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "SalmonLowerPool",
+      "feature_id": "SP_salmon_stream",
+      "source_area_m2": 274.0941766118016,
+      "authoring_area_m2": 274.0941766118016,
+      "rendered_area_m2": 0.3830488907772159,
+      "minimum_terrain_z_m": 4.023135185241699,
+      "maximum_terrain_z_m": 5.561458587646484,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "PaintersCircleCourt",
+      "feature_id": "SP_painters_circle",
+      "source_area_m2": 129.9200000000003,
+      "authoring_area_m2": 69.99814246644105,
+      "rendered_area_m2": 69.99814246644094,
+      "minimum_terrain_z_m": 4.256640434265137,
+      "maximum_terrain_z_m": 5.615169048309326,
+      "masked_area_m2": 59.92185753355925,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "PortraitPaintersGround",
+      "feature_id": "SP_portrait_painters",
+      "source_area_m2": 835.6999999999996,
+      "authoring_area_m2": 809.0007806811357,
+      "rendered_area_m2": 809.000780681136,
+      "minimum_terrain_z_m": 11.021138191223145,
+      "maximum_terrain_z_m": 13.809279441833496,
+      "masked_area_m2": 26.699219318863925,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "SalmonChannel_1495282021",
+      "feature_id": "SP_salmon_stream",
+      "source_area_m2": 12.54753465786905,
+      "authoring_area_m2": 12.547534657869045,
+      "rendered_area_m2": 12.547534657869008,
+      "minimum_terrain_z_m": 9.750272750854492,
+      "maximum_terrain_z_m": 10.75757122039795,
+      "masked_area_m2": 5.329070518200751e-15,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "SalmonChannel_1495282022",
+      "feature_id": "SP_salmon_stream",
+      "source_area_m2": 22.801890204744595,
+      "authoring_area_m2": 22.80189020474459,
+      "rendered_area_m2": 22.801890204744776,
+      "minimum_terrain_z_m": 9.508715629577637,
+      "maximum_terrain_z_m": 10.427093505859375,
+      "masked_area_m2": 3.552713678800501e-15,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "SalmonChannel_Middle",
+      "feature_id": "SP_salmon_stream",
+      "source_area_m2": 210.0132898887282,
+      "authoring_area_m2": 198.29292021250305,
+      "rendered_area_m2": 198.2929202125037,
+      "minimum_terrain_z_m": 4.060197353363037,
+      "maximum_terrain_z_m": 9.937275886535645,
+      "masked_area_m2": 11.720369676225147,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "SalmonChannel_OutletApproach",
+      "feature_id": "SP_salmon_stream",
+      "source_area_m2": 112.65353441227845,
+      "authoring_area_m2": 112.01199847572492,
+      "rendered_area_m2": 112.0119984757253,
+      "minimum_terrain_z_m": 3.282048463821411,
+      "maximum_terrain_z_m": 5.094687461853027,
+      "masked_area_m2": 0.6415359365535238,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "WaterParkBoatPad",
+      "feature_id": "SP_water_park",
+      "source_area_m2": 88.5500000000002,
+      "authoring_area_m2": 88.5500000000002,
+      "rendered_area_m2": 88.55000000000052,
+      "minimum_terrain_z_m": -0.08795657753944397,
+      "maximum_terrain_z_m": 3.3291995525360107,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "PortViewPlatform",
+      "feature_id": "SP_port_view",
+      "source_area_m2": 50.609999999999594,
+      "authoring_area_m2": 18.114610954995747,
+      "rendered_area_m2": 18.11461095499569,
+      "minimum_terrain_z_m": 0.13589046895503998,
+      "maximum_terrain_z_m": 4.035210609436035,
+      "masked_area_m2": 32.49538904500385,
+      "exclusion_overlap_m2": 5.506695143373174e-15
+    },
+    {
+      "component_id": "DevonianParkGround",
+      "feature_id": "SP_devonian",
+      "source_area_m2": 37837.06268849228,
+      "authoring_area_m2": 33960.00310983407,
+      "rendered_area_m2": 33960.003109834055,
+      "minimum_terrain_z_m": -1.7605407238006592,
+      "maximum_terrain_z_m": 8.443989753723145,
+      "masked_area_m2": 3877.0595786582126,
+      "exclusion_overlap_m2": 2.2202477527575833e-15
+    },
+    {
+      "component_id": "DevonianPond_BasinGround",
+      "feature_id": "SP_devonian",
+      "source_area_m2": 2613.8212114845032,
+      "authoring_area_m2": 2583.3663049734346,
+      "rendered_area_m2": 2583.3663049734355,
+      "minimum_terrain_z_m": 1.333876609802246,
+      "maximum_terrain_z_m": 4.306904315948486,
+      "masked_area_m2": 30.454906511068657,
+      "exclusion_overlap_m2": 0.0
+    },
+    {
+      "component_id": "SalmonLowerPool_BasinGround",
+      "feature_id": "SP_salmon_stream",
+      "source_area_m2": 274.0941766118016,
+      "authoring_area_m2": 274.0941766118016,
+      "rendered_area_m2": 274.09417661180134,
+      "minimum_terrain_z_m": 4.023135185241699,
+      "maximum_terrain_z_m": 5.561458587646484,
+      "masked_area_m2": 0.0,
+      "exclusion_overlap_m2": 0.0
+    }
+  ],
+  "unresolved": [],
+  "reference_only": [],
+  "attribution": [
+    "\u00a9 OpenStreetMap contributors",
+    "Contains information licensed under the Open Government Licence - Vancouver."
+  ],
+  "licence": "OSM ODbL-1.0, City survey/ortho derivatives OGL Vancouver; project estimates explicitly labelled",
+  "application_visual_check": "pending",
+  "full_m1_groups_complete": false,
+  "release_accepted": false
+}

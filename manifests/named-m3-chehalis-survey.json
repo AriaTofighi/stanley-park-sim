@@ -1,0 +1,18 @@
+{
+  "id": "m3-chehalis",
+  "extraction_centre_local_m": [
+    1822.16,
+    -303.05
+  ],
+  "extraction_radius_m": 35,
+  "source": "manifests/lidar2022-491000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 380017,
+  "output": {
+    "path": "data/derived/named-m3-chehalis-survey.npz",
+    "sha256": "baaab44ecbd0a97ce8c3e5d1ab0932bb1161749104545be144645b9be23262d7"
+  }
+}

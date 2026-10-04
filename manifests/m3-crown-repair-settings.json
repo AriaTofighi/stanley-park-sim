@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "working_blend": "blender/StanleyPark_Seawall.blend",
+  "map_path": "/Game/Maps/StanleyParkSeawall",
+  "asset_root": "/Game/StanleyPark/Seawall/M3CrownRepair",
+  "forest_manifest": "exports/m3-forest/659dc73e2ffc/manifest.json",
+  "forest_manifest_sha256": "8e62f61712836fa3a74bada64a16ecfbebf56ec418588c26e1f8cf0c39ab74e5",
+  "near_crown_distance_m": 60.0,
+  "clearance_extra_m": 0.05,
+  "lod_screen_sizes": [1.0, 0.36, 0.15, 0.055],
+  "source_contract": "Keep every current visible source anchor, source top, source base record and grounded support. A crown is a complete form fitted above the local clearance floor. Its lower shape and stem are inferred, not measured.",
+  "repair_reason": "Actual M3 views show flat lower crown cuts and detached-looking broadleaf image forks. Remove the forced 30-percent whole-tree image slice. Use shared 3-D forms near the route and complete silhouettes at distance."
+}

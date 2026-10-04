@@ -1,0 +1,851 @@
+{
+  "schema_version": 1,
+  "revision": "railway-structures-m1-r1",
+  "assets": [
+    {
+      "name": "SM_RailStation_GableRoof_0",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_GableRoof_0.npz",
+      "sha256": "e2baf8f876b562abdb2b57057daed30210061fe4c1fdbf37685bd4df040a3e10",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        660.2334760929577,
+        -88.74106646734595,
+        27.808922591193294
+      ],
+      "bounds_max_m": [
+        667.4164712562058,
+        -76.84352281284218,
+        30.60840896295609
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailStation_GableRoof_1",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_GableRoof_1.npz",
+      "sha256": "69098451a139243f4803c750d6d7207a60e5645eaa41ce815ad0ed10078200a0",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        657.757601094152,
+        -89.81811938632852,
+        27.891994026673093
+      ],
+      "bounds_max_m": [
+        664.9405962574001,
+        -77.92057573182475,
+        30.60840896295614
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailStation_Column_0_0",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_Column_0_0.npz",
+      "sha256": "fc2cf7dcb385a0b40f45bb2613a1bb79e302b494f3a96e89b6204c1f9ed4bcc2",
+      "material": "timber",
+      "color": [
+        0.39,
+        0.28,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        666.0168012448079,
+        -87.19178083359195,
+        24.934020077513722
+      ],
+      "bounds_max_m": [
+        666.3589350442986,
+        -86.84964703410121,
+        28.538843341362607
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailStation_Column_0_1",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_Column_0_1.npz",
+      "sha256": "97c43d58484656be65ad1cfb5ab58bdb0b45d1d999031d5112f59243e6d2351b",
+      "material": "timber",
+      "color": [
+        0.39,
+        0.28,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        662.6606151353157,
+        -88.65178590154612,
+        25.054546258354453
+      ],
+      "bounds_max_m": [
+        663.0027489348064,
+        -88.30965210205538,
+        28.595147314299016
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailStation_Column_1_0",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_Column_1_0.npz",
+      "sha256": "9398f6074f82efde4f6660ab643e43ebd59182dc69c9e1930954726fb7756213",
+      "material": "timber",
+      "color": [
+        0.39,
+        0.28,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        664.0940623301797,
+        -82.77188546535363,
+        25.029077225828402
+      ],
+      "bounds_max_m": [
+        664.4361961296704,
+        -82.4297516658629,
+        28.718112662266833
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailStation_Column_1_1",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_Column_1_1.npz",
+      "sha256": "52d4ee47dd4a25d8cdceaf3e4c411e2eb09251830334f62431a570fa10da7747",
+      "material": "timber",
+      "color": [
+        0.39,
+        0.28,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        660.7378762206874,
+        -84.2318905333078,
+        25.119906271358477
+      ],
+      "bounds_max_m": [
+        661.0800100201782,
+        -83.88975673381707,
+        28.774416635203167
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailStation_Column_2_0",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_Column_2_0.npz",
+      "sha256": "a0f9cfdcbbeb0f358af85b63962cf7fcada3d590b53c4cfed3f1cece0df2fb40",
+      "material": "timber",
+      "color": [
+        0.39,
+        0.28,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        662.1713234155515,
+        -78.35199009711532,
+        25.1694759973295
+      ],
+      "bounds_max_m": [
+        662.5134572150422,
+        -78.00985629762458,
+        28.89738198317106
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailStation_Column_2_1",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_Column_2_1.npz",
+      "sha256": "b85a3a2e12c3831f3df67299907cc8f19e46192cd9cf5ca2f694e051301bdf8a",
+      "material": "timber",
+      "color": [
+        0.39,
+        0.28,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        658.8151373060592,
+        -79.81199516506949,
+        25.143006489174464
+      ],
+      "bounds_max_m": [
+        659.15727110555,
+        -79.46986136557875,
+        28.953685956107318
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailStation_EaveBeam_0",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_EaveBeam_0.npz",
+      "sha256": "6a2bf27dbb596eb1f36f84ac96b6592dc2fb2f2c563747a641ca5c731c51078f",
+      "material": "timber",
+      "color": [
+        0.39,
+        0.28,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        661.9810390786985,
+        -87.64628711885604,
+        28.14027359540558
+      ],
+      "bounds_max_m": [
+        666.5492193811516,
+        -77.5553500123605,
+        29.015951729128087
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailStation_EaveBeam_1",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailStation_EaveBeam_1.npz",
+      "sha256": "9177e587e97622823c27ac0058fa52a9803ab31c73a1f5bb79d991cef1a51019",
+      "material": "timber",
+      "color": [
+        0.39,
+        0.28,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        658.6248529692062,
+        -89.1062921868102,
+        28.200269632141033
+      ],
+      "bounds_max_m": [
+        663.1930332716594,
+        -79.01535508031466,
+        29.068563638265303
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_LowRoof",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_LowRoof.npz",
+      "sha256": "586035411ee3bf94ebac6fefc1e46799ef186a65a27d5bf2255faba04734df60",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        648.8933882215556,
+        -91.80830953255105,
+        28.434266672103227
+      ],
+      "bounds_max_m": [
+        662.3696880373291,
+        -78.76711280544305,
+        28.98373996811562
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_0_0",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_0_0.npz",
+      "sha256": "249b7d9744cc743207a377fac8d4d46c36f591d326e631152756a988eb9b9a7c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        660.0671177671745,
+        -89.36605651066272,
+        25.157331816431554
+      ],
+      "bounds_max_m": [
+        660.2071177671746,
+        -89.22605651066273,
+        28.73151674796585
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_0_1",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_0_1.npz",
+      "sha256": "e6102a7b1b41276335f652b2476a7f21ea36586911b1e1a3c4bd66ff0d43252e",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        656.1340456573697,
+        -90.31102676367365,
+        25.325132205834166
+      ],
+      "bounds_max_m": [
+        656.2740456573698,
+        -90.17102676367367,
+        28.599581264327764
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_0_2",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_0_2.npz",
+      "sha256": "ee0d2e9abd490a7f45d72f4c31611596824608ff3bbc19c53b52cc23f2633a26",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        652.2009735475649,
+        -91.25599701668459,
+        25.458935495967072
+      ],
+      "bounds_max_m": [
+        652.340973547565,
+        -91.1159970166846,
+        28.46764578068968
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_1_0",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_1_0.npz",
+      "sha256": "e401a09de147679adaca280d29021749104b8b20f34e38f7c53bf10dc8a26100",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        659.2961902430865,
+        -86.15736974617424,
+        25.148398655635873
+      ],
+      "bounds_max_m": [
+        659.4361902430866,
+        -86.01736974617425,
+        28.738073807333322
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_1_1",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_1_1.npz",
+      "sha256": "c9c26cfa130897b693234a86e9f3fd1be9efab7380b8b755f291482c2419bca8",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        655.3631181332817,
+        -87.10233999918518,
+        25.269424356509546
+      ],
+      "bounds_max_m": [
+        655.5031181332818,
+        -86.96233999918519,
+        28.606138323695237
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_1_2",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_1_2.npz",
+      "sha256": "e3fbd0b08d3df03d6ff913e03aedd426a1e1be21765695af40db7776cac73c7c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        651.4300460234768,
+        -88.04731025219611,
+        25.38150373368824
+      ],
+      "bounds_max_m": [
+        651.570046023477,
+        -87.90731025219613,
+        28.474202840057156
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_2_0",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_2_0.npz",
+      "sha256": "879ff652e00232526fe7484cdbe2e2b1cacb6968b73af6a4452d4f72d9a445ec",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        658.5252627189985,
+        -82.94868298168576,
+        25.20984222524833
+      ],
+      "bounds_max_m": [
+        658.6652627189986,
+        -82.80868298168578,
+        28.7446308667008
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_2_1",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_2_1.npz",
+      "sha256": "4f751a63831782d038ca47b679950ca6d625fc2c8f887e5483483209ba4efb8c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        654.5921906091937,
+        -83.8936532346967,
+        25.23033735051343
+      ],
+      "bounds_max_m": [
+        654.7321906091938,
+        -83.75365323469671,
+        28.612695383062718
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_2_2",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_2_2.npz",
+      "sha256": "e9848a76636b795790c2bdfc4fdbaf2bf6988ffc97a47bc8b900d0d14e7d6976",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        650.6591184993889,
+        -84.83862348770764,
+        25.23475428865546
+      ],
+      "bounds_max_m": [
+        650.799118499389,
+        -84.69862348770765,
+        28.480759899424633
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_3_0",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_3_0.npz",
+      "sha256": "ac8d2261ce27757f3a7eb2ee1d821f6ff80d3853e6531a90246a6015c9ed9f1d",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        657.7543351949105,
+        -79.73999621719729,
+        25.1068788935654
+      ],
+      "bounds_max_m": [
+        657.8943351949106,
+        -79.5999962171973,
+        28.751187926068276
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_3_1",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_3_1.npz",
+      "sha256": "2d753c0b93b0afcf8a792129a640db6bdf0ea0645d88fddc08b95149f73509a6",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        653.8212630851057,
+        -80.68496647020822,
+        25.03066256764412
+      ],
+      "bounds_max_m": [
+        653.9612630851058,
+        -80.54496647020824,
+        28.61925244243019
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_RailQueue_Column_3_2",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/railway-structures/SM_RailQueue_Column_3_2.npz",
+      "sha256": "baacb3c9169e236effdfaf2196e1028205ad38e98520c543178eb8f06d5fdfc6",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        649.8881909753009,
+        -81.62993672321916,
+        25.062349387882218
+      ],
+      "bounds_max_m": [
+        650.028190975301,
+        -81.48993672321917,
+        28.487316958792107
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_CobHouse_StoneFoot",
+      "feature_id": "SP_cob_house",
+      "mesh_path": "data/derived/railway-structures/SM_CobHouse_StoneFoot.npz",
+      "sha256": "009970e881d2e1809aa71c088a46c1f3d309121e96a987866dc1e5ad67f30784",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 80,
+      "triangles": 156,
+      "bounds_min_m": [
+        656.174704460838,
+        -135.69229822756355,
+        24.33029631803621
+      ],
+      "bounds_max_m": [
+        659.9252955391619,
+        -131.54770177243645,
+        24.971682737276414
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_CobHouse_CurvedEarthShell",
+      "feature_id": "SP_cob_house",
+      "mesh_path": "data/derived/railway-structures/SM_CobHouse_CurvedEarthShell.npz",
+      "sha256": "08fb339fa2d05e8e673793c1ab465d9e095a7df3ce01f8feae570f785453c56b",
+      "material": "earth",
+      "color": [
+        0.49,
+        0.43,
+        0.28
+      ],
+      "collision": "complex",
+      "vertices": 80,
+      "triangles": 156,
+      "bounds_min_m": [
+        656.174704460838,
+        -135.69229822756355,
+        24.630296318036212
+      ],
+      "bounds_max_m": [
+        659.9252955391619,
+        -131.54770177243645,
+        27.55322615641776
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_CobHouse_WideLivingRoof",
+      "feature_id": "SP_cob_house",
+      "mesh_path": "data/derived/railway-structures/SM_CobHouse_WideLivingRoof.npz",
+      "sha256": "106880e08c95249d20e98453982da1c41d77cfac2077b22ce4250e462f01916d",
+      "material": "roof_green",
+      "color": [
+        0.27,
+        0.35,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 80,
+      "triangles": 156,
+      "bounds_min_m": [
+        655.4251613405737,
+        -136.44184134782788,
+        27.09749721116628
+      ],
+      "bounds_max_m": [
+        660.6748386594262,
+        -130.79815865217213,
+        27.853738801003402
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    },
+    {
+      "name": "SM_CobHouse_ServiceShutter",
+      "feature_id": "SP_cob_house",
+      "mesh_path": "data/derived/railway-structures/SM_CobHouse_ServiceShutter.npz",
+      "sha256": "27699c03c1b2a5d8bb3824ded477ffa4c8e94381c5f599e14f216a9e4a3218ce",
+      "material": "timber",
+      "color": [
+        0.39,
+        0.28,
+        0.16
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        656.17,
+        -134.17000000000002,
+        25.338248997635503
+      ],
+      "bounds_max_m": [
+        656.2299999999999,
+        -133.07,
+        26.388248997635504
+      ],
+      "collision_reason": "Closed individual member only; open station gaps stay open. Exact ground contact and route clearance require live inspection."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_train",
+      "name": "Miniature Railway open station and waiting shelter",
+      "sources": [
+        "https://bids.vancouver.ca/bidopp/ITT/ITT-PS20150687.htm",
+        "data/references/station-tender-2015-amd1.pdf",
+        "https://www.rjc.ca/project-details/stanley-park-mini-train-station-and-waiting.html",
+        "manifests/named-train-plaza-survey.json",
+        "evidence/corridor/ortho-utm/named-train-buildings.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          662.5870361751789,
+          -83.33082109958535
+        ],
+        "source_roof_ids": [
+          "lidar2022_490000_5461000_2"
+        ],
+        "roof_plane_review": {
+          "seed": 731,
+          "planes": [
+            {
+              "coefficients_local": [
+                0.031250208942309066,
+                0.0095517910672373,
+                28.908554942785194
+              ],
+              "support_vertices": 3537,
+              "median_abs_residual_m": 0.016434278725478535
+            },
+            {
+              "coefficients_local": [
+                -0.7418441975061696,
+                -0.2821567666949306,
+                33.233883181351466
+              ],
+              "support_vertices": 1213,
+              "median_abs_residual_m": 0.061357230078535
+            },
+            {
+              "coefficients_local": [
+                0.6839579101511851,
+                0.33809438600245334,
+                27.65446310996566
+              ],
+              "support_vertices": 656,
+              "median_abs_residual_m": 0.058517440240262175
+            }
+          ],
+          "coordinate_origin_xy_m": [
+            659.2965527424889,
+            -84.76224424806908
+          ],
+          "direct_plane_support": 5406,
+          "vertices": 5717,
+          "unsupported_vertices_snapped_to_nearby_plane": 311,
+          "displacement_p95_m": 0.1525024044783478,
+          "displacement_max_m": 0.9823897553753014,
+          "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check."
+        },
+        "terrain_inputs": [
+          {
+            "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+            "sha256": "96d37c5005fe403769b18edb40f97c0beb09ba968a611841f1ecb3350d409e16"
+          }
+        ],
+        "source_identity": "2015 context A1.1 places the station west of washrooms and northwest of the former Contact Barn/current Cafe. A2.2/A2.3 show the gable and skewed open queue shed; 2022 source returns retain both roof forms."
+      },
+      "estimates": {
+        "gable_length_m": 11.8,
+        "gable_width_m": 5.4,
+        "roof_thickness_m": 0.22,
+        "queue_width_m": 10.7,
+        "queue_length_m": 11.289,
+        "queue_skew_degrees": 10,
+        "column_layout": "2015 drawing spacing, aligned to 2022 roof forms; dimensions are design-reference constraints, not certified as-built measurements",
+        "ground_contact": "Columns end 0.12 m below current exported terrain. No new platform floor, gate or inferred exterior wall is added."
+      },
+      "limits": "M1 open structural massing. 2015 tender is not an as-built drawing: eaves/column details, exact pavement grades, railings, queues, platform edge, track operation and station signage remain unfinished. Source roof fit has canopy/multi-return uncertainty; no public train boarding simulation.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_490000_5461000_2"
+      ]
+    },
+    {
+      "id": "SP_cob_house",
+      "name": "Cob House / earthen popcorn stand",
+      "sources": [
+        "https://stanleyparkecology.ca/about-stanley-park-ecology/cob-house/",
+        "https://bids.vancouver.ca/bidopp/ITT/ITT-PS20150687.htm",
+        "data/references/station-tender-2015-amd1.pdf",
+        "manifests/named-train-plaza-south-survey.json",
+        "evidence/corridor/ortho-utm/named-train-buildings.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          658.05,
+          -133.62
+        ],
+        "roof_returns": 372,
+        "roof_inliers": 327,
+        "roof_plane": [
+          0.011289571246664746,
+          -0.09333672460385893,
+          27.590618006084842
+        ],
+        "roof_median_residual_m": 0.03572416190931449,
+        "terrain_inputs": [
+          {
+            "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+            "sha256": "96d37c5005fe403769b18edb40f97c0beb09ba968a611841f1ecb3350d409e16"
+          }
+        ],
+        "source_identity": "2015 A1.1 labels Cob Hut east of the station and west of the former Contact Barn. Isolated curved 2022 roof near [658,-134] agrees with that context. Current operator photo shows curved earthen walls, broad living roof and raised stone base."
+      },
+      "estimates": {
+        "roof_radii_m": [
+          2.6,
+          2.85
+        ],
+        "wall_radii_m": [
+          1.85,
+          2.1
+        ],
+        "roof_thickness_m": 0.23,
+        "roof_angle_degrees": -20,
+        "base_height_m": 0.48,
+        "outline": "Regularized ellipse within the observed sparse roof envelope. The canopy masks the east rim; wall offset, service shutter facing/size and foundation are explicit M1 estimates."
+      },
+      "limits": "Distinct small curved exterior and living-roof massing. No interior, bottle-window artwork, earth texture, individual stonework or exact serving aperture. Position is supported by two survey/context sources, while footprint regularization and hidden wall geometry remain provisional.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    }
+  ],
+  "acceptance": false,
+  "source_period": "2022 survey/ortho and 2015 station tender; current Cob House operator identity",
+  "target_period": "September 2026",
+  "reference_rights": "City survey derivatives OGL-Vancouver. Tender and operator images are reference only, not embedded or licensed for public distribution. No artwork texture is reproduced."
+}

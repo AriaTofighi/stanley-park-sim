@@ -1,0 +1,1579 @@
+{
+  "schema_version": 1,
+  "source_path": "data/routes/raw/osm/park-map-20260927.osm",
+  "source_sha256": "bf0ee22b717a95178a6d8f173cb26f69a08a49a51c23e5cba885c6c597de6f25",
+  "date": "2026-09-27",
+  "licence": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "origin": [
+    489600,
+    5461100
+  ],
+  "crs": "EPSG:3157",
+  "toilet_tags_inside_park": 20,
+  "outside_toilet_tags": [
+    "node648735253",
+    "node8490385258",
+    "node11877233569"
+  ],
+  "toilets": [
+    {
+      "id": "node2230406849",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        1580.597844136064,
+        -338.9297609459609
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_491000_5460000_12",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_490000_5460000_23",
+          "distance_m": 223.5801136742631
+        },
+        {
+          "id": "lidar2022_490000_5460000_34",
+          "distance_m": 257.1249126007821
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": {
+        "manifest": "manifests/named-building-blockouts.json",
+        "feature_id": "SP_totem_precinct",
+        "name": "Brockton Point Totem Pole Visitor Centre"
+      },
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_491000_5460000_12",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node2232022866",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2026-05-28",
+        "check_date:opening_hours": "2026-05-28",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "opening_hours:signed": "no",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        846.8228742068168,
+        -529.6512396959588
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_490000_5460000_20",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_490000_5460000_19",
+          "distance_m": 25.049050900896496
+        },
+        {
+          "id": "lidar2022_490000_5460000_21",
+          "distance_m": 148.4894232701602
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_490000_5460000_20",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node2331296242",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "male": "yes",
+        "source": "survey",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        -565.5751150661963,
+        -749.6346093881875
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5460000_29",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_489000_5460000_28",
+          "distance_m": 34.880229936507355
+        },
+        {
+          "id": "lidar2022_489000_5460000_27",
+          "distance_m": 76.85415541022407
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": {
+        "manifest": "manifests/named-building-blockouts.json",
+        "feature_id": "SP_second_pool",
+        "name": "Second Beach pool facilities"
+      },
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_489000_5460000_29",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node2331296245",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "source": "survey",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        -543.1132450750447,
+        -785.0541143715382
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5460000_29",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_489000_5460000_28",
+          "distance_m": 29.310665869255935
+        },
+        {
+          "id": "lidar2022_489000_5460000_27",
+          "distance_m": 37.44269274058441
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": {
+        "manifest": "manifests/named-building-blockouts.json",
+        "feature_id": "SP_second_pool",
+        "name": "Second Beach pool facilities"
+      },
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_489000_5460000_29",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node2410285546",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "source": "local_knowledge",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        -931.2010797921102,
+        66.63878276478499
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_488000_5461000_1",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_488000_5460000_1",
+          "distance_m": 221.0558264735066
+        },
+        {
+          "id": "lidar2022_489000_5460000_29",
+          "distance_m": 890.2989082280275
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": {
+        "manifest": "manifests/west-landmark-blockouts.json",
+        "feature_id": "SP_third_beach",
+        "name": "Third Beach concession and washroom building"
+      },
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_488000_5461000_1",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node2709915129",
+      "source_tags": {
+        "amenity": "toilets",
+        "male": "yes",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        901.8283343078219,
+        44.35337293986231
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_490000_5461000_5",
+          "distance_m": 40.58694737382724
+        },
+        {
+          "id": "lidar2022_490000_5460000_38",
+          "distance_m": 170.41169739745706
+        },
+        {
+          "id": "lidar2022_490000_5461000_4",
+          "distance_m": 181.36248814716825
+        }
+      ],
+      "source_identity_verified": true,
+      "nearest_named_candidate": {
+        "manifest": "manifests/named-building-blockouts.json",
+        "feature_id": "SP_lumberman_concession",
+        "name": "Lumberman's Arch concession"
+      },
+      "complex": "Lumberman washrooms below Stanley Park Drive",
+      "coverage": "new located underpass and facade package; root integration pending",
+      "package": "manifests/lumberman-facility-blockouts.json",
+      "duplicate_policy": "Separate male/female facility tags; same below-road complex, not duplicated building boxes"
+    },
+    {
+      "id": "node3488239454",
+      "source_tags": {
+        "amenity": "toilets",
+        "fee": "no",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "no"
+      },
+      "local_xy_m": [
+        -261.0986369116581,
+        -1138.477346437052
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5459000_95",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_489000_5459000_91",
+          "distance_m": 67.02765777921199
+        },
+        {
+          "id": "lidar2022_489000_5459000_85",
+          "distance_m": 75.69163693363598
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_489000_5459000_95",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node3488241720",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "portable": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        1237.222473294998,
+        -329.44075434468687
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_490000_5460000_24",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_490000_5460000_33",
+          "distance_m": 105.00772946660027
+        },
+        {
+          "id": "lidar2022_490000_5460000_23",
+          "distance_m": 115.60441551846738
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_490000_5460000_24",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node3672622827",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        -384.875683118531,
+        889.0423702271655
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5461000_2",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_489000_5462000_1",
+          "distance_m": 457.5883238858722
+        },
+        {
+          "id": "lidar2022_489000_5462000_2",
+          "distance_m": 462.6405923883821
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_489000_5461000_2",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node3673185994",
+      "source_tags": {
+        "amenity": "toilets",
+        "check_date": "2022-03-25",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        -410.389705834561,
+        -995.552925541997
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5460000_13",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_489000_5460000_15",
+          "distance_m": 88.90972609726603
+        },
+        {
+          "id": "lidar2022_489000_5460000_16",
+          "distance_m": 93.39863910034043
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_489000_5460000_13",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node4362322783",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "wheelchair": "no"
+      },
+      "local_xy_m": [
+        658.4752381807775,
+        -334.89297838229686
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_490000_5460000_25",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_490000_5460000_22",
+          "distance_m": 57.741476324458546
+        },
+        {
+          "id": "lidar2022_490000_5460000_32",
+          "distance_m": 97.72088302897214
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": {
+        "manifest": "manifests/named-building-blockouts.json",
+        "feature_id": "SP_pavilion",
+        "name": "Stanley Park Pavilion"
+      },
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_490000_5460000_25",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node5247891521",
+      "source_tags": {
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "no"
+      },
+      "local_xy_m": [
+        -238.5881557392422,
+        -1143.1123439483345
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5459000_95",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_489000_5459000_91",
+          "distance_m": 80.7697511955057
+        },
+        {
+          "id": "lidar2022_489000_5459000_85",
+          "distance_m": 81.53568251440427
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_489000_5459000_95",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node6997412037",
+      "source_tags": {
+        "amenity": "toilets"
+      },
+      "local_xy_m": [
+        474.69491672725417,
+        -311.56268364563584
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_490000_5460000_26",
+          "distance_m": 1.0018892398137205
+        },
+        {
+          "id": "lidar2022_490000_5460000_28",
+          "distance_m": 33.87864512064714
+        },
+        {
+          "id": "lidar2022_490000_5460000_30",
+          "distance_m": 37.32552012836886
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_490000_5460000_26",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node8370405353",
+      "source_tags": {
+        "amenity": "toilets",
+        "female": "yes",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        890.1848808431532,
+        50.15443028975278
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_490000_5461000_5",
+          "distance_m": 33.04107377411058
+        },
+        {
+          "id": "lidar2022_490000_5461000_4",
+          "distance_m": 174.8140012504799
+        },
+        {
+          "id": "lidar2022_490000_5460000_38",
+          "distance_m": 176.19767504421512
+        }
+      ],
+      "source_identity_verified": true,
+      "nearest_named_candidate": {
+        "manifest": "manifests/named-building-blockouts.json",
+        "feature_id": "SP_lumberman_concession",
+        "name": "Lumberman's Arch concession"
+      },
+      "complex": "Lumberman washrooms below Stanley Park Drive",
+      "coverage": "new located underpass and facade package; root integration pending",
+      "package": "manifests/lumberman-facility-blockouts.json",
+      "duplicate_policy": "Separate male/female facility tags; same below-road complex, not duplicated building boxes"
+    },
+    {
+      "id": "node11163596963",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "opening_hours": "dawn-dusk",
+        "toilets:disposal": "flush"
+      },
+      "local_xy_m": [
+        -255.80690827342914,
+        -1053.1747713107616
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5460000_8",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_489000_5459000_95",
+          "distance_m": 64.48564279257847
+        },
+        {
+          "id": "lidar2022_489000_5459000_91",
+          "distance_m": 143.58718191311607
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_489000_5460000_8",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node12897980106",
+      "source_tags": {
+        "amenity": "toilets",
+        "wheelchair": "limited"
+      },
+      "local_xy_m": [
+        861.9365785757545,
+        -312.9156519770622
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_490000_5460000_27",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_490000_5460000_31",
+          "distance_m": 76.71038295584337
+        },
+        {
+          "id": "lidar2022_490000_5460000_36",
+          "distance_m": 93.2650779963997
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": {
+        "manifest": "manifests/named-building-blockouts.json",
+        "feature_id": "SP_aquarium",
+        "name": "Vancouver Aquarium exterior"
+      },
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_490000_5460000_27",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "node13484847220",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "female": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        -383.9176604260574,
+        884.6047408645973
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5461000_2",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_489000_5462000_1",
+          "distance_m": 458.7009936553117
+        },
+        {
+          "id": "lidar2022_489000_5462000_2",
+          "distance_m": 463.9351964669016
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_489000_5461000_2",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    },
+    {
+      "id": "way74267954",
+      "source_tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        324.11490294749296,
+        -960.1067170868628
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5460000_12",
+          "distance_m": 58.40668021222963
+        },
+        {
+          "id": "lidar2022_489000_5460000_14",
+          "distance_m": 61.073030995878646
+        },
+        {
+          "id": "lidar2022_489000_5460000_10",
+          "distance_m": 67.70651759770459
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": null,
+      "complex": "Lost Lagoon Nature House washroom",
+      "coverage": "located below-deck structure package exists; live integration review remains",
+      "package": "manifests/lagoon-structure-blockouts.json",
+      "feature_id": "SP_nature_house",
+      "owner": "m1_named_blockouts",
+      "duplicate_policy": "No second building from the OSM toilet geometry. The source-located Nature House is near [378,-911]; this OSM tag is offset and is not a precise placement control."
+    },
+    {
+      "id": "way88279372",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "opening_hours": "05:30-sunset",
+        "portable": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "limited"
+      },
+      "local_xy_m": [
+        716.222940752231,
+        -79.3731783842668
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_490000_5461000_3",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_490000_5461000_4",
+          "distance_m": 7.824574174717907
+        },
+        {
+          "id": "lidar2022_490000_5461000_2",
+          "distance_m": 43.85970057026092
+        }
+      ],
+      "source_identity_verified": true,
+      "nearest_named_candidate": null,
+      "complex": "Miniature railway public washroom",
+      "coverage": "existing survey roof and wall mass",
+      "cover_id": "lidar2022_490000_5461000_3",
+      "duplicate_policy": "No new geometry; toilet polygon lies within existing roof",
+      "identity_basis": "OSM toilet-building footprint inside the distinct 2022 classified roof; City map places WC at train visitor precinct"
+    },
+    {
+      "id": "way88295811",
+      "source_tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1",
+        "female": "yes",
+        "male": "yes",
+        "opening_hours": "07:00-dusk",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "local_xy_m": [
+        30.35886682145149,
+        1095.772269364912
+      ],
+      "nearest_cover_candidates": [
+        {
+          "id": "lidar2022_489000_5462000_1",
+          "distance_m": 0.0
+        },
+        {
+          "id": "lidar2022_489000_5462000_2",
+          "distance_m": 5.493141976037957
+        },
+        {
+          "id": "lidar2022_489000_5461000_2",
+          "distance_m": 443.69896654365226
+        }
+      ],
+      "source_identity_verified": false,
+      "nearest_named_candidate": {
+        "manifest": "manifests/named-feature-blockouts.json",
+        "feature_id": "SP_prospect_cafe",
+        "name": "Prospect Point Cafe and Gift Shop"
+      },
+      "coverage": "existing nearby named or generic survey mass; coarse form only",
+      "cover_id": "lidar2022_489000_5462000_1",
+      "duplicate_policy": "Every source tag retained. Candidate cover reuse is explicit; proximity alone does not establish room identity"
+    }
+  ],
+  "route_adjacent_barriers": [
+    {
+      "id": "node245809598",
+      "local_xy_m": [
+        920.7938729024609,
+        43.55353073682636
+      ],
+      "tags": {
+        "barrier": "cycle_barrier",
+        "bicycle": "yes",
+        "cycle_barrier": "double",
+        "cycle_barrier:installation": "openable",
+        "foot": "no",
+        "horse": "no",
+        "motor_vehicle": "no"
+      },
+      "distance_to_main_route_m": 0.41651209164034186,
+      "nearest_source_station_m": 3181.930587821385,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node317166387",
+      "local_xy_m": [
+        132.70130409265403,
+        1255.7727485606447
+      ],
+      "tags": {
+        "barrier": "cycle_barrier",
+        "bicycle": "dismount",
+        "cycle_barrier": "single",
+        "cycle_barrier:installation": "fixed",
+        "foot": "no",
+        "horse": "no",
+        "image": "https://web.archive.org/web/20231118045629/https://westnordost.de/p/186533.jpg",
+        "motor_vehicle": "no"
+      },
+      "distance_to_main_route_m": 1.275868771974682,
+      "nearest_source_station_m": 4703.897386898741,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node1308502960",
+      "local_xy_m": [
+        -588.0928436943213,
+        -764.1086055235937
+      ],
+      "tags": {
+        "barrier": "cycle_barrier",
+        "cycle_barrier": "double",
+        "cycle_barrier:installation": "openable"
+      },
+      "distance_to_main_route_m": 5.536524056971607,
+      "nearest_source_station_m": 8028.8248553167505,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node3672599994",
+      "local_xy_m": [
+        629.7526909454609,
+        430.8289400851354
+      ],
+      "tags": {
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "distance_to_main_route_m": 10.396149705194114,
+      "nearest_source_station_m": 3684.9196153745456,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node3673048241",
+      "local_xy_m": [
+        534.4144259119057,
+        494.7673247009516
+      ],
+      "tags": {
+        "barrier": "cycle_barrier",
+        "bicycle": "no",
+        "cycle_barrier": "double",
+        "cycle_barrier:installation": "fixed",
+        "foot": "yes"
+      },
+      "distance_to_main_route_m": 6.704423275392787,
+      "nearest_source_station_m": 3798.9171285774487,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node3675721567",
+      "local_xy_m": [
+        -478.42832847009413,
+        -772.5757248103619
+      ],
+      "tags": {
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "distance_to_main_route_m": 11.350306886421345,
+      "nearest_source_station_m": 8157.82204130951,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node3678451096",
+      "local_xy_m": [
+        532.3857068096986,
+        -711.7055101227015
+      ],
+      "tags": {
+        "barrier": "bollard",
+        "bollard": "fixed"
+      },
+      "distance_to_main_route_m": 14.035758213306808,
+      "nearest_source_station_m": 104.99770952898976,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node3844212839",
+      "local_xy_m": [
+        -937.84608945332,
+        587.6691890340298
+      ],
+      "tags": {
+        "barrier": "gate",
+        "description": "gate closed when seawall North of this location is closed"
+      },
+      "distance_to_main_route_m": 2.675050510094282,
+      "nearest_source_station_m": 6159.865625700732,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node8047538220",
+      "local_xy_m": [
+        -965.7277529505081,
+        68.96689182054251
+      ],
+      "tags": {
+        "barrier": "cycle_barrier",
+        "bicycle": "designated",
+        "cycle_barrier": "double",
+        "cycle_barrier:installation": "openable",
+        "foot": "no",
+        "horse": "no",
+        "motor_vehicle": "no"
+      },
+      "distance_to_main_route_m": 1.4004665715922786,
+      "nearest_source_station_m": 6701.853802507518,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node8533155992",
+      "local_xy_m": [
+        872.5694914523046,
+        -541.3355814516544
+      ],
+      "tags": {
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "distance_to_main_route_m": 6.201127802087237,
+      "nearest_source_station_m": 507.9889184831124,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node9044369084",
+      "local_xy_m": [
+        -963.6516320490045,
+        88.58437211532146
+      ],
+      "tags": {
+        "barrier": "cycle_barrier",
+        "bicycle": "designated",
+        "cycle_barrier": "double",
+        "cycle_barrier:installation": "openable"
+      },
+      "distance_to_main_route_m": 0.5433469811679261,
+      "nearest_source_station_m": 6682.854216973701,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node11172532864",
+      "local_xy_m": [
+        1828.0527725598658,
+        -281.23443080391735
+      ],
+      "tags": {
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "distance_to_main_route_m": 2.0001668707260123,
+      "nearest_source_station_m": 2123.953667043564,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node11172532873",
+      "local_xy_m": [
+        1901.240574579162,
+        -310.46389725711197
+      ],
+      "tags": {
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "distance_to_main_route_m": 1.6719447397767058,
+      "nearest_source_station_m": 1900.95853156771,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node11358866928",
+      "local_xy_m": [
+        -931.9018290910753,
+        537.4407037664205
+      ],
+      "tags": {
+        "barrier": "gate",
+        "colour": "black",
+        "image": "https://web.archive.org/web/20231118045516/https://westnordost.de/p/186530.jpg"
+      },
+      "distance_to_main_route_m": 0.07838807633402431,
+      "nearest_source_station_m": 6211.864491372233,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node11358866929",
+      "local_xy_m": [
+        -928.7766979504959,
+        537.1452108705416
+      ],
+      "tags": {
+        "barrier": "gate",
+        "colour": "black",
+        "image": "https://web.archive.org/web/20231118045516/https://westnordost.de/p/186530.jpg"
+      },
+      "distance_to_main_route_m": 3.216463414714177,
+      "nearest_source_station_m": 6211.864491372233,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node11359010273",
+      "local_xy_m": [
+        271.77046893548686,
+        1113.5371823580936
+      ],
+      "tags": {
+        "barrier": "gate",
+        "image": "https://web.archive.org/web/20231118045517/https://westnordost.de/p/186535.jpg",
+        "width": "2"
+      },
+      "distance_to_main_route_m": 0.46933098660953637,
+      "nearest_source_station_m": 4487.90209872482,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node11359010274",
+      "local_xy_m": [
+        269.37082033779006,
+        1112.9523990582675
+      ],
+      "tags": {
+        "barrier": "gate",
+        "image": "https://web.archive.org/web/20231118045517/https://westnordost.de/p/186535.jpg",
+        "width": "1.5"
+      },
+      "distance_to_main_route_m": 2.929901573437932,
+      "nearest_source_station_m": 4487.90209872482,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node12032265783",
+      "local_xy_m": [
+        1586.2541598498356,
+        -447.6865896200761
+      ],
+      "tags": {
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "distance_to_main_route_m": 8.067811401540906,
+      "nearest_source_station_m": 1451.9683260580298,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node12040032841",
+      "local_xy_m": [
+        897.7073761935462,
+        -526.7045025052503
+      ],
+      "tags": {
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "distance_to_main_route_m": 11.490743833240172,
+      "nearest_source_station_m": 532.9883731328719,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node12327907224",
+      "local_xy_m": [
+        1607.3369711146224,
+        -325.9655786929652
+      ],
+      "tags": {
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "distance_to_main_route_m": 4.037824688308336,
+      "nearest_source_station_m": 2366.9483662392263,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "node12327907225",
+      "local_xy_m": [
+        1609.5197650879272,
+        -320.35492121987045
+      ],
+      "tags": {
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "distance_to_main_route_m": 1.925815421779531,
+      "nearest_source_station_m": 2365.948388053236,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way39368568",
+      "local_xy_m": [
+        -617.300520091533,
+        -802.8576347068883
+      ],
+      "tags": {
+        "barrier": "fence"
+      },
+      "distance_to_main_route_m": 3.7380277501559163,
+      "nearest_source_station_m": 8003.825400666991,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way363578419",
+      "local_xy_m": [
+        1884.5790432602516,
+        -196.6542785698548
+      ],
+      "tags": {
+        "barrier": "retaining_wall"
+      },
+      "distance_to_main_route_m": 2.9041597821971714,
+      "nearest_source_station_m": 2023.9558484445265,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way363578422",
+      "local_xy_m": [
+        1930.304054474167,
+        -265.2843016544357
+      ],
+      "tags": {
+        "barrier": "retaining_wall"
+      },
+      "distance_to_main_route_m": 14.225967572051962,
+      "nearest_source_station_m": 1949.9574626812384,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way363693715",
+      "local_xy_m": [
+        486.9527277456946,
+        -811.188735768199
+      ],
+      "tags": {
+        "barrier": "retaining_wall",
+        "material": "concrete"
+      },
+      "distance_to_main_route_m": 5.464769134528425,
+      "nearest_source_station_m": 9417.794555657387,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043438",
+      "local_xy_m": [
+        -984.5436080649961,
+        5.0266406405717134
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 1.362813019986736,
+      "nearest_source_station_m": 6768.852340968873,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043439",
+      "local_xy_m": [
+        -978.1608007911709,
+        57.6086651077494
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 4.995971387324771,
+      "nearest_source_station_m": 6715.853497111383,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043440",
+      "local_xy_m": [
+        -970.200099810434,
+        208.76324492879212
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 0.0,
+      "nearest_source_station_m": 6563.856812840846,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043441",
+      "local_xy_m": [
+        -968.2413545627496,
+        140.06629078555852
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 4.480841368864723,
+      "nearest_source_station_m": 6630.855351302201,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043442",
+      "local_xy_m": [
+        -840.2550294874818,
+        699.4517768397927
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 0.323152340511287,
+      "nearest_source_station_m": 5952.870141200724,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043443",
+      "local_xy_m": [
+        370.6309982171515,
+        948.088028056547
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 0.3282669766650212,
+      "nearest_source_station_m": 4292.9063524566955,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043444",
+      "local_xy_m": [
+        947.9011091566645,
+        80.49354700744152
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 5.760377372249544,
+      "nearest_source_station_m": 3171.9308059614814,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043445",
+      "local_xy_m": [
+        1577.473135469365,
+        -297.2355067934841
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 8.06829647435319,
+      "nearest_source_station_m": 2404.947537306861,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043446",
+      "local_xy_m": [
+        982.8433303789934,
+        -621.3689141375944
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 1.0302392735443218,
+      "nearest_source_station_m": 665.9854718695922,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way604043448",
+      "local_xy_m": [
+        -891.094288331049,
+        -545.6428575217724
+      ],
+      "tags": {
+        "barrier": "wall",
+        "wall": "seawall"
+      },
+      "distance_to_main_route_m": 0.0,
+      "nearest_source_station_m": 7589.8344316669745,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way1071703741",
+      "local_xy_m": [
+        145.87749928048223,
+        -1026.6786265657283
+      ],
+      "tags": {
+        "access": "private",
+        "barrier": "fence",
+        "leisure": "playground",
+        "name": "Pooh Corner"
+      },
+      "distance_to_main_route_m": 8.275986534169341,
+      "nearest_source_station_m": 9007.80349940133,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way1205567280",
+      "local_xy_m": [
+        1861.985908770701,
+        -279.3195397872478
+      ],
+      "tags": {
+        "barrier": "jersey_barrier",
+        "material": "concrete"
+      },
+      "distance_to_main_route_m": 3.385241758425052,
+      "nearest_source_station_m": 2108.9539942537085,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way1205567283",
+      "local_xy_m": [
+        -373.10549811983947,
+        -907.7896936712787
+      ],
+      "tags": {
+        "barrier": "jersey_barrier",
+        "material": "concrete"
+      },
+      "distance_to_main_route_m": 0.0,
+      "nearest_source_station_m": 8353.817765763624,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way1208208710",
+      "local_xy_m": [
+        -544.2125483425916,
+        -723.6964530237019
+      ],
+      "tags": {
+        "barrier": "jersey_barrier",
+        "material": "concrete"
+      },
+      "distance_to_main_route_m": 11.977077825728148,
+      "nearest_source_station_m": 8077.823786430279,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way1227211750",
+      "local_xy_m": [
+        133.71282825496746,
+        1256.4378873128444
+      ],
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "railing",
+        "image": "https://web.archive.org/web/20231118045629/https://westnordost.de/p/186533.jpg"
+      },
+      "distance_to_main_route_m": 0.0,
+      "nearest_source_station_m": 4704.897365084732,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    },
+    {
+      "id": "way1332528607",
+      "local_xy_m": [
+        -541.4142982790363,
+        -727.85983471293
+      ],
+      "tags": {
+        "barrier": "bollard",
+        "bicycle": "yes",
+        "bollard": "fixed",
+        "colour": "white",
+        "material": "metal"
+      },
+      "distance_to_main_route_m": 9.353480354796622,
+      "nearest_source_station_m": 8080.82372098825,
+      "current_state": "OSM tag snapshot only; no September 2026 visual certification"
+    }
+  ],
+  "entrance_markers": [
+    {
+      "id": "Junction007",
+      "kind": "entrance_connection",
+      "text_lines": [
+        "SEAWALL CIRCUIT",
+        "VIA LOST LAGOON",
+        "KEEP TO BIKE PATH"
+      ],
+      "source_point_local_m": [
+        -403.6814939113095,
+        -894.2671300632907,
+        3.2519256863911674
+      ],
+      "board_center_local_m": [
+        -401.1058831321127,
+        -893.1688454398504,
+        5.001925686391168
+      ],
+      "tangent_xy": [
+        0.39224450837151414,
+        -0.9198609925702846
+      ],
+      "normal_xy": [
+        0.9198609925702846,
+        0.39224450837151414
+      ],
+      "ground_z_m": 3.05006974756577,
+      "source_station_m": 8298.585544056288,
+      "runtime_station_m": 8316.615752596634,
+      "minimum_paved_gap_m": 0.699976055558176,
+      "side": 1,
+      "lateral_offset_m": 2.8,
+      "evidence": [
+        "city-bikeways",
+        "city-map-2026:MAP_RETURN"
+      ],
+      "association": {
+        "junction_id": "city_junction_007",
+        "junction_source_station_m": 8304.585544056288,
+        "source_xy_local_m": [
+          -401.103,
+          -899.691
+        ],
+        "incident_edges": [
+          {
+            "edge_id": "city_bikeways_1207",
+            "endpoint": "start",
+            "main_circuit": true
+          },
+          {
+            "edge_id": "city_bikeways_1233",
+            "endpoint": "start",
+            "main_circuit": false
+          },
+          {
+            "edge_id": "city_bikeways_2814",
+            "endpoint": "start",
+            "main_circuit": true
+          }
+        ],
+        "entry_name": "English Bay / Ceperley connection",
+        "branch_permission_changed": false
+      },
+      "physical_sign_location_verified": false,
+      "placement_class": "functional_marker_offset_from_sourced_route_or_topology_boundary",
+      "geometry_dimensions": "editable_blockout_estimates",
+      "collision": "none",
+      "release_accepted": false
+    },
+    {
+      "id": "Junction035",
+      "kind": "entrance_connection",
+      "text_lines": [
+        "SEAWALL CIRCUIT",
+        "VIA UNDERPASS",
+        "KEEP TO BIKE PATH"
+      ],
+      "source_point_local_m": [
+        403.2099862272604,
+        -936.9142448694772,
+        4.472226691336181
+      ],
+      "board_center_local_m": [
+        401.19861067332084,
+        -934.9663310158855,
+        6.222226691336181
+      ],
+      "tangent_xy": [
+        0.6956835191398835,
+        0.7183484121212682
+      ],
+      "normal_xy": [
+        -0.7183484121212682,
+        0.6956835191398835
+      ],
+      "ground_z_m": 4.431928646511481,
+      "source_station_m": 9269.648776630023,
+      "runtime_station_m": 9291.35179335804,
+      "minimum_paved_gap_m": 0.6998883898577991,
+      "side": 1,
+      "lateral_offset_m": 2.8,
+      "evidence": [
+        "city-bikeways",
+        "city-map-2026:MAP_RETURN"
+      ],
+      "association": {
+        "junction_id": "city_junction_035",
+        "junction_source_station_m": 9275.648776630023,
+        "source_xy_local_m": [
+          407.839,
+          -933.027
+        ],
+        "incident_edges": [
+          {
+            "edge_id": "city_bikeways_138",
+            "endpoint": "start",
+            "main_circuit": true
+          },
+          {
+            "edge_id": "city_bikeways_278",
+            "endpoint": "end",
+            "main_circuit": true
+          },
+          {
+            "edge_id": "city_bikeways_2703",
+            "endpoint": "start",
+            "main_circuit": false
+          }
+        ],
+        "entry_name": "Chilco entrance connection",
+        "branch_permission_changed": false
+      },
+      "physical_sign_location_verified": false,
+      "placement_class": "functional_marker_offset_from_sourced_route_or_topology_boundary",
+      "geometry_dimensions": "editable_blockout_estimates",
+      "collision": "none",
+      "release_accepted": false
+    },
+    {
+      "id": "Junction045",
+      "kind": "entrance_connection",
+      "text_lines": [
+        "SEAWALL",
+        "COUNTER-CLOCKWISE",
+        "15 KM/H"
+      ],
+      "source_point_local_m": [
+        512.2779434836548,
+        -819.903260209111,
+        2.990715689350203
+      ],
+      "board_center_local_m": [
+        511.564853411521,
+        -817.1955854596213,
+        4.740715689350203
+      ],
+      "tangent_xy": [
+        0.9670266962463326,
+        0.2546750257620547
+      ],
+      "normal_xy": [
+        -0.2546750257620547,
+        0.9670266962463326
+      ],
+      "ground_z_m": 2.9336948502322406,
+      "source_station_m": 9435.793597999886,
+      "runtime_station_m": 9457.175887853076,
+      "minimum_paved_gap_m": 0.6996418649124378,
+      "side": 1,
+      "lateral_offset_m": 2.8,
+      "evidence": [
+        "city-bikeways",
+        "city-map-2026:MAP_RETURN"
+      ],
+      "association": {
+        "junction_id": "city_junction_045",
+        "junction_source_station_m": 9441.793597999886,
+        "source_xy_local_m": [
+          517.552,
+          -817.006
+        ],
+        "incident_edges": [
+          {
+            "edge_id": "city_bikeways_723",
+            "endpoint": "end",
+            "main_circuit": true
+          },
+          {
+            "edge_id": "city_bikeways_1160",
+            "endpoint": "start",
+            "main_circuit": false
+          },
+          {
+            "edge_id": "city_bikeways_1953",
+            "endpoint": "end",
+            "main_circuit": false
+          },
+          {
+            "edge_id": "city_bikeways_2986",
+            "endpoint": "start",
+            "main_circuit": true
+          }
+        ],
+        "entry_name": "Coal Harbour entrance",
+        "branch_permission_changed": false
+      },
+      "physical_sign_location_verified": false,
+      "placement_class": "functional_marker_offset_from_sourced_route_or_topology_boundary",
+      "geometry_dimensions": "editable_blockout_estimates",
+      "collision": "none",
+      "release_accepted": false
+    }
+  ],
+  "gates": {
+    "known_report_sites": [
+      "Lumberman’s Arch",
+      "Prospect Point",
+      "Third Beach"
+    ],
+    "primary_existing_condition_source": "data/raw/corridor/maze-gates-2025.pdf",
+    "pages": [
+      21,
+      22,
+      23
+    ],
+    "source_status": "2024 existing-condition photos in the February 2025 consultant report. Proposed replacements seek 2027–2030 capital funding. No completion evidence found in one bounded City search on 2026-09-27.",
+    "blockout_rule": "Keep existing-condition forms as dated provisional references; do not treat proposed planters or the lack of recent photos as proof that barriers were removed.",
+    "dimensions": "No independent measured gate dimensions. Width estimates remain allowed by the user; current existence and opening state remain dated, not certified."
+  },
+  "limitations": [
+    "20 tags are not 20 unique restroom buildings. Male/female and building/entrance tags may share a complex.",
+    "Nearby roof coverage is a finite coarse-form check. It is not a room inventory, opening-hours verification, facade completion or independent location certification.",
+    "Physical gate state and collision passage still require root integration and in-application review."
+  ],
+  "release_accepted": false
+}

@@ -1,0 +1,45 @@
+{
+  "bounds_local_xy_m": [
+    351.0,
+    -930.0,
+    402.0,
+    -895.0
+  ],
+  "cell_m": 0.35,
+  "raw_ground_returns": 42437,
+  "source_samples": 7862,
+  "deck_boundary_controls": 1487,
+  "enclosed_interior_controls": 1675,
+  "lower_front_plane": {
+    "origin_local_m": [
+      377.185,
+      -907.955
+    ],
+    "coefficients": [
+      0.03360695111428082,
+      -0.08608894191656272,
+      1.5738422252892792
+    ],
+    "source_returns": 1112,
+    "median_residual_m": 0.020502542377811572
+  },
+  "replaced_wall_adjacent_ground_cells": 148,
+  "method": "0.35 m classified-ground median cells outside measured deck. Upper boundary controls stop 0.50 m before the lower front. Five dense lines at the front replace wall-adjacent classified outliers with a source-fitted lower-ground plane. The high-to-low interior join remains behind the closed wall, at least 0.35 m inside its front.",
+  "sources": [
+    {
+      "path": "data/derived/named-nature-house-west-survey.npz",
+      "sha256": "03c795d02983c01b43c4366d5a0a62448312e4d79651677253df2feba8535096"
+    },
+    {
+      "path": "data/derived/named-nature-house-east-survey.npz",
+      "sha256": "8d9f5705cb6a20a95ebe3841e06bafc2b9735ab8aee6d0142824db5c8ce5094d"
+    }
+  ],
+  "scope": "Local approach refinement only. No lake/water level change, no terrain cut and no interior access.",
+  "numerical_acceptance": false,
+  "live_acceptance": false,
+  "output": {
+    "path": "data/derived/nature-house-refinement-samples.npz",
+    "sha256": "32b5892dc9fd7043061ac774ee0a0593c5f0d734349c3478844624f995e2083c"
+  }
+}

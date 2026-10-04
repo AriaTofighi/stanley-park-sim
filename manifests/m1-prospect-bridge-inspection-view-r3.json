@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "coordinates": "Local east/north/up metres; CGVD2013 vertical datum",
+  "scope": "One actual Prospect terrace eye toward Lions Gate Bridge. Camera preparation only; no app or geometry edits.",
+  "source_inputs": [
+    {
+      "path": "manifests/lions-gate-blockout.json",
+      "sha256": "4275692e720cd417728fb180a16c51ef76800fbea1690a756c239a620876abfd"
+    },
+    {
+      "path": "pipeline/blender/build_lions_gate.py",
+      "sha256": "b5b03ed42717f329f1a5b6538b3862678a03bdc0dd61695f5c63b85275768e75"
+    },
+    {
+      "path": "manifests/named-feature-blockouts.json",
+      "sha256": "7c99271c191f92d6b843f34587b898180ab3500395de2d4403665f92dceab65a"
+    },
+    {
+      "path": "manifests/blender-export.json",
+      "sha256": "be7984b24ffafa236f7550bef1e361b64e4d6e7f26c76e0c03450dfc8a62f96b"
+    },
+    {
+      "path": "manifests/surface-model.json",
+      "sha256": "8489fe1d9986b9dd5218299e635daf55c5a0eb8e7c1c03a68aca51bf227bc459"
+    },
+    {
+      "path": "data/derived/cover-blockout.json",
+      "sha256": "9187a028f7c073140ad7b113099b17f1f5827b5beab037eeb48bdf1b9b06ceef"
+    },
+    {
+      "path": "data/derived/canopy-zone-assignments.json",
+      "sha256": "c9db788cc9908de82b66efe3996872f82762a865daf157b2508f4fb6a63109ce"
+    }
+  ],
+  "legacy_west_view": {
+    "eye": [
+      -55.0,
+      1520.0,
+      75.0
+    ],
+    "target": [
+      350.0,
+      1450.0,
+      58.0
+    ],
+    "terrain_height_m": null,
+    "crown_clear": true,
+    "crown_section_clearance_m": 313.88368643599244,
+    "on_terrace": false,
+    "scope": "Elevated west-side overview; not a position on the authored terrace."
+  },
+  "views": {
+    "prospect_terrace_to_bridge_r3": {
+      "eye": [
+        64.0,
+        1249.0,
+        59.30377456545412
+      ],
+      "target": [
+        351.79615414096236,
+        1333.69577121481,
+        70.0
+      ],
+      "camera_terrace_height_m": 57.60377456545412,
+      "camera_height_above_terrace_m": 1.7,
+      "camera_crown_section_clearance_m": 1.0428829082992142,
+      "selected_samples_clear": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "required_sample_fov": {
+        "horizontal_degrees": 56.20574638497936,
+        "vertical_degrees": 48.926567849709556
+      },
+      "purpose": "View both source-positioned bridge towers and main deck from the actual Prospect lookout terrace.",
+      "inspection_horizontal_fov_degrees": 80.0,
+      "inspection_vertical_fov_degrees_at_16_10": 55.34838287182513,
+      "inspection_blender_lens_mm_for_36mm_sensor": 21.45156466669578,
+      "lens_application_required": "Existing inspect_m1_view helpers do not apply these fields. Root must set a wide inspection lens/FOV for this capture; a narrow default view cannot accept both towers.",
+      "source_bridge_samples": [
+        {
+          "label": "Tower top station 0",
+          "point": [
+            203.072998046875,
+            1220.2225341796875,
+            121.78596466064452
+          ]
+        },
+        {
+          "label": "Tower top station 472.2758544976373",
+          "point": [
+            446.6280059814453,
+            1624.8525390625,
+            121.7711978149414
+          ]
+        },
+        {
+          "label": "Deck station 0.0",
+          "point": [
+            203.072998046875,
+            1220.2225341796875,
+            60.32136389953273
+          ]
+        },
+        {
+          "label": "Deck station 80.0",
+          "point": [
+            244.32939608037452,
+            1288.7638328345968,
+            63.45431662135795
+          ]
+        },
+        {
+          "label": "Deck station 236.0",
+          "point": [
+            324.7793722456986,
+            1422.4193652116696,
+            67.27045131547169
+          ]
+        },
+        {
+          "label": "Deck station 390.0",
+          "point": [
+            404.1979384601851,
+            1554.36136512237,
+            63.51457980601113
+          ]
+        },
+        {
+          "label": "Deck station 472.2758544976373",
+          "point": [
+            446.6280059814453,
+            1624.8525390625,
+            60.289275547126714
+          ]
+        }
+      ],
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_05_02.npz",
+          "sha256": "421f0531738aecdb04ca66d94ec7733937eae079d10992b313405beb1a6773b1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_06_02.npz",
+          "sha256": "8bb3e19c6e3f506c83d98e6bd8850cbd9c239174978f8514637b05a2be2eeaf2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_05_03.npz",
+          "sha256": "a5234d8cda46a99360fa7b20f8034576d6201647ae789d0c5e929986ad889538"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_06_03.npz",
+          "sha256": "28c8ccb54add4cb4632e36f8ba6fec7b1e841ac8e9a6fcdda487d53b3fdf4b62"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_05_04.npz",
+          "sha256": "377385287a71ab8c0860564fbe0f00c3f5e4f479693b118e2a48c7da82203848"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_023.npz",
+          "sha256": "692c1ea974908533f872350f993b0dcf18e5a44a53d50f415272a3763ecdd6d5"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_023.npz",
+          "sha256": "f9b6adb9e4cc7538afbc17e6de6053c5e83ce687479ef1453e8f59a08bc9be1d"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_024.npz",
+          "sha256": "08559cd14f6259ab98119c5e0b18b3745e55ab9e9f5ec93dca4df48e0a16f0c6"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_024.npz",
+          "sha256": "c096285f5d2752d1177bc8c6f069c32721577d3690a7b09ecf976e048f11b024"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_025.npz",
+          "sha256": "fc2168c671306ce881ff779c403ac2428cb6e62508d498c25077e69911fa1a2c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_025.npz",
+          "sha256": "3f6ace4280b0e12e67ed4e886c87964210f6602a8ebd5ddfd9a470ea79e0bad9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_026.npz",
+          "sha256": "b3533571d3c89381d73be6a2da5de8c91838a94d471941607f02e7ba67622a2c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_026.npz",
+          "sha256": "0efc0c670d4164cb9d0e146710f6fe29a5399c3d8409fca0455af8c65fae0c35"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerA_Post0.npz",
+          "sha256": "3df86d3920ad333ac0733ea9e5a9f379586d761a7bbd544de204d3e48bc796c3"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerA_Post1.npz",
+          "sha256": "7d8536c0a6445f0ab2ea3e396a59a7e28712f790422792b0134326b87147c1e7"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerA_Rail0.npz",
+          "sha256": "7d9d736e24cc980a60cc21b9b61541a163fc70ed42b14d5563cb7c4c0f430d07"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerA_Rail1.npz",
+          "sha256": "e978c24100e0d69c402e62a93c0f446d6458e04909a7f18899edd6b44d619bcd"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerB_Post1.npz",
+          "sha256": "7f49ee3b3338072d2dd6b9e4d976d9699713241aa242661008c4dadd05c64fa4"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerB_Rail0.npz",
+          "sha256": "2e38e4316b27d2ad0a0bc4b7db9115f4effe120983a7bae92dec34dbe987003b"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_DividerB_Rail1.npz",
+          "sha256": "7660d956d9661f4914470301ced1cfebb9b0b5ac916c724117515d4339c2218f"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_InnerReturn_Post1.npz",
+          "sha256": "b13e251f16d21219df692af7759f5e1c2f8451656d000dffd14d73f90aa40d5e"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_InnerReturn_Rail0.npz",
+          "sha256": "b63893e1e680df36922635830d0158615a3e72ce5efeb262103e20ff6fe7b1ea"
+        },
+        {
+          "path": "data/derived/maze-gates/SM_Maze_Prospect_InnerReturn_Rail1.npz",
+          "sha256": "a3c4edc35510757868b3cd7d7e52efc0da7ae9f874ea7aa5ca48537f58da1a1d"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectCafe_RoofSurvey.npz",
+          "sha256": "dbbf6f0f39c41507548b8dca1acc5d4bea520bda138c26b6c7c6053c9f2ec177"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectCafe_WallsReview.npz",
+          "sha256": "3ac736cb0248429d537b7f3ac48eb5274985723d10cc31a547fbf05dafdc944f"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_Beacon.npz",
+          "sha256": "2c72b7ad2a7446e45a66f4340a85e77d943ea882e7cddff5cb352e7c53caf5d2"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_LowerWhite.npz",
+          "sha256": "c6f6b287421c726f42b6aa8270ed564d905331b19953e5b7a9045742f62a76b5"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_RedBand.npz",
+          "sha256": "138c169ba8583a353aa75a2e860e01821e0db91685fe537bd935fde83dccb8fa"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_TopDeck.npz",
+          "sha256": "652f1d8c77d90f80c315899728953a94e081d1ecf0aaeaed7cd641850ccf5e5f"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLight_UpperWhite.npz",
+          "sha256": "cf873eae72f43e83231557da418390ee1fc811c1ac35972e825dbbd39018282e"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_03.npz",
+          "sha256": "b06d55e950682c49750ae4f4567f8338f7a70f62b721a6b6d43e04576ce090ee"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_04.npz",
+          "sha256": "85acc564ee20f38fdb0025441b200551009ca0ccf83f47adf7436b26b18836ea"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_05.npz",
+          "sha256": "e6540c9587a2831c916a1dbc44551849ecb7bb3cfb42e2202f7326570dc37cb9"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_06.npz",
+          "sha256": "26c8b1e7a80b5a834e0a8b4ed8d8f0b1210215f451779f2bcd0a36585a724505"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_07.npz",
+          "sha256": "15d0cfae3f9fa5c76f6d01dd8e385e45b88a834440cff38061ea41710c1c289e"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_08.npz",
+          "sha256": "157f92da389e757dc1398f6fc00b8de71047fdd2f95e33f841642449c69db2f2"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_09.npz",
+          "sha256": "ea799995608feab0808cc836bf28f5adfb4388a2dae03e712f33b7295144d5a8"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_10.npz",
+          "sha256": "72bc0aba5577b356dd7db444c57d3fbded0c47557867d0c4c74a5af07120e259"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_11.npz",
+          "sha256": "8b3011089d3d990b14724b39d4b283e811be65da3e1388c25ef3465a23dae7e2"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_12.npz",
+          "sha256": "9e10e6732f6344b236a5024f145dbd43e698f145d6c692d646b8fdf363ba53f2"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_Parapet_13.npz",
+          "sha256": "4b9c27ec9741ecc1377792d160ac26218dc479b294eed59e9c47fbad5b5dfef3"
+        },
+        {
+          "path": "data/derived/named-features/SM_ProspectLookout_TerraceSurvey.npz",
+          "sha256": "f5474864f0ac0af1eb98f45db092e3b06484dac7172817ee55bc8e2377e2ffa2"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2336.npz",
+          "sha256": "7fecb72c2be0f1081260513b9936bbd6e48503596fdd49cd5d4e561212618275"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2532.npz",
+          "sha256": "f0fdf20b0f75bd3dc0b9a60af752f85bfe9f3c0fc0c9b9be2b9c77ddbd4fb2ab"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2693.npz",
+          "sha256": "86fc685237d81e95bd75fa9c977e4c9c2abc88c99084c9e512edc01d5645270f"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2729.npz",
+          "sha256": "e6c5b1f985e3f63488ff7e330dcddf8949f2ccc272620152c664cae89f80ba2e"
+        }
+      ],
+      "live_review_status": "pending",
+      "accepted": false,
+      "limits": [
+        "Bridge member self-occlusion is not checked because its live Blender meshes are generated directly from the bridge manifest; the near terrain, named forms and source canopy are checked.",
+        "Width, member thickness and footing envelope retain the M1 limits in the bridge source manifest.",
+        "Seven clear rays do not prove the complete viewport, terrace foreground or all bridge surfaces are visible."
+      ]
+    }
+  },
+  "clear_candidates": 1,
+  "helper": {
+    "path": "pipeline/gis/prepare_prospect_bridge_view_r3.py",
+    "sha256": "df99820d711d2a8c798fd790f1f9da3d174b7d9e5f512a01916e3e4f63065d3a"
+  }
+}

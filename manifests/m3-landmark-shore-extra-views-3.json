@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "owner": "m3_shore_edges",
+  "input_hashes": {
+    "manifests/m3-landmark-supplemental-camera-candidates.json": "b9be8bf85d74a150b4d66de0338b7a97c83a5a9d060d0c08238be14989c03933",
+    "data/derived/paved-circuit-runtime.json": "4b65e26338d4811b02400328cb80312daafd5887770e4f68646948616b10b8fc",
+    "data/derived/surface-meshes/SM_Terrain_05_02.npz": "421f0531738aecdb04ca66d94ec7733937eae079d10992b313405beb1a6773b1"
+  },
+  "source_ground_m": 65.69854579345727,
+  "views": [
+    {
+      "id": "SP_restoration_donor_form_site",
+      "feature_id": "SP_restoration_donor",
+      "kind": "form-only",
+      "target_local_m": [
+        7.463513844006229,
+        1175.4792947163805,
+        67.19854579345727
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 116747.92947163805,
+          "y": -53.64861559937708,
+          "z": 6959.564456237146
+        },
+        "rotation": {
+          "pitch": -11.962665133858591,
+          "yaw": 45.0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "purpose": "Inspect the approximate registry site above its actual terrain. The model has no linked monument mesh; no exact marker form or height is inferred.",
+      "view_scope": "Form-only site check; not route visibility or exact monument proof."
+    },
+    {
+      "id": "SP_restoration_donor_route_wide_m200",
+      "feature_id": "SP_restoration_donor",
+      "kind": "route",
+      "station_m": 4679.490968057002,
+      "target_local_m": [
+        7.463513844006229,
+        1175.4792947163805,
+        67.19854579345727
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 122853.73281727306,
+          "y": 14025.678590970096,
+          "z": 459.6166412200837
+        },
+        "rotation": {
+          "pitch": 23.642680728084642,
+          "yaw": -111.77935841598509,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "purpose": "Wider actual route eye, 1.65 m above source pavement, aimed at the approximate registry location at source ground plus 1.5 m. A blocked view does not establish continuous route invisibility.",
+      "view_scope": "Actual route candidate; approximate source site and target height."
+    },
+    {
+      "id": "SP_restoration_donor_route_wide_200",
+      "feature_id": "SP_restoration_donor",
+      "kind": "route",
+      "station_m": 5079.490968057002,
+      "target_local_m": [
+        7.463513844006229,
+        1175.4792947163805,
+        67.19854579345727
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 118623.92819087447,
+          "y": -20152.838669281366,
+          "z": 484.94995416820024
+        },
+        "rotation": {
+          "pitch": 16.590780380977964,
+          "yaw": 92.94728164746394,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "purpose": "Wider actual route eye, 1.65 m above source pavement, aimed at the approximate registry location at source ground plus 1.5 m. A blocked view does not establish continuous route invisibility.",
+      "view_scope": "Actual route candidate; approximate source site and target height."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "audit_utc": "2026-09-27T22:48:49.642748+00:00",
+  "scope": "Finite M1 acceptance criteria audit from the plan and saved evidence; no app operation.",
+  "document": "docs/M1-FINAL-ACCEPTANCE-CHECKLIST.md",
+  "evidence_snapshots": [
+    {
+      "path": "docs/STANLEY-PARK-DEVELOPMENT-PLAN.md",
+      "sha256": "b6f38df4686dd495ca3a32f51e98d00b90178ab6c5027ab53a3e92184f069b6a"
+    },
+    {
+      "path": "docs/M1-MEASUREMENT-EXCEPTIONS.md",
+      "sha256": "1a496c195aae35235fb6b96b8d4e050466b1b8914bf81b3e480e6b2a39e9dbad"
+    },
+    {
+      "path": "docs/M1-REFERENCE-PERIOD-AMENDMENT.md",
+      "sha256": "c7698f02115d36753f049065ff58d08c0692e630c2a01cf722dd60c4f08ce457"
+    },
+    {
+      "path": "manifests/m1-reference-period.json",
+      "sha256": "efb3c17271fa25ec92fa02d361f23e002412446222b8e1f0bdbcf85ed0e2d075"
+    },
+    {
+      "path": "manifests/m1-named-view-coverage.json",
+      "sha256": "21959ccfffca1e6681e531bbdab28bf8c7ccb0a3653144be521f031d97b58245"
+    },
+    {
+      "path": "evidence/unreal-source-surface-transfer-v26.json",
+      "sha256": "8847337fb3a93eb4593a3643cceb92c04ced450a74101f9e20dc13df9b58e129"
+    },
+    {
+      "path": "evidence/build-m1-v26-provenance.json",
+      "sha256": "95c81b8360da47ffb0818e6eb62b7f7d3f3a04e141117a664e3695aae3019c1c"
+    },
+    {
+      "path": "evidence/ride-m1-v26-lumberman-capture-defect-summary.json",
+      "sha256": "41240d9ce686594f8f250b8e4c5c3e00eff18fecdd60ec70fc8df1a9954ee912"
+    },
+    {
+      "path": "evidence/ride-capture-v26-readback-failure.json",
+      "sha256": "c448f4133db4a501be519022b10671dade8fc3afc176a1cffe2fbb1559be8ff1"
+    },
+    {
+      "path": "evidence/m1-v26-pie-settings-review.json",
+      "sha256": "d9650308ac29f42daaaeb9449b3fee5fd51f80f38bc7c3ad938dcc704af4adc1"
+    },
+    {
+      "path": "evidence/source-bundle-amendment-gap-v26.json",
+      "sha256": "621f2195bcb126ead57bc5f0a963165be34cb70588156941d7d2774b396ef865"
+    }
+  ],
+  "verified_saved_results": {
+    "export_assets": 1159,
+    "import_max_bounds_error_cm": 0.25,
+    "saved_collision_profiles": {
+      "pass": 1154,
+      "complex": 443,
+      "none": 711
+    },
+    "fixed_source_to_engine_transfer": {
+      "passed": 5052,
+      "required": 5052,
+      "tolerance_m": 0.01,
+      "maximum_nearest_source_error_m": 0.0007783427996606029
+    },
+    "local_lumberman_controller": "v27 numerical passage, both walking transitions and selected actual aperture images pass. Final zero speed is trace evidence; not visually held after completion.",
+    "absolute_accuracy": "Unverified under the recorded user decision; zero independent controls accepted.",
+    "reference_period": "2022 environment plus separately dated route/access overlay; planning amendment, not user approval; old forest question withdrawn.",
+    "source_bundle": "v27: all 867 registered files, seven legacy pedestrian copies, licence/register copies and 40 provenance files match; no research media.",
+    "settings": "Standalone six sliders, saving, restart, presets, F1 lit view/prior pause and camera cycle verified in coordinator records.",
+    "finite_regional_views": "v27 r3 paired English Bay and Prospect/bridge views inspected by route agent; partial crown/thin-hanger limits retained.",
+    "cross_build_v27_v28": "Independent file/source audit passes: all content containers and world/controller/config snapshots unchanged; executable plus four recorder files changed; post-terminal hold explicit.",
+    "junctions": "Nine v27 local seam crossings have complete videos and 54 opened frame reviews. Four v28 fixtures remain: two capture repeats and two new directions.",
+    "manual_recovery": "Root v27 record shows one R recovery from branch to main route; not all off-route positions."
+  },
+  "open_work": [],
+  "full_circuit": {
+    "required": true,
+    "fixed_45_minute_requirement": false,
+    "basis": [
+      "Plan section10 M1 interactive check",
+      "Plan section13 item8"
+    ],
+    "local_joins_or_gates_replace_full_circuit": false,
+    "extra_three_local_gate_runs_required_after_valid_full_lap": false,
+    "constraints": [
+      "normal controller and collision",
+      "no teleportation or skipped route segments",
+      "no time scaling substituted for traversal",
+      "retain full video and coverage report"
+    ],
+    "current_status": "Passed v29 actual full run, complete recording and selected-image review."
+  },
+  "performance_scope": {
+    "m1": "Initial blockout baseline only; finite uncapped work-time and capped pacing capture, exact settings and limits recorded.",
+    "suggested_measured_seconds_per_pass": 32,
+    "suggested_duration_is_new_acceptance_threshold": false,
+    "later_not_m1": [
+      "M3 detailed scene and full rendering contract",
+      "M3 30+80 agents and three stress runs",
+      "M6 three complete memory-growth laps"
+    ],
+    "tick_is_presentation": false,
+    "execution_guide": "docs/M1-V27-BASELINE-STEPS.md",
+    "warmup": "One retained 32 s first traversal before each measured profile; replaces unrequired 180 s suggestion."
+  },
+  "m1_complete": true,
+  "v27_evidence_snapshots": [
+    {
+      "path": "evidence/build-m1-v27-provenance.json",
+      "sha256": "c90fc9ebfaa2c401dfbf0e533ec5a1503c4e9ca7872bcc37d0193bc1239137e1"
+    },
+    {
+      "path": "evidence/source-bundle-provenance-audit-v27.json",
+      "sha256": "8fe3e93cd3f11b2a48f4adcc5c9399552f48b30d222c680d5d606b003d9a1b22"
+    },
+    {
+      "path": "evidence/m1-v26-standalone-settings-review.json",
+      "sha256": "e5279dc9193eccef5ecbc138f2b2808c4153f209f61c872e967348c56b8661a2"
+    },
+    {
+      "path": "evidence/m1-v27-settings-restart-review.json",
+      "sha256": "9980e4857c9fca6d592ec458352fec9250682fdc0998299b57d777d34878abc1"
+    },
+    {
+      "path": "evidence/m1-v27-action-status-from-coordinator.json",
+      "sha256": "35b105c953ef6d25eb7b5b140e09da09d7d25ae12269add3cd4dc928cfe1e76f"
+    },
+    {
+      "path": "evidence/ride-m1-v27-lumberman-summary.json",
+      "sha256": "319963778850ba0dff0f309ee41cda38893a2841c4a4e21e61c6a405eb6790ac"
+    },
+    {
+      "path": "evidence/ride-m1-v27-lumberman-video.json",
+      "sha256": "943fb5bb67533002b67f3bba347c47e19cfe4b4a91ffd55010692e954c506f83"
+    },
+    {
+      "path": "evidence/m1-lumberman-recording-visual-review-v27.json",
+      "sha256": "da95d1d8c98e96b4e73849071ad1d7d2d617a225cb5233d8c383ad4369a8bf5f"
+    },
+    {
+      "path": "evidence/m1-garden-close-paired-review-v27.json",
+      "sha256": "8ba92f6621420f65f47af94f3c48859ba3cd68ed79a508016bbaf2c2b99e5a17"
+    },
+    {
+      "path": "evidence/m1-skyline-prospect-paired-visual-review-v27-r3.json",
+      "sha256": "43ab088c29597a394d7ffb3a88071eedd9dc2bb71f05c430c2b236e727377e80"
+    },
+    {
+      "path": "evidence/m1-v27-baseline-source-review.json",
+      "sha256": "ef60c419badedc7ea07df4346098ff2e00f92693684ac1fda12fee46706ac90e"
+    },
+    {
+      "path": "docs/M1-V27-BASELINE-STEPS.md",
+      "sha256": "54cee7e9b48093e7dfb447c6826d98f0fee5d7854b65176bab48bd6fd262e8d4"
+    }
+  ],
+  "recorder_build_split": {
+    "status": "Resolved: failed v27 full lap retained; successful local repeats bound by code/content audits; changed v29 full driver passed its actual full run.",
+    "v27_full_lap_reusable_only_if": [
+      "complete valid controller and coverage log",
+      "complete valid full video",
+      "same world, route, collision and movement/input code proved by hashes/diff",
+      "failed local capture and remaining joins repeated on v28"
+    ],
+    "v27_incomplete_full_video_requires_full_repeat": true,
+    "record": "evidence/m1-v27-v28-cross-build-audit.json",
+    "post_terminal_behavior": "Zero pedal/steer and full brake during pending capture save, outside frozen ride time."
+  },
+  "v28_evidence_snapshots": [
+    {
+      "path": "evidence/build-m1-v28-provenance.json",
+      "sha256": "cc6dccbe729ae1e4c7838ef4a5272bb65e0f2f38415ca09d502c93d2cea96fd6"
+    },
+    {
+      "path": "evidence/m1-v27-v28-cross-build-audit.json",
+      "sha256": "b4053f1904bc315a48e5f8419af45bcd4126cf886417c1e90bfd36a4fe596c14"
+    },
+    {
+      "path": "evidence/ride-capture-final-frame-v28-independent-review.json",
+      "sha256": "42a1bb28a0e5584dc5f957f9bf6c2589ac8418238526f71ece003b671c5f5bfb"
+    },
+    {
+      "path": "evidence/m1-junction-recording-visual-review-v27.json",
+      "sha256": "a3eb87b415fb903c7e139c498d7c73819fe63db1b24cb4e8dd9fd931ade0fd63"
+    },
+    {
+      "path": "evidence/m1-v27-branch-recovery-review.json",
+      "sha256": "e05f4a433c4a3bac850c135d342eaa150b907b0269619179dd5eb9feee80167a"
+    }
+  ],
+  "completion": {
+    "path": "evidence/m1-completion-v29.json",
+    "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+  },
+  "final_status_updated_utc": "2026-09-28T00:20:16.840368+00:00",
+  "historical_snapshot_note": "Earlier evidence snapshots and per-feature source/art flags remain historical or limited in scope. Exact pre-completion files are saved under evidence/m1-status-before-completion/."
+}

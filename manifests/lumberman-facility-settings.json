@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "origin_local_xy_m": [895.155, 44.487],
+  "axis_to_waterpark_xy": [0.4797, 0.87743],
+  "road_edge_skew_v_per_u": -0.047,
+  "facade_half_span_m": 14.0,
+  "road_edges_v_m": [-5.8, 5.0],
+  "floor_edges_v_m": [-10.0, 9.0],
+  "opening_width_m": 4.0,
+  "estimated_slab_depth_m": 0.65,
+  "wall_thickness_m": 0.22,
+  "parapet_height_m": 0.95,
+  "opening_width_basis": "Independent M1 engineering estimate from photographed scale and the approximate layout. The 2018 temporary 4.0 m access label is NOT a measurement of the actual tunnel opening.",
+  "pose_basis": "OSM footway58361913 crossing, City2022 ortho and LiDAR road/forecourt edges. Rounded local pose is not independently surveyed.",
+  "span_basis": "Approximate below-road facade envelope from City2022 visible apron and 2024 site photo. Hidden room depth and facade endpoint positions are estimates.",
+  "reference_photo": "data/raw/corridor/maze-gates-2025.pdf page21 bottom right; existing condition photographed for the 2024 consultant work",
+  "reference_drawing": "data/raw/facilities/PS20180362-ADD2.pdf page10 A0.03 issued2018-04-12; approximate site plan, reference only",
+  "source_survey": "data/derived/named-lumberman-arch-survey.npz"
+}

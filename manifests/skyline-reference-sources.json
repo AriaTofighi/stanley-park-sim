@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-27",
+  "sources": [
+    {
+      "id": "osm_current_skyline",
+      "url": "https://www.openstreetmap.org/copyright",
+      "capture": "Four bounded API responses, 2026-09-27; each part retains edit timestamp",
+      "coverage": "Downtown and West End, -123.150 to -123.097 longitude; 49.274 to 49.299 latitude",
+      "use": "Current XY outlines, building parts, names, tagged dimensions",
+      "licence": "ODbL-1.0, OpenStreetMap contributor attribution and derived database requirements",
+      "incorporated": true,
+      "files_register": "manifests/skyline-source-acquisition.json",
+      "limits": "Volunteered map data, not a survey; some footprints and levels are explicitly estimated"
+    },
+    {
+      "id": "city_building_2009",
+      "url": "https://opendata.vancouver.ca/explore/dataset/building-footprints-2009/",
+      "capture": "2009 LiDAR-derived generalized building elements",
+      "coverage": "Bounded downtown extract",
+      "use": "Conservative matched height scalars and Canada Place roof elevations; no obsolete XY geometry imported",
+      "licence": "Open Government Licence - Vancouver",
+      "incorporated": true,
+      "limits": "Historic. The metadata recommends comparison use. Geodetic height datum is not explicit in the API metadata; general building height differences avoid that ambiguity. Canada Place absolute elevations use recorded CGVD28 project assumption plus regional geoid conversion."
+    },
+    {
+      "id": "stack_ledcor",
+      "url": "https://www.ledcor.com/our-projects/project-gallery/project-gallery-building/commercial/the-stack-office-tower",
+      "capture": "Current contractor project page; no photo capture date stated",
+      "use": "161m height, 36 levels, four twisting boxes; contractor photograph visually inspected in a read-only browser",
+      "reference_photo_url": "https://s7d9.scene7.com/is/image/ledcor/TheStackOffice4?dpr=off&qlt=85&ts=1738630396263",
+      "incorporated": false,
+      "licence": "Copyright reference only; no photograph or logo used in meshes/materials",
+      "limits": "Box heights, rotations and widths are recorded coarse visual estimates"
+    },
+    {
+      "id": "stack_developer_pdf_unavailable",
+      "url": "https://thestackyvr.com/wordpress/wp-content/themes/the-stack/pdf/TheStack_by_the_Numbers_092922.pdf",
+      "capture": "Filename suggests 2022-09-29; not verified",
+      "use": "Still to investigate",
+      "verified": false,
+      "incorporated": false,
+      "limits": "Web returned502; direct download connection refused. No measurement taken from this document."
+    },
+    {
+      "id": "alberni_architect",
+      "url": "https://kkaa.co.jp/en/project/alberni/",
+      "capture": "Project page dated2024.1; photograph capture dates unspecified",
+      "use": "43floors, completed form, two sweeping façade cuts; three linked primary photos visually inspected in read-only browser",
+      "reference_photo_urls": [
+        "https://kkaa.co.jp/img/2020/08/Handford-KKAA-Alberni-2.jpg",
+        "https://kkaa.co.jp/img/2020/08/Handford-KKAA-Alberni-1.jpg",
+        "https://kkaa.co.jp/img/2020/08/WestbankKKA_Alberni_2697.jpg"
+      ],
+      "incorporated": false,
+      "licence": "Copyright architect/photographers George Handford and Ema Peter; reference only",
+      "limits": "Photographs inform the lower/middle scoop and full upper body. Curve depth, opposite-face profile and orientation are editable M1 estimates; facade detail is deferred."
+    },
+    {
+      "id": "alberni_city_design",
+      "url": "https://council.vancouver.ca/20160920/documents/p9.pdf",
+      "capture": "2016-09-06 report;2016-09-20 council meeting; drawings received2016-05-03",
+      "use": "132.35m proposed height and43storeys, cross-check with completed architect page",
+      "incorporated": false,
+      "licence": "Public report as reference; no drawings redistributed as assets",
+      "limits": "Design height is not an as-built survey. Web text verified; local download403, so no claim of local drawing inspection."
+    },
+    {
+      "id": "canada_place_birdair",
+      "url": "https://www.birdair.com/birdair-portfolio/canada-place/",
+      "capture": "2011-09-01 retrofit completion, retaining original1985five-sail design",
+      "use": "Five sails and tensile membrane type",
+      "incorporated": false,
+      "licence": "Copyright reference only"
+    },
+    {
+      "id": "seabc_2017",
+      "url": "https://seabc.ca/wordpress/files/notable_structures/Vancouver_Notable_Structures_IABSE_SEABC_2017.pdf",
+      "capture": "2017 symposium publication; individual photograph dates unspecified",
+      "use": "Canada Place printed page 4/PDF page 8 and Harbour Centre printed page 23/PDF page 27 visually inspected. Roof membrane, pier context, stepped observation disks and thin central mast.",
+      "local_path": "data/raw/skyline/seabc-structures-2017.pdf",
+      "sha256": "0d76f085ab2eba21e13ae1fb42f9ab3b22d5917ae35bdc3ca38b6eab0e8c3e42",
+      "incorporated": false,
+      "licence": "Copyright reference only. Retained research copy; exclude PDF and reference-page PNG from distributed game.",
+      "limits": "Surface tension shape is an authored approximation, not structural form-finding. Photographs are not textures."
+    }
+  ],
+  "accepted": false
+}

@@ -1,0 +1,685 @@
+{
+  "created_utc": "2026-09-27T18:51:53.292704+00:00",
+  "selection_method": "Manual visual picks from source-only 100 m panels; fixed roster retained; picks saved before model residual calculation",
+  "role": "Diagnostic pavement-band references, not independent survey control points",
+  "geometry_changes_authorized": false,
+  "records": [
+    {
+      "id": "XY_REVIEW_01",
+      "status": "junction",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_01-source.png",
+      "source_panel_sha256": "c8bfe92535665c2130570afa915135697544598f3093025e1d9f6ca8f0a4c1b4",
+      "observation": "Several paved branches meet. A unique bicycle band cannot be read at the fixed anchor.",
+      "source_bands": [],
+      "source_corner_pixels_xy": [
+        [
+          573,
+          543
+        ]
+      ],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_02",
+      "status": "occluded_bicycle_lane",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_02-source.png",
+      "source_panel_sha256": "46fece2bdf79b2a0ce0d6e2a991df753f2d1e56d1ba871eeca6b4dcb5f1fe2b5",
+      "observation": "Canopy covers the inner band. The visible outer seawall must not be assumed to be the bicycle lane.",
+      "source_bands": [
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              530,
+              500
+            ],
+            [
+              576,
+              500
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_03",
+      "status": "occluded_bicycle_lane",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_03-source.png",
+      "source_panel_sha256": "faa20ba21c0ce5b342a624af3156eef5671b948f3c0cc3ef8494464c4e15ebf7",
+      "observation": "A planted separator is visible to the north. Canopy hides the inner bicycle candidate at the anchor.",
+      "source_bands": [
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              532,
+              500
+            ],
+            [
+              565,
+              500
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_04",
+      "status": "visible_separate_lanes",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_04-source.png",
+      "source_panel_sha256": "a40e4bb0602590de4dfa5e2c914e44e1c9c46f65402f9b9d58135c76763cf671",
+      "observation": "Two narrow paved strips lie between Park Drive and the shore; grass separates them.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              449,
+              500
+            ],
+            [
+              505,
+              500
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              535,
+              500
+            ],
+            [
+              580,
+              500
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_05",
+      "status": "inner_roadway_candidate",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_05-source.png",
+      "source_panel_sha256": "8dc6912ecbdab0db7f1bd0919bb6bd7cc6301bbe728c2ed15499c5105f0d7d2e",
+      "observation": "Inner paved roadway and outer seawall are distinct. Lane use at the inner road needs route evidence.",
+      "source_bands": [
+        {
+          "role": "inner_roadway_candidate",
+          "edge_pixels_xy": [
+            [
+              453,
+              450
+            ],
+            [
+              516,
+              450
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              653,
+              450
+            ],
+            [
+              690,
+              450
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_06",
+      "status": "visible_separate_lanes",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_06-source.png",
+      "source_panel_sha256": "d8e83054eb87bea612c408ff69b78b70eb635338bd0bbf8944992ac64c5d2d27",
+      "observation": "Inner paved band is south of a planted strip and outer seawall. Crossing markings widen the local space.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              500,
+              468
+            ],
+            [
+              500,
+              532
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              500,
+              346
+            ],
+            [
+              500,
+              401
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_07",
+      "status": "partial_inner_lane",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_07-source.png",
+      "source_panel_sha256": "5279a0980db4eeef90f5d504ed7a02d4339abd6e3ff093fae936f2886bbb9e4d",
+      "observation": "The fixed anchor is shaded. A nearby inner paved segment is visible, but one edge is partly covered.",
+      "source_bands": [
+        {
+          "role": "inner_lane_candidate",
+          "edge_pixels_xy": [
+            [
+              614,
+              650
+            ],
+            [
+              660,
+              650
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              781,
+              650
+            ],
+            [
+              807,
+              650
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_08",
+      "status": "occluded_bicycle_lane",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_08-source.png",
+      "source_panel_sha256": "3e502d29e97b05facd8834041d226c5ad679a48d2084e4348198e05c1cf8c0e2",
+      "observation": "Canopy hides the waterfront inner strip. The separate road farther inland is not assumed to be the cycle route.",
+      "source_bands": [
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              710,
+              850
+            ],
+            [
+              749,
+              850
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_09",
+      "status": "visible_lane_bands",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_09-source.png",
+      "source_panel_sha256": "32f5711dc4c59e883305c37c4ae1f6ecddf539489362b7ff855af197953e7626",
+      "observation": "The waterfront pavement has a light outer band and a darker inner band. Park Drive is a separate surface.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              500,
+              487
+            ],
+            [
+              500,
+              536
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              500,
+              450
+            ],
+            [
+              500,
+              486
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_10",
+      "status": "wide_junction_band",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_10-source.png",
+      "source_panel_sha256": "2db3435fc2eec9948329544c38a52a42e801f8e7d6c5d46937b9ad94184e236f",
+      "observation": "Inner asphalt connects with an inland footpath. A nearby section is used to avoid the fork itself.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              540,
+              650
+            ],
+            [
+              620,
+              650
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              621,
+              650
+            ],
+            [
+              704,
+              650
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_11",
+      "status": "combined_paved_space",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_11-source.png",
+      "source_panel_sha256": "7f6655eddd807df0628ffee0712686e3b47cd420975273bccebcef8cbf9972c9",
+      "observation": "Pavement around the lighthouse is visible; no reliable internal bicycle divider is visible here.",
+      "source_bands": [
+        {
+          "role": "combined_pavement",
+          "edge_pixels_xy": [
+            [
+              500,
+              477
+            ],
+            [
+              500,
+              521
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_12",
+      "status": "visible_lane_bands",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_12-source.png",
+      "source_panel_sha256": "0ef44a2f531f9afd934e436dc7d1f34c6151fba61d2d796f1ab1740790bff399",
+      "observation": "An inner grey strip and outer light strip are visible between cliff vegetation and seawall.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              500,
+              478
+            ],
+            [
+              500,
+              520
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              500,
+              435
+            ],
+            [
+              500,
+              477
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_13",
+      "status": "partial_combined_pavement",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_13-source.png",
+      "source_panel_sha256": "c35aec954028308b8af6f1caed9b0a99b011fe23e3d0a46442a85e787ed4e487",
+      "observation": "Pavement is partly visible beside the seawall. The inner boundary and lane divider are not fully clear.",
+      "source_bands": [
+        {
+          "role": "combined_pavement_partial",
+          "edge_pixels_xy": [
+            [
+              484,
+              500
+            ],
+            [
+              522,
+              500
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_14",
+      "status": "visible_lane_bands",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_14-source.png",
+      "source_panel_sha256": "e830258e00d0bbb981b454426f419754bab7a774bfd0e7cce7035719d6083278",
+      "observation": "Dark inner bicycle pavement and light outer walking pavement are distinct at the selected northern section.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              447,
+              200
+            ],
+            [
+              491,
+              200
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              402,
+              200
+            ],
+            [
+              447,
+              200
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_15",
+      "status": "visible_lane_bands",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_15-source.png",
+      "source_panel_sha256": "10c6370bb608d43549c9c39ed7a79441c9568b247dedd5ce24509bdc78f40d2f",
+      "observation": "A longitudinal divider separates the beach-side and inland pavement bands.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              488,
+              500
+            ],
+            [
+              523,
+              500
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              455,
+              500
+            ],
+            [
+              488,
+              500
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_16",
+      "status": "visible_lane_bands",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_16-source.png",
+      "source_panel_sha256": "1615d870d052ef00c5dacccf607c11c34f55c29195a1af7ea730f46dc7427744",
+      "observation": "Pavement bands are visible north of the canopy-covered anchor. The separate parking road is inland.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              414,
+              300
+            ],
+            [
+              457,
+              300
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "outer_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              371,
+              300
+            ],
+            [
+              414,
+              300
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_17",
+      "status": "occluded_bicycle_lane",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_17-source.png",
+      "source_panel_sha256": "c1268e8284f1d30adb1ac72e966efbe2f926ae6b9a9e8b2078c9abb54c4ec2b4",
+      "observation": "Dense canopy covers the route near the shore. No reliable pavement edges can be picked.",
+      "source_bands": [],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_18",
+      "status": "junction",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_18-source.png",
+      "source_panel_sha256": "fca54c5c4f8aa23b980f0efaf4b37ad11006423fb178cf20cb0332bb8b5235bc",
+      "observation": "A marked crossing and several paths meet beside the pool. The triangle curb corner is a location reference, not a lane-width control.",
+      "source_bands": [],
+      "source_corner_pixels_xy": [
+        [
+          534,
+          519
+        ]
+      ],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_19",
+      "status": "visible_separate_lanes",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_19-source.png",
+      "source_panel_sha256": "3ea46095693ad9b43da2f8273404bf598e2509c974346ddb97c4af004ef6ce30",
+      "observation": "Two paved paths are separated by a grass strip. The northwestern band is the bicycle candidate.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              500,
+              480
+            ],
+            [
+              500,
+              515
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "parallel_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              500,
+              550
+            ],
+            [
+              500,
+              583
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    },
+    {
+      "id": "XY_REVIEW_20",
+      "status": "visible_separate_lanes",
+      "source_panel": "evidence/m1-source-review/XY_REVIEW_20-source.png",
+      "source_panel_sha256": "f04b65f97299988649d6af397c03002d8f111fc9cb6d7a8e0cc2da4ead650fda",
+      "observation": "The middle paved path has bicycle markings farther east. Lagoon-edge and southern walking paths stay separate.",
+      "source_bands": [
+        {
+          "role": "bicycle_probable",
+          "edge_pixels_xy": [
+            [
+              500,
+              466
+            ],
+            [
+              500,
+              505
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "lagoon_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              500,
+              322
+            ],
+            [
+              500,
+              351
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        },
+        {
+          "role": "southern_walk_candidate",
+          "edge_pixels_xy": [
+            [
+              500,
+              575
+            ],
+            [
+              500,
+              622
+            ]
+          ],
+          "pick_uncertainty_estimate_m": 0.5,
+          "uncertainty_is_survey_accuracy": false
+        }
+      ],
+      "source_corner_pixels_xy": [],
+      "absolute_accuracy_accepted": false
+    }
+  ]
+}

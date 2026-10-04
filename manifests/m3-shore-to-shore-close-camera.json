@@ -1,0 +1,49 @@
+{
+  "views": [
+    {
+      "id": "SP_shore_to_shore_extra_northwest_close",
+      "feature_id": "SP_shore_to_shore",
+      "kind": "form-only",
+      "requested_camera": {
+        "location": {
+          "x": -39950.0,
+          "y": 162980.0,
+          "z": 720.0
+        },
+        "rotation": {
+          "pitch": -8.049466975528398,
+          "yaw": 135.0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "eye_local_m": [
+        1629.8,
+        -399.5,
+        7.2
+      ],
+      "target_local_m": [
+        1635.8,
+        -405.5,
+        6.0
+      ],
+      "source_hashes": {
+        "exports/m3-shore-to-shore/4bd68e28d749/manifest.json": "a9b8c3fa1363bc47c301793f42a15a160c167c4109c5b90ef0a887edc6357cf1",
+        "exports/m3-shore-to-shore/latest.json": "f84b163751728e6c8e507ef5b1cbaa70b40151a814d63bda06582575356f0df7",
+        "manifests/route-sculpture-blockouts.json": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1"
+      },
+      "purpose": "Resolve the third human figure hidden behind the unchanged central form in the existing east-side form view. This opposite close angle complements that image.",
+      "accepted": false
+    }
+  ],
+  "accepted": false,
+  "input_hashes": {
+    "exports/m3-shore-to-shore/4bd68e28d749/manifest.json": "a9b8c3fa1363bc47c301793f42a15a160c167c4109c5b90ef0a887edc6357cf1",
+    "exports/m3-shore-to-shore/latest.json": "f84b163751728e6c8e507ef5b1cbaa70b40151a814d63bda06582575356f0df7",
+    "manifests/route-sculpture-blockouts.json": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1"
+  }
+}

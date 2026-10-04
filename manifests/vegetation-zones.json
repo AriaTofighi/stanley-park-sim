@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-09-27T03:43:17.358672+00:00",
+  "source_query": "https://openmaps.gov.bc.ca/geo/pub/WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub%3AWHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY&outputFormat=application%2Fjson&srsName=EPSG%3A3157&count=100&cql_filter=BBOX%28GEOMETRY%2C488000%2C5459300%2C492000%2C5463000%2C%27EPSG%3A3157%27%29",
+  "catalogue": "https://catalogue.data.gov.bc.ca/dataset/2ebb35d8-c82f-4a17-9c96-612ac3532d55",
+  "title": "VRI - 2025 - Forest Vegetation Composite Rank 1 Layer (R1)",
+  "licence": "Open Government Licence - British Columbia",
+  "licence_url": "https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61",
+  "attribution": "Contains information licensed under the Open Government Licence - British Columbia.",
+  "coverage": "Stanley Park; source polygons clipped to the City park boundary",
+  "species_code_reference": "https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/tree-seed/tree-seed-centre/seed-testing/codes",
+  "cover_code_reference": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/stewardship/forest-analysis-inventory/forest-cover-inventories/photo-interpretation/standards/vri_photo_interpretation_procedures_version_38.pdf",
+  "input_files": [
+    {
+      "path": "data/raw/forest/bc-vri-park-query.json",
+      "sha256": "b3701426ed6827c7422e62865f80e24b3b73f83a17ffe6373abb2fed802ee0b5"
+    },
+    {
+      "path": "data/raw/forest/bc-vri-metadata.json",
+      "sha256": "bbea68b4c174e16a8a9a35a5a3d6341c46531b6269132cda4bb9b47a5c416e03"
+    },
+    {
+      "path": "data/derived/cover-blockout.json",
+      "sha256": "9187a028f7c073140ad7b113099b17f1f5827b5beab037eeb48bdf1b9b06ceef"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "data/derived/vegetation-zones-local.geojson",
+      "sha256": "c56479a3f029d6a720440bcacdf0ded198cc2990154ca037dc8b677c02c3c082"
+    },
+    {
+      "path": "data/derived/canopy-zone-assignments.json",
+      "sha256": "c9db788cc9908de82b66efe3996872f82762a865daf157b2508f4fb6a63109ce"
+    }
+  ],
+  "polygons": 45,
+  "park_coverage_fraction": 0.9999999999999998,
+  "polygon_overlap_m2": 1.3969838619232178e-09,
+  "area_by_primary_cover_ha": {
+    "OC": 22.175130248030253,
+    "TM": 71.83143465086883,
+    "TC": 221.43786802533654,
+    "UR": 27.629558149045018,
+    "UNKNOWN": 49.30812715034343,
+    "TB": 5.022166094198935,
+    "HG": 13.809777939298414,
+    "LA": 4.219336406764223,
+    "ST": 2.617408822946918
+  },
+  "canopy_clusters_by_group": {
+    "MB": 1621,
+    "CW": 2452,
+    "DR": 1244,
+    "FDC": 2636,
+    "HW": 5115,
+    "BA": 11,
+    "UNKNOWN": 1276,
+    "SS": 7
+  },
+  "species": {
+    "HW": "Western hemlock",
+    "FDC": "Coast Douglas-fir",
+    "CW": "Western redcedar",
+    "DR": "Red alder",
+    "MB": "Bigleaf maple",
+    "BA": "Amabilis fir",
+    "SS": "Sitka spruce",
+    "UNKNOWN": "Unresolved canopy group"
+  },
+  "accepted_2026_condition": false,
+  "accepted_near_route_geometry": false,
+  "limits": [
+    "Projected 2025 growth values are not 2025 field measurements.",
+    "Reference and interpretation dates vary by polygon; retain them in the output.",
+    "No new tree removal or regeneration is inferred from the source.",
+    "Canopy cluster heights/centres remain the 2022 LiDAR values.",
+    "Species assignment varies the blockout groups, not surveyed individual trees.",
+    "Source boundaries do not establish a 2 m positional accuracy."
+  ]
+}

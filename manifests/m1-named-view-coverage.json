@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-27T22:40:19.180395+00:00",
+  "scope": "Finite opened-image coverage ledger for the twelve M1 source-form groups. No app operation by this audit.",
+  "evidence_inputs": [
+    {
+      "path": "evidence/m1-site-visual-review-v25-ground.json",
+      "sha256": "d7cb2968b5e9d7bb60c499bb967d887064e2b9281077871afbb92e4845b48460"
+    },
+    {
+      "path": "evidence/m1-site-visual-review-v25-sites.json",
+      "sha256": "d4f460df0d7f486f44239b141c2c319c97e1af9a22036600616eb951f7631bbb"
+    },
+    {
+      "path": "evidence/m1-unreal-ground-visual-review-v26.json",
+      "sha256": "118a03189f30220a891996718542fc69f2bc0a00c453090d7e69fb62bc042b78"
+    },
+    {
+      "path": "evidence/m1-unreal-root-site-visual-review-v26.json",
+      "sha256": "e9aa85d4f4efd49da67361c148f2ac28b6224db8ee6c7f33bc3ba6a7d72c487b"
+    },
+    {
+      "path": "evidence/m1-route-and-devonian-visual-review-v26.json",
+      "sha256": "b5aae1f33a0746671848685cd7908494aa811e3ab94b07326bb9548d80370e7c"
+    },
+    {
+      "path": "evidence/m1-unreal-navigation-visual-review-v25.json",
+      "sha256": "9171b852f846da5a52c5124e4d2cd7cc101aab9f6fcdd431c015f772b8d8dd8c"
+    },
+    {
+      "path": "evidence/m1-root-visual-review-v23.json",
+      "sha256": "cf4099bbb71ca054bf64d2039fb24e3d0bb8fd142bb178a0d3d0ae4101a1831c"
+    },
+    {
+      "path": "evidence/m1-unreal-root-visual-review-v25.json",
+      "sha256": "6e29035cb349315eeb614e02a3d29fafacf173eae2dcbe142519cfe3747d967d"
+    },
+    {
+      "path": "evidence/m1-yelton-v25-root-review.json",
+      "sha256": "46ee6d337385139d30ee0a5a4e08f377c108bb582096124163037558c50743e5"
+    },
+    {
+      "path": "evidence/m1-public-harbour-paired-review-v26.json",
+      "sha256": "7345ddf88be14303c524ff5b8f4e280c131969d3c2449d4232afe2d1974b5f28"
+    },
+    {
+      "path": "evidence/m1-named-form-paired-review-v26.json",
+      "sha256": "d40d75cc2d50a1456a50653f735018e888308fc02684934f180f450b015c4ac8"
+    },
+    {
+      "path": "evidence/m1-girl-visible-repeat-review-v26.json",
+      "sha256": "bc2a5b3491ea7297f97b9f55f1fd8a8c8048a0e73def1b5299614aa44bd1e86e"
+    },
+    {
+      "path": "evidence/m1-garden-close-paired-review-v27.json",
+      "sha256": "8ba92f6621420f65f47af94f3c48859ba3cd68ed79a508016bbaf2c2b99e5a17"
+    },
+    {
+      "path": "evidence/m1-skyline-prospect-paired-visual-review-v27-r3.json",
+      "sha256": "43ab088c29597a394d7ffb3a88071eedd9dc2bb71f05c430c2b236e727377e80"
+    }
+  ],
+  "groups": [
+    {
+      "id": "M1-F01",
+      "name": "Lumberman cedar arch",
+      "view_ids": [
+        "cedar_arch_logs_r3"
+      ],
+      "opened_review_records": [
+        "evidence/m1-garden-close-paired-review-v27.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Three observed log axes are modeled; the fourth described log remains unresolved. Do not claim a measured four-log assembly.",
+        "The current close pair shows the three modeled members; the right end is partly crown-obscured. It does not supply the unresolved fourth member."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F02",
+      "name": "Hollow Tree and Siwash",
+      "view_ids": [
+        "hollow_tree",
+        "siwash_lookout"
+      ],
+      "opened_review_records": [
+        "evidence/m1-named-form-paired-review-v26.json",
+        "evidence/m1-garden-close-paired-review-v27.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Cavity and lookout/approach must be visible; bark, detailed braces and finished materials are later art."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F03",
+      "name": "Brockton grounds and Totem precinct",
+      "view_ids": [
+        "public_brockton_grounds",
+        "ground_totem_court_r2",
+        "people_north_r2"
+      ],
+      "opened_review_records": [
+        "evidence/m1-root-visual-review-v23.json",
+        "evidence/m1-named-form-paired-review-v26.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Eight display poles plus Yelton and two People portals have coarse forms. Southwest portal remains unplaced; rear pole and north portal estimates retain their bounds. Full visitor paving is not certified."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F04",
+      "name": "Route sculpture silhouettes",
+      "view_ids": [
+        "sculpture_empress_japan",
+        "sculpture_girl_wetsuit",
+        "sculpture_harry_jerome",
+        "sculpture_shore_to_shore",
+        "yelton_east_r3"
+      ],
+      "opened_review_records": [
+        "evidence/m1-yelton-v25-root-review.json",
+        "evidence/m1-unreal-navigation-visual-review-v25.json",
+        "evidence/m1-root-visual-review-v23.json",
+        "evidence/m1-named-form-paired-review-v26.json",
+        "evidence/m1-girl-visible-repeat-review-v26.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Coarse profile only; no carving, paint or exact sculpture reproduction. The People southwest portal source gap is shared with F03."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false,
+      "specific_repeat": "Original missing Girl assembly is retained; same-camera repeat resolves this view only. Harry head contact is visible in both current views. Exact cause of the transient Girl absence is not proved."
+    },
+    {
+      "id": "M1-F05",
+      "name": "Waterpark and Lumberman facilities",
+      "view_ids": [
+        "site_waterpark_low_forms_r2",
+        "site_waterpark_rock_r2",
+        "lumberman_lower_south",
+        "lumberman_lower_north",
+        "lumberman_upper_road"
+      ],
+      "opened_review_records": [
+        "evidence/m1-site-visual-review-v25-sites.json",
+        "evidence/m1-unreal-root-site-visual-review-v26.json",
+        "evidence/m1-unreal-root-visual-review-v25.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Principal low boat/rock forms only. Actual pool operation and play equipment detail are later work. The nearest canopy proxies have measured plan gaps from the rock; no tree removal was justified."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F06",
+      "name": "West coast beach spaces",
+      "view_ids": [
+        "third_beach_roof",
+        "second_pool",
+        "air_india_wall_r2",
+        "air_india_seat_r2"
+      ],
+      "opened_review_records": [
+        "evidence/m1-public-harbour-paired-review-v26.json",
+        "evidence/m1-root-visual-review-v23.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Third Beach top view proves roof shape, not a finished facade or every base contact. Second Pool layout and Air India wall/seat forms are visible. Inscriptions and detailed art remain later work."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F07",
+      "name": "Lost Lagoon edge",
+      "view_ids": [
+        "nature_house_lower_wide",
+        "nature_house_upper_wide",
+        "jubilee",
+        "ground_biofilter_r2"
+      ],
+      "opened_review_records": [
+        "evidence/m1-root-visual-review-v23.json",
+        "evidence/m1-unreal-root-visual-review-v25.json",
+        "evidence/m1-public-harbour-paired-review-v26.json",
+        "evidence/m1-site-visual-review-v25-ground.json",
+        "evidence/m1-unreal-ground-visual-review-v26.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Nature House frontage/threshold repair is visible. Jubilee is structural massing without jets. Biofilter basin/bank is visible, with partial crown cover and a proxy water level."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F08",
+      "name": "South park recreation grounds",
+      "view_ids": [
+        "public_south_grounds",
+        "ground_golf_greens_r2",
+        "site_pitch_putt_clubhouse_r2",
+        "ceperley_deck_side_r3"
+      ],
+      "opened_review_records": [
+        "evidence/m1-public-harbour-paired-review-v26.json",
+        "evidence/m1-site-visual-review-v25-ground.json",
+        "evidence/m1-unreal-ground-visual-review-v26.json",
+        "evidence/m1-site-visual-review-v25-sites.json",
+        "evidence/m1-unreal-root-site-visual-review-v26.json",
+        "evidence/m1-route-and-devonian-visual-review-v26.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "The high south overview shows court grid and recreation layout. Local golf greens and clubhouse have separate views. No detailed course or sport simulation claim."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F09",
+      "name": "Gardens and public clearings",
+      "view_ids": [
+        "ground_community_garden_r2",
+        "ground_rose_gardens_r2",
+        "ground_greig_garden_r2",
+        "site_rock_garden_r2",
+        "site_painters_circle_r2",
+        "site_portrait_painters_r2",
+        "public_pavilion",
+        "garden_air_force_r3",
+        "garden_shakespeare_r3"
+      ],
+      "opened_review_records": [
+        "evidence/m1-site-visual-review-v25-ground.json",
+        "evidence/m1-unreal-ground-visual-review-v26.json",
+        "evidence/m1-site-visual-review-v25-sites.json",
+        "evidence/m1-unreal-root-site-visual-review-v26.json",
+        "evidence/m1-named-form-paired-review-v26.json",
+        "evidence/m1-garden-close-paired-review-v27.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Existing views show coarse bed, clearing and path forms; canopy hides some full perimeters. Greig is a broad envelope. Flowers, exact shrubs and small fixtures are later art.",
+        "The new garden views show local coarse extents/context, not complete garden layouts or species identity."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F10",
+      "name": "Interior facilities and habitat",
+      "view_ids": [
+        "cob_house",
+        "ground_railway_tracks_r2",
+        "site_salmon_lower_pool_r2",
+        "site_heron_habitat_r2"
+      ],
+      "opened_review_records": [
+        "evidence/m1-public-harbour-paired-review-v26.json",
+        "evidence/m1-site-visual-review-v25-ground.json",
+        "evidence/m1-unreal-ground-visual-review-v26.json",
+        "evidence/m1-site-visual-review-v25-sites.json",
+        "evidence/m1-unreal-root-site-visual-review-v26.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Station roof/posts and rails are visible; Cob House wall/base/roof is partly crown-obscured. Salmon basin has a proxy water patch. Heron habitat is linked existing canopy/land context; no distinct nest or fauna was claimed. Non-player railway bridge/tunnel detail remains later work."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F11",
+      "name": "Harbour edge and entrances",
+      "view_ids": [
+        "harbour_deadman",
+        "site_hallelujah_r2",
+        "site_devonian_pond_r2",
+        "site_port_view_r2"
+      ],
+      "opened_review_records": [
+        "evidence/m1-public-harbour-paired-review-v26.json",
+        "evidence/m1-site-visual-review-v25-ground.json",
+        "evidence/m1-unreal-ground-visual-review-v26.json",
+        "evidence/m1-site-visual-review-v25-sites.json",
+        "evidence/m1-unreal-root-site-visual-review-v26.json",
+        "evidence/m1-route-and-devonian-visual-review-v26.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Island roofs, park landforms and shore projections are visible. Devonian and other pond surfaces remain explicit level proxies. No invented landmark or monument was added for an ID."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    },
+    {
+      "id": "M1-F12",
+      "name": "Distant built silhouettes",
+      "view_ids": [
+        "site_port_view_r2",
+        "northshore_seaspan",
+        "skyline_english_bay",
+        "skyline_english_bay_shore_r3"
+      ],
+      "opened_review_records": [
+        "evidence/m1-unreal-root-site-visual-review-v26.json",
+        "evidence/m1-unreal-root-visual-review-v25.json",
+        "evidence/m1-public-harbour-paired-review-v26.json",
+        "evidence/m1-skyline-prospect-paired-visual-review-v27-r3.json"
+      ],
+      "remaining_view_work": [],
+      "limits": [
+        "Port View shows harbour/downtown context and North Shore sheds/silos/crane/mountains are readable. Distance models use separate source-height assumptions. No detailed city or unrelated access simulation claim.",
+        "The v27 r3 paired view shows central towers beyond beach/water; left and lower silhouettes remain partly crown-obscured. It does not accept every building."
+      ],
+      "full_feature_accepted": false,
+      "runtime_accepted": false
+    }
+  ],
+  "policy": "The original task requires named views and visual checks. It does not require every small asset in every application or production detail at M1. Recorded partial visibility remains explicit; a saved capture alone is not a review.",
+  "measurement_decision": "User permits recorded width/gate/underpass estimates and accepted M1 with absolute accuracy unverified. This is not a blanket waiver of visible missing forms or contact defects.",
+  "reference_period": "See manifests/m1-reference-period.json: measured 2022 environment, separately dated access overlay. Unanswered forest question withdrawn by planning amendment, not approved.",
+  "full_m1_complete": true,
+  "regional_controls_outside_twelve_groups": [
+    {
+      "view": "prospect_terrace",
+      "record": "evidence/m1-prospect-view-review-v27.json",
+      "remaining": "None for this finite coarse view; partial crown and thin-hanger rendering limits remain.",
+      "repeat_record": "evidence/m1-skyline-prospect-paired-visual-review-v27-r3.json",
+      "repeat_view": "prospect_terrace_to_bridge_r3"
+    }
+  ],
+  "completion": {
+    "path": "evidence/m1-completion-v29.json",
+    "sha256": "ee0c2dc040b5f0fd4139c526b9ccf73af220688cddb0d633a879c26a4ddc1994"
+  },
+  "final_status_updated_utc": "2026-09-28T00:20:16.840368+00:00",
+  "historical_snapshot_note": "Earlier evidence snapshots and per-feature source/art flags remain historical or limited in scope. Exact pre-completion files are saved under evidence/m1-status-before-completion/."
+}

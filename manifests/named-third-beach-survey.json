@@ -1,0 +1,18 @@
+{
+  "id": "third-beach",
+  "extraction_centre_local_m": [
+    -921.57,
+    57.77
+  ],
+  "extraction_radius_m": 50,
+  "source": "manifests/lidar2022-488000_5461000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 471926,
+  "output": {
+    "path": "data/derived/named-third-beach-survey.npz",
+    "sha256": "26e29a1a9a4599ccabd937dac41d9bbd3268ee7ca08edeb66af58de4e9386af3"
+  }
+}

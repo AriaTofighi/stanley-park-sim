@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "revision": "m3-urban-surfaces-r1",
+  "scope": "Material-only Seawall actor overrides for existing underpass concrete and city building masses.",
+  "prefixes": ["SM_Underpass", "SM_Skyline", "SM_BuildingMass"],
+  "profiles": {
+    "M_Underpass_Concrete": {"kind": "concrete", "roughness": 0.86},
+    "M_Underpass_Deck": {"kind": "concrete", "roughness": 0.88},
+    "M_Skyline_glass": {"kind": "glass", "roughness": 0.24},
+    "M_Skyline_stone": {"kind": "stone", "roughness": 0.74},
+    "M_Skyline_light": {"kind": "light", "roughness": 0.69},
+    "M_SurveyBuildingMass": {"kind": "survey", "roughness": 0.77}
+  },
+  "detail_fade_start_m": 300,
+  "detail_fade_end_m": 700,
+  "estimated_floor_spacing_m": 3.2,
+  "estimated_window_bay_m": 1.7,
+  "licence": "Original procedural shader detail; existing source attribution is retained by the source manifests. No photograph, facade artwork, logo, interior or sign is copied.",
+  "source_limits": [
+    "Building geometry, position, source material class and color come from the existing source manifests.",
+    "Window bays, floor bands, concrete joints and weathering are visual estimates. They are not measured facade surveys or evidence of present conditions.",
+    "Original roofs, skyline sails and route pavement receive no new facade pattern.",
+    "Distant detail fades out by 700 m. This pass adds no mesh, texture, light, interior, displacement or collision.",
+    "The authorized image review must assess visual quality after import. Source checks do not establish visual acceptance."
+  ]
+}

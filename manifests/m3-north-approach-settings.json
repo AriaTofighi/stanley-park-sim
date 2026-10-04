@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "purpose": "M3 visual repair of missing north bridge approach and coastal terrain gaps; no route or original mesh edits.",
+  "viaduct_length_m": 669.0,
+  "span_count": 25,
+  "ordinary_bents": 24,
+  "double_bent_pairs_1based": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "span_weights_estimate": [
+    36,
+    36,
+    30,
+    14,
+    33,
+    32,
+    32,
+    14,
+    31,
+    31,
+    31,
+    14,
+    28,
+    26,
+    24,
+    23,
+    22,
+    14,
+    24,
+    23,
+    22,
+    22,
+    21,
+    20,
+    32
+  ],
+  "deck_total_width_m": 14.3,
+  "roadway_width_m": 10.7,
+  "profile_transition_m": 30.0,
+  "deck_sample_m": 2.0,
+  "north_embankment_height_m": 15.0,
+  "embankment_side_run_per_rise": 1.5,
+  "embankment_apron_length_estimate_m": 100.0,
+  "footing_transverse_centres_m": 11.0,
+  "footing_width_m": 3.0,
+  "footing_length_estimate_m": 5.5,
+  "footing_embedment_m": 1.5,
+  "visual_member_estimates": {
+    "deck_thickness_m": 0.6,
+    "girder_depth_m": 1.5,
+    "girder_width_m": 0.36,
+    "column_width_m": 0.65,
+    "brace_width_m": 0.25,
+    "bent_level_max_m": 9.0,
+    "railing_height_m": 1.15,
+    "rail_width_m": 0.075,
+    "post_spacing_m": 3.0,
+    "anchor_block_height_m": 6.0,
+    "anchor_block_width_m": 17.0
+  },
+  "foreshore_patch_extent_local_m": [
+    -1000,
+    1600,
+    2500,
+    2900
+  ],
+  "sources": [
+    {
+      "url": "https://conf.tac-atc.ca/english/annualconference/tac2013/session7/laxdal.pdf",
+      "title": "Orthotropic deck wear surface system selection, Lions Gate Bridge North Approach Viaduct, 2013",
+      "facts": [
+        "669 m north approach",
+        "25 spans"
+      ],
+      "retrieval": "Search-index primary report text; direct download certificate mismatch."
+    },
+    {
+      "url": "https://seabc.ca/wordpress/files/notable_structures/Vancouver_Notable_Structures_IABSE_SEABC_2017.pdf",
+      "title": "IABSE / SEABC Vancouver Notable Structures, 2017",
+      "facts": [
+        "669 m north approach",
+        "25 spans"
+      ]
+    },
+    {
+      "url": "https://onlinepubs.trb.org/Onlinepubs/trr/1978/664/664v1-010.pdf",
+      "title": "Peter R. Taylor, Renovation of Lions Gate Bridge North Viaduct, 1978",
+      "facts": [
+        "Steel plate girders on steel bents",
+        "1975 orthotropic deck width 14.3 m"
+      ]
+    },
+    {
+      "url": "https://static1.squarespace.com/static/523c951be4b0728273e73d94/t/52ceef87e4b09a8aeee9a7b3/1389293447736/2002-7%2BThe%2BLions%2BGate%2BBridge%2BSeismic%2BRetrofit%2Bof%2BNorth%2BApproach%2BFoundations%2B-%2BYan.pdf",
+      "title": "Li Yan and Alex Sy, The Lions Gate Bridge seismic retrofit of north approach viaduct foundations, 2002",
+      "path": "data/raw/landmarks/lions-gate-north-foundations-2002.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "facts": [
+        "24 bents: 16 single and four double H groups",
+        "15 m north approach embankment",
+        "Embankment side slopes 1.5 horizontal to 1 vertical",
+        "Typical footing width 3 m and length 5 to 6 m",
+        "Footing centre spacing 11 m and embedment 1.5 m",
+        "Figure 2 support rhythm and low north anchorage"
+      ]
+    },
+    {
+      "url": "https://monova.ca/building-vancouver-icon-lions-gate-bridge-construction-lions-gate-bridge-4/",
+      "title": "MONOVA, Unfinished Viaduct, March 1938",
+      "facts": [
+        "Maximum design gradient five percent",
+        "Support spacing increases with height"
+      ]
+    }
+  ],
+  "estimates": [
+    "No as-built north-approach alignment, deck profile or exact bent stations were available. The measured suspension-bridge axis is extended straight for the source length.",
+    "Bent station weights and four double-bent locations follow the rhythm in the schematic Figure 2. They are visual estimates, not digitized survey positions.",
+    "The deck begins at the exact existing endpoint and width. It transitions over 30 m to the 14.3 m source width. Its height tends to regional ground plus the documented 15 m embankment height.",
+    "Member sizes, rail detail, anchor-block dimensions and 100 m terminal embankment apron are visual estimates.",
+    "The terminal apron is a bounded mound tied to source ground. No north highway interchange or forest is inferred.",
+    "Coastal infill covers only omitted original 160 m grid triangles clipped to the source FWA land polygon. Heights use the same triangle-plane interpolation as the original regional mesh, not new measured detail.",
+    "Coastal infill starts at local north 1600 m, beyond the measured near-terrain crop at 1599 m, to avoid overlapping the protected near terrain."
+  ],
+  "acceptance": {
+    "visual": false,
+    "original_geometry_unchanged_required": true,
+    "collision": "none"
+  }
+}

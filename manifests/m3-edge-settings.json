@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "seed": 661923,
+  "station_step_m": 8.0,
+  "attempts_per_station": 10,
+  "route_distance_range_m": [5.0, 37.0],
+  "coast_distance_max_m": 55.0,
+  "height_range_m": [-0.4, 3.2],
+  "minimum_ground_normal_z": 0.90,
+  "minimum_support_normal_z": 0.85,
+  "path_clearance_m": 1.2,
+  "structure_clearance_m": 0.4,
+  "occupancy_cell_m": 1.6,
+  "section_length_m": 250.0,
+  "source_pilot_manifest": "exports/seawall-shore/d2a3c472791b/manifest.json",
+  "source_pilot_import_record": "evidence/seawall-shore-8e5dae4a1b00.json",
+  "surface_override_prefixes": ["SM_PavementSupport_"],
+  "material_limit": "Granular mineral surface only on existing route support faces. No new wall, curb or rail geometry. Support dimensions retain their M1 estimated status.",
+  "placement_limit": "Stones are visual interpretations. The approximate 2002 coastline is a broad exclusion mask, not a survey or tidal boundary. Individual stones are not surveyed.",
+  "excluded_new_work": ["continuous rails without source evidence", "pavement contact edits", "terrain edits", "new retaining wall geometry"]
+}

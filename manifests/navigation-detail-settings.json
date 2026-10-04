@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "scope": "M1 functional navigation markers; no claim of surveyed physical sign placement",
+  "dimensions_are_estimates": true,
+  "board_width_m": 1.2,
+  "board_height_m": 0.75,
+  "board_thickness_m": 0.035,
+  "board_center_above_path_m": 1.75,
+  "post_width_m": 0.06,
+  "post_embed_m": 0.2,
+  "lateral_candidates_m": [2.8, 2.5, 3.2],
+  "minimum_pavement_clearance_m": 0.25,
+  "warning_advance_source_m": 40,
+  "junction_notice_advance_source_m": 6,
+  "ground_marking_lift_m": 0.018,
+  "marker_collision": "none",
+  "physical_sign_survey_count": 0,
+  "physical_gate_policy": "Do not create maze gates from a proposed design or a diagram. Keep current walk-bike guidance; construction status is a separate source question.",
+  "entrance_connections": {
+    "city_junction_045": {"name": "Coal Harbour entrance", "lines": ["SEAWALL", "COUNTER-CLOCKWISE", "15 KM/H"]},
+    "city_junction_007": {"name": "English Bay / Ceperley connection", "lines": ["SEAWALL CIRCUIT", "VIA LOST LAGOON", "KEEP TO BIKE PATH"]},
+    "city_junction_035": {"name": "Chilco entrance connection", "lines": ["SEAWALL CIRCUIT", "VIA UNDERPASS", "KEEP TO BIKE PATH"]}
+  },
+  "junction_labels": {
+    "city_junction_004": "SECOND BEACH",
+    "city_junction_006": "CEPERLEY",
+    "city_junction_015": "LOST LAGOON",
+    "city_junction_036": "NORTH COAST"
+  },
+  "sources": [
+    {"id": "city-map-2026", "path": "manifests/routes-map-observations.json", "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf", "date": "2026-05-19", "use": "Direction, path modes, 15 km/h guidance and three walk-bike areas; not measured sign locations", "incorporation": "reference_only; no map art copied"},
+    {"id": "city-maze-gates-2025", "path": "data/raw/corridor/maze-gates-2025.pdf", "url": "https://parkboardmeetings.vancouver.ca/2025/20250310/REPORT-EnhancedAccessibilityonSeawallCyclingPath-ReportBack-20250310.pdf", "date": "2025-03-10", "use": "Existing dismount area context; proposals do not prove completed work", "incorporation": "reference_only; no report images copied"},
+    {"id": "city-bikeways", "path": "manifests/routes-sources.json", "use": "Main-route source endpoints and entrance connection geometry", "incorporation": "City Open Government Licence Vancouver"},
+    {"id": "osm-pedestrian-graph", "path": "manifests/pedestrian-source.json", "use": "Beaver Lake and Ravine trail topology and bicycle=no tags; checked against City map mode restriction", "incorporation": "ODbL-1.0; retain derived database and attribution"}
+  ]
+}

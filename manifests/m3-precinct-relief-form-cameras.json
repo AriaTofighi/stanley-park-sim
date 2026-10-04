@@ -1,0 +1,132 @@
+{
+  "views": [
+    {
+      "id": "M3Relief_Yelton_front_form_only",
+      "feature_id": "SP_yelton_pole",
+      "kind": "form-only",
+      "name": "Yelton",
+      "source_manifest": "exports/m3-precinct-relief/b88c2c0e34c8/manifest.json",
+      "source_manifest_sha256": "6a3430fb00dd32bda31666b90e778a8709ff3ef448f7ff8e9e2ae15d4c055c4b",
+      "source_asset_names": [
+        "SM_M3Relief_Yelton_b88c2c0e34c8"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -40425.498886608184,
+          "y": 158699.93040828762,
+          "z": 946.5241292715073
+        },
+        "rotation": {
+          "pitch": -0.35809395932356985,
+          "yaw": -4.298723200484844,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        1586.9993040828763,
+        -404.2549888660819,
+        9.465241292715072
+      ],
+      "target_local_m": [
+        1585.8,
+        -388.3,
+        9.365241292715073
+      ],
+      "view_scope": "New sculpture form review only. Off-route view gives no route visibility proof. Inspect actual frames for tree occlusion.",
+      "inspected": false,
+      "accepted": false
+    },
+    {
+      "id": "M3Relief_SouthPortal_front_form_only",
+      "feature_id": "SP_people_amongst",
+      "kind": "form-only",
+      "name": "SouthPortal",
+      "source_manifest": "exports/m3-precinct-relief/b88c2c0e34c8/manifest.json",
+      "source_manifest_sha256": "6a3430fb00dd32bda31666b90e778a8709ff3ef448f7ff8e9e2ae15d4c055c4b",
+      "source_asset_names": [
+        "SM_M3Relief_SouthPortal_b88c2c0e34c8"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -44379.81452054684,
+          "y": 158325.79867717912,
+          "z": 591.6337585449219
+        },
+        "rotation": {
+          "pitch": -0.5729386976834827,
+          "yaw": 3.4374036857429244,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        1583.2579867717911,
+        -443.79814520546836,
+        5.916337585449218
+      ],
+      "target_local_m": [
+        1583.8575670646899,
+        -433.8161362156724,
+        5.816337585449219
+      ],
+      "view_scope": "New sculpture form review only. Off-route view gives no route visibility proof. Inspect actual frames for tree occlusion.",
+      "inspected": false,
+      "accepted": false
+    },
+    {
+      "id": "M3Relief_NorthPortal_front_form_only",
+      "feature_id": "SP_people_amongst",
+      "kind": "form-only",
+      "name": "NorthPortal",
+      "source_manifest": "exports/m3-precinct-relief/b88c2c0e34c8/manifest.json",
+      "source_manifest_sha256": "6a3430fb00dd32bda31666b90e778a8709ff3ef448f7ff8e9e2ae15d4c055c4b",
+      "source_asset_names": [
+        "SM_M3Relief_NorthPortal_b88c2c0e34c8"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -33480.0,
+          "y": 159966.02539999998,
+          "z": 689.2003631591797
+        },
+        "rotation": {
+          "pitch": -0.5729386995611246,
+          "yaw": -120.00000010841647,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        1599.660254,
+        -334.8,
+        6.8920036315917965
+      ],
+      "target_local_m": [
+        1591.0,
+        -339.8,
+        6.792003631591797
+      ],
+      "view_scope": "New sculpture form review only. Off-route view gives no route visibility proof. Inspect actual frames for tree occlusion.",
+      "inspected": false,
+      "accepted": false
+    }
+  ],
+  "input_hashes": {
+    "exports/m3-precinct-relief/b88c2c0e34c8/manifest.json": "6a3430fb00dd32bda31666b90e778a8709ff3ef448f7ff8e9e2ae15d4c055c4b",
+    "exports/m3-precinct-relief/latest.json": "f57540b3e0aa15ae45d95f87b18df7e138b54afc269501078c205f2e5324f408",
+    "manifests/totem-precinct-forms.json": "6221c1403f663c0d099b9ff2ce081c2c444827709c95327ca27d4945396547cb"
+  }
+}

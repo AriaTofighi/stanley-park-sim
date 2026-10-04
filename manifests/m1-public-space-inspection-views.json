@@ -1,0 +1,229 @@
+{
+  "coordinates": "Local east/north/up metres; proposed fixed review cameras, not completed inspections",
+  "views": {
+    "ground_golf_greens": {
+      "eye": [
+        -308,
+        -1095,
+        39
+      ],
+      "target": [
+        -213,
+        -1015,
+        13
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_community_garden": {
+      "eye": [
+        359,
+        -1019,
+        20
+      ],
+      "target": [
+        325,
+        -990,
+        5
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_railway_tracks": {
+      "eye": [
+        707,
+        -120,
+        45
+      ],
+      "target": [
+        684,
+        -82,
+        26
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_biofilter": {
+      "eye": [
+        405,
+        -633,
+        19
+      ],
+      "target": [
+        348,
+        -575,
+        1
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_rose_gardens": {
+      "eye": [
+        539,
+        -477,
+        46
+      ],
+      "target": [
+        530,
+        -388,
+        28
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "ground_greig_garden": {
+      "eye": [
+        -310,
+        -1120,
+        30
+      ],
+      "target": [
+        -209,
+        -1015,
+        11
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_heron_habitat": {
+      "eye": [
+        -128,
+        -1276,
+        20
+      ],
+      "target": [
+        -182,
+        -1211,
+        18
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_devonian_pond": {
+      "eye": [
+        669,
+        -1010,
+        25
+      ],
+      "target": [
+        558,
+        -885,
+        3
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_hallelujah": {
+      "eye": [
+        1780,
+        -511,
+        12
+      ],
+      "target": [
+        1700,
+        -475,
+        9
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_port_view": {
+      "eye": [
+        1924,
+        -284,
+        12
+      ],
+      "target": [
+        1934,
+        -262,
+        5
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_rock_garden": {
+      "eye": [
+        726,
+        -397,
+        43
+      ],
+      "target": [
+        680,
+        -362,
+        30
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_painters_circle": {
+      "eye": [
+        850,
+        -490,
+        14
+      ],
+      "target": [
+        830,
+        -465,
+        8
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_portrait_painters": {
+      "eye": [
+        914,
+        -365,
+        28
+      ],
+      "target": [
+        880,
+        -339,
+        14
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_salmon_lower_pool": {
+      "eye": [
+        889,
+        -482,
+        16
+      ],
+      "target": [
+        861,
+        -455,
+        4
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_waterpark_low_forms": {
+      "eye": [
+        989,
+        15,
+        15
+      ],
+      "target": [
+        951,
+        59,
+        4
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    },
+    "site_pitch_putt_clubhouse": {
+      "eye": [
+        -285,
+        -1080,
+        22
+      ],
+      "target": [
+        -258,
+        -1057,
+        13
+      ],
+      "purpose": "Source-form layout/placement review; supplements rider-height traversal",
+      "accepted": false
+    }
+  }
+}

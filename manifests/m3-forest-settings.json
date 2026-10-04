@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "working_blend": "blender/StanleyPark_Seawall.blend",
+  "map_path": "/Game/Maps/StanleyParkSeawall",
+  "asset_root": "/Game/StanleyPark/Seawall/M3Forest",
+  "baseline_manifest": "exports/seawall-trees/0551a03260b4/manifest.json",
+  "baseline_manifest_sha256": "00ac5d12006b37cc618d550a986491fb1b0ad59f3e9abb34da67706729ad7b9f",
+  "full_detail_distance_m": 45.0,
+  "transition_outer_distance_m": 60.0,
+  "pilot_boundary_blend_m": 400.0,
+  "section_length_m": 250.0,
+  "selection": "Retain every accepted M2 instance. Promote only source crowns with safe stems and branches. Smooth source-sample selection from 45 to 60 metres; smooth pilot boundary over 400 metres. All unselected crowns retain grounded M2-style distant support.",
+  "density_reduction": false,
+  "shared_library": "Six accepted M2 textured forms and four authored LODs. Deterministic individual yaw. No new whole-park near-detail layer.",
+  "source_limits": "2022 measured crown centres and heights; inferred stems and species forms. This is not a current forest survey."
+}

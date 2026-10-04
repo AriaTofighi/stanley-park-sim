@@ -1,0 +1,569 @@
+{
+  "purpose": "Fixed cross-source review roster, not survey control certification",
+  "original_gate_unchanged": false,
+  "accepted_independent_control_count": 0,
+  "absolute_accuracy_accepted": false,
+  "coordinate_reference": "Local metres; EPSG:3157 origin E489600 N5461100; project CGVD2013 heights",
+  "route_length_m": 9463.6810256985,
+  "inputs": [
+    {
+      "path": "data/derived/paved-circuit-runtime.json",
+      "sha256": "6c0edcc889c3411b59b8ebf628fd98c0e284c009ce2bfacc0869143f3d91ec53"
+    },
+    {
+      "path": "evidence/corridor/independent-height-comparison.csv",
+      "sha256": "6cdee99dcc2ebd94721cf465f85af2cece09353864c04d6e5539279281d767c0"
+    }
+  ],
+  "horizontal_selection": "20 equal-chainage anchors, hard feature within 50 m; anchors are not controls",
+  "vertical_selection": "First pre-existing flat-rule sample in each route tenth, selected without residual filtering",
+  "rules": [
+    "Retain failures and unmeasurable areas",
+    "Do not adjust geometry to the check controls",
+    "Do not convert same-source export checks into independent survey acceptance",
+    "Revalidate hashes before using this roster after a route edit"
+  ],
+  "horizontal_reviews": [
+    {
+      "id": "XY_REVIEW_01",
+      "runtime_chainage_m": 0.0,
+      "search_anchor_local_m": [
+        518.3098777763814,
+        -817.3847292099566,
+        3.0898004516797095
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_junction",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_01",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_02",
+      "runtime_chainage_m": 473.18405128492503,
+      "search_anchor_local_m": [
+        846.8396415825249,
+        -568.4741956143067,
+        3.053786746109083
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_occluded_bicycle_lane",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_02",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_03",
+      "runtime_chainage_m": 946.3681025698501,
+      "search_anchor_local_m": [
+        1163.0864310198654,
+        -643.3145349177641,
+        3.10918207804327
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_occluded_bicycle_lane",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_03",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_04",
+      "runtime_chainage_m": 1419.552153854775,
+      "search_anchor_local_m": [
+        1556.6268455983986,
+        -468.9401726461035,
+        2.748608784594514
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_visible_separate_lanes",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_04",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_05",
+      "runtime_chainage_m": 1892.7362051397001,
+      "search_anchor_local_m": [
+        1901.0960266947816,
+        -317.73141675892276,
+        7.790774771311182
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_inner_roadway_candidate",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_05",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_06",
+      "runtime_chainage_m": 2365.920256424625,
+      "search_anchor_local_m": [
+        1609.006442696488,
+        -322.2124752451047,
+        4.304788481059002
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_visible_separate_lanes",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_06",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_07",
+      "runtime_chainage_m": 2839.10430770955,
+      "search_anchor_local_m": [
+        1236.027591610289,
+        -47.83377682401906,
+        4.480457545142342
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_partial_inner_lane",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_07",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_08",
+      "runtime_chainage_m": 3312.288358994475,
+      "search_anchor_local_m": [
+        853.7231581674462,
+        149.87973392754256,
+        3.294108114972615
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_occluded_bicycle_lane",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_08",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_09",
+      "runtime_chainage_m": 3785.4724102794003,
+      "search_anchor_local_m": [
+        548.8758933584454,
+        486.20751514272354,
+        2.782036614652695
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_visible_lane_bands",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_09",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_10",
+      "runtime_chainage_m": 4258.656461564326,
+      "search_anchor_local_m": [
+        390.265484042635,
+        916.5637277026876,
+        3.02660432310584
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_wide_junction_band",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_10",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_11",
+      "runtime_chainage_m": 4731.84051284925,
+      "search_anchor_local_m": [
+        122.98624549573191,
+        1276.7567590010663,
+        3.0026846844051853
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_combined_paved_space",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_11",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_12",
+      "runtime_chainage_m": 5205.024564134175,
+      "search_anchor_local_m": [
+        -323.40434288538813,
+        1158.9647422318515,
+        3.132433473722621
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_visible_lane_bands",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_12",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_13",
+      "runtime_chainage_m": 5678.2086154191,
+      "search_anchor_local_m": [
+        -682.59018127876,
+        916.1248658118818,
+        3.022293051125054
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_partial_combined_pavement",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_13",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_14",
+      "runtime_chainage_m": 6151.392666704026,
+      "search_anchor_local_m": [
+        -938.6017142319456,
+        611.6983102093944,
+        3.2367993250329103
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_visible_lane_bands",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_14",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_15",
+      "runtime_chainage_m": 6624.57671798895,
+      "search_anchor_local_m": [
+        -963.5188231188552,
+        156.66131705055062,
+        3.5699928468632063
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_visible_lane_bands",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_15",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_16",
+      "runtime_chainage_m": 7097.760769273877,
+      "search_anchor_local_m": [
+        -1109.316179145448,
+        -218.81609814128095,
+        3.0977783318640073
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_visible_lane_bands",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_16",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_17",
+      "runtime_chainage_m": 7570.9448205588005,
+      "search_anchor_local_m": [
+        -923.2648282035734,
+        -552.5141258041701,
+        3.1007066397032226
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_occluded_bicycle_lane",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_17",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_18",
+      "runtime_chainage_m": 8044.128871843725,
+      "search_anchor_local_m": [
+        -591.7507268586903,
+        -759.848658438287,
+        3.6394739280525212
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_junction",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_18",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_19",
+      "runtime_chainage_m": 8517.312923128651,
+      "search_anchor_local_m": [
+        -271.5333554065697,
+        -812.061433945567,
+        1.721544120212145
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_visible_separate_lanes",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_19",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    },
+    {
+      "id": "XY_REVIEW_20",
+      "runtime_chainage_m": 8990.496974413576,
+      "search_anchor_local_m": [
+        115.7135828127988,
+        -985.2104287081256,
+        2.795768029340972
+      ],
+      "search_radius_m": 50,
+      "anchor_is_control": false,
+      "reference_feature": null,
+      "reference_xy_m": null,
+      "model_xy_m": null,
+      "residual_m": null,
+      "status": "source_area_review_complete_visible_separate_lanes",
+      "accepted_independent_control": false,
+      "reference_review": "evidence/m1-source-review/review-results.json#XY_REVIEW_20",
+      "source_pick_file": "manifests/m1-source-feature-picks.json"
+    }
+  ],
+  "vertical_reviews": [
+    {
+      "id": "Z_REVIEW_01",
+      "runtime_chainage_m": 0.0,
+      "search_anchor_local_m": [
+        518.3098777763814,
+        -817.3847292099566
+      ],
+      "authored_height_m": 3.0898004516797095,
+      "reference_2016_height_m": 3.0143862337890557,
+      "difference_m": 0.07541421789065383,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    },
+    {
+      "id": "Z_REVIEW_02",
+      "runtime_chainage_m": 960.0,
+      "search_anchor_local_m": [
+        1168.9236194372652,
+        -630.9974820845125
+      ],
+      "authored_height_m": 3.0796185719244904,
+      "reference_2016_height_m": 3.0367808747976306,
+      "difference_m": 0.04283769712685981,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    },
+    {
+      "id": "Z_REVIEW_03",
+      "runtime_chainage_m": 1900.0,
+      "search_anchor_local_m": [
+        1902.91863427048,
+        -310.70508121256546
+      ],
+      "authored_height_m": 7.870009980759499,
+      "reference_2016_height_m": 7.812778755873241,
+      "difference_m": 0.05723122488625787,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    },
+    {
+      "id": "Z_REVIEW_04",
+      "runtime_chainage_m": 2840.0,
+      "search_anchor_local_m": [
+        1235.5011287701125,
+        -47.10914763818324
+      ],
+      "authored_height_m": 4.48208888869141,
+      "reference_2016_height_m": 4.423336305411373,
+      "difference_m": 0.05875258328003774,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    },
+    {
+      "id": "Z_REVIEW_05",
+      "runtime_chainage_m": 3790.0,
+      "search_anchor_local_m": [
+        545.6309737944895,
+        489.3425963537344
+      ],
+      "authored_height_m": 2.603252554236176,
+      "reference_2016_height_m": 2.5617189625277685,
+      "difference_m": 0.041533591708407425,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    },
+    {
+      "id": "Z_REVIEW_06",
+      "runtime_chainage_m": 5000.0,
+      "search_anchor_local_m": [
+        -132.9546089808344,
+        1213.496671113593
+      ],
+      "authored_height_m": 3.134318904575356,
+      "reference_2016_height_m": 3.0956030933643692,
+      "difference_m": 0.03871581121098666,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    },
+    {
+      "id": "Z_REVIEW_07",
+      "runtime_chainage_m": 6100.0,
+      "search_anchor_local_m": [
+        -943.4851709691234,
+        660.2372165467216
+      ],
+      "authored_height_m": 3.177046065666284,
+      "reference_2016_height_m": 3.1556547370510004,
+      "difference_m": 0.021391328615283367,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    },
+    {
+      "id": "Z_REVIEW_08",
+      "runtime_chainage_m": 6650.0,
+      "search_anchor_local_m": [
+        -963.2659307596371,
+        131.24414578238384
+      ],
+      "authored_height_m": 3.6327975651024262,
+      "reference_2016_height_m": 3.614498333041343,
+      "difference_m": 0.01829923206108308,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    },
+    {
+      "id": "Z_REVIEW_09",
+      "runtime_chainage_m": 7580.0,
+      "search_anchor_local_m": [
+        -914.5380516676393,
+        -550.2677451508491
+      ],
+      "authored_height_m": 3.041404774235972,
+      "reference_2016_height_m": 2.9501839675047252,
+      "difference_m": 0.091220806731247,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    },
+    {
+      "id": "Z_REVIEW_10",
+      "runtime_chainage_m": 8520.0,
+      "search_anchor_local_m": [
+        -269.31107519102426,
+        -810.5511069704347
+      ],
+      "authored_height_m": 1.6942940552507122,
+      "reference_2016_height_m": 1.6377468808391378,
+      "difference_m": 0.05654717441157442,
+      "comparison_within_015m": true,
+      "status": "same_surface_and_reference_accuracy_review_pending",
+      "accepted_independent_control": false
+    }
+  ],
+  "protocol": "docs/M1-GEOGRAPHIC-VALIDATION-PROTOCOL.md",
+  "m1_acceptance_decision": {
+    "date": "2026-09-27",
+    "user_choice": "Complete M1 with recorded accuracy limits",
+    "authority": "docs/M1-MEASUREMENT-EXCEPTIONS.md; development plan section 13.7",
+    "absolute_accuracy_accepted": false,
+    "independent_certification_required_for_m1": false
+  },
+  "completed_source_review": {
+    "path": "evidence/m1-source-review/review-results.json",
+    "sha256": "ee51b7cc1621d45581d66ea819dd687abbc670645aa6e92259b47fa549f7f22a",
+    "xy_areas": 20,
+    "height_areas": 10,
+    "independent_controls_accepted": 0,
+    "route_corrections_pending": [],
+    "fixed_repeat_pass": true,
+    "original_failure_snapshot": "evidence/m1-source-review/pre-v14/snapshot.json",
+    "application_inspection": "separate root acceptance work"
+  }
+}

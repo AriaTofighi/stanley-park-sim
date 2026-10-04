@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "source_period": "2024 existing-condition photos, published February2025; 2022 ortho and 2026-09-27 OSM tag snapshot",
+  "current_condition_certified": false,
+  "post_height_m": 1.05,
+  "post_width_m": 0.075,
+  "rail_width_m": 0.065,
+  "rail_heights_m": [0.46, 1.01],
+  "estimated_double_gate_row_separation_m": 3.0,
+  "estimated_clear_gap_m": 1.10,
+  "minimum_clear_gap_on_narrow_strip_m": 1.05,
+  "player_capsule_radius_m": 0.32,
+  "dimensions_basis": "Explicit M1 estimates from the existing steel-frame forms in City2025 report photos. No measurement certificate. Gap dimensions preserve an accessible path for the present 0.64m-wide walking contact; unusual bicycles are not claimed to fit. No future planter design is used.",
+  "sites": [
+    {"id":"Lumberman","kind":"double","source_station_m":3181.930587821385,"source_node":"245809598","reference_ortho":"lumberman-walk","report_page":21,"note":"Two offset frame rows at the entry to the waterpark shared area. Canopy obscures exact metal endpoints; use dated photograph form and approximate OSM position."},
+    {"id":"Prospect","kind":"divider","source_station_m":4703.897386898741,"source_node":"317166387","source_way":"1227211750","reference_ortho":"prospect-walk","report_page":22,"note":"Long divider plus a short inner-side return, not a fabricated two-row maze. Original OSM divider endpoints retained; end return length is an estimate."},
+    {"id":"ThirdBeach","kind":"double","source_station_m":6682.854216973701,"source_node":"9044369084","conflicting_node":"8047538220","reference_ortho":"third-beach-gate-detail","report_page":23,"note":"Use the north gate visible in City2022 imagery and the City2024 existing-condition diagram. Conflicting OSM8047538220 is about19m south; do not add a duplicate second maze."}
+  ]
+}

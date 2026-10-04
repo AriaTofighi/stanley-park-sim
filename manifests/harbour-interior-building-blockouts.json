@@ -1,0 +1,1188 @@
+{
+  "schema_version": 1,
+  "revision": "harbour-interior-m1-r1",
+  "assets": [
+    {
+      "name": "SM_DeadmanAdminDrill_RoofSurvey",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanAdminDrill_RoofSurvey.npz",
+      "sha256": "007ec233fa30d4739964632108a63f8465ea467ec92eab69306ec077f83d176a",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 342,
+      "triangles": 321,
+      "bounds_min_m": [
+        1451.7430419921875,
+        -787.5029907226562,
+        6.8600701212862765
+      ],
+      "bounds_max_m": [
+        1518.1744995117188,
+        -723.1530151367188,
+        15.888544206279482
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanAdminDrill_RoofStepClosures",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanAdminDrill_RoofStepClosures.npz",
+      "sha256": "33fbcf3d9c3de6da0276b2df0ec1506c72293ddb040031232cb407b964289dcf",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 888,
+      "triangles": 296,
+      "bounds_min_m": [
+        1458.52294921875,
+        -780.5830078125,
+        6.862576397873485
+      ],
+      "bounds_max_m": [
+        1518.1744995117188,
+        -723.5540161132812,
+        15.888544206279482
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanAdminDrill_WallsReview",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanAdminDrill_WallsReview.npz",
+      "sha256": "1c5dcee38dabe0fe5a47974d3274d0b9df9669a4db193fb7847042de805e8001",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 188,
+      "triangles": 94,
+      "bounds_min_m": [
+        1451.743042,
+        -787.502991,
+        2.9615374316453678
+      ],
+      "bounds_max_m": [
+        1518.1745,
+        -723.153015,
+        15.860375306906048
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanSouthHall_RoofSurvey",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanSouthHall_RoofSurvey.npz",
+      "sha256": "16275db399248ebafc5bc88bbfe0ce70329039e962e96f8283de13b41dc20b61",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 218,
+      "triangles": 192,
+      "bounds_min_m": [
+        1429.5155029296875,
+        -870.6580200195312,
+        7.11275832436635
+      ],
+      "bounds_max_m": [
+        1470.926025390625,
+        -825.2849731445312,
+        14.100860010517213
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanSouthHall_RoofStepClosures",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanSouthHall_RoofStepClosures.npz",
+      "sha256": "7ce12a83344115a9eb1e6eb6796b0e1717743ae1bda78a761df935eba3d17dfb",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 546,
+      "triangles": 182,
+      "bounds_min_m": [
+        1430.1619873046875,
+        -864.9439697265625,
+        7.11275832436635
+      ],
+      "bounds_max_m": [
+        1469.552001953125,
+        -829.4345092773438,
+        14.100860010517213
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanSouthHall_WallsReview",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanSouthHall_WallsReview.npz",
+      "sha256": "51f9f8582855fae4da6bbedf185ea62e290c1dd3559d3a07c59dcc8112d0c25d",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 144,
+      "triangles": 72,
+      "bounds_min_m": [
+        1429.515503,
+        -870.65802,
+        2.977802041756467
+      ],
+      "bounds_max_m": [
+        1470.926025,
+        -825.284973,
+        13.877252365776558
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanSouthwestHall_RoofSurvey",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanSouthwestHall_RoofSurvey.npz",
+      "sha256": "e0b1fe5803ebbd12630f8aaea2db2de59470d856fb574b76cdb56343dbab4ec3",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 35,
+      "triangles": 31,
+      "bounds_min_m": [
+        1411.073974609375,
+        -880.2449951171875,
+        6.849608041582269
+      ],
+      "bounds_max_m": [
+        1437.8489990234375,
+        -860.6480102539062,
+        9.416181659640536
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanSouthwestHall_RoofStepClosures",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanSouthwestHall_RoofStepClosures.npz",
+      "sha256": "800e42b168ab05ea8c0c59205f113fd0a94fa258a6ece0a25e0a06fd2ebebdaf",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 72,
+      "triangles": 24,
+      "bounds_min_m": [
+        1412.7974853515625,
+        -875.1405029296875,
+        8.392712694613424
+      ],
+      "bounds_max_m": [
+        1437.0379638671875,
+        -868.7249755859375,
+        9.416181659640536
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanSouthwestHall_WallsReview",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanSouthwestHall_WallsReview.npz",
+      "sha256": "0014a8a9e47566086d90c2afb5182200284b6160c11e2162856473c34c76fa93",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 44,
+      "triangles": 22,
+      "bounds_min_m": [
+        1411.073975,
+        -880.244995,
+        3.181462685836071
+      ],
+      "bounds_max_m": [
+        1437.848999,
+        -860.64801,
+        9.399654539778144
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanGatehouse_RoofSurvey",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanGatehouse_RoofSurvey.npz",
+      "sha256": "99c957ab7d17891d75bf5137e772f52b34916673d0ad9501c2e043f0536b0d28",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 47,
+      "triangles": 38,
+      "bounds_min_m": [
+        1394.87548828125,
+        -852.114013671875,
+        5.321519429430023
+      ],
+      "bounds_max_m": [
+        1416.218017578125,
+        -833.1290283203125,
+        13.143019940380674
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanGatehouse_RoofStepClosures",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanGatehouse_RoofStepClosures.npz",
+      "sha256": "cd8875615d0b5e2713d0cb7d7b80d2a29c97a0e42d93246677ed9272536edad5",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 54,
+      "triangles": 18,
+      "bounds_min_m": [
+        1406.541015625,
+        -843.3450012207031,
+        5.321519429430023
+      ],
+      "bounds_max_m": [
+        1414.218994140625,
+        -835.2630004882812,
+        13.143019940380674
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanGatehouse_WallsReview",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanGatehouse_WallsReview.npz",
+      "sha256": "71b16fe4c4d85ae3a61a1fe5846d5c8712f35c43fa8ced667dc635ee2fa0d8e9",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 120,
+      "triangles": 60,
+      "bounds_min_m": [
+        1394.875488,
+        -852.114014,
+        3.117715041683675
+      ],
+      "bounds_max_m": [
+        1416.218018,
+        -833.129028,
+        13.002284516513733
+      ],
+      "expected_coincident_facade_edges": 1,
+      "contact_topology_limit": "One four-panel vertical junction at East 1410.508057, North -848.661987 is shared by independent roof-edge facade sheets. This public-view facade has no collision and is not a watertight building.",
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanWestStore_RoofSurvey",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanWestStore_RoofSurvey.npz",
+      "sha256": "fdf22e158d0793338e0688bda4880c0ebc5dd428fb57e5f4136febce53430fbd",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 22,
+      "triangles": 16,
+      "bounds_min_m": [
+        1407.1090087890625,
+        -818.7650146484375,
+        5.76383603211795
+      ],
+      "bounds_max_m": [
+        1435.68798828125,
+        -801.27001953125,
+        8.878407804517224
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanWestStore_RoofStepClosures",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanWestStore_RoofStepClosures.npz",
+      "sha256": "c021108000baf3b449aade5634fa43afc689390067d47e75880e313227b84b1d",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 24,
+      "triangles": 8,
+      "bounds_min_m": [
+        1418.9449462890625,
+        -807.4340209960938,
+        8.174718789607336
+      ],
+      "bounds_max_m": [
+        1435.0430297851562,
+        -805.4865112304688,
+        8.878407804517224
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_DeadmanWestStore_WallsReview",
+      "feature_id": "SP_deadman",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_DeadmanWestStore_WallsReview.npz",
+      "sha256": "27311bf1c3376b6bfdbf6afafc8625cb63d4af97096234c9e81811b56383874e",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 56,
+      "triangles": 28,
+      "bounds_min_m": [
+        1407.109009,
+        -818.765015,
+        3.338861236212916
+      ],
+      "bounds_max_m": [
+        1435.687988,
+        -801.27002,
+        8.729421828824377
+      ],
+      "collision_reason": "Private island silhouette only; City 2026 map excludes public access. No roof/facade navigation is created."
+    },
+    {
+      "name": "SM_RailwayCafe_RoofSurvey",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_RailwayCafe_RoofSurvey.npz",
+      "sha256": "407e5404c8dfcf0310ccd8d0a0ee8cc67117c532219c36cfe6ebaa6449e2a3b5",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 172,
+      "triangles": 154,
+      "bounds_min_m": [
+        666.3309936523438,
+        -170.36900329589844,
+        21.634558919732026
+      ],
+      "bounds_max_m": [
+        719.2260131835938,
+        -134.98899841308594,
+        29.610295482161618
+      ],
+      "collision_reason": "Upper roof detail or a facade across a mapped public path; do not infer a solid obstacle at an unresolved eave/opening."
+    },
+    {
+      "name": "SM_RailwayCafe_RoofStepClosures",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_RailwayCafe_RoofStepClosures.npz",
+      "sha256": "4815bb26de50cd9623a2e83f3cb48578519e1492bfe57285c6988012aefdc21d",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 396,
+      "triangles": 132,
+      "bounds_min_m": [
+        676.8699951171875,
+        -170.36900329589844,
+        22.629358407008887
+      ],
+      "bounds_max_m": [
+        713.302001953125,
+        -136.52499389648438,
+        29.610295482161618
+      ],
+      "collision_reason": "Upper roof detail or a facade across a mapped public path; do not infer a solid obstacle at an unresolved eave/opening."
+    },
+    {
+      "name": "SM_RailwayCafe_WallsReview",
+      "feature_id": "SP_train",
+      "mesh_path": "data/derived/harbour-interior-buildings/SM_RailwayCafe_WallsReview.npz",
+      "sha256": "5bf9aba59a6438aafb78142db37850533b65c51d74e415068a84b7ad7cf4c50b",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "complex",
+      "vertices": 160,
+      "triangles": 80,
+      "bounds_min_m": [
+        666.330994,
+        -170.369003,
+        20.374191224101814
+      ],
+      "bounds_max_m": [
+        719.226013,
+        -134.988998,
+        28.97342888549823
+      ],
+      "collision_reason": "Source roof-edge facade clear of mapped pedestrian paths; per-triangle contact without inferred boxes."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_deadman",
+      "name": "Deadman Island / HMCS Discovery public-view massing",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://www.pc.gc.ca/apps/dfhd/page_fhbro_eng.aspx?id=8202",
+        "https://www.canada.ca/en/navy/services/history/ships-histories/discovery.html",
+        "evidence/corridor/ortho-utm/named-deadman-buildings.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          1438.3542610691748,
+          -823.7830492333658
+        ],
+        "individually_identified_forms": [
+          {
+            "name": "HMCS Discovery administration building and drill hall",
+            "source_roof_ids": [
+              "lidar2022_491000_5460000_9"
+            ],
+            "source_returns": 9117,
+            "centre_local_m": [
+              1485.1940725737438,
+              -750.6795807133474
+            ],
+            "roof_bounds_local_m": [
+              [
+                1451.7430419921875,
+                -787.5029907226562,
+                6.8600701212862765
+              ],
+              [
+                1518.1744995117188,
+                -723.1530151367188,
+                15.888544206279482
+              ]
+            ],
+            "roof_plane_review": {
+              "seed": 731,
+              "planes": [
+                {
+                  "coefficients_local": [
+                    0.007609207274310027,
+                    -0.04179567010205348,
+                    11.97422938152925
+                  ],
+                  "support_vertices": 1858,
+                  "median_abs_residual_m": 0.028071606539622707
+                },
+                {
+                  "coefficients_local": [
+                    -0.008784505307053374,
+                    0.04582964316668079,
+                    12.300864932731288
+                  ],
+                  "support_vertices": 1123,
+                  "median_abs_residual_m": 0.008614168695160629
+                },
+                {
+                  "coefficients_local": [
+                    -0.010276216768240105,
+                    0.05460404059395435,
+                    9.43304826065833
+                  ],
+                  "support_vertices": 995,
+                  "median_abs_residual_m": 0.027399713825694505
+                },
+                {
+                  "coefficients_local": [
+                    0.00017453103321716246,
+                    0.001532205825563716,
+                    6.878514479782675
+                  ],
+                  "support_vertices": 342,
+                  "median_abs_residual_m": 0.0295040573216383
+                },
+                {
+                  "coefficients_local": [
+                    0.0038894128161441376,
+                    -0.0002343622737578084,
+                    15.885066896894656
+                  ],
+                  "support_vertices": 178,
+                  "median_abs_residual_m": 0.028875721353335493
+                },
+                {
+                  "coefficients_local": [
+                    0.0005445491936266343,
+                    -0.003325205356525429,
+                    11.695375479476814
+                  ],
+                  "support_vertices": 124,
+                  "median_abs_residual_m": 0.07074380231533794
+                },
+                {
+                  "coefficients_local": [
+                    -0.0002968874309053006,
+                    -0.001751310396421973,
+                    14.933604207097858
+                  ],
+                  "support_vertices": 100,
+                  "median_abs_residual_m": 0.024707212297221837
+                },
+                {
+                  "coefficients_local": [
+                    0.006447680165786368,
+                    -0.03896486846445123,
+                    11.752651620547415
+                  ],
+                  "support_vertices": 55,
+                  "median_abs_residual_m": 0.008874452858000481
+                }
+              ],
+              "coordinate_origin_xy_m": [
+                1486.8777213476278,
+                -757.850414384796
+              ],
+              "direct_plane_support": 4775,
+              "vertices": 5476,
+              "unsupported_vertices_snapped_to_nearby_plane": 701,
+              "displacement_p95_m": 1.4892964798006605,
+              "displacement_max_m": 11.767972398087014,
+              "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+              "boundary_simplification_m": 0.85,
+              "spatial_label_vote": "13 neighbours, two passes; no height blending",
+              "planes_retained": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "discarded_tiny_patch_area_m2": 0.7485328771654804,
+              "patch_regions": 17,
+              "roof_triangles": 321
+            },
+            "identity_note": "Northern prominent administration block with stepped wings and large attached rear drill hall; primary heritage description matches the measured roof composition. Exact facades remain unfinished."
+          },
+          {
+            "name": "HMCS Discovery southern pitched building",
+            "source_roof_ids": [
+              "lidar2022_491000_5460000_3"
+            ],
+            "source_returns": 3828,
+            "centre_local_m": [
+              1450.2994421162737,
+              -846.3722401190241
+            ],
+            "roof_bounds_local_m": [
+              [
+                1429.5155029296875,
+                -870.6580200195312,
+                7.11275832436635
+              ],
+              [
+                1470.926025390625,
+                -825.2849731445312,
+                14.100860010517213
+              ]
+            ],
+            "roof_plane_review": {
+              "seed": 731,
+              "planes": [
+                {
+                  "coefficients_local": [
+                    -0.3302729677677477,
+                    -0.06282877800870891,
+                    15.410837445179904
+                  ],
+                  "support_vertices": 305,
+                  "median_abs_residual_m": 0.012497309296747972
+                },
+                {
+                  "coefficients_local": [
+                    -0.05991903456721638,
+                    0.3221955332682601,
+                    19.205583165676867
+                  ],
+                  "support_vertices": 293,
+                  "median_abs_residual_m": 0.011635389974472332
+                },
+                {
+                  "coefficients_local": [
+                    0.05948246439491001,
+                    -0.32233406189336344,
+                    17.822432882704295
+                  ],
+                  "support_vertices": 287,
+                  "median_abs_residual_m": 0.010272678878482822
+                },
+                {
+                  "coefficients_local": [
+                    0.31800888546312045,
+                    0.060243506816138,
+                    11.968033961492102
+                  ],
+                  "support_vertices": 278,
+                  "median_abs_residual_m": 0.013192090407108559
+                },
+                {
+                  "coefficients_local": [
+                    0.06203624117428333,
+                    -0.3273503798869101,
+                    8.01326861606973
+                  ],
+                  "support_vertices": 170,
+                  "median_abs_residual_m": 0.005919700644366976
+                },
+                {
+                  "coefficients_local": [
+                    -0.061199644501832844,
+                    0.32580096229596683,
+                    9.438053986256039
+                  ],
+                  "support_vertices": 181,
+                  "median_abs_residual_m": 0.006934319372687625
+                },
+                {
+                  "coefficients_local": [
+                    -0.01725115067960668,
+                    -0.01520906012974979,
+                    7.16304854551993
+                  ],
+                  "support_vertices": 162,
+                  "median_abs_residual_m": 0.07115827861504176
+                },
+                {
+                  "coefficients_local": [
+                    -0.060533549808927965,
+                    0.3243156378406491,
+                    6.153029421279381
+                  ],
+                  "support_vertices": 92,
+                  "median_abs_residual_m": 0.0126225646435838
+                },
+                {
+                  "coefficients_local": [
+                    0.06306329069490194,
+                    -0.32378672791476115,
+                    14.590785132993789
+                  ],
+                  "support_vertices": 99,
+                  "median_abs_residual_m": 0.009297207275546171
+                },
+                {
+                  "coefficients_local": [
+                    0.030987329971759205,
+                    0.00859519524782305,
+                    7.690418894930871
+                  ],
+                  "support_vertices": 41,
+                  "median_abs_residual_m": 0.011376162635804654
+                },
+                {
+                  "coefficients_local": [
+                    0.31380524731844917,
+                    0.058027092268673364,
+                    14.517625146196506
+                  ],
+                  "support_vertices": 55,
+                  "median_abs_residual_m": 0.008189467389396299
+                }
+              ],
+              "coordinate_origin_xy_m": [
+                1452.007638963943,
+                -846.4511264672026
+              ],
+              "direct_plane_support": 1963,
+              "vertices": 2277,
+              "unsupported_vertices_snapped_to_nearby_plane": 314,
+              "displacement_p95_m": 1.7792949309141217,
+              "displacement_max_m": 8.200494739391655,
+              "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+              "boundary_simplification_m": 0.85,
+              "spatial_label_vote": "13 neighbours, two passes; no height blending",
+              "planes_retained": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "discarded_tiny_patch_area_m2": 3.391372498124838,
+              "patch_regions": 18,
+              "roof_triangles": 192
+            },
+            "identity_note": "Distinct southern angled/hipped roof complex on the island. Site identity and separate measured form are verified; internal use is not assigned."
+          },
+          {
+            "name": "HMCS Discovery southwest service hall",
+            "source_roof_ids": [
+              "lidar2022_491000_5460000_2"
+            ],
+            "source_returns": 1322,
+            "centre_local_m": [
+              1424.7867658342634,
+              -871.6589128766741
+            ],
+            "roof_bounds_local_m": [
+              [
+                1411.073974609375,
+                -880.2449951171875,
+                6.849608041582269
+              ],
+              [
+                1437.8489990234375,
+                -860.6480102539062,
+                9.416181659640536
+              ]
+            ],
+            "roof_plane_review": {
+              "seed": 731,
+              "planes": [
+                {
+                  "coefficients_local": [
+                    0.04702898001569757,
+                    -0.24491608569944606,
+                    8.807610125051927
+                  ],
+                  "support_vertices": 426,
+                  "median_abs_residual_m": 0.006934074094969489
+                },
+                {
+                  "coefficients_local": [
+                    -0.045525269173620764,
+                    0.24545590801196612,
+                    9.004635168900617
+                  ],
+                  "support_vertices": 335,
+                  "median_abs_residual_m": 0.006951525013070281
+                }
+              ],
+              "coordinate_origin_xy_m": [
+                1424.4455102108589,
+                -870.5043656279519
+              ],
+              "direct_plane_support": 761,
+              "vertices": 794,
+              "unsupported_vertices_snapped_to_nearby_plane": 33,
+              "displacement_p95_m": 0.10836949877858283,
+              "displacement_max_m": 4.7173261114044,
+              "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+              "boundary_simplification_m": 0.85,
+              "spatial_label_vote": "13 neighbours, two passes; no height blending",
+              "planes_retained": [
+                0,
+                1
+              ],
+              "discarded_tiny_patch_area_m2": 0.0,
+              "patch_regions": 2,
+              "roof_triangles": 31
+            },
+            "identity_note": "Separate rectangular pitched roof southwest of the larger southern building, north of the helipad. Functional room identity remains unknown."
+          },
+          {
+            "name": "HMCS Discovery causeway gatehouse",
+            "source_roof_ids": [
+              "lidar2022_490000_5460000_17",
+              "lidar2022_491000_5460000_4"
+            ],
+            "source_returns": 710,
+            "centre_local_m": [
+              1409.2021315554355,
+              -841.8881894375415
+            ],
+            "roof_bounds_local_m": [
+              [
+                1394.87548828125,
+                -852.114013671875,
+                5.321519429430023
+              ],
+              [
+                1416.218017578125,
+                -833.1290283203125,
+                13.143019940380674
+              ]
+            ],
+            "roof_plane_review": {
+              "seed": 731,
+              "planes": [
+                {
+                  "coefficients_local": [
+                    -8.749704081809469e-05,
+                    -0.0017648111169174985,
+                    7.696558715023268
+                  ],
+                  "support_vertices": 261,
+                  "median_abs_residual_m": 0.03147023918025038
+                },
+                {
+                  "coefficients_local": [
+                    -0.19427981195655464,
+                    1.0177078459437638,
+                    8.626718656049965
+                  ],
+                  "support_vertices": 34,
+                  "median_abs_residual_m": 0.027824098253972807
+                },
+                {
+                  "coefficients_local": [
+                    0.9995357175523086,
+                    0.1786146787878176,
+                    4.35692568659014
+                  ],
+                  "support_vertices": 32,
+                  "median_abs_residual_m": 0.048538798683118056
+                }
+              ],
+              "coordinate_origin_xy_m": [
+                1406.3404619813748,
+                -841.7886078748975
+              ],
+              "direct_plane_support": 327,
+              "vertices": 457,
+              "unsupported_vertices_snapped_to_nearby_plane": 130,
+              "displacement_p95_m": 3.6319216132669543,
+              "displacement_max_m": 5.724348328817783,
+              "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+              "boundary_simplification_m": 0.85,
+              "spatial_label_vote": "13 neighbours, two passes; no height blending",
+              "planes_retained": [
+                0,
+                1,
+                2
+              ],
+              "discarded_tiny_patch_area_m2": 0.9935332788154483,
+              "patch_regions": 7,
+              "roof_triangles": 38
+            },
+            "identity_note": "Roof group crosses the survey tile line. The small flat and hipped masses stand at the island end of the closed-access causeway; primary heritage source confirms a guardhouse."
+          },
+          {
+            "name": "HMCS Discovery western boat/store shed",
+            "source_roof_ids": [
+              "lidar2022_491000_5460000_6",
+              "lidar2022_491000_5460000_7"
+            ],
+            "source_returns": 495,
+            "centre_local_m": [
+              1422.2888932661576,
+              -808.3163230202415
+            ],
+            "roof_bounds_local_m": [
+              [
+                1407.1090087890625,
+                -818.7650146484375,
+                5.76383603211795
+              ],
+              [
+                1435.68798828125,
+                -801.27001953125,
+                8.878407804517224
+              ]
+            ],
+            "roof_plane_review": {
+              "seed": 731,
+              "planes": [
+                {
+                  "coefficients_local": [
+                    -0.05682885171309434,
+                    0.30753864893208904,
+                    8.41888093313931
+                  ],
+                  "support_vertices": 145,
+                  "median_abs_residual_m": 0.019424285705546662
+                },
+                {
+                  "coefficients_local": [
+                    0.0602129726693588,
+                    -0.3235419706989739,
+                    8.65872624474331
+                  ],
+                  "support_vertices": 123,
+                  "median_abs_residual_m": 0.006580115244835483
+                }
+              ],
+              "coordinate_origin_xy_m": [
+                1426.0470351674198,
+                -806.9422108768638
+              ],
+              "direct_plane_support": 268,
+              "vertices": 306,
+              "unsupported_vertices_snapped_to_nearby_plane": 38,
+              "displacement_p95_m": 1.4386765902727177,
+              "displacement_max_m": 4.278731084532577,
+              "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+              "boundary_simplification_m": 0.85,
+              "spatial_label_vote": "13 neighbours, two passes; no height blending",
+              "planes_retained": [
+                0,
+                1
+              ],
+              "discarded_tiny_patch_area_m2": 0.0,
+              "patch_regions": 3,
+              "roof_triangles": 16
+            },
+            "identity_note": "Long low west-side roof beside stored boats in the 2022 ortho. Canopy separates the classified roof patches; the gap is retained rather than filled."
+          }
+        ],
+        "source_roof_ids": [
+          "lidar2022_491000_5460000_9",
+          "lidar2022_491000_5460000_3",
+          "lidar2022_491000_5460000_2",
+          "lidar2022_490000_5460000_17",
+          "lidar2022_491000_5460000_4",
+          "lidar2022_491000_5460000_6",
+          "lidar2022_491000_5460000_7"
+        ]
+      },
+      "estimates": {
+        "facades": "Roof-edge extrusion to City DTM; eaves and exact wall openings remain unresolved"
+      },
+      "limits": "Measured major roof planes with individually checked identities and orthophoto placement. No interior model. No independent accuracy or live acceptance. The island is closed to public access; these roofs are public-view silhouettes and do not provide navigation or building contact.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_491000_5460000_9",
+        "lidar2022_491000_5460000_3",
+        "lidar2022_491000_5460000_2",
+        "lidar2022_490000_5460000_17",
+        "lidar2022_491000_5460000_4",
+        "lidar2022_491000_5460000_6",
+        "lidar2022_491000_5460000_7"
+      ]
+    },
+    {
+      "id": "SP_train",
+      "name": "Miniature Railway visitor building massing",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://parkboardmeetings.vancouver.ca/2018/20181001/REPORT-ParkBoardConcessionStrategy-AFreshApproach-20181001.pdf",
+        "https://vancouver.ca/parks-recreation-culture/stanley-park-train.aspx",
+        "evidence/corridor/ortho-utm/named-train-buildings.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          695.6263974211937,
+          -154.2405839077262
+        ],
+        "individually_identified_forms": [
+          {
+            "name": "Miniature Railway Cafe and visitor facilities",
+            "source_roof_ids": [
+              "lidar2022_490000_5460000_37"
+            ],
+            "source_returns": 2374,
+            "centre_local_m": [
+              695.6263974211937,
+              -154.2405839077262
+            ],
+            "roof_bounds_local_m": [
+              [
+                666.3309936523438,
+                -170.36900329589844,
+                21.634558919732026
+              ],
+              [
+                719.2260131835938,
+                -134.98899841308594,
+                29.610295482161618
+              ]
+            ],
+            "roof_plane_review": {
+              "seed": 731,
+              "planes": [
+                {
+                  "coefficients_local": [
+                    -0.32312458507953956,
+                    0.12213102516711692,
+                    28.537364048643184
+                  ],
+                  "support_vertices": 228,
+                  "median_abs_residual_m": 0.01982659306805523
+                },
+                {
+                  "coefficients_local": [
+                    0.7721959698541655,
+                    -0.2890696665320161,
+                    22.91481189401501
+                  ],
+                  "support_vertices": 184,
+                  "median_abs_residual_m": 0.03808398983908923
+                },
+                {
+                  "coefficients_local": [
+                    -0.7578297765235189,
+                    0.28372275883854103,
+                    33.12943145980767
+                  ],
+                  "support_vertices": 173,
+                  "median_abs_residual_m": 0.0292766342589168
+                },
+                {
+                  "coefficients_local": [
+                    -0.3417656650906913,
+                    0.12584280430305156,
+                    23.876545489889633
+                  ],
+                  "support_vertices": 123,
+                  "median_abs_residual_m": 0.03769916854143496
+                },
+                {
+                  "coefficients_local": [
+                    0.2972140828658462,
+                    -0.11173285717452756,
+                    29.926462275754787
+                  ],
+                  "support_vertices": 139,
+                  "median_abs_residual_m": 0.021405917154847742
+                },
+                {
+                  "coefficients_local": [
+                    -0.7525891555631947,
+                    0.28386112724163465,
+                    21.35920643616378
+                  ],
+                  "support_vertices": 100,
+                  "median_abs_residual_m": 0.02900822845130513
+                },
+                {
+                  "coefficients_local": [
+                    0.7645689307468754,
+                    -0.284528667734296,
+                    36.31871829084911
+                  ],
+                  "support_vertices": 105,
+                  "median_abs_residual_m": 0.03997518966130542
+                },
+                {
+                  "coefficients_local": [
+                    0.11645269173878467,
+                    0.3200254890855041,
+                    26.73673324681715
+                  ],
+                  "support_vertices": 70,
+                  "median_abs_residual_m": 0.011970872197435867
+                },
+                {
+                  "coefficients_local": [
+                    0.11694512470940044,
+                    0.31579978573289613,
+                    30.98407245460754
+                  ],
+                  "support_vertices": 61,
+                  "median_abs_residual_m": 0.011900741015214322
+                }
+              ],
+              "coordinate_origin_xy_m": [
+                696.3964689143751,
+                -154.22561425002164
+              ],
+              "direct_plane_support": 1183,
+              "vertices": 1512,
+              "unsupported_vertices_snapped_to_nearby_plane": 329,
+              "displacement_p95_m": 1.7123954561886352,
+              "displacement_max_m": 4.510978106465348,
+              "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+              "boundary_simplification_m": 0.85,
+              "spatial_label_vote": "13 neighbours, two passes; no height blending",
+              "planes_retained": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "discarded_tiny_patch_area_m2": 0.0,
+              "patch_regions": 9,
+              "roof_triangles": 154
+            },
+            "identity_note": "Large visitor roof at the south edge of the railway plaza, beside the mapped Railway Cafe point. Distinct pitches and courtyard breaks are retained; this does not complete the station, Cob House or railway."
+          }
+        ],
+        "source_roof_ids": [
+          "lidar2022_490000_5460000_37"
+        ]
+      },
+      "estimates": {
+        "facades": "Roof-edge extrusion to City DTM; eaves and exact wall openings remain unresolved"
+      },
+      "limits": "Measured major roof planes with individually checked identities and orthophoto placement. No interior model. No independent accuracy or live acceptance. This only identifies the Cafe/visitor roof; the separate Cob House, station and waiting shelter need their own forms.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_490000_5460000_37"
+      ]
+    }
+  ],
+  "acceptance": false,
+  "source_period": "City 2022 survey and ortho; primary identity documents",
+  "target_period": "September 2026",
+  "reference_rights": "City survey/ortho derivatives OGL-Vancouver. Heritage/operator documents reference only.",
+  "input_hashes": {
+    "data/derived/lidar2022_491000_5460000.npz": "e57b26880b0e91629a63a179d6cf9c12a337176c8a18e520b4a0218f3b58af31",
+    "data/derived/lidar2022_490000_5460000.npz": "3c47a6fca9a4e6251e6fda8bdd44577eca248b9387214a01cfa8912dee291f25"
+  }
+}

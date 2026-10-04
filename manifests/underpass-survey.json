@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "capture_dates": [
+    "2022-09-07",
+    "2022-09-09"
+  ],
+  "vertical_datum": "CGVD2013",
+  "conversion": "Existing VancouverHeightConversion: H2013=H28+HTMVBC00_Abb-CGG2013a",
+  "sources": [
+    {
+      "site": "Ceperley",
+      "tile": "489000_5460000",
+      "source_manifest": "manifests/lidar2022-489000_5460000.json",
+      "bounds_local_m": [
+        -411,
+        -954,
+        -331,
+        -874
+      ],
+      "path": "data/derived/underpass-ceperley-survey.npz",
+      "sha256": "335c7531ff0d7eb2bcb57bbd1d9f33bf75a7b41e683ad51961d06d99a377e1be",
+      "classification_counts": {
+        "1": 46160,
+        "2": 175136,
+        "3": 15252,
+        "5": 366594
+      }
+    },
+    {
+      "site": "Chilco",
+      "tile": "490000_5460000",
+      "source_manifest": "manifests/lidar2022-490000_5460000.json",
+      "bounds_local_m": [
+        414,
+        -905,
+        504,
+        -805
+      ],
+      "path": "data/derived/underpass-chilco-survey.npz",
+      "sha256": "cdff2d8fadccf91081b019f1f9e74fec96bbbef51730f38f3aac2cfc61638d89",
+      "classification_counts": {
+        "1": 130119,
+        "2": 224854,
+        "3": 27839,
+        "5": 145053,
+        "9": 476
+      }
+    }
+  ],
+  "limits": "Airborne survey sees deck and portals. Interior clearances are not measured by a top-down crop.",
+  "release_accepted": false
+}

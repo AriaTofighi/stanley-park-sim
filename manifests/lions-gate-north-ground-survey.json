@@ -1,0 +1,35 @@
+{
+  "id": "lions-gate-north-ground",
+  "easting": 490046.62800598,
+  "northing": 5462724.85253906,
+  "radius_m": 140.0,
+  "source": "manifests/lions-gate-blockout.json",
+  "reference_date": "Centre fitted to 2022 tower envelope; wider crop for the visible rock berm",
+  "center_local_m": [
+    446.6280059799901,
+    1624.852539059706
+  ],
+  "source_accuracy": "Name point is for extraction only; measured placement must be fitted and inspected",
+  "sources": [
+    "manifests/lidar2022-489000_5462000.json",
+    "manifests/lidar2022-490000_5462000.json"
+  ],
+  "vertical_datum": "CGVD2013",
+  "survey_period": "2022-09-07/09",
+  "bounds_min": [
+    306.6579895019531,
+    1484.8690185546875,
+    -4.185399532318115
+  ],
+  "bounds_max": [
+    586.60302734375,
+    1764.8499755859375,
+    122.00276947021484
+  ],
+  "returns": 2089513,
+  "output": {
+    "path": "data/derived/lions-gate-north-ground-survey.npz",
+    "sha256": "a006fae15bafac1d8c19069f23bd2fa8c9f2f04a2fbaac2f1d7d1f4c9361aa2b"
+  },
+  "accepted": false
+}

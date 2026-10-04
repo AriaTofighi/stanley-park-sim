@@ -1,0 +1,869 @@
+{
+  "schema_version": 1,
+  "revision": "siwash-approach-m1-r1",
+  "assets": [
+    {
+      "name": "SM_SiwashLookout_RaisedApproach",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashLookout_RaisedApproach.npz",
+      "sha256": "65630557549cbfe8da48cbd5612f087daf97fa7852cf66937fcb3234ad0ef984",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 56,
+      "triangles": 108,
+      "bounds_min_m": [
+        -926.9325,
+        652.1851327223582,
+        22.84244668920382
+      ],
+      "bounds_max_m": [
+        -920.751742295302,
+        658.2875,
+        23.792201153813014
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_0_0_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_0_0_56.npz",
+      "sha256": "75a80ec13105ff00a8c0a692a7f0f4aa0e6d00a7701b171a00b19871fff380ad",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.9612063367881,
+        656.9555589663051,
+        23.682166358183693
+      ],
+      "bounds_max_m": [
+        -926.3992890677147,
+        657.5644859786479,
+        23.909238441994297
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_0_0_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_0_0_108.npz",
+      "sha256": "ccb21afea069cddc2d2595cde330368c9332471cdd4d1bdfae410c6e8b80e741",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.9612063367881,
+        656.9555589663051,
+        24.202166358183693
+      ],
+      "bounds_max_m": [
+        -926.3992890677147,
+        657.5644859786479,
+        24.429238441994297
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_0_1_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_0_1_56.npz",
+      "sha256": "1ca398391a2def9b230b377873e6978fe971602cc0f9a5bc16e9360cdd5d728d",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.4525533982854,
+        655.8502120335173,
+        23.844993641404017
+      ],
+      "bounds_max_m": [
+        -925.3944282197257,
+        657.0049677462948,
+        23.94497389632607
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_0_1_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_0_1_108.npz",
+      "sha256": "5804248d1ed2b5a786ffc2306623197c823154418858c511c10755dfdc78b6cb",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.4525533982854,
+        655.8502120335173,
+        24.364993641404016
+      ],
+      "bounds_max_m": [
+        -925.3944282197257,
+        657.0049677462948,
+        24.464973896326068
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_0_2_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_0_2_56.npz",
+      "sha256": "e5b5ae85a5054a1a53935ecc5f9f7f2154d08e6c9ede30ed66855df3f569338d",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -925.4477112094439,
+        655.1426852614228,
+        23.672683476370356
+      ],
+      "bounds_max_m": [
+        -924.7512220632763,
+        655.8996413385693,
+        23.944230319904648
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_0_2_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_0_2_108.npz",
+      "sha256": "e07864467b615297f3c45774ce45534c699824d6772c8ad89d0612433d0c1568",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -925.4477112094439,
+        655.1426852614228,
+        24.19268347637036
+      ],
+      "bounds_max_m": [
+        -924.7512220632763,
+        655.8996413385693,
+        24.464230319904647
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Post_0_0",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Post_0_0.npz",
+      "sha256": "ec4893b91cc417e5bfedd6edaf8ccbe1611fdca54698de5b3e40bdc45f70b48d",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.9725,
+        657.4975000000001,
+        23.153920001344687
+      ],
+      "bounds_max_m": [
+        -926.8925,
+        657.5775,
+        24.25392000134469
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Post_0_1",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Post_0_1.npz",
+      "sha256": "4f1b651e69b1dac63b562d3a332fe1ce12c656fee39c28998e3a991165dca16d",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -925.8962235296059,
+        656.3135958825666,
+        23.337316964869274
+      ],
+      "bounds_max_m": [
+        -925.816223529606,
+        656.3935958825665,
+        24.437316964869275
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Post_0_2",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Post_0_2.npz",
+      "sha256": "48291b3a1c798af99e99b13bb21ab4fd9ca480276cb6be7212bb262554001386",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -924.8199470592118,
+        655.129691765133,
+        23.144431057378224
+      ],
+      "bounds_max_m": [
+        -924.7399470592119,
+        655.2096917651329,
+        24.244431057378225
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_2_0_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_2_0_56.npz",
+      "sha256": "e50a2cecf41aae0bdd3ac7f61a805d5d5fdd00c6adc4594d46382193633c8f65",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.1362063367881,
+        657.7055589663051,
+        23.68063296352001
+      ],
+      "bounds_max_m": [
+        -925.5742890677146,
+        658.3144859786479,
+        23.907705047330616
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_2_0_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_2_0_108.npz",
+      "sha256": "f88f243f2e286bf0035c9cfb891c3b918c8307094c7429f13f5149b2b1b5b377",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.1362063367881,
+        657.7055589663051,
+        24.20063296352001
+      ],
+      "bounds_max_m": [
+        -925.5742890677146,
+        658.3144859786479,
+        24.427705047330615
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_2_1_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_2_1_56.npz",
+      "sha256": "bea152517795be8e35e03920e9b93bdf043ddb1a74af17d437d91309afcb07b2",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -925.6275533982854,
+        656.6002120335173,
+        23.843460246740335
+      ],
+      "bounds_max_m": [
+        -924.5694282197256,
+        657.7549677462948,
+        23.943440501662387
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_2_1_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_2_1_108.npz",
+      "sha256": "0cf5318b690cf480760f76fa56d86bbeaae87c5d65d8b6a1754970352e6996b8",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -925.6275533982854,
+        656.6002120335173,
+        24.363460246740335
+      ],
+      "bounds_max_m": [
+        -924.5694282197256,
+        657.7549677462948,
+        24.463440501662387
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_2_2_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_2_2_56.npz",
+      "sha256": "402e39af220d42d85af6f32a1e426829d9f0ea5e16782449211de0625e45b7cf",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -924.6227112094439,
+        655.8926852614228,
+        23.671150081706674
+      ],
+      "bounds_max_m": [
+        -923.9262220632762,
+        656.6496413385693,
+        23.942696925240966
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Rail_2_2_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Rail_2_2_108.npz",
+      "sha256": "9a02214e2e0f8b7876cbb546db32c7583d72433b75041c307f71ced0419e66d7",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -924.6227112094439,
+        655.8926852614228,
+        24.191150081706677
+      ],
+      "bounds_max_m": [
+        -923.9262220632762,
+        656.6496413385693,
+        24.462696925240966
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Post_2_0",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Post_2_0.npz",
+      "sha256": "d91aca01dba61baae57662acf3298c459ad11db911fd2f1cdf0ddd1cbde594fd",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.1474999999999,
+        658.2475000000001,
+        23.152386606681006
+      ],
+      "bounds_max_m": [
+        -926.0675,
+        658.3275,
+        24.252386606681007
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Post_2_1",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Post_2_1.npz",
+      "sha256": "e3deebc87f582cf99fee00c8323c19971f7a1515aa223944e03dedc674578c3b",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -925.0712235296058,
+        657.0635958825666,
+        23.335783570205592
+      ],
+      "bounds_max_m": [
+        -924.9912235296059,
+        657.1435958825665,
+        24.435783570205594
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_Post_2_2",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_Post_2_2.npz",
+      "sha256": "4344fef33b7f5e4a07706fcd86bb002fbb4e675b55d53dee33b672ef0e764e45",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -923.9949470592118,
+        655.879691765133,
+        23.142897662714542
+      ],
+      "bounds_max_m": [
+        -923.9149470592118,
+        655.9596917651329,
+        24.242897662714544
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_PerimeterRail_0_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_PerimeterRail_0_56.npz",
+      "sha256": "070cccc93d93448ff73a36cb44d7d6858c91fe98ae195ded2a3fcffcb9366611",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.1327587190251,
+        658.2670139758147,
+        23.67865112691992
+      ],
+      "bounds_max_m": [
+        -924.9572412809748,
+        659.6954860241852,
+        23.74488659890721
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_PerimeterRail_0_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_PerimeterRail_0_108.npz",
+      "sha256": "b9d6639a1ab77bfcdcbd15fe8e9d78644d612d311ebbc52fbdeb490f4df2b22e",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.1327587190251,
+        658.2670139758147,
+        24.19865112691992
+      ],
+      "bounds_max_m": [
+        -924.9572412809748,
+        659.6954860241852,
+        24.26488659890721
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_PerimeterRail_1_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_PerimeterRail_1_56.npz",
+      "sha256": "712f036c4b8597d3c3401d149ebed15874fcaa3451c0cda8e9f0b7a35bd8ba0c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -925.0077587190251,
+        659.6545139758147,
+        23.67741563938504
+      ],
+      "bounds_max_m": [
+        -923.8322412809748,
+        661.0829860241853,
+        23.743651111372333
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_PerimeterRail_1_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_PerimeterRail_1_108.npz",
+      "sha256": "25eabd952230e9c2f48d20d7b72f4b5dd150c97360236edcaf2d534c690c9df9",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -925.0077587190251,
+        659.6545139758147,
+        24.197415639385042
+      ],
+      "bounds_max_m": [
+        -923.8322412809748,
+        661.0829860241853,
+        24.263651111372333
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    },
+    {
+      "name": "SM_SiwashApproach_PerimeterPost",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/siwash-approach/SM_SiwashApproach_PerimeterPost.npz",
+      "sha256": "a4ef3acf96b2b9cecca9718fedf0e71954fa1843ab92a88d0f6bc20c43d165d6",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -925.0224999999999,
+        659.635,
+        23.151151119146128
+      ],
+      "bounds_max_m": [
+        -924.9425,
+        659.7149999999999,
+        24.25115111914613
+      ],
+      "collision_reason": "Source-located raised access surface or estimated handrail. The slab joins roof and actual terrain planes; live contact remains unaccepted."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_siwash_lookout",
+      "name": "Siwash lookout raised approach",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/parks-recreation-culture/landmarks-in-stanley-park.aspx",
+        "https://www.vancouvergunners.ca/uploads/2/5/3/2/25322670/photographic_record_of_historical_remains.pdf",
+        "https://www.vancouvergunners.ca/uploads/2/5/3/2/25322670/stanleypark_docent_package_as_at_27aug_2021.pdf",
+        "manifests/named-siwash-lookout-survey.json",
+        "evidence/corridor/ortho-utm/named-siwash-lookout.json"
+      ],
+      "measured": {
+        "source_profile_stations_m": [
+          0.0,
+          0.75,
+          2.25,
+          3.75,
+          5.5,
+          7.5,
+          10.0
+        ],
+        "source_profile_h_m": [
+          23.153153304012847,
+          23.316718101501465,
+          23.35171604156494,
+          23.023213386535645,
+          23.519210815429688,
+          23.74520778656006,
+          24.00370216369629
+        ],
+        "source_bins": [
+          {
+            "station_m": 0.75,
+            "returns": 22,
+            "median_h_m": 23.316718101501465,
+            "p10_p90_h_m": [
+              23.173813819885254,
+              23.354717254638672
+            ]
+          },
+          {
+            "station_m": 2.25,
+            "returns": 8,
+            "median_h_m": 23.35171604156494,
+            "p10_p90_h_m": [
+              23.261314964294435,
+              23.407116317749022
+            ]
+          },
+          {
+            "station_m": 3.75,
+            "returns": 8,
+            "median_h_m": 23.023213386535645,
+            "p10_p90_h_m": [
+              22.94830913543701,
+              23.115912246704102
+            ]
+          },
+          {
+            "station_m": 5.5,
+            "returns": 22,
+            "median_h_m": 23.519210815429688,
+            "p10_p90_h_m": [
+              23.426611518859865,
+              23.675110244750975
+            ]
+          },
+          {
+            "station_m": 7.5,
+            "returns": 16,
+            "median_h_m": 23.74520778656006,
+            "p10_p90_h_m": [
+              23.722707748413086,
+              23.826706886291504
+            ]
+          },
+          {
+            "station_m": 10.0,
+            "returns": 33,
+            "median_h_m": 24.00370216369629,
+            "p10_p90_h_m": [
+              23.904304885864256,
+              24.132901000976563
+            ]
+          }
+        ],
+        "along_axis": [
+          0.6726727939962922,
+          -0.7399400733959622
+        ],
+        "across_axis": [
+          0.7399400733959622,
+          0.6726727939962922
+        ],
+        "origin_local_m": [
+          -926.52,
+          657.9125
+        ],
+        "width_m": 1.1149551560489215,
+        "width_trace_uncertainty_m": 0.3,
+        "roof_join_max_error_m": 3.552713678800501e-15,
+        "terrain_join_max_error_m": 4.263256414560601e-14,
+        "terrain_contact_samples": 10,
+        "max_profile_grade": 0.2834271022251674,
+        "surface_area_m2": 8.473596683551285,
+        "surface_parts": 1,
+        "terrain_inputs": [
+          {
+            "path": "data/derived/surface-meshes/SM_Terrain_04_01.npz",
+            "sha256": "4ecddb76e9c36a31585db4b65f202536eb8352c8f7804db45eecdc593fda25f2"
+          }
+        ],
+        "surface_footprint_local_m": [
+          [
+            -925.36765625,
+            655.816171875
+          ],
+          [
+            -925.4189862135083,
+            655.8726348348591
+          ],
+          [
+            -925.8061111111111,
+            656.2984722222222
+          ],
+          [
+            -926.4279954045028,
+            656.982544944953
+          ],
+          [
+            -926.4438636363636,
+            657.0
+          ],
+          [
+            -926.9325,
+            657.5375
+          ],
+          [
+            -926.5480392156862,
+            657.8870098039216
+          ],
+          [
+            -926.1075,
+            658.2875
+          ],
+          [
+            -925.6029954045027,
+            657.732544944953
+          ],
+          [
+            -925.5067647058823,
+            657.6266911764706
+          ],
+          [
+            -924.9370454545455,
+            657.0
+          ],
+          [
+            -924.5939862135083,
+            656.6226348348591
+          ],
+          [
+            -924.5783333333334,
+            656.6054166666667
+          ],
+          [
+            -924.33171875,
+            656.334140625
+          ],
+          [
+            -923.5849770225138,
+            655.5127247247651
+          ],
+          [
+            -923.0,
+            654.8692499999999
+          ],
+          [
+            -922.4077996330203,
+            654.2178295963222
+          ],
+          [
+            -921.0624540450277,
+            652.7379494495303
+          ],
+          [
+            -920.751742295302,
+            652.3961665248321
+          ],
+          [
+            -921.5906835925127,
+            652.2577407699986
+          ],
+          [
+            -922.0667115657803,
+            652.1851327223582
+          ],
+          [
+            -923.0,
+            653.2117499999998
+          ],
+          [
+            -923.2327996330204,
+            653.4678295963222
+          ],
+          [
+            -924.4099770225139,
+            654.7627247247651
+          ],
+          [
+            -925.36765625,
+            655.816171875
+          ]
+        ],
+        "numerical_pass": true,
+        "application_acceptance": false,
+        "limits": "The raised approach is observed in unclassified survey returns; slab thickness, rail sections and exact edge width remain M1 estimates. The profile is a continuous contact envelope, not a claim of exact stair treads. No terrain cut is required. Terrain-contact values are internal consistency, not independent accuracy."
+      },
+      "estimates": {
+        "slab_thickness_m": 0.18,
+        "rail_height_m": 1.1,
+        "rail_section_m": 0.065,
+        "post_section_m": 0.08
+      },
+      "limits": "The raised approach is observed in unclassified survey returns; slab thickness, rail sections and exact edge width remain M1 estimates. The profile is a continuous contact envelope, not a claim of exact stair treads. No terrain cut is required. Terrain-contact values are internal consistency, not independent accuracy.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    }
+  ],
+  "acceptance": false,
+  "source_period": "City 2022 survey and ortho; dated primary references",
+  "target_period": "September 2026",
+  "reference_rights": "City survey/ortho derivatives OGL-Vancouver; historic documents reference only.",
+  "input_hashes": {
+    "manifests/west-landmark-blockouts.json": "5e2e43d1f04992adf5bec8bd2a2ed5ff51bbc2c21c4082acf851998bf49c1d2f"
+  }
+}

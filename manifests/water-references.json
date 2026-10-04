@@ -1,0 +1,48 @@
+{
+  "retrieved_utc": "2026-09-26T23:54:27.727712+00:00",
+  "records": [
+    {
+      "url": "https://catalogue.data.gov.bc.ca/api/3/action/package_show?id=87b1d6a7-d4d1-4c25-a879-233becdbffed",
+      "path": "data\\raw\\corridor\\fwa-coast-metadata.json",
+      "bytes": 24123,
+      "sha256": "0b19f4f87ce238d7da19afc94728c11a5554aa26ea95cff14a7b64c78849d7f0"
+    },
+    {
+      "url": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/whse/bcgw_pub_whse_basemapping/MapServer/91/query?f=json&where=1%3D1&geometry=461040.0%2C5446040.0%2C514960.0%2C5507960.0&geometryType=esriGeometryEnvelope&inSR=3157&spatialRel=esriSpatialRelIntersects&outSR=3157&returnGeometry=true&outFields=%2A&orderByFields=OBJECTID&maxAllowableOffset=2&geometryPrecision=3&resultOffset=0&resultRecordCount=1000",
+      "path": "data\\raw\\corridor\\fwa-coast-00000.json",
+      "bytes": 695590,
+      "sha256": "31e8ea7029f65b24c6f0596530378c169c4b6a8d42fa68a6e1b0ab802f70e5b0",
+      "license": "Open Government Licence - British Columbia",
+      "license_url": "https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61",
+      "capture_period": "Mixed source dates; metadata revision is not capture date",
+      "metadata_modified": "2026-09-26T12:41:56.230910",
+      "use": "regional ocean mask",
+      "generalization_metres": 2
+    },
+    {
+      "url": "https://catalogue.data.gov.bc.ca/api/3/action/package_show?id=cb1e3aba-d3fe-4de1-a2d4-b8b6650fb1f6",
+      "path": "data\\raw\\corridor\\fwa-lakes-metadata.json",
+      "bytes": 31952,
+      "sha256": "aff95762ba6fa00e018c0cf0a9bbcf127e0434c60d10aedecbada87c1e8529cb"
+    },
+    {
+      "url": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/whse/bcgw_pub_whse_basemapping/MapServer/20/query?f=json&where=1%3D1&geometry=488001.0%2C5459201.0%2C491999.0%2C5462799.0&geometryType=esriGeometryEnvelope&inSR=3157&spatialRel=esriSpatialRelIntersects&outSR=3157&returnGeometry=true&outFields=%2A&orderByFields=OBJECTID&maxAllowableOffset=0&geometryPrecision=3&resultOffset=0&resultRecordCount=1000",
+      "path": "data\\raw\\corridor\\fwa-lakes-00000.json",
+      "bytes": 8751,
+      "sha256": "76caf15b1106fcad3ad67e037cd97d8a74b15d54fd082b2c31a1c22a3f8fe4f3",
+      "license": "Open Government Licence - British Columbia",
+      "license_url": "https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61",
+      "capture_period": "Mixed source dates; metadata revision is not capture date",
+      "metadata_modified": "2026-09-26T12:41:55.254457",
+      "use": "lake boundary reference",
+      "generalization_metres": 0
+    }
+  ],
+  "excluded": [
+    {
+      "source": "TRIM EBM Ocean",
+      "reason": "Access Only licence; not used in geometry"
+    }
+  ],
+  "attribution": "Contains information licensed under the Open Government Licence – British Columbia."
+}

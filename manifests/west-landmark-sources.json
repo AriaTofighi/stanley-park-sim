@@ -1,0 +1,115 @@
+{
+  "target_period": "September 2026",
+  "sources": [
+    {
+      "url": "https://vancouver.ca/parks-recreation-culture/trees.aspx",
+      "accessed": "2026-09-27",
+      "publication_or_capture": "Undated current page",
+      "coverage": "Hollow Tree identity and conservation history",
+      "intended_use": "Identity or visible form reference, not a geodetic control",
+      "verification": "Web content inspected; reference only",
+      "licence": "No redistribution licence relied on",
+      "incorporation": "Reference only. Exclude PDF, page renders, photos and copied text from runtime/distribution."
+    },
+    {
+      "url": "https://apt.memberclicks.net/assets/docs/Kalman-42-4.pdf",
+      "accessed": "2026-09-27",
+      "publication_or_capture": "APT Bulletin 42:4, 2011; photos dated 2008-2011",
+      "coverage": "Hollow Tree shell, top flashing and restoration form",
+      "intended_use": "Identity or visible form reference, not a geodetic control",
+      "verification": "Full relevant PDF pages 6-7 rendered and visually inspected; current size comes from 2022 survey",
+      "licence": "No redistribution licence relied on",
+      "incorporation": "Reference only. Exclude PDF, page renders, photos and copied text from runtime/distribution.",
+      "local_reference": {
+        "path": "data/raw/references/hollow-tree-conservation-2011.pdf",
+        "sha256": "e9319399925e0048c03330379cf284f5beffbbfde81dd70df5fc4203521f68b7"
+      }
+    },
+    {
+      "url": "https://www.vancouvergunners.ca/uploads/2/5/3/2/25322670/photographic_record_of_historical_remains.pdf",
+      "accessed": "2026-09-27",
+      "publication_or_capture": "Summer 2004, museum cover",
+      "coverage": "Siwash No. 6 searchlight shelter identity and rounded plan",
+      "intended_use": "Identity or visible form reference, not a geodetic control",
+      "verification": "PDF pages 13-15 rendered and inspected; plan has no usable scale",
+      "licence": "No redistribution licence relied on",
+      "incorporation": "Reference only. Exclude PDF, page renders, photos and copied text from runtime/distribution.",
+      "local_reference": {
+        "path": "data/raw/references/stanley-park-military-remains-2004.pdf",
+        "sha256": "203115cb389c3d98254d777804e4b834a792483875eff03b07d07879c8c26b5a"
+      }
+    },
+    {
+      "url": "https://www.vancouvergunners.ca/uploads/2/5/3/2/25322670/stanleypark_docent_package_as_at_27aug_2021.pdf",
+      "accessed": "2026-09-27",
+      "publication_or_capture": "Draft 2021-08-27",
+      "coverage": "Siwash lookout on former searchlight shelter; approach and restricted lower rooms",
+      "intended_use": "Identity or visible form reference, not a geodetic control",
+      "verification": "Relevant text read; no measured current rail dimensions provided",
+      "licence": "No redistribution licence relied on",
+      "incorporation": "Reference only. Exclude PDF, page renders, photos and copied text from runtime/distribution.",
+      "local_reference": {
+        "path": "data/raw/references/stanley-park-artillery-docent-2021.pdf",
+        "sha256": "4ca97df8444fd8a96094760eb7dee2ef819c32a6e75899ba0cb63f126bd102fd"
+      }
+    },
+    {
+      "url": "https://vancouver.ca/parks-recreation-culture/third-beach.aspx",
+      "accessed": "2026-09-27",
+      "publication_or_capture": "Undated current page",
+      "coverage": "Third Beach concession and washroom identity",
+      "intended_use": "Identity or visible form reference, not a geodetic control",
+      "verification": "Web content inspected; reference only",
+      "licence": "No redistribution licence relied on",
+      "incorporation": "Reference only. Exclude PDF, page renders, photos and copied text from runtime/distribution."
+    },
+    {
+      "path": "manifests/named-hollow-tree-survey.json",
+      "coverage": "hollow-tree",
+      "publication_or_capture": "City LiDAR 2022-09-07/09",
+      "intended_use": "Measured position and broad form",
+      "licence": "Open Government Licence - Vancouver",
+      "incorporation": "Survey-derived geometry permitted with attribution. Retain datum and accuracy limits."
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/named-hollow-tree.json",
+      "coverage": "hollow-tree",
+      "publication_or_capture": "City orthophoto 2022-06-06/2022-07-01",
+      "intended_use": "Identity/outline comparison; metadata retains exact tile URLs",
+      "licence": "Open Government Licence - Vancouver",
+      "incorporation": "Current crop is a reference; no raster is used as a runtime texture."
+    },
+    {
+      "path": "manifests/named-siwash-lookout-survey.json",
+      "coverage": "siwash-lookout",
+      "publication_or_capture": "City LiDAR 2022-09-07/09",
+      "intended_use": "Measured position and broad form",
+      "licence": "Open Government Licence - Vancouver",
+      "incorporation": "Survey-derived geometry permitted with attribution. Retain datum and accuracy limits."
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/named-siwash-lookout.json",
+      "coverage": "siwash-lookout",
+      "publication_or_capture": "City orthophoto 2022-06-06/2022-07-01",
+      "intended_use": "Identity/outline comparison; metadata retains exact tile URLs",
+      "licence": "Open Government Licence - Vancouver",
+      "incorporation": "Current crop is a reference; no raster is used as a runtime texture."
+    },
+    {
+      "path": "manifests/named-third-beach-survey.json",
+      "coverage": "third-beach",
+      "publication_or_capture": "City LiDAR 2022-09-07/09",
+      "intended_use": "Measured position and broad form",
+      "licence": "Open Government Licence - Vancouver",
+      "incorporation": "Survey-derived geometry permitted with attribution. Retain datum and accuracy limits."
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/named-third-beach.json",
+      "coverage": "third-beach",
+      "publication_or_capture": "City orthophoto 2022-06-06/2022-07-01",
+      "intended_use": "Identity/outline comparison; metadata retains exact tile URLs",
+      "licence": "Open Government Licence - Vancouver",
+      "incorporation": "Current crop is a reference; no raster is used as a runtime texture."
+    }
+  ]
+}

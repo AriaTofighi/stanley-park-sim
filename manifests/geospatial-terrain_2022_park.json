@@ -1,0 +1,69 @@
+{
+  "product": "data/derived/terrain_2022_park.npz",
+  "sha256": "d958e065a3ff9ae5fd99fcea3710b5b0f3a6672d88ca5b376ae72ac6a599bd92",
+  "origin_sha256": "86ab4975f2006971e9080461de30fd15736e0537031c8b5f04f966acbc26205a",
+  "sources": [
+    {
+      "file": "data/derived/lidar2022_488000_5460000.npz",
+      "sha256": "c4d987b7f6bfc7c0fcf508e8d7aca8d3c44715b0658a869235dc47b4a7cd1f27",
+      "grid_cells": 78461
+    },
+    {
+      "file": "data/derived/lidar2022_488000_5461000.npz",
+      "sha256": "e1fc2fd0946d46ed45b0e315b776038db77ba2cd0c591c0422d0aa4000330ad9",
+      "grid_cells": 89677
+    },
+    {
+      "file": "data/derived/lidar2022_488000_5462000.npz",
+      "sha256": "cef8e6e7a5ca263f720c0f2de0089179e33515481c4242c631d3b7d2121157b1",
+      "grid_cells": 2493
+    },
+    {
+      "file": "data/derived/lidar2022_489000_5459000.npz",
+      "sha256": "cadbd8cd87e511ad78da899ada0e08c6714cf39d5a659c183d5f9e6c2ad5d780",
+      "grid_cells": 101566
+    },
+    {
+      "file": "data/derived/lidar2022_489000_5460000.npz",
+      "sha256": "8149c1144024e3150cbf246ecf3ecc7d7b9ebd9d0b3163346489b7f7aee7e2e7",
+      "grid_cells": 212194
+    },
+    {
+      "file": "data/derived/lidar2022_489000_5461000.npz",
+      "sha256": "2f277bad80d83e159613b94a4c8df94644636e4dcafebf55a23b01ad60f2334d",
+      "grid_cells": 249781
+    },
+    {
+      "file": "data/derived/lidar2022_489000_5462000.npz",
+      "sha256": "8ad05e00fea40012bfe1228302042ba4e071e982e64a10680ca6a4e108463d0a",
+      "grid_cells": 66796
+    },
+    {
+      "file": "data/derived/lidar2022_490000_5460000.npz",
+      "sha256": "3c47a6fca9a4e6251e6fda8bdd44577eca248b9387214a01cfa8912dee291f25",
+      "grid_cells": 168598
+    },
+    {
+      "file": "data/derived/lidar2022_490000_5461000.npz",
+      "sha256": "3178088eec68591091827766846448ec0eda1fcf5bf0dcc73dfb881ada0aaa0c",
+      "grid_cells": 86327
+    },
+    {
+      "file": "data/derived/lidar2022_490000_5462000.npz",
+      "sha256": "0dd2c016748a095c8334dce36cefcd46cb9382ec59a35e06f8bfd48d8d33c2ae",
+      "grid_cells": 79
+    },
+    {
+      "file": "data/derived/lidar2022_491000_5460000.npz",
+      "sha256": "e57b26880b0e91629a63a179d6cf9c12a337176c8a18e520b4a0218f3b58af31",
+      "grid_cells": 50449
+    }
+  ],
+  "resolution_m": 2,
+  "method": "8 nearest class-2 returns, inverse-distance squared, maximum nearest-return distance 3m",
+  "park_measured_fraction": 0.9381930391101543,
+  "missing_2022_fallback": "Unchanged 2013 NRCan DTM at cells without a nearby 2022 ground return; mask provided",
+  "lake_bed_cells": 51425,
+  "height_control_accepted": false,
+  "vertical_datum": "CGVD2013(CGG2013a), regional realization caveat in LiDAR manifests"
+}

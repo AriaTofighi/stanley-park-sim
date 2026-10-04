@@ -1,0 +1,76 @@
+{
+  "source": "blender/Explorer.blend",
+  "clips": {
+    "Idle": {
+      "file": "exports/explorer/Idle.fbx",
+      "sha256": "7227e13a7b57356ec07fe6a436e48de21a0342625a47fb09400b94b58d730e32"
+    },
+    "Walk": {
+      "file": "exports/explorer/Walk.fbx",
+      "sha256": "604ce43b45a19bf826a999f85878fe99d89bddb79640dddfbe6f01b32e389f63"
+    },
+    "Run": {
+      "file": "exports/explorer/Run.fbx",
+      "sha256": "c342b9de98741025aa1aebab3f3824cc65157081ba1f9a89752103b66c7ccd82"
+    },
+    "Jump": {
+      "file": "exports/explorer/Jump.fbx",
+      "sha256": "c75b12c2769416e1f4d18fa04698f2cbc7f4e331b0c073509576df30d07b251c"
+    }
+  },
+  "vertices": 2164,
+  "polygons": 2322,
+  "bones": 16,
+  "materials": {
+    "M_Explorer_Jacket": [
+      0.054999999701976776,
+      0.25,
+      0.23999999463558197,
+      1.0
+    ],
+    "M_Explorer_Trousers": [
+      0.08500000089406967,
+      0.10999999940395355,
+      0.15000000596046448,
+      1.0
+    ],
+    "M_Explorer_Boots": [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776,
+      1.0
+    ],
+    "M_Explorer_Skin": [
+      0.5299999713897705,
+      0.30000001192092896,
+      0.18000000715255737,
+      1.0
+    ],
+    "M_Explorer_Pack": [
+      0.6800000071525574,
+      0.25999999046325684,
+      0.07999999821186066,
+      1.0
+    ],
+    "M_Explorer_Trim": [
+      0.800000011920929,
+      0.7200000286102295,
+      0.47999998927116394,
+      1.0
+    ],
+    "M_Explorer_Hair": [
+      0.04500000178813934,
+      0.027000000700354576,
+      0.017999999225139618,
+      1.0
+    ],
+    "M_Explorer_Eyes": [
+      0.017999999225139618,
+      0.017999999225139618,
+      0.017999999225139618,
+      1.0
+    ]
+  },
+  "coordinates": "centimetres, +X forward, +Y right, +Z up",
+  "application_tests_run": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "brockton-lighthouse",
+  "lon": -123.116807,
+  "lat": 49.3006974,
+  "radius_m": 45.0,
+  "source": "https://veterans.gc.ca/en/remembrance/memorials/canada/brockton-point-lighthouse",
+  "reference_date": "Page modified 2025-05-25; crowd-sourced location, not a survey",
+  "center_local_m": [
+    1909.1091216707136,
+    -210.31073089130223
+  ],
+  "source_accuracy": "Name point is for extraction only; measured placement must be fitted and inspected",
+  "sources": [
+    "manifests/lidar2022-491000_5460000.json"
+  ],
+  "vertical_datum": "CGVD2013",
+  "survey_period": "2022-09-07/09",
+  "bounds_min": [
+    1864.1409912109375,
+    -255.30099487304688,
+    -0.4701060950756073
+  ],
+  "bounds_max": [
+    1953.1839599609375,
+    -165.99000549316406,
+    31.379135131835938
+  ],
+  "returns": 140130,
+  "output": {
+    "path": "data/derived/brockton-lighthouse-survey.npz",
+    "sha256": "9deb1b80f5dc444330f9d7e1ddbeaf874a687ca13cbd1709e0743ccf9c6df52f"
+  },
+  "accepted": false
+}

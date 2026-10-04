@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "junction_id": "city_junction_036",
+  "branch_id": "city_bikeways_2336",
+  "branch_endpoint": "end",
+  "source_station_m": 4209.256768569556,
+  "branch_half_width_m": 1.5,
+  "approach_length_m": 12.0,
+  "outward_fade_m": 1.0,
+  "lateral_fade_m": 0.5,
+  "source_class": "M1 authored surface transition; not a surveyed kerb or ramp",
+  "reason": "Exact exported full-width seam has a 0.1043374043 m terrain step. Preserve the main pavement and blend its adjacent branch approach into original terrain.",
+  "original_failure_evidence": "evidence/main-branch-join-inspection-before-transition.json",
+  "maximum_contact_step_m": 0.03,
+  "physical_dimensions_surveyed": false
+}

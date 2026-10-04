@@ -1,0 +1,192 @@
+{
+  "kind": "data numerical validation; not independent survey or application testing",
+  "origin": {
+    "easting": 489600,
+    "northing": 5461100,
+    "height": 0.0,
+    "horizontal_crs": "EPSG:3157"
+  },
+  "geographic_projected_roundtrip_max_m": 1.0746907720737713e-07,
+  "roundtrip_sample_count": 20,
+  "controls": [
+    {
+      "easting": 490145.58988806047,
+      "northing": 5460293.003220079,
+      "lon": -123.13554734410192,
+      "lat": 49.29530965592737,
+      "roundtrip_error_m": 1.0491534882475163e-07
+    },
+    {
+      "easting": 489731.24193902966,
+      "northing": 5460052.088245249,
+      "lon": -123.14123984164677,
+      "lat": 49.293135769952826,
+      "roundtrip_error_m": 1.0368026272045439e-07
+    },
+    {
+      "easting": 489335.8134128293,
+      "northing": 5459680.831907891,
+      "lon": -123.1466681767622,
+      "lat": 49.289789495889046,
+      "roundtrip_error_m": 1.0355939561172729e-07
+    },
+    {
+      "easting": 489025.8597842958,
+      "northing": 5460000.8655144805,
+      "lon": -123.15093940089416,
+      "lat": 49.29266275113199,
+      "roundtrip_error_m": 1.0660904317297948e-07
+    },
+    {
+      "easting": 488781.7242453655,
+      "northing": 5460318.845133644,
+      "lon": -123.15430583841969,
+      "lat": 49.29551858296391,
+      "roundtrip_error_m": 1.0746907720737713e-07
+    },
+    {
+      "easting": 488476.20462486404,
+      "northing": 5460578.106511658,
+      "lon": -123.1585152621072,
+      "lat": 49.29784498252301,
+      "roundtrip_error_m": 1.0437982387083643e-07
+    },
+    {
+      "easting": 488381.09653868625,
+      "northing": 5460932.254408004,
+      "lon": -123.15983368819903,
+      "lat": 49.30102878115308,
+      "roundtrip_error_m": 1.0508404600606733e-07
+    },
+    {
+      "easting": 488466.9171543185,
+      "northing": 5461249.317174795,
+      "lon": -123.15866238433965,
+      "lat": 49.30388242185745,
+      "roundtrip_error_m": 1.0466923855968054e-07
+    },
+    {
+      "easting": 488637.4185711684,
+      "northing": 5461718.071343949,
+      "lon": -123.15633034597307,
+      "lat": 49.30810211066829,
+      "roundtrip_error_m": 1.0553188582546854e-07
+    },
+    {
+      "easting": 488847.58607525274,
+      "northing": 5462097.826270859,
+      "lon": -123.15344969266509,
+      "lat": 49.31152191885501,
+      "roundtrip_error_m": 1.0380859408311207e-07
+    },
+    {
+      "easting": 489298.80874290183,
+      "northing": 5462319.658957359,
+      "lon": -123.14724776443866,
+      "lat": 49.31352540130191,
+      "roundtrip_error_m": 1.0513180184652089e-07
+    },
+    {
+      "easting": 489769.1034206809,
+      "northing": 5462314.228174758,
+      "lon": -123.1407770945872,
+      "lat": 49.3134846136131,
+      "roundtrip_error_m": 1.051472698932958e-07
+    },
+    {
+      "easting": 490040.79625062423,
+      "northing": 5461981.762130819,
+      "lon": -123.13703072670177,
+      "lat": 49.31049854022142,
+      "roundtrip_error_m": 1.0372546378996169e-07
+    },
+    {
+      "easting": 490232.3715928665,
+      "northing": 5461566.551392097,
+      "lon": -123.13438494699149,
+      "lat": 49.306766769357864,
+      "roundtrip_error_m": 1.0454510734845747e-07
+    },
+    {
+      "easting": 490568.0181814322,
+      "northing": 5461182.770678791,
+      "lon": -123.1297585309829,
+      "lat": 49.30331989410673,
+      "roundtrip_error_m": 1.0368026272045439e-07
+    },
+    {
+      "easting": 490985.45383796265,
+      "northing": 5460937.230792545,
+      "lon": -123.12401089894452,
+      "lat": 49.30111753727464,
+      "roundtrip_error_m": 1.0299177397753225e-07
+    },
+    {
+      "easting": 491439.13104477385,
+      "northing": 5460898.787552462,
+      "lon": -123.1177697366198,
+      "lat": 49.300778263326606,
+      "roundtrip_error_m": 1.0557311701586588e-07
+    },
+    {
+      "easting": 491371.2125557745,
+      "northing": 5460580.095950822,
+      "lon": -123.1186970656508,
+      "lat": 49.2979106354901,
+      "roundtrip_error_m": 1.0591838392254015e-07
+    },
+    {
+      "easting": 490874.3919619753,
+      "northing": 5460517.747301278,
+      "lon": -123.12552897306584,
+      "lat": 49.29734258070268,
+      "roundtrip_error_m": 1.0471064764345319e-07
+    },
+    {
+      "easting": 490514.07170551835,
+      "northing": 5460528.5274721505,
+      "lon": -123.13048506031878,
+      "lat": 49.29743406026279,
+      "roundtrip_error_m": 1.0504249382695072e-07
+    }
+  ],
+  "boundary_valid": true,
+  "park_area_m2": 4180508.074868326,
+  "products": {
+    "terrain_park": {
+      "array_shape_correct": true,
+      "x_y_ascending": true,
+      "validity_mask_matches": true,
+      "park_has_complete_valid_coverage": true,
+      "park_height_min_m": -8.692627906799316,
+      "park_height_max_m": 76.91519165039062,
+      "grid_spacing_m": [
+        2.0,
+        2.0
+      ]
+    },
+    "terrain_surroundings": {
+      "array_shape_correct": true,
+      "x_y_ascending": true,
+      "validity_mask_matches": true,
+      "park_has_complete_valid_coverage": true,
+      "park_height_min_m": 0.3614586591720581,
+      "park_height_max_m": 72.35504150390625,
+      "grid_spacing_m": [
+        80.0,
+        80.0
+      ]
+    }
+  },
+  "independent_accuracy": "NOT VALIDATED. Geographic round-trip precision is not real-world survey accuracy.",
+  "route_surface_accuracy": "NOT VALIDATED. 2 m historic DTM must not replace measured path cross sections.",
+  "city_download_failure": {
+    "status": 403,
+    "affected": [
+      "https://webtransfer.vancouver.ca/opendata/TIF/DEM_2013_TIF.zip",
+      "https://webtransfer.vancouver.ca/opendata/2022LiDAR/489000_5462000.zip"
+    ],
+    "fallback": "Public NRCan 2013 Vancouver LiDAR-derived DTM; CGVD2013"
+  },
+  "raw_cache_bytes": 53045611
+}

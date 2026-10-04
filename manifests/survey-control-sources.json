@@ -1,0 +1,40 @@
+{
+  "retrieved_utc": "2026-09-27T02:45:05.767439+00:00",
+  "sources": [
+    {
+      "url": "https://maps.vancouver.ca/portal/sharing/rest/content/items/0993333c9fbc4463acd6653a191ae32a?f=json",
+      "path": "data/raw/corridor/property-service-item.json",
+      "sha256": "f5c51d1ea081228fab2af15f56c101f3714b5930551069c6101624965ebfa5c1"
+    },
+    {
+      "url": "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Property_Information/MapServer?f=pjson",
+      "path": "data/raw/corridor/property-service.json",
+      "sha256": "06c8dce51a72c4766f73b604af6a7f35df31c9903cc9aead39c8e0cf1af1e18f"
+    },
+    {
+      "url": "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Property_Information/MapServer/94?f=pjson",
+      "path": "data/raw/corridor/survey-monuments-layer.json",
+      "sha256": "b9cdc9961bd02e7c4f0631f830b77bfa813999140d26f0e9eb21597ceb10d2ed"
+    },
+    {
+      "url": "https://maps.vancouver.ca/server/rest/services/VanMapViewer/Property_Information/MapServer/94/query?f=json&where=1%3D1&geometry=488000%2C5459500%2C491600%2C5462600&geometryType=esriGeometryEnvelope&inSR=26910&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true",
+      "path": "data/raw/corridor/survey-monuments-park.json",
+      "sha256": "2eafd828155cafc719f0cde705fbb3fd9b05e46c2a9704d2a97be8b85c81a8ef"
+    },
+    {
+      "url": "https://openmaps.gov.bc.ca/geo/pub/WHSE_REFERENCE.MASCOT_GEODETIC_CONTROL/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=pub%3AWHSE_REFERENCE.MASCOT_GEODETIC_CONTROL&outputFormat=application%2Fjson&srsName=EPSG%3A3157&cql_filter=BBOX%28GEOMETRY%2C488000%2C5459500%2C491600%2C5462600%2C%27EPSG%3A3157%27%29",
+      "path": "data/raw/corridor/mascot-park-controls.json",
+      "sha256": "ab33d1d0e3604250d2c0144bbf88ce1a333f9c66b154ee97aeb2bc4c631c6e12"
+    }
+  ],
+  "city_count": 33,
+  "bc_count": 72,
+  "city_rights": "City of Vancouver reference layer; no licence grant in service item. Reference only.",
+  "bc_rights": "Open Government Licence - British Columbia; MASCOT Geodetic Control Monuments",
+  "catalogue": "https://catalogue.data.gov.bc.ca/dataset/mascot-geodetic-control-monuments",
+  "limits": "City layer has XY map locations and IDs, no elevation or accuracy. BC index links to full monument reports. A monument must be identified on the source surface and its current condition checked before it can validate the world. No positional acceptance follows from this download.",
+  "accepted": false,
+  "detailed_report_review": "evidence/corridor/geodetic-control-review.json",
+  "current_service": "https://geonetbc.gov.bc.ca/geonetbc/",
+  "current_service_note": "GeoNetBC has replaced MASCOT. Current condition records can be newer than the legacy long forms."
+}

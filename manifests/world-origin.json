@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "immutable": true,
+  "horizontal_crs": "EPSG:3157",
+  "horizontal_crs_name": "NAD83(CSRS) / UTM zone 10N",
+  "horizontal_crs_wkt": "PROJCRS[\"NAD83(CSRS) / UTM zone 10N\",BASEGEOGCRS[\"NAD83(CSRS)\",DATUM[\"NAD83 Canadian Spatial Reference System\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4617]],CONVERSION[\"UTM zone 10N\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",-123,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9996,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",500000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Engineering survey, topographic mapping.\"],AREA[\"Canada between 126Â°W and 120Â°W, onshore and offshore south of 84Â°N - British Columbia, Northwest Territories, Yukon.\"],BBOX[48.13,-126,81.8,-120]],ID[\"EPSG\",3157]]",
+  "easting": 489600,
+  "northing": 5461100,
+  "height": 0.0,
+  "units": "metres",
+  "axes": {
+    "x": "east",
+    "y": "north",
+    "z": "up"
+  },
+  "vertical_datum": "CGVD2013 for current NRCan terrain products; City 2022 CGVD28GVRD must be transformed before combination",
+  "height_origin_note": "H0=0 is a subtractive coordinate offset in CGVD2013; not an assigned ocean level.",
+  "source": "City Stanley Park boundary; origin is its projected centroid rounded to 100 m",
+  "city_regional_realization_note": "EPSG:3157 records the general NAD83(CSRS) UTM10 grid. Regional 4.0.0.BC.1.GVRD realization differences remain an accuracy limitation until control is checked."
+}

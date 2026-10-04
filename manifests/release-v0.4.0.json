@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "version": "0.4.0",
+  "configuration": "Shipping",
+  "application_test_run_for_publication": false,
+  "assets": [
+    {
+      "name": "StanleyPark-Windows-v0.4.0.zip",
+      "bytes": 712918866,
+      "sha256": "87ea12e1bb756d92a6f81a10bfd2e13d0751c8443f98cade29455401d1757634",
+      "files": 921,
+      "uncompressed_bytes": 1060493847,
+      "zip_crc_verified": true,
+      "url": "https://github.com/AriaTofighi/stanley-park-sim/releases/download/v0.4.0/StanleyPark-Windows-v0.4.0.zip"
+    },
+    {
+      "name": "StanleyPark-Assets-v0.4.0.zip",
+      "bytes": 1488809193,
+      "sha256": "c2d57e300124397d4f7c1ed1498ecd1f76574e6db1d78cf3ca062b4a4a763bc8",
+      "files": 4187,
+      "uncompressed_bytes": 1837744913,
+      "zip_crc_verified": true,
+      "url": "https://github.com/AriaTofighi/stanley-park-sim/releases/download/v0.4.0/StanleyPark-Assets-v0.4.0.zip"
+    },
+    {
+      "name": "StanleyPark-SourceData-v0.4.0.zip",
+      "bytes": 196070532,
+      "sha256": "7b3c65800144e0732789032d72fd022e6baca5a3ddd6f2ee7e0903d5a16ebfaf",
+      "files": 875,
+      "uncompressed_bytes": 388114876,
+      "zip_crc_verified": true,
+      "url": "https://github.com/AriaTofighi/stanley-park-sim/releases/download/v0.4.0/StanleyPark-SourceData-v0.4.0.zip"
+    }
+  ]
+}

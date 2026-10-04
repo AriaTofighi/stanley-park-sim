@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "purpose": "Close local visual gaps between existing terrain cut edges and coarser pavement support tops. Preserve source geometry and collision.",
+  "overlap_m": 0.012,
+  "solid_depth_m": 0.002,
+  "boundary_xy_match_tolerance_m": 0.003,
+  "cases": [
+    {
+      "id": "cliff_023",
+      "finding": "SHORE-RIDE-01",
+      "section_id": "section_023",
+      "terrain": "SM_Terrain_05_01",
+      "support": "SM_PavementSupport_030",
+      "support_face_pairs": [[1074, 1075], [1084, 1085]],
+      "local_ride_start_station_m": 5840,
+      "local_ride_requested_range_m": [5840, 5909]
+    },
+    {
+      "id": "entry_037",
+      "finding": "SHORE-RIDE-02",
+      "section_id": "section_037",
+      "terrain": "SM_Terrain_01_03",
+      "support": "SM_PavementSupport_048",
+      "support_face_pairs": [[432, 433], [444, 445], [456, 457]],
+      "local_ride_start_station_m": 9330,
+      "local_ride_requested_range_m": [9330, 9399]
+    }
+  ]
+}

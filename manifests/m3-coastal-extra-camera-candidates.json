@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "views": [
+    {
+      "id": "SP_girl_wetsuit_extra_west_close",
+      "feature_id": "SP_girl_wetsuit",
+      "kind": "form-only",
+      "requested_camera": {
+        "location": {
+          "x": 500.0,
+          "y": 123980.0,
+          "z": 320.0
+        },
+        "rotation": {
+          "pitch": -10.813510887319588,
+          "yaw": 94.76364169072617,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "eye_local_m": [
+        1239.8,
+        5.0,
+        3.2
+      ],
+      "target_local_m": [
+        1245.8,
+        4.5,
+        2.05
+      ],
+      "purpose": "Show the west side of the seated figure, its legs and fins; the prior east-side view hid the lower body.",
+      "view_scope": "Form-only evidence; not route visibility or acceptance",
+      "accepted": false,
+      "source_hashes": {
+        "pipeline/gis/prepare_m3_coastal_extra_views.py": "14034fcb2d52008c1a544b79f2a0ee3ca3e849e5feaee2c3d1c69c16c340c9af",
+        "manifests/m3-landmark-final-camera-candidates.json": "e5e7e1304e3b7b52ccef1be575870400b28e38c2acb1eb5e0e962ece94e79579",
+        "manifests/route-sculpture-blockouts.json": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1",
+        "manifests/critical-features.json": "b4b5827c33c6acd711a6a0853c73476eba19a5f8b7862c55c3a710f41a0b3126",
+        "data/derived/terrain_park.npz": "cb0e0a79d7b1e19e3ed4016cea79131f6a54e95ccbabd394f626c2c834c05231"
+      }
+    },
+    {
+      "id": "ART_96_extra_front_close",
+      "feature_id": "ART_96",
+      "kind": "form-only",
+      "requested_camera": {
+        "location": {
+          "x": -30182.715768087655,
+          "y": 182614.2860266962,
+          "z": 1214.0434350967407
+        },
+        "rotation": {
+          "pitch": -3.576334374997351,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "eye_local_m": [
+        1826.142860266962,
+        -301.82715768087655,
+        12.140434350967407
+      ],
+      "target_local_m": [
+        1826.142860266962,
+        -293.82715768087655,
+        11.640434350967407
+      ],
+      "purpose": "Show the complete cross and stepped base without the close route crop or the edge-on form view.",
+      "view_scope": "Form-only evidence; not route visibility or acceptance",
+      "accepted": false,
+      "source_hashes": {
+        "pipeline/gis/prepare_m3_coastal_extra_views.py": "14034fcb2d52008c1a544b79f2a0ee3ca3e849e5feaee2c3d1c69c16c340c9af",
+        "manifests/m3-landmark-final-camera-candidates.json": "e5e7e1304e3b7b52ccef1be575870400b28e38c2acb1eb5e0e962ece94e79579",
+        "manifests/route-sculpture-blockouts.json": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1",
+        "manifests/critical-features.json": "b4b5827c33c6acd711a6a0853c73476eba19a5f8b7862c55c3a710f41a0b3126",
+        "data/derived/terrain_park.npz": "cb0e0a79d7b1e19e3ed4016cea79131f6a54e95ccbabd394f626c2c834c05231"
+      }
+    },
+    {
+      "id": "SP_prospect_lookout_extra_upper_context",
+      "feature_id": "SP_prospect_lookout",
+      "kind": "form-only",
+      "requested_camera": {
+        "location": {
+          "x": 118219.20776367188,
+          "y": 3495.5241203308105,
+          "z": 7089.643859863281
+        },
+        "rotation": {
+          "pitch": -16.835094361415944,
+          "yaw": 126.86989764584402,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "eye_local_m": [
+        34.955241203308105,
+        1182.1920776367188,
+        70.89643859863281
+      ],
+      "target_local_m": [
+        50.955241203308105,
+        1170.1920776367188,
+        64.84471321105957
+      ],
+      "purpose": "Show the upper source building and lookout from above the local terrain. The actual route views remain cliff-occluded.",
+      "view_scope": "Form-only evidence; not route visibility or acceptance",
+      "accepted": false,
+      "source_hashes": {
+        "pipeline/gis/prepare_m3_coastal_extra_views.py": "14034fcb2d52008c1a544b79f2a0ee3ca3e849e5feaee2c3d1c69c16c340c9af",
+        "manifests/m3-landmark-final-camera-candidates.json": "e5e7e1304e3b7b52ccef1be575870400b28e38c2acb1eb5e0e962ece94e79579",
+        "manifests/route-sculpture-blockouts.json": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1",
+        "manifests/critical-features.json": "b4b5827c33c6acd711a6a0853c73476eba19a5f8b7862c55c3a710f41a0b3126",
+        "data/derived/terrain_park.npz": "cb0e0a79d7b1e19e3ed4016cea79131f6a54e95ccbabd394f626c2c834c05231"
+      }
+    },
+    {
+      "id": "ART_315_extra_terrain_context",
+      "feature_id": "ART_315",
+      "kind": "form-only",
+      "requested_camera": {
+        "location": {
+          "x": 118909.74003663287,
+          "y": 2978.7827296881005,
+          "z": 6977.429962158203
+        },
+        "rotation": {
+          "pitch": -16.430046360748452,
+          "yaw": -51.34019174590991,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "eye_local_m": [
+        29.787827296881005,
+        1189.0974003663287,
+        69.77429962158203
+      ],
+      "target_local_m": [
+        19.787827296881005,
+        1197.0974003663287,
+        65.99791717529297
+      ],
+      "purpose": "Replace the invalid below-terrain form view with an above-terrain search view at the approximate registry point. No linked cairn mesh exists; this view cannot prove its identity or presence.",
+      "view_scope": "Form-only evidence; not route visibility or acceptance",
+      "accepted": false,
+      "source_hashes": {
+        "pipeline/gis/prepare_m3_coastal_extra_views.py": "14034fcb2d52008c1a544b79f2a0ee3ca3e849e5feaee2c3d1c69c16c340c9af",
+        "manifests/m3-landmark-final-camera-candidates.json": "e5e7e1304e3b7b52ccef1be575870400b28e38c2acb1eb5e0e962ece94e79579",
+        "manifests/route-sculpture-blockouts.json": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1",
+        "manifests/critical-features.json": "b4b5827c33c6acd711a6a0853c73476eba19a5f8b7862c55c3a710f41a0b3126",
+        "data/derived/terrain_park.npz": "cb0e0a79d7b1e19e3ed4016cea79131f6a54e95ccbabd394f626c2c834c05231"
+      }
+    }
+  ],
+  "source_hashes": {
+    "pipeline/gis/prepare_m3_coastal_extra_views.py": "14034fcb2d52008c1a544b79f2a0ee3ca3e849e5feaee2c3d1c69c16c340c9af",
+    "manifests/m3-landmark-final-camera-candidates.json": "e5e7e1304e3b7b52ccef1be575870400b28e38c2acb1eb5e0e962ece94e79579",
+    "manifests/route-sculpture-blockouts.json": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1",
+    "manifests/critical-features.json": "b4b5827c33c6acd711a6a0853c73476eba19a5f8b7862c55c3a710f41a0b3126",
+    "data/derived/terrain_park.npz": "cb0e0a79d7b1e19e3ed4016cea79131f6a54e95ccbabd394f626c2c834c05231"
+  },
+  "source_geometry_digest": "21b0fbff0beab7a9bdc7027a128057d107c89de03d921c4eb724af1278cdb1bb",
+  "accepted": false,
+  "application_tests_run": false
+}

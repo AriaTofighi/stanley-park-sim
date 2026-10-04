@@ -1,0 +1,1644 @@
+{
+  "schema_version": 1,
+  "revision": "west-m1-r1",
+  "assets": [
+    {
+      "name": "SM_HollowTree_Shell_00",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_Shell_00.npz",
+      "sha256": "da8f0a70764c7fe2717cb13f52ee1097d34fec130b79a751b7c814e6f5c73b5c",
+      "material": "old_cedar",
+      "color": [
+        0.28,
+        0.25,
+        0.2
+      ],
+      "collision": "complex",
+      "vertices": 90,
+      "triangles": 176,
+      "bounds_min_m": [
+        -765.7959330407265,
+        484.92005424299396,
+        50.578057430936376
+      ],
+      "bounds_max_m": [
+        -763.4483671844395,
+        486.5494162411252,
+        62.52731933593749
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_HollowTree_TopFlashing_00",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_00.npz",
+      "sha256": "5f137021d3323df3d979555f70a929cabfa77cc932991ef30b98c755087f1f58",
+      "material": "flashing",
+      "color": [
+        0.6,
+        0.6,
+        0.56
+      ],
+      "collision": "none",
+      "vertices": 20,
+      "triangles": 36,
+      "bounds_min_m": [
+        -765.7959330407265,
+        484.9779446981563,
+        61.94429641723633
+      ],
+      "bounds_max_m": [
+        -764.0370211458379,
+        486.209424050681,
+        62.55231933593749
+      ],
+      "collision_reason": "Upper roof detail; contact handled by the structural surface or facade."
+    },
+    {
+      "name": "SM_HollowTree_Shell_01",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_Shell_01.npz",
+      "sha256": "b8b766c083651aabae9dcbe78c5504592aad251a99128dc945eee42689309e53",
+      "material": "old_cedar",
+      "color": [
+        0.28,
+        0.25,
+        0.2
+      ],
+      "collision": "complex",
+      "vertices": 90,
+      "triangles": 176,
+      "bounds_min_m": [
+        -766.4120669716598,
+        485.3850334126488,
+        50.578057430936376
+      ],
+      "bounds_max_m": [
+        -764.7963272056583,
+        486.7189733170887,
+        63.302717742919924
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_HollowTree_TopFlashing_01",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_01.npz",
+      "sha256": "3000455df2e8ff3d44c7b251cb4560fa79193860440634aa678e04e4925826ab",
+      "material": "flashing",
+      "color": [
+        0.6,
+        0.6,
+        0.56
+      ],
+      "collision": "none",
+      "vertices": 20,
+      "triangles": 36,
+      "bounds_min_m": [
+        -766.3859942830162,
+        485.3850334126488,
+        62.477219390869145
+      ],
+      "bounds_max_m": [
+        -765.592837176766,
+        486.27251890620545,
+        63.32771774291992
+      ],
+      "collision_reason": "Upper roof detail; contact handled by the structural surface or facade."
+    },
+    {
+      "name": "SM_HollowTree_Shell_02",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_Shell_02.npz",
+      "sha256": "c6b63acd40c55fd3c73ab74df01195d1b2c5044f8cfe6e2a958b493e92316761",
+      "material": "old_cedar",
+      "color": [
+        0.28,
+        0.25,
+        0.2
+      ],
+      "collision": "complex",
+      "vertices": 90,
+      "triangles": 176,
+      "bounds_min_m": [
+        -767.5003969410039,
+        485.291977622664,
+        50.578057430936376
+      ],
+      "bounds_max_m": [
+        -766.3586962070971,
+        486.7158624056266,
+        63.296256408691406
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_HollowTree_TopFlashing_02",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_02.npz",
+      "sha256": "3faca7180f61c6a269902786b2ba33023726637469575125d15bba28b5c1284b",
+      "material": "flashing",
+      "color": [
+        0.6,
+        0.6,
+        0.56
+      ],
+      "collision": "none",
+      "vertices": 20,
+      "triangles": 36,
+      "bounds_min_m": [
+        -767.3778156189188,
+        485.5675554011304,
+        63.26035415649414
+      ],
+      "bounds_max_m": [
+        -766.3765604998745,
+        486.28319396104615,
+        63.321256408691404
+      ],
+      "collision_reason": "Upper roof detail; contact handled by the structural surface or facade."
+    },
+    {
+      "name": "SM_HollowTree_Shell_03",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_Shell_03.npz",
+      "sha256": "a0eebf1ac2237c9716adda38c0ace7ecd8dda2b7dda51888ed8c5354f55c803f",
+      "material": "old_cedar",
+      "color": [
+        0.28,
+        0.25,
+        0.2
+      ],
+      "collision": "complex",
+      "vertices": 90,
+      "triangles": 176,
+      "bounds_min_m": [
+        -767.7174124973475,
+        484.76211102399077,
+        50.578057430936376
+      ],
+      "bounds_max_m": [
+        -766.8432310638682,
+        485.885401193183,
+        63.33937322235107
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_HollowTree_TopFlashing_03",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_03.npz",
+      "sha256": "8f6c0fe186f29d74ff0fad04feca19a70fb97bd58fea6521f1522b02a5cc90fc",
+      "material": "flashing",
+      "color": [
+        0.6,
+        0.6,
+        0.56
+      ],
+      "collision": "none",
+      "vertices": 20,
+      "triangles": 36,
+      "bounds_min_m": [
+        -767.4916394059163,
+        484.76493661186345,
+        60.93937322235107
+      ],
+      "bounds_max_m": [
+        -766.9859756131737,
+        485.77456292901525,
+        63.36437322235107
+      ],
+      "collision_reason": "Upper roof detail; contact handled by the structural surface or facade."
+    },
+    {
+      "name": "SM_HollowTree_Shell_04",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_Shell_04.npz",
+      "sha256": "a7ce1e4c93efa3d089525df48a581e91bc9ae9bdac65ffa0268cc4c176be476a",
+      "material": "old_cedar",
+      "color": [
+        0.28,
+        0.25,
+        0.2
+      ],
+      "collision": "complex",
+      "vertices": 90,
+      "triangles": 176,
+      "bounds_min_m": [
+        -767.4336421930708,
+        483.9810888417467,
+        50.578057430936376
+      ],
+      "bounds_max_m": [
+        -766.8052701419181,
+        484.7697866962658,
+        63.33937322235107
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_HollowTree_TopFlashing_04",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_04.npz",
+      "sha256": "1228e5aa47294aba04d6d49995ced2afdbbe1b4aefe9619beae016024d82a8d9",
+      "material": "flashing",
+      "color": [
+        0.6,
+        0.6,
+        0.56
+      ],
+      "collision": "none",
+      "vertices": 20,
+      "triangles": 36,
+      "bounds_min_m": [
+        -767.3491003033158,
+        484.04215951932315,
+        63.33937322235107
+      ],
+      "bounds_max_m": [
+        -766.8052701419181,
+        484.7697866962658,
+        63.36437322235107
+      ],
+      "collision_reason": "Upper roof detail; contact handled by the structural surface or facade."
+    },
+    {
+      "name": "SM_HollowTree_Shell_05",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_Shell_05.npz",
+      "sha256": "35ce555ffb60412b7100de66813548b8dc144179fffc71d7670b9aa6d3d98a00",
+      "material": "old_cedar",
+      "color": [
+        0.28,
+        0.25,
+        0.2
+      ],
+      "collision": "complex",
+      "vertices": 90,
+      "triangles": 176,
+      "bounds_min_m": [
+        -767.0787479994576,
+        483.1221494064057,
+        50.578057430936376
+      ],
+      "bounds_max_m": [
+        -766.2857939077697,
+        484.26909516975724,
+        63.33937322235107
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_HollowTree_TopFlashing_05",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_05.npz",
+      "sha256": "3589b1333eab7f8f5881e97c4bbdf3ad497971b663f33b87f03a8204a4f8aba2",
+      "material": "flashing",
+      "color": [
+        0.6,
+        0.6,
+        0.56
+      ],
+      "collision": "none",
+      "vertices": 20,
+      "triangles": 36,
+      "bounds_min_m": [
+        -767.0206725079847,
+        483.7500376338494,
+        61.755165557861325
+      ],
+      "bounds_max_m": [
+        -766.291110136821,
+        484.26909516975724,
+        63.36437322235107
+      ],
+      "collision_reason": "Upper roof detail; contact handled by the structural surface or facade."
+    },
+    {
+      "name": "SM_HollowTree_Shell_06",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_Shell_06.npz",
+      "sha256": "7712332ae1584bbede707fedf82f06353b6ac4e7a75003f00f7d6ffbe036b294",
+      "material": "old_cedar",
+      "color": [
+        0.28,
+        0.25,
+        0.2
+      ],
+      "collision": "complex",
+      "vertices": 90,
+      "triangles": 176,
+      "bounds_min_m": [
+        -766.2879798978405,
+        482.9946405537437,
+        50.578057430936376
+      ],
+      "bounds_max_m": [
+        -764.8826725780565,
+        484.07009896756887,
+        63.3314094543457
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_HollowTree_TopFlashing_06",
+      "feature_id": "SP_hollow_tree",
+      "mesh_path": "data/derived/west-landmarks/SM_HollowTree_TopFlashing_06.npz",
+      "sha256": "1fcf48c57c1de258c93b50b1b1851310d4cbe7f151bb48dae7c45e2c4353e816",
+      "material": "flashing",
+      "color": [
+        0.6,
+        0.6,
+        0.56
+      ],
+      "collision": "none",
+      "vertices": 20,
+      "triangles": 36,
+      "bounds_min_m": [
+        -766.2879798978405,
+        483.4783750966792,
+        63.269968872070315
+      ],
+      "bounds_max_m": [
+        -765.2659031829212,
+        484.07009896756887,
+        63.3564094543457
+      ],
+      "collision_reason": "Upper roof detail; contact handled by the structural surface or facade."
+    },
+    {
+      "name": "SM_SiwashLookout_ConcreteRoof",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ConcreteRoof.npz",
+      "sha256": "6ca9e4e448a80aaa49edf22968975f4105f091ee97a2b400d3bc521c8976293d",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 20,
+      "triangles": 36,
+      "bounds_min_m": [
+        -930.3075,
+        657.5375,
+        22.899915631611247
+      ],
+      "bounds_max_m": [
+        -923.8575,
+        663.6875,
+        23.178486038086344
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_00",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_00.npz",
+      "sha256": "6bc5f142d5c6cd6cc37b120e7048bddb6e1fa6b11fe76f6908d7aa6e51d4fcd2",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.2325,
+        661.9446523309115,
+        18.64772472381592
+      ],
+      "bounds_max_m": [
+        -929.5503808272787,
+        663.1625,
+        21.028486038086346
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_00_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_00_56.npz",
+      "sha256": "5cf3ab3955317ad61666a2a9d5a1dd3aee75ad7ed8745faf997089f4de968151",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.2626838864848,
+        662.0254088179408,
+        23.705143414160318
+      ],
+      "bounds_max_m": [
+        -929.7523161135152,
+        663.1745911820592,
+        23.77098603022737
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_00_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_00_108.npz",
+      "sha256": "97e376c3479881f56f55b2c8069e257b65ebb2044b263f9a07183e55ef72bc9c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.2626838864848,
+        662.0254088179408,
+        24.22514341416032
+      ],
+      "bounds_max_m": [
+        -929.7523161135152,
+        663.1745911820592,
+        24.290986030227373
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Post_00",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Post_00.npz",
+      "sha256": "c6955a3f3354e6bcff32c49469bdc05bd85910bf5c186174d61d0f7fe567c383",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -929.8225,
+        663.1225000000001,
+        23.178486038086344
+      ],
+      "bounds_max_m": [
+        -929.7425000000001,
+        663.2025,
+        24.278486038086346
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_01",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_01.npz",
+      "sha256": "cebc728f3a9741e04969a79d241e582a81d2222f06f266435f30eb0f8fd4b4c4",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.3075,
+        660.5993602917192,
+        18.797723388671876
+      ],
+      "bounds_max_m": [
+        -929.9828455426668,
+        662.0375,
+        21.027643406301348
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_01_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_01_56.npz",
+      "sha256": "e7364d628f1f94dc3b6d17cbebf583a7d61c99a4233337c7606e1af90bb6b811",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.3399587217913,
+        660.6107226335032,
+        23.702100720215675
+      ],
+      "bounds_max_m": [
+        -930.2000412782087,
+        662.0392773664968,
+        23.770143332416364
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_01_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_01_108.npz",
+      "sha256": "8d37edf73c49fec2e5b060a11d357a0f3f8c8f436325f9094336a5363de01fa8",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.3399587217913,
+        660.6107226335032,
+        24.222100720215675
+      ],
+      "bounds_max_m": [
+        -930.2000412782087,
+        662.0392773664968,
+        24.290143332416367
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Post_01",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Post_01.npz",
+      "sha256": "0e172cf26fa3588a1cb96ec87a74760b402addfb92be2ca6059535f19fe4b92c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.2724999999999,
+        661.9975000000001,
+        23.177643406301346
+      ],
+      "bounds_max_m": [
+        -930.1925,
+        662.0775,
+        24.277643406301348
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_02",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_02.npz",
+      "sha256": "3b66a44eb0c40234b9bab8a20637b136f396539fda429da69a6ec24eba9294ce",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.3075,
+        659.5625,
+        19.49470958709717
+      ],
+      "bounds_max_m": [
+        -929.4904392144689,
+        660.7365347345892,
+        21.024600646330697
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_02_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_02_56.npz",
+      "sha256": "3eea1f80fbe4ece5ee38480266a7130d8cc1a3f6b7c2f3601f605d62a0e05dd5",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.335782662022,
+        659.5462621546732,
+        23.697243876551067
+      ],
+      "bounds_max_m": [
+        -929.679217337978,
+        660.6287378453268,
+        23.767100384214324
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_02_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_02_108.npz",
+      "sha256": "a906e5e06de5181a1ae664bb034fca8a0275f63007ee05a54665c3185608f357",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.335782662022,
+        659.5462621546732,
+        24.21724387655107
+      ],
+      "bounds_max_m": [
+        -929.679217337978,
+        660.6287378453268,
+        24.287100384214323
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Post_02",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Post_02.npz",
+      "sha256": "145ad48b1feff1bb02b628b053722d428e2f2dcd539a5069862326c72451b058",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -930.3475,
+        660.5725,
+        23.174600646330695
+      ],
+      "bounds_max_m": [
+        -930.2675,
+        660.6524999999999,
+        24.274600646330697
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_03",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_03.npz",
+      "sha256": "b882da719d50885a19c5e3e82c4e10bbc0b1f6349321e40b2701b9d808027479",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -929.7075,
+        657.5375,
+        19.80970916748047
+      ],
+      "bounds_max_m": [
+        -926.7851327324852,
+        659.7644477369648,
+        22.919743614434697
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_03_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_03_56.npz",
+      "sha256": "c29ea840c0c3ceff31c9622caf915ee1692d4d32f87d02f6ccd884c890e81ae8",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -929.726778670693,
+        657.5111585509586,
+        23.681420346114912
+      ],
+      "bounds_max_m": [
+        -926.913221329307,
+        659.5888414490414,
+        23.76224326966447
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_03_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_03_108.npz",
+      "sha256": "1687ecd5ea99058ef2ec7f77478d104227c87d30eff34999315a1fe7a9f3f164",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -929.726778670693,
+        657.5111585509586,
+        24.20142034611491
+      ],
+      "bounds_max_m": [
+        -926.913221329307,
+        659.5888414490414,
+        24.282243269664473
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Post_03",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Post_03.npz",
+      "sha256": "2d9310c0d3780b87fdd23f9fd536f594e4d320bf113b52fb2edfca1d6192ebf3",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -929.7475,
+        659.5225,
+        23.169743614434697
+      ],
+      "bounds_max_m": [
+        -929.6675,
+        659.6025,
+        24.2697436144347
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_EndPost_03",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_EndPost_03.npz",
+      "sha256": "ec4893b91cc417e5bfedd6edaf8ccbe1611fdca54698de5b3e40bdc45f70b48d",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.9725,
+        657.4975000000001,
+        23.153920001344687
+      ],
+      "bounds_max_m": [
+        -926.8925,
+        657.5775,
+        24.25392000134469
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_04",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_04.npz",
+      "sha256": "fcd57c0adcb9e6e9d9616a794c0d1d6d48e1a944f8249c8ab4f1f1c1fbf2bcd7",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -927.1006681984991,
+        657.5375,
+        20.365714645385744
+      ],
+      "bounds_max_m": [
+        -926.1075,
+        658.4724850183491,
+        22.903920001344687
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_05",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_05.npz",
+      "sha256": "cb4a8cc85443956bb18856c149f659fcee715ce762e125ab4ec9ce245acc84c7",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.3016889371798,
+        658.2875,
+        20.524222946166994
+      ],
+      "bounds_max_m": [
+        -923.8575,
+        661.2199504896053,
+        22.902386606681006
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_06",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_06.npz",
+      "sha256": "1d116b40d748a228624f2506ccf2f41abfd30b30a99524e964d3d53ff589f3cb",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.6278095484297,
+        660.8590666321983,
+        19.651743507385255
+      ],
+      "bounds_max_m": [
+        -923.8575,
+        662.9375,
+        22.914788834121786
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_06_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_06_56.npz",
+      "sha256": "d61a0f8bc506144a0e3ec2ef1138bb5e89aa39cf26092e693298ca236e65d24c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.5015121734618,
+        661.0359665677814,
+        23.677415977042134
+      ],
+      "bounds_max_m": [
+        -923.8384878265381,
+        662.9640334322186,
+        23.757288488690897
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_06_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_06_108.npz",
+      "sha256": "fe31c530b83206b4ab102ec4dad1d49fcbd8f6c622c12961c2dd94c20bf83b32",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.5015121734618,
+        661.0359665677814,
+        24.197415977042137
+      ],
+      "bounds_max_m": [
+        -923.8384878265381,
+        662.9640334322186,
+        24.277288488690896
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Post_06",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Post_06.npz",
+      "sha256": "f460b670470cc604815e9acb823b2c1aa9d6de130c68ba0d14cf35e2d15980e8",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -923.8974999999999,
+        661.0225,
+        23.149915631611247
+      ],
+      "bounds_max_m": [
+        -923.8175,
+        661.1025,
+        24.24991563161125
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_07",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_07.npz",
+      "sha256": "2840625493ab71d54d3e4528e217d807adb82868385fbfe1cd35d95b35025030",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -927.6565347345893,
+        662.7204392144689,
+        19.596742248535158
+      ],
+      "bounds_max_m": [
+        -926.4825,
+        663.5375,
+        21.020386318599968
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_07_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_07_56.npz",
+      "sha256": "40546ebc72e5d497aaaec128c2ecc14d8a69ce4205156fe409143123ae409fd7",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -927.5487551220688,
+        662.909207465554,
+        23.692289182247663
+      ],
+      "bounds_max_m": [
+        -926.4662448779312,
+        663.565792534446,
+        23.762885970474088
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_07_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_07_108.npz",
+      "sha256": "aa83bac43c2af30ed5657ed47b8af4766c8b8e94cd32fe926ec78c4345932b62",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -927.5487551220688,
+        662.909207465554,
+        24.212289182247662
+      ],
+      "bounds_max_m": [
+        -926.4662448779312,
+        663.565792534446,
+        24.282885970474087
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Post_07",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Post_07.npz",
+      "sha256": "e18bcdfb6533f677e719500eeb24d06fb004b2c4b08dcd53fd2b619d906f3da4",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -926.5224999999999,
+        662.8975,
+        23.164788834121786
+      ],
+      "bounds_max_m": [
+        -926.4425,
+        662.9775,
+        24.264788834121788
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_08",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_08.npz",
+      "sha256": "d4d5295b306112db21b696650b592cfcb4e0239f39fd6d787e857b32eed8e742",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -928.8367103118918,
+        663.2892123489192,
+        19.539742088317873
+      ],
+      "bounds_max_m": [
+        -927.5325,
+        663.6875,
+        21.025826334580174
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_08_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_08_56.npz",
+      "sha256": "9b8430ec0186da433816b6ff5fb56d2e6e507ca6b8ff63b34a27b709c11e5196",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -928.8114341133262,
+        663.5052065144442,
+        23.697886610381445
+      ],
+      "bounds_max_m": [
+        -927.5285658866738,
+        663.7197934855558,
+        23.76832604279869
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_08_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_08_108.npz",
+      "sha256": "1284a7946159d5c9b5aa1dbdb90e1fb02616c6aa9830354d04388851d95b75ea",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -928.8114341133262,
+        663.5052065144442,
+        24.217886610381445
+      ],
+      "bounds_max_m": [
+        -927.5285658866738,
+        663.7197934855558,
+        24.28832604279869
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Post_08",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Post_08.npz",
+      "sha256": "aa0f7fb183ede1ad8455c184102739e725423c2371337702d4fe6009a6df5ebc",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -927.5725,
+        663.4975000000001,
+        23.170386318599967
+      ],
+      "bounds_max_m": [
+        -927.4925000000001,
+        663.5775,
+        24.270386318599968
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_ShelterWall_09",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_ShelterWall_09.npz",
+      "sha256": "74cb6cd535626cd3f67217e29b486112217a1fccf19ab64b970d861836e9ada2",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -929.7825,
+        662.9423822250195,
+        19.453740692138673
+      ],
+      "bounds_max_m": [
+        -928.6889750442413,
+        663.6875,
+        21.028486038086346
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_09_56",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_09_56.npz",
+      "sha256": "e18dc61edd93f65d5303db697fe97b81584b63be6fd66e6cdd3d924a0dcb3d8b",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -929.7979769733918,
+        663.1338476812524,
+        23.703326428323187
+      ],
+      "bounds_max_m": [
+        -928.7920230266083,
+        663.7161523187476,
+        23.770985944343327
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Rail_09_108",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Rail_09_108.npz",
+      "sha256": "cf56fc92892539caedcddf7157ce71a7a40bab18959b2a061229ac9f2c7e6095",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -929.7979769733918,
+        663.1338476812524,
+        24.223326428323187
+      ],
+      "bounds_max_m": [
+        -928.7920230266083,
+        663.7161523187476,
+        24.29098594434333
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_SiwashLookout_Post_09",
+      "feature_id": "SP_siwash_lookout",
+      "mesh_path": "data/derived/west-landmarks/SM_SiwashLookout_Post_09.npz",
+      "sha256": "67e420d5ddb87db2060dca5c15ced7e6ed4ea8503b224ca6d3ccacf41211902f",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        -928.8475,
+        663.6475,
+        23.175826334580172
+      ],
+      "bounds_max_m": [
+        -928.7675,
+        663.7275,
+        24.275826334580174
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_ThirdBeach_FacilitiesRoofSurvey",
+      "feature_id": "SP_third_beach",
+      "mesh_path": "data/derived/west-landmarks/SM_ThirdBeach_FacilitiesRoofSurvey.npz",
+      "sha256": "8eb0642bdd04cdefac066a7b743b2254bd626d9e0fd15520b91be2d5ef0e13c6",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 26,
+      "triangles": 20,
+      "bounds_min_m": [
+        -937.6710205078125,
+        56.22800064086914,
+        13.70376995869985
+      ],
+      "bounds_max_m": [
+        -918.4320068359375,
+        81.60800170898438,
+        14.62426127547973
+      ],
+      "collision_reason": "Upper roof detail; contact handled by the structural surface or facade."
+    },
+    {
+      "name": "SM_ThirdBeach_RoofStepClosures",
+      "feature_id": "SP_third_beach",
+      "mesh_path": "data/derived/west-landmarks/SM_ThirdBeach_RoofStepClosures.npz",
+      "sha256": "3dfce1e32a96ac8e5297757ea41f4e1849472a8a0c82c048c3b8650f94365cb4",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 20,
+      "triangles": 10,
+      "bounds_min_m": [
+        -931.780029,
+        56.228001,
+        13.81965084094093
+      ],
+      "bounds_max_m": [
+        -924.762024,
+        72.294998,
+        14.44048361882135
+      ],
+      "collision_reason": "Upper roof detail; contact handled by the structural surface or facade."
+    },
+    {
+      "name": "SM_ThirdBeach_FacilitiesWallsReview",
+      "feature_id": "SP_third_beach",
+      "mesh_path": "data/derived/west-landmarks/SM_ThirdBeach_FacilitiesWallsReview.npz",
+      "sha256": "e6e72c35d3e957c3af1a1f6fbc1a8bbe53b059b0b80e74803942b9ef46a2876b",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "complex",
+      "vertices": 56,
+      "triangles": 28,
+      "bounds_min_m": [
+        -937.567993,
+        56.228001,
+        10.648461318081736
+      ],
+      "bounds_max_m": [
+        -918.432007,
+        81.608002,
+        14.221556644573212
+      ],
+      "collision_reason": "Explicit surface or source-located structure. Estimated contact dimensions are recorded per feature; live contact acceptance remains false."
+    },
+    {
+      "name": "SM_ThirdBeach_FacilitiesWallsReview_PathConflict",
+      "feature_id": "SP_third_beach",
+      "mesh_path": "data/derived/west-landmarks/SM_ThirdBeach_FacilitiesWallsReview_PathConflict.npz",
+      "sha256": "2638b7983c442038a9bb8c24efe620c0eb3b0916f6967f17c7735c8a9b645ea2",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 4,
+      "bounds_min_m": [
+        -937.671021,
+        59.952999,
+        10.596721764014612
+      ],
+      "bounds_max_m": [
+        -931.504028,
+        81.608002,
+        14.624261298020022
+      ],
+      "collision_reason": "Roof-edge extrusion intersects a mapped public path. It may be an eave or doorway; retain the visual panel but do not block passage without ground reference."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_hollow_tree",
+      "name": "Hollow Tree",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/parks-recreation-culture/trees.aspx",
+        "https://apt.memberclicks.net/assets/docs/Kalman-42-4.pdf",
+        "manifests/named-hollow-tree-survey.json",
+        "evidence/corridor/ortho-utm/named-hollow-tree.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          -766.3,
+          484.8
+        ],
+        "source_shell_returns": 820,
+        "ground_fit": {
+          "returns": 627,
+          "median_abs_residual_m": 0.03923771967879475,
+          "p95_abs_residual_m": 0.200778440539864,
+          "independent_accuracy": false
+        },
+        "source_top_h_m": 63.33937322235107,
+        "ground_height_m": 50.728057430936374,
+        "source_height_m": 12.611315791414697,
+        "shell_bounds_local_m": [
+          [
+            -767.7174124973475,
+            482.9946405537437,
+            50.578057430936376
+          ],
+          [
+            -763.4483671844395,
+            486.7189733170887,
+            63.33937322235107
+          ]
+        ]
+      },
+      "estimates": {
+        "shell_thickness_m": 0.32,
+        "entrance_open_sector_degrees": [
+          315,
+          365
+        ],
+        "segment_count": 7,
+        "shell_method": "Seven coarse vertical sectors fit to radial source bands; gaps and correspondence to exact wood segments are estimates",
+        "insufficient_local_bins_using_same_angle_other_heights": 46,
+        "base_flare": "Lower unsupported section extrapolates nearest measured shell band by at most 8 percent per 3 m",
+        "top_flashing_thickness_m": 0.025
+      },
+      "limits": "Recognizable hollow dead-cedar shell, no foliage. East/southeast entrance remains open. Wall thickness, individual cracks, braces, bark and exact cavity are unfinished. The 2011 conservation photos confirm the open shell and top flashing; City 2022 returns set present size. No independent accuracy or runtime acceptance.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_siwash_lookout",
+      "name": "Siwash Rock lookout / former No. 6 searchlight shelter",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/parks-recreation-culture/landmarks-in-stanley-park.aspx",
+        "https://www.vancouvergunners.ca/uploads/2/5/3/2/25322670/photographic_record_of_historical_remains.pdf",
+        "https://www.vancouvergunners.ca/uploads/2/5/3/2/25322670/stanleypark_docent_package_as_at_27aug_2021.pdf",
+        "manifests/named-siwash-lookout-survey.json",
+        "evidence/corridor/ortho-utm/named-siwash-lookout.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          -927.4586145206115,
+          660.853960166744
+        ],
+        "roof_outline_local_m": [
+          [
+            -929.7825,
+            663.1625
+          ],
+          [
+            -930.2325,
+            662.0375
+          ],
+          [
+            -930.3075,
+            660.6125
+          ],
+          [
+            -929.7075,
+            659.5625
+          ],
+          [
+            -926.9325,
+            657.5375
+          ],
+          [
+            -926.1075,
+            658.2875
+          ],
+          [
+            -923.8575,
+            661.0625
+          ],
+          [
+            -926.4825,
+            662.9375
+          ],
+          [
+            -927.5325,
+            663.5375
+          ],
+          [
+            -928.8075,
+            663.6875
+          ]
+        ],
+        "roof_area_m2": 24.288750000000142,
+        "roof_plane_origin_m": [
+          -927.5558033124393,
+          660.7851023802157
+        ],
+        "roof_plane": [
+          -0.003990760356211356,
+          0.0023453101735919106,
+          23.164024090395966
+        ],
+        "roof_fit": {
+          "returns": 707,
+          "median_abs_residual_m": 0.009793691482908429,
+          "p95_abs_residual_m": 0.0307842410312034,
+          "independent_accuracy": false
+        }
+      },
+      "estimates": {
+        "outline_trace_uncertainty_m": 0.3,
+        "roof_thickness_m": 0.25,
+        "wall_thickness_m": 0.25,
+        "rail_height_m": 1.1,
+        "rail_section_m": 0.065,
+        "post_section_m": 0.08,
+        "opening_height_below_roof_m": 2.15,
+        "body": "Rear and side wall envelope to nearby ground returns; curved seaward window dimensions not measured"
+      },
+      "limits": "Concrete deck form and height are source-backed. Rail details, window/sill height, wall base and approach transition are blockout estimates. Upper public approach needs terrain/contact review; do not mark this asset walkable from a successful import.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_third_beach",
+      "name": "Third Beach concession and washroom building",
+      "sources": [
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "https://vancouver.ca/parks-recreation-culture/third-beach.aspx",
+        "https://vancouver.ca/parks-recreation-culture/dining-in-stanley-park.aspx",
+        "manifests/named-third-beach-survey.json",
+        "evidence/corridor/ortho-utm/named-third-beach.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          -927.6194669283353,
+          65.93719269679143
+        ],
+        "source_roof_ids": [
+          "lidar2022_488000_5461000_1"
+        ],
+        "roof_returns": 8851,
+        "sampling_m": 0.5,
+        "plane_review": {
+          "seed": 731,
+          "planes": [
+            {
+              "coefficients_local": [
+                -0.049094134310127144,
+                -0.030084814984403536,
+                14.140769090725904
+              ],
+              "support_vertices": 877,
+              "median_abs_residual_m": 0.06685390336447838
+            },
+            {
+              "coefficients_local": [
+                -0.021774120742785237,
+                -0.013870553890254662,
+                13.887478014106835
+              ],
+              "support_vertices": 123,
+              "median_abs_residual_m": 0.055026674478066084
+            }
+          ],
+          "coordinate_origin_xy_m": [
+            -930.0765041040589,
+            67.58580240385164
+          ],
+          "direct_plane_support": 1000,
+          "vertices": 1154,
+          "unsupported_vertices_snapped_to_nearby_plane": 154,
+          "displacement_p95_m": 0.253075726580419,
+          "displacement_max_m": 1.7733350699725463,
+          "limits": "M1 large roof planes only. HVAC, skylights, parapets and small roof breaks are suppressed. Plane fit uses the same source and is not an independent accuracy check.",
+          "boundary_simplification_m": 0.85,
+          "spatial_label_vote": "13 neighbours, two passes; no height blending",
+          "planes_retained": [
+            0,
+            1
+          ],
+          "discarded_tiny_patch_area_m2": 0.0,
+          "patch_regions": 3,
+          "roof_triangles": 20
+        }
+      },
+      "estimates": {
+        "walls": "Roof-edge extrusion to City DTM; facade footprint, doors and eaves not measured",
+        "facade_panels_with_contact": 14,
+        "facade_panels_withheld_at_public_paths": 2
+      },
+      "limits": "The distinct angled facility roof is individually identified. Forecourt, stairs, parking, beach access and exact facades remain unfinished; this building alone does not complete the Third Beach public-space group.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_488000_5461000_1"
+      ]
+    }
+  ],
+  "source_period": "City survey 2022-09-07/09; ortho 2022-06-06/07-01; dated primary identity/form references",
+  "target_period": "September 2026",
+  "acceptance": false,
+  "reference_rights": "City survey/ortho derivatives OGL-Vancouver. Published photos, conservation drawings and military-history PDFs are reference only; exclude from runtime/distribution.",
+  "input_hashes": {
+    "manifests/named-hollow-tree-survey.json": "f61c9f07ca9036a0eb804c687b88675fbb8a621a35c524dbf43204b253b6ff30",
+    "manifests/named-siwash-lookout-survey.json": "ca9c7072b9903f21bd3790cfabf9e3b4f0b4be7b7a3b43156836da13e8f6dad3",
+    "manifests/named-third-beach-survey.json": "fe2545a345e4b9a32336c86a327c86934905489dfc8c04fcf7bbfe5be69ef11b"
+  }
+}

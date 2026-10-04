@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://seabc.ca/wordpress/files/notable_structures/Vancouver_Notable_Structures_IABSE_SEABC_2017.pdf",
+    "path": "data\\raw\\skyline\\seabc-structures-2017.pdf",
+    "bytes": 9127282,
+    "sha256": "0d76f085ab2eba21e13ae1fb42f9ab3b22d5917ae35bdc3ca38b6eab0e8c3e42"
+  },
+  {
+    "url": "https://thestackyvr.com/wordpress/wp-content/themes/the-stack/pdf/TheStack_by_the_Numbers_092922.pdf",
+    "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+  },
+  {
+    "url": "https://council.vancouver.ca/20160920/documents/p9.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

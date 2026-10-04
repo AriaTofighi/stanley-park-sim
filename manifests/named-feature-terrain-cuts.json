@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "coordinates": "Local east/north/up metres; CGVD2013; manifests/world-origin.json",
+  "cuts": [
+    {
+      "id": "SP_prospect_lookout",
+      "name": "Prospect Point Lookout",
+      "polygon_local_xy_m": [
+        [
+          61.4005,
+          1246.7285
+        ],
+        [
+          62.9755,
+          1248.3784999999998
+        ],
+        [
+          62.6005,
+          1249.4285
+        ],
+        [
+          64.7005,
+          1251.1535
+        ],
+        [
+          66.7255,
+          1250.0285
+        ],
+        [
+          68.6755,
+          1250.1785
+        ],
+        [
+          70.2505,
+          1251.1535
+        ],
+        [
+          71.1505,
+          1250.5535
+        ],
+        [
+          73.5505,
+          1251.4534999999998
+        ],
+        [
+          76.0255,
+          1250.8535
+        ],
+        [
+          77.8255,
+          1249.4285
+        ],
+        [
+          79.4755,
+          1247.1035
+        ],
+        [
+          80.3755,
+          1244.6284999999998
+        ],
+        [
+          79.7755,
+          1242.0034999999998
+        ],
+        [
+          78.5005,
+          1240.8035
+        ],
+        [
+          76.8505,
+          1241.3284999999998
+        ],
+        [
+          77.8255,
+          1243.4285
+        ],
+        [
+          77.9005,
+          1245.0034999999998
+        ],
+        [
+          77.0755,
+          1246.7285
+        ],
+        [
+          75.3505,
+          1247.7034999999998
+        ],
+        [
+          73.3255,
+          1247.4785
+        ],
+        [
+          71.3005,
+          1247.1035
+        ],
+        [
+          69.6505,
+          1247.4785
+        ],
+        [
+          68.0755,
+          1246.1284999999998
+        ],
+        [
+          66.2005,
+          1244.4035
+        ],
+        [
+          63.4255,
+          1245.7534999999998
+        ]
+      ],
+      "source_manifest": "manifests/named-feature-blockouts.json",
+      "visible_surface_mesh": "data/derived/named-features/SM_ProspectLookout_TerraceSurvey.npz",
+      "visible_surface_sha256": "f5474864f0ac0af1eb98f45db092e3b06484dac7172817ee55bc8e2377e2ffa2",
+      "closure_mesh": null,
+      "safety_floor_mesh": null,
+      "operation": "Replace terrain inside the polygon; conform the boundary. Do not remove whole coarse terrain triangles by centroid alone.",
+      "vertical_rule": {
+        "kind": "surface_tin_minus_offset",
+        "offset_m": 0.12
+      },
+      "collision_rule": "Replace coarse terrain collision with the terrace TIN and vertical terrain-boundary stitch after boundary and stair review",
+      "integrated": false,
+      "visual_acceptance": false,
+      "collision_acceptance": false
+    },
+    {
+      "id": "SP_second_pool",
+      "name": "Second Beach Pool outline and surface",
+      "polygon_local_xy_m": [
+        [
+          -670.75,
+          -815.85
+        ],
+        [
+          -666.25,
+          -805.45
+        ],
+        [
+          -658.95,
+          -794.95
+        ],
+        [
+          -654.55,
+          -789.05
+        ],
+        [
+          -652.35,
+          -789.95
+        ],
+        [
+          -649.85,
+          -788.95
+        ],
+        [
+          -648.55,
+          -787.05
+        ],
+        [
+          -634.95,
+          -785.05
+        ],
+        [
+          -632.55,
+          -784.85
+        ],
+        [
+          -631.55,
+          -788.15
+        ],
+        [
+          -629.35,
+          -790.15
+        ],
+        [
+          -627.15,
+          -790.05
+        ],
+        [
+          -625.15,
+          -788.35
+        ],
+        [
+          -624.85,
+          -785.55
+        ],
+        [
+          -602.55,
+          -783.45
+        ],
+        [
+          -597.75,
+          -783.65
+        ],
+        [
+          -592.45,
+          -785.25
+        ],
+        [
+          -589.85,
+          -787.55
+        ],
+        [
+          -589.15,
+          -790.55
+        ],
+        [
+          -586.95,
+          -793.25
+        ],
+        [
+          -583.85,
+          -794.85
+        ],
+        [
+          -582.65,
+          -799.05
+        ],
+        [
+          -582.45,
+          -803.15
+        ],
+        [
+          -583.55,
+          -807.05
+        ],
+        [
+          -574.85,
+          -810.05
+        ],
+        [
+          -576.45,
+          -814.75
+        ],
+        [
+          -579.15,
+          -818.95
+        ],
+        [
+          -582.45,
+          -822.55
+        ],
+        [
+          -585.05,
+          -825.25
+        ],
+        [
+          -585.35,
+          -827.85
+        ],
+        [
+          -583.55,
+          -829.25
+        ],
+        [
+          -588.45,
+          -831.25
+        ],
+        [
+          -593.95,
+          -832.95
+        ],
+        [
+          -600.75,
+          -833.35
+        ],
+        [
+          -607.95,
+          -832.85
+        ],
+        [
+          -613.45,
+          -831.05
+        ],
+        [
+          -620.05,
+          -828.55
+        ],
+        [
+          -624.05,
+          -835.45
+        ]
+      ],
+      "source_manifest": "manifests/named-waterfront-blockouts.json",
+      "visible_surface_mesh": "data/derived/named-waterfront/SM_SecondPool_SurfaceReview.npz",
+      "visible_surface_sha256": "db646f50a6d017def3411cd3121490b6a008d0a08bf237eed1dac8e23fc0657a",
+      "closure_mesh": "SM_SecondPool_BasinContainmentReview",
+      "safety_floor_mesh": "SM_SecondPool_SyntheticSafetyFloor",
+      "operation": "Replace terrain inside the polygon; conform the boundary. Do not remove whole coarse terrain triangles by centroid alone.",
+      "vertical_rule": {
+        "kind": "constant",
+        "height_m": 2.7151989698410035
+      },
+      "collision_rule": "Remove coarse terrain collision; retain the synthetic safety floor and basin sides. Water stays non-colliding. Keep closed facility entry outside public navigation; perimeter fence is not yet modeled.",
+      "integrated": false,
+      "visual_acceptance": false,
+      "collision_acceptance": false
+    }
+  ]
+}

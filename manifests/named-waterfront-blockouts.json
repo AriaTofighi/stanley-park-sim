@@ -1,0 +1,2034 @@
+{
+  "schema_version": 1,
+  "source_period": "City 2022 survey and imagery",
+  "target_period": "September 2026",
+  "features": [
+    {
+      "id": "SP_yacht_club",
+      "name": "Royal Vancouver Yacht Club Coal Harbour marina",
+      "sources": [
+        "https://www.royalvan.com/home-ports",
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "evidence/corridor/ortho-utm/named-yacht-full.json",
+        "manifests/named-yacht-full-west-survey.json"
+      ],
+      "measured": {
+        "roof_groups": [
+          {
+            "tag": "WestWide",
+            "trace_local_m": [
+              [
+                984.0,
+                -828.0
+              ],
+              [
+                1007.0,
+                -815.0
+              ],
+              [
+                1038.0,
+                -867.0
+              ],
+              [
+                1016.0,
+                -881.0
+              ]
+            ],
+            "returns": 52363,
+            "roof_height_percentiles_m": [
+              2.802626848220825,
+              7.146126389503479,
+              7.949983716011047,
+              8.71793794631958,
+              8.864213466644287
+            ]
+          },
+          {
+            "tag": "WestNarrow",
+            "trace_local_m": [
+              [
+                1012.0,
+                -818.0
+              ],
+              [
+                1030.0,
+                -812.0
+              ],
+              [
+                1051.0,
+                -852.0
+              ],
+              [
+                1037.0,
+                -860.0
+              ]
+            ],
+            "returns": 22760,
+            "roof_height_percentiles_m": [
+              2.802436113357544,
+              4.3987685441970825,
+              5.4684929847717285,
+              6.47566065788269,
+              6.7606201171875
+            ]
+          },
+          {
+            "tag": "WestEnd",
+            "trace_local_m": [
+              [
+                1028.0,
+                -875.0
+              ],
+              [
+                1050.0,
+                -863.0
+              ],
+              [
+                1072.0,
+                -900.0
+              ],
+              [
+                1049.0,
+                -914.0
+              ]
+            ],
+            "returns": 35353,
+            "roof_height_percentiles_m": [
+              4.108342170715332,
+              5.67173433303833,
+              6.973119735717773,
+              8.165526151657104,
+              8.355514526367188
+            ]
+          },
+          {
+            "tag": "MiddleWestUpper",
+            "trace_local_m": [
+              [
+                1052.0,
+                -817.0
+              ],
+              [
+                1063.0,
+                -810.0
+              ],
+              [
+                1080.0,
+                -840.0
+              ],
+              [
+                1068.0,
+                -848.0
+              ]
+            ],
+            "returns": 11986,
+            "roof_height_percentiles_m": [
+              2.8712356090545654,
+              3.3971569776535033,
+              4.431846380233765,
+              5.296768045425415,
+              5.374259948730469
+            ]
+          },
+          {
+            "tag": "MiddleWestLower",
+            "trace_local_m": [
+              [
+                1070.0,
+                -848.0
+              ],
+              [
+                1088.0,
+                -837.0
+              ],
+              [
+                1114.0,
+                -881.0
+              ],
+              [
+                1099.0,
+                -891.0
+              ]
+            ],
+            "returns": 32246,
+            "roof_height_percentiles_m": [
+              4.120087146759033,
+              5.902524876594543,
+              6.850050449371338,
+              7.842241382598877,
+              7.922082901000977
+            ]
+          },
+          {
+            "tag": "MiddleEastUpper",
+            "trace_local_m": [
+              [
+                1065.0,
+                -807.0
+              ],
+              [
+                1074.0,
+                -802.0
+              ],
+              [
+                1092.0,
+                -831.0
+              ],
+              [
+                1083.0,
+                -836.0
+              ]
+            ],
+            "returns": 9768,
+            "roof_height_percentiles_m": [
+              2.801135301589966,
+              3.367179036140442,
+              4.344173789024353,
+              5.284945487976074,
+              5.360146999359131
+            ]
+          },
+          {
+            "tag": "MiddleEastLower",
+            "trace_local_m": [
+              [
+                1091.0,
+                -835.0
+              ],
+              [
+                1102.0,
+                -829.0
+              ],
+              [
+                1134.0,
+                -881.0
+              ],
+              [
+                1122.0,
+                -889.0
+              ]
+            ],
+            "returns": 23709,
+            "roof_height_percentiles_m": [
+              2.9409267902374268,
+              3.184150218963623,
+              4.378951549530029,
+              5.348405957221985,
+              6.7588348388671875
+            ]
+          },
+          {
+            "tag": "LongWest",
+            "trace_local_m": [
+              [
+                1130.0,
+                -810.0
+              ],
+              [
+                1143.0,
+                -800.0
+              ],
+              [
+                1196.0,
+                -885.0
+              ],
+              [
+                1184.0,
+                -892.0
+              ]
+            ],
+            "returns": 44433,
+            "roof_height_percentiles_m": [
+              2.816409111022949,
+              3.290936291217804,
+              4.383312940597534,
+              5.276604413986206,
+              6.187366485595703
+            ]
+          },
+          {
+            "tag": "LongEast",
+            "trace_local_m": [
+              [
+                1145.0,
+                -798.0
+              ],
+              [
+                1158.0,
+                -790.0
+              ],
+              [
+                1215.0,
+                -878.0
+              ],
+              [
+                1200.0,
+                -888.0
+              ]
+            ],
+            "returns": 51193,
+            "roof_height_percentiles_m": [
+              2.84026837348938,
+              3.529306674003601,
+              5.15099310874939,
+              6.44678897857666,
+              6.577476978302002
+            ]
+          },
+          {
+            "tag": "LongEnd",
+            "trace_local_m": [
+              [
+                1207.0,
+                -886.0
+              ],
+              [
+                1226.0,
+                -881.0
+              ],
+              [
+                1243.0,
+                -908.0
+              ],
+              [
+                1224.0,
+                -920.0
+              ]
+            ],
+            "returns": 21386,
+            "roof_height_percentiles_m": [
+              2.8080945014953613,
+              4.555939137935638,
+              5.97814416885376,
+              7.11112871170044,
+              7.51016902923584
+            ]
+          },
+          {
+            "tag": "MainSouth",
+            "trace_local_m": [
+              [
+                1187.0,
+                -778.0
+              ],
+              [
+                1197.0,
+                -772.0
+              ],
+              [
+                1257.0,
+                -864.0
+              ],
+              [
+                1245.0,
+                -872.0
+              ]
+            ],
+            "returns": 37172,
+            "roof_height_percentiles_m": [
+              2.8058981895446777,
+              3.246886110305786,
+              4.270770192146301,
+              5.334046983718872,
+              5.438958644866943
+            ]
+          },
+          {
+            "tag": "SouthOuter",
+            "trace_local_m": [
+              [
+                1242.0,
+                -817.0
+              ],
+              [
+                1300.0,
+                -774.0
+              ],
+              [
+                1310.0,
+                -787.0
+              ],
+              [
+                1254.0,
+                -830.0
+              ]
+            ],
+            "returns": 39155,
+            "roof_height_percentiles_m": [
+              3.006370782852173,
+              4.764806687831879,
+              6.0213775634765625,
+              7.07753586769104,
+              7.308807373046875
+            ]
+          },
+          {
+            "tag": "SouthInner",
+            "trace_local_m": [
+              [
+                1229.0,
+                -803.0
+              ],
+              [
+                1307.0,
+                -748.0
+              ],
+              [
+                1316.0,
+                -759.0
+              ],
+              [
+                1237.0,
+                -815.0
+              ]
+            ],
+            "returns": 32264,
+            "roof_height_percentiles_m": [
+              2.8046770095825195,
+              3.154163861274719,
+              4.453276872634888,
+              6.205627584457398,
+              7.320328712463379
+            ]
+          },
+          {
+            "tag": "SouthSmall",
+            "trace_local_m": [
+              [
+                1234.0,
+                -821.0
+              ],
+              [
+                1243.0,
+                -814.0
+              ],
+              [
+                1256.0,
+                -837.0
+              ],
+              [
+                1248.0,
+                -842.0
+              ]
+            ],
+            "returns": 8060,
+            "roof_height_percentiles_m": [
+              3.9653308391571045,
+              4.8598979949951175,
+              6.619154691696167,
+              7.595863807201385,
+              7.745452404022217
+            ]
+          },
+          {
+            "tag": "NorthInner",
+            "trace_local_m": [
+              [
+                1185.0,
+                -747.0
+              ],
+              [
+                1192.0,
+                -743.0
+              ],
+              [
+                1195.0,
+                -748.0
+              ],
+              [
+                1325.0,
+                -652.0
+              ],
+              [
+                1334.0,
+                -665.0
+              ],
+              [
+                1202.0,
+                -760.0
+              ],
+              [
+                1194.0,
+                -763.0
+              ]
+            ],
+            "returns": 70099,
+            "roof_height_percentiles_m": [
+              2.8112258911132812,
+              3.222092890739441,
+              4.359747409820557,
+              5.6150720596313475,
+              7.8102803230285645
+            ]
+          },
+          {
+            "tag": "NorthOuter",
+            "trace_local_m": [
+              [
+                1205.0,
+                -762.0
+              ],
+              [
+                1336.0,
+                -667.0
+              ],
+              [
+                1347.0,
+                -682.0
+              ],
+              [
+                1210.0,
+                -773.0
+              ]
+            ],
+            "returns": 75353,
+            "roof_height_percentiles_m": [
+              2.8006012439727783,
+              3.4463202953338623,
+              5.754189491271973,
+              7.099347400665283,
+              7.907239675521851
+            ]
+          },
+          {
+            "tag": "CentralServiceWest",
+            "trace_local_m": [
+              [
+                1146.0,
+                -782.0
+              ],
+              [
+                1160.0,
+                -774.0
+              ],
+              [
+                1165.0,
+                -782.0
+              ],
+              [
+                1151.0,
+                -790.0
+              ]
+            ],
+            "returns": 3561,
+            "roof_height_percentiles_m": [
+              4.120574951171875,
+              4.378442549705506,
+              5.2900131940841675,
+              6.261200046539306,
+              6.331525087356567
+            ]
+          },
+          {
+            "tag": "CentralServiceMain",
+            "trace_local_m": [
+              [
+                1156.0,
+                -764.0
+              ],
+              [
+                1175.0,
+                -754.0
+              ],
+              [
+                1183.0,
+                -768.0
+              ],
+              [
+                1165.0,
+                -779.0
+              ]
+            ],
+            "returns": 5044,
+            "roof_height_percentiles_m": [
+              2.8013432025909424,
+              2.8416290402412416,
+              3.1592092514038086,
+              5.512559700012207,
+              6.299466133117676
+            ]
+          },
+          {
+            "tag": "CentralServiceEntrance",
+            "trace_local_m": [
+              [
+                1171.0,
+                -744.0
+              ],
+              [
+                1181.0,
+                -737.0
+              ],
+              [
+                1187.0,
+                -746.0
+              ],
+              [
+                1177.0,
+                -751.0
+              ]
+            ],
+            "returns": 2701,
+            "roof_height_percentiles_m": [
+              2.8443093299865723,
+              3.2028968811035154,
+              4.362762212753296,
+              7.551755428314209,
+              7.9673011302948
+            ]
+          }
+        ],
+        "sampling_m": 0.65
+      },
+      "estimates": {
+        "wall_base_m": 1.55,
+        "roof_trace": "Local XY traced on City ortho with a 10 m review grid; corners have approximately 1 m trace uncertainty"
+      },
+      "limits": "Floating roof groups are measured in City LAS; most are not class 6. Dock level and wall extrusion are provisional. Tide, boats, dock network, piles and individual shed walls need further work. Central service roof is not yet assigned to Mermaid Inn by identity. No marina collision or water alignment acceptance.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_second_pool",
+      "name": "Second Beach Pool outline and surface",
+      "sources": [
+        "https://vancouver.ca/parks-recreation-culture/second-beach-pool.aspx",
+        "evidence/corridor/ortho-utm/named-second-pool.json",
+        "manifests/named-second-pool-survey.json",
+        "manifests/named-second-pool-west-survey.json"
+      ],
+      "measured": {
+        "outline_local_m": [
+          [
+            -670.75,
+            -815.85
+          ],
+          [
+            -666.25,
+            -805.45
+          ],
+          [
+            -658.95,
+            -794.95
+          ],
+          [
+            -654.55,
+            -789.05
+          ],
+          [
+            -652.35,
+            -789.95
+          ],
+          [
+            -649.85,
+            -788.95
+          ],
+          [
+            -648.55,
+            -787.05
+          ],
+          [
+            -634.95,
+            -785.05
+          ],
+          [
+            -632.55,
+            -784.85
+          ],
+          [
+            -631.55,
+            -788.15
+          ],
+          [
+            -629.35,
+            -790.15
+          ],
+          [
+            -627.15,
+            -790.05
+          ],
+          [
+            -625.15,
+            -788.35
+          ],
+          [
+            -624.85,
+            -785.55
+          ],
+          [
+            -602.55,
+            -783.45
+          ],
+          [
+            -597.75,
+            -783.65
+          ],
+          [
+            -592.45,
+            -785.25
+          ],
+          [
+            -589.85,
+            -787.55
+          ],
+          [
+            -589.15,
+            -790.55
+          ],
+          [
+            -586.95,
+            -793.25
+          ],
+          [
+            -583.85,
+            -794.85
+          ],
+          [
+            -582.65,
+            -799.05
+          ],
+          [
+            -582.45,
+            -803.15
+          ],
+          [
+            -583.55,
+            -807.05
+          ],
+          [
+            -574.85,
+            -810.05
+          ],
+          [
+            -576.45,
+            -814.75
+          ],
+          [
+            -579.15,
+            -818.95
+          ],
+          [
+            -582.45,
+            -822.55
+          ],
+          [
+            -585.05,
+            -825.25
+          ],
+          [
+            -585.35,
+            -827.85
+          ],
+          [
+            -583.55,
+            -829.25
+          ],
+          [
+            -588.45,
+            -831.25
+          ],
+          [
+            -593.95,
+            -832.95
+          ],
+          [
+            -600.75,
+            -833.35
+          ],
+          [
+            -607.95,
+            -832.85
+          ],
+          [
+            -613.45,
+            -831.05
+          ],
+          [
+            -620.05,
+            -828.55
+          ],
+          [
+            -624.05,
+            -835.45
+          ]
+        ],
+        "area_m2": 3521.675000000002,
+        "water_returns": 768,
+        "water_level_m": 3.3651989698410034,
+        "coping_returns": 4970,
+        "coping_height_range_m": [
+          3.449308395385742,
+          3.524601459503174
+        ],
+        "visible_lane_outer_edge_m": 50.64632267006169
+      },
+      "estimates": {
+        "coping_width_m": 0.35,
+        "water_state": "2022 water retained for M1; September 2026 closed season confirmed but current fill state unknown",
+        "synthetic_safety_floor_m": 2.8651989698410034
+      },
+      "limits": "Pool floor, depth, railings, slides and fence are not measured models. City says 50 m lane section and 80 m pool length; the traced outer lane edge is 50.65 m, while freeform pool length definition is unresolved. No false scale adjustment was made. Requires terrain cut; no swimming or collision. Closed after 7 September in 2026. A synthetic floor and vertical basin sides prevent fall-through; these do not assert measured pool depth. No perimeter fence model exists yet.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [],
+      "terrain_cut_polygon_local_m": [
+        [
+          -670.75,
+          -815.85
+        ],
+        [
+          -666.25,
+          -805.45
+        ],
+        [
+          -658.95,
+          -794.95
+        ],
+        [
+          -654.55,
+          -789.05
+        ],
+        [
+          -652.35,
+          -789.95
+        ],
+        [
+          -649.85,
+          -788.95
+        ],
+        [
+          -648.55,
+          -787.05
+        ],
+        [
+          -634.95,
+          -785.05
+        ],
+        [
+          -632.55,
+          -784.85
+        ],
+        [
+          -631.55,
+          -788.15
+        ],
+        [
+          -629.35,
+          -790.15
+        ],
+        [
+          -627.15,
+          -790.05
+        ],
+        [
+          -625.15,
+          -788.35
+        ],
+        [
+          -624.85,
+          -785.55
+        ],
+        [
+          -602.55,
+          -783.45
+        ],
+        [
+          -597.75,
+          -783.65
+        ],
+        [
+          -592.45,
+          -785.25
+        ],
+        [
+          -589.85,
+          -787.55
+        ],
+        [
+          -589.15,
+          -790.55
+        ],
+        [
+          -586.95,
+          -793.25
+        ],
+        [
+          -583.85,
+          -794.85
+        ],
+        [
+          -582.65,
+          -799.05
+        ],
+        [
+          -582.45,
+          -803.15
+        ],
+        [
+          -583.55,
+          -807.05
+        ],
+        [
+          -574.85,
+          -810.05
+        ],
+        [
+          -576.45,
+          -814.75
+        ],
+        [
+          -579.15,
+          -818.95
+        ],
+        [
+          -582.45,
+          -822.55
+        ],
+        [
+          -585.05,
+          -825.25
+        ],
+        [
+          -585.35,
+          -827.85
+        ],
+        [
+          -583.55,
+          -829.25
+        ],
+        [
+          -588.45,
+          -831.25
+        ],
+        [
+          -593.95,
+          -832.95
+        ],
+        [
+          -600.75,
+          -833.35
+        ],
+        [
+          -607.95,
+          -832.85
+        ],
+        [
+          -613.45,
+          -831.05
+        ],
+        [
+          -620.05,
+          -828.55
+        ],
+        [
+          -624.05,
+          -835.45
+        ]
+      ],
+      "terrain_cut_target_height_m": 2.7151989698410035,
+      "safety_floor_mesh": "SM_SecondPool_SyntheticSafetyFloor",
+      "containment_mesh": "SM_SecondPool_BasinContainmentReview"
+    }
+  ],
+  "assets": [
+    {
+      "name": "SM_YachtPort_WestWide_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_WestWide_RoofSurvey.npz",
+      "sha256": "1184260a3351df848904e875db8a428efba2cddb834a24106cf4785b57736523",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 3856,
+      "triangles": 7571,
+      "bounds_min_m": [
+        984.5070190429688,
+        -879.531005859375,
+        2.802626848220825
+      ],
+      "bounds_max_m": [
+        1036.8865356445312,
+        -815.5700073242188,
+        8.864213466644287
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_WestWide_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_WestWide_WallsReview.npz",
+      "sha256": "de1a48bf4922ade76ac15014652e5eff5668b577814dd26fe8fe7931897f3d4d",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 556,
+      "triangles": 278,
+      "bounds_min_m": [
+        984.5070190429688,
+        -879.531005859375,
+        1.55
+      ],
+      "bounds_max_m": [
+        1036.8865356445312,
+        -815.5700073242188,
+        8.815711975097656
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_WestNarrow_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_WestNarrow_RoofSurvey.npz",
+      "sha256": "7304cc9f7b755dc586e1e13e70bbaf6782ec217f012886c782fa7d534fb012b1",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 1739,
+      "triangles": 3365,
+      "bounds_min_m": [
+        1013.7650146484375,
+        -858.1710205078125,
+        2.802436113357544
+      ],
+      "bounds_max_m": [
+        1048.8370361328125,
+        -812.8739929199219,
+        6.7606201171875
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_WestNarrow_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_WestNarrow_WallsReview.npz",
+      "sha256": "8a7e46e2d2e4129374f73ba3a87a84a3093c1874d91e7ac9a199b5db37ea0561",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 436,
+      "triangles": 218,
+      "bounds_min_m": [
+        1013.7650146484375,
+        -858.1710205078125,
+        1.55
+      ],
+      "bounds_max_m": [
+        1048.8370361328125,
+        -812.8739929199219,
+        6.516551494598389
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_WestEnd_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_WestEnd_RoofSurvey.npz",
+      "sha256": "3131d15bbf2c00e57e113684a4c7f2c5e93bbeca590785b9d3bdaf31f607ff8e",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 2686,
+      "triangles": 5262,
+      "bounds_min_m": [
+        1028.238037109375,
+        -912.7310180664062,
+        4.108342170715332
+      ],
+      "bounds_max_m": [
+        1070.677978515625,
+        -863.5159912109375,
+        8.355514526367188
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_WestEnd_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_WestEnd_WallsReview.npz",
+      "sha256": "cdc60df6b7ccb0f30faf3eb9fddd382f9767839299a3a8d7e30c3302124aa110",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 432,
+      "triangles": 216,
+      "bounds_min_m": [
+        1028.238037109375,
+        -912.7310180664062,
+        1.55
+      ],
+      "bounds_max_m": [
+        1070.677978515625,
+        -863.5159912109375,
+        8.285018920898438
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MiddleWestUpper_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MiddleWestUpper_RoofSurvey.npz",
+      "sha256": "2897f0b65f9a48ffb54ed8a9889f887fd4e4e871bd21aeb64de7a35fc6dc6e13",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 973,
+      "triangles": 1875,
+      "bounds_min_m": [
+        1052.0889892578125,
+        -843.3189697265625,
+        2.8712356090545654
+      ],
+      "bounds_max_m": [
+        1078.052978515625,
+        -810.5499877929688,
+        5.374259948730469
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MiddleWestUpper_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MiddleWestUpper_WallsReview.npz",
+      "sha256": "5ad58672176db9bace0da9c744ea14226fc8c893bf38f2459bbd40cd9cbb92e9",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 276,
+      "triangles": 138,
+      "bounds_min_m": [
+        1052.0889892578125,
+        -843.3189697265625,
+        1.55
+      ],
+      "bounds_max_m": [
+        1078.052978515625,
+        -810.5499877929688,
+        5.285851716995239
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MiddleWestLower_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MiddleWestLower_RoofSurvey.npz",
+      "sha256": "6640036e04f59770da578568f0792ebb3e3507941b923ae325d4a79311daa42c",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 2415,
+      "triangles": 4715,
+      "bounds_min_m": [
+        1070.4420166015625,
+        -889.2730102539062,
+        4.120087146759033
+      ],
+      "bounds_max_m": [
+        1113.093994140625,
+        -837.1630249023438,
+        7.922082901000977
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MiddleWestLower_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MiddleWestLower_WallsReview.npz",
+      "sha256": "402657021ef224da3e82afdd92a56fd3d8d786fcf8a5fbe9a11732010b1147d7",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 452,
+      "triangles": 226,
+      "bounds_min_m": [
+        1070.4420166015625,
+        -889.2730102539062,
+        1.55
+      ],
+      "bounds_max_m": [
+        1113.093994140625,
+        -837.1630249023438,
+        7.897240161895752
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MiddleEastUpper_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MiddleEastUpper_RoofSurvey.npz",
+      "sha256": "9352507a69c78404956d973d714e5f7d02326c70fc71cbe370850d2ed160e6c0",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 810,
+      "triangles": 1548,
+      "bounds_min_m": [
+        1065.2509765625,
+        -834.1539916992188,
+        2.801135301589966
+      ],
+      "bounds_max_m": [
+        1090.1729736328125,
+        -802.6170043945312,
+        5.360146999359131
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MiddleEastUpper_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MiddleEastUpper_WallsReview.npz",
+      "sha256": "8e62267703434e9e9f8c4fcf39ca8ccfd36a7b5aafae2db8cd954b8fd56bf7fa",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 280,
+      "triangles": 140,
+      "bounds_min_m": [
+        1065.2509765625,
+        -834.1539916992188,
+        1.55
+      ],
+      "bounds_max_m": [
+        1090.1729736328125,
+        -802.6170043945312,
+        5.335178852081299
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MiddleEastLower_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MiddleEastLower_RoofSurvey.npz",
+      "sha256": "595a073889b668e55e4d81caea3210b3fd0b6ff73b522a9cd51a2f7bff765873",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 1891,
+      "triangles": 3663,
+      "bounds_min_m": [
+        1091.1910400390625,
+        -886.1380004882812,
+        2.9409267902374268
+      ],
+      "bounds_max_m": [
+        1133.3299560546875,
+        -829.8309936523438,
+        6.7588348388671875
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MiddleEastLower_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MiddleEastLower_WallsReview.npz",
+      "sha256": "d32dba2279a11838b4e96b31ad798ba1994c68cd98f0c3158196bda1fd31f073",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 468,
+      "triangles": 234,
+      "bounds_min_m": [
+        1091.1910400390625,
+        -886.1380004882812,
+        1.55
+      ],
+      "bounds_max_m": [
+        1133.3299560546875,
+        -829.8309936523438,
+        6.7588348388671875
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_LongWest_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_LongWest_RoofSurvey.npz",
+      "sha256": "65cf6c4c76456ba57655edb9fe9cada80f7b902d95e552c09b3885f07f11e854",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 3456,
+      "triangles": 6723,
+      "bounds_min_m": [
+        1130.322021484375,
+        -889.4169921875,
+        2.816409111022949
+      ],
+      "bounds_max_m": [
+        1193.532958984375,
+        -801.926025390625,
+        6.187366485595703
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_LongWest_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_LongWest_WallsReview.npz",
+      "sha256": "2ffaba639f0a6902f5867baa11bbe33bc1671f43bf340ab92541972831bc03dc",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 740,
+      "triangles": 370,
+      "bounds_min_m": [
+        1130.322021484375,
+        -889.4169921875,
+        1.55
+      ],
+      "bounds_max_m": [
+        1193.532958984375,
+        -801.926025390625,
+        5.293468952178955
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_LongEast_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_LongEast_RoofSurvey.npz",
+      "sha256": "1da1115e4fb10ce34ede536fb0f4d78bfcd9222a20198cc109509e4167f7f4ff",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 4015,
+      "triangles": 7796,
+      "bounds_min_m": [
+        1145.1710205078125,
+        -886.2665100097656,
+        2.84026837348938
+      ],
+      "bounds_max_m": [
+        1214.9019775390625,
+        -790.3900146484375,
+        6.577476978302002
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_LongEast_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_LongEast_WallsReview.npz",
+      "sha256": "f62f95164afb5155859d813abf34224a7fa561198505d1081a8acb382d7f649f",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 928,
+      "triangles": 464,
+      "bounds_min_m": [
+        1145.1710205078125,
+        -886.2665100097656,
+        1.55
+      ],
+      "bounds_max_m": [
+        1214.9019775390625,
+        -790.3900146484375,
+        6.522380828857422
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_LongEnd_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_LongEnd_RoofSurvey.npz",
+      "sha256": "03402dfdaecfc5213bc1dc530a724fdb68d79e6014faa1ac686e1925a465da28",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 1640,
+      "triangles": 3172,
+      "bounds_min_m": [
+        1207.2659912109375,
+        -918.1320190429688,
+        2.8080945014953613
+      ],
+      "bounds_max_m": [
+        1240.54296875,
+        -881.2930297851562,
+        7.51016902923584
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_LongEnd_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_LongEnd_WallsReview.npz",
+      "sha256": "7e3245bcc8547bbf7e2dcb5813c35f871c545d04e94c0070b494b2ab770002ea",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 424,
+      "triangles": 212,
+      "bounds_min_m": [
+        1207.2659912109375,
+        -918.1320190429688,
+        1.55
+      ],
+      "bounds_max_m": [
+        1240.54296875,
+        -881.2930297851562,
+        7.490185260772705
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MainSouth_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MainSouth_RoofSurvey.npz",
+      "sha256": "c0f269a5be0e74502d3ab8bc41b78d793400d10bb8564cae1604c276dd023fc2",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 3040,
+      "triangles": 5875,
+      "bounds_min_m": [
+        1188.54296875,
+        -869.2420043945312,
+        2.8058981895446777
+      ],
+      "bounds_max_m": [
+        1254.1619873046875,
+        -774.7235107421875,
+        5.438958644866943
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_MainSouth_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_MainSouth_WallsReview.npz",
+      "sha256": "36ea0c74ab77adb8b06d0abb44ec86e2cd1b9267c528fc5ce1355ff8c2b8ee1b",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 804,
+      "triangles": 402,
+      "bounds_min_m": [
+        1188.54296875,
+        -869.2420043945312,
+        1.55
+      ],
+      "bounds_max_m": [
+        1254.1619873046875,
+        -774.7235107421875,
+        5.334095001220703
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_SouthOuter_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_SouthOuter_RoofSurvey.npz",
+      "sha256": "6260844674a22be0dcb505ea84efb28026ae1b3c26283f21363a360d4d0a98d5",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 2986,
+      "triangles": 5819,
+      "bounds_min_m": [
+        1242.0799560546875,
+        -829.5020141601562,
+        3.006370782852173
+      ],
+      "bounds_max_m": [
+        1309.197021484375,
+        -774.6719970703125,
+        7.308807373046875
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_SouthOuter_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_SouthOuter_WallsReview.npz",
+      "sha256": "5ccb25ddc19cbc009742b6511c08debb2a44d139d98d3f5acdd29b85bc053c67",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 604,
+      "triangles": 302,
+      "bounds_min_m": [
+        1242.0799560546875,
+        -829.5020141601562,
+        1.55
+      ],
+      "bounds_max_m": [
+        1309.197021484375,
+        -774.6719970703125,
+        7.231875896453857
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_SouthInner_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_SouthInner_RoofSurvey.npz",
+      "sha256": "e614af3c41169a83844d0564944bc14c54d85a2daabc66cbfde9df7c1558d5eb",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 2729,
+      "triangles": 5090,
+      "bounds_min_m": [
+        1229.6739501953125,
+        -814.6920166015625,
+        2.8046770095825195
+      ],
+      "bounds_max_m": [
+        1312.5625,
+        -748.697021484375,
+        7.320328712463379
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_SouthInner_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_SouthInner_WallsReview.npz",
+      "sha256": "c9dceea2f2b21bf7a9ede81c65bb3f9cb0f70efe95090cd55729dff85bd4b738",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 1408,
+      "triangles": 704,
+      "bounds_min_m": [
+        1229.6739501953125,
+        -814.6920166015625,
+        1.55
+      ],
+      "bounds_max_m": [
+        1311.8590087890625,
+        -748.697021484375,
+        7.170704364776611
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_SouthSmall_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_SouthSmall_RoofSurvey.npz",
+      "sha256": "ac6599b6c46594440ab74e4b15de9d50de35b4d1097a34841f36beaef96d115d",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 648,
+      "triangles": 1232,
+      "bounds_min_m": [
+        1234.2979736328125,
+        -841.7589721679688,
+        3.9653308391571045
+      ],
+      "bounds_max_m": [
+        1254.6390380859375,
+        -814.2160034179688,
+        7.745452404022217
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_SouthSmall_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_SouthSmall_WallsReview.npz",
+      "sha256": "37f75a494dce6ac39742492a5c3f6e509eea1c448a2173ae1650eeccade86102",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 248,
+      "triangles": 124,
+      "bounds_min_m": [
+        1234.2979736328125,
+        -841.7589721679688,
+        1.55
+      ],
+      "bounds_max_m": [
+        1254.6390380859375,
+        -814.2160034179688,
+        7.563448429107666
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_NorthInner_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_NorthInner_RoofSurvey.npz",
+      "sha256": "0d57fe4c21493ad37a357e52f75a0f10a1e05dabdc781df530744c17fd4e5d10",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 5757,
+      "triangles": 11006,
+      "bounds_min_m": [
+        1185.375,
+        -760.8319702148438,
+        2.8112258911132812
+      ],
+      "bounds_max_m": [
+        1333.4400024414062,
+        -652.31201171875,
+        7.8102803230285645
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_NorthInner_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_NorthInner_WallsReview.npz",
+      "sha256": "1b0be96e362a08bae2457668d5404b3a64b1a557dc8ebd2ae451c1e70aa4ac8e",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 2016,
+      "triangles": 1008,
+      "bounds_min_m": [
+        1185.375,
+        -759.4010009765625,
+        1.55
+      ],
+      "bounds_max_m": [
+        1333.4400024414062,
+        -652.31201171875,
+        7.278275489807129
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_NorthOuter_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_NorthOuter_RoofSurvey.npz",
+      "sha256": "b7c05a0873105d572c7b365ea43ce1d3c76627282dabb6bf4849352c615c3bdd",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 5893,
+      "triangles": 11483,
+      "bounds_min_m": [
+        1205.6174926757812,
+        -771.177001953125,
+        2.8006012439727783
+      ],
+      "bounds_max_m": [
+        1345.8355102539062,
+        -668.0809936523438,
+        7.907239675521851
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_NorthOuter_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_NorthOuter_WallsReview.npz",
+      "sha256": "fc3f09070ecfa85eb51a7ac2209464b9ceeb66e056a2c27431852725490672ad",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 1204,
+      "triangles": 602,
+      "bounds_min_m": [
+        1205.6174926757812,
+        -771.177001953125,
+        1.55
+      ],
+      "bounds_max_m": [
+        1345.8355102539062,
+        -668.0809936523438,
+        7.5656962394714355
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_CentralServiceWest_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_CentralServiceWest_RoofSurvey.npz",
+      "sha256": "26e38d6f92cfa1ee69ba84250918a616b182c57c63c6d3fb61596fc6e4b3145d",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 294,
+      "triangles": 549,
+      "bounds_min_m": [
+        1147.6199951171875,
+        -787.8875122070312,
+        4.120574951171875
+      ],
+      "bounds_max_m": [
+        1163.5169677734375,
+        -774.4860229492188,
+        6.331525087356567
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_CentralServiceWest_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_CentralServiceWest_WallsReview.npz",
+      "sha256": "eced303f707c0cf3301619e5ab123dea586889384005cfb0f4c81d1c03c3e111",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 148,
+      "triangles": 74,
+      "bounds_min_m": [
+        1147.6199951171875,
+        -787.8875122070312,
+        1.55
+      ],
+      "bounds_max_m": [
+        1163.5169677734375,
+        -774.4860229492188,
+        6.2465856075286865
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_CentralServiceMain_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_CentralServiceMain_RoofSurvey.npz",
+      "sha256": "0c9e60f760c33f5680d174fe7fc6cea10b1442e066b86d9860f2f1a3ba26d14d",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 550,
+      "triangles": 1036,
+      "bounds_min_m": [
+        1161.3790283203125,
+        -778.7990112304688,
+        2.8013432025909424
+      ],
+      "bounds_max_m": [
+        1182.52099609375,
+        -758.8525085449219,
+        6.299466133117676
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_CentralServiceMain_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_CentralServiceMain_WallsReview.npz",
+      "sha256": "81a43c7b63f453c649721e69d51afcd597bddd859f0576333a350354c4540fb9",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 248,
+      "triangles": 124,
+      "bounds_min_m": [
+        1161.3790283203125,
+        -778.7990112304688,
+        1.55
+      ],
+      "bounds_max_m": [
+        1182.52099609375,
+        -758.8525085449219,
+        5.996469020843506
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_CentralServiceEntrance_RoofSurvey",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_CentralServiceEntrance_RoofSurvey.npz",
+      "sha256": "6a8547dacd67314d25d3ec3e14c8ff671004ce9537b8d0cd247e5dabdc61b091",
+      "material": "marina_roof",
+      "color": [
+        0.58,
+        0.61,
+        0.61
+      ],
+      "collision": "none",
+      "vertices": 233,
+      "triangles": 414,
+      "bounds_min_m": [
+        1172.35595703125,
+        -750.8670043945312,
+        2.8443093299865723
+      ],
+      "bounds_max_m": [
+        1186.9649658203125,
+        -737.4669799804688,
+        7.9673011302948
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_YachtPort_CentralServiceEntrance_WallsReview",
+      "feature_id": "SP_yacht_club",
+      "mesh_path": "data/derived/named-waterfront/SM_YachtPort_CentralServiceEntrance_WallsReview.npz",
+      "sha256": "627ab704187a148aaf07a9af56729434ff5cc9731bea5305a3491c1470ef7b39",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "none",
+      "vertices": 200,
+      "triangles": 100,
+      "bounds_min_m": [
+        1172.35595703125,
+        -750.8670043945312,
+        1.55
+      ],
+      "bounds_max_m": [
+        1186.9649658203125,
+        -737.4669799804688,
+        7.786314964294434
+      ],
+      "collision_reason": "Private marina is observed from the public seawall. Floating dock level and private access geometry remain unverified; no public traversal is claimed."
+    },
+    {
+      "name": "SM_SecondPool_SurfaceReview",
+      "feature_id": "SP_second_pool",
+      "mesh_path": "data/derived/named-waterfront/SM_SecondPool_SurfaceReview.npz",
+      "sha256": "db646f50a6d017def3411cd3121490b6a008d0a08bf237eed1dac8e23fc0657a",
+      "material": "pool_water",
+      "color": [
+        0.27,
+        0.66,
+        0.68
+      ],
+      "collision": "none",
+      "vertices": 3559,
+      "triangles": 7049,
+      "bounds_min_m": [
+        -670.75,
+        -835.45,
+        3.3651989698410034
+      ],
+      "bounds_max_m": [
+        -574.85,
+        -783.45,
+        3.3651989698410034
+      ],
+      "collision_reason": "Water surface, not a solid floor. Pool was closed after 7 September 2026. Basin/fence and current fill state remain unresolved; no pool-interior traversal is claimed."
+    },
+    {
+      "name": "SM_SecondPool_CopingSurvey",
+      "feature_id": "SP_second_pool",
+      "mesh_path": "data/derived/named-waterfront/SM_SecondPool_CopingSurvey.npz",
+      "sha256": "1de124bb44283e4605f2da3feaaaee95f725371cb99b7d5dc798c9160be9101e",
+      "material": "pool_rim",
+      "color": [
+        0.81,
+        0.79,
+        0.69
+      ],
+      "collision": "complex",
+      "vertices": 152,
+      "triangles": 76,
+      "bounds_min_m": [
+        -671.0712195435706,
+        -835.7727282680814,
+        3.4643083953857423
+      ],
+      "bounds_max_m": [
+        -574.5186725328824,
+        -783.1003034244177,
+        3.539601459503174
+      ],
+      "collision_reason": "Low coping ribbon uses ground returns. Pool interior remains outside the public traversal scope and water stays non-colliding."
+    },
+    {
+      "name": "SM_SecondPool_SyntheticSafetyFloor",
+      "feature_id": "SP_second_pool",
+      "mesh_path": "data/derived/named-waterfront/SM_SecondPool_SyntheticSafetyFloor.npz",
+      "sha256": "f72723b2600c691df23d9369e838882304af922c2f8bdfd6da049df66313b4a0",
+      "material": "pool_floor",
+      "color": [
+        0.5,
+        0.57,
+        0.55
+      ],
+      "collision": "complex",
+      "vertices": 3559,
+      "triangles": 7049,
+      "bounds_min_m": [
+        -670.75,
+        -835.45,
+        2.8651989698410034
+      ],
+      "bounds_max_m": [
+        -574.85,
+        -783.45,
+        2.8651989698410034
+      ],
+      "collision_reason": "Explicit flat safety floor 0.5 m below the 2022 water proxy. This prevents fall-through after terrain removal; it is not a measured pool depth or public access permission."
+    },
+    {
+      "name": "SM_SecondPool_BasinContainmentReview",
+      "feature_id": "SP_second_pool",
+      "mesh_path": "data/derived/named-waterfront/SM_SecondPool_BasinContainmentReview.npz",
+      "sha256": "94ac8e5ad0d49ec9c1a512d33a9ab858566b64c8bee63277e9bc27fe965731bf",
+      "material": "pool_floor",
+      "color": [
+        0.5,
+        0.57,
+        0.55
+      ],
+      "collision": "complex",
+      "vertices": 152,
+      "triangles": 76,
+      "bounds_min_m": [
+        -670.75,
+        -835.45,
+        2.8651989698410034
+      ],
+      "bounds_max_m": [
+        -574.85,
+        -783.45,
+        3.539601459503174
+      ],
+      "collision_reason": "Vertical side closure to the synthetic safety floor. Basin wall shape and depth are provisional; keep the closed facility outside public navigation."
+    }
+  ],
+  "acceptance": false,
+  "reference_rights": "City survey derivatives use OGL-Vancouver. City and operator web pages are identity references only.",
+  "collision_policy_revision": "named-contact-r1",
+  "collision_panel_review": []
+}

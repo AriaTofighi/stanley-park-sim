@@ -1,0 +1,18 @@
+{
+  "id": "second-pool",
+  "extraction_centre_local_m": [
+    -620,
+    -810
+  ],
+  "extraction_radius_m": 85,
+  "source": "manifests/lidar2022-489000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 305936,
+  "output": {
+    "path": "data/derived/named-second-pool-survey.npz",
+    "sha256": "24c3508fc096b278a9429d58534fa8b52f06dc7f47920a5e650ad98dc53e4c4f"
+  }
+}

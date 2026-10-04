@@ -1,0 +1,21 @@
+{
+  "source": "data\\derived\\lions-gate-north-ground-survey.npz",
+  "source_sha256": "a006fae15bafac1d8c19069f23bd2fa8c9f2f04a2fbaac2f1d7d1f4c9361aa2b",
+  "output": "data\\derived\\lions-gate-north-berm.npz",
+  "output_sha256": "9e40dab585f802c50b4f78ec4f4c78d10009aa6282e072657c2f9786c2dc4046",
+  "survey_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "cell_size_m": 2.0,
+  "vertices": 5864,
+  "triangles": 10552,
+  "method": "Cell 10th percentile of low unclassified returns; connected broad land; separate foundation meshes",
+  "assumptions": [
+    "1.4 m wet-shore threshold",
+    "2-cell closing of pedestal shadows",
+    "Nearest valid fill only inside the connected land region",
+    "Hidden vertical edge closures to -0.5 m"
+  ],
+  "accepted": false,
+  "collision": "none",
+  "accuracy": "Review surface. Shore outline and outer crop transition remain unaccepted."
+}

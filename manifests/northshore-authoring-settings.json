@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "Seven finite North Shore industrial silhouette groups; no site operations or public traversal",
+  "minimum_generic_building_area_m2": 150,
+  "generic_building_height_estimate_m": 12,
+  "generic_tank_height_estimate_m": 15,
+  "generic_silo_height_estimate_m": 25,
+  "generic_conveyor_height_estimate_m": 16,
+  "conveyor_width_estimate_m": 2.5,
+  "conveyor_depth_estimate_m": 2.5,
+  "sites": {
+    "Fibreco": {"pellet_silo_body_m": 26, "pellet_silo_roof_m": 7, "grain_silo_body_m": 32, "grain_silo_roof_m": 4, "shed_eave_m": 15, "shed_ridge_m": 24, "height_status": "All heights are editable M1 estimates; source confirms six pellet and fifteen grain silos, not their heights"},
+    "Seaspan": {"crane_height_m": 80, "crane_width_m": 76, "runway_way": "way_1168344141", "parked_fraction_estimate": 0.5, "girder_depth_estimate_m": 7, "girder_thickness_estimate_m": 5, "leg_width_estimate_m": 4, "footprint_depth_estimate_m": 16, "large_shop_height_estimate_m": 25, "height_status": "Owner and lifting contractor state 80m high and76m wide; member proportions and parked location are estimates"},
+    "VancouverWharves": {"shed_eave_m": 14, "shed_ridge_m": 23, "height_status": "Editable M1 estimates; mapped current sheds, tanks and silos only"},
+    "Richardson": {"old_storage_way": "way_24036793", "old_storage_m": 45, "annex_m": 50, "workhouse_m": 73, "workhouse_east_fraction_estimate": 0.28, "height_status": "2012 operator design report: proposed annex about50m, existing workhouse23m taller and western storage5m lower. 2016 completion confirmed. Exact workhouse subdivision is a photo-informed estimate."},
+    "Cargill": {"silo_body_estimate_m": 45, "workhouse_height_estimate_m": 65, "workhouse_way": "way_1168065099", "height_status": "Operator identity and current mapped grain structures; source dimensions not found in bounded research. Both heights and workhouse assignment remain estimates."},
+    "Neptune": {"shed_ways": ["way_23695710", "way_23695721"], "shed_eave_estimate_m": 12, "shed_ridge_estimate_m": 31, "height_status": "Operator confirms two enclosed potash sheds. Heights and coarse gable profile are estimates. B2 replacement state unresolved, so no invented current B2 shiploader."},
+    "G3": {"silo_body_m": 42.6, "gallery_height_estimate_m": 47, "cleaning_tower_way": "way_900257684", "cleaning_tower_m": 81, "pier_way": "way_1164689697", "loader_positions_estimate": [0.18, 0.5, 0.82], "loader_mast_estimate_m": 32, "loader_boom_estimate_m": 38, "height_status": "CLAC construction account states approximately42.6m silos and81m cleaning facility. Sonic design page states64m including conveyors, a different unresolved envelope. M1 uses42.6m bodies with estimated47m galleries; it does not certify the64m claim."}
+  },
+  "release_accepted": false
+}

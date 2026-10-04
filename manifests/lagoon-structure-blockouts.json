@@ -1,0 +1,1098 @@
+{
+  "schema_version": 1,
+  "revision": "lagoon-structures-m1-r1",
+  "assets": [
+    {
+      "name": "SM_NatureHouse_BelowDeckExterior",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_BelowDeckExterior.npz",
+      "sha256": "8bed808b29117d2cd38f5b9d9466f6ceb032e15c977aa0b2d2cff3f298476198",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        362.92,
+        -919.36,
+        1.35
+      ],
+      "bounds_max_m": [
+        393.73,
+        -902.94,
+        4.785799877134983
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_ViewingDeck",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_ViewingDeck.npz",
+      "sha256": "009a070fb8bbcfbd3e20e7122a8414b6d99f62f802ef3af615fd5a1f7fd75063",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        362.92,
+        -919.36,
+        4.650834380607644
+      ],
+      "bounds_max_m": [
+        393.73,
+        -902.94,
+        5.030799877134983
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_00",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_00.npz",
+      "sha256": "d1a3b36677cbba4fe6e6d402ec7dd7b47d8efc78964110a327db6b5736c42536",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        362.865,
+        -913.025,
+        5.005799877134983
+      ],
+      "bounds_max_m": [
+        362.975,
+        -912.9150000000001,
+        6.035799877134983
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_01",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_01.npz",
+      "sha256": "7c407fbf9a8f27259a8a7f936f99ddbdaeda1dbbc31552953074362a411c2fb8",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        365.45863636363634,
+        -912.1131818181818,
+        5.003532978947933
+      ],
+      "bounds_max_m": [
+        365.56863636363636,
+        -912.0031818181819,
+        6.0335329789479335
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_02",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_02.npz",
+      "sha256": "912dc6f3361c84b5bd67a74678d55a087fbd71de6b0910ea13333c8594406c18",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        368.05227272727274,
+        -911.2013636363636,
+        5.001266080760885
+      ],
+      "bounds_max_m": [
+        368.16227272727275,
+        -911.0913636363637,
+        6.0312660807608856
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_03",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_03.npz",
+      "sha256": "a2811993c6278364f3467adcaa06761207584f3ca941873382f456c99ba3147c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        370.6459090909091,
+        -910.2895454545454,
+        4.998999182573836
+      ],
+      "bounds_max_m": [
+        370.7559090909091,
+        -910.1795454545455,
+        6.028999182573836
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_04",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_04.npz",
+      "sha256": "b0ef35bdb55273b838b294169def22205c1c88d090feda06c062d5a576dc5017",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        373.23954545454546,
+        -909.3777272727273,
+        4.996732284386786
+      ],
+      "bounds_max_m": [
+        373.3495454545455,
+        -909.2677272727274,
+        6.026732284386786
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_05",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_05.npz",
+      "sha256": "f6e0b4e2f48b43511a9e591d32e4a836e7adfc729cd0323a516bbc5377f32c2d",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        375.8331818181818,
+        -908.4659090909091,
+        4.994465386199736
+      ],
+      "bounds_max_m": [
+        375.9431818181818,
+        -908.3559090909092,
+        6.024465386199736
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_06",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_06.npz",
+      "sha256": "0e8e96e2b4fa22d1bbb22a193e5e0655ea73d437fd442eb203e55e6ef6848387",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        378.4268181818182,
+        -907.5540909090909,
+        4.992198488012687
+      ],
+      "bounds_max_m": [
+        378.5368181818182,
+        -907.444090909091,
+        6.0221984880126875
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_07",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_07.npz",
+      "sha256": "31254c5f241a4c9775fb45d1c8fb9b528d7ab66db3e68876d8184dd97f0d3458",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        381.0204545454545,
+        -906.6422727272727,
+        4.9899315898256384
+      ],
+      "bounds_max_m": [
+        381.13045454545454,
+        -906.5322727272728,
+        6.019931589825639
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_08",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_08.npz",
+      "sha256": "b9b6375817090577c53dd03cdfc944efb4bf492c8b4d294e43193a9ff4818ecb",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        383.6140909090909,
+        -905.7304545454546,
+        4.987664691638588
+      ],
+      "bounds_max_m": [
+        383.72409090909093,
+        -905.6204545454547,
+        6.017664691638588
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_09",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_09.npz",
+      "sha256": "ec5f9f73310f590b966181c685595c151785036365cf2d452f55beada924ddae",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        386.20772727272725,
+        -904.8186363636364,
+        4.985397793451538
+      ],
+      "bounds_max_m": [
+        386.31772727272727,
+        -904.7086363636365,
+        6.015397793451538
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_10",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_10.npz",
+      "sha256": "c1e09e174fe4f029999c3084459b76abf7e270b10aa83ab2811ca4f61766b644",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        388.80136363636365,
+        -903.9068181818182,
+        4.98313089526449
+      ],
+      "bounds_max_m": [
+        388.91136363636366,
+        -903.7968181818183,
+        6.01313089526449
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailPost_11",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_11.npz",
+      "sha256": "58277fdda73808a8b0a4bb4318950794906033b4e76b181c571eca249b39b457",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        391.395,
+        -902.995,
+        4.98086399707744
+      ],
+      "bounds_max_m": [
+        391.505,
+        -902.8850000000001,
+        6.010863997077441
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_00",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_00.npz",
+      "sha256": "96debd140ac8f6e305af40bb98758a72b82f310ea3330588daec84c20d1d6cc8",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        362.9050752550551,
+        -913.0124529385123,
+        5.988532994245369
+      ],
+      "bounds_max_m": [
+        365.52856110858124,
+        -912.0157288796696,
+        6.080799861837548
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_01",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_01.npz",
+      "sha256": "c378a134d8e1b5847fab8fd9fe41fb881aae0e0b6bb3d3620fe99240c9c7840f",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        365.49871161869146,
+        -912.1006347566941,
+        5.986266096058321
+      ],
+      "bounds_max_m": [
+        368.12219747221764,
+        -911.1039106978513,
+        6.078532963650498
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_02",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_02.npz",
+      "sha256": "6c2287662ae71f3fb758834120a610229f85f42d2d057881ccbbf0fcaf4a75dd",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        368.09234798232785,
+        -911.1888165748759,
+        5.983999197871271
+      ],
+      "bounds_max_m": [
+        370.71583383585397,
+        -910.1920925160332,
+        6.07626606546345
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_03",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_03.npz",
+      "sha256": "6a06fdd6a809231b2e3eb59b72bb945c2d27ce27e2bf9261a233c84b730d87a4",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        370.6859843459642,
+        -910.2769983930577,
+        5.9817322996842215
+      ],
+      "bounds_max_m": [
+        373.30947019949036,
+        -909.280274334215,
+        6.0739991672764
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_04",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_04.npz",
+      "sha256": "f61ff5330074c41f340c0f2c960d0e935f72976bcbd995d9b2dd9f32e2190566",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        373.2796207096006,
+        -909.3651802112396,
+        5.979465401497172
+      ],
+      "bounds_max_m": [
+        375.9031065631267,
+        -908.3684561523969,
+        6.071732269089351
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_05",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_05.npz",
+      "sha256": "bf6c1ff8d03d8e4094c3b21cf2c07177a3b9eb24d9e779aa71f5e74feb84ef8c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        375.8732570732369,
+        -908.4533620294214,
+        5.977198503310123
+      ],
+      "bounds_max_m": [
+        378.4967429267631,
+        -907.4566379705786,
+        6.069465370902301
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_06",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_06.npz",
+      "sha256": "b5b40a5ba9954bf69c735eb7832008c348691f1af5dbd9fd31440f4fc0be617c",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        378.4668934368733,
+        -907.5415438476032,
+        5.974931605123074
+      ],
+      "bounds_max_m": [
+        381.0903792903994,
+        -906.5448197887605,
+        6.067198472715252
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_07",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_07.npz",
+      "sha256": "94de69e88c116ee2ea60481d3a5f210f1af264ad236277579c36f62e118c9de2",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        381.06052980050964,
+        -906.629725665785,
+        5.9726647069360235
+      ],
+      "bounds_max_m": [
+        383.6840156540358,
+        -905.6330016069423,
+        6.064931574528203
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_08",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_08.npz",
+      "sha256": "20972159e56887e0d7a67f724a094de3fe933781374767a4220f8a4279b5d43e",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        383.65416616414603,
+        -905.7179074839669,
+        5.970397808748974
+      ],
+      "bounds_max_m": [
+        386.27765201767215,
+        -904.7211834251242,
+        6.062664676341153
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_09",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_09.npz",
+      "sha256": "657f7d50e02aedfef3ce689bd6b90db4d0665e7d12536208925a981188ade136",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        386.24780252778237,
+        -904.8060893021487,
+        5.968130910561926
+      ],
+      "bounds_max_m": [
+        388.87128838130855,
+        -903.8093652433059,
+        6.060397778154103
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_NatureHouse_RailTop_10",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_10.npz",
+      "sha256": "19cf3e44f037adc9a1e10222d6e95433cccf264f18c440cd8691c5fe17b8e2aa",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        388.84143889141876,
+        -903.8942711203305,
+        5.965864012374876
+      ],
+      "bounds_max_m": [
+        391.4649247449449,
+        -902.8975470614878,
+        6.058130879967055
+      ],
+      "collision_reason": "Closed source-located exterior or slab; Nature House upper approaches need the separate source refinement before live walking acceptance."
+    },
+    {
+      "name": "SM_Jubilee_OctagonalIsland",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_OctagonalIsland.npz",
+      "sha256": "f56cd4949608e9b91990c14c8a5e7f1ab67383cc9697e33db60f5b6b41143b37",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 16,
+      "triangles": 28,
+      "bounds_min_m": [
+        330.7881408750556,
+        -777.1018591249443,
+        0.8
+      ],
+      "bounds_max_m": [
+        342.15185912494445,
+        -765.7381408750556,
+        1.88
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_RaisedDiamondPlatform",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_RaisedDiamondPlatform.npz",
+      "sha256": "3ab3217ebe9bf82a45bf6ee21aeb346bc5bb3baaa6cbb56bf35fa5200bd0c590",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        331.23,
+        -776.55,
+        1.85
+      ],
+      "bounds_max_m": [
+        341.63,
+        -766.32,
+        3.218080759048462
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_Perimeter_00",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_Perimeter_00.npz",
+      "sha256": "ba8ebe81ae6524ae97d1b444aa9d61982df75bd9c221eee8ae7ca20183f9189f",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        338.75279243092666,
+        -769.1372075690733,
+        1.72
+      ],
+      "bounds_max_m": [
+        342.2225698030631,
+        -765.667430196937,
+        1.97
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_Perimeter_01",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_Perimeter_01.npz",
+      "sha256": "b5bb745fd9e998ca9d30bae6a06f0c59927739941f02b6347ed8b28e7f120eb5",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        334.11649689095475,
+        -765.8381408750556,
+        1.72
+      ],
+      "bounds_max_m": [
+        338.8235031090453,
+        -765.6381408750556,
+        1.97
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_Perimeter_02",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_Perimeter_02.npz",
+      "sha256": "4ad9395bc5980f8369e9252e08e7586d829e98b0d8aae5e5967773c16ad71eef",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        330.71743019693696,
+        -769.1372075690733,
+        1.72
+      ],
+      "bounds_max_m": [
+        334.1872075690734,
+        -765.667430196937,
+        1.97
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_Perimeter_03",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_Perimeter_03.npz",
+      "sha256": "2122ee62950964484d4449deddb52c17d23644bf05d54b6955af67ad5c3a3328",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        330.6881408750556,
+        -773.7735031090452,
+        1.72
+      ],
+      "bounds_max_m": [
+        330.8881408750556,
+        -769.0664968909547,
+        1.97
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_Perimeter_04",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_Perimeter_04.npz",
+      "sha256": "6d7d8eeb1733527793be231db1981a19ad5fe1d659359641476ce88d62530873",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        330.71743019693696,
+        -777.172569803063,
+        1.72
+      ],
+      "bounds_max_m": [
+        334.1872075690734,
+        -773.7027924309266,
+        1.97
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_Perimeter_05",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_Perimeter_05.npz",
+      "sha256": "41728622132e4cba02049928ff15682d8435ef960aeccfac4f3607521a3fe55d",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        334.11649689095475,
+        -777.2018591249443,
+        1.72
+      ],
+      "bounds_max_m": [
+        338.8235031090453,
+        -777.0018591249443,
+        1.97
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_Perimeter_06",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_Perimeter_06.npz",
+      "sha256": "4e8e335964c1594493819b4eee606fe8d060a8013f7f337bcc447f09f07f0620",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        338.75279243092666,
+        -777.172569803063,
+        1.72
+      ],
+      "bounds_max_m": [
+        342.2225698030631,
+        -773.7027924309266,
+        1.97
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_Perimeter_07",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_Perimeter_07.npz",
+      "sha256": "d3c71d962490e98e9d11bc438d039163b310f8ac05ef8e08e6364108cb93c29d",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        342.05185912494443,
+        -773.7735031090452,
+        1.72
+      ],
+      "bounds_max_m": [
+        342.2518591249445,
+        -769.0664968909547,
+        1.97
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_ServicePlatform",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_ServicePlatform.npz",
+      "sha256": "ae87c59c6fbfe27d149d9f1770102ffb04442751d22d9be2b8f9eadf3966d95f",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        327.0,
+        -782.8,
+        1.28
+      ],
+      "bounds_max_m": [
+        334.2,
+        -775.35,
+        1.72
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    },
+    {
+      "name": "SM_Jubilee_NorthMaintenancePad",
+      "feature_id": "SP_jubilee",
+      "mesh_path": "data/derived/lagoon-structures/SM_Jubilee_NorthMaintenancePad.npz",
+      "sha256": "cd33bf24b577a3e17496ddf97efa2d61d5ab0c23b9263e877ce7026324211b0d",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        329.0,
+        -769.25,
+        1.32
+      ],
+      "bounds_max_m": [
+        334.0,
+        -764.18,
+        1.87
+      ],
+      "collision_reason": "Closed offshore support. Direct contact geometry, no new public route or invisible broad box."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_nature_house",
+      "name": "Lost Lagoon Nature House and upper viewing deck",
+      "sources": [
+        "https://stanleyparkecology.ca/2020/07/16/the-new-nature-house-is-open/",
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "evidence/corridor/ortho-utm/named-nature-house.json",
+        "manifests/named-nature-house-west-survey.json",
+        "manifests/named-nature-house-east-survey.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          378.33250000000004,
+          -911.1475
+        ],
+        "deck_outline_local_xy_m": [
+          [
+            365.23,
+            -919.36
+          ],
+          [
+            393.73,
+            -909.32
+          ],
+          [
+            391.45,
+            -902.94
+          ],
+          [
+            362.92,
+            -912.97
+          ]
+        ],
+        "deck_plane_origin_m": [
+          378.33250000000004,
+          -911.1475
+        ],
+        "deck_plane_coefficients": [
+          -0.006162766364939526,
+          0.015043653472999213,
+          4.938233298989894
+        ],
+        "deck_fit": {
+          "returns": 7975,
+          "inliers": 7907,
+          "median_absolute_residual_m": 0.008142334518616678,
+          "p95_absolute_residual_m": 0.03741092381277004
+        },
+        "upper_deck_h_range_m": [
+          4.8708343806076435,
+          5.005799877134983
+        ],
+        "lower_front_path_h_m": "Classified lower frontage returns cluster near 1.55 m CGVD2013",
+        "identity": "Operator explicitly places Nature House below the viewing platform at the end of Chilco Street. OSM underground building way363832217 and toilet way74267954 are reference cross-checks, not placement controls."
+      },
+      "estimates": {
+        "closed_exterior_bottom_h_m": 1.35,
+        "slab_thickness_m": 0.22,
+        "rail_height_m": 1.03,
+        "post_radius_m": 0.055,
+        "rail_radius_m": 0.045
+      },
+      "limits": "Closed building exterior below a measured upper viewing deck; interiors, individual door/window positions and display detail are outside M1. Upper approach requires refine_nature_house_terrain.py before contact acceptance. Rail spacing and concealed foundation are estimated. The current coarse terrain does not prove the two separate public levels.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_jubilee",
+      "name": "Jubilee Fountain inactive support and service platforms",
+      "sources": [
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=158",
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "evidence/corridor/ortho-utm/named-jubilee.json",
+        "manifests/named-jubilee-survey.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          336.47,
+          -771.42
+        ],
+        "diamond_outline_local_m": [
+          [
+            336.49,
+            -776.55
+          ],
+          [
+            341.63,
+            -771.39
+          ],
+          [
+            336.44,
+            -766.32
+          ],
+          [
+            331.23,
+            -771.35
+          ]
+        ],
+        "platform_top_h_m": 3.218080759048462,
+        "top_returns": 2214,
+        "top_p95_residual_m": 0.018990850448608397,
+        "outer_octagonal_radius_m": 6.15,
+        "outer_edge_h_m": 1.9,
+        "source_condition": "City 2022 ortho clearly shows the octagonal island, raised diamond and service pads. City 2026 map marks the fountain under restoration."
+      },
+      "estimates": {
+        "outer_base_h_m": 0.8,
+        "concealed_platform_sides": "Vertical closures below visible edge; submerged depths are estimates",
+        "service_platform_edges": "Manually traced; height uses sparse low returns",
+        "pipework": "Deferred; no operating spray"
+      },
+      "limits": "No running fountain, dynamic spray or claim of present restoration completion. Structure is not a public walk destination. Distinct major platforms are measured/traced; hidden underwater foundation, nozzle pipework and exact coping detail remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    }
+  ],
+  "acceptance": false,
+  "source_period": "City 2022 ortho/survey; official identity references and City2026 condition",
+  "target_period": "September 2026",
+  "reference_rights": "City geometry derivatives OGL-Vancouver; operator/art registry pages reference only, no source photograph or inscription embedded.",
+  "input_hashes": {
+    "manifests/named-nature-house-west-survey.json": "6ef7f32f63132536c38d79a3243a687c80a1a0898f31bde8d426683a42ca230a",
+    "manifests/named-nature-house-east-survey.json": "4e3ae102a171f5178a63477ffd4f1614eb1e07e1ec8f4505a7fea7ea1b855a3c",
+    "manifests/named-jubilee-survey.json": "7d1a9f72983bf0eaa9cecbb70db8390749484560f325f9aa5f1ff8c5b25599c9"
+  }
+}

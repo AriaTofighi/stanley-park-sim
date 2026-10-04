@@ -1,0 +1,740 @@
+{
+  "views": [
+    {
+      "id": "SP_lord_stanley_front_form_only",
+      "feature_id": "SP_lord_stanley",
+      "kind": "form-only",
+      "name": "Bearded bronze man in formal coat with both open arms raised, left arm higher, on stepped granite pedestal.",
+      "requested_camera": {
+        "location": {
+          "x": -54944.52222824986,
+          "y": 59674.437650678956,
+          "z": 1712.9970335960386
+        },
+        "rotation": {
+          "pitch": -1.0787722236294863,
+          "yaw": 22.13010235415565,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        596.7443765067895,
+        -549.4452222824985,
+        17.129970335960387
+      ],
+      "target_local_m": [
+        600.74,
+        -539.62,
+        16.93024428844452
+      ],
+      "source_asset_names": [
+        "SM_M3Winding_M3Form_lord_f94a5244158e_cd6769da58ee"
+      ],
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "camera_derivation": "Use the source asset ground and height. Place the eye 10.5 m in front and 1.5 m to its right, rotated by the source yaw. Height is 55 percent of the complete monument. Aim at 51 percent height.",
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "inspected": false,
+      "accepted": false,
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "original_asset": "SM_M3Form_lord_f94a5244158e",
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-memorial-extra/form-only/SP_lord_stanley_front_form_only-settle-first.png",
+          "sha256": "232c85f4cb87f33e49184426693f76683324623f5222069e2360e592db397fc6"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-memorial-extra/form-only/SP_lord_stanley_front_form_only.png",
+          "sha256": "e5377a370f48b65b9c764c60858c6fe88779afc9d9b34653779c764cc5661466"
+        }
+      ]
+    },
+    {
+      "id": "SP_robert_burns_front_form_only",
+      "feature_id": "SP_robert_burns",
+      "kind": "form-only",
+      "name": "Standing bronze figure with folded arms, long coat, a forward leg, high tapered granite pedestal and dark front plaque.",
+      "requested_camera": {
+        "location": {
+          "x": -60770.52222824985,
+          "y": 60536.437650678956,
+          "z": 1400.6288075447083
+        },
+        "rotation": {
+          "pitch": -1.2465613068109382,
+          "yaw": 22.13010235415565,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        605.3643765067895,
+        -607.7052222824985,
+        14.006288075447083
+      ],
+      "target_local_m": [
+        609.36,
+        -597.88,
+        13.77548807621002
+      ],
+      "source_asset_names": [
+        "SM_M3Winding_M3Form_burns_f94a5244158e_cd6769da58ee"
+      ],
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "camera_derivation": "Use the source asset ground and height. Place the eye 10.5 m in front and 1.5 m to its right, rotated by the source yaw. Height is 55 percent of the complete monument. Aim at 51 percent height.",
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "inspected": false,
+      "accepted": false,
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "original_asset": "SM_M3Form_burns_f94a5244158e",
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-memorial-extra/form-only/SP_robert_burns_front_form_only-settle-first.png",
+          "sha256": "4684b7f94f4edc704ab2fe5feca4d0dd2dbd72fe6d8a97e0510ed4a4fff67d50"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-memorial-extra/form-only/SP_robert_burns_front_form_only.png",
+          "sha256": "b05af63e259d9958a882748e2d92566558ff87a369b9089c108128f57863f1e1"
+        }
+      ]
+    },
+    {
+      "id": "SP_queen_victoria_front_form_only",
+      "feature_id": "SP_queen_victoria",
+      "kind": "form-only",
+      "name": "Broad granite steps and side seats, raised central memorial with bronze plaque, oval cameo and projecting demi-lune basin.",
+      "requested_camera": {
+        "location": {
+          "x": -60634.52222824985,
+          "y": 65313.437650678956,
+          "z": 1184.421306848526
+        },
+        "rotation": {
+          "pitch": -0.7583821703673979,
+          "yaw": 22.13010235415565,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        653.1343765067895,
+        -606.3452222824985,
+        11.84421306848526
+      ],
+      "target_local_m": [
+        657.13,
+        -596.52,
+        11.70381306886673
+      ],
+      "source_asset_names": [
+        "SM_M3Winding_M3Form_victoria_f94a5244158e_cd6769da58ee"
+      ],
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "camera_derivation": "Use the source asset ground and height. Place the eye 10.5 m in front and 1.5 m to its right, rotated by the source yaw. Height is 55 percent of the complete monument. Aim at 51 percent height.",
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "inspected": false,
+      "accepted": false,
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "original_asset": "SM_M3Form_victoria_f94a5244158e",
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-memorial-extra/form-only/SP_queen_victoria_front_form_only-settle-first.png",
+          "sha256": "913671e36459571eaabfbe2accc9b538e85b571955f17b599b092f31227d9c79"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-memorial-extra/form-only/SP_queen_victoria_front_form_only.png",
+          "sha256": "3facd3d44a9bbe742e24040521285028567ddad368288754370aebc12a89d399"
+        }
+      ]
+    },
+    {
+      "id": "ART_445_form_only",
+      "requested_camera": {
+        "location": {
+          "x": -88430.0,
+          "y": 50600.0,
+          "z": 1130.0349864959717
+        },
+        "rotation": {
+          "pitch": -6.46195352500743,
+          "yaw": -70.7099537808114,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        488.0,
+        -878.0,
+        9.140349864959717
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "ART_445",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Form_aerodynamic_f94a5244158e_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Form_aerodynamic_f94a5244158e",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_445_form_only-settle-first.png",
+          "sha256": "a2f208cb0ba914bf74581c0dc29cf1d74546ae20c389a1a7b380e2e96a9dc353"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_445_form_only.png",
+          "sha256": "7b169e53cbba4d6cd92aef3f7873f45bee6d3aecca5429c82378d9cf30ee46ad"
+        }
+      ]
+    },
+    {
+      "id": "SP_empress_japan_form_only",
+      "requested_camera": {
+        "location": {
+          "x": 244.2191243171692,
+          "y": 122857.65837430954,
+          "z": 884.4911333173513
+        },
+        "rotation": {
+          "pitch": -6.461953525007425,
+          "yaw": -70.70995378081128,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        1203.5765837430954,
+        11.192191243171692,
+        5.844911333173513
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "SP_empress_japan",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Form_dragon_f94a5244158e_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Form_dragon_f94a5244158e",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/SP_empress_japan_form_only-settle-first.png",
+          "sha256": "48bd32b7ebda7b2d05db5757605599817049850d1b17d66ed3aea97ff45ea97b"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/SP_empress_japan_form_only.png",
+          "sha256": "780d194f22ab71cf11c68b6ca37778f0ac8727885e1dc7bdeb0cc65359a5848f"
+        }
+      ]
+    },
+    {
+      "id": "SP_nine_oclock_form_only",
+      "requested_camera": {
+        "location": {
+          "x": -51539.22119140625,
+          "y": 188058.55712890625,
+          "z": 614.3634170293808
+        },
+        "rotation": {
+          "pitch": -6.461953525007425,
+          "yaw": -70.70995378081128,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        1855.5855712890625,
+        -506.6422119140625,
+        3.143634170293808
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "SP_nine_oclock",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Detail_gun_support_c96cbc4dd5e2_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Detail_gun_support_c96cbc4dd5e2",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/SP_nine_oclock_form_only-settle-first.png",
+          "sha256": "ceef2cada072d0dca64ae8e306c8e6f2e494fcb82f8c788649d14757e225b4cc"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/SP_nine_oclock_form_only.png",
+          "sha256": "be39b436762cdf7931aa2e12a5b7103b05c3310dbd447712000b848c046a2376"
+        }
+      ]
+    },
+    {
+      "id": "ART_94_front_form_only",
+      "feature_id": "ART_94",
+      "kind": "form-only",
+      "name": "Beaver Crest natural wood figure stack",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Detail_beaver_c96cbc4dd5e2_cd6769da58ee"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -35356.06458861344,
+          "y": 161948.43847692513,
+          "z": 635.8614742159846
+        },
+        "rotation": {
+          "pitch": -1.1250706096784313,
+          "yaw": -122.00000000000036,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        1619.4843847692514,
+        -353.56064588613435,
+        6.358614742159846
+      ],
+      "target_local_m": [
+        1612.7,
+        -357.8,
+        6.201505057215693
+      ],
+      "camera_derivation": "Eye 8 m in front of the current source face, using build rotation 122 degrees and asset bounds. Aim at half the complete height.",
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "inspected": false,
+      "accepted": false,
+      "original_asset": "SM_M3Detail_beaver_c96cbc4dd5e2",
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-beaver-extra/form-only/ART_94_front_form_only-settle-first.png",
+          "sha256": "9ca2887645ec5b25a15342e0cc9d42b451ea3a9adbaacf9dbe7e139609b01510"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-beaver-extra/form-only/ART_94_front_form_only.png",
+          "sha256": "79ed607ed6a1bba3b9cf318b3927e5574b4a15c92c52e9a7d5242e9a79e63f71"
+        }
+      ]
+    },
+    {
+      "id": "ART_533_form_only",
+      "requested_camera": {
+        "location": {
+          "x": -36890.00061035156,
+          "y": 162830.0048828125,
+          "z": 868.8867483139038
+        },
+        "rotation": {
+          "pitch": -6.4619535250074245,
+          "yaw": -70.70995378081123,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        1610.300048828125,
+        -362.6000061035156,
+        6.528867483139038
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "ART_533",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Detail_matilpi_c96cbc4dd5e2_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Detail_matilpi_c96cbc4dd5e2",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-supplemental/form-only/ART_533_form_only-settle-first.png",
+          "sha256": "2e3762408f37a4d2a596b569385664ea1e5c4033823fa0621741b50c3add2d22"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-supplemental/form-only/ART_533_form_only.png",
+          "sha256": "2197ff46cde8f88747c5c435a83d6ba74a7ba7b5757b2738930185e7104e2cb4"
+        }
+      ]
+    },
+    {
+      "id": "ART_202_form_only",
+      "requested_camera": {
+        "location": {
+          "x": -37680.0,
+          "y": 162690.0,
+          "z": 1016.0
+        },
+        "rotation": {
+          "pitch": -6.4619535250074245,
+          "yaw": -70.70995378081123,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        1608.9,
+        -370.5,
+        8.0
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "ART_202",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Detail_kakasolas_c96cbc4dd5e2_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Detail_kakasolas_c96cbc4dd5e2",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_202_form_only-settle-first.png",
+          "sha256": "43a7c2ec8b0081c85bb8a43c02064dec68eca07c37d508931c0d274aa112c9d1"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_202_form_only.png",
+          "sha256": "5473bc5e79770df459efdcb9cf4447f3ac2108b332c9471db96c5629cbac37fa"
+        }
+      ]
+    },
+    {
+      "id": "ART_89_form_only",
+      "requested_camera": {
+        "location": {
+          "x": -38130.0,
+          "y": 163180.0,
+          "z": 816.0
+        },
+        "rotation": {
+          "pitch": -6.4619535250074245,
+          "yaw": -70.70995378081123,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        1613.8,
+        -375.0,
+        6.0
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "ART_89",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Detail_thunderbird_c96cbc4dd5e2_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Detail_thunderbird_c96cbc4dd5e2",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_89_form_only-settle-first.png",
+          "sha256": "e6278470bd944186644795f3bcc93ec55d23453abd4ed4daa1b29eb5ed837dc5"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_89_form_only.png",
+          "sha256": "e578cf47be21c2db07aaaa3d347c4581d0815cd6375789fec16d2ad760267937"
+        }
+      ]
+    },
+    {
+      "id": "ART_534_form_only",
+      "requested_camera": {
+        "location": {
+          "x": -38419.99938964844,
+          "y": 163819.9951171875,
+          "z": 1118.6294827461243
+        },
+        "rotation": {
+          "pitch": -6.4619535250074245,
+          "yaw": -70.70995378081123,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        1620.199951171875,
+        -377.8999938964844,
+        9.026294827461243
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "ART_534",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Detail_gaakstalas_c96cbc4dd5e2_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Detail_gaakstalas_c96cbc4dd5e2",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-supplemental/form-only/ART_534_form_only-settle-first.png",
+          "sha256": "d91a9b1e52944f4458ad27db2369ca580143508e90e23faa2b33dc1414769c42"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-supplemental/form-only/ART_534_form_only.png",
+          "sha256": "b03f5c461a018a4aa31a502980f97d790d6c5721e017ee75ee8fbd425966a6ed"
+        }
+      ]
+    },
+    {
+      "id": "ART_93_form_only",
+      "requested_camera": {
+        "location": {
+          "x": -39000.0,
+          "y": 163910.0,
+          "z": 1066.0
+        },
+        "rotation": {
+          "pitch": -6.4619535250074245,
+          "yaw": -70.70995378081123,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        1621.1,
+        -383.7,
+        8.5
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "ART_93",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Detail_skedans_c96cbc4dd5e2_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Detail_skedans_c96cbc4dd5e2",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_93_form_only-settle-first.png",
+          "sha256": "512bf001e420fdedaf9680c196194b98db88a462779fac5ff8d019d69927602e"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_93_form_only.png",
+          "sha256": "d934b8a6d265bf97196b443cbcee1df342ed41ec9d78a69add3533185ee7b706"
+        }
+      ]
+    },
+    {
+      "id": "ART_91_form_only",
+      "requested_camera": {
+        "location": {
+          "x": -36926.0,
+          "y": 163872.0,
+          "z": 1016.0
+        },
+        "rotation": {
+          "pitch": -6.4619535250074245,
+          "yaw": -70.70995378081123,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        1620.72,
+        -362.96,
+        8.0
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "ART_91",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Detail_wakas_c96cbc4dd5e2_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Detail_wakas_c96cbc4dd5e2",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_91_form_only-settle-first.png",
+          "sha256": "7dff94b948293eb807074213f722385cea9ba2eaab6aa4445ac0f41b98cc3469"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_91_form_only.png",
+          "sha256": "774b1cf7e8750723621ba21a010731dcf73ddaca6a3f1e792c7a8f48b56809fc"
+        }
+      ]
+    },
+    {
+      "id": "ART_92_form_only",
+      "requested_camera": {
+        "location": {
+          "x": -37556.0,
+          "y": 163951.0,
+          "z": 916.0
+        },
+        "rotation": {
+          "pitch": -6.4619535250074245,
+          "yaw": -70.70995378081123,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        1621.51,
+        -369.26,
+        7.0
+      ],
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "accepted": false,
+      "feature_id": "ART_92",
+      "kind": "form-only",
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_asset_names": [
+        "SM_M3Winding_M3Detail_skychief_c96cbc4dd5e2_cd6769da58ee"
+      ],
+      "original_asset": "SM_M3Detail_skychief_c96cbc4dd5e2",
+      "inspected": false,
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_92_form_only-settle-first.png",
+          "sha256": "2f6d8768604a90ecc4775d36cfe25cc5f9713483ca2d002bb1f6a65dc7ca80f8"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-landmark-final/form-only/ART_92_form_only.png",
+          "sha256": "1f2f25554e07517ca8559149d2c41be3c91627f0a369ee89e04119a7064a6570"
+        }
+      ]
+    },
+    {
+      "id": "SP_second_beach_facility_form_only",
+      "kind": "form-only",
+      "feature_id": "SP_second_beach",
+      "name": "Second Beach concession canopy and facilities",
+      "requested_camera": {
+        "location": {
+          "x": -76902.72727272726,
+          "y": -58990.0,
+          "z": 568.8871383666992
+        },
+        "rotation": {
+          "pitch": -0.852515150165672,
+          "yaw": 99.49588317355386,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        -589.9,
+        -769.0272727272727,
+        5.688871383666992
+      ],
+      "target_local_m": [
+        -562.507973586702,
+        -773.6091026269839,
+        5.275607195767489
+      ],
+      "source_manifest": "exports/m3-landmark-winding/cd6769da58ee/manifest.json",
+      "source_manifest_sha256": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+      "source_pointer_sha256": "c3beaec295a8e783b1f1994a62fe6f0461995e973021b6e392ea172502042469",
+      "source_asset_names": [
+        "SM_M3Winding_M3SecondBeach_CanopyFacade_fc28910a58b1_cd6769da58ee"
+      ],
+      "camera_derivation": "Target is the mean traced canopy curve moved halfway toward its inner facade; target height is the mean of sampled ground and roof levels. Eye is 18 m west of the westmost canopy point, 6 m north of its mean northing, and 2.25 m above the mean sampled ground. The north-west view avoids the separate small pool-deck kiosk.",
+      "view_scope": "Exact repeat of a retained before camera after winding-only repair. Compare surface visibility and shading; source shape and route-visibility limits are unchanged.",
+      "inspected": false,
+      "accepted": false,
+      "original_asset": "SM_M3SecondBeach_CanopyFacade_fc28910a58b1",
+      "before_frames": [
+        {
+          "path": "evidence/m3-views/m3-v3-facility-extra/form-only/SP_second_beach_facility_form_only-settle-first.png",
+          "sha256": "ad6dde6939b9e508b91b76b77f6c1feb972d09f97820dc072537a233e87b714a"
+        },
+        {
+          "path": "evidence/m3-views/m3-v3-facility-extra/form-only/SP_second_beach_facility_form_only.png",
+          "sha256": "25b00c99450eddb86e734a1ce62d3f00240927065e4c731bbd9e290c41223023"
+        }
+      ]
+    }
+  ],
+  "input_hashes": {
+    "exports/m3-landmark-winding/cd6769da58ee/manifest.json": "25492646799079592bd22886f9e57804f75a597c89440f88a34ab6441f104004",
+    "exports/m3-landmark-winding/latest.json": "0bcf210fc43b12b1728ece77bd01a3486017b33669abc861e8ae2bfc027b7a49",
+    "manifests/m3-memorial-front-form-cameras.json": "7bc795ac65a782078e6abe799bf4bc335ce4115e5ab1868b0305f62b41542163",
+    "manifests/m3-beaver-front-form-camera.json": "6102545c833ffee073d8c18c01f95b0137758cfff830ba8970c62660277d566c",
+    "manifests/m3-second-beach-facility-form-camera.json": "ffe034678bc0c894add41588a36ab8133347ba6975541d0b7ebe62c2767c9ace",
+    "manifests/m3-landmark-final-camera-candidates.json": "e5e7e1304e3b7b52ccef1be575870400b28e38c2acb1eb5e0e962ece94e79579",
+    "manifests/m3-landmark-supplemental-camera-candidates.json": "b9be8bf85d74a150b4d66de0338b7a97c83a5a9d060d0c08238be14989c03933"
+  },
+  "scope": "Fifteen exact before/after camera pairs for the fifteen copied assets. Some original pole cameras are side or partially blocked views; their limits stay explicit."
+}

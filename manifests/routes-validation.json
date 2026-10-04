@@ -1,0 +1,75 @@
+{
+  "validation_kind": "numerical_route_data_check_not_application_test",
+  "edge_count": 70,
+  "circuit_edge_count": 14,
+  "circuit_length_m": 9441.794,
+  "joins": [
+    {
+      "before_edge": "city_bikeways_1748",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_1459",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_2120",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_3550",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_2909",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_131",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_1307",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_42",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_1207",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_2814",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_278",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_138",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_723",
+      "gap_m": 0.0
+    },
+    {
+      "before_edge": "city_bikeways_2986",
+      "gap_m": 0.0
+    }
+  ],
+  "maximum_coordinate_roundtrip_degrees": 1.2573394520223545e-12,
+  "missing_height_samples": 0,
+  "main_circuit_missing_height_samples": 0,
+  "unresolved": [
+    "Precise walk-bike boundaries at three sites",
+    "Path-specific heights, bank, width and 2026 repair changes",
+    "One-way orientation of non-circuit roads",
+    "Grade-separated intersections need explicit nodes; do not node every 2D line crossing"
+  ],
+  "geometry_pass": true,
+  "release_route_pass": false
+}

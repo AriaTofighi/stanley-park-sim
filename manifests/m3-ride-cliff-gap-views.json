@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "owner": "m3_shore_edges",
+  "input_hashes": {
+    "unreal/Saved/Diagnostics/ride-20261004-004146.json": "9f477040851c2e3b31ea318569624e0a66c490716fbcfed344b630e8595f32f1",
+    "unreal/Saved/Diagnostics/video-20261003-235524-UTKyO0Vnkn8SYO6FZ4P72A/capture.json": "edf80c59b92b8786706c1bef247d5b4556bbbfb622a04d81d2bfff18dca04e35",
+    "manifests/seawall-m3-sections.json": "8a5f52a482fdc22f7793ec70649a64308103a66701e8ba270e93f3e8e46ccf23",
+    "unreal/Source/StanleyParkSim/SPBicyclePawn.cpp": "fee4c9922ce952efdd310f4023dfa2a83b6a6897a273de29b04273e47714e0c7",
+    "pipeline/gis/inspect_m3_ride_cliff_gaps.py": "d56bfadcf8a6b476b3340b844b392e85996287b9d4aaecd1a129bdc3f55fca6d",
+    "evidence/m3-full-ride-shore-review.json": "3fa868cf1ade070e5c9344a1afc8b2a74c7cfec06d41ece923cb14a50337db11",
+    "evidence/m3-final-native-assets-v4.json": "ba2d1a27d2d8bc7719a26d7f8b50c96cb871b9029b3da52fe3ccbd6fbde8d15f",
+    "evidence/m3-full-ride-repeat-02-preflight.json": "5e301d0f87c7c7f70f52acf094ae5504f3036bc14c79502b478bf2d863d38aa7"
+  },
+  "capture_requirement": "Set the editor viewport horizontal FOV to 85 degrees and verify it in retained camera metadata. The current generic extra-view script does not itself set FOV.",
+  "views": [
+    {
+      "id": "cliff_gap_route_frame_008764",
+      "feature_id": "SHORE-RIDE-01",
+      "kind": "route",
+      "station_m": 5869.772077247839,
+      "requested_camera": {
+        "location": {
+          "x": 77692.95888816299,
+          "y": -78367.33541707497,
+          "z": 463.1981942401776
+        },
+        "rotation": {
+          "pitch": -4,
+          "yaw": -126.99586085893826,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "requested_camera_fov_degrees": 85,
+      "ride_frame": "unreal/Saved/Diagnostics/video-20261003-235524-UTKyO0Vnkn8SYO6FZ4P72A/frame-008764.jpg",
+      "ride_frame_sha256": "da56b2455493e9ba79988099885d640b56dbb0ebef198338d3945b91a96e2638",
+      "pose_source": {
+        "index": 8764,
+        "seconds": 1753.1377982012928,
+        "origin_local_m": [
+          -783.6733541707497,
+          776.9295888816299,
+          4.631981942401776
+        ],
+        "yaw_degrees": -126.99586085893826,
+        "pitch_degrees": -4,
+        "fov_degrees": 85,
+        "interpolated_chainage_m": 5869.772077247839,
+        "sample_before": {
+          "seconds": 1753.0044635012746,
+          "north_cm": 77731.50870459882,
+          "east_cm": -78316.17039281431,
+          "height_cm": 385.4533455106076,
+          "speed_kmh": 14.242289373265487,
+          "route_distance_m": 0.015791777875211646,
+          "pavement_centre_distance_m": 0.015791777875211646,
+          "physical_gate_guide": false,
+          "route_distance_reference": "main_circuit",
+          "has_surface": true,
+          "surface_misses": 0,
+          "walking": false,
+          "chainage_m": 5869.251475559628
+        },
+        "sample_after": {
+          "seconds": 1754.0044738017023,
+          "north_cm": 77496.54322892937,
+          "east_cm": -78628.02698188675,
+          "height_cm": 383.53971088614406,
+          "speed_kmh": 13.931217734642077,
+          "route_distance_m": 0.016072837493190405,
+          "pavement_centre_distance_m": 0.016072837493190405,
+          "physical_gate_guide": false,
+          "route_distance_reference": "main_circuit",
+          "has_surface": true,
+          "surface_misses": 0,
+          "walking": false,
+          "chainage_m": 5873.155988417579
+        }
+      },
+      "purpose": "Matching before/after inspection of the exposed terrain/support boundary.",
+      "view_scope": "Route camera estimate from adjacent recorded pawn samples. Native camera transform was not logged. Horizontal direction is estimated from their displacement; eye offset is 0.12 m forward and 0.78 m up; default pitch is -4 degrees."
+    },
+    {
+      "id": "cliff_gap_route_frame_008767",
+      "feature_id": "SHORE-RIDE-01",
+      "kind": "route",
+      "station_m": 5872.11478307754,
+      "requested_camera": {
+        "location": {
+          "x": 77551.97971620092,
+          "y": -78554.44921995637,
+          "z": 462.05001438938825
+        },
+        "rotation": {
+          "pitch": -4,
+          "yaw": -126.99586085893826,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "requested_camera_fov_degrees": 85,
+      "ride_frame": "unreal/Saved/Diagnostics/video-20261003-235524-UTKyO0Vnkn8SYO6FZ4P72A/frame-008767.jpg",
+      "ride_frame_sha256": "c9b9974f5474efcaaba42b24d6fd5a94fa48076551636cbd78547fee3dce2798",
+      "pose_source": {
+        "index": 8767,
+        "seconds": 1753.7378038987517,
+        "origin_local_m": [
+          -785.5444921995637,
+          775.5197971620092,
+          4.620500143893882
+        ],
+        "yaw_degrees": -126.99586085893826,
+        "pitch_degrees": -4,
+        "fov_degrees": 85,
+        "interpolated_chainage_m": 5872.11478307754,
+        "sample_before": {
+          "seconds": 1753.0044635012746,
+          "north_cm": 77731.50870459882,
+          "east_cm": -78316.17039281431,
+          "height_cm": 385.4533455106076,
+          "speed_kmh": 14.242289373265487,
+          "route_distance_m": 0.015791777875211646,
+          "pavement_centre_distance_m": 0.015791777875211646,
+          "physical_gate_guide": false,
+          "route_distance_reference": "main_circuit",
+          "has_surface": true,
+          "surface_misses": 0,
+          "walking": false,
+          "chainage_m": 5869.251475559628
+        },
+        "sample_after": {
+          "seconds": 1754.0044738017023,
+          "north_cm": 77496.54322892937,
+          "east_cm": -78628.02698188675,
+          "height_cm": 383.53971088614406,
+          "speed_kmh": 13.931217734642077,
+          "route_distance_m": 0.016072837493190405,
+          "pavement_centre_distance_m": 0.016072837493190405,
+          "physical_gate_guide": false,
+          "route_distance_reference": "main_circuit",
+          "has_surface": true,
+          "surface_misses": 0,
+          "walking": false,
+          "chainage_m": 5873.155988417579
+        }
+      },
+      "purpose": "Matching before/after inspection of the exposed terrain/support boundary.",
+      "view_scope": "Route camera estimate from adjacent recorded pawn samples. Native camera transform was not logged. Horizontal direction is estimated from their displacement; eye offset is 0.12 m forward and 0.78 m up; default pitch is -4 degrees."
+    },
+    {
+      "id": "cliff_gap_route_frame_013765",
+      "feature_id": "SHORE-RIDE-02",
+      "kind": "route",
+      "station_m": 9359.251627202273,
+      "requested_camera": {
+        "location": {
+          "x": -87919.37218918589,
+          "y": 43754.914755025944,
+          "z": 328.9563680113049
+        },
+        "rotation": {
+          "pitch": -4,
+          "yaw": 38.78708610246809,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "requested_camera_fov_degrees": 85,
+      "ride_frame": "unreal/Saved/Diagnostics/video-20261003-235524-UTKyO0Vnkn8SYO6FZ4P72A/frame-013765.jpg",
+      "ride_frame_sha256": "5ab2f0cf26c84eb4f94c18c10ed95e2e470b8a12f2f8b8cf276809babe3bf25a",
+      "pose_source": {
+        "index": 13765,
+        "seconds": 2753.525291699916,
+        "origin_local_m": [
+          437.5491475502594,
+          -879.1937218918589,
+          3.289563680113049
+        ],
+        "yaw_degrees": 38.78708610246809,
+        "pitch_degrees": -4,
+        "fov_degrees": 85,
+        "interpolated_chainage_m": 9359.251627202273,
+        "sample_before": {
+          "seconds": 2753.0086201019585,
+          "north_cm": -88091.83205831755,
+          "east_cm": 43616.31744732074,
+          "height_cm": 261.2013632031187,
+          "speed_kmh": 14.435404149891083,
+          "route_distance_m": 0.004382434083735936,
+          "pavement_centre_distance_m": 0.004382434083735936,
+          "physical_gate_guide": false,
+          "route_distance_reference": "main_circuit",
+          "has_surface": true,
+          "surface_misses": 0,
+          "walking": false,
+          "chainage_m": 9357.156516686853
+        },
+        "sample_after": {
+          "seconds": 2754.008629400283,
+          "north_cm": -87776.14287337803,
+          "east_cm": 43870.020939759714,
+          "height_cm": 241.37234513128533,
+          "speed_kmh": 14.721429878383791,
+          "route_distance_m": 0.009519227431978597,
+          "pavement_centre_distance_m": 0.009519227431978597,
+          "physical_gate_guide": false,
+          "route_distance_reference": "main_circuit",
+          "has_surface": true,
+          "surface_misses": 0,
+          "walking": false,
+          "chainage_m": 9361.211568299366
+        }
+      },
+      "purpose": "Matching before/after inspection of the exposed terrain/support boundary.",
+      "view_scope": "Route camera estimate from adjacent recorded pawn samples. Native camera transform was not logged. Horizontal direction is estimated from their displacement; eye offset is 0.12 m forward and 0.78 m up; default pitch is -4 degrees."
+    },
+    {
+      "id": "cliff_gap_section_023_midpoint",
+      "feature_id": "section_023",
+      "kind": "route",
+      "station_m": 5875.0,
+      "requested_camera": {
+        "location": {
+          "x": 77387.15918893143,
+          "y": -78776.4809468463,
+          "z": 485.321201586099
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -127.21454454514789,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "requested_camera_fov_degrees": 85,
+      "purpose": "Repeat the established M3 section camera to check adjacent route and repaired support.",
+      "view_scope": "Established fixed route view; does not reproduce the exact ride camera."
+    },
+    {
+      "id": "cliff_gap_section_023_boundary",
+      "feature_id": "section_023",
+      "kind": "route",
+      "station_m": 5750.0,
+      "requested_camera": {
+        "location": {
+          "x": 84684.67337855416,
+          "y": -68913.2370234957,
+          "z": 478.54537859696256
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": -148.6319349969461,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "requested_camera_fov_degrees": 85,
+      "purpose": "Repeat the established M3 section camera to check adjacent route and repaired support.",
+      "view_scope": "Established fixed route view; does not reproduce the exact ride camera."
+    },
+    {
+      "id": "cliff_gap_section_037_midpoint",
+      "feature_id": "section_037",
+      "kind": "route",
+      "station_m": 9356.865936612383,
+      "requested_camera": {
+        "location": {
+          "x": -88114.72327709835,
+          "y": 43598.47179021657,
+          "z": 365.67566803937706
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 38.77995878171993,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "requested_camera_fov_degrees": 85,
+      "purpose": "Repeat the established M3 section camera to check adjacent route and repaired support.",
+      "view_scope": "Established fixed route view; does not reproduce the exact ride camera."
+    },
+    {
+      "id": "cliff_gap_section_037_boundary",
+      "feature_id": "section_037",
+      "kind": "route",
+      "station_m": 9250.0,
+      "requested_camera": {
+        "location": {
+          "x": -95347.27529403372,
+          "y": 36565.41597602162,
+          "z": 679.2096219674531
+        },
+        "rotation": {
+          "pitch": 2,
+          "yaw": 75.82152807066996,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "requested_camera_fov_degrees": 85,
+      "purpose": "Repeat the established M3 section camera to check adjacent route and repaired support.",
+      "view_scope": "Established fixed route view; does not reproduce the exact ride camera."
+    }
+  ],
+  "local_ride_checks": [
+    {
+      "finding": "SHORE-RIDE-01",
+      "start_station_m": 5840,
+      "requested_range_m": [
+        5840,
+        5909
+      ],
+      "gap_station_approx_m": 5871
+    },
+    {
+      "finding": "SHORE-RIDE-02",
+      "start_station_m": 9330,
+      "requested_range_m": [
+        9330,
+        9399
+      ],
+      "gap_station_approx_m": 9359
+    }
+  ],
+  "scope": "New matching camera plan. Original failed and passed ride evidence and all previous camera plans remain unchanged."
+}

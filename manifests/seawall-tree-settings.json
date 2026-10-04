@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "version": "seawall_trees_v4_grounded_crowns",
+  "working_blend": "blender/StanleyPark_Seawall.blend",
+  "map_path": "/Game/Maps/StanleyParkSeawall",
+  "asset_root": "/Game/StanleyPark/Seawall/Trees",
+  "route_corridor_m": 35.0,
+  "representative_corridor_m": 60.0,
+  "representative_length_m": 400.0,
+  "maximum_instances": 1400,
+  "minimum_height_m": 5.0,
+  "maximum_crown_radius_m": 6.0,
+  "trunk_margin_m": 0.75,
+  "rider_clearance_m": 4.0,
+  "lower_branch_height_fraction": 0.13,
+  "lod_screen_sizes": [
+    1.0,
+    0.36,
+    0.15,
+    0.055
+  ],
+  "cull_distance_cm": 0,
+  "nanite": false,
+  "collision": false,
+  "reference_period": "2022 City LiDAR; dated BC VRI group assignments",
+  "placement_status": "Measured crown samples; inferred stems and visual forms. These are not surveyed individual trees.",
+  "external_assets": [],
+  "sources": [
+    "manifests/vegetation-zones.json",
+    "https://vancouver.ca/parks-recreation-culture/trees.aspx",
+    "https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/silviculture/stocking-standards/tree-species-compendium-index"
+  ],
+  "texture_budget": {
+    "foliage_atlas": 2048,
+    "bark": 1024,
+    "original_procedural_art": true,
+    "whole_tree_atlas": 2048
+  },
+  "background_crowns": "Whole-tree capture atlas at fixed crown centres; terrain-grounded roots within the crown footprint; bent supports clear paths; unsupported crowns explicitly excluded.",
+  "far_color_scale": 0.45
+}

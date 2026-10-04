@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "licence": "Open Government Licence - Vancouver for City bikeways; ordinary reference PDFs are separate.",
+  "attribution": "Contains information licensed under the Open Government Licence - Vancouver.",
+  "sources": [
+    {
+      "id": "city_bikeways_metadata",
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/bikeways",
+      "retrieved_utc": "2026-09-26T22:01:37.273104+00:00",
+      "http_status": 200,
+      "path": "data/routes/raw/city_bikeways_metadata.json",
+      "sha256": "4035218f419e0d7b6c60ecc7a6d0e811178c0ef59965ee7498e6ccd985d08d32",
+      "bytes": 12056,
+      "incorporation": "open_data"
+    },
+    {
+      "id": "city_bikeways",
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/bikeways/exports/geojson",
+      "retrieved_utc": "2026-09-26T22:01:37.980650+00:00",
+      "http_status": 200,
+      "path": "data/routes/raw/city_bikeways.geojson",
+      "sha256": "f8251f0bbd325e9f69a7b8fd1c05fc25b7d7123d65c5e95c76b2193afd7e3fb5",
+      "bytes": 3226426,
+      "incorporation": "open_data"
+    },
+    {
+      "id": "city_open_data_licence",
+      "url": "https://vancouver.opendatasoft.com/pages/licence/",
+      "retrieved_utc": "2026-09-26T22:01:38.276444+00:00",
+      "http_status": 200,
+      "path": "data/routes/raw/city_open_data_licence.html",
+      "sha256": "8acc8ea6e947899946df6de0edc08a2210f0a4e6041d3193f750d4f6c313228a",
+      "bytes": 61907,
+      "incorporation": "reference_only"
+    },
+    {
+      "id": "official_park_map_2026",
+      "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+      "retrieved_utc": "2026-09-26T22:01:38.320307+00:00",
+      "http_status": 403,
+      "status": "initial_http_attempt_unavailable",
+      "follow_up": {
+        "method": "Normal link download through the in-app browser from the City printable-map page",
+        "landing_url": "https://vancouver.ca/parks-recreation-culture/printable-map-of-stanley-park.aspx",
+        "saved_copy_verified_utc": "2026-09-27T03:28:54Z",
+        "path": "data/routes/raw/official-park-map-2026.pdf",
+        "sha256": "41ab78e010ab93977788d880cf152e509578e7f2534df112774c6e51758765f0",
+        "bytes": 2222721,
+        "printed_revision": "2026-05-19",
+        "status": "both_saved_pages_rendered_and_visually_inspected",
+        "incorporation": "reference_only"
+      }
+    }
+  ]
+}

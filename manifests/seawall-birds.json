@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "revision": "near-coast-motion-v2",
+  "enabled_by_default": true,
+  "map": "/Game/Maps/StanleyParkSeawall",
+  "species": "Glaucous-winged Gull (Larus glaucescens)",
+  "scope": "Six visual gulls. Authored flights, not a wildlife population model.",
+  "seed": 27182,
+  "birds_per_zone": 3,
+  "asset_directory": "/Game/StanleyPark/Seawall/Birds",
+  "coordinate_contract": "unreal_north_east_up_cm",
+  "water_height_cm": 20.452,
+  "zones": [
+    {
+      "id": "siwash-offshore",
+      "centre_local_east_north_up_m": [-984.0, 646.0, 11.0],
+      "centre_unreal_cm": [64600.0, -98400.0, 1100.0],
+      "radius_north_cm": 2800.0,
+      "radius_east_cm": 1800.0,
+      "review_route_point_index": 6078
+    },
+    {
+      "id": "brockton-offshore",
+      "centre_local_east_north_up_m": [1976.0, -222.0, 16.0],
+      "centre_unreal_cm": [-22200.0, 197600.0, 1600.0],
+      "radius_north_cm": 2800.0,
+      "radius_east_cm": 1800.0,
+      "review_route_point_index": 1985
+    }
+  ],
+  "source_urls": [
+    "https://stanleyparkecology.ca/wp-content/uploads/2021/07/Stanley-Park-Bird-Checklist.pdf",
+    "https://www.allaboutbirds.org/guide/Glaucous-winged_Gull/overview"
+  ],
+  "rights": "Original procedural meshes and materials. References supply species facts only. No external image, mesh, texture, recording, or animation is copied.",
+  "audio": false,
+  "placement_limits": "Offshore gaps are checked against the approximate source shoreline and park boundary. Live collision queries and rider images must still pass. These are authored flight areas, not bird survey locations.",
+  "acceptance": "Original meshes imported and static rest pose inspected. V2 moves the true-scale gulls closer and improves runtime motion. V2 live appearance, collision telemetry and cost remain pending."
+}

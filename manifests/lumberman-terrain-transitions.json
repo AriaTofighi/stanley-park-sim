@@ -1,0 +1,1585 @@
+{
+  "schema_version": 1,
+  "settings_path": "manifests/lumberman-transition-settings.json",
+  "settings_sha256": "bdbf54dd8ed600e30e1ee54e79f11dc96b5555a3f72f18651b15f41417e06036",
+  "inputs": [
+    {
+      "path": "manifests/lumberman-transition-settings.json",
+      "sha256": "bdbf54dd8ed600e30e1ee54e79f11dc96b5555a3f72f18651b15f41417e06036"
+    },
+    {
+      "path": "manifests/lumberman-facility-blockouts.json",
+      "sha256": "5a88101ae6ce00c170e96314a81dbe3988f7fff6d2abf1f9e03abfc76e1d46e0"
+    },
+    {
+      "path": "data/derived/named-lumberman-arch-survey.npz",
+      "sha256": "9db4dcf672c91aaa9b54538c8573e57353d58a446c8a8cfffc16d83699d1dfd3"
+    },
+    {
+      "path": "data/routes/raw/osm/park-map-20260927.osm",
+      "sha256": "bf0ee22b717a95178a6d8f173cb26f69a08a49a51c23e5cba885c6c597de6f25"
+    }
+  ],
+  "mesh_path": "data/derived/lumberman-facilities/terrain-transition-cells.npz",
+  "mesh_sha256": "b9ea62e64dbced561e2f79f07c6a1bf6aba7723e7e9e7bdf23c9881a359f2285",
+  "footprint": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            858.5242075173801,
+            65.03932258655071
+          ],
+          [
+            857.0965012478305,
+            66.59713618422415
+          ],
+          [
+            858.5356044894861,
+            69.22943211360904
+          ],
+          [
+            860.4544088116937,
+            72.73916001945553
+          ],
+          [
+            862.3732131339012,
+            76.24888792530203
+          ],
+          [
+            863.8123163755569,
+            78.8811838546869
+          ],
+          [
+            865.2400226451065,
+            77.32337025701347
+          ],
+          [
+            866.6677289146562,
+            75.76555665933998
+          ],
+          [
+            868.0954351842058,
+            74.2077430616665
+          ],
+          [
+            869.5231414537556,
+            72.64992946399302
+          ],
+          [
+            870.9508477233052,
+            71.09211586631955
+          ],
+          [
+            872.4515200438209,
+            69.66776610458331
+          ],
+          [
+            873.9828223128328,
+            68.29944226677699
+          ],
+          [
+            875.514124581845,
+            66.93111842897068
+          ],
+          [
+            877.0454268508569,
+            65.56279459116436
+          ],
+          [
+            878.576729119869,
+            64.19447075335805
+          ],
+          [
+            880.1624870067478,
+            62.92575290426302
+          ],
+          [
+            881.8084022497458,
+            61.76707022085425
+          ],
+          [
+            883.5006602104464,
+            60.69315403899601
+          ],
+          [
+            885.2392608888496,
+            59.70400435868833
+          ],
+          [
+            887.0242042849554,
+            58.799621179931194
+          ],
+          [
+            885.5851010432998,
+            56.16732525054632
+          ],
+          [
+            882.9947152083196,
+            51.429192577653524
+          ],
+          [
+            880.4043293733394,
+            46.69105990476073
+          ],
+          [
+            878.9652261316837,
+            44.058763975375854
+          ],
+          [
+            877.4489153406869,
+            45.45450906095151
+          ],
+          [
+            875.9789472673929,
+            46.93502064807771
+          ],
+          [
+            874.5553219118012,
+            48.500298736754466
+          ],
+          [
+            873.1780392739123,
+            50.15034332698176
+          ],
+          [
+            871.8609139921426,
+            51.910423082895306
+          ],
+          [
+            870.3296117231305,
+            53.27874692070162
+          ],
+          [
+            868.7983094541186,
+            54.64707075850793
+          ],
+          [
+            867.2670071851064,
+            56.015394596314245
+          ],
+          [
+            865.7357049160944,
+            57.38371843412057
+          ],
+          [
+            864.2350325955787,
+            58.8080681958568
+          ],
+          [
+            862.8073263260292,
+            60.36588179353028
+          ],
+          [
+            861.3796200564794,
+            61.923695391203765
+          ],
+          [
+            859.9519137869298,
+            63.48150898887724
+          ],
+          [
+            858.5242075173801,
+            65.03932258655071
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            883.9557224730389,
+            30.256045574027567
+          ],
+          [
+            884.9151246341427,
+            32.01090952695081
+          ],
+          [
+            885.8745267952465,
+            33.76577347987406
+          ],
+          [
+            886.8339289563503,
+            35.52063743279731
+          ],
+          [
+            887.793331117454,
+            37.27550138572056
+          ],
+          [
+            888.6482171431297,
+            36.754561002274976
+          ],
+          [
+            890.3579891944811,
+            35.712680235383765
+          ],
+          [
+            892.0677612458326,
+            34.67079946849256
+          ],
+          [
+            892.9226472715081,
+            34.14985908504697
+          ],
+          [
+            891.9632451104044,
+            32.394995132123725
+          ],
+          [
+            891.0038429493006,
+            30.640131179200473
+          ],
+          [
+            890.0444407881969,
+            28.885267226277225
+          ],
+          [
+            889.0850386270931,
+            27.130403273353977
+          ],
+          [
+            888.1256364659894,
+            25.375539320430725
+          ],
+          [
+            888.1256364659894,
+            25.375539320430715
+          ],
+          [
+            887.2707504403137,
+            25.896479703876302
+          ],
+          [
+            885.5609783889622,
+            26.93836047076751
+          ],
+          [
+            883.8512063376108,
+            27.980241237658717
+          ],
+          [
+            882.9963203119352,
+            28.501181621104305
+          ],
+          [
+            882.9963203119352,
+            28.501181621104315
+          ],
+          [
+            883.9557224730389,
+            30.256045574027567
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            904.3411380922587,
+            32.104729168284365
+          ],
+          [
+            906.9315239272388,
+            36.84286184117716
+          ],
+          [
+            909.521909762219,
+            41.58099451406996
+          ],
+          [
+            910.9610130038747,
+            44.21329044345483
+          ],
+          [
+            912.5510137848361,
+            42.952333366831795
+          ],
+          [
+            914.1896688429795,
+            41.78037091690871
+          ],
+          [
+            915.8769781783052,
+            40.6974030936856
+          ],
+          [
+            917.6129417908129,
+            39.703429897162444
+          ],
+          [
+            919.397559680503,
+            38.79845132733925
+          ],
+          [
+            921.2289674248099,
+            37.979057127198
+          ],
+          [
+            923.0603751691167,
+            37.159662927056736
+          ],
+          [
+            924.8917829134235,
+            36.34026872691548
+          ],
+          [
+            926.7231906577305,
+            35.52087452677422
+          ],
+          [
+            928.5545984020374,
+            34.70148032663296
+          ],
+          [
+            930.3860061463441,
+            33.8820861264917
+          ],
+          [
+            932.2174138906511,
+            33.06269192635044
+          ],
+          [
+            934.0488216349579,
+            32.2432977262092
+          ],
+          [
+            932.6097183933022,
+            29.611001796824326
+          ],
+          [
+            930.6909140710947,
+            26.10127389097783
+          ],
+          [
+            928.7721097488871,
+            22.59154598513133
+          ],
+          [
+            927.3330065072314,
+            19.959250055746455
+          ],
+          [
+            925.5015987629247,
+            20.778644255887695
+          ],
+          [
+            923.6701910186177,
+            21.59803845602896
+          ],
+          [
+            921.8387832743109,
+            22.417432656170217
+          ],
+          [
+            920.0073755300041,
+            23.236826856311474
+          ],
+          [
+            918.1759677856971,
+            24.056221056452735
+          ],
+          [
+            916.3445600413903,
+            24.875615256593992
+          ],
+          [
+            914.5131522970835,
+            25.695009456735253
+          ],
+          [
+            912.6817445527766,
+            26.51440365687651
+          ],
+          [
+            910.6284940579775,
+            26.92802031988118
+          ],
+          [
+            908.6238978403607,
+            27.430631609585816
+          ],
+          [
+            906.6679558999258,
+            28.022237525990413
+          ],
+          [
+            904.7606682366734,
+            28.70283806909497
+          ],
+          [
+            902.902034850603,
+            29.47243323889949
+          ],
+          [
+            904.3411380922587,
+            32.104729168284365
+          ]
+        ]
+      ]
+    ]
+  },
+  "controls": [
+    {
+      "kind": "road_west",
+      "u_m": -14.000000000000068,
+      "centre_v_m": -0.4000000000000177,
+      "half_width_m": 5.400000000000027,
+      "plane_about_station_centre": [
+        6.365358120773703,
+        -0.00598134801619365,
+        -0.0025686236556039114
+      ],
+      "endpoint_uses_saved_deck_plane": true,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 554
+      },
+      "fit": {
+        "candidate_returns": 554,
+        "inliers": 463,
+        "rms_m": 0.023370046416876705,
+        "p95_m": 0.05034832621887739
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -16.000000000000068,
+      "centre_v_m": -0.2767045558204047,
+      "half_width_m": 5.120000000000021,
+      "plane_about_station_centre": [
+        6.37025476682198,
+        5.9833043983228905e-05,
+        -0.005533040756038084
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 567
+      },
+      "fit": {
+        "candidate_returns": 567,
+        "inliers": 479,
+        "rms_m": 0.02014101066504176,
+        "p95_m": 0.046440303999756016
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -18.000000000000068,
+      "centre_v_m": -0.056801620889906285,
+      "half_width_m": 4.840000000000016,
+      "plane_about_station_centre": [
+        6.371758294629381,
+        -0.0037724872382904635,
+        -0.005980350612353121
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 551
+      },
+      "fit": {
+        "candidate_returns": 551,
+        "inliers": 511,
+        "rms_m": 0.012962953826480111,
+        "p95_m": 0.023059858511837117
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -20.000000000000068,
+      "centre_v_m": 0.2597088047914774,
+      "half_width_m": 4.560000000000011,
+      "plane_about_station_centre": [
+        6.370067780425535,
+        0.004213848856965188,
+        -0.005598829369012775
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 554
+      },
+      "fit": {
+        "candidate_returns": 554,
+        "inliers": 538,
+        "rms_m": 0.012439167990997847,
+        "p95_m": 0.02248246767228718
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -22.000000000000068,
+      "centre_v_m": 0.6728267212237466,
+      "half_width_m": 4.280000000000006,
+      "plane_about_station_centre": [
+        6.36778729371637,
+        -0.004020729718776886,
+        -0.00406756423260541
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 561
+      },
+      "fit": {
+        "candidate_returns": 561,
+        "inliers": 561,
+        "rms_m": 0.01199335288698374,
+        "p95_m": 0.022326810601684066
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -24.000000000000068,
+      "centre_v_m": 1.2113505592979121,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.375958440612416,
+        -0.006436968354038427,
+        -0.005874880240819609
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 559
+      },
+      "fit": {
+        "candidate_returns": 559,
+        "inliers": 557,
+        "rms_m": 0.01149107649647641,
+        "p95_m": 0.021852879340159767
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -26.000000000000068,
+      "centre_v_m": 1.5833942956472302,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.38836411336601,
+        -0.00790268450857864,
+        -0.007108869714811786
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 519
+      },
+      "fit": {
+        "candidate_returns": 519,
+        "inliers": 517,
+        "rms_m": 0.009840846910618076,
+        "p95_m": 0.019128413474455642
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -28.000000000000068,
+      "centre_v_m": 1.9554380319965485,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.405383282464698,
+        -0.011630319689044832,
+        -0.009100244682652874
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 543
+      },
+      "fit": {
+        "candidate_returns": 543,
+        "inliers": 521,
+        "rms_m": 0.011457096599708538,
+        "p95_m": 0.02115893446391759
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -30.000000000000068,
+      "centre_v_m": 2.3274817683458666,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.429538861487938,
+        -0.016813411574257517,
+        -0.007405851553774408
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 549
+      },
+      "fit": {
+        "candidate_returns": 549,
+        "inliers": 531,
+        "rms_m": 0.013984642965757386,
+        "p95_m": 0.026450435670363426
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -32.00000000000007,
+      "centre_v_m": 2.6995255046951856,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.461364146650566,
+        -0.016313916436284336,
+        -0.0065695213646687215
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 470
+      },
+      "fit": {
+        "candidate_returns": 470,
+        "inliers": 466,
+        "rms_m": 0.014704857594404137,
+        "p95_m": 0.028877223442535183
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -34.00000000000007,
+      "centre_v_m": 3.1354213976023875,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.498825480086317,
+        -0.023551599722051078,
+        -0.005970979052615331
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 367
+      },
+      "fit": {
+        "candidate_returns": 367,
+        "inliers": 367,
+        "rms_m": 0.016766352426649485,
+        "p95_m": 0.03037856663133267
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -36.00000000000007,
+      "centre_v_m": 3.7234246213541504,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.533854718871345,
+        -0.016701769125630227,
+        -0.007052789748902437
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.9999999999999911,
+      "source_classes": {
+        "1": 343
+      },
+      "fit": {
+        "candidate_returns": 343,
+        "inliers": 343,
+        "rms_m": 0.021821142326103552,
+        "p95_m": 0.04274547493046456
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -38.00000000000007,
+      "centre_v_m": 4.311427845105913,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.568061996628919,
+        -0.02455489785115832,
+        -0.004237407784311271
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.7499999999999911,
+      "source_classes": {
+        "1": 357
+      },
+      "fit": {
+        "candidate_returns": 357,
+        "inliers": 356,
+        "rms_m": 0.02055388227676947,
+        "p95_m": 0.036038963345486064
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -40.00000000000007,
+      "centre_v_m": 4.899431068857677,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.61702775527161,
+        -0.02469131076880363,
+        -0.0032328974788487256
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.4999999999999911,
+      "source_classes": {
+        "1": 299,
+        "2": 69
+      },
+      "fit": {
+        "candidate_returns": 368,
+        "inliers": 363,
+        "rms_m": 0.019050300296195918,
+        "p95_m": 0.03662745583670506
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -42.00000000000007,
+      "centre_v_m": 5.487434292609439,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.663485367652226,
+        -0.024239609763823045,
+        -0.005080318303987132
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.24999999999999112,
+      "source_classes": {
+        "1": 112,
+        "2": 235
+      },
+      "fit": {
+        "candidate_returns": 347,
+        "inliers": 342,
+        "rms_m": 0.018218473650129158,
+        "p95_m": 0.034038745715522144
+      }
+    },
+    {
+      "kind": "road_west",
+      "u_m": -44.0,
+      "centre_v_m": 6.075437516361182,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        6.7200783792302135,
+        -0.035944986353471896,
+        0.00422981758587633
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.0,
+      "source_classes": {
+        "1": 38,
+        "2": 253
+      },
+      "fit": {
+        "candidate_returns": 291,
+        "inliers": 276,
+        "rms_m": 0.02364232041353679,
+        "p95_m": 0.04649632516469615
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 14.000000000000043,
+      "centre_v_m": -0.4000000000000177,
+      "half_width_m": 5.400000000000027,
+      "plane_about_station_centre": [
+        6.191951120820236,
+        -0.021019394687372232,
+        0.0008146701162856807
+      ],
+      "endpoint_uses_saved_deck_plane": true,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 568
+      },
+      "fit": {
+        "candidate_returns": 568,
+        "inliers": 520,
+        "rms_m": 0.023333996430921735,
+        "p95_m": 0.0529321495196234
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 16.000000000000043,
+      "centre_v_m": -0.3696789672691705,
+      "half_width_m": 5.120000000000021,
+      "plane_about_station_centre": [
+        6.131098302025246,
+        -0.038794994784641795,
+        0.0018490291043251016
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 560
+      },
+      "fit": {
+        "candidate_returns": 560,
+        "inliers": 507,
+        "rms_m": 0.023537077557610614,
+        "p95_m": 0.051459395840023694
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 18.000000000000043,
+      "centre_v_m": -0.23793169400074177,
+      "half_width_m": 4.840000000000016,
+      "plane_about_station_centre": [
+        6.04214181349438,
+        -0.051213959921280645,
+        0.0014493629254562575
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 559
+      },
+      "fit": {
+        "candidate_returns": 559,
+        "inliers": 488,
+        "rms_m": 0.023116077194840618,
+        "p95_m": 0.05370140250131658
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 20.000000000000043,
+      "centre_v_m": -0.004758180194731787,
+      "half_width_m": 4.560000000000011,
+      "plane_about_station_centre": [
+        5.937047478966317,
+        -0.05192509540502033,
+        0.0012939268869460803
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 598
+      },
+      "fit": {
+        "candidate_returns": 598,
+        "inliers": 524,
+        "rms_m": 0.021668304467581223,
+        "p95_m": 0.048848396823979096
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 22.000000000000043,
+      "centre_v_m": 0.32984157414885973,
+      "half_width_m": 4.280000000000006,
+      "plane_about_station_centre": [
+        5.83362681200348,
+        -0.050000263957794555,
+        0.0023317086436014218
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 642
+      },
+      "fit": {
+        "candidate_returns": 642,
+        "inliers": 576,
+        "rms_m": 0.021648853636199884,
+        "p95_m": 0.046866623396352614
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 24.000000000000043,
+      "centre_v_m": 0.7658675690300326,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        5.739210984183006,
+        -0.04262071765245152,
+        -0.0001348463172361089
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 675
+      },
+      "fit": {
+        "candidate_returns": 675,
+        "inliers": 605,
+        "rms_m": 0.02027066197328558,
+        "p95_m": 0.04285020241247995
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 26.000000000000043,
+      "centre_v_m": 1.0194331703739858,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        5.65671580405427,
+        -0.040034143420768414,
+        -0.0011603757456465017
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 605,
+        "2": 124
+      },
+      "fit": {
+        "candidate_returns": 729,
+        "inliers": 644,
+        "rms_m": 0.020156263482804703,
+        "p95_m": 0.04533472725522369
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 28.000000000000043,
+      "centre_v_m": 1.2729987717179396,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        5.575436959119976,
+        -0.04041874022161281,
+        2.384021177871503e-05
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "1": 337,
+        "2": 418
+      },
+      "fit": {
+        "candidate_returns": 755,
+        "inliers": 678,
+        "rms_m": 0.021624519903565776,
+        "p95_m": 0.05027238819396866
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 30.000000000000043,
+      "centre_v_m": 1.526564373061893,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        5.497137752280196,
+        -0.038116339402769685,
+        0.0007316447762949405
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.9999999999999958,
+      "source_classes": {
+        "1": 241,
+        "2": 567
+      },
+      "fit": {
+        "candidate_returns": 808,
+        "inliers": 713,
+        "rms_m": 0.02282677553260929,
+        "p95_m": 0.05119332115155899
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 32.00000000000004,
+      "centre_v_m": 1.7801299744058463,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        5.419873843139627,
+        -0.03978975022075339,
+        2.6469273541175984e-05
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.7999999999999957,
+      "source_classes": {
+        "1": 304,
+        "2": 538
+      },
+      "fit": {
+        "candidate_returns": 842,
+        "inliers": 725,
+        "rms_m": 0.0229081245921014,
+        "p95_m": 0.05166137097281229
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 34.00000000000004,
+      "centre_v_m": 2.0336955757498,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        5.34008994140726,
+        -0.0389554981532264,
+        -0.001507663832070049
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.5999999999999958,
+      "source_classes": {
+        "1": 311,
+        "2": 553
+      },
+      "fit": {
+        "candidate_returns": 864,
+        "inliers": 739,
+        "rms_m": 0.022219159309977074,
+        "p95_m": 0.047416178280048564
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 36.00000000000004,
+      "centre_v_m": 2.2872611770937534,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        5.261544714844764,
+        -0.03834667535822719,
+        -0.0019456407845222326
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.3999999999999957,
+      "source_classes": {
+        "1": 278,
+        "2": 564
+      },
+      "fit": {
+        "candidate_returns": 842,
+        "inliers": 733,
+        "rms_m": 0.0234805200758932,
+        "p95_m": 0.05049112961295563
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 38.00000000000004,
+      "centre_v_m": 2.5408267784377068,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        5.182104086637376,
+        -0.038592764344069254,
+        -0.0012376076386191419
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.19999999999999574,
+      "source_classes": {
+        "1": 281,
+        "2": 553
+      },
+      "fit": {
+        "candidate_returns": 834,
+        "inliers": 727,
+        "rms_m": 0.021617437462128266,
+        "p95_m": 0.047021904979244494
+      }
+    },
+    {
+      "kind": "road_east",
+      "u_m": 40.0,
+      "centre_v_m": 2.7943923797816552,
+      "half_width_m": 4.0,
+      "plane_about_station_centre": [
+        5.106707673846219,
+        -0.0358624945638021,
+        -0.0021872028166904918
+      ],
+      "endpoint_uses_saved_deck_plane": false,
+      "longitudinal_weight": 0.0,
+      "source_classes": {
+        "1": 272,
+        "2": 594
+      },
+      "fit": {
+        "candidate_returns": 866,
+        "inliers": 778,
+        "rms_m": 0.020694218068567208,
+        "p95_m": 0.04454448114104878
+      }
+    },
+    {
+      "kind": "south_walk",
+      "v_m": -9.999999999999988,
+      "plane_about_station_centre": [
+        2.736253193162019,
+        0.003407319489726366,
+        -0.04436987560442243
+      ],
+      "endpoint_uses_saved_floor_plane": true,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "2": 293
+      },
+      "fit": {
+        "candidate_returns": 293,
+        "inliers": 293,
+        "rms_m": 0.016908275514574467,
+        "p95_m": 0.03417417740715369
+      }
+    },
+    {
+      "kind": "south_walk",
+      "v_m": -11.999999999999988,
+      "plane_about_station_centre": [
+        2.8880398639433795,
+        0.012331294778466227,
+        -0.10187237045489096
+      ],
+      "endpoint_uses_saved_floor_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "2": 294
+      },
+      "fit": {
+        "candidate_returns": 294,
+        "inliers": 294,
+        "rms_m": 0.016067588124783205,
+        "p95_m": 0.03329070532927808
+      }
+    },
+    {
+      "kind": "south_walk",
+      "v_m": -13.999999999999988,
+      "plane_about_station_centre": [
+        3.1323475932667075,
+        0.0073628922245214,
+        -0.13941757913941036
+      ],
+      "endpoint_uses_saved_floor_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "2": 277
+      },
+      "fit": {
+        "candidate_returns": 277,
+        "inliers": 251,
+        "rms_m": 0.029448666251539912,
+        "p95_m": 0.06164126699075534
+      }
+    },
+    {
+      "kind": "south_walk",
+      "v_m": -15.999999999999988,
+      "plane_about_station_centre": [
+        3.5150403681522535,
+        -0.07085867496303874,
+        -0.17359904129830508
+      ],
+      "endpoint_uses_saved_floor_plane": false,
+      "longitudinal_weight": 1.0,
+      "source_classes": {
+        "2": 224
+      },
+      "fit": {
+        "candidate_returns": 224,
+        "inliers": 208,
+        "rms_m": 0.04151187064694931,
+        "p95_m": 0.07973700253047797
+      }
+    },
+    {
+      "kind": "south_walk",
+      "v_m": -17.999999999999986,
+      "plane_about_station_centre": [
+        3.9257993533811693,
+        -0.13776160702910953,
+        -0.17477581538529327
+      ],
+      "endpoint_uses_saved_floor_plane": false,
+      "longitudinal_weight": 0.5000000000000036,
+      "source_classes": {
+        "2": 233
+      },
+      "fit": {
+        "candidate_returns": 233,
+        "inliers": 233,
+        "rms_m": 0.036581011687910316,
+        "p95_m": 0.06997216137663591
+      }
+    },
+    {
+      "kind": "south_walk",
+      "v_m": -19.999999999999986,
+      "plane_about_station_centre": [
+        4.218156044370077,
+        -0.14551999578656644,
+        -0.13073067971032803
+      ],
+      "endpoint_uses_saved_floor_plane": false,
+      "longitudinal_weight": 3.552713678800501e-15,
+      "source_classes": {
+        "2": 275
+      },
+      "fit": {
+        "candidate_returns": 275,
+        "inliers": 275,
+        "rms_m": 0.03524464161924651,
+        "p95_m": 0.06748256026596033
+      }
+    },
+    {
+      "kind": "south_walk",
+      "v_m": -20.0,
+      "plane_about_station_centre": [
+        4.218156044370077,
+        -0.14551999578656846,
+        -0.1307306797103281
+      ],
+      "endpoint_uses_saved_floor_plane": false,
+      "longitudinal_weight": 0.0,
+      "source_classes": {
+        "2": 275
+      },
+      "fit": {
+        "candidate_returns": 275,
+        "inliers": 275,
+        "rms_m": 0.03524464161924649,
+        "p95_m": 0.06748256026595856
+      }
+    }
+  ],
+  "source_road_ways": [
+    {
+      "id": "58361906",
+      "url": "https://www.openstreetmap.org/way/58361906",
+      "timestamp": "2026-09-11T23:14:29Z",
+      "version": "19",
+      "tags": {
+        "bicycle": "yes",
+        "bridge": "yes",
+        "cycleway:left": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "30",
+        "maxweight:signed": "no",
+        "motor_vehicle": "yes",
+        "name": "Stanley Park Drive",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "id": "58361911",
+      "url": "https://www.openstreetmap.org/way/58361911",
+      "timestamp": "2026-08-10T21:17:11Z",
+      "version": "21",
+      "tags": {
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "yes",
+        "name": "Stanley Park Drive",
+        "oneway": "yes",
+        "parking:both": "no",
+        "shoulder": "no",
+        "sidewalk:both": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "id": "1353319157",
+      "url": "https://www.openstreetmap.org/way/1353319157",
+      "timestamp": "2026-08-10T21:17:23Z",
+      "version": "3",
+      "tags": {
+        "bicycle": "yes",
+        "cycleway:left": "no",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "motor_vehicle": "yes",
+        "name": "Stanley Park Drive",
+        "oneway": "yes",
+        "parking:both": "no",
+        "shoulder": "no",
+        "sidewalk:both": "no",
+        "surface": "asphalt"
+      }
+    }
+  ],
+  "cell_groups": [
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_west",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "road_east",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk",
+    "south_walk"
+  ],
+  "triangle_count": 272,
+  "method": "Raw 2022 LiDAR elevations and current OSM alignment; bank fade limits and outer road width are explicit M1 surface engineering estimates. No new surveyed construction dimensions.",
+  "patch_area_m2": 872.0000000000016,
+  "existing_cut_overlap_m2": 5.2631266040222223e-14,
+  "integration": "Apply LumbermanTerrainTransition.apply after all exact landmark/facility cuts and degenerate-face filtering, before tile assignment. It modifies retained terrain only. Refit affected route displays to the final terrain planes; do not touch main seawall pavement.",
+  "lower_passage_preserved": true,
+  "visual_acceptance": false,
+  "runtime_acceptance": false
+}

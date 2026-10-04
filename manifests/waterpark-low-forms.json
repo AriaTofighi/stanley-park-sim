@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "meshes": [
+    {
+      "name": "SM_WaterPark_ClimbingOutcrop",
+      "path": "data/derived/waterpark-low-forms/SM_WaterPark_ClimbingOutcrop.npz",
+      "sha256": "ed235afbf76552d1949c20f14484260e9b96c2224611764af465af3644c83bf2",
+      "feature_id": "SP_water_park",
+      "m1_group": "M1-F05",
+      "component_id": "SM_WaterPark_ClimbingOutcrop",
+      "material_role": "play_form",
+      "material_color": [
+        0.48,
+        0.46,
+        0.38,
+        1
+      ],
+      "contact_surface": "Current terrain / measured 2022 envelope",
+      "visual_lift_m": 0.0,
+      "vertices": 486,
+      "triangles": 968,
+      "collision": "complex",
+      "source": {
+        "type": "City2022 visible outline plus low raw returns",
+        "survey": "data/derived/named-lumberman-arch-survey.npz",
+        "retained_returns": 4071,
+        "height_samples": 490,
+        "image_picks": [
+          [
+            849,
+            810
+          ],
+          [
+            870,
+            795
+          ],
+          [
+            908,
+            813
+          ],
+          [
+            944,
+            868
+          ],
+          [
+            948,
+            923
+          ],
+          [
+            922,
+            959
+          ],
+          [
+            898,
+            950
+          ],
+          [
+            878,
+            929
+          ],
+          [
+            845,
+            892
+          ]
+        ],
+        "upper_return_percentile": 85,
+        "maximum_retained_z_m": 7.0
+      },
+      "limit": "Coarse visible rock/play envelope. Canopy classes excluded; railings, stairs, recesses, slides and spray are later detail. Terrain contact is retained; not a certified climbing structure."
+    },
+    {
+      "name": "SM_WaterPark_BoatOpenRim",
+      "path": "data/derived/waterpark-low-forms/SM_WaterPark_BoatOpenRim.npz",
+      "sha256": "8cebd8384e65060a886f0a4a281bd24dfbdba50e845d4f831e43b8a68dfaf509",
+      "feature_id": "SP_water_park",
+      "m1_group": "M1-F05",
+      "component_id": "SM_WaterPark_BoatOpenRim",
+      "material_role": "play_form",
+      "material_color": [
+        0.49,
+        0.13,
+        0.1,
+        1
+      ],
+      "contact_surface": "Current terrain / measured 2022 envelope",
+      "visual_lift_m": 0.0,
+      "vertices": 778,
+      "triangles": 312,
+      "collision": "complex",
+      "source": {
+        "type": "City2022 visible boat rim and low-return height envelope",
+        "survey": "data/derived/named-lumberman-arch-survey.npz",
+        "image_picks": [
+          [
+            787,
+            741
+          ],
+          [
+            763,
+            742
+          ],
+          [
+            743,
+            751
+          ],
+          [
+            738,
+            767
+          ],
+          [
+            749,
+            779
+          ],
+          [
+            769,
+            785
+          ],
+          [
+            789,
+            784
+          ],
+          [
+            811,
+            778
+          ],
+          [
+            819,
+            764
+          ],
+          [
+            815,
+            749
+          ],
+          [
+            804,
+            741
+          ]
+        ],
+        "nearby_returns": 646,
+        "top_z_m": 4.337016940116882,
+        "ground_m": 2.938950642943382,
+        "wall_width_estimate_m": 0.36
+      },
+      "limit": "Open horseshoe rim only. Rim width and regularized hidden faces are explicit M1 estimates; no detailed deck, steering wheel or interactive apparatus."
+    }
+  ],
+  "source_inputs": [
+    {
+      "path": "data/derived/named-lumberman-arch-survey.npz",
+      "sha256": "9db4dcf672c91aaa9b54538c8573e57353d58a446c8a8cfffc16d83699d1dfd3"
+    },
+    {
+      "path": "evidence/corridor/ortho-utm/m1-waterpark.json",
+      "sha256": "2645523a4b57dd6094f95d07c36ffe0a9ea496d4eb0de50f1ab3c5fcf9afea32"
+    }
+  ],
+  "terrain_inputs": [
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315"
+    }
+  ],
+  "exclusion_mesh_inputs": [],
+  "source_manifest": "manifests/lumberman-facility-blockouts.json",
+  "attribution": [
+    "Contains information licensed under the Open Government Licence - Vancouver."
+  ],
+  "licence": "OGL Vancouver survey and image-derived geometry",
+  "scope": "Two principal low play-form envelopes only; no detailed equipment or seasonal operation",
+  "application_visual_check": "pending",
+  "release_accepted": false
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "name": "SM_GullBody",
+      "fbx": "exports/seawall-birds/SM_GullBody.fbx",
+      "sha256": "5c9f87c04df764a073a4614de4c9e70b57f8db0b168fcf1bc92d6c45455d5b66",
+      "bounds_min_cm": [
+        -34.00000035762787,
+        -10.499999672174454,
+        -10.499999672174454
+      ],
+      "bounds_max_cm": [
+        38.199999928474426,
+        10.499999672174454,
+        14.900000393390656
+      ],
+      "materials": [
+        {
+          "name": "M_SeawallGullWhite",
+          "color": [
+            0.7200000286102295,
+            0.7300000190734863,
+            0.699999988079071
+          ]
+        },
+        {
+          "name": "M_SeawallGullGrey",
+          "color": [
+            0.3700000047683716,
+            0.4000000059604645,
+            0.41999998688697815
+          ]
+        },
+        {
+          "name": "M_SeawallGullBill",
+          "color": [
+            0.6100000143051147,
+            0.4399999976158142,
+            0.12999999523162842
+          ]
+        },
+        {
+          "name": "M_SeawallGullEye",
+          "color": [
+            0.014999999664723873,
+            0.017999999225139618,
+            0.017000000923871994
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SM_GullWingLeft",
+      "fbx": "exports/seawall-birds/SM_GullWingLeft.fbx",
+      "sha256": "9fa6ca5cf8ccd2e6653f119318dcfd2b8624f33ec77e78ec746a39c641132034",
+      "bounds_min_cm": [
+        -23.999999463558197,
+        -62.99999952316284,
+        -0.6000000052154064
+      ],
+      "bounds_max_cm": [
+        10.000000149011612,
+        -0.0,
+        1.2000000104308128
+      ],
+      "materials": [
+        {
+          "name": "M_SeawallGullGrey",
+          "color": [
+            0.3700000047683716,
+            0.4000000059604645,
+            0.41999998688697815
+          ]
+        },
+        {
+          "name": "M_SeawallGullWhite",
+          "color": [
+            0.7200000286102295,
+            0.7300000190734863,
+            0.699999988079071
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SM_GullWingRight",
+      "fbx": "exports/seawall-birds/SM_GullWingRight.fbx",
+      "sha256": "4df08e31f22efe0e74e31a12796fab569cebf8e769b45a8919df90e8b0a89758",
+      "bounds_min_cm": [
+        -23.999999463558197,
+        0.0,
+        -0.6000000052154064
+      ],
+      "bounds_max_cm": [
+        10.000000149011612,
+        62.99999952316284,
+        1.2000000104308128
+      ],
+      "materials": [
+        {
+          "name": "M_SeawallGullGrey",
+          "color": [
+            0.3700000047683716,
+            0.4000000059604645,
+            0.41999998688697815
+          ]
+        },
+        {
+          "name": "M_SeawallGullWhite",
+          "color": [
+            0.7200000286102295,
+            0.7300000190734863,
+            0.699999988079071
+          ]
+        }
+      ]
+    }
+  ],
+  "source_blend": "blender/SeawallBirds.blend",
+  "rights": "Original procedural meshes and materials; no external media",
+  "runtime_config_sha256": "5c8c73e3b66a4b4b259480a5ba6a47fbf4bcb480043a8e608f2560a64d1546f6"
+}

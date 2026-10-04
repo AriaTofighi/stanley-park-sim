@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "source_id": "osm_park_paths_20260927",
+  "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-123.165,49.288,-123.114,49.319",
+  "retrieved_utc": "2026-09-27T18:09:05.855232+00:00",
+  "response": {
+    "version": "0.6",
+    "generator": "openstreetmap-cgimap 2.1.0 (2942786 spike-08.openstreetmap.org)",
+    "copyright": "OpenStreetMap and contributors",
+    "attribution": "http://www.openstreetmap.org/copyright",
+    "license": "http://opendatacommons.org/licenses/odbl/1-0/"
+  },
+  "path": "data/routes/raw/osm/park-map-20260927.osm",
+  "sha256": "bf0ee22b717a95178a6d8f173cb26f69a08a49a51c23e5cba885c6c597de6f25",
+  "bytes": 10976215,
+  "licence": "ODbL-1.0",
+  "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "copyright_url": "https://www.openstreetmap.org/copyright",
+  "intended_use": "Candidate pedestrian topology and geometry. Survey heights and official City access evidence remain separate inputs. Not surveyed horizontal control.",
+  "incorporation": "Keep derived pedestrian database under ODbL with attribution, editable data and licence notice. Game meshes are produced works; no game-code licence claim.",
+  "failed_acquisition": [
+    {
+      "url": "https://overpass-api.de/api/interpreter",
+      "result": "POST did not complete; GET returned HTTP406. Normal OSM read API used."
+    }
+  ],
+  "official_references": [
+    {
+      "id": "city_seawall",
+      "url": "https://vancouver.ca/parks-recreation-culture/seawall.aspx",
+      "retrieved": "2026-09-27",
+      "use": "Walking lane closest to water, cycle lane inside. Seasonal rock scaling does not establish September closure.",
+      "rights": "reference_only"
+    },
+    {
+      "id": "city_trails",
+      "url": "https://vancouver.ca/parks-recreation-culture/stanley-park-trails.aspx",
+      "retrieved": "2026-09-27",
+      "use": "Forest trails, Ravine/Beaver accessible walking and 75m Cathedral boardwalk; no generalized cycling permission.",
+      "rights": "reference_only"
+    },
+    {
+      "id": "city_park_map_2026",
+      "url": "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+      "local_path": "data/routes/raw/official-park-map-2026.pdf",
+      "capture": "Printed revision 2026-05-19",
+      "use": "Route-mode and landmark verification",
+      "rights": "reference_only"
+    }
+  ]
+}

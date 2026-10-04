@@ -1,0 +1,5922 @@
+{
+  "schema_version": 1,
+  "origin_sha256": "86ab4975f2006971e9080461de30fd15736e0537031c8b5f04f966acbc26205a",
+  "route_source_sha256": "f33fbfa96c83f8d25582192571982167e66addd53f7c05c0fd7fe22a9a88c540",
+  "terrain_source_sha256": "d958e065a3ff9ae5fd99fcea3710b5b0f3a6672d88ca5b376ae72ac6a599bd92",
+  "sampling": {
+    "corridor_radius_m": 14,
+    "corridor_grid_m": 2,
+    "other_grid_m": 8,
+    "source_grid_m": 2,
+    "tile_size_m": 512,
+    "method": "Delaunay; shared triangle clipping"
+  },
+  "route_width_m": 3,
+  "width_surveyed": false,
+  "heights_survey_accepted": false,
+  "terrain": [
+    {
+      "name": "SM_Terrain_00_00",
+      "path": "data/derived/surface-meshes/SM_Terrain_00_00.npz",
+      "sha256": "5572d1ec0d38ea124519627cfb8b7e5c1288de4c1de47036d04edb2ebfa55543",
+      "vertices": 4609,
+      "triangles": 8576
+    },
+    {
+      "name": "SM_Terrain_01_00",
+      "path": "data/derived/surface-meshes/SM_Terrain_01_00.npz",
+      "sha256": "58b70c3bd875551365c6057ea0ac69760625469b30217cd68745a7f9f2be4724",
+      "vertices": 4417,
+      "triangles": 8384
+    },
+    {
+      "name": "SM_Terrain_02_00",
+      "path": "data/derived/surface-meshes/SM_Terrain_02_00.npz",
+      "sha256": "59f25d0bc8cd2588d01a0e7ff610b50900270538e3b7055b9fe4127e2b939e8c",
+      "vertices": 13881,
+      "triangles": 17493
+    },
+    {
+      "name": "SM_Terrain_03_00",
+      "path": "data/derived/surface-meshes/SM_Terrain_03_00.npz",
+      "sha256": "d14a2610c7744a1f2365564b1d61db3d1cc276189de6ae7ca01d300a5958d376",
+      "vertices": 12312,
+      "triangles": 14803
+    },
+    {
+      "name": "SM_Terrain_04_00",
+      "path": "data/derived/surface-meshes/SM_Terrain_04_00.npz",
+      "sha256": "1ec0699ecc421219c2ed0d86d9b29d1a9e8ff3c50e20962c298322c02e2b3aac",
+      "vertices": 4417,
+      "triangles": 8384
+    },
+    {
+      "name": "SM_Terrain_05_00",
+      "path": "data/derived/surface-meshes/SM_Terrain_05_00.npz",
+      "sha256": "61c91fd7ae9320a26ffe462959d561a6f189be44d1d785d4be5fbc653aa1c592",
+      "vertices": 4417,
+      "triangles": 8384
+    },
+    {
+      "name": "SM_Terrain_06_00",
+      "path": "data/derived/surface-meshes/SM_Terrain_06_00.npz",
+      "sha256": "4bd47684cab5f9bfd2ba593c1a2f1221e58b6ae5e4262f05218f776aac65ddee",
+      "vertices": 2106,
+      "triangles": 3931
+    },
+    {
+      "name": "SM_Terrain_00_01",
+      "path": "data/derived/surface-meshes/SM_Terrain_00_01.npz",
+      "sha256": "520f8f7fa07fc1114761f3db694b3958cb24b43e66440cb38f546e6337eaaaee",
+      "vertices": 4417,
+      "triangles": 8384
+    },
+    {
+      "name": "SM_Terrain_01_01",
+      "path": "data/derived/surface-meshes/SM_Terrain_01_01.npz",
+      "sha256": "96859fd3b0d26a9accbd7cb501b4141bd3be18b07760a1e8244fff5e52e656d9",
+      "vertices": 6377,
+      "triangles": 10549
+    },
+    {
+      "name": "SM_Terrain_02_01",
+      "path": "data/derived/surface-meshes/SM_Terrain_02_01.npz",
+      "sha256": "f60fde231073bd04dfac72df68c94ac60b4f9b93b626df85e984538da1fb1f14",
+      "vertices": 23649,
+      "triangles": 28988
+    },
+    {
+      "name": "SM_Terrain_03_01",
+      "path": "data/derived/surface-meshes/SM_Terrain_03_01.npz",
+      "sha256": "a81a1d5ad2c23d9e255d148adb072296be39058fc009e680661043bfc3251dbd",
+      "vertices": 17131,
+      "triangles": 26397
+    },
+    {
+      "name": "SM_Terrain_04_01",
+      "path": "data/derived/surface-meshes/SM_Terrain_04_01.npz",
+      "sha256": "29cf5611406a9cd347285114a48695e1da93d851226ae0799f9f3ecefb733a56",
+      "vertices": 22452,
+      "triangles": 26775
+    },
+    {
+      "name": "SM_Terrain_05_01",
+      "path": "data/derived/surface-meshes/SM_Terrain_05_01.npz",
+      "sha256": "3222a600c70e19465ab5f9e606f7b3e82a6fdac4ccc848625680d91c16015218",
+      "vertices": 15617,
+      "triangles": 16476
+    },
+    {
+      "name": "SM_Terrain_06_01",
+      "path": "data/derived/surface-meshes/SM_Terrain_06_01.npz",
+      "sha256": "34bad1d28beb7a7ee7f9dc0dd107aa130330670247d779d079f50386d413a313",
+      "vertices": 2015,
+      "triangles": 3840
+    },
+    {
+      "name": "SM_Terrain_00_02",
+      "path": "data/derived/surface-meshes/SM_Terrain_00_02.npz",
+      "sha256": "2c8ebabea31aabd9e51fcb09cda3332f4b877ae371f9d6dad8434d4d80d8f170",
+      "vertices": 5475,
+      "triangles": 10484
+    },
+    {
+      "name": "SM_Terrain_01_02",
+      "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+      "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed",
+      "vertices": 24596,
+      "triangles": 28791
+    },
+    {
+      "name": "SM_Terrain_02_02",
+      "path": "data/derived/surface-meshes/SM_Terrain_02_02.npz",
+      "sha256": "49a79a1e08a8ba3200f88e0d927459a57fcae65a3052ada4d7f64688088ec6df",
+      "vertices": 13383,
+      "triangles": 26431
+    },
+    {
+      "name": "SM_Terrain_03_02",
+      "path": "data/derived/surface-meshes/SM_Terrain_03_02.npz",
+      "sha256": "27ba10582c793cce88265c22e89f0e36dc793eb37a41e2424de530123e43c69d",
+      "vertices": 15894,
+      "triangles": 31460
+    },
+    {
+      "name": "SM_Terrain_04_02",
+      "path": "data/derived/surface-meshes/SM_Terrain_04_02.npz",
+      "sha256": "50ac1c483949b1e4cbfcb2386efd23ed1be28e0e34f899b7c83a20299adaeec9",
+      "vertices": 15234,
+      "triangles": 30086
+    },
+    {
+      "name": "SM_Terrain_05_02",
+      "path": "data/derived/surface-meshes/SM_Terrain_05_02.npz",
+      "sha256": "421f0531738aecdb04ca66d94ec7733937eae079d10992b313405beb1a6773b1",
+      "vertices": 21846,
+      "triangles": 28401
+    },
+    {
+      "name": "SM_Terrain_06_02",
+      "path": "data/derived/surface-meshes/SM_Terrain_06_02.npz",
+      "sha256": "8bb3e19c6e3f506c83d98e6bd8850cbd9c239174978f8514637b05a2be2eeaf2",
+      "vertices": 2033,
+      "triangles": 3866
+    },
+    {
+      "name": "SM_Terrain_00_03",
+      "path": "data/derived/surface-meshes/SM_Terrain_00_03.npz",
+      "sha256": "dc8989bf63b20a7b4a491b2887f60a1f5c2ff1eb705537d962fa734e8848667c",
+      "vertices": 4417,
+      "triangles": 8384
+    },
+    {
+      "name": "SM_Terrain_01_03",
+      "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937",
+      "vertices": 29743,
+      "triangles": 41887
+    },
+    {
+      "name": "SM_Terrain_02_03",
+      "path": "data/derived/surface-meshes/SM_Terrain_02_03.npz",
+      "sha256": "1279ec4ea58d84eaf73a87576af02db2117f537b1d42f0b518644273346732ee",
+      "vertices": 15371,
+      "triangles": 28471
+    },
+    {
+      "name": "SM_Terrain_03_03",
+      "path": "data/derived/surface-meshes/SM_Terrain_03_03.npz",
+      "sha256": "ec6924423a8a132c42b4f4c6c816118d45f9bf038f7fdfdf40cc4367a72ad409",
+      "vertices": 5706,
+      "triangles": 11088
+    },
+    {
+      "name": "SM_Terrain_04_03",
+      "path": "data/derived/surface-meshes/SM_Terrain_04_03.npz",
+      "sha256": "4a5b6a8c05bda321ef5bb6a1da4e1c8b2821ba34fb1cd957d3b6b3623fe919b7",
+      "vertices": 17306,
+      "triangles": 26141
+    },
+    {
+      "name": "SM_Terrain_05_03",
+      "path": "data/derived/surface-meshes/SM_Terrain_05_03.npz",
+      "sha256": "a5234d8cda46a99360fa7b20f8034576d6201647ae789d0c5e929986ad889538",
+      "vertices": 33410,
+      "triangles": 43935
+    },
+    {
+      "name": "SM_Terrain_06_03",
+      "path": "data/derived/surface-meshes/SM_Terrain_06_03.npz",
+      "sha256": "28c8ccb54add4cb4632e36f8ba6fec7b1e841ac8e9a6fcdda487d53b3fdf4b62",
+      "vertices": 2177,
+      "triangles": 3289
+    },
+    {
+      "name": "SM_Terrain_00_04",
+      "path": "data/derived/surface-meshes/SM_Terrain_00_04.npz",
+      "sha256": "f651ac093e1de2680f0773d4e4917a444a6c47801ec57d871fb0c69aa39cf59e",
+      "vertices": 4417,
+      "triangles": 8384
+    },
+    {
+      "name": "SM_Terrain_01_04",
+      "path": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+      "sha256": "4badc16c8769d73f50d10588c691a2d32b7287da550dfe8563cf757e9a50c878",
+      "vertices": 9636,
+      "triangles": 18976
+    },
+    {
+      "name": "SM_Terrain_02_04",
+      "path": "data/derived/surface-meshes/SM_Terrain_02_04.npz",
+      "sha256": "9e2c2a1e1700de0fb7edb603d352a4b947579bb913af06fcf65bb24460205817",
+      "vertices": 19196,
+      "triangles": 19380
+    },
+    {
+      "name": "SM_Terrain_03_04",
+      "path": "data/derived/surface-meshes/SM_Terrain_03_04.npz",
+      "sha256": "b0b7dded54a81b7d3ec92dd46824f05822bff0d6c51f61d5d6cd7be6b9837315",
+      "vertices": 18872,
+      "triangles": 16483
+    },
+    {
+      "name": "SM_Terrain_04_04",
+      "path": "data/derived/surface-meshes/SM_Terrain_04_04.npz",
+      "sha256": "b89b2f1ad33a181f1e7a20474c8893a85e1fa09e5a3f987f9a5130dd2904dd68",
+      "vertices": 12542,
+      "triangles": 14721
+    },
+    {
+      "name": "SM_Terrain_05_04",
+      "path": "data/derived/surface-meshes/SM_Terrain_05_04.npz",
+      "sha256": "377385287a71ab8c0860564fbe0f00c3f5e4f479693b118e2a48c7da82203848",
+      "vertices": 2069,
+      "triangles": 3848
+    },
+    {
+      "name": "SM_Terrain_00_05",
+      "path": "data/derived/surface-meshes/SM_Terrain_00_05.npz",
+      "sha256": "ef60d0858c0b048b093819313d4557387c0c0816fdcb76517bd85d82f5789f29",
+      "vertices": 7071,
+      "triangles": 13636
+    },
+    {
+      "name": "SM_Terrain_01_05",
+      "path": "data/derived/surface-meshes/SM_Terrain_01_05.npz",
+      "sha256": "fae1d19105d2cb3266c75e1ef94aba2b3018a97b90f3123f2965a97a4c7f71c3",
+      "vertices": 7311,
+      "triangles": 14294
+    },
+    {
+      "name": "SM_Terrain_02_05",
+      "path": "data/derived/surface-meshes/SM_Terrain_02_05.npz",
+      "sha256": "46f6b6eb015d5cbb6584e0bfe05164245dbedae727e320b575b4d7a5298e8cfc",
+      "vertices": 20258,
+      "triangles": 19851
+    },
+    {
+      "name": "SM_Terrain_03_05",
+      "path": "data/derived/surface-meshes/SM_Terrain_03_05.npz",
+      "sha256": "72b221bfd7ad3c9ff9d469c37f9c97a665830172a3f11c204fb9ae548fee985b",
+      "vertices": 15872,
+      "triangles": 16685
+    },
+    {
+      "name": "SM_Terrain_04_05",
+      "path": "data/derived/surface-meshes/SM_Terrain_04_05.npz",
+      "sha256": "dd2bf5bc8dd7c82f303e4983b07c820deb05ed683ed910113eee46c72fd6fc01",
+      "vertices": 4060,
+      "triangles": 7875
+    },
+    {
+      "name": "SM_Terrain_05_05",
+      "path": "data/derived/surface-meshes/SM_Terrain_05_05.npz",
+      "sha256": "4eeaf210cc51d0996d12c1f8cb9276e31c2f1aed9bb4fa0d7b007caede803f13",
+      "vertices": 120,
+      "triangles": 161
+    },
+    {
+      "name": "SM_Terrain_00_06",
+      "path": "data/derived/surface-meshes/SM_Terrain_00_06.npz",
+      "sha256": "97f4cb7778e68935316d743bd9661ad75a94976913acce003e7d56ce97d05394",
+      "vertices": 9999,
+      "triangles": 19507
+    },
+    {
+      "name": "SM_Terrain_01_06",
+      "path": "data/derived/surface-meshes/SM_Terrain_01_06.npz",
+      "sha256": "b1a788bc18ba30d19b0ded4735e4251d0b7e8d7926d94bd5d71eca8e83c275bb",
+      "vertices": 4225,
+      "triangles": 8192
+    },
+    {
+      "name": "SM_Terrain_02_06",
+      "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+      "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c",
+      "vertices": 21856,
+      "triangles": 21156
+    },
+    {
+      "name": "SM_Terrain_03_06",
+      "path": "data/derived/surface-meshes/SM_Terrain_03_06.npz",
+      "sha256": "efc7f326dfa13b7c16ef1950b29b64fdb4a490b18a3718a57884fd91ea127785",
+      "vertices": 8717,
+      "triangles": 10925
+    },
+    {
+      "name": "SM_Terrain_04_06",
+      "path": "data/derived/surface-meshes/SM_Terrain_04_06.npz",
+      "sha256": "5ea66b87ee360b4e758b163887d13f5d815c2473b2bd2d37e3386799be968fb3",
+      "vertices": 2067,
+      "triangles": 3941
+    },
+    {
+      "name": "SM_Terrain_00_07",
+      "path": "data/derived/surface-meshes/SM_Terrain_00_07.npz",
+      "sha256": "2f4aa6852e844e5671d63f0e7b3e22c99371a82e10966641ed0da5e7c1eddca0",
+      "vertices": 2500,
+      "triangles": 4515
+    },
+    {
+      "name": "SM_Terrain_01_07",
+      "path": "data/derived/surface-meshes/SM_Terrain_01_07.npz",
+      "sha256": "ad21526092ecfe008fe6e8c849b10d9c649fd3efc8b58828876925210e73ca4f",
+      "vertices": 2012,
+      "triangles": 3648
+    },
+    {
+      "name": "SM_Terrain_02_07",
+      "path": "data/derived/surface-meshes/SM_Terrain_02_07.npz",
+      "sha256": "ef16c85e71f7d8387ef69823fcef8487250b2e547ffb5de10f6757eee3b012d8",
+      "vertices": 2012,
+      "triangles": 3648
+    },
+    {
+      "name": "SM_Terrain_03_07",
+      "path": "data/derived/surface-meshes/SM_Terrain_03_07.npz",
+      "sha256": "68e505e4be49ccf536a2059ed57e0057352fae625a752aecc37dd1a5808ab08f",
+      "vertices": 1997,
+      "triangles": 3627
+    },
+    {
+      "name": "SM_Terrain_04_07",
+      "path": "data/derived/surface-meshes/SM_Terrain_04_07.npz",
+      "sha256": "45fbc53bcfb4a8a64219cc3454cc2027bb06bd234bcaf0112e72e88633ec2be4",
+      "vertices": 174,
+      "triangles": 289
+    }
+  ],
+  "routes": [
+    {
+      "edge_id": "city_bikeways_42",
+      "name": "SM_Route_42",
+      "path": "data/derived/surface-meshes/SM_Route_42.npz",
+      "sha256": "8f8e2792a38041724d95449af1a600b1bbf0d1c6afa536a2ecf1fcd41f84b3a5",
+      "vertices": 447,
+      "triangles": 552,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 6.161737786669619e-15
+    },
+    {
+      "edge_id": "city_bikeways_60",
+      "name": "SM_Route_60",
+      "path": "data/derived/surface-meshes/SM_Route_60.npz",
+      "sha256": "d285cef9d859fc21f6ac49f53b8d2d81c801b292a4ed374f1f6b2f968aa1de9f",
+      "vertices": 44,
+      "triangles": 50,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.275957200481571e-15
+    },
+    {
+      "edge_id": "city_bikeways_99",
+      "name": "SM_Route_99",
+      "path": "data/derived/surface-meshes/SM_Route_99.npz",
+      "sha256": "3f85063d4642f58969ec7b07e926bba11df0051af26904ee023fc41d49ddd46e",
+      "vertices": 4275,
+      "triangles": 5372,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 5.2013948703688584e-14
+    },
+    {
+      "edge_id": "city_bikeways_118",
+      "name": "SM_Route_118",
+      "path": "data/derived/surface-meshes/SM_Route_118.npz",
+      "sha256": "413220a6cda2832b5908dcfafb65208baae416b886d0e705d38985528e8dd4a6",
+      "vertices": 120,
+      "triangles": 143,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 5.717648576819556e-15
+    },
+    {
+      "edge_id": "city_bikeways_131",
+      "name": "SM_Route_131",
+      "path": "data/derived/surface-meshes/SM_Route_131.npz",
+      "sha256": "db12e78b7c5947e51bd2921dfa2c967f6250808c58332acda5d1dfb4e9245d8f",
+      "vertices": 6005,
+      "triangles": 7492,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.8168799797990687e-13
+    },
+    {
+      "edge_id": "city_bikeways_138",
+      "name": "SM_Route_138",
+      "path": "data/derived/surface-meshes/SM_Route_138.npz",
+      "sha256": "3674109d9e03eb3b05fa4fc0ca7942c4811b645347d84e4cd50cf66f1bc7fa8a",
+      "vertices": 231,
+      "triangles": 281,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 4.801714581503802e-14
+    },
+    {
+      "edge_id": "city_bikeways_159",
+      "name": "SM_Route_159",
+      "path": "data/derived/surface-meshes/SM_Route_159.npz",
+      "sha256": "606f04ee807de91b79a6521ffd224348c2088128b754d4c327172a4085df6954",
+      "vertices": 1430,
+      "triangles": 1780,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.9040324872321435e-14
+    },
+    {
+      "edge_id": "city_bikeways_188",
+      "name": "SM_Route_188",
+      "path": "data/derived/surface-meshes/SM_Route_188.npz",
+      "sha256": "fb628b41ac86f1b3b930e8441742b1f48f67985a98d902f5a8cb51c2ce28436d",
+      "vertices": 110,
+      "triangles": 129,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 9.270362255620057e-15
+    },
+    {
+      "edge_id": "city_bikeways_278",
+      "name": "SM_Route_278",
+      "path": "data/derived/surface-meshes/SM_Route_278.npz",
+      "sha256": "df01c6304b9b7ba29ec6d6aca86e53dbe619b1323ddbf5c338ad1f942e5e3c82",
+      "vertices": 2135,
+      "triangles": 2680,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 7.605027718682322e-15
+    },
+    {
+      "edge_id": "city_bikeways_337",
+      "name": "SM_Route_337",
+      "path": "data/derived/surface-meshes/SM_Route_337.npz",
+      "sha256": "924ae0538fa47589491746b891f1c5e3b2d59fe03c16d0f78e008a1926d58b25",
+      "vertices": 214,
+      "triangles": 263,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.1157741397482823e-14
+    },
+    {
+      "edge_id": "city_bikeways_569",
+      "name": "SM_Route_569",
+      "path": "data/derived/surface-meshes/SM_Route_569.npz",
+      "sha256": "a3aa49b218d73b3d1a419173503e5ea83fb06244319c97a88134fd264a1735f9",
+      "vertices": 637,
+      "triangles": 789,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.1152190282359697e-13
+    },
+    {
+      "edge_id": "city_bikeways_580",
+      "name": "SM_Route_580",
+      "path": "data/derived/surface-meshes/SM_Route_580.npz",
+      "sha256": "783772ac9b903da665062a30601c7a58b884ddaadbcbe325bf43977777c5b5af",
+      "vertices": 298,
+      "triangles": 363,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.1046719095020308e-14
+    },
+    {
+      "edge_id": "city_bikeways_642",
+      "name": "SM_Route_642",
+      "path": "data/derived/surface-meshes/SM_Route_642.npz",
+      "sha256": "6b4d18291c9cdad2c5f8399ee4d261a062b55fbed290bd2ceadbe85df023de52",
+      "vertices": 1531,
+      "triangles": 1907,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.3592239273284576e-14
+    },
+    {
+      "edge_id": "city_bikeways_655",
+      "name": "SM_Route_655",
+      "path": "data/derived/surface-meshes/SM_Route_655.npz",
+      "sha256": "f2ba5ef2ed54869c292a37ca8177a1d5f12526ae6b0ecf02104a9db8f50e8d61",
+      "vertices": 325,
+      "triangles": 397,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.1934897514720433e-14
+    },
+    {
+      "edge_id": "city_bikeways_706",
+      "name": "SM_Route_706",
+      "path": "data/derived/surface-meshes/SM_Route_706.npz",
+      "sha256": "3e1422b19e4653a04b530a920f4eb432917e35649ed22836099f0f307c249fd1",
+      "vertices": 200,
+      "triangles": 241,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.2823075934420558e-14
+    },
+    {
+      "edge_id": "city_bikeways_723",
+      "name": "SM_Route_723",
+      "path": "data/derived/surface-meshes/SM_Route_723.npz",
+      "sha256": "980dfdaf25160dbd898633247721a43cc8e1973dfaf39dd8167b4b66dd7b154e",
+      "vertices": 184,
+      "triangles": 224,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 6.6058269965196814e-15
+    },
+    {
+      "edge_id": "city_bikeways_800",
+      "name": "SM_Route_800",
+      "path": "data/derived/surface-meshes/SM_Route_800.npz",
+      "sha256": "0a7f0301f314daf06dd404ce24dbc899e150e75ef1898226b0b1e103a87f2953",
+      "vertices": 1628,
+      "triangles": 2046,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 4.035660694512444e-14
+    },
+    {
+      "edge_id": "city_bikeways_873",
+      "name": "SM_Route_873",
+      "path": "data/derived/surface-meshes/SM_Route_873.npz",
+      "sha256": "92cafeff2a5eedcd5ddbd396352068a3c3c18b735cec62327fbbcf39619eea1f",
+      "vertices": 1089,
+      "triangles": 1352,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 5.545564008002657e-14
+    },
+    {
+      "edge_id": "city_bikeways_1043",
+      "name": "SM_Route_1043",
+      "path": "data/derived/surface-meshes/SM_Route_1043.npz",
+      "sha256": "9f960228289abe0306033c23f3977b126efbb9f28c09a2e9a3036766265690ac",
+      "vertices": 403,
+      "triangles": 493,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.5770718064800349e-13
+    },
+    {
+      "edge_id": "city_bikeways_1095",
+      "name": "SM_Route_1095",
+      "path": "data/derived/surface-meshes/SM_Route_1095.npz",
+      "sha256": "ee0fec273ada9b79e27245444eda6ea3f727499236f3f9f8dd9f993545ac7ced",
+      "vertices": 1203,
+      "triangles": 1477,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.4871437414853972e-13
+    },
+    {
+      "edge_id": "city_bikeways_1160",
+      "name": "SM_Route_1160",
+      "path": "data/derived/surface-meshes/SM_Route_1160.npz",
+      "sha256": "021a95a81b0ac1cf15d3dc8eaa4e4a78e0041415414c2c9a4f80cbfbe9f45c8f",
+      "vertices": 378,
+      "triangles": 467,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 8.493206138382448e-15
+    },
+    {
+      "edge_id": "city_bikeways_1207",
+      "name": "SM_Route_1207",
+      "path": "data/derived/surface-meshes/SM_Route_1207.npz",
+      "sha256": "18fe69c439ff5cf50fea4753922d08ea67bbfcd33173770fa3bd1964e130abe0",
+      "vertices": 212,
+      "triangles": 258,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 4.496403249731884e-15
+    },
+    {
+      "edge_id": "city_bikeways_1233",
+      "name": "SM_Route_1233",
+      "path": "data/derived/surface-meshes/SM_Route_1233.npz",
+      "sha256": "143d57ca518421d1f31b11ded8954cebe7d44c40ed404b707b343af26fe7fdc8",
+      "vertices": 1169,
+      "triangles": 1459,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.2593038551121936e-14
+    },
+    {
+      "edge_id": "city_bikeways_1250",
+      "name": "SM_Route_1250",
+      "path": "data/derived/surface-meshes/SM_Route_1250.npz",
+      "sha256": "75316d6fdd9047b7655b6b8bde36893ff0e3595c857b2240e328afa89cd28334",
+      "vertices": 210,
+      "triangles": 261,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.2045919817182948e-14
+    },
+    {
+      "edge_id": "city_bikeways_1292",
+      "name": "SM_Route_1292",
+      "path": "data/derived/surface-meshes/SM_Route_1292.npz",
+      "sha256": "f1fabe603e3b14f1280809743dff3087979700997688dab619b422516a3f899d",
+      "vertices": 209,
+      "triangles": 252,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.09277040141842e-14
+    },
+    {
+      "edge_id": "city_bikeways_1307",
+      "name": "SM_Route_1307",
+      "path": "data/derived/surface-meshes/SM_Route_1307.npz",
+      "sha256": "5ea4992e06607f2c519cfd89c4ead22bcc30ee2ebb1bb4773e4fbd9cac6b2865",
+      "vertices": 122,
+      "triangles": 147,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 4.829470157119431e-15
+    },
+    {
+      "edge_id": "city_bikeways_1320",
+      "name": "SM_Route_1320",
+      "path": "data/derived/surface-meshes/SM_Route_1320.npz",
+      "sha256": "39a1c6aeaa60cadff0c56ba8d09f53be4a3750c3614c8ad8839fca14a4322c23",
+      "vertices": 156,
+      "triangles": 190,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.6486811915683575e-14
+    },
+    {
+      "edge_id": "city_bikeways_1326",
+      "name": "SM_Route_1326",
+      "path": "data/derived/surface-meshes/SM_Route_1326.npz",
+      "sha256": "7736f08cbb6c4b1148416ef871c9906b4fbe3e984bd5596ffb5700ebb8184a44",
+      "vertices": 1424,
+      "triangles": 1773,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 8.382183835919932e-15
+    },
+    {
+      "edge_id": "city_bikeways_1367",
+      "name": "SM_Route_1367",
+      "path": "data/derived/surface-meshes/SM_Route_1367.npz",
+      "sha256": "4ae58e0018c5bd900bdcb40ddb50f070bf4e374a303eb33ae884206750a03b30",
+      "vertices": 229,
+      "triangles": 283,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.301736496372996e-13
+    },
+    {
+      "edge_id": "city_bikeways_1410",
+      "name": "SM_Route_1410",
+      "path": "data/derived/surface-meshes/SM_Route_1410.npz",
+      "sha256": "7ae9426eb234f6177101ba9f4dac022a46a91e7cfcea52578d3b749f71c741a2",
+      "vertices": 1826,
+      "triangles": 2291,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.940114735532461e-13
+    },
+    {
+      "edge_id": "city_bikeways_1459",
+      "name": "SM_Route_1459",
+      "path": "data/derived/surface-meshes/SM_Route_1459.npz",
+      "sha256": "c33eec011591c9dfd5fe0439782f1bdf9a5713a48b01cc333ad2805cc6ece9a2",
+      "vertices": 4696,
+      "triangles": 5856,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 6.34492458573277e-14
+    },
+    {
+      "edge_id": "city_bikeways_1489",
+      "name": "SM_Route_1489",
+      "path": "data/derived/surface-meshes/SM_Route_1489.npz",
+      "sha256": "b743ab1d14467b1d28efaea5cfd098ee895421984e4cdcf5e102541c7e26c5d3",
+      "vertices": 225,
+      "triangles": 279,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 8.382183835919932e-15
+    },
+    {
+      "edge_id": "city_bikeways_1573",
+      "name": "SM_Route_1573",
+      "path": "data/derived/surface-meshes/SM_Route_1573.npz",
+      "sha256": "50efec5b71cfc304156a10fe95cf4e0b6d5f235344dde542c8c2bea02edc5a43",
+      "vertices": 594,
+      "triangles": 743,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.2934098236883074e-14
+    },
+    {
+      "edge_id": "city_bikeways_1748",
+      "name": "SM_Route_1748",
+      "path": "data/derived/surface-meshes/SM_Route_1748.npz",
+      "sha256": "63172f0d7c3edd1861f875ba15efdbe53ae959b98bd7e6e35e6a301e06e80c4a",
+      "vertices": 988,
+      "triangles": 1232,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 9.825473767932635e-15
+    },
+    {
+      "edge_id": "city_bikeways_1751",
+      "name": "SM_Route_1751",
+      "path": "data/derived/surface-meshes/SM_Route_1751.npz",
+      "sha256": "b751f44417235e8994ddb221bfbdc823f0f3b1e33505a8c5a7a634c36f7ad539",
+      "vertices": 1554,
+      "triangles": 1928,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.8033131371785203e-14
+    },
+    {
+      "edge_id": "city_bikeways_1812",
+      "name": "SM_Route_1812",
+      "path": "data/derived/surface-meshes/SM_Route_1812.npz",
+      "sha256": "366cdcf0362587078ce44cdff17cbdaacd6ad75dcd4793186064c4d5bd7d3d9c",
+      "vertices": 133,
+      "triangles": 159,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.4710455076283324e-14
+    },
+    {
+      "edge_id": "city_bikeways_1953",
+      "name": "SM_Route_1953",
+      "path": "data/derived/surface-meshes/SM_Route_1953.npz",
+      "sha256": "8218beb585aeb912b357f1c6cc565bd5758d23808ec4d8bdd2f289eb184a7fa8",
+      "vertices": 1047,
+      "triangles": 1301,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 5.467848396278896e-14
+    },
+    {
+      "edge_id": "city_bikeways_1992",
+      "name": "SM_Route_1992",
+      "path": "data/derived/surface-meshes/SM_Route_1992.npz",
+      "sha256": "0018ae6eedcab1b384372c6a52847ec3600c3d35290ce61eb98f87710af89414",
+      "vertices": 1253,
+      "triangles": 1565,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.6486811915683575e-14
+    },
+    {
+      "edge_id": "city_bikeways_2064",
+      "name": "SM_Route_2064",
+      "path": "data/derived/surface-meshes/SM_Route_2064.npz",
+      "sha256": "0d7ef1a9607067538248f8daa2f841e6dbfacd92300963801d78ff3fbf259cf9",
+      "vertices": 908,
+      "triangles": 1133,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 3.8691272408186705e-14
+    },
+    {
+      "edge_id": "city_bikeways_2108",
+      "name": "SM_Route_2108",
+      "path": "data/derived/surface-meshes/SM_Route_2108.npz",
+      "sha256": "14d06a29a6a41db0959793e0ececf6ac7f5cc22e4198b70379f9d08509174d7c",
+      "vertices": 1287,
+      "triangles": 1597,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 8.382183835919932e-15
+    },
+    {
+      "edge_id": "city_bikeways_2120",
+      "name": "SM_Route_2120",
+      "path": "data/derived/surface-meshes/SM_Route_2120.npz",
+      "sha256": "0d5ee426dc2e89d4ae40299b8380600c5936c784fe236da1b8916fddd4306485",
+      "vertices": 3343,
+      "triangles": 4169,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.2206902155753596e-13
+    },
+    {
+      "edge_id": "city_bikeways_2336",
+      "name": "SM_Route_2336",
+      "path": "data/derived/surface-meshes/SM_Route_2336.npz",
+      "sha256": "7fecb72c2be0f1081260513b9936bbd6e48503596fdd49cd5d4e561212618275",
+      "vertices": 1695,
+      "triangles": 1883,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 7.815970093361102e-14
+    },
+    {
+      "edge_id": "city_bikeways_2340",
+      "name": "SM_Route_2340",
+      "path": "data/derived/surface-meshes/SM_Route_2340.npz",
+      "sha256": "daac13a27c3f711bf3141f522970b7b5de2fad6c682a5287e3f6225ca0af77f3",
+      "vertices": 3320,
+      "triangles": 4146,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 3.325117958752344e-14
+    },
+    {
+      "edge_id": "city_bikeways_2425",
+      "name": "SM_Route_2425",
+      "path": "data/derived/surface-meshes/SM_Route_2425.npz",
+      "sha256": "7e928bae07a9cb1baa800cede4089041a9a9afc2fa28606c0c7fe50eef1e8045",
+      "vertices": 2406,
+      "triangles": 2993,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.6145752229922437e-14
+    },
+    {
+      "edge_id": "city_bikeways_2532",
+      "name": "SM_Route_2532",
+      "path": "data/derived/surface-meshes/SM_Route_2532.npz",
+      "sha256": "f0fdf20b0f75bd3dc0b9a60af752f85bfe9f3c0fc0c9b9be2b9c77ddbd4fb2ab",
+      "vertices": 452,
+      "triangles": 563,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 3.069766663088558e-14
+    },
+    {
+      "edge_id": "city_bikeways_2576",
+      "name": "SM_Route_2576",
+      "path": "data/derived/surface-meshes/SM_Route_2576.npz",
+      "sha256": "4c62559d0d411c5b2432f7b79d56a36ca06ab98f12e3ea44b07b4d3211c817f3",
+      "vertices": 723,
+      "triangles": 912,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 7.066569551739121e-14
+    },
+    {
+      "edge_id": "city_bikeways_2630",
+      "name": "SM_Route_2630",
+      "path": "data/derived/surface-meshes/SM_Route_2630.npz",
+      "sha256": "87975da47bf9c028de246f1aab0c3708fe6d89d14df5e34bcf0afdc89621c157",
+      "vertices": 2437,
+      "triangles": 3067,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 3.8691272408186705e-14
+    },
+    {
+      "edge_id": "city_bikeways_2693",
+      "name": "SM_Route_2693",
+      "path": "data/derived/surface-meshes/SM_Route_2693.npz",
+      "sha256": "86fc685237d81e95bd75fa9c977e4c9c2abc88c99084c9e512edc01d5645270f",
+      "vertices": 1003,
+      "triangles": 1240,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.550426453889031e-13
+    },
+    {
+      "edge_id": "city_bikeways_2703",
+      "name": "SM_Route_2703",
+      "path": "data/derived/surface-meshes/SM_Route_2703.npz",
+      "sha256": "645f9f6dd397859d6f3986f861d0c46d19dbbd4719a3abd882fec3f625fd391b",
+      "vertices": 49,
+      "triangles": 57,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 3.941291737419306e-15
+    },
+    {
+      "edge_id": "city_bikeways_2704",
+      "name": "SM_Route_2704",
+      "path": "data/derived/surface-meshes/SM_Route_2704.npz",
+      "sha256": "526cf69a555694009532e59abff2c2be28e5369f2e5a4584642dcb7b27035225",
+      "vertices": 238,
+      "triangles": 284,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 3.941291737419306e-15
+    },
+    {
+      "edge_id": "city_bikeways_2729",
+      "name": "SM_Route_2729",
+      "path": "data/derived/surface-meshes/SM_Route_2729.npz",
+      "sha256": "e6c5b1f985e3f63488ff7e330dcddf8949f2ccc272620152c664cae89f80ba2e",
+      "vertices": 482,
+      "triangles": 596,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.514899317101026e-13
+    },
+    {
+      "edge_id": "city_bikeways_2775",
+      "name": "SM_Route_2775",
+      "path": "data/derived/surface-meshes/SM_Route_2775.npz",
+      "sha256": "0e4ff57658f5cdee95c36625a23514a78b913631010fed14cea3114675189397",
+      "vertices": 241,
+      "triangles": 295,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 7.366329768387914e-14
+    },
+    {
+      "edge_id": "city_bikeways_2783",
+      "name": "SM_Route_2783",
+      "path": "data/derived/surface-meshes/SM_Route_2783.npz",
+      "sha256": "1fa86c39c381a9367a83558d4bbb9ce550be48ead6e0530593db6e58b8b021b1",
+      "vertices": 240,
+      "triangles": 294,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.3925306180672123e-14
+    },
+    {
+      "edge_id": "city_bikeways_2810",
+      "name": "SM_Route_2810",
+      "path": "data/derived/surface-meshes/SM_Route_2810.npz",
+      "sha256": "f3e529e377fdc4c8317d684b9a39a2c89a4f55309273acdf1eddaabf8d7055e2",
+      "vertices": 720,
+      "triangles": 888,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.208477762304483e-13
+    },
+    {
+      "edge_id": "city_bikeways_2814",
+      "name": "SM_Route_2814",
+      "path": "data/derived/surface-meshes/SM_Route_2814.npz",
+      "sha256": "c97c384a80efee4843f95e6dbb32967cb62ea27b83bec45ee5e8f3f9de4cb540",
+      "vertices": 786,
+      "triangles": 961,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 5.334621633323877e-14
+    },
+    {
+      "edge_id": "city_bikeways_2820",
+      "name": "SM_Route_2820",
+      "path": "data/derived/surface-meshes/SM_Route_2820.npz",
+      "sha256": "c74ac8a331fcd83af28eb484593abdb96615fd5c7a970359f610f191a4f424c7",
+      "vertices": 1642,
+      "triangles": 2064,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 4.035660694512444e-14
+    },
+    {
+      "edge_id": "city_bikeways_2886",
+      "name": "SM_Route_2886",
+      "path": "data/derived/surface-meshes/SM_Route_2886.npz",
+      "sha256": "383e239f247bf45648335b89047ed27413b725daff7b5f3322f655c14feb3662",
+      "vertices": 474,
+      "triangles": 579,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.7922109069322687e-14
+    },
+    {
+      "edge_id": "city_bikeways_2909",
+      "name": "SM_Route_2909",
+      "path": "data/derived/surface-meshes/SM_Route_2909.npz",
+      "sha256": "498643f8528b4b72b5488f71220fabe6cb6f831a42069ea0fefeb77510141400",
+      "vertices": 4637,
+      "triangles": 5762,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 6.25666185527507e-13
+    },
+    {
+      "edge_id": "city_bikeways_2986",
+      "name": "SM_Route_2986",
+      "path": "data/derived/surface-meshes/SM_Route_2986.npz",
+      "sha256": "1bca71f1c20321f192c583019f87f94dfe52e08566c43ca6ae2b4177ddc1cbd7",
+      "vertices": 3819,
+      "triangles": 4734,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.2317924458216112e-13
+    },
+    {
+      "edge_id": "city_bikeways_3102",
+      "name": "SM_Route_3102",
+      "path": "data/derived/surface-meshes/SM_Route_3102.npz",
+      "sha256": "fbd0769b65d2301a7f979bc1db04330fe0f95960f0bb5791679a3606be129fa5",
+      "vertices": 126,
+      "triangles": 151,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 5.828670879282072e-15
+    },
+    {
+      "edge_id": "city_bikeways_3258",
+      "name": "SM_Route_3258",
+      "path": "data/derived/surface-meshes/SM_Route_3258.npz",
+      "sha256": "96fd9f1565f3140b09de1f3dc208fe9a20d458ef442ffdbbd1222954d8883252",
+      "vertices": 1736,
+      "triangles": 2166,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.7672308888782027e-13
+    },
+    {
+      "edge_id": "city_bikeways_3273",
+      "name": "SM_Route_3273",
+      "path": "data/derived/surface-meshes/SM_Route_3273.npz",
+      "sha256": "75e82f84d2c4654f40cc2f4ca2c1fa571d3cedf4e713d32fcb2021e81fb2dfbb",
+      "vertices": 300,
+      "triangles": 365,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 6.716849298982197e-15
+    },
+    {
+      "edge_id": "city_bikeways_3287",
+      "name": "SM_Route_3287",
+      "path": "data/derived/surface-meshes/SM_Route_3287.npz",
+      "sha256": "da13a793fa8fcc99d6d543fae18537bed805f59fae4c550c556e846fbc7bb3fa",
+      "vertices": 3060,
+      "triangles": 3815,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 2.969846590872294e-14
+    },
+    {
+      "edge_id": "city_bikeways_3306",
+      "name": "SM_Route_3306",
+      "path": "data/derived/surface-meshes/SM_Route_3306.npz",
+      "sha256": "868c85eb9c1e80169a8327a9f7fcfc2a0ca8ac2774cd9dce2ed1a8ed34856df0",
+      "vertices": 1114,
+      "triangles": 1376,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 6.6058269965196814e-15
+    },
+    {
+      "edge_id": "city_bikeways_3318",
+      "name": "SM_Route_3318",
+      "path": "data/derived/surface-meshes/SM_Route_3318.npz",
+      "sha256": "6ba0796ba49e84ab07b1eb8ce1661c4ed02332309c52ec18c3266290ea83bac5",
+      "vertices": 62,
+      "triangles": 73,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 6.877831637552845e-14
+    },
+    {
+      "edge_id": "city_bikeways_3343",
+      "name": "SM_Route_3343",
+      "path": "data/derived/surface-meshes/SM_Route_3343.npz",
+      "sha256": "53ba01121a3f656be9144bdf6b9b199d92031dc45948d7ca4295265c06c8a693",
+      "vertices": 628,
+      "triangles": 790,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 5.828670879282072e-15
+    },
+    {
+      "edge_id": "city_bikeways_3474",
+      "name": "SM_Route_3474",
+      "path": "data/derived/surface-meshes/SM_Route_3474.npz",
+      "sha256": "90d0d6a16158405ce207b89de17626f36a1f7b3a0e06775f7cdf140cfeb2da82",
+      "vertices": 150,
+      "triangles": 184,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 8.382183835919932e-15
+    },
+    {
+      "edge_id": "city_bikeways_3540",
+      "name": "SM_Route_3540",
+      "path": "data/derived/surface-meshes/SM_Route_3540.npz",
+      "sha256": "a09f5effa11f6898267e08298da5ad1d7f37dcde33653af0f2b262d5d0599c36",
+      "vertices": 336,
+      "triangles": 413,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 7.605027718682322e-15
+    },
+    {
+      "edge_id": "city_bikeways_3550",
+      "name": "SM_Route_3550",
+      "path": "data/derived/surface-meshes/SM_Route_3550.npz",
+      "sha256": "77d6660d637ad88698cfae9a6520ffdc7e443e7357c49a294a47a98336e4b4a0",
+      "vertices": 1218,
+      "triangles": 1517,
+      "pavement_overlap_removed": false,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.9934054407144686e-13
+    },
+    {
+      "edge_id": "city_bikeways_3555",
+      "name": "SM_Route_3555",
+      "path": "data/derived/surface-meshes/SM_Route_3555.npz",
+      "sha256": "35d6830bf739b27e6219c144f4b0f5f903900a8e4f6d5637e15d34b5be93de37",
+      "vertices": 2076,
+      "triangles": 2593,
+      "pavement_overlap_removed": true,
+      "replacement_footprints_removed": true,
+      "lumberman_overlay": {
+        "affected": false,
+        "actual_terrain_plane_max_error_m": 0.0
+      },
+      "display_offset_m": 0.06,
+      "clearance_error_m": 1.9040324872321435e-14
+    }
+  ],
+  "pavement": [
+    {
+      "name": "SM_Pavement_000",
+      "path": "data/derived/surface-meshes/SM_Pavement_000.npz",
+      "sha256": "d35716dd6fe02f5e29471c76712b52d9e24d361ceafb780181241e530b008201",
+      "collision": "complex",
+      "source_start_m": 0.0,
+      "source_end_m": 192.9957898961431,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_000",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_000.npz",
+      "sha256": "4518d16f3dc6bb4ce4fabbe98d3ac8b2d645a85409ee140d67be307e8581e619",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4092,
+      "triangles": 1364,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_001",
+      "path": "data/derived/surface-meshes/SM_Pavement_001.npz",
+      "sha256": "ee3c09f1f31dc7ab8d8c632b281c32e87f80576ef6db6bc2ec12d09a246e2386",
+      "collision": "complex",
+      "source_start_m": 191.9958117101527,
+      "source_end_m": 384.9916016062958,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_001",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_001.npz",
+      "sha256": "0a074564c063ef127f67bc45571b595705a6a1434ac953a642456c447d160bbb",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3948,
+      "triangles": 1316,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_002",
+      "path": "data/derived/surface-meshes/SM_Pavement_002.npz",
+      "sha256": "f68f6cc7b86622923a8a30cbe4f0888535041aec1392d6025cf5ebd5989e0d93",
+      "collision": "complex",
+      "source_start_m": 383.9916234203054,
+      "source_end_m": 576.9874133164485,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_002",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_002.npz",
+      "sha256": "b88b8e89ba41c0861c9ba92ddc9baca636a882b40a7d6147a14ec4d7cd400ae1",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3906,
+      "triangles": 1302,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_003",
+      "path": "data/derived/surface-meshes/SM_Pavement_003.npz",
+      "sha256": "c6a76222ccd56877eb98645328adfc39338de3de464f6ad407802611c63d90fa",
+      "collision": "complex",
+      "source_start_m": 575.9874351304582,
+      "source_end_m": 768.9832250266012,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_003",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_003.npz",
+      "sha256": "5d048af29fa67b40a9767b5f9e0e8cda1e90d4a9edb8e92eacbcb77f4004bc92",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4092,
+      "triangles": 1364,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_004",
+      "path": "data/derived/surface-meshes/SM_Pavement_004.npz",
+      "sha256": "8fabe841dab1160bdf01e74f7b1725e5bdce6b9e19c340d25c6626e92e639424",
+      "collision": "complex",
+      "source_start_m": 767.9832468406108,
+      "source_end_m": 960.9790367367539,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_004",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_004.npz",
+      "sha256": "9f589b5ca71844df6d646b414af4b07fb9a911b0adbc2a20e3b066fc416cb9e9",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4044,
+      "triangles": 1348,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_005",
+      "path": "data/derived/surface-meshes/SM_Pavement_005.npz",
+      "sha256": "62abad2429792afe68bbb2966eb22c0032b59a5c7c0c22a574745d6dd9da5d15",
+      "collision": "complex",
+      "source_start_m": 959.9790585507635,
+      "source_end_m": 1152.9748484469067,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_005",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_005.npz",
+      "sha256": "9ac36bc7574ae3d1204c1124dfe9c2e862259ec5c31f841d9e00b45f05d5a494",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4074,
+      "triangles": 1358,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_006",
+      "path": "data/derived/surface-meshes/SM_Pavement_006.npz",
+      "sha256": "fb9a49ce7fd359d69a4ccac05bbe0434e1a11a8bc56e552192f656b98a3b547e",
+      "collision": "complex",
+      "source_start_m": 1151.9748702609163,
+      "source_end_m": 1344.9706601570592,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_006",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_006.npz",
+      "sha256": "549ce48a09d79beee2f86168db138ce080307795c232bf9c57f447217185cda6",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3948,
+      "triangles": 1316,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_007",
+      "path": "data/derived/surface-meshes/SM_Pavement_007.npz",
+      "sha256": "370820a82f7b75284faf14c13cf5658c70b3b512a32e5ef556612f5835893c7c",
+      "collision": "complex",
+      "source_start_m": 1343.9706819710689,
+      "source_end_m": 1536.966471867212,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_007",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_007.npz",
+      "sha256": "10a41ddf02324bfc860dfa543df2cadbd0a027008fe9bf220fdcfeeaff41c807",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3966,
+      "triangles": 1322,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_008",
+      "path": "data/derived/surface-meshes/SM_Pavement_008.npz",
+      "sha256": "91049c271df2505208856c6f7b0fe2c07b2d5b48eddc476a2462036270fb61eb",
+      "collision": "complex",
+      "source_start_m": 1535.9664936812217,
+      "source_end_m": 1728.9622835773648,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_008",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_008.npz",
+      "sha256": "a35bee6d6e7e95ef2ee887b4d1406adfb7a94e0dba733652a181d190787da450",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3936,
+      "triangles": 1312,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_009",
+      "path": "data/derived/surface-meshes/SM_Pavement_009.npz",
+      "sha256": "9f7e514828fdade133aef45d20a3d089648985a55b055ad65f4d57544b789823",
+      "collision": "complex",
+      "source_start_m": 1727.9623053913745,
+      "source_end_m": 1920.9580952875174,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_009",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_009.npz",
+      "sha256": "ab07a801bb65d0bfcea47cccd1fefbf0a3f7f6ed0e4119739de9090f68b8cc4b",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3984,
+      "triangles": 1328,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_010",
+      "path": "data/derived/surface-meshes/SM_Pavement_010.npz",
+      "sha256": "3ea731516c52fac976a1fdc7e789e4dd29ac6f2d749dcb323f202a4c992453eb",
+      "collision": "complex",
+      "source_start_m": 1919.958117101527,
+      "source_end_m": 2112.95390699767,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_010",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_010.npz",
+      "sha256": "594ef2e5ced9087aee3c2a4cfc1fb443aaf580faf94dce997ffec7120c8d97ab",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3888,
+      "triangles": 1296,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_011",
+      "path": "data/derived/surface-meshes/SM_Pavement_011.npz",
+      "sha256": "eb1dfdb244786de335620ac9942236d58e9cbd1f1c40c9f708778a7720ac03cf",
+      "collision": "complex",
+      "source_start_m": 2111.95392881168,
+      "source_end_m": 2304.9497187078227,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_011",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_011.npz",
+      "sha256": "ca19b4847894df8bd626a6fb7b7e7b1a62e4679edaa91dd48ce1e013ed6f9cdb",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3951,
+      "triangles": 1317,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_012",
+      "path": "data/derived/surface-meshes/SM_Pavement_012.npz",
+      "sha256": "be1cbe8f278b562c7fbe99c6041d828f08be0f44b68985827e0ff0d20e623e34",
+      "collision": "complex",
+      "source_start_m": 2303.9497405218326,
+      "source_end_m": 2496.9455304179755,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_012",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_012.npz",
+      "sha256": "8e08560aabf2e9e1fee09c519d71b20f8199c07c17dcc2c004d53a9671b98c93",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4092,
+      "triangles": 1364,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_013",
+      "path": "data/derived/surface-meshes/SM_Pavement_013.npz",
+      "sha256": "25595fef702f7a249843b8dc1026030973dfa28c01b0d5dfe62380f2784238a7",
+      "collision": "complex",
+      "source_start_m": 2495.9455522319854,
+      "source_end_m": 2688.9413421281283,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_013",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_013.npz",
+      "sha256": "ec493d9598d6a4f0c15b6a42c683a0807f531aed705871842b7336aee8434cd7",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4200,
+      "triangles": 1400,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_014",
+      "path": "data/derived/surface-meshes/SM_Pavement_014.npz",
+      "sha256": "e3121c7b79753bc9331abee74359c2675c7fae7c7d0a603b51b46f1e4b51e1a4",
+      "collision": "complex",
+      "source_start_m": 2687.9413639421377,
+      "source_end_m": 2880.937153838281,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_014",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_014.npz",
+      "sha256": "ebe66becefac9ec840e329d69fc3215bb69a665161a7363af4096b1268a9e5e7",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4095,
+      "triangles": 1365,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_015",
+      "path": "data/derived/surface-meshes/SM_Pavement_015.npz",
+      "sha256": "8d984c5941c85cb1a72e0eecc708a80695810c924f0507736e639943b8be2a5f",
+      "collision": "complex",
+      "source_start_m": 2879.9371756522905,
+      "source_end_m": 3072.932965548434,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_015",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_015.npz",
+      "sha256": "8bb7939714b5f8b8ef22c8643cc7b26887ac345e3ef0af2654b94d1913407e74",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4116,
+      "triangles": 1372,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_016",
+      "path": "data/derived/surface-meshes/SM_Pavement_016.npz",
+      "sha256": "eda5018620d54048e8bf9ca892d2a2b4c2fa24417398c3a19f972627fac4057d",
+      "collision": "complex",
+      "source_start_m": 3071.9329873624433,
+      "source_end_m": 3264.9287772585863,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_016",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_016.npz",
+      "sha256": "4e4ea1737dfd41c31c60a94249af5d7372a5cd60ee39d54c5af42bd54aff4ba3",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4050,
+      "triangles": 1350,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_017",
+      "path": "data/derived/surface-meshes/SM_Pavement_017.npz",
+      "sha256": "d3b2d88cc7c5ed6c43bcb5e7327c5e98dd981dc6cddab3e48e10d67522e54538",
+      "collision": "complex",
+      "source_start_m": 3263.928799072596,
+      "source_end_m": 3456.924588968739,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_017",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_017.npz",
+      "sha256": "9dbc376deeac18231d7cab68ae8c21dd3eccf0cd7e8cab07a9454a5d29bce506",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3990,
+      "triangles": 1330,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_018",
+      "path": "data/derived/surface-meshes/SM_Pavement_018.npz",
+      "sha256": "cb4a99507737425ba17f089820942f9af26b7c152dd68bf1a4e0538cafc87112",
+      "collision": "complex",
+      "source_start_m": 3455.924610782749,
+      "source_end_m": 3648.920400678892,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_018",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_018.npz",
+      "sha256": "77faa5b8c5a7b4322f1ced312fcd625c9fea7cb82962c9e5897269e9ae525d78",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4038,
+      "triangles": 1346,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_019",
+      "path": "data/derived/surface-meshes/SM_Pavement_019.npz",
+      "sha256": "bb668151559e149abfc4d3979367f3e9a40f0fe5d7f7f24e3d8f7562f95c5c72",
+      "collision": "complex",
+      "source_start_m": 3647.9204224929013,
+      "source_end_m": 3840.9162123890446,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_019",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_019.npz",
+      "sha256": "98ee84264d5ca4c936897971ed48abebbdbe454f2363fbfbbfb53949c9264d5a",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3948,
+      "triangles": 1316,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_020",
+      "path": "data/derived/surface-meshes/SM_Pavement_020.npz",
+      "sha256": "1d08c288a06a16e8f547973a9fb7f481c0261cdf4d331520a71ae0f474c21757",
+      "collision": "complex",
+      "source_start_m": 3839.916234203054,
+      "source_end_m": 4032.9120240991974,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_020",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_020.npz",
+      "sha256": "500bc534fe0b6fa0d64a7f3eb6865abd111139635c7f35e654da94d509d37d3e",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4020,
+      "triangles": 1340,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_021",
+      "path": "data/derived/surface-meshes/SM_Pavement_021.npz",
+      "sha256": "ddddafc159b539f927b5715271553be17d1c1ee87ad3e7bee27ec8e123f19a94",
+      "collision": "complex",
+      "source_start_m": 4031.912045913207,
+      "source_end_m": 4224.90783580935,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_021",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_021.npz",
+      "sha256": "d5ade224b8be547a6c73339cae112e1facb273fa4688e104966e44fa8ed2fe45",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3960,
+      "triangles": 1320,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_022",
+      "path": "data/derived/surface-meshes/SM_Pavement_022.npz",
+      "sha256": "6a8734aacb736faed35f188b1c3c5f36ba6097862cb0a17905f05b2f2faf2a18",
+      "collision": "complex",
+      "source_start_m": 4223.90785762336,
+      "source_end_m": 4416.903647519503,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_022",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_022.npz",
+      "sha256": "ed20994b1769c7780bb0c9e611f0a3fb404e3fb47ba15e656fffd426f7c190d8",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4176,
+      "triangles": 1392,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_023",
+      "path": "data/derived/surface-meshes/SM_Pavement_023.npz",
+      "sha256": "692c1ea974908533f872350f993b0dcf18e5a44a53d50f415272a3763ecdd6d5",
+      "collision": "complex",
+      "source_start_m": 4415.903669333512,
+      "source_end_m": 4608.899459229656,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_023",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_023.npz",
+      "sha256": "f9b6adb9e4cc7538afbc17e6de6053c5e83ce687479ef1453e8f59a08bc9be1d",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4110,
+      "triangles": 1370,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_024",
+      "path": "data/derived/surface-meshes/SM_Pavement_024.npz",
+      "sha256": "08559cd14f6259ab98119c5e0b18b3745e55ab9e9f5ec93dca4df48e0a16f0c6",
+      "collision": "complex",
+      "source_start_m": 4607.899481043665,
+      "source_end_m": 4800.895270939808,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_024",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_024.npz",
+      "sha256": "c096285f5d2752d1177bc8c6f069c32721577d3690a7b09ecf976e048f11b024",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4056,
+      "triangles": 1352,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_025",
+      "path": "data/derived/surface-meshes/SM_Pavement_025.npz",
+      "sha256": "fc2168c671306ce881ff779c403ac2428cb6e62508d498c25077e69911fa1a2c",
+      "collision": "complex",
+      "source_start_m": 4799.895292753818,
+      "source_end_m": 4992.8910826499605,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_025",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_025.npz",
+      "sha256": "3f6ace4280b0e12e67ed4e886c87964210f6602a8ebd5ddfd9a470ea79e0bad9",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4104,
+      "triangles": 1368,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_026",
+      "path": "data/derived/surface-meshes/SM_Pavement_026.npz",
+      "sha256": "b3533571d3c89381d73be6a2da5de8c91838a94d471941607f02e7ba67622a2c",
+      "collision": "complex",
+      "source_start_m": 4991.891104463971,
+      "source_end_m": 5184.886894360114,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_026",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_026.npz",
+      "sha256": "0efc0c670d4164cb9d0e146710f6fe29a5399c3d8409fca0455af8c65fae0c35",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4020,
+      "triangles": 1340,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_027",
+      "path": "data/derived/surface-meshes/SM_Pavement_027.npz",
+      "sha256": "c376721ec59d012295f57dce8149093136e99bb556e1c88d38ce1f30f729437a",
+      "collision": "complex",
+      "source_start_m": 5183.886916174123,
+      "source_end_m": 5376.882706070266,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_027",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_027.npz",
+      "sha256": "5146285bad9e3c1fbc7f0efaa386a525827298718975399408e2fff560c1950a",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4086,
+      "triangles": 1362,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_028",
+      "path": "data/derived/surface-meshes/SM_Pavement_028.npz",
+      "sha256": "ce95a2039d2c2f623a6d3f2a55de23a0ad3effb23f930bf91d36002d35336f2f",
+      "collision": "complex",
+      "source_start_m": 5375.8827278842755,
+      "source_end_m": 5568.878517780419,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_028",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_028.npz",
+      "sha256": "76c26e0fdc8c9fd6060ddfb1e98c4c728d9673925e1e926f69d698e7a3b106b6",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4050,
+      "triangles": 1350,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_029",
+      "path": "data/derived/surface-meshes/SM_Pavement_029.npz",
+      "sha256": "e315ffc58a615995a96cf2d7e7991352ffbeaf51307d51aed382cd69fca21e7c",
+      "collision": "complex",
+      "source_start_m": 5567.878539594429,
+      "source_end_m": 5760.874329490572,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_029",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_029.npz",
+      "sha256": "c5579d1d7c55e25ae7672d46edbf82db8c17211108e78aea12ac4124a91c67fe",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4056,
+      "triangles": 1352,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_030",
+      "path": "data/derived/surface-meshes/SM_Pavement_030.npz",
+      "sha256": "7d61419a92334f9da9b6d91493098c027573a0adae92021edd3744c82d5a3ed6",
+      "collision": "complex",
+      "source_start_m": 5759.874351304581,
+      "source_end_m": 5952.870141200724,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_030",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_030.npz",
+      "sha256": "f69f0d0c104b4cf656775e60ec4bfb889c7719485476adbfacf43d15f7cca521",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4200,
+      "triangles": 1400,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_031",
+      "path": "data/derived/surface-meshes/SM_Pavement_031.npz",
+      "sha256": "4f679a5cb70437b8c3f3c271f6ba224286a28d68b3b66662f5ab66fb01a7b88e",
+      "collision": "complex",
+      "source_start_m": 5951.870163014734,
+      "source_end_m": 6144.865952910877,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_031",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_031.npz",
+      "sha256": "0788a0d09649a76b0566517d7953f2ca492ad1e50dcc0fc9424daedfd7b5c54f",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3954,
+      "triangles": 1318,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_032",
+      "path": "data/derived/surface-meshes/SM_Pavement_032.npz",
+      "sha256": "107f46e2fc41e37a5afc14785d099d10d0bdcacfc5d0c0588e8d4c8b891db9dd",
+      "collision": "complex",
+      "source_start_m": 6143.865974724887,
+      "source_end_m": 6336.86176462103,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_032",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_032.npz",
+      "sha256": "2e25561b4289cf6f565ad0c4ea84350c2e187c44879a9f41ffade47b375ffa06",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4056,
+      "triangles": 1352,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_033",
+      "path": "data/derived/surface-meshes/SM_Pavement_033.npz",
+      "sha256": "2322fc9d869b06a63c0d0b0c97c23f11e691039c203d96da7cbb4c354269bca7",
+      "collision": "complex",
+      "source_start_m": 6335.861786435039,
+      "source_end_m": 6528.857576331183,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_033",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_033.npz",
+      "sha256": "df9aa7c96ee82edde0cc8eeb3d8e5ce5ed90884974bd198cbd509b235235819e",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3924,
+      "triangles": 1308,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_034",
+      "path": "data/derived/surface-meshes/SM_Pavement_034.npz",
+      "sha256": "c56e4857ab20d24f5f831bc3ca1bd2c62d5a156aa7235f1d944de00897892545",
+      "collision": "complex",
+      "source_start_m": 6527.857598145192,
+      "source_end_m": 6720.853388041335,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_034",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_034.npz",
+      "sha256": "2af73bbfb235a5a02c55c4efed9c718185267228b4d22ac2a2404d3e408db560",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3786,
+      "triangles": 1262,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_035",
+      "path": "data/derived/surface-meshes/SM_Pavement_035.npz",
+      "sha256": "a7cd5098f7bc5f713826883969783f403ae1052ee7a8e84768344986746051ca",
+      "collision": "complex",
+      "source_start_m": 6719.853409855345,
+      "source_end_m": 6912.8491997514875,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_035",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_035.npz",
+      "sha256": "9fbd360af16b1461a811c911ad907c88a13b53b772ea5d1708c43100ca578bf5",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4092,
+      "triangles": 1364,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_036",
+      "path": "data/derived/surface-meshes/SM_Pavement_036.npz",
+      "sha256": "7f53788c344f3a18406d898bf4510ba4211a3ab1184afcc6e2c49d0b2307cd6f",
+      "collision": "complex",
+      "source_start_m": 6911.849221565498,
+      "source_end_m": 7104.845011461641,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_036",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_036.npz",
+      "sha256": "73c914305056bfae4d1b8530a865b7d393fc9c0c65347aa2090e534f3c012891",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3996,
+      "triangles": 1332,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_037",
+      "path": "data/derived/surface-meshes/SM_Pavement_037.npz",
+      "sha256": "451633ec6d76a7a453e725a57216364b62d690736103935f2353fe868d850959",
+      "collision": "complex",
+      "source_start_m": 7103.84503327565,
+      "source_end_m": 7296.840823171793,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_037",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_037.npz",
+      "sha256": "1c7952454d619a90e145648e9e6a6f7df61e798b6efda77b8e28c54f23622c53",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3960,
+      "triangles": 1320,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_038",
+      "path": "data/derived/surface-meshes/SM_Pavement_038.npz",
+      "sha256": "faede3ff2e74ba5e7ddbd8e11ae822fc509947f5f16c9ebcad38e61ccb09e5bf",
+      "collision": "complex",
+      "source_start_m": 7295.8408449858025,
+      "source_end_m": 7488.836634881946,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_038",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_038.npz",
+      "sha256": "cfbf1ed5678d7b05dd354c5bb548f78861f75560a8a0874634aa8042225f93d8",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4056,
+      "triangles": 1352,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_039",
+      "path": "data/derived/surface-meshes/SM_Pavement_039.npz",
+      "sha256": "a60ac2886141f019afb218515a9f11ea21aae3666cb5ecb68fd6820fd2feeb8d",
+      "collision": "complex",
+      "source_start_m": 7487.836656695956,
+      "source_end_m": 7680.832446592099,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_039",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_039.npz",
+      "sha256": "440abc2e5fbde77d32ff667e6ca2e00334f6d4837295d1b7de193ed4df71a807",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3846,
+      "triangles": 1282,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_040",
+      "path": "data/derived/surface-meshes/SM_Pavement_040.npz",
+      "sha256": "021f3fdbebe5738f2f106c8badd536c2d38cedb8f21f973a8f22ea83b9bb4705",
+      "collision": "complex",
+      "source_start_m": 7679.832468406108,
+      "source_end_m": 7872.828258302251,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_040",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_040.npz",
+      "sha256": "f931a9659f50f8a8bc0b1f136e24c825c7bf87eee7843cf27eb993b8aa3c4763",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4140,
+      "triangles": 1380,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_041",
+      "path": "data/derived/surface-meshes/SM_Pavement_041.npz",
+      "sha256": "0f2337615611e7c305941c24ef0629fbb8e9762efa04d91d37ce10908d4eef36",
+      "collision": "complex",
+      "source_start_m": 7871.828280116261,
+      "source_end_m": 8064.824070012404,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_041",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_041.npz",
+      "sha256": "c6bb063ea9ddf6ab4d069f5d3eaff71f1bfac1ab39f18b420c8adafae7d719e4",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4038,
+      "triangles": 1346,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_042",
+      "path": "data/derived/surface-meshes/SM_Pavement_042.npz",
+      "sha256": "eed954f7768d9bc5944dc86ddc93f9e20fbb32c04ad76ac8ffe583785ef97fe6",
+      "collision": "complex",
+      "source_start_m": 8063.824091826414,
+      "source_end_m": 8256.819881722557,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_042",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_042.npz",
+      "sha256": "a460c7df4f82dbc72aec571322f4adf05336e10d94cda99b29fe79325f394beb",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4080,
+      "triangles": 1360,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_043",
+      "path": "data/derived/surface-meshes/SM_Pavement_043.npz",
+      "sha256": "f1974dc093de7c321172aeb0b5eb09c6ddbf70691475e628397ead547064ec43",
+      "collision": "complex",
+      "source_start_m": 8255.819903536567,
+      "source_end_m": 8448.815693432709,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_043",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_043.npz",
+      "sha256": "2b59a97a5880a7f289c6d659b6ee50528357f181c82e6d9b7d83afbebdd7c258",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3666,
+      "triangles": 1222,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 17,
+        "boundary_split_segments": 2,
+        "source_length_suppressed_m": 18.0,
+        "fully_suppressed_input_triangles": 68,
+        "boundary_input_triangles_replaced": 8,
+        "boundary_replacement_triangles": 8
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_044",
+      "path": "data/derived/surface-meshes/SM_Pavement_044.npz",
+      "sha256": "74fe1806c3837a0c1c8349a2c7f93689f49a18e29eec67c3c4352b781d400172",
+      "collision": "complex",
+      "source_start_m": 8447.81571524672,
+      "source_end_m": 8640.811505142863,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_044",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_044.npz",
+      "sha256": "a6e7be19893866f689b147f255d81bc183e01029ed51b8acc35ac1fd0d08dfb4",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3966,
+      "triangles": 1322,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_045",
+      "path": "data/derived/surface-meshes/SM_Pavement_045.npz",
+      "sha256": "2ed9e4a7902457ab833c46b953b093ff430d138acf17ce48afff9ebbfc620407",
+      "collision": "complex",
+      "source_start_m": 8639.811526956872,
+      "source_end_m": 8832.807316853015,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_045",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_045.npz",
+      "sha256": "98ba6c07380e0312fa675c3ee293060960773853e5004c3cdfd9b4d5612a4d17",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 4008,
+      "triangles": 1336,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_046",
+      "path": "data/derived/surface-meshes/SM_Pavement_046.npz",
+      "sha256": "41f8ba2f3c5052841f559ba24bf53f85c9670d06c1174db0669d5fbc65ce8477",
+      "collision": "complex",
+      "source_start_m": 8831.807338667024,
+      "source_end_m": 9024.803128563168,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_046",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_046.npz",
+      "sha256": "3e5c517321e9422152378d59fad1141af36e2d7202028cd4bb3c5133e74d94db",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3930,
+      "triangles": 1310,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_047",
+      "path": "data/derived/surface-meshes/SM_Pavement_047.npz",
+      "sha256": "e0fee0cdc93072b7a74a4cb76ceb1bf64496042cadccfe5a574b639d0ad68485",
+      "collision": "complex",
+      "source_start_m": 9023.803150377178,
+      "source_end_m": 9216.79894027332,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_047",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_047.npz",
+      "sha256": "308e62f4141a09956855518a518196e5d532e4de939efcad4088679b2ac22d85",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3990,
+      "triangles": 1330,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_048",
+      "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+      "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1",
+      "collision": "complex",
+      "source_start_m": 9215.79896208733,
+      "source_end_m": 9408.794751983472,
+      "overlap_stations": 1,
+      "vertices": 388,
+      "triangles": 386,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_048",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_048.npz",
+      "sha256": "799e8e00db90938d2bbc3e3052864ad84c89a2b46a0e0837b90ffb1ed55dd08f",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 3204,
+      "triangles": 1068,
+      "support_suppression": {
+        "source_segments": 193,
+        "fully_suppressed_segments": 42,
+        "boundary_split_segments": 2,
+        "source_length_suppressed_m": 43.0,
+        "fully_suppressed_input_triangles": 168,
+        "boundary_input_triangles_replaced": 8,
+        "boundary_replacement_triangles": 8
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    },
+    {
+      "name": "SM_Pavement_049",
+      "path": "data/derived/surface-meshes/SM_Pavement_049.npz",
+      "sha256": "95cf7fbd11540b27c8cbb0b6cf8d8c515ee72ecfea1e1fee48bb49e0581b1a5f",
+      "collision": "complex",
+      "source_start_m": 9407.794773797483,
+      "source_end_m": 9441.794032121155,
+      "overlap_stations": 1,
+      "vertices": 72,
+      "triangles": 70,
+      "role": "pavement"
+    },
+    {
+      "name": "SM_PavementSupport_049",
+      "path": "data/derived/surface-meshes/SM_PavementSupport_049.npz",
+      "sha256": "90025da1c550f317596ee2581912241db1759f0301647b280e577bf68fb6befa",
+      "collision": "complex",
+      "role": "support",
+      "vertices": 726,
+      "triangles": 242,
+      "support_suppression": {
+        "source_segments": 35,
+        "fully_suppressed_segments": 0,
+        "boundary_split_segments": 0,
+        "source_length_suppressed_m": 0.0,
+        "fully_suppressed_input_triangles": 0,
+        "boundary_input_triangles_replaced": 0,
+        "boundary_replacement_triangles": 0
+      },
+      "suppression_manifest": {
+        "path": "data/derived/underpass-blockouts.json",
+        "sha256": "6e508eaed24f862e7fedf2f56017a65630cf8bb2d752ff5791d731e0fc5c68e2"
+      }
+    }
+  ],
+  "landmark_cuts": [
+    {
+      "landmark": "Siwash Rock",
+      "method": "Exact triangle clipping: Measured lowest stone section",
+      "removed_source_faces": 102,
+      "replacement_boundary_faces": 118,
+      "footprint_area_m2": 444.5672148658649,
+      "footprint_local_m": [
+        [
+          -929.0307616488768,
+          690.9846498192107
+        ],
+        [
+          -929.1544756979171,
+          692.5399191994788
+        ],
+        [
+          -929.4579997016347,
+          694.0687235313119
+        ],
+        [
+          -929.9566981360807,
+          695.5456470420825
+        ],
+        [
+          -930.66141713296,
+          696.9351117291533
+        ],
+        [
+          -931.5193869628101,
+          698.2347638237244
+        ],
+        [
+          -932.5129121908748,
+          699.4396571178197
+        ],
+        [
+          -933.7009711973446,
+          700.4551212166515
+        ],
+        [
+          -935.0511233098288,
+          701.2328414204026
+        ],
+        [
+          -936.4544979810006,
+          701.8810132376972
+        ],
+        [
+          -937.9009366797727,
+          702.4307854909928
+        ],
+        [
+          -939.4181105237934,
+          702.7566176442912
+        ],
+        [
+          -940.9679194894837,
+          702.834290192772
+        ],
+        [
+          -942.5194028045912,
+          702.7693355907628
+        ],
+        [
+          -944.0554005611689,
+          702.5072860461471
+        ],
+        [
+          -945.5375565654176,
+          702.0167296230532
+        ],
+        [
+          -946.9565009590893,
+          701.3571771898332
+        ],
+        [
+          -948.2567870761305,
+          700.4836869974088
+        ],
+        [
+          -949.4223067179614,
+          699.4390370476884
+        ],
+        [
+          -950.425897099363,
+          698.242011290972
+        ],
+        [
+          -951.2843522017312,
+          696.9408450227035
+        ],
+        [
+          -951.9808958084544,
+          695.5463739726221
+        ],
+        [
+          -952.4825271936081,
+          694.069979654692
+        ],
+        [
+          -952.8028209932874,
+          692.5427441608873
+        ],
+        [
+          -952.9356019882537,
+          690.9846498192107
+        ],
+        [
+          -952.8301024175476,
+          689.4229638098926
+        ],
+        [
+          -952.5240228396977,
+          687.8882012588703
+        ],
+        [
+          -951.9987775399208,
+          686.4155188101073
+        ],
+        [
+          -951.3026878137388,
+          685.0178685451897
+        ],
+        [
+          -950.3528146778449,
+          683.7833664618273
+        ],
+        [
+          -949.293822603924,
+          682.6587467047705
+        ],
+        [
+          -948.1275813781523,
+          681.6539967849337
+        ],
+        [
+          -946.8772444245825,
+          680.7493987931861
+        ],
+        [
+          -945.5332638734978,
+          679.9629334904199
+        ],
+        [
+          -944.0644221484464,
+          679.4283445701899
+        ],
+        [
+          -942.5250528267076,
+          679.157047868931
+        ],
+        [
+          -940.9679194894837,
+          679.0660511325545
+        ],
+        [
+          -939.4104209741096,
+          679.1542740654938
+        ],
+        [
+          -937.8779568318789,
+          679.452752187539
+        ],
+        [
+          -936.4058651554947,
+          679.9708763738115
+        ],
+        [
+          -935.0014760900377,
+          680.6504667108863
+        ],
+        [
+          -933.7049685573207,
+          681.5193878827151
+        ],
+        [
+          -932.5347662049226,
+          682.5514965346496
+        ],
+        [
+          -931.5030729183653,
+          683.7220176081114
+        ],
+        [
+          -930.6451178692614,
+          685.0247775249842
+        ],
+        [
+          -929.9442500372664,
+          686.4184964249844
+        ],
+        [
+          -929.4362831181695,
+          687.8947571661078
+        ],
+        [
+          -929.1246036813519,
+          689.425447713354
+        ],
+        [
+          -929.0307616488768,
+          690.9846498192107
+        ]
+      ],
+      "reason": "The coarse DTM and detailed landmark must not occupy the same visible surface"
+    },
+    {
+      "landmark": "Brockton walking platform",
+      "method": "Exact triangle clipping: Fitted low-return walking floor review outline",
+      "removed_source_faces": 106,
+      "replacement_boundary_faces": 417,
+      "footprint_area_m2": 174.9686727363883,
+      "footprint_local_m": [
+        [
+          1869.747356459606,
+          -197.1539378504445
+        ],
+        [
+          1869.7633476705435,
+          -196.18294480845256
+        ],
+        [
+          1870.1032449936456,
+          -195.69821259544315
+        ],
+        [
+          1870.5108561231182,
+          -195.68341153655547
+        ],
+        [
+          1870.9909129481016,
+          -195.31534962366817
+        ],
+        [
+          1871.66221705459,
+          -195.3086603732433
+        ],
+        [
+          1872.0261557332253,
+          -194.93075971189594
+        ],
+        [
+          1872.4003806361525,
+          -194.9357431022368
+        ],
+        [
+          1872.7249755859375,
+          -194.76327948402897
+        ],
+        [
+          1872.988978123249,
+          -194.80842867374346
+        ],
+        [
+          1873.2420981160378,
+          -194.53676251951313
+        ],
+        [
+          1874.1680796273654,
+          -194.46980432234682
+        ],
+        [
+          1874.531982421875,
+          -194.23428778481022
+        ],
+        [
+          1874.767947042191,
+          -194.2852159985509
+        ],
+        [
+          1875.3775685067396,
+          -194.1779875316527
+        ],
+        [
+          1875.6639404296875,
+          -194.03227667641178
+        ],
+        [
+          1875.96908157748,
+          -194.1312412994876
+        ],
+        [
+          1876.468994140625,
+          -193.96727423500553
+        ],
+        [
+          1876.8684065064624,
+          -193.96919022996744
+        ],
+        [
+          1877.3349609375,
+          -193.64427618813053
+        ],
+        [
+          1877.8129618920532,
+          -193.7690411605679
+        ],
+        [
+          1878.300048828125,
+          -193.61627631020087
+        ],
+        [
+          1878.5322555219116,
+          -193.65190371609435
+        ],
+        [
+          1878.8480224609375,
+          -193.51027350258366
+        ],
+        [
+          1879.391167646197,
+          -193.5657952966411
+        ],
+        [
+          1879.6939697265625,
+          -193.4262738687946
+        ],
+        [
+          1879.900811302947,
+          -193.47110358924238
+        ],
+        [
+          1880.76417401824,
+          -193.342858313983
+        ],
+        [
+          1881.4918420518773,
+          -192.38109055505464
+        ],
+        [
+          1881.8327067333803,
+          -191.6661398640847
+        ],
+        [
+          1882.0621369882297,
+          -191.3976493967131
+        ],
+        [
+          1882.0697672802553,
+          -190.9091360799051
+        ],
+        [
+          1882.6514321296206,
+          -190.6555934571439
+        ],
+        [
+          1882.6052899820759,
+          -190.29100036621094
+        ],
+        [
+          1882.741306517083,
+          -190.05221650169315
+        ],
+        [
+          1883.139111497376,
+          -189.99213530429995
+        ],
+        [
+          1883.909165354232,
+          -188.99829504247384
+        ],
+        [
+          1884.0080893269753,
+          -188.89975385252094
+        ],
+        [
+          1884.3695469581826,
+          -188.84308631085943
+        ],
+        [
+          1884.9271567097878,
+          -188.19275312009907
+        ],
+        [
+          1885.304484992056,
+          -188.1696030651884
+        ],
+        [
+          1885.6951010457253,
+          -187.75474958006
+        ],
+        [
+          1886.1104889301669,
+          -187.73361920772035
+        ],
+        [
+          1886.4491293660378,
+          -187.37475995603657
+        ],
+        [
+          1887.033708554103,
+          -187.19897996847072
+        ],
+        [
+          1887.2381918660378,
+          -186.97674970213032
+        ],
+        [
+          1887.706490945663,
+          -186.90174014120092
+        ],
+        [
+          1888.010986328125,
+          -186.73428778481022
+        ],
+        [
+          1888.3237913314563,
+          -186.75580828362456
+        ],
+        [
+          1888.68603515625,
+          -186.5252728922321
+        ],
+        [
+          1888.988389659648,
+          -186.67995978474977
+        ],
+        [
+          1889.307265430093,
+          -186.64849461795959
+        ],
+        [
+          1889.6929931640625,
+          -186.37128119301335
+        ],
+        [
+          1890.0333314504066,
+          -186.54108472326422
+        ],
+        [
+          1890.626953125,
+          -186.3252759439899
+        ],
+        [
+          1890.9495194177691,
+          -186.46027958621315
+        ],
+        [
+          1891.594970703125,
+          -186.32327704262272
+        ],
+        [
+          1892.0193945271992,
+          -186.49724884009032
+        ],
+        [
+          1892.4876068048468,
+          -186.32556619622534
+        ],
+        [
+          1892.663042416993,
+          -185.65184940728687
+        ],
+        [
+          1896.1284736315151,
+          -186.47839623246637
+        ],
+        [
+          1895.909682339112,
+          -187.47252802307366
+        ],
+        [
+          1896.3448159464622,
+          -187.55376081052876
+        ],
+        [
+          1897.0828530558372,
+          -187.9077494579897
+        ],
+        [
+          1898.2430691205482,
+          -188.79000391955827
+        ],
+        [
+          1898.755763795417,
+          -189.04022309349003
+        ],
+        [
+          1899.5143885575758,
+          -190.02799244113044
+        ],
+        [
+          1899.7953489851725,
+          -190.3377083309753
+        ],
+        [
+          1900.0918112082668,
+          -190.50429174657418
+        ],
+        [
+          1900.1676913335934,
+          -190.7445576035668
+        ],
+        [
+          1900.4152180713072,
+          -190.9351370564676
+        ],
+        [
+          1900.4784924371502,
+          -191.27390216233198
+        ],
+        [
+          1900.7262532275572,
+          -191.47914340412385
+        ],
+        [
+          1900.764012545205,
+          -191.78431475077738
+        ],
+        [
+          1901.2302815478695,
+          -192.48114230549078
+        ],
+        [
+          1901.3985363824627,
+          -192.92198094586394
+        ],
+        [
+          1901.6832844775572,
+          -193.13713290607697
+        ],
+        [
+          1901.648221548739,
+          -193.69467976178407
+        ],
+        [
+          1901.9161946338072,
+          -194.0991385213112
+        ],
+        [
+          1901.9917559163616,
+          -194.343994140625
+        ],
+        [
+          1901.9284078330875,
+          -194.6505821875095
+        ],
+        [
+          1902.1747393147991,
+          -195.11999511718798
+        ],
+        [
+          1902.078111860242,
+          -195.89343666176075
+        ],
+        [
+          1902.3517412679241,
+          -196.2779998779297
+        ],
+        [
+          1902.0819831420483,
+          -197.62862852624903
+        ],
+        [
+          1902.3076738851116,
+          -198.3820037841797
+        ],
+        [
+          1902.204071101604,
+          -198.78256541421638
+        ],
+        [
+          1902.278439601484,
+          -199.11033157377213
+        ],
+        [
+          1902.5156514907294,
+          -199.22621247337284
+        ],
+        [
+          1902.8874040268379,
+          -199.6685466818378
+        ],
+        [
+          1903.5179116495872,
+          -199.68574933591938
+        ],
+        [
+          1903.7025868732137,
+          -199.97153123783582
+        ],
+        [
+          1904.7930568469687,
+          -200.90804635499254
+        ],
+        [
+          1905.1918618448997,
+          -201.05275373045063
+        ],
+        [
+          1905.5498761317442,
+          -201.41800010804255
+        ],
+        [
+          1905.8048989542747,
+          -201.47775678220844
+        ],
+        [
+          1906.0051974665312,
+          -201.8822664437642
+        ],
+        [
+          1906.9128091105247,
+          -202.46275739256
+        ],
+        [
+          1907.4230324915516,
+          -203.18305583537762
+        ],
+        [
+          1908.0427389426418,
+          -203.585300657707
+        ],
+        [
+          1908.1190842118972,
+          -203.84963636107713
+        ],
+        [
+          1908.4027242942043,
+          -204.0472910141523
+        ],
+        [
+          1908.5161374860413,
+          -204.2796503734886
+        ],
+        [
+          1909.0928628214622,
+          -204.21675519529438
+        ],
+        [
+          1909.2327227132366,
+          -204.45899963378906
+        ],
+        [
+          1909.1160469703043,
+          -204.73895602924037
+        ],
+        [
+          1909.172964314652,
+          -205.11780221235057
+        ],
+        [
+          1909.7198159464622,
+          -205.34375409666157
+        ],
+        [
+          1909.9056599817914,
+          -205.6338980632372
+        ],
+        [
+          1910.1892659228697,
+          -205.8081381551004
+        ],
+        [
+          1910.1382131518908,
+          -206.7164673044466
+        ],
+        [
+          1910.2577471272991,
+          -207.1510009765625
+        ],
+        [
+          1910.178910274973,
+          -207.4227659808377
+        ],
+        [
+          1910.2716631429241,
+          -207.77499389648438
+        ],
+        [
+          1910.105256211806,
+          -208.31678566254845
+        ],
+        [
+          1910.2378611507906,
+          -209.10193650767107
+        ],
+        [
+          1909.9965031945771,
+          -209.27919876924284
+        ],
+        [
+          1909.8149087198997,
+          -209.59025164064312
+        ],
+        [
+          1909.5351889363503,
+          -209.59025164064312
+        ],
+        [
+          1909.2320852216508,
+          -208.8868388607615
+        ],
+        [
+          1908.9441244832253,
+          -208.77924700197124
+        ],
+        [
+          1908.5847819286928,
+          -208.39785549724334
+        ],
+        [
+          1908.5623694637209,
+          -207.8883921027381
+        ],
+        [
+          1908.0882425026707,
+          -207.56670739893363
+        ],
+        [
+          1907.973164538447,
+          -207.27267703452998
+        ],
+        [
+          1907.5751809792332,
+          -207.09470727686332
+        ],
+        [
+          1907.4544114295647,
+          -206.7713588466529
+        ],
+        [
+          1907.0551614479832,
+          -206.58170678858207
+        ],
+        [
+          1906.9058681978695,
+          -206.21066120404586
+        ],
+        [
+          1906.4902200417332,
+          -206.00870874170707
+        ],
+        [
+          1906.3130410302342,
+          -205.47117088593365
+        ],
+        [
+          1905.9643289780206,
+          -205.37979033424435
+        ],
+        [
+          1905.607514432597,
+          -204.82711457873629
+        ],
+        [
+          1905.3551352254128,
+          -204.7592427295103
+        ],
+        [
+          1905.1491229792377,
+          -204.5388073692565
+        ],
+        [
+          1904.8561117879128,
+          -204.49224443849468
+        ],
+        [
+          1904.5712550723354,
+          -203.87400980992328
+        ],
+        [
+          1904.2420981160378,
+          -203.7852437060728
+        ],
+        [
+          1904.0151534739111,
+          -203.4016193508836
+        ],
+        [
+          1903.7361166707253,
+          -203.32024736818218
+        ],
+        [
+          1903.533765881905,
+          -203.09816813172324
+        ],
+        [
+          1903.2641928426003,
+          -203.0422474902525
+        ],
+        [
+          1903.0624582739374,
+          -202.80885784877873
+        ],
+        [
+          1902.8021567097878,
+          -202.74824114259624
+        ],
+        [
+          1902.4138548954995,
+          -202.19077319212172
+        ],
+        [
+          1902.1120932332253,
+          -202.12424822267437
+        ],
+        [
+          1901.8860456820457,
+          -201.84391201759863
+        ],
+        [
+          1901.5331137410378,
+          -201.8162495654478
+        ],
+        [
+          1901.0509481313281,
+          -201.34819900302347
+        ],
+        [
+          1900.4371664754128,
+          -201.0402485888853
+        ],
+        [
+          1900.1748101746884,
+          -200.56911204349055
+        ],
+        [
+          1899.8061850301003,
+          -200.41324968751812
+        ],
+        [
+          1899.5956284181743,
+          -200.14693573236093
+        ],
+        [
+          1899.3360922566628,
+          -200.08623857911968
+        ],
+        [
+          1899.134143043589,
+          -199.72424466794865
+        ],
+        [
+          1898.6857340771303,
+          -199.3898598917746
+        ],
+        [
+          1898.6857340771303,
+          -199.1101401082254
+        ],
+        [
+          1898.9499416650463,
+          -198.84847585434696
+        ],
+        [
+          1898.9337809521303,
+          -198.37614657795197
+        ],
+        [
+          1899.1802192890643,
+          -198.1375500403035
+        ],
+        [
+          1899.1232343180134,
+          -197.76199340820312
+        ],
+        [
+          1899.3062295442342,
+          -197.4100582281651
+        ],
+        [
+          1898.9483075602009,
+          -196.93800354003906
+        ],
+        [
+          1899.2514988349465,
+          -196.50476409922567
+        ],
+        [
+          1899.028349447626,
+          -195.49209476619208
+        ],
+        [
+          1898.5437663036928,
+          -195.2368600138449
+        ],
+        [
+          1898.5602838415018,
+          -194.833549515971
+        ],
+        [
+          1898.4401173648344,
+          -194.65993516489763
+        ],
+        [
+          1898.4326365917068,
+          -194.33206988457374
+        ],
+        [
+          1898.3067057568178,
+          -194.1608559855246
+        ],
+        [
+          1898.169827528565,
+          -193.57474893162015
+        ],
+        [
+          1897.7298014599428,
+          -193.30586025798553
+        ],
+        [
+          1897.5491460355743,
+          -192.6262656065418
+        ],
+        [
+          1897.2777750927553,
+          -192.40685818279022
+        ],
+        [
+          1897.1986664722515,
+          -192.09050460452448
+        ],
+        [
+          1896.982417475069,
+          -191.95332298972139
+        ],
+        [
+          1896.6501791707253,
+          -191.93424578126812
+        ],
+        [
+          1896.4254323058137,
+          -191.55512977413753
+        ],
+        [
+          1896.0860922566628,
+          -191.49824114259624
+        ],
+        [
+          1895.8839914619564,
+          -191.25108677360006
+        ],
+        [
+          1895.5741293660378,
+          -191.19823809083843
+        ],
+        [
+          1895.1883603265853,
+          -190.49391262519185
+        ],
+        [
+          1895.103129305351,
+          -190.7977496641022
+        ],
+        [
+          1894.3745567214667,
+          -190.62537624657492
+        ],
+        [
+          1894.4117160084181,
+          -190.88441791703187
+        ],
+        [
+          1894.7382161181822,
+          -191.09413363849885
+        ],
+        [
+          1894.8507647054241,
+          -191.5050048828125
+        ],
+        [
+          1894.8132893603697,
+          -191.6448647745871
+        ],
+        [
+          1894.5508415347153,
+          -191.85106343865496
+        ],
+        [
+          1894.4952961963072,
+          -192.15086147868865
+        ],
+        [
+          1894.2349102819371,
+          -192.3565076552926
+        ],
+        [
+          1894.1862141650572,
+          -192.68186733806365
+        ],
+        [
+          1893.9439697265625,
+          -192.82172722983822
+        ],
+        [
+          1893.6250898602339,
+          -192.63331624915944
+        ],
+        [
+          1892.8570883504128,
+          -192.47224016603374
+        ],
+        [
+          1892.6425772680116,
+          -192.2209950089013
+        ],
+        [
+          1891.9087565380678,
+          -191.87486050212615
+        ],
+        [
+          1891.5652509195759,
+          -191.1479949951172
+        ],
+        [
+          1891.6131144057076,
+          -190.6285942695157
+        ],
+        [
+          1891.5022626383259,
+          -190.34800720214844
+        ],
+        [
+          1891.5397379833803,
+          -190.20814731037385
+        ],
+        [
+          1891.80165357917,
+          -190.011124200862
+        ],
+        [
+          1891.6235207003563,
+          -189.9594585611153
+        ],
+        [
+          1891.680675034788,
+          -189.7055423825333
+        ],
+        [
+          1890.1168286433153,
+          -189.63192291695256
+        ],
+        [
+          1889.7290577550234,
+          -189.81863780308964
+        ],
+        [
+          1889.319036918356,
+          -189.8352948444188
+        ],
+        [
+          1889.0448891886497,
+          -190.30924578126812
+        ],
+        [
+          1888.7121173191922,
+          -190.31832793656565
+        ],
+        [
+          1888.298543887328,
+          -190.47423903134617
+        ],
+        [
+          1888.0558755167747,
+          -190.86223955568218
+        ],
+        [
+          1887.2961100450411,
+          -190.963451040879
+        ],
+        [
+          1886.8366964126044,
+          -191.54278471900997
+        ],
+        [
+          1886.4046255382093,
+          -191.80044290171296
+        ],
+        [
+          1886.0528237589622,
+          -192.51523943361187
+        ],
+        [
+          1885.5989592843196,
+          -192.49638771211974
+        ],
+        [
+          1885.3518960245872,
+          -192.80524797853374
+        ],
+        [
+          1885.0188338578944,
+          -192.89777343613298
+        ],
+        [
+          1884.9941975634947,
+          -193.47085354411834
+        ],
+        [
+          1884.8868943934144,
+          -193.5748362484465
+        ],
+        [
+          1884.4227991627301,
+          -193.64936643453925
+        ],
+        [
+          1884.1977859031351,
+          -194.22159135484034
+        ],
+        [
+          1884.1292073291197,
+          -194.6918618448996
+        ],
+        [
+          1883.718494418236,
+          -194.95150756281754
+        ],
+        [
+          1883.722771039678,
+          -195.12060765277604
+        ],
+        [
+          1883.9426836507366,
+          -195.447998046875
+        ],
+        [
+          1883.9017477317043,
+          -195.591701295418
+        ],
+        [
+          1883.6680225987734,
+          -195.72664256383183
+        ],
+        [
+          1883.2380449938598,
+          -195.43520177350482
+        ],
+        [
+          1882.9119873046875,
+          -195.5397142903851
+        ],
+        [
+          1882.27259535395,
+          -195.49645488680576
+        ],
+        [
+          1881.7048012980247,
+          -195.81225176271343
+        ],
+        [
+          1880.989013671875,
+          -195.97071404624447
+        ],
+        [
+          1880.384221950169,
+          -195.8893515631713
+        ],
+        [
+          1880.072021484375,
+          -196.04871697593197
+        ],
+        [
+          1879.8590382572058,
+          -196.00982937433955
+        ],
+        [
+          1879.39599609375,
+          -196.18772454429134
+        ],
+        [
+          1878.4523237494388,
+          -196.2904430885022
+        ],
+        [
+          1878.1510009765625,
+          -196.45472283530697
+        ],
+        [
+          1877.9033062825017,
+          -196.36668980592566
+        ],
+        [
+          1877.6526283346489,
+          -196.40856885087027
+        ],
+        [
+          1877.31103515625,
+          -196.5997271077679
+        ],
+        [
+          1876.8982539014414,
+          -196.47681712095002
+        ],
+        [
+          1876.617973494977,
+          -196.81684064297775
+        ],
+        [
+          1876.1474156298084,
+          -196.73864640596233
+        ],
+        [
+          1875.6121143956484,
+          -197.0086402444959
+        ],
+        [
+          1874.2295214704372,
+          -197.21334089156227
+        ],
+        [
+          1872.9308755167747,
+          -197.82624407228374
+        ],
+        [
+          1872.268383197423,
+          -197.97043191229093
+        ],
+        [
+          1872.087944198102,
+          -198.12384747891525
+        ],
+        [
+          1870.8406941078676,
+          -198.3093032934342
+        ],
+        [
+          1870.5628335245872,
+          -198.70124407228374
+        ],
+        [
+          1870.06396484375,
+          -198.87972588706478
+        ],
+        [
+          1869.8251809792332,
+          -198.74370935205863
+        ],
+        [
+          1869.7842450602009,
+          -198.60000610351562
+        ],
+        [
+          1869.9840975378145,
+          -198.13492597804716
+        ],
+        [
+          1869.747356459606,
+          -197.1539378504445
+        ]
+      ],
+      "reason": "The coarse DTM and detailed landmark must not occupy the same visible surface"
+    },
+    {
+      "landmark": "Prospect Point Lookout",
+      "method": "Exact triangle clipping: Registered named-feature replacement; Replace coarse terrain collision with the terrace TIN and vertical terrain-boundary stitch after boundary and stair review",
+      "removed_source_faces": 615,
+      "replacement_boundary_faces": 425,
+      "footprint_area_m2": 79.39406250000071,
+      "footprint_local_m": [
+        [
+          61.4005,
+          1246.7285
+        ],
+        [
+          62.9755,
+          1248.3784999999998
+        ],
+        [
+          62.6005,
+          1249.4285
+        ],
+        [
+          64.7005,
+          1251.1535
+        ],
+        [
+          66.7255,
+          1250.0285
+        ],
+        [
+          68.6755,
+          1250.1785
+        ],
+        [
+          70.2505,
+          1251.1535
+        ],
+        [
+          71.1505,
+          1250.5535
+        ],
+        [
+          73.5505,
+          1251.4534999999998
+        ],
+        [
+          76.0255,
+          1250.8535
+        ],
+        [
+          77.8255,
+          1249.4285
+        ],
+        [
+          79.4755,
+          1247.1035
+        ],
+        [
+          80.3755,
+          1244.6284999999998
+        ],
+        [
+          79.7755,
+          1242.0034999999998
+        ],
+        [
+          78.5005,
+          1240.8035
+        ],
+        [
+          76.8505,
+          1241.3284999999998
+        ],
+        [
+          77.8255,
+          1243.4285
+        ],
+        [
+          77.9005,
+          1245.0034999999998
+        ],
+        [
+          77.0755,
+          1246.7285
+        ],
+        [
+          75.3505,
+          1247.7034999999998
+        ],
+        [
+          73.3255,
+          1247.4785
+        ],
+        [
+          71.3005,
+          1247.1035
+        ],
+        [
+          69.6505,
+          1247.4785
+        ],
+        [
+          68.0755,
+          1246.1284999999998
+        ],
+        [
+          66.2005,
+          1244.4035
+        ],
+        [
+          63.4255,
+          1245.7534999999998
+        ],
+        [
+          61.4005,
+          1246.7285
+        ]
+      ],
+      "reason": "The coarse DTM and detailed landmark must not occupy the same visible surface"
+    },
+    {
+      "landmark": "Second Beach Pool outline and surface",
+      "method": "Exact triangle clipping: Registered named-feature replacement; Remove coarse terrain collision; retain the synthetic safety floor and basin sides. Water stays non-colliding. Keep closed facility entry outside public navigation; perimeter fence is not yet modeled.",
+      "removed_source_faces": 140,
+      "replacement_boundary_faces": 145,
+      "footprint_area_m2": 3521.675000000002,
+      "footprint_local_m": [
+        [
+          -670.75,
+          -815.85
+        ],
+        [
+          -666.25,
+          -805.45
+        ],
+        [
+          -658.95,
+          -794.95
+        ],
+        [
+          -654.55,
+          -789.05
+        ],
+        [
+          -652.35,
+          -789.95
+        ],
+        [
+          -649.85,
+          -788.95
+        ],
+        [
+          -648.55,
+          -787.05
+        ],
+        [
+          -634.95,
+          -785.05
+        ],
+        [
+          -632.55,
+          -784.85
+        ],
+        [
+          -631.55,
+          -788.15
+        ],
+        [
+          -629.35,
+          -790.15
+        ],
+        [
+          -627.15,
+          -790.05
+        ],
+        [
+          -625.15,
+          -788.35
+        ],
+        [
+          -624.85,
+          -785.55
+        ],
+        [
+          -602.55,
+          -783.45
+        ],
+        [
+          -597.75,
+          -783.65
+        ],
+        [
+          -592.45,
+          -785.25
+        ],
+        [
+          -589.85,
+          -787.55
+        ],
+        [
+          -589.15,
+          -790.55
+        ],
+        [
+          -586.95,
+          -793.25
+        ],
+        [
+          -583.85,
+          -794.85
+        ],
+        [
+          -582.65,
+          -799.05
+        ],
+        [
+          -582.45,
+          -803.15
+        ],
+        [
+          -583.55,
+          -807.05
+        ],
+        [
+          -574.85,
+          -810.05
+        ],
+        [
+          -576.45,
+          -814.75
+        ],
+        [
+          -579.15,
+          -818.95
+        ],
+        [
+          -582.45,
+          -822.55
+        ],
+        [
+          -585.05,
+          -825.25
+        ],
+        [
+          -585.35,
+          -827.85
+        ],
+        [
+          -583.55,
+          -829.25
+        ],
+        [
+          -588.45,
+          -831.25
+        ],
+        [
+          -593.95,
+          -832.95
+        ],
+        [
+          -600.75,
+          -833.35
+        ],
+        [
+          -607.95,
+          -832.85
+        ],
+        [
+          -613.45,
+          -831.05
+        ],
+        [
+          -620.05,
+          -828.55
+        ],
+        [
+          -624.05,
+          -835.45
+        ],
+        [
+          -670.75,
+          -815.85
+        ]
+      ],
+      "reason": "The coarse DTM and detailed landmark must not occupy the same visible surface"
+    },
+    {
+      "landmark": "Ceperley underpass",
+      "method": "Exact triangle clipping: Active bicycle bay only; roof and exact floor shoulders supplied separately",
+      "removed_source_faces": 109,
+      "replacement_boundary_faces": 194,
+      "footprint_area_m2": 63.546050254481244,
+      "footprint_local_m": [
+        [
+          -375.7343803139573,
+          -919.8633239610787
+        ],
+        [
+          -375.2996129369139,
+          -919.5658249256167
+        ],
+        [
+          -374.86819110571565,
+          -919.268819706787
+        ],
+        [
+          -374.44459692367116,
+          -918.9721199700275
+        ],
+        [
+          -374.02352691510043,
+          -918.6765657039523
+        ],
+        [
+          -373.6072950142349,
+          -918.3834173131493
+        ],
+        [
+          -373.192571193483,
+          -918.0914979995396
+        ],
+        [
+          -372.813269612543,
+          -917.7639793912601
+        ],
+        [
+          -372.4344838740586,
+          -917.4376807857425
+        ],
+        [
+          -372.0566005619677,
+          -917.1135096991889
+        ],
+        [
+          -371.6785958631102,
+          -916.7902537268102
+        ],
+        [
+          -371.30037817448203,
+          -916.4685962805521
+        ],
+        [
+          -370.9216853475504,
+          -916.147833608379
+        ],
+        [
+          -370.54215823309244,
+          -915.8286384351404
+        ],
+        [
+          -370.1618062407446,
+          -915.5097587958031
+        ],
+        [
+          -369.78000730380535,
+          -915.1914389409742
+        ],
+        [
+          -369.39744032615323,
+          -914.8730009390918
+        ],
+        [
+          -369.013529492254,
+          -914.554361771108
+        ],
+        [
+          -368.6293874288745,
+          -914.2355432073998
+        ],
+        [
+          -368.24484157834894,
+          -913.9164123845303
+        ],
+        [
+          -367.85973515110584,
+          -913.5969567246217
+        ],
+        [
+          -367.47365170681115,
+          -913.2769340692155
+        ],
+        [
+          -367.0887183552227,
+          -912.9569572239682
+        ],
+        [
+          -366.7057889906896,
+          -912.637061538311
+        ],
+        [
+          -366.32453772648154,
+          -912.3195269267662
+        ],
+        [
+          -365.94622969809626,
+          -912.0060860035309
+        ],
+        [
+          -365.56748602658985,
+          -911.6957917943398
+        ],
+        [
+          -365.1880111386793,
+          -911.3909474460631
+        ],
+        [
+          -364.80512454615854,
+          -911.0882798325467
+        ],
+        [
+          -364.41623705285235,
+          -910.789476347318
+        ],
+        [
+          -364.02179550381214,
+          -910.4906653917084
+        ],
+        [
+          -363.64729681010886,
+          -910.1518159615152
+        ],
+        [
+          -363.2663216758418,
+          -909.8096669155536
+        ],
+        [
+          -362.87488061685076,
+          -909.4624672998124
+        ],
+        [
+          -362.4817430928005,
+          -909.1100839206769
+        ],
+        [
+          -362.08608632217357,
+          -908.7489158499382
+        ],
+        [
+          -361.69318755394124,
+          -908.3828758571445
+        ],
+        [
+          -363.55803183199794,
+          -906.0308564286107
+        ],
+        [
+          -363.9740697667133,
+          -906.2903609598004
+        ],
+        [
+          -364.3991589954498,
+          -906.5482617051797
+        ],
+        [
+          -364.83620085337327,
+          -906.808565069061
+        ],
+        [
+          -365.28035622597474,
+          -907.0703873384493
+        ],
+        [
+          -365.7293640893947,
+          -907.3384665190092
+        ],
+        [
+          -366.1816255277044,
+          -907.6105379174647
+        ],
+        [
+          -366.6010946796415,
+          -907.9282882810314
+        ],
+        [
+          -367.0187419755561,
+          -908.2492839050633
+        ],
+        [
+          -367.42852613802705,
+          -908.5731304651899
+        ],
+        [
+          -367.8337651828769,
+          -908.8986541885401
+        ],
+        [
+          -368.2303705645896,
+          -909.2235151595063
+        ],
+        [
+          -368.6220379262176,
+          -909.5479763080309
+        ],
+        [
+          -369.0082554449847,
+          -909.8696352562131
+        ],
+        [
+          -369.39135681764185,
+          -910.1896740596737
+        ],
+        [
+          -369.7749261110477,
+          -910.5085164496347
+        ],
+        [
+          -370.158763183445,
+          -910.8266733263898
+        ],
+        [
+          -370.5433358929699,
+          -911.145686146582
+        ],
+        [
+          -370.92833075119023,
+          -911.4651895114289
+        ],
+        [
+          -371.31363908840723,
+          -911.7849763075649
+        ],
+        [
+          -371.6991268743937,
+          -912.1049259701558
+        ],
+        [
+          -372.0851317717929,
+          -912.4262262570951
+        ],
+        [
+          -372.47143076184585,
+          -912.7483036410835
+        ],
+        [
+          -372.8577078334199,
+          -913.0721497178729
+        ],
+        [
+          -373.24396788627377,
+          -913.3970148556546
+        ],
+        [
+          -373.6293738788753,
+          -913.7234589417441
+        ],
+        [
+          -374.01428749514116,
+          -914.0508113382829
+        ],
+        [
+          -374.3979927466686,
+          -914.3789379525672
+        ],
+        [
+          -374.78100502535017,
+          -914.7075089071711
+        ],
+        [
+          -375.1629275228824,
+          -915.0365066224906
+        ],
+        [
+          -375.54422685399277,
+          -915.3657475240939
+        ],
+        [
+          -375.8924885883487,
+          -915.7324008083042
+        ],
+        [
+          -376.24060799994265,
+          -916.0988634257333
+        ],
+        [
+          -376.58804425564153,
+          -916.4630284083057
+        ],
+        [
+          -376.9353355563516,
+          -916.8261099010809
+        ],
+        [
+          -377.2821582015692,
+          -917.1828082581947
+        ],
+        [
+          -377.62984843159876,
+          -917.5355332538026
+        ],
+        [
+          -375.7343803139573,
+          -919.8633239610787
+        ]
+      ],
+      "reason": "The coarse DTM and detailed landmark must not occupy the same visible surface"
+    },
+    {
+      "landmark": "Chilco underpass",
+      "method": "Exact triangle clipping: Active bicycle bay only; roof and exact floor shoulders supplied separately",
+      "removed_source_faces": 246,
+      "replacement_boundary_faces": 403,
+      "footprint_area_m2": 168.98629041084183,
+      "footprint_local_m": [
+        [
+          442.41453244179974,
+          -875.3776906392585
+        ],
+        [
+          442.7799282736008,
+          -875.0218760447668
+        ],
+        [
+          443.1455539775801,
+          -874.6661968494194
+        ],
+        [
+          443.5102227243358,
+          -874.3100180146977
+        ],
+        [
+          443.8742880158357,
+          -873.9537769099247
+        ],
+        [
+          444.237356406738,
+          -873.5976134578285
+        ],
+        [
+          444.59984747865184,
+          -873.2420757996314
+        ],
+        [
+          444.8940875115373,
+          -872.8384585034139
+        ],
+        [
+          445.188049838173,
+          -872.4359917543371
+        ],
+        [
+          445.48160578688567,
+          -872.0351932651255
+        ],
+        [
+          445.77541689530625,
+          -871.6356894358609
+        ],
+        [
+          446.06959521692835,
+          -871.2380627241297
+        ],
+        [
+          446.3645414071878,
+          -870.841578120714
+        ],
+        [
+          446.6606042681644,
+          -870.4467528297916
+        ],
+        [
+          446.9577322834614,
+          -870.052804420991
+        ],
+        [
+          447.25641375056193,
+          -869.6601343504464
+        ],
+        [
+          447.55617855947065,
+          -869.2682205687086
+        ],
+        [
+          447.85752401473127,
+          -868.8774108346979
+        ],
+        [
+          448.160092838575,
+          -868.4871485413995
+        ],
+        [
+          448.46444673892097,
+          -868.0976884473349
+        ],
+        [
+          448.77012540802764,
+          -867.7081505850348
+        ],
+        [
+          449.0777368451135,
+          -867.3185088099754
+        ],
+        [
+          449.3864008802649,
+          -866.9282432958021
+        ],
+        [
+          449.6965968878904,
+          -866.5370776687002
+        ],
+        [
+          450.00733811139594,
+          -866.1450446737321
+        ],
+        [
+          450.31886943280443,
+          -865.7517537862773
+        ],
+        [
+          450.63029127470566,
+          -865.3577293438389
+        ],
+        [
+          450.94155347301955,
+          -864.9626407854288
+        ],
+        [
+          451.2521204888098,
+          -864.5674862836934
+        ],
+        [
+          451.56168248947904,
+          -864.1722382110627
+        ],
+        [
+          451.87045480810013,
+          -863.7777635948651
+        ],
+        [
+          452.17808404594405,
+          -863.3844107596447
+        ],
+        [
+          452.4852333282834,
+          -862.9924625188164
+        ],
+        [
+          452.79168282891555,
+          -862.6025458437949
+        ],
+        [
+          453.098175690983,
+          -862.2144894314586
+        ],
+        [
+          453.4047238174066,
+          -861.8291217812582
+        ],
+        [
+          453.71197217385156,
+          -861.4457696739332
+        ],
+        [
+          454.0202321386916,
+          -861.065334665765
+        ],
+        [
+          454.32973497749214,
+          -860.6868323206669
+        ],
+        [
+          454.64104589527153,
+          -860.3111353898635
+        ],
+        [
+          454.9539678478132,
+          -859.9372394965717
+        ],
+        [
+          455.26924058513254,
+          -859.5659664840994
+        ],
+        [
+          455.58628086049055,
+          -859.1963825249427
+        ],
+        [
+          455.90590352967814,
+          -858.8292639640264
+        ],
+        [
+          456.2273463962512,
+          -858.4638137885144
+        ],
+        [
+          456.55144883956257,
+          -858.1008004359788
+        ],
+        [
+          456.8774587723179,
+          -857.7393667954483
+        ],
+        [
+          457.206256129534,
+          -857.3802436103507
+        ],
+        [
+          457.53701728709393,
+          -857.0225115578831
+        ],
+        [
+          457.87064830318457,
+          -856.6668186912011
+        ],
+        [
+          458.20623365667416,
+          -856.3122969593117
+        ],
+        [
+          458.5446737573018,
+          -855.9594955955862
+        ],
+        [
+          458.8849906933516,
+          -855.6076125632652
+        ],
+        [
+          459.2280468711228,
+          -855.2570817411031
+        ],
+        [
+          459.5729117860689,
+          -854.9071284707189
+        ],
+        [
+          459.9204134741828,
+          -854.5580314152555
+        ],
+        [
+          460.2695431066816,
+          -854.2090728350714
+        ],
+        [
+          460.62104211622926,
+          -853.8603303163218
+        ],
+        [
+          460.9739456633325,
+          -853.5112510143388
+        ],
+        [
+          461.32888830099836,
+          -853.1616939343298
+        ],
+        [
+          461.68460598274004,
+          -852.8114995018157
+        ],
+        [
+          462.0414454527527,
+          -852.4603857269866
+        ],
+        [
+          462.39859327743284,
+          -852.1086429656851
+        ],
+        [
+          462.7561856660481,
+          -851.75599037762
+        ],
+        [
+          463.11374850190845,
+          -851.4025150665125
+        ],
+        [
+          463.4712672901671,
+          -851.0478498371331
+        ],
+        [
+          463.8283844526261,
+          -850.6924053735546
+        ],
+        [
+          464.1849221219777,
+          -850.3358360051556
+        ],
+        [
+          464.5407385902659,
+          -849.9787259365467
+        ],
+        [
+          464.89551703679354,
+          -849.6208385003877
+        ],
+        [
+          465.24947247114386,
+          -849.2628061537264
+        ],
+        [
+          465.602243939132,
+          -848.9045688820299
+        ],
+        [
+          465.9540393173959,
+          -848.546810325588
+        ],
+        [
+          466.3044282335329,
+          -848.189745432706
+        ],
+        [
+          466.6541700021936,
+          -847.8338912859828
+        ],
+        [
+          467.00297499429695,
+          -847.4797819975406
+        ],
+        [
+          467.35166182772224,
+          -847.1271470588231
+        ],
+        [
+          467.700173659573,
+          -846.7766353013283
+        ],
+        [
+          468.04896192726943,
+          -846.4279142710407
+        ],
+        [
+          468.3981458451824,
+          -846.0817737584698
+        ],
+        [
+          468.74796436560297,
+          -845.7377060561597
+        ],
+        [
+          469.0407611312084,
+          -845.3367278300171
+        ],
+        [
+          469.3352331432178,
+          -844.9373734280374
+        ],
+        [
+          469.63193048562636,
+          -844.5405686885589
+        ],
+        [
+          469.9307199094728,
+          -844.1454429333793
+        ],
+        [
+          470.2322768996158,
+          -843.7530015035378
+        ],
+        [
+          470.53691134597284,
+          -843.3631621659671
+        ],
+        [
+          468.52251679270887,
+          -841.1374399821337
+        ],
+        [
+          468.0898666095749,
+          -841.4211515918097
+        ],
+        [
+          467.65817079796227,
+          -841.7069161411122
+        ],
+        [
+          467.2288997749867,
+          -841.9959130271583
+        ],
+        [
+          466.80113735503824,
+          -842.28733389057
+        ],
+        [
+          466.37572434114537,
+          -842.5813733565502
+        ],
+        [
+          465.9518078999825,
+          -842.8773723309156
+        ],
+        [
+          465.5886932437794,
+          -843.2344985556715
+        ],
+        [
+          465.22756433466526,
+          -843.5924750414947
+        ],
+        [
+          464.8689219946839,
+          -843.9510355402044
+        ],
+        [
+          464.5120008377631,
+          -844.3099985959082
+        ],
+        [
+          464.15714684784933,
+          -844.6688636136514
+        ],
+        [
+          463.8037222087876,
+          -845.027657621965
+        ],
+        [
+          463.4520308300458,
+          -845.3854934731668
+        ],
+        [
+          463.10153842940963,
+          -845.7426636311304
+        ],
+        [
+          462.75180139285783,
+          -846.0983298882181
+        ],
+        [
+          462.40258942489487,
+          -846.4529561717914
+        ],
+        [
+          462.0532680079258,
+          -846.8063011568975
+        ],
+        [
+          461.7038738050125,
+          -847.1587617186549
+        ],
+        [
+          461.35375624971323,
+          -847.5101502824106
+        ],
+        [
+          461.00314021696784,
+          -847.8607989374692
+        ],
+        [
+          460.6513821796496,
+          -848.210906417979
+        ],
+        [
+          460.29883391753714,
+          -848.56063965005
+        ],
+        [
+          459.94502152787953,
+          -848.9104049917505
+        ],
+        [
+          459.5903331608831,
+          -849.2601916113882
+        ],
+        [
+          459.2346619834863,
+          -849.6104793150754
+        ],
+        [
+          458.87830993982635,
+          -849.9611131210722
+        ],
+        [
+          458.52104018964184,
+          -850.3128364469235
+        ],
+        [
+          458.1631366115375,
+          -850.6653148811222
+        ],
+        [
+          457.80484620294413,
+          -851.0197246453431
+        ],
+        [
+          457.4462943463133,
+          -851.3754768093332
+        ],
+        [
+          457.0881353950312,
+          -851.7334604952116
+        ],
+        [
+          456.7302591950283,
+          -852.092998721285
+        ],
+        [
+          456.373497630558,
+          -852.4550202440637
+        ],
+        [
+          456.0175217438082,
+          -852.818773768461
+        ],
+        [
+          455.6632250294373,
+          -853.1851031884656
+        ],
+        [
+          455.3101066333667,
+          -853.5532304025087
+        ],
+        [
+          454.9590887266104,
+          -853.9240425734586
+        ],
+        [
+          454.6095422085366,
+          -854.2967291629687
+        ],
+        [
+          454.2624484102649,
+          -854.6721084379541
+        ],
+        [
+          453.9170698296345,
+          -855.0493672958129
+        ],
+        [
+          453.5744241689098,
+          -855.4292233529949
+        ],
+        [
+          453.23368604573267,
+          -855.8108913045859
+        ],
+        [
+          452.89579339183257,
+          -856.1950208169272
+        ],
+        [
+          452.55988430828586,
+          -856.5808665321024
+        ],
+        [
+          452.2268392526145,
+          -856.9690848672572
+        ],
+        [
+          451.8957892401999,
+          -857.3589564236845
+        ],
+        [
+          451.5677226939159,
+          -857.7509235822176
+        ],
+        [
+          451.241729537312,
+          -858.1443488101171
+        ],
+        [
+          450.91878654576334,
+          -858.5392635594606
+        ],
+        [
+          450.59795571580094,
+          -858.9352116684313
+        ],
+        [
+          450.28009654729755,
+          -859.331782312365
+        ],
+        [
+          449.9642874427118,
+          -859.7287813940277
+        ],
+        [
+          449.6509944100121,
+          -860.1254353788851
+        ],
+        [
+          449.33943310365265,
+          -860.5218470192469
+        ],
+        [
+          449.0295815508531,
+          -860.9172399024874
+        ],
+        [
+          448.7209070483043,
+          -861.3119272440977
+        ],
+        [
+          448.4130074804158,
+          -861.7052875250333
+        ],
+        [
+          448.1056435415696,
+          -862.0977326885982
+        ],
+        [
+          447.79798574945085,
+          -862.4891853143646
+        ],
+        [
+          447.4901269689618,
+          -862.8799545088443
+        ],
+        [
+          447.18126481478777,
+          -863.2707384173202
+        ],
+        [
+          446.871709846351,
+          -863.6615319631845
+        ],
+        [
+          446.56117577495314,
+          -864.0533034348884
+        ],
+        [
+          446.2499661283065,
+          -864.4457491776404
+        ],
+        [
+          445.93827416565074,
+          -864.8398450400662
+        ],
+        [
+          445.62625343658317,
+          -865.2350818380797
+        ],
+        [
+          445.3146033275482,
+          -865.6322297711791
+        ],
+        [
+          445.00321655415576,
+          -866.0307014882613
+        ],
+        [
+          444.69304927866887,
+          -866.4307601353084
+        ],
+        [
+          444.38372980804905,
+          -866.8319182640666
+        ],
+        [
+          444.075888180281,
+          -867.2343855801099
+        ],
+        [
+          443.76907116900225,
+          -867.6377598464259
+        ],
+        [
+          443.46389277563895,
+          -868.0423744000191
+        ],
+        [
+          443.1598488546676,
+          -868.4478476338335
+        ],
+        [
+          442.8576848090019,
+          -868.8540259099312
+        ],
+        [
+          442.5568174148212,
+          -869.2606910391831
+        ],
+        [
+          442.25781777019495,
+          -869.6672425005526
+        ],
+        [
+          441.96010250242114,
+          -870.073714040432
+        ],
+        [
+          441.6638326506574,
+          -870.4793371555893
+        ],
+        [
+          441.36855610909475,
+          -870.8843743586032
+        ],
+        [
+          441.14130992504425,
+          -871.3373170806339
+        ],
+        [
+          440.9144891001644,
+          -871.7895141115823
+        ],
+        [
+          440.68747670520145,
+          -872.240695753473
+        ],
+        [
+          440.460249540355,
+          -872.6912940630508
+        ],
+        [
+          440.2323126183824,
+          -873.1410769247094
+        ],
+        [
+          440.00299855047587,
+          -873.5898191540392
+        ],
+        [
+          442.41453244179974,
+          -875.3776906392585
+        ]
+      ],
+      "reason": "The coarse DTM and detailed landmark must not occupy the same visible surface"
+    },
+    {
+      "landmark": "Lumberman lower facilities and road deck",
+      "method": "Exact triangle clipping: Measured separate floor/road levels with explicit estimated building envelope",
+      "removed_source_faces": 104,
+      "replacement_boundary_faces": 89,
+      "footprint_area_m2": 532.0,
+      "footprint_local_m": [
+        [
+          902.3263935539408,
+          28.419514867145608
+        ],
+        [
+          878.3895848350215,
+          43.00584560362191
+        ],
+        [
+          880.4043293733395,
+          46.691059904760685
+        ],
+        [
+          880.4043293733394,
+          46.69105990476073
+        ],
+        [
+          884.5528038588325,
+          54.27912737986226
+        ],
+        [
+          887.5039053655073,
+          59.67705315639277
+        ],
+        [
+          911.4407140844265,
+          45.090722419916474
+        ],
+        [
+          909.521909762219,
+          41.580994514069985
+        ],
+        [
+          909.521909762219,
+          41.58099451406997
+        ],
+        [
+          904.3411380922587,
+          32.10472916828443
+        ],
+        [
+          904.3411380922587,
+          32.104729168284436
+        ],
+        [
+          902.3263935539408,
+          28.419514867145608
+        ]
+      ],
+      "reason": "The coarse DTM and detailed landmark must not occupy the same visible surface"
+    }
+  ],
+  "prospect_refinement": {
+    "source": {
+      "path": "data/derived/named-prospect-lookout-survey.npz",
+      "sha256": "1e92e3ff4d35c0f2e9700497f49d5884d9886b94d613017e55ef5eb763e0a975"
+    },
+    "floor": {
+      "path": "data/derived/named-features/SM_ProspectLookout_TerraceSurvey.npz",
+      "sha256": "f5474864f0ac0af1eb98f45db092e3b06484dac7172817ee55bc8e2377e2ffa2"
+    },
+    "bounds_local_xy_m": [
+      48.0,
+      1230.0,
+      89.0,
+      1265.0
+    ],
+    "cell_m": 0.4,
+    "raw_ground_returns": 25644,
+    "source_samples": 5475,
+    "multilevel_cells": 549,
+    "single_return_cells": 1385,
+    "boundary_controls": 302,
+    "method": "Median of highest height group with at least two returns per 0.4 m cell; retain densest group if no group has two returns. Groups split at 1 m height gaps. Explicit terrace boundary controls at 0.2 m spacing and every fitted profile break.",
+    "limitations": "A 2.5D cliff envelope cannot represent overhangs. Boundary controls join the stable M1 floor and are not independent measured control. No application acceptance.",
+    "numerical_acceptance": false,
+    "live_acceptance": false,
+    "replaced_coarse_samples": 144
+  },
+  "nature_house_refinement": {
+    "bounds_local_xy_m": [
+      351.0,
+      -930.0,
+      402.0,
+      -895.0
+    ],
+    "cell_m": 0.35,
+    "raw_ground_returns": 42437,
+    "source_samples": 7862,
+    "deck_boundary_controls": 1487,
+    "enclosed_interior_controls": 1675,
+    "lower_front_plane": {
+      "origin_local_m": [
+        377.185,
+        -907.955
+      ],
+      "coefficients": [
+        0.03360695111428082,
+        -0.08608894191656272,
+        1.5738422252892792
+      ],
+      "source_returns": 1112,
+      "median_residual_m": 0.020502542377811572
+    },
+    "replaced_wall_adjacent_ground_cells": 148,
+    "method": "0.35 m classified-ground median cells outside measured deck. Upper boundary controls stop 0.50 m before the lower front. Five dense lines at the front replace wall-adjacent classified outliers with a source-fitted lower-ground plane. The high-to-low interior join remains behind the closed wall, at least 0.35 m inside its front.",
+    "sources": [
+      {
+        "path": "data/derived/named-nature-house-west-survey.npz",
+        "sha256": "03c795d02983c01b43c4366d5a0a62448312e4d79651677253df2feba8535096"
+      },
+      {
+        "path": "data/derived/named-nature-house-east-survey.npz",
+        "sha256": "8d9f5705cb6a20a95ebe3841e06bafc2b9735ab8aee6d0142824db5c8ce5094d"
+      }
+    ],
+    "scope": "Local approach refinement only. No lake/water level change, no terrain cut and no interior access.",
+    "numerical_acceptance": false,
+    "live_acceptance": false,
+    "replaced_coarse_samples": 44
+  },
+  "junction_transition": {
+    "junction_id": "city_junction_036",
+    "branch_id": "city_bikeways_2336",
+    "settings_sha256": "d0d6cd99d459622435722906ddcc0da94a241bc188d388b36de76a1fe71e4a34",
+    "footprint_geojson": "{\"type\":\"MultiPolygon\",\"coordinates\":[[[[409.49866571161533,873.83561745582],[409.0480047513947,874.052192382653],[408.9416349607186,874.1033106992288],[408.8562236347115,874.264392880576],[408.3868972778312,875.239401667425],[407.95565068998405,876.1987688716063],[407.54940432720156,877.1365112958632],[407.15529566502363,878.049904356899],[406.7621503092319,878.9408656501167],[406.36173150613826,879.8130986193047],[406.12853072529765,880.2969651195114],[406.3676730976429,880.1109667657104],[407.4276515335719,879.2865447186524],[407.6766631850314,879.149146417172],[407.78658126563175,879.0963228926937],[408.0718440302843,878.4498493226578],[408.46729009231507,877.5333566805606],[408.8705345203474,876.6025436514392],[409.29361956923174,875.661332910491],[409.74882812515233,874.7156533521945],[410.2485036315374,873.7732862880464],[410.4974086681747,873.355649804227],[410.39998763205716,873.4024676021539],[409.9493266718366,873.6190425289868],[409.49866571161533,873.83561745582]]],[[[412.13258704672165,877.0077552839214],[413.0339089671638,876.574605430255],[412.6174516557228,875.7080182652059],[412.42636234294565,876.0687278189355],[412.01371570941967,876.9266696198829],[411.93451900804394,877.1029411881176],[412.13258704672165,877.0077552839214]]]]}",
+    "footprint_area_m2": 7.098058952258447,
+    "source": "Explicit M1 surface engineering estimate",
+    "affected_input_triangles": 32,
+    "replacement_triangles": 165,
+    "maximum_vertex_displacement_m": 0.10433740428842268,
+    "preserved_display_lift_m": 0.0,
+    "new_collider_created": false,
+    "outside_patch_geometry_unchanged": true,
+    "main_pavement_unchanged": true,
+    "numerical_contact_acceptance": false,
+    "runtime_acceptance": false
+  },
+  "junction_overlay": {
+    "branch_id": "city_bikeways_2336",
+    "replaced_overlay_triangles": 24,
+    "replacement_triangles": 72,
+    "checked_face_centroids": 1883,
+    "actual_terrain_plane_max_error_m": 7.815970093361102e-14,
+    "display_lift_m": 0.06,
+    "method": "Clipped directly to actual final transition terrain triangles"
+  },
+  "lumberman_transition": {
+    "manifest": "manifests/lumberman-terrain-transitions.json",
+    "manifest_sha256": "c850a5140474aebee56387d34c9c44c8acfd0a7df89fddb7af214d44a6f5ad03",
+    "affected_input_triangles": 205,
+    "replacement_triangles": 1967,
+    "xy_area_error_m2": 3.410605131648481e-12,
+    "maximum_vertex_shift_m": 3.547610921921981,
+    "outside_patch_unchanged": true,
+    "lower_cut_preserved": true,
+    "seawall_pavement_modified": false,
+    "source": "City2022 raw returns, OSM road alignment, saved measured floor/deck endpoints and explicit engineering fade bands",
+    "acceptance": "Repeat build_lumberman_closures.py against exported terrain and inspect contacts before live acceptance"
+  },
+  "pavement_support_contact": {
+    "method": "Split at actual retained terrain triangle planes",
+    "split_segments": 35149,
+    "maximum_boundary_distance_m": 2.137216636611504e-13
+  },
+  "numerical_checks": {
+    "all_shared_route_faces_clear_ground": true,
+    "maximum_offset_error_m": 6.25666185527507e-13,
+    "degenerate_cut_faces_removed": 0,
+    "terrain_vertices": 362626,
+    "terrain_triangles": 720056,
+    "terrain_tiles": 50
+  }
+}

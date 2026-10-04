@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-27",
+  "inputs": [
+    {
+      "path": "data/routes/raw/city_bikeways_metadata.json",
+      "sha256": "4035218f419e0d7b6c60ecc7a6d0e811178c0ef59965ee7498e6ccd985d08d32"
+    },
+    {
+      "path": "data/routes/raw/city_bikeways.geojson",
+      "sha256": "f8251f0bbd325e9f69a7b8fd1c05fc25b7d7123d65c5e95c76b2193afd7e3fb5"
+    },
+    {
+      "path": "data/routes/derived/city-branch-junctions.json",
+      "sha256": "c3a7578d96d0fda4ab2346c411837e7984a0679f0157a514198fa1fa3d8fac0c"
+    },
+    {
+      "path": "manifests/world-origin.json",
+      "sha256": "86ab4975f2006971e9080461de30fd15736e0537031c8b5f04f966acbc26205a"
+    }
+  ],
+  "source_urls": [
+    "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/bikeways",
+    "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/bikeways/exports/geojson"
+  ],
+  "source_capture_utc": "2026-09-26T22:01:37Z",
+  "attribution": "Contains information licensed under the Open Government Licence - Vancouver.",
+  "checks": {
+    "resolved_record_count": 3,
+    "primary_geometry_reproduced": true,
+    "cardinal_field_semantics_checked": true
+  },
+  "records": [
+    {
+      "edge_id": "city_bikeways_188",
+      "source_object_id": 188,
+      "permitted_direction": "forward_relative_to_city_geometry",
+      "source_fields": {
+        "status": "Active",
+        "overall_direction": "NS",
+        "bikeway_direction": "OW",
+        "w_n_bound_type": "Protected Bike Lanes",
+        "e_s_bound_type": null,
+        "street_name": "Stanley Park Causeway",
+        "subtype": "OSS",
+        "surface_type": "Paved"
+      },
+      "source_start_local_xy_m": [
+        517.8339864797308,
+        -701.4002857021987
+      ],
+      "source_end_local_xy_m": [
+        505.08678647858324,
+        -679.3923870958388
+      ],
+      "net_easting_northing_m": [
+        -12.747200001147576,
+        22.00789860635996
+      ],
+      "primary_to_derived_max_coordinate_error_m": 0.0,
+      "decision": "The City labels this Active one-way North-South facility. Its northbound facility field is populated and its southbound field is empty. Source-forward geometry has positive net Northing. Thus forward is the permitted northbound order. This resolves City record order; it does not survey current signs, lane boundaries, or the identity of a nearby OSM path.",
+      "conflicting_osm_tags_preserved_in": "data/routes/derived/city-branch-connections-reviewed.json",
+      "current_physical_sign_surveyed": false,
+      "accuracy_accepted": false
+    },
+    {
+      "edge_id": "city_bikeways_1160",
+      "source_object_id": 1160,
+      "permitted_direction": "forward_relative_to_city_geometry",
+      "source_fields": {
+        "status": "Active",
+        "overall_direction": "NS",
+        "bikeway_direction": "OW",
+        "w_n_bound_type": "Protected Bike Lanes",
+        "e_s_bound_type": null,
+        "street_name": "Stanley Park Causeway",
+        "subtype": "OSS",
+        "surface_type": "Paved"
+      },
+      "source_start_local_xy_m": [
+        517.5524896627758,
+        -817.0061802146956
+      ],
+      "source_end_local_xy_m": [
+        517.8339864797308,
+        -701.4002857021987
+      ],
+      "net_easting_northing_m": [
+        0.28149681695504114,
+        115.60589451249689
+      ],
+      "primary_to_derived_max_coordinate_error_m": 0.0,
+      "decision": "The City labels this Active one-way North-South facility. Its northbound facility field is populated and its southbound field is empty. Source-forward geometry has positive net Northing. Thus forward is the permitted northbound order. This resolves City record order; it does not survey current signs, lane boundaries, or the identity of a nearby OSM path.",
+      "conflicting_osm_tags_preserved_in": "data/routes/derived/city-branch-connections-reviewed.json",
+      "current_physical_sign_surveyed": false,
+      "accuracy_accepted": false
+    },
+    {
+      "edge_id": "city_bikeways_3306",
+      "source_object_id": 3306,
+      "permitted_direction": "forward_relative_to_city_geometry",
+      "source_fields": {
+        "status": "Active",
+        "overall_direction": "NS",
+        "bikeway_direction": "OW",
+        "w_n_bound_type": "Protected Bike Lanes",
+        "e_s_bound_type": null,
+        "street_name": "Stanley Park Drive",
+        "subtype": "SL",
+        "surface_type": "Paved"
+      },
+      "source_start_local_xy_m": [
+        -306.56615830241935,
+        -1290.1041803453118
+      ],
+      "source_end_local_xy_m": [
+        -359.53106501715956,
+        -954.0841977624223
+      ],
+      "net_easting_northing_m": [
+        -52.96490671474021,
+        336.0199825828895
+      ],
+      "primary_to_derived_max_coordinate_error_m": 0.0,
+      "decision": "The City labels this Active one-way North-South facility. Its northbound facility field is populated and its southbound field is empty. Source-forward geometry has positive net Northing. Thus forward is the permitted northbound order. This resolves City record order; it does not survey current signs, lane boundaries, or the identity of a nearby OSM path.",
+      "conflicting_osm_tags_preserved_in": "data/routes/derived/city-branch-connections-reviewed.json",
+      "current_physical_sign_surveyed": false,
+      "accuracy_accepted": false
+    }
+  ]
+}

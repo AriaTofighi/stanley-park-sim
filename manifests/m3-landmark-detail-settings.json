@@ -1,0 +1,182 @@
+{
+  "revision": "m3-landmark-detail-r1",
+  "limits": "Original source-informed geometric interpretations. No source photograph or original artwork texture is used in a runtime asset. Carved details and paint are approximate original geometry; exact likeness and inscriptions are not claimed. Pole-to-survey-name crosswalk remains provisional where the M1 source record conflicts. Original source collision is retained; new decoration is non-colliding. Gun foundation below the water/shore is an explicitly estimated continuation, not a new survey surface.",
+  "materials": [
+    {
+      "name": "Bronze",
+      "rgb": [
+        0.105,
+        0.135,
+        0.105
+      ],
+      "metallic": 0.7,
+      "roughness": 0.48
+    },
+    {
+      "name": "Granite",
+      "rgb": [
+        0.43,
+        0.44,
+        0.4
+      ],
+      "metallic": 0,
+      "roughness": 0.88
+    },
+    {
+      "name": "DarkPaint",
+      "rgb": [
+        0.025,
+        0.032,
+        0.029
+      ],
+      "metallic": 0,
+      "roughness": 0.62
+    },
+    {
+      "name": "IvoryPaint",
+      "rgb": [
+        0.8,
+        0.79,
+        0.7
+      ],
+      "metallic": 0,
+      "roughness": 0.67
+    },
+    {
+      "name": "RedPaint",
+      "rgb": [
+        0.52,
+        0.095,
+        0.055
+      ],
+      "metallic": 0,
+      "roughness": 0.62
+    },
+    {
+      "name": "GreenPaint",
+      "rgb": [
+        0.018,
+        0.17,
+        0.09
+      ],
+      "metallic": 0.1,
+      "roughness": 0.56
+    },
+    {
+      "name": "TurquoisePaint",
+      "rgb": [
+        0.018,
+        0.4,
+        0.34
+      ],
+      "metallic": 0,
+      "roughness": 0.62
+    },
+    {
+      "name": "Cedar",
+      "rgb": [
+        0.44,
+        0.26,
+        0.15
+      ],
+      "metallic": 0,
+      "roughness": 0.86
+    },
+    {
+      "name": "YellowPaint",
+      "rgb": [
+        0.72,
+        0.48,
+        0.07
+      ],
+      "metallic": 0,
+      "roughness": 0.62
+    }
+  ],
+  "reference_files": [
+    "data/references/m3-landmarks/harry-jerome-tourism.webp",
+    "data/references/m3-landmarks/harry-jerome-commons.jpg",
+    "data/references/m3-landmarks/nine-oclock-tourism.jpg",
+    "data/references/m3-landmarks/totem-group-rabich-2022.jpg",
+    "data/references/m3-landmarks/totem-group-tourism.jpg",
+    "data/references/m3-landmarks/beaver-bautsch.jpg",
+    "data/references/m3-landmarks/skedans-rabich.jpg",
+    "data/references/m3-landmarks/kakasolas-commons.jpg",
+    "data/references/m3-landmarks/kakasolas-stevens-2008.jpg",
+    "data/references/m3-landmarks/gaakstalas-stevens-2008.jpg",
+    "data/references/m3-landmarks/matilpi-beaver-stevens-2008.jpg"
+  ],
+  "references": [
+    {
+      "file": "data/references/m3-landmarks/harry-jerome-tourism.webp",
+      "url": "https://www.destinationvancouver.com/things-to-do/listings/statue-of-harry-jerome",
+      "credit": "Destination Vancouver photograph; reference only",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/harry-jerome-commons.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Harry_Jerome,_statue,_Vancouver.jpg",
+      "credit": "Wikimedia photographer own-work reference; see source page",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/nine-oclock-tourism.jpg",
+      "url": "https://www.destinationvancouver.com/things-to-do/listings/nine-o-clock-gun",
+      "credit": "Destination Vancouver photograph; reference only",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/totem-group-rabich-2022.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Stanley_Park,_Totem_poles_--_2022_--_2029.jpg",
+      "credit": "Dietmar Rabich, 2022, CC BY-SA 4.0; reference only",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/totem-group-tourism.jpg",
+      "url": "https://www.destinationvancouver.com/things-to-do/listings/brockton-point-totem-pole",
+      "credit": "Destination Vancouver photograph; reference only",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/beaver-bautsch.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Raven.BringerOfLight.P1044250.jpg",
+      "credit": "Bautsch, 2019, CC0; reference only",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/skedans-rabich.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Vancouver_(BC,_Canada),_Stanley_Park,_Totem_poles,_Chief_Skedans_mortuary_totem_pole_--_2022_--_2030.jpg",
+      "credit": "Dietmar Rabich, 2022, CC BY-SA 4.0; reference only",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/kakasolas-commons.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Kakaso%27Las_totem_pole.jpg",
+      "credit": "Wikimedia photographer reference; see source page",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/kakasolas-stevens-2008.jpg",
+      "url": "https://www.cynic.org.uk/photos/USACA2008/Vancouver/StanleyPark/index2.html",
+      "credit": "Robin Stevens, 2008, CC licence on source page; reference only",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/gaakstalas-stevens-2008.jpg",
+      "url": "https://www.cynic.org.uk/photos/USACA2008/Vancouver/StanleyPark/index2.html",
+      "credit": "Robin Stevens, 2008, CC licence on source page; reference only",
+      "inspected": true
+    },
+    {
+      "file": "data/references/m3-landmarks/matilpi-beaver-stevens-2008.jpg",
+      "url": "https://www.cynic.org.uk/photos/USACA2008/Vancouver/StanleyPark/index2.html",
+      "credit": "Robin Stevens, 2008, CC licence on source page; reference only",
+      "inspected": true
+    }
+  ],
+  "form_notes": {
+    "runner": "Both arms trail, chest leans forward, raised lower leg folds behind, supporting toe rests on retained plinth; head and total height bind to M1 survey.",
+    "gun": "Retained roof and frame. Added masonry pier, curved stone platform, roof struts, upper panels, open fine lower mesh, carriage and axle. Foundation top binds to measured base; underside continuation is estimated.",
+    "poles": "Eight distinct source-photo compositions with layered face/carving volumes, different figure counts, wings, mortuary board, natural wood Beaver Crest and source colour groupings. Positions and top heights retain the existing survey/estimate records."
+  }
+}

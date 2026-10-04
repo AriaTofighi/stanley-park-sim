@@ -1,0 +1,93 @@
+{
+  "retrieved_utc": "2026-09-27T03:28:05.812973+00:00",
+  "target_period": "September 2026 condition research for later work; active M1 environmental baseline 2022",
+  "sources": [
+    {
+      "url": "https://vancouver.ca/files/cov/phase-3-map-of-mitigation-work.pdf",
+      "path": "data/raw/forest/phase-3-map-of-mitigation-work.pdf",
+      "sha256": "bb140fa5cfd3d553fd52abfe8339a99ecb14788f7e4d570df768a5d017164ea6",
+      "bytes": 1463950,
+      "document_date": "2026-01-12",
+      "coverage": "Stanley Park forest",
+      "intended_use": "Phase 3 treatment areas; planned extent, not a tree-removal inventory",
+      "rights": "Reference only. No report/map image or extracted map polygon is distributed in the game.",
+      "delivery": "Normal browser download from a link on the City forest management page"
+    },
+    {
+      "url": "https://vancouver.ca/files/cov/stanley-park-hemlock-looper-report.pdf",
+      "path": "data/raw/forest/stanley-park-hemlock-looper-report.pdf",
+      "sha256": "46224f5a67d0b07acc78fcb72cf31e36f774d28278747bf17dc371b9142c90e4",
+      "bytes": 4426705,
+      "document_date": "2024-01-24",
+      "coverage": "Stanley Park forest",
+      "intended_use": "2023 forest assessment; 121 plots and historic condition maps",
+      "rights": "Reference only. No report/map image or extracted map polygon is distributed in the game.",
+      "delivery": "Normal browser download from a link on the City forest management page"
+    }
+  ],
+  "progress_page": {
+    "url": "https://vancouver.ca/parks-recreation-culture/stanley-park-forest-management.aspx",
+    "retrieved_date": "2026-09-26 America/Los_Angeles",
+    "page_date": "No explicit modification date",
+    "rights": "Reference only",
+    "coverage": "Park-wide work summaries",
+    "method": "Read visible Progress and Traffic impacts sections through the browser"
+  },
+  "completed_phases": [
+    {
+      "phase": "1",
+      "period": "2023-10/2024-04",
+      "hectares": 67,
+      "trees_removed_or_treated": 7201,
+      "areas": [
+        "Causeway",
+        "Prospect Point",
+        "Train precinct",
+        "Pipeline Road",
+        "sections of Stanley Park Drive"
+      ]
+    },
+    {
+      "phase": "2",
+      "period": "2024-10/2024-12",
+      "hectares": 41,
+      "trees_removed_or_treated": 1329,
+      "areas": [
+        "Aquarium",
+        "Brockton Point",
+        "Chickadee Trail",
+        "seawall-adjacent forest"
+      ]
+    },
+    {
+      "phase": "3 first stage",
+      "period": "2026-01/2026-04",
+      "hectares": 34,
+      "trees_removed_or_treated": 2982,
+      "areas": [
+        "Lovers Walk",
+        "Tatlow Walk",
+        "Lake Trail",
+        "western internal trail areas"
+      ]
+    }
+  ],
+  "future_work": {
+    "phase": "3 final stage",
+    "announced_period": "2026 autumn/2027 spring",
+    "location": "Eastern internal trail areas",
+    "completed_as_of_target": false,
+    "limit": "The page says work will resume. No dated completion record was obtained."
+  },
+  "unresolved": [
+    "Page headline totals differ from the sum of its detailed completed phase counts. Do not force agreement.",
+    "Removed-or-treated tree counts do not identify removed crown locations or canopy area.",
+    "The 14,362 authoring canopy envelopes are clusters, not individual trees.",
+    "The treatment map includes work not yet evidenced as complete at the target date.",
+    "Exact September 2026 canopy openings need newer imagery or dated site evidence."
+  ],
+  "authoring_action": "Retain immutable 2022 canopy as the M1 environmental baseline. Keep later condition evidence and flags; do not delete crowns without local dated evidence.",
+  "accepted_current_canopy": false,
+  "m1_reference_period": "manifests/m1-reference-period.json",
+  "m1_current_condition_gate": "Superseded by explicit planning amendment; not a user approval. Current condition remains unverified."
+}

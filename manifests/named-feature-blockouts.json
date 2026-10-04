@@ -1,0 +1,1615 @@
+{
+  "schema_version": 1,
+  "source_period": "2022 survey with dated identity references",
+  "target_period": "September 2026",
+  "coordinates": "Local east/north/up metres; manifests/world-origin.json",
+  "assets": [
+    {
+      "name": "SM_ProspectLight_LowerWhite",
+      "feature_id": "SP_prospect_light",
+      "mesh_path": "data/derived/named-features/SM_ProspectLight_LowerWhite.npz",
+      "sha256": "c6f6b287421c726f42b6aa8270ed564d905331b19953e5b7a9045742f62a76b5",
+      "material": "white",
+      "color": [
+        0.82,
+        0.81,
+        0.75
+      ],
+      "collision": "complex",
+      "vertices": 24,
+      "triangles": 44,
+      "bounds_min_m": [
+        118.20548166027443,
+        1269.1568261802338,
+        3.72
+      ],
+      "bounds_max_m": [
+        124.93912274079655,
+        1275.642487092299,
+        9.0
+      ],
+      "collision_reason": "Site-specific source review found 0.083786 m gap from the exact paved mesh; solid collision is required. The generic 0.35 m screening margin is not an actual overlap. Test narrow path-edge riding in runtime.",
+      "collision_review": "evidence/named-features/prospect-light-route-review.json"
+    },
+    {
+      "name": "SM_ProspectLight_RedBand",
+      "feature_id": "SP_prospect_light",
+      "mesh_path": "data/derived/named-features/SM_ProspectLight_RedBand.npz",
+      "sha256": "138c169ba8583a353aa75a2e860e01821e0db91685fe537bd935fde83dccb8fa",
+      "material": "red",
+      "color": [
+        0.63,
+        0.035,
+        0.025
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        120.18093001944024,
+        1271.0454814804395,
+        9.0
+      ],
+      "bounds_max_m": [
+        122.96367438163074,
+        1273.7538317920933,
+        10.0
+      ],
+      "collision_reason": "Roof or minor upper detail; ground-based walking contact is handled by facade or posts"
+    },
+    {
+      "name": "SM_ProspectLight_UpperWhite",
+      "feature_id": "SP_prospect_light",
+      "mesh_path": "data/derived/named-features/SM_ProspectLight_UpperWhite.npz",
+      "sha256": "cf873eae72f43e83231557da418390ee1fc811c1ac35972e825dbbd39018282e",
+      "material": "white",
+      "color": [
+        0.82,
+        0.81,
+        0.75
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        120.342915612803,
+        1271.201267569591,
+        10.0
+      ],
+      "bounds_max_m": [
+        122.80168878826798,
+        1273.5980457029418,
+        11.799735374450684
+      ],
+      "collision_reason": "Roof or minor upper detail; ground-based walking contact is handled by facade or posts"
+    },
+    {
+      "name": "SM_ProspectLight_TopDeck",
+      "feature_id": "SP_prospect_light",
+      "mesh_path": "data/derived/named-features/SM_ProspectLight_TopDeck.npz",
+      "sha256": "652f1d8c77d90f80c315899728953a94e081d1ecf0aaeaed7cd641850ccf5e5f",
+      "material": "white",
+      "color": [
+        0.82,
+        0.81,
+        0.75
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        119.87441864272151,
+        1270.7174482780715,
+        11.799735374450684
+      ],
+      "bounds_max_m": [
+        123.27018575834947,
+        1274.0818649944613,
+        11.979735374450684
+      ],
+      "collision_reason": "Roof or minor upper detail; ground-based walking contact is handled by facade or posts"
+    },
+    {
+      "name": "SM_ProspectLight_Beacon",
+      "feature_id": "SP_prospect_light",
+      "mesh_path": "data/derived/named-features/SM_ProspectLight_Beacon.npz",
+      "sha256": "2c72b7ad2a7446e45a66f4340a85e77d943ea882e7cddff5cb352e7c53caf5d2",
+      "material": "red",
+      "color": [
+        0.63,
+        0.035,
+        0.025
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        121.45230220053548,
+        1272.2796566362665,
+        11.979735374450684
+      ],
+      "bounds_max_m": [
+        121.6923022005355,
+        1272.5196566362663,
+        12.529735374450684
+      ],
+      "collision_reason": "Roof or minor upper detail; ground-based walking contact is handled by facade or posts"
+    },
+    {
+      "name": "SM_NineClockGun_GabledRoof",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_GabledRoof.npz",
+      "sha256": "7419e9c40fa93a8ccba1982664a18206edd259205b0506a4241aa01016d798fb",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 6,
+      "triangles": 6,
+      "bounds_min_m": [
+        1852.997544208898,
+        -509.7347709331237,
+        7.130251813903518
+      ],
+      "bounds_max_m": [
+        1858.1734987723466,
+        -503.54966984792753,
+        8.110186911968537
+      ],
+      "collision_reason": "Roof or minor upper detail; ground-based walking contact is handled by facade or posts"
+    },
+    {
+      "name": "SM_NineClockGun_Post_00",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Post_00.npz",
+      "sha256": "40209a3cb5d6507b20df433d37175b258984188a24da86abcc567b53ccf5eebe",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1853.1940137637807,
+        -505.0751084610475,
+        2.9372873306274414
+      ],
+      "bounds_max_m": [
+        1853.3140137637806,
+        -504.9551084610475,
+        7.130251813903518
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Post_01",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Post_01.npz",
+      "sha256": "8460bcd9fca3301fb5a32d82031b4942f8ede7a35215ce85b3433d774823f618",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.2419093054145,
+        -503.8732655234814,
+        2.9372873306274414
+      ],
+      "bounds_max_m": [
+        1855.3619093054144,
+        -503.7532655234814,
+        7.130251813903518
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Post_10",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Post_10.npz",
+      "sha256": "4cab7a0654b0a8d191d4ebccfd2d45b94f7d7bb81d48a32986dd6f1c69f398e1",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.8091336758303,
+        -509.5311752575698,
+        2.9372873306274414
+      ],
+      "bounds_max_m": [
+        1855.9291336758301,
+        -509.4111752575698,
+        7.130251813903518
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Post_11",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Post_11.npz",
+      "sha256": "f8b6d2fa912473b61cead8d140c9217bbd6c9eec61fadc7be626057e5b3b7947",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1857.857029217464,
+        -508.32933232000374,
+        2.9372873306274414
+      ],
+      "bounds_max_m": [
+        1857.977029217464,
+        -508.20933232000374,
+        7.130251813903518
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Rail_00",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Rail_00.npz",
+      "sha256": "cc16e7969481d5334077c79324723db315de8404806f60696dbf4f0bddd0f779",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1853.2173596654445,
+        -509.49268634947987,
+        2.9947873306274415
+      ],
+      "bounds_max_m": [
+        1855.9057877741664,
+        -504.99359736913743,
+        3.0797873306274415
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Rail_01",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Rail_01.npz",
+      "sha256": "b9f8683f5a95932837e295aba9b58e2e58c48b2cadb91565e5f9fa285b176ade",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.2652552070783,
+        -508.2908434119138,
+        2.9947873306274415
+      ],
+      "bounds_max_m": [
+        1857.9536833158002,
+        -503.79175443157135,
+        3.0797873306274415
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_EndRail_00",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_EndRail_00.npz",
+      "sha256": "e5a2014361dffa66e5ea6bc01df6a3212fa1f858e111bd76fd05782d3b85b9da",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1853.2325026718706,
+        -505.0517625593837,
+        2.9947873306274415
+      ],
+      "bounds_max_m": [
+        1855.3234203973245,
+        -503.7766114251452,
+        3.0797873306274415
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_EndRail_01",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_EndRail_01.npz",
+      "sha256": "c12cdd14aaab9f6c585e9417d2121066625284d1010fde7fbf1eca1a4380a176",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.8476225839202,
+        -509.50782935590604,
+        2.9947873306274415
+      ],
+      "bounds_max_m": [
+        1857.938540309374,
+        -508.2326782216675,
+        3.0797873306274415
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Rail_10",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Rail_10.npz",
+      "sha256": "3fb1394981fa8b01a0281f279bee4e718d0f3b89beb0bad485a0ff74f8e8c26b",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1853.2173596654445,
+        -509.49268634947987,
+        4.394787330627441
+      ],
+      "bounds_max_m": [
+        1855.9057877741664,
+        -504.99359736913743,
+        4.479787330627442
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Rail_11",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Rail_11.npz",
+      "sha256": "413e4deab68c3df54c33252bdd4819e25f61d064cc0ba73ab2b5880a63d290e3",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.2652552070783,
+        -508.2908434119138,
+        4.394787330627441
+      ],
+      "bounds_max_m": [
+        1857.9536833158002,
+        -503.79175443157135,
+        4.479787330627442
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_EndRail_10",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_EndRail_10.npz",
+      "sha256": "78f2bab512b1ed1b19ff54351089040fc035ed69d1dca98472d2a02c3517db91",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1853.2325026718706,
+        -505.0517625593837,
+        4.394787330627441
+      ],
+      "bounds_max_m": [
+        1855.3234203973245,
+        -503.7766114251452,
+        4.479787330627442
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_EndRail_11",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_EndRail_11.npz",
+      "sha256": "8fc76c72a6ea66c5178696ed23738d05e2e13c54174191f777bb4648eccb2924",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.8476225839202,
+        -509.50782935590604,
+        4.394787330627441
+      ],
+      "bounds_max_m": [
+        1857.938540309374,
+        -508.2326782216675,
+        4.479787330627442
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Rail_20",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Rail_20.npz",
+      "sha256": "493558eb33bb357fca30f0c534900c0171e45bd5df49af67853d6855e85014b6",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1853.2173596654445,
+        -509.49268634947987,
+        5.694787330627441
+      ],
+      "bounds_max_m": [
+        1855.9057877741664,
+        -504.99359736913743,
+        5.779787330627442
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Rail_21",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Rail_21.npz",
+      "sha256": "7c97356dab43ae88084995cedb7d0285c4529fb33a0c6ab2eeadd31c8c27956e",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.2652552070783,
+        -508.2908434119138,
+        5.694787330627441
+      ],
+      "bounds_max_m": [
+        1857.9536833158002,
+        -503.79175443157135,
+        5.779787330627442
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_EndRail_20",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_EndRail_20.npz",
+      "sha256": "da4fc444b6d542827d972de14c53113d49cd718790b0c210416292c8c1db483e",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1853.2325026718706,
+        -505.0517625593837,
+        5.694787330627441
+      ],
+      "bounds_max_m": [
+        1855.3234203973245,
+        -503.7766114251452,
+        5.779787330627442
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_EndRail_21",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_EndRail_21.npz",
+      "sha256": "8ace40ee00dc91455b1ecec1087e9ad217ee493972b5ae742a3450c0041fb928",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.8476225839202,
+        -509.50782935590604,
+        5.694787330627441
+      ],
+      "bounds_max_m": [
+        1857.938540309374,
+        -508.2326782216675,
+        5.779787330627442
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Rail_30",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Rail_30.npz",
+      "sha256": "8aeef14969818565cb89bfd5e431b037c99fb6a3b79dcc025735f049e612e896",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1853.2173596654445,
+        -509.49268634947987,
+        7.087751813903518
+      ],
+      "bounds_max_m": [
+        1855.9057877741664,
+        -504.99359736913743,
+        7.172751813903519
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Rail_31",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Rail_31.npz",
+      "sha256": "c7101a696c390552978849710a8153a1147c79392de7bf009980d217243fda33",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.2652552070783,
+        -508.2908434119138,
+        7.087751813903518
+      ],
+      "bounds_max_m": [
+        1857.9536833158002,
+        -503.79175443157135,
+        7.172751813903519
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_EndRail_30",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_EndRail_30.npz",
+      "sha256": "278f2e1b96c9b9bbfef26c83f84e05460ba3768f25260e33a22ba53e792a0113",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1853.2325026718706,
+        -505.0517625593837,
+        7.087751813903518
+      ],
+      "bounds_max_m": [
+        1855.3234203973245,
+        -503.7766114251452,
+        7.172751813903519
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_EndRail_31",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_EndRail_31.npz",
+      "sha256": "24963b317991d9771e77f315bb564d954c0b26ab40a4356e3b432fd1b7cc65c5",
+      "material": "steel",
+      "color": [
+        0.17,
+        0.2,
+        0.17
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.8476225839202,
+        -509.50782935590604,
+        7.087751813903518
+      ],
+      "bounds_max_m": [
+        1857.938540309374,
+        -508.2326782216675,
+        7.172751813903519
+      ],
+      "collision_reason": "Closed solid blockout; direct triangles preserve the open surrounding space. XY footprint does not intersect the source path corridors."
+    },
+    {
+      "name": "SM_NineClockGun_Barrel",
+      "feature_id": "SP_nine_oclock",
+      "mesh_path": "data/derived/named-features/SM_NineClockGun_Barrel.npz",
+      "sha256": "78711b266d165f4eefce328adad921e7930a46fd9398830d66e33801b97c575c",
+      "material": "gun",
+      "color": [
+        0.11,
+        0.12,
+        0.1
+      ],
+      "collision": "none",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1855.0349647960898,
+        -507.7663609061935,
+        3.772419172438346
+      ],
+      "bounds_max_m": [
+        1856.3385355207788,
+        -505.8630596239042,
+        4.182155488816536
+      ],
+      "collision_reason": "Roof or minor upper detail; ground-based walking contact is handled by facade or posts"
+    },
+    {
+      "name": "SM_ProspectCafe_RoofSurvey",
+      "feature_id": "SP_prospect_cafe",
+      "mesh_path": "data/derived/named-features/SM_ProspectCafe_RoofSurvey.npz",
+      "sha256": "dbbf6f0f39c41507548b8dca1acc5d4bea520bda138c26b6c7c6053c9f2ec177",
+      "material": "roof",
+      "color": [
+        0.21,
+        0.24,
+        0.2
+      ],
+      "collision": "none",
+      "vertices": 3448,
+      "triangles": 6709,
+      "bounds_min_m": [
+        21.4375,
+        1088.83349609375,
+        62.20188522338867
+      ],
+      "bounds_max_m": [
+        56.60200119018555,
+        1153.8889770507812,
+        73.44505310058594
+      ],
+      "collision_reason": "Roof or minor upper detail; ground-based walking contact is handled by facade or posts"
+    },
+    {
+      "name": "SM_ProspectCafe_WallsReview",
+      "feature_id": "SP_prospect_cafe",
+      "mesh_path": "data/derived/named-features/SM_ProspectCafe_WallsReview.npz",
+      "sha256": "3ac736cb0248429d537b7f3ac48eb5274985723d10cc31a547fbf05dafdc944f",
+      "material": "wall",
+      "color": [
+        0.49,
+        0.44,
+        0.34
+      ],
+      "collision": "complex",
+      "vertices": 732,
+      "triangles": 366,
+      "bounds_min_m": [
+        21.4375,
+        1088.83349609375,
+        61.5535779245173
+      ],
+      "bounds_max_m": [
+        56.60200119018555,
+        1153.8889770507812,
+        73.44505310058594
+      ],
+      "collision_reason": "Per-triangle measured-roof facade panels extend to terrain. Panels intersecting mapped path corridors are withheld; no inferred collision box is used."
+    },
+    {
+      "name": "SM_ProspectLookout_TerraceSurvey",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_TerraceSurvey.npz",
+      "sha256": "f5474864f0ac0af1eb98f45db092e3b06484dac7172817ee55bc8e2377e2ffa2",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 36,
+      "triangles": 34,
+      "bounds_min_m": [
+        61.4005,
+        1240.8035,
+        56.24437378826732
+      ],
+      "bounds_max_m": [
+        80.3755,
+        1251.4534999999998,
+        57.96730231911922
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_03",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_03.npz",
+      "sha256": "b06d55e950682c49750ae4f4567f8338f7a70f62b721a6b6d43e04576ce090ee",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        64.6492545487682,
+        1249.9395947401022,
+        57.97998376778602
+      ],
+      "bounds_max_m": [
+        66.7767454512318,
+        1251.2424052598976,
+        58.25097380592804
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_04",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_04.npz",
+      "sha256": "85acc564ee20f38fdb0025441b200551009ca0ccf83f47adf7436b26b18836ea",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        66.68111352234124,
+        1249.9259701800827,
+        57.21231121135343
+      ],
+      "bounds_max_m": [
+        68.71988647765876,
+        1250.2810298199172,
+        58.172909283218026
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_05",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_05.npz",
+      "sha256": "e6540c9587a2831c916a1dbc44551849ecb7bb3cfb42e2202f7326570dc37cb9",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        68.61100540389148,
+        1250.086132116264,
+        56.945351239190614
+      ],
+      "bounds_max_m": [
+        70.31499459610852,
+        1251.2458678837359,
+        57.40430632350585
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_06",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_06.npz",
+      "sha256": "26c8b1e7a80b5a834e0a8b4ed8d8f0b1210215f451779f2bcd0a36585a724505",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        70.19502998037748,
+        1250.470294970566,
+        56.94437378826731
+      ],
+      "bounds_max_m": [
+        71.20597001962251,
+        1251.2367050294338,
+        57.144373788267316
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_07",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_07.npz",
+      "sha256": "15d0cfae3f9fa5c76f6d01dd8e385e45b88a834440cff38061ea41710c1c289e",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        71.11538765584116,
+        1250.4598670822431,
+        56.94437378826731
+      ],
+      "bounds_max_m": [
+        73.58561234415883,
+        1251.5471329177567,
+        57.144373788267316
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_08",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_08.npz",
+      "sha256": "157f92da389e757dc1398f6fc00b8de71047fdd2f95e33f841642449c69db2f2",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        73.52693999743785,
+        1250.756314989431,
+        56.94437378826731
+      ],
+      "bounds_max_m": [
+        76.04906000256214,
+        1251.5506850105687,
+        57.144373788267316
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_09",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_09.npz",
+      "sha256": "ea799995608feab0808cc836bf28f5adfb4388a2dae03e712f33b7295144d5a8",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        75.96342970556344,
+        1249.3500954175538,
+        56.94437378826731
+      ],
+      "bounds_max_m": [
+        77.88757029443656,
+        1250.9319045824461,
+        57.144373788267316
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_10",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_10.npz",
+      "sha256": "72bc0aba5577b356dd7db444c57d3fbded0c47557867d0c4c74a5af07120e259",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        77.74394928552648,
+        1247.0456252994059,
+        56.94437378826731
+      ],
+      "bounds_max_m": [
+        79.55705071447352,
+        1249.486374700594,
+        57.144373788267316
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_11",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_11.npz",
+      "sha256": "8b3011089d3d990b14724b39d4b283e811be65da3e1388c25ef3465a23dae7e2",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        79.38152065765115,
+        1244.5943256936912,
+        56.94437378826731
+      ],
+      "bounds_max_m": [
+        80.46947934234885,
+        1247.1376743063086,
+        57.144373788267316
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_12",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_12.npz",
+      "sha256": "9e10e6732f6344b236a5024f145dbd43e698f145d6c692d646b8fdf363ba53f2",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        79.6780141493428,
+        1241.9812175198497,
+        56.94437378826731
+      ],
+      "bounds_max_m": [
+        80.4729858506572,
+        1244.65078248015,
+        57.144373788267316
+      ]
+    },
+    {
+      "name": "SM_ProspectLookout_Parapet_13",
+      "feature_id": "SP_prospect_lookout",
+      "mesh_path": "data/derived/named-features/SM_ProspectLookout_Parapet_13.npz",
+      "sha256": "4b9c27ec9741ecc1377792d160ac26218dc479b294eed59e9c47fbad5b5dfef3",
+      "material": "stone",
+      "color": [
+        0.39,
+        0.4,
+        0.35
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        78.42802186829255,
+        1240.726970201383,
+        56.944520392276
+      ],
+      "bounds_max_m": [
+        79.84797813170745,
+        1242.0800297986168,
+        57.23914011062478
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_prospect_light",
+      "name": "Prospect Point Lighthouse",
+      "sources": [
+        "https://www.notmar.gc.ca/publications/monthly/archives/eng/services/notmar/western-pdf/wes10e02.pdf",
+        "https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/chs-shc-PAC201-eng-202411-4126986x.pdf",
+        "https://www.lighthousefriends.com/prospect1_2009.jpg",
+        "evidence/corridor/ortho-utm/named-prospect-light.json",
+        "manifests/named-prospect-light-survey.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          121.57230220053549,
+          1272.3996566362664
+        ],
+        "axis_degrees": -19,
+        "top_deck_height_m": 11.979735374450684,
+        "top_deck_dimensions_m": [
+          2.6844988286942657,
+          2.6339296248207598
+        ],
+        "top_returns": 279
+      },
+      "estimates": {
+        "profile": "Lower profile manually reviewed against LAS bands; concealed sides mirrored",
+        "base_height_m": 3.72,
+        "red_band_z_m": [
+          9,
+          10
+        ],
+        "beacon_height_m": 0.55
+      },
+      "limits": "No ladder, door, aerials, rail or operational light. Minor details and hidden sides are estimates. Tower LAS returns are mainly class 5, not class 6.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_nine_oclock",
+      "name": "Nine O'Clock Gun",
+      "sources": [
+        "https://vancouver.ca/parks-recreation-culture/monuments-and-sculptures.aspx",
+        "https://vancouver.ca/images/cov/content/9-O-clock-Gun-Monument.jpg",
+        "https://veterans.gc.ca/en/remembrance/memorials/canada/nine-oclock-gun",
+        "evidence/corridor/ortho-utm/named-gun-detail.json",
+        "manifests/named-nine-clock-gun-survey.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          1855.5855214906223,
+          -506.6422203905256
+        ],
+        "roof_length_m": 5.566757537321212,
+        "roof_width_m": 2.734511022509811,
+        "ridge_m": 8.110186911968537,
+        "eave_m": 7.130251813903518,
+        "base_m": 2.9372873306274414,
+        "roof_returns": 801,
+        "fit_inliers": 776,
+        "roof_fit_p95_m": 0.07723035228778308
+      },
+      "estimates": {
+        "frame_post_width_m": 0.12,
+        "rails_m": 0.085,
+        "barrel_length_m": 2,
+        "barrel_width_m": 0.33
+      },
+      "limits": "Open frame massing only; wire mesh, stone support, plaque and carriage need detail. VAC location is an approximate search point, not a survey control.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_491000_5460000_11"
+      ]
+    },
+    {
+      "id": "SP_prospect_lookout",
+      "name": "Prospect Point Lookout",
+      "sources": [
+        "https://vancouver.ca/parks-recreation-culture/landmarks-in-stanley-park.aspx",
+        "https://geonetbc.gov.bc.ca/geonetbc/gcm/details/590034",
+        "evidence/corridor/ortho-utm/survey-prospect.json",
+        "manifests/named-prospect-lookout-survey.json"
+      ],
+      "measured": {
+        "outline_local_m": [
+          [
+            61.4005,
+            1246.7285
+          ],
+          [
+            62.9755,
+            1248.3784999999998
+          ],
+          [
+            62.6005,
+            1249.4285
+          ],
+          [
+            64.7005,
+            1251.1535
+          ],
+          [
+            66.7255,
+            1250.0285
+          ],
+          [
+            68.6755,
+            1250.1785
+          ],
+          [
+            70.2505,
+            1251.1535
+          ],
+          [
+            71.1505,
+            1250.5535
+          ],
+          [
+            73.5505,
+            1251.4534999999998
+          ],
+          [
+            76.0255,
+            1250.8535
+          ],
+          [
+            77.8255,
+            1249.4285
+          ],
+          [
+            79.4755,
+            1247.1035
+          ],
+          [
+            80.3755,
+            1244.6284999999998
+          ],
+          [
+            79.7755,
+            1242.0034999999998
+          ],
+          [
+            78.5005,
+            1240.8035
+          ],
+          [
+            76.8505,
+            1241.3284999999998
+          ],
+          [
+            77.8255,
+            1243.4285
+          ],
+          [
+            77.9005,
+            1245.0034999999998
+          ],
+          [
+            77.0755,
+            1246.7285
+          ],
+          [
+            75.3505,
+            1247.7034999999998
+          ],
+          [
+            73.3255,
+            1247.4785
+          ],
+          [
+            71.3005,
+            1247.1035
+          ],
+          [
+            69.6505,
+            1247.4785
+          ],
+          [
+            68.0755,
+            1246.1284999999998
+          ],
+          [
+            66.2005,
+            1244.4035
+          ],
+          [
+            63.4255,
+            1245.7534999999998
+          ]
+        ],
+        "surface_ground_returns": 2837,
+        "sampling_m": 0.4,
+        "surface_height_range_m": [
+          56.24437378826732,
+          57.96730231911922
+        ],
+        "surface_area_m2": 79.39406250000071
+      },
+      "estimates": {
+        "visible_offset_m": 0.025,
+        "parapet_height_m": 0.8,
+        "parapet_width_m": 0.2
+      },
+      "limits": "Three measured height modes and fitted flight envelopes replace noisy raw ground triangulation. Exact stair treads, parapet sections and rails remain unfinished. Terrain boundary closure and live contact require repeat checks.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [],
+      "terrain_cut_polygon_local_m": [
+        [
+          61.4005,
+          1246.7285
+        ],
+        [
+          62.9755,
+          1248.3784999999998
+        ],
+        [
+          62.6005,
+          1249.4285
+        ],
+        [
+          64.7005,
+          1251.1535
+        ],
+        [
+          66.7255,
+          1250.0285
+        ],
+        [
+          68.6755,
+          1250.1785
+        ],
+        [
+          70.2505,
+          1251.1535
+        ],
+        [
+          71.1505,
+          1250.5535
+        ],
+        [
+          73.5505,
+          1251.4534999999998
+        ],
+        [
+          76.0255,
+          1250.8535
+        ],
+        [
+          77.8255,
+          1249.4285
+        ],
+        [
+          79.4755,
+          1247.1035
+        ],
+        [
+          80.3755,
+          1244.6284999999998
+        ],
+        [
+          79.7755,
+          1242.0034999999998
+        ],
+        [
+          78.5005,
+          1240.8035
+        ],
+        [
+          76.8505,
+          1241.3284999999998
+        ],
+        [
+          77.8255,
+          1243.4285
+        ],
+        [
+          77.9005,
+          1245.0034999999998
+        ],
+        [
+          77.0755,
+          1246.7285
+        ],
+        [
+          75.3505,
+          1247.7034999999998
+        ],
+        [
+          73.3255,
+          1247.4785
+        ],
+        [
+          71.3005,
+          1247.1035
+        ],
+        [
+          69.6505,
+          1247.4785
+        ],
+        [
+          68.0755,
+          1246.1284999999998
+        ],
+        [
+          66.2005,
+          1244.4035
+        ],
+        [
+          63.4255,
+          1245.7534999999998
+        ]
+      ],
+      "terrain_closure_mesh": null,
+      "terrain_boundary_height_difference_m": [
+        -1.143106942436134e-09,
+        1.0247447335132165e-09
+      ],
+      "stable_floor_review": {
+        "method": "Robust low-return three-level profile with two M1 contact ramps; no per-vertex nearest-neighbour height noise",
+        "parameters": [
+          1311.8857711236,
+          1.8889303443268728,
+          1316.5612986347912,
+          2.9999999999999996,
+          57.94230231911922,
+          57.326020853571755,
+          56.21937378826732
+        ],
+        "axis": "s=local East+local North",
+        "level_heights_m": [
+          57.94230231911922,
+          57.326020853571755,
+          56.21937378826732
+        ],
+        "source_returns": 2497,
+        "median_abs_residual_m": 0.03875973541915556,
+        "p95_abs_residual_m": 0.21755470612915653,
+        "footprint_area_m2": 79.39406250000071,
+        "mesh_coverage_area_m2": 79.39406250000044,
+        "uncovered_area_m2": 3.4392627634716177e-13,
+        "excess_area_m2": 1.1167629321295891e-13,
+        "triangles": 34,
+        "maximum_ramp_grade": 0.5216784295046394,
+        "independent_accuracy": false,
+        "stair_treads": "Exact tread count/depth not resolved. M1 uses source-fitted flight envelopes as continuous contact ramps.",
+        "terrain_seam_acceptance": false
+      },
+      "exact_terrain_closure_review": {
+        "terrain_inputs": [
+          {
+            "path": "data/derived/surface-meshes/SM_Terrain_05_03.npz",
+            "sha256": "f75c0cbfc0baf488f9a9012eccd17b684347ef76e959b2f855be877ca311c9c3"
+          }
+        ],
+        "ignored_degenerate_terrain_triangles": 12,
+        "terrain_boundary_segments": 400,
+        "stitch_segments": 468,
+        "uncovered_boundary_length_m": 0.0,
+        "max_surface_endpoint_gap_m": 1.5504042494285386e-10,
+        "max_terrain_endpoint_gap_m": 4.705782430391992e-10,
+        "height_difference_m": [
+          -1.143106942436134e-09,
+          1.0247447335132165e-09
+        ],
+        "closure_triangles": 0,
+        "numerical_pass": true,
+        "terrain_form_review_needed": false,
+        "live_acceptance": false,
+        "method": "Actual exported cut-boundary segments plus every floor-profile break intersection; no raster-height extrapolation",
+        "limitation": "This measures the join to the authored floor, not independent survey accuracy. Exact stair treads and parapet architecture remain unfinished. Live contact and rendering are not accepted."
+      }
+    },
+    {
+      "id": "SP_prospect_cafe",
+      "name": "Prospect Point Cafe and Gift Shop",
+      "sources": [
+        "https://vancouver.ca/parks-recreation-culture/landmarks-in-stanley-park.aspx",
+        "https://bids.vancouver.ca/bidopp/ITT/documents/PS20181755-Drawings-ProspectPointPavementConstruction2019.pdf",
+        "evidence/corridor/ortho-utm/named-prospect-cafe.json",
+        "manifests/named-prospect-cafe-survey.json"
+      ],
+      "measured": {
+        "roof_returns": 58446,
+        "roof_sampling_m": 0.6,
+        "roof_min_m": 62.20188522338867,
+        "roof_max_m": 73.44505310058594
+      },
+      "estimates": {
+        "walls": "Extruded from measured roof boundaries to terrain; no facade or floor survey"
+      },
+      "limits": "2022 roof returns identify the building seen on the City map and 2017/2019 tender. Under-canopy holes, roof eaves and facade details remain approximate. Tender is proposed work, not as-built proof.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": [
+        "lidar2022_489000_5462000_1",
+        "lidar2022_489000_5462000_2"
+      ]
+    }
+  ],
+  "acceptance": false,
+  "blocked_features": [
+    {
+      "id": "SP_lumberman_arch",
+      "reason": "Registry point and canopy-covered imagery did not positively identify the logs. Raw crop retained. Do not create a blind marker model."
+    }
+  ],
+  "reference_rights": "City/CCG/photographer web pages and photos are reference only; do not bundle. Geometry is authored from licensed City LAS and orthophoto measurements with listed estimates.",
+  "collision_policy_revision": "named-contact-r1",
+  "collision_panel_review": [
+    {
+      "asset": "SM_ProspectLight_LowerWhite",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 0.0,
+      "interactive_check": false,
+      "exact_pavement_gap_m": 0.083786,
+      "margin_screening_override": true
+    },
+    {
+      "asset": "SM_NineClockGun_Post_00",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.39644466428504,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Post_01",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.724167771542728,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Post_10",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 30.522841198362972,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Post_11",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 30.835543830339734,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Rail_00",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.475270086824626,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Rail_01",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.801965059376588,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_EndRail_00",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.438424868772522,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_EndRail_01",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 30.56475520811316,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Rail_10",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.475270086824626,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Rail_11",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.801965059376588,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_EndRail_10",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.438424868772522,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_EndRail_11",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 30.56475520811316,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Rail_20",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.475270086824626,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Rail_21",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.801965059376588,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_EndRail_20",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.438424868772522,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_EndRail_21",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 30.56475520811316,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Rail_30",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.475270086824626,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_Rail_31",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.801965059376588,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_EndRail_30",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 25.438424868772522,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_NineClockGun_EndRail_31",
+      "contact_enabled": true,
+      "nearest_cycle_ribbon_m": 30.56475520811316,
+      "interactive_check": false
+    },
+    {
+      "asset": "SM_ProspectCafe_WallsReview",
+      "total_panels": 183,
+      "contact_panels": 183,
+      "withheld_panels": 0,
+      "nearest_cycle_ribbon_m": 99.61969574744235,
+      "interactive_check": false
+    }
+  ]
+}

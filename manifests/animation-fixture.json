@@ -1,0 +1,124 @@
+{
+  "blender": "5.2.1 LTS",
+  "source_scene": "SP_AnimationFixture",
+  "source_blend": "blender/StanleyPark_Blockout.blend",
+  "fbx": "exports/fbx/SK_AnimationFixture.fbx",
+  "sha256": "dbcbae08ed9d3e347262b0130b8e157d49f4fb02afa176c7e8dc0c1b54e17e17",
+  "fps": 30,
+  "frames": [
+    1,
+    31
+  ],
+  "duration_seconds": 1.0,
+  "bone_names": [
+    "SP_Root",
+    "SP_Hinge",
+    "SP_Marker"
+  ],
+  "samples": [
+    {
+      "seconds": 0.0,
+      "bone_heads_unreal_cm": {
+        "SP_Root": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "SP_Hinge": [
+          0.0,
+          0.0,
+          50.0
+        ],
+        "SP_Marker": [
+          0.0,
+          0.0,
+          150.0
+        ]
+      }
+    },
+    {
+      "seconds": 0.25,
+      "bone_heads_unreal_cm": {
+        "SP_Root": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "SP_Hinge": [
+          0.0,
+          0.0,
+          50.0
+        ],
+        "SP_Marker": [
+          -70.71067690849304,
+          0.0,
+          120.71068286895752
+        ]
+      }
+    },
+    {
+      "seconds": 0.5,
+      "bone_heads_unreal_cm": {
+        "SP_Root": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "SP_Hinge": [
+          0.0,
+          0.0,
+          50.0
+        ],
+        "SP_Marker": [
+          -100.0,
+          0.0,
+          49.99999701976776
+        ]
+      }
+    },
+    {
+      "seconds": 0.75,
+      "bone_heads_unreal_cm": {
+        "SP_Root": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "SP_Hinge": [
+          0.0,
+          0.0,
+          50.0
+        ],
+        "SP_Marker": [
+          -70.71067690849304,
+          0.0,
+          120.71068286895752
+        ]
+      }
+    },
+    {
+      "seconds": 1.0,
+      "bone_heads_unreal_cm": {
+        "SP_Root": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "SP_Hinge": [
+          0.0,
+          0.0,
+          50.0
+        ],
+        "SP_Marker": [
+          0.0,
+          0.0,
+          150.0
+        ]
+      }
+    }
+  ],
+  "translation_tolerance_cm": 1.0,
+  "duration_tolerance_seconds": 0.03333333333333333,
+  "engine_pass": false,
+  "source_rights": "Original authored diagnostic fixture; no external assets"
+}

@@ -1,0 +1,22 @@
+Stanley Park Seawall preview — player terms
+
+You may download and use the unmodified Windows build for personal,
+non-commercial evaluation. Keep the supplied notices and source database
+offer with any unchanged copy that you share. No broader licence to the
+original project source code or assets is granted by this notice.
+
+Third-party databases retain the licences identified in DATA-ATTRIBUTION.txt
+and the SourceData notices. Those licences are not restricted by these
+player terms. Unreal Engine and its runtime components retain Epic Games'
+applicable rights and terms.
+
+The software is provided as is, without representations, warranties or
+conditions of any kind, express or implied. To the extent permitted by law,
+the project author and the suppliers of the included licensed technology,
+including Epic Games, disclaim liability for claims, loss or damage arising
+from its use. No representations, warranties, conditions or liabilities
+related to the included Unreal Engine licensed technology are accepted.
+
+The scene contains historical data and authored estimates. Do not use it
+for navigation, safety decisions, or to determine current route access.
+No data provider or engine supplier endorses this project.

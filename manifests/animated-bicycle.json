@@ -1,0 +1,102 @@
+{
+  "source": "blender/Bicycle_Animated.blend",
+  "original_source": "blender/StanleyPark_Blockout.blend",
+  "original_sha256": "fc011d1730b76906b237eb1efb848e1b6513a094da62fb3f6ae6258e49cc62ef",
+  "original_unchanged": true,
+  "pedal_islands_removed": 2,
+  "crank_radius_cm": 17,
+  "assets": [
+    {
+      "name": "SM_Bicycle_Animated",
+      "fbx": "exports/animated-bicycle/SM_Bicycle_Animated.fbx",
+      "sha256": "74d2b954dce1c18636447715822a61b3bc2b987dca091433acaf56bcd661125f",
+      "bounds_min_cm": [
+        -56.952965259552,
+        -31.00000023841858,
+        27.60864496231079
+      ],
+      "bounds_max_cm": [
+        57.234978675842285,
+        31.00000023841858,
+        108.49999189376831
+      ],
+      "materials": [
+        "M_BicycleTeal",
+        "M_Steel",
+        "M_Rubber"
+      ],
+      "material_colors": {
+        "M_BicycleTeal": [
+          0.03500000014901161,
+          0.27000001072883606,
+          0.2800000011920929,
+          1.0
+        ],
+        "M_Steel": [
+          0.47999998927116394,
+          0.5099999904632568,
+          0.5400000214576721,
+          1.0
+        ],
+        "M_Rubber": [
+          0.02199999988079071,
+          0.027000000700354576,
+          0.03099999949336052,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "SM_Pedal",
+      "fbx": "exports/animated-bicycle/SM_Pedal.fbx",
+      "sha256": "c8f0deff5d7fe14e364d9e34efbd3bdb7dfbc017c1d89168c48400242659c195",
+      "bounds_min_cm": [
+        -4.500000178813934,
+        -5.000000074505806,
+        -1.2500000186264515
+      ],
+      "bounds_max_cm": [
+        4.500000178813934,
+        5.000000074505806,
+        1.2500000186264515
+      ],
+      "materials": [
+        "M_Rubber"
+      ],
+      "material_colors": {
+        "M_Rubber": [
+          0.02199999988079071,
+          0.027000000700354576,
+          0.03099999949336052,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "SM_CrankArm",
+      "fbx": "exports/animated-bicycle/SM_CrankArm.fbx",
+      "sha256": "18fcd67323732fa613950b2ee7f92fa29892aaeb60f73d6508bf3a9462ddc9ee",
+      "bounds_min_cm": [
+        -1.2500000186264515,
+        -1.2500000186264515,
+        0.0
+      ],
+      "bounds_max_cm": [
+        1.2500000186264515,
+        1.2500000186264515,
+        17.000000178813934
+      ],
+      "materials": [
+        "M_Steel"
+      ],
+      "material_colors": {
+        "M_Steel": [
+          0.47999998927116394,
+          0.5099999904632568,
+          0.5400000214576721,
+          1.0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "owner": "m3_shore_edges",
+  "input_hashes": {
+    "manifests/m3-landmark-final-camera-candidates.json": "e5e7e1304e3b7b52ccef1be575870400b28e38c2acb1eb5e0e962ece94e79579",
+    "manifests/lumberman-facility-settings.json": "941b96f877b3db4a29087163c6b996bec9439edf44bd962c86fffbc619a1833e",
+    "data/derived/surface-meshes/SM_Terrain_03_01.npz": "a81a1d5ad2c23d9e255d148adb072296be39058fc009e680661043bfc3251dbd"
+  },
+  "views": [
+    {
+      "id": "ART_102_form_grounded",
+      "feature_id": "ART_102",
+      "kind": "form-only",
+      "target_local_m": [
+        -984.3788717127172,
+        -125.96709005348384,
+        19.536318469491043
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -11396.709005348384,
+          "y": -97237.88717127172,
+          "z": 2064.3968672976007
+        },
+        "rotation": {
+          "pitch": -3.7343365294311144,
+          "yaw": -135.0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "source_ground_m": 18.236318469491042,
+      "source_ground_file": "data/derived/surface-meshes/SM_Terrain_03_01.npz",
+      "purpose": "Inspect the registry point from above its actual source terrain. The first form camera used an 8 m target and was below the terrain. This view cannot establish exact monument form; no individual monument mesh is linked.",
+      "view_scope": "Form-only source review; not route visibility proof."
+    },
+    {
+      "id": "ART_102_route_0_grounded_target",
+      "feature_id": "ART_102",
+      "kind": "route",
+      "station_m": 6875.188850422608,
+      "target_local_m": [
+        -984.3788717127172,
+        -125.96709005348384,
+        19.536318469491043
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -7553.040478038758,
+          "y": -102192.4617427819,
+          "z": 465.4418763470002
+        },
+        "rotation": {
+          "pitch": 13.315843389948064,
+          "yaw": 143.33550800955084,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "purpose": "Actual source route eye at 1.65 m, aimed at the registry point at source terrain plus 1.3 m. This is an estimated monument target height, not surveyed geometry.",
+      "view_scope": "Route evidence candidate. No model shape invented."
+    },
+    {
+      "id": "ART_102_route_m40_grounded_target",
+      "feature_id": "ART_102",
+      "kind": "route",
+      "station_m": 6835.188850422608,
+      "target_local_m": [
+        -984.3788717127172,
+        -125.96709005348384,
+        19.536318469491043
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -4807.235538235815,
+          "y": -99452.37852601585,
+          "z": 536.4251069585564
+        },
+        "rotation": {
+          "pitch": 10.227005258864104,
+          "yaw": 172.57963576797468,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "purpose": "Actual source route eye at 1.65 m, aimed at the registry point at source terrain plus 1.3 m. This is an estimated monument target height, not surveyed geometry.",
+      "view_scope": "Route evidence candidate. No model shape invented."
+    },
+    {
+      "id": "SP_water_park_form_passage_m1",
+      "feature_id": "SP_water_park",
+      "kind": "form-only",
+      "target_local_m": [
+        895.155,
+        44.487,
+        4.05
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 2342.863256492101,
+          "y": 88364.21740667547,
+          "z": 440.00000000000006
+        },
+        "rotation": {
+          "pitch": -0.8355042246909928,
+          "yaw": 28.665880935766562,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "purpose": "Look along the existing lower passage axis at near walking eye level. Source floor is near 2.7 m and the road deck is above 5.56 m. This checks the opening only.",
+      "view_scope": "Form-only passage check; not route visibility proof."
+    },
+    {
+      "id": "SP_water_park_form_passage_1",
+      "feature_id": "SP_water_park",
+      "kind": "form-only",
+      "target_local_m": [
+        895.155,
+        44.487,
+        4.05
+      ],
+      "requested_camera": {
+        "location": {
+          "x": 6554.536743507899,
+          "y": 90666.78259332452,
+          "z": 440.00000000000006
+        },
+        "rotation": {
+          "pitch": -0.8355042246909931,
+          "yaw": -151.33411906423345,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "purpose": "Look along the existing lower passage axis at near walking eye level. Source floor is near 2.7 m and the road deck is above 5.56 m. This checks the opening only.",
+      "view_scope": "Form-only passage check; not route visibility proof."
+    }
+  ]
+}

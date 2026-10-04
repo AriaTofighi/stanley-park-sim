@@ -1,0 +1,51 @@
+{
+  "views": [
+    {
+      "id": "SP_girl_wetsuit_extra_west_close",
+      "feature_id": "SP_girl_wetsuit",
+      "kind": "form-only",
+      "requested_camera": {
+        "location": {
+          "x": 500.0,
+          "y": 123980.0,
+          "z": 320.0
+        },
+        "rotation": {
+          "pitch": -10.813510887319588,
+          "yaw": 94.76364169072617,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "eye_local_m": [
+        1239.8,
+        5.0,
+        3.2
+      ],
+      "target_local_m": [
+        1245.8,
+        4.5,
+        2.05
+      ],
+      "purpose": "Show the west side of the seated figure, its legs and fins; the prior east-side view hid the lower body.",
+      "view_scope": "Form-only evidence; not route visibility or acceptance",
+      "accepted": false,
+      "source_hashes": {
+        "pipeline/gis/prepare_m3_coastal_extra_views.py": "14034fcb2d52008c1a544b79f2a0ee3ca3e849e5feaee2c3d1c69c16c340c9af",
+        "manifests/m3-landmark-final-camera-candidates.json": "e5e7e1304e3b7b52ccef1be575870400b28e38c2acb1eb5e0e962ece94e79579",
+        "manifests/route-sculpture-blockouts.json": "585a867edfa63cac92685e9a73fd763dbdf10998abbcb5341099ec87aba4f9a1",
+        "manifests/critical-features.json": "b4b5827c33c6acd711a6a0853c73476eba19a5f8b7862c55c3a710f41a0b3126",
+        "data/derived/terrain_park.npz": "cb0e0a79d7b1e19e3ed4016cea79131f6a54e95ccbabd394f626c2c834c05231"
+      }
+    }
+  ],
+  "input_hashes": {
+    "manifests/m3-coastal-extra-camera-candidates.json": "d5714c548f60ee8b8d2db6b0d0f74e82457db4faa3f2006d36a3c540af9b63b5",
+    "exports/m3-wetsuit-form/664f2d1e0cf2/manifest.json": "986325f9375f6330ead26393f22d79c834787e5356593e9f607b06fe20c6e800"
+  },
+  "scope": "Exact prior camera repeated after the seated-form repair; form-only evidence."
+}

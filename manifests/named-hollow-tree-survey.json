@@ -1,0 +1,18 @@
+{
+  "id": "hollow-tree",
+  "extraction_centre_local_m": [
+    -765.57,
+    485.71
+  ],
+  "extraction_radius_m": 25,
+  "source": "manifests/lidar2022-488000_5461000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 150026,
+  "output": {
+    "path": "data/derived/named-hollow-tree-survey.npz",
+    "sha256": "fc96e2e3b22040bf20f7daa058d1d71f4d8bcc3549722ed185ab61653cdc458a"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-03T05:15:02.159717+00:00",
+  "source_id": "0bc25a7781e7388229b852fa3770bdfdf68654aa94439a6250ebf0cf1f41734f",
+  "generator_sha256": "385898f4c06a803de5226c38853ff9bc77626a6ecdc35d584889d83f701438d3",
+  "authoring": {
+    "revision": "spectral-v1",
+    "resolution": 1024,
+    "seed": 581032,
+    "tile_metres": 32.0,
+    "wind_axis_xy": [
+      0.8,
+      0.6
+    ],
+    "slope_rms": 0.16,
+    "longest_wavelength_metres": 8.0,
+    "shortest_wavelength_metres": 0.28,
+    "bands": [
+      {
+        "wavelength_metres": 2.4,
+        "log_width": 0.52,
+        "weight": 0.75
+      },
+      {
+        "wavelength_metres": 0.75,
+        "log_width": 0.38,
+        "weight": 0.25
+      }
+    ]
+  },
+  "material_layers": [
+    {
+      "axis_xy": [
+        0.8,
+        0.6
+      ],
+      "tile_cm": 3200.0,
+      "strength": 0.85,
+      "flow_world_cm_per_second": [
+        45.0,
+        15.0
+      ],
+      "offset_uv": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "axis_xy": [
+        -0.6,
+        0.8
+      ],
+      "tile_cm": 2170.0,
+      "strength": 0.6,
+      "flow_world_cm_per_second": [
+        22.0,
+        -27.0
+      ],
+      "offset_uv": [
+        0.317,
+        0.619
+      ]
+    },
+    {
+      "axis_xy": [
+        0.28,
+        -0.96
+      ],
+      "tile_cm": 930.0,
+      "strength": 0.3,
+      "flow_world_cm_per_second": [
+        -13.0,
+        23.0
+      ],
+      "offset_uv": [
+        0.743,
+        0.163
+      ]
+    }
+  ],
+  "license": "Original project wave data and texture. No copied image or outside asset.",
+  "method": "Seeded Fourier height spectrum; analytic spectral derivatives; RGB signed normal encoded to UNORM8.",
+  "normal_texture": {
+    "path": "exports/textures/seawall-water/0bc25a7781e7/T_SeawallSpectralWaves_N.png",
+    "sha256": "9b1620e0e96e30e60cd83ba74cd948fd21786c0d48aa024cc9a3284193030873",
+    "bytes": 1015361
+  },
+  "editable_height_source": {
+    "path": "exports/textures/seawall-water/0bc25a7781e7/spectral-height-metres.npz",
+    "sha256": "45ed30d4d457dee9f8b45a1a29476b9f016ea204cbd51afa7a36896ace4bf108",
+    "bytes": 11688554
+  },
+  "source_preview": {
+    "path": "exports/textures/seawall-water/0bc25a7781e7/normal-map-preview.png",
+    "sha256": "8af3b7b9f1e329d265094d11a314e7e4b46feb5f5a2c024eece369812956311d",
+    "bytes": 376059
+  },
+  "source_motion_preview": {
+    "path": "exports/textures/seawall-water/0bc25a7781e7/source-normal-motion.gif",
+    "sha256": "18b95b8e51d4ef309af1c1b3887b2297b8e4d3755978efbc90cb61fd12b68b32",
+    "bytes": 6499680
+  },
+  "resolution": [
+    1024,
+    1024
+  ],
+  "normal_slope_rms": 0.16,
+  "normal_slope_p99": 0.35612992772928137,
+  "height_std_metres": 0.0312732526720976,
+  "periodic_seam": {
+    "x_edge_mean": 0.03273146852202413,
+    "y_edge_mean": 0.03129735481953236,
+    "all_x_mean": 0.0314270483139813,
+    "all_y_mean": 0.02911268925412147,
+    "method": "Periodic finite-difference seam compared with interior texel differences; edge pixels are not duplicates."
+  },
+  "temporal_source_diagnostics": [
+    {
+      "seconds": 0.5,
+      "median_normal_angle_change_deg": 10.01026486191901,
+      "p95_normal_angle_change_deg": 20.91100647549637,
+      "fraction_over_two_degrees": 0.973876953125,
+      "layer_displacements_cm": [
+        23.717082451262844,
+        17.414074767267998,
+        13.209844813622906
+      ]
+    },
+    {
+      "seconds": 1.0,
+      "median_normal_angle_change_deg": 11.53782272456016,
+      "p95_normal_angle_change_deg": 23.87522360207183,
+      "fraction_over_two_degrees": 0.976806640625,
+      "layer_displacements_cm": [
+        47.43416490252569,
+        34.828149534535996,
+        26.419689627245813
+      ]
+    },
+    {
+      "seconds": 2.0,
+      "median_normal_angle_change_deg": 11.62059546853088,
+      "p95_normal_angle_change_deg": 23.847478264307956,
+      "fraction_over_two_degrees": 0.9788818359375,
+      "layer_displacements_cm": [
+        94.86832980505137,
+        69.65629906907199,
+        52.839379254491625
+      ]
+    }
+  ],
+  "diagnostic_limits": "CPU source sampling only. Does not establish engine Time, texture compression, mip behavior, motion appearance or GPU cost.",
+  "expected_bc5_bytes_with_mips": 1398128,
+  "application_test_run": false,
+  "unreal_material_applied": false
+}

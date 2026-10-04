@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-27T18:15:17.932101+00:00",
+  "target_period": "September 2026 condition research for later work; active M1 environmental baseline 2022",
+  "baseline": {
+    "source": "City LiDAR 2022",
+    "capture_dates": [
+      "2022-09-07",
+      "2022-09-09"
+    ],
+    "preserve_outside_explicit_accepted_overrides": true,
+    "current_condition_acceptance": false
+  },
+  "sources": [
+    {
+      "id": "CITY-20250509",
+      "url": "https://parkboardmeetings.vancouver.ca/files/MEMO-StanleyPark-HemlockLooperWildfireRiskMitigationUpdate-20250513.pdf",
+      "document_date": "2025-05-09",
+      "filename_date": "2025-05-13",
+      "period": [
+        "2025-01",
+        "2025-04"
+      ],
+      "verified": "Full text read; pages 1, 2 and 4 visually inspected from the saved original PDF",
+      "rights": "Reference only",
+      "local_download": "Complete through parent browser download",
+      "path": "data/raw/forest-condition/MEMO-StanleyPark-HemlockLooperWildfireRiskMitigationUpdate-20250513.pdf",
+      "sha256": "6ae9ee99d24c843ead57e6089c194ec563362c6f34937946c2e0cebce6f0ee35",
+      "visually_inspected_pages_1_based": [
+        1,
+        2,
+        4
+      ],
+      "map_role": "Completed treatment and planting areas, not canopy removal boundaries",
+      "aerial_base_capture_date": null,
+      "map_coordinate_reference": null
+    },
+    {
+      "id": "CITY-20260521",
+      "url": "https://parkboardmeetings.vancouver.ca/files/MEMO-StanleyParkHemlockLooperWildfireRiskUpdate-20260521.pdf",
+      "document_date": "2026-05-21",
+      "period": [
+        "2026-01",
+        "2026-04"
+      ],
+      "verified": "Primary text read through web tool",
+      "rights": "Reference only",
+      "local_download": "Pending browser download"
+    },
+    {
+      "id": "CITY-FOREST-PROGRESS",
+      "url": "https://vancouver.ca/parks-recreation-culture/stanley-park-forest-management.aspx",
+      "document_date": null,
+      "retrieved_date": "2026-09-27",
+      "verified": "Primary text read; existing phase map is only planned extent",
+      "rights": "Reference only"
+    },
+    {
+      "id": "CITY-FOI-2025-671",
+      "url": "https://vancouver.ca/files/cov/2025-671-release.pdf",
+      "document_date": "2025-10-22",
+      "event_period": [
+        "2025-08-15",
+        "2025-08-22"
+      ],
+      "verified": "Primary text read; photograph/map inspection pending",
+      "rights": "Reference only",
+      "local_download": "Parent browser attempt timed out; no local PDF on 2026-09-27",
+      "last_visual_attempt": {
+        "method": "Web PDF screenshot after reopening the 18-page primary document",
+        "pages_1_based": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "date": "2026-09-27",
+        "result": "All seven pages returned Cache miss. No page image inspected."
+      }
+    },
+    {
+      "id": "CITY-FOI-2025-393",
+      "url": "https://vancouver.ca/files/cov/2025-393-release.pdf",
+      "document_date": "2025-10-30",
+      "event_period": [
+        "2015-01-01",
+        "2025-06-22"
+      ],
+      "verified": "Primary index and selected text read; 115-page file needs visual screening",
+      "rights": "Reference only",
+      "local_download": "HTTP 403; browser download requested from root"
+    }
+  ],
+  "review_areas": [
+    {
+      "id": "FC_CHICKADEE_2024",
+      "short_label": "Chickadee",
+      "trail_names": [
+        "Chickadee Trail"
+      ],
+      "phase": "2024 Phase II",
+      "source_id": "CITY-FOREST-PROGRESS",
+      "completed_period": [
+        "2024-10",
+        "2024-12"
+      ],
+      "condition": "Treatment in the named area is confirmed; crown positions are unknown",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "trail reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "reference_extent_local_m": [
+        48.28680924762739,
+        611.7989130849019,
+        386.67551949084736,
+        857.8763617211953
+      ],
+      "source_edge_ids": [
+        "osm_way_49673601_00_0",
+        "osm_way_49673601_01_0",
+        "osm_way_49673601_02_0",
+        "osm_way_49673601_03_0",
+        "osm_way_1252162612_00_0"
+      ],
+      "reference_length_m": 464.5837106760021
+    },
+    {
+      "id": "FC_MERILEES_2025",
+      "short_label": "Merilees",
+      "trail_names": [
+        "Merilees Trail"
+      ],
+      "phase": "2025 advanced Phase III",
+      "source_id": "CITY-20250509",
+      "completed_period": [
+        "2025-01",
+        "2025-04"
+      ],
+      "condition": "Completed treatment in the named area; opening boundary not established",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "trail reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "reference_extent_local_m": [
+        -939.6201657229103,
+        140.35658036731184,
+        -163.8326196380658,
+        1062.9873953796923
+      ],
+      "source_edge_ids": [
+        "osm_way_88285299_00_0",
+        "osm_way_88285299_01_0",
+        "osm_way_88285299_02_0",
+        "osm_way_367245667_00_0",
+        "osm_way_367245668_00_0"
+      ],
+      "reference_length_m": 1347.88763032217,
+      "source_map_inspection": "Appendix A, PDF page 4 inspected. Named area lies within a completed treatment reference; individual crown changes not shown."
+    },
+    {
+      "id": "FC_RACCOON_2026",
+      "short_label": "Raccoon",
+      "trail_names": [
+        "Raccoon Trail"
+      ],
+      "phase": "2026 Phase III",
+      "source_id": "CITY-20260521",
+      "completed_period": [
+        "2026-01",
+        "2026-04"
+      ],
+      "condition": "Completed treatment in the named area; opening boundary not established",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "trail reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "reference_extent_local_m": [
+        -500.47588103514863,
+        702.8357866425067,
+        -235.60789574857336,
+        791.2637102641165
+      ],
+      "source_edge_ids": [
+        "osm_way_49673496_00_0",
+        "osm_way_49673496_01_0",
+        "osm_way_49673496_02_0",
+        "osm_way_49673496_03_0"
+      ],
+      "reference_length_m": 306.7538937414237
+    },
+    {
+      "id": "FC_LOVERS_2026",
+      "short_label": "Lovers Walk",
+      "trail_names": [
+        "Lovers Walk"
+      ],
+      "phase": "2026 Phase III",
+      "source_id": "CITY-20260521",
+      "completed_period": [
+        "2026-01",
+        "2026-04"
+      ],
+      "condition": "Completed treatment in the named area; opening boundary not established",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "trail reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "reference_extent_local_m": [
+        -992.5286208651378,
+        -273.6868260530755,
+        -299.9750264347531,
+        102.88226947188377
+      ],
+      "source_edge_ids": [
+        "osm_way_41998486_00_0",
+        "osm_way_41998486_01_0",
+        "osm_way_41998486_02_0",
+        "osm_way_41998486_03_0",
+        "osm_way_367243448_00_0",
+        "osm_way_369448967_00_0"
+      ],
+      "reference_length_m": 936.422913056368
+    },
+    {
+      "id": "FC_LEES_CATHEDRAL_2026",
+      "short_label": "Lees / Cathedral",
+      "trail_names": [
+        "Lees Trail",
+        "Cathedral Trail"
+      ],
+      "phase": "2026 Phase III",
+      "source_id": "CITY-20260521",
+      "completed_period": [
+        "2026-01",
+        "2026-04"
+      ],
+      "condition": "Completed treatment in the named area; opening boundary not established",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "trail reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "reference_extent_local_m": [
+        -1024.2107791634044,
+        -715.8994006337598,
+        79.93178277520929,
+        -455.580463508144
+      ],
+      "source_edge_ids": [
+        "osm_way_43184601_00_0",
+        "osm_way_43184601_01_0",
+        "osm_way_43184601_02_0",
+        "osm_way_43184601_03_0",
+        "osm_way_43184601_04_0",
+        "osm_way_43184602_00_0",
+        "osm_way_232370417_00_0",
+        "osm_way_1128478440_00_0",
+        "osm_way_1128478441_00_0"
+      ],
+      "reference_length_m": 1539.0794772513912
+    },
+    {
+      "id": "FC_SOUTH_CREEK_2025",
+      "short_label": "South Creek search",
+      "trail_names": [
+        "South Creek Trail"
+      ],
+      "phase": "2025 one-tree report",
+      "source_id": "CITY-FOI-2025-671",
+      "completed_period": [
+        "2025-08-21",
+        "2025-08-22"
+      ],
+      "condition": "One removed tree is confirmed; exact tree and crown footprint still require review",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "trail reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "reference_extent_local_m": [
+        198.37647814373486,
+        -625.858166590333,
+        550.4912192112533,
+        33.20301196817309
+      ],
+      "source_edge_ids": [
+        "osm_way_45706520_00_0",
+        "osm_way_45706520_01_0",
+        "osm_way_45706520_02_0",
+        "osm_way_369448964_00_0",
+        "osm_way_369448964_01_0",
+        "osm_way_1079017997_00_0",
+        "osm_way_1079017997_01_0",
+        "osm_way_1079017997_02_0",
+        "osm_way_1079017997_03_0",
+        "osm_way_1079017997_04_0",
+        "osm_way_1132139853_00_0",
+        "osm_way_1132139853_01_0",
+        "osm_way_1199239012_00_0",
+        "osm_way_1199239013_00_0"
+      ],
+      "reference_length_m": 891.3688365535545
+    },
+    {
+      "id": "FC_HOLLOW_TREE_2025",
+      "short_label": "Hollow Tree",
+      "phase": "2025 advanced Phase III",
+      "source_id": "CITY-20250509",
+      "completed_period": [
+        "2025-01",
+        "2025-04"
+      ],
+      "condition": "Completed treatment in named area; opening boundary not established",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "named feature reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "osm_name": "Hollow Tree",
+      "reference_extent_local_m": [
+        -765.572228323028,
+        485.7054324876517,
+        -765.572228323028,
+        485.7054324876517
+      ],
+      "source_edge_ids": [
+        "osm_node_2410285536"
+      ],
+      "reference_length_m": 0.0,
+      "source_map_inspection": "Appendix A, PDF page 4 inspected. Named area lies within a completed treatment reference; individual crown changes not shown."
+    },
+    {
+      "id": "FC_NORTH_LAGOON_2025",
+      "short_label": "North Lagoon Drive",
+      "phase": "2025 advanced Phase III",
+      "source_id": "CITY-20250509",
+      "completed_period": [
+        "2025-01",
+        "2025-04"
+      ],
+      "condition": "Completed treatment in named area; opening boundary not established",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "named feature reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "osm_name": "North Lagoon Drive",
+      "reference_extent_local_m": [
+        -482.5389468934154,
+        -769.5756715070456,
+        502.5687973384047,
+        -527.2473905775696
+      ],
+      "source_edge_ids": [
+        "osm_way_49549361",
+        "osm_way_116061592",
+        "osm_way_116061630",
+        "osm_way_368662922",
+        "osm_way_369448969",
+        "osm_way_375504372",
+        "osm_way_479696817",
+        "osm_way_875696498",
+        "osm_way_1038107926"
+      ],
+      "reference_length_m": 1131.4087792532982,
+      "source_map_inspection": "Appendix A, PDF page 4 inspected. Named area lies within a completed treatment reference; individual crown changes not shown."
+    },
+    {
+      "id": "FC_TATLOW_2026",
+      "short_label": "Tatlow Walk",
+      "phase": "2026 Phase III",
+      "source_id": "CITY-FOREST-PROGRESS",
+      "completed_period": [
+        "2026-01",
+        "2026-04"
+      ],
+      "condition": "Completed treatment in named area; opening boundary not established",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "named feature reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "trail_names": [
+        "Tatlow Walk"
+      ],
+      "reference_extent_local_m": [
+        -936.5667151225498,
+        -590.9779692087322,
+        242.91099056467647,
+        152.00587278604507
+      ],
+      "source_edge_ids": [
+        "osm_way_368662919_00_0",
+        "osm_way_368662919_01_0",
+        "osm_way_368662919_02_0",
+        "osm_way_368662930_00_0",
+        "osm_way_368662930_01_0",
+        "osm_way_368662930_02_0",
+        "osm_way_368662930_03_0",
+        "osm_way_368662930_04_0",
+        "osm_way_368662930_05_0",
+        "osm_way_368662930_06_0",
+        "osm_way_1044497055_00_0",
+        "osm_way_1252162605_00_0",
+        "osm_way_1252162605_01_0",
+        "osm_way_1252162606_00_0",
+        "osm_way_1305306982_00_0"
+      ],
+      "reference_length_m": 1457.2813373331749
+    },
+    {
+      "id": "FC_LAKE_2026",
+      "short_label": "Lake Trail",
+      "phase": "2026 Phase III",
+      "source_id": "CITY-FOREST-PROGRESS",
+      "completed_period": [
+        "2026-01",
+        "2026-04"
+      ],
+      "condition": "Completed treatment in named area; opening boundary not established",
+      "condition_confidence": "high for dated treatment in named area",
+      "geometry_confidence": "named feature reference only; not treatment extent",
+      "source_clearing_extent": null,
+      "runtime_override": false,
+      "trail_names": [
+        "Lake Trail"
+      ],
+      "reference_extent_local_m": [
+        -739.2863555173972,
+        102.88226947188377,
+        140.33689798857085,
+        195.61528419610113
+      ],
+      "source_edge_ids": [
+        "osm_way_41998487_00_0",
+        "osm_way_41998492_00_0",
+        "osm_way_41998493_00_0",
+        "osm_way_41998493_01_0",
+        "osm_way_49673492_00_0",
+        "osm_way_49673492_01_0",
+        "osm_way_290605250_00_0",
+        "osm_way_363395764_00_0",
+        "osm_way_363395766_00_0",
+        "osm_way_363395766_01_0",
+        "osm_way_1305306976_00_0",
+        "osm_way_1305306976_01_0"
+      ],
+      "reference_length_m": 978.7567988598939
+    }
+  ],
+  "unlocated_named_areas": [
+    {
+      "name": "Other trails, Phase III Advanced",
+      "source_id": "CITY-20250509",
+      "reason": "Collective label does not identify precise polygons"
+    }
+  ],
+  "overrides": [
+    {
+      "id": "FC_SOUTH_CREEK_TREE_20250821",
+      "apply": false,
+      "operation": "remove_one_identified_tree_only",
+      "source_id": "CITY-FOI-2025-671",
+      "source_pages_pdf_1_based": [
+        3,
+        5,
+        7,
+        16
+      ],
+      "source_locations": [
+        "hooks.implore.contacts",
+        "nozzles.panthers.tester"
+      ],
+      "position_local_m": null,
+      "extent_local_m": null,
+      "source_dimensions": {
+        "species": "Pseudotsuga menziesii",
+        "height_m": 27,
+        "dbh_m": 1.86
+      },
+      "event_date": "2025-08-21",
+      "treatment_log_date": "2025-08-22",
+      "confidence": "Removal confirmed; exact model-tree association unresolved",
+      "reason_not_applied": "Two location phrases need map/photo reconciliation. Canopy envelopes represent clusters, not stems. Do not erase a cluster solely because a tree was removed."
+    }
+  ],
+  "phase_reconciliation": {
+    "completed_area_ha_by_stage": [
+      67,
+      41,
+      44,
+      34
+    ],
+    "sum_ha": 186,
+    "forest_area_ha": 263,
+    "rounded_percent": 71,
+    "tree_treatment_total_by_20260521": 13998,
+    "interpretation": "The omitted 2025 advanced phase explains the earlier difference. Counts include treatment as well as removal and do not specify crown area."
+  },
+  "release_policy": "No report page images, copied text, or unqualified treatment-boundary geometry in runtime. These references do not authorize blanket canopy deletion.",
+  "network_reference": {
+    "path": "data/routes/derived/pedestrian-network-local.geojson",
+    "sha256": "ce57301ae1b43e0070421c839c277b7267c475eaf399baf3501ecea88bf7c401",
+    "rights": "OpenStreetMap ODbL-1.0; same attribution as pedestrian network",
+    "use": "Internal review line positions; no canopy change"
+  },
+  "derived_reference": "data/derived/forest-condition-review.geojson",
+  "additional_osm_reference": {
+    "path": "data/routes/raw/osm/park-map-20260927.osm",
+    "sha256": "bf0ee22b717a95178a6d8f173cb26f69a08a49a51c23e5cba885c6c597de6f25",
+    "rights": "OpenStreetMap ODbL-1.0",
+    "use": "Named landmark and road reference positions; no treatment footprint"
+  },
+  "map_observation_record": "data/raw/forest-condition/city-20250509-map-review.json",
+  "final_bounded_imagery_check": {
+    "id": "CITY-ORTHO-FINAL-20260927",
+    "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets?where=search%28%22orthophoto%22%29&limit=100",
+    "retrieved_date": "2026-09-27",
+    "path": "data/raw/forest-condition/city-orthophoto-catalogue-final-check.json",
+    "sha256": "9104a60e614486eb06a58260436debe972b87ae02d85c61d3a7b1689115b4604",
+    "coverage": "Official City catalogue records matching orthophoto",
+    "newest_published_orthophoto_year": 2022,
+    "later_years_checked": [
+      2024,
+      2025,
+      2026
+    ],
+    "later_dataset_found": false,
+    "intended_use": "Bounded check for later public City imagery; not proof that no later image exists elsewhere",
+    "rights": "Catalogue reference; City open-data terms",
+    "focused_photograph_check": "No dated official after-treatment west-shore/Third Beach photo suitable for tracing a changed opening was found in the bounded check",
+    "runtime_geometry_changes": 0
+  },
+  "m1_limit": "M1 keeps the measured 2022 canopy baseline and all 10 treatment flags. No current/September 2026 forest claim and no unsupported crown changes. Later reconstruction requires usable references.",
+  "m1_reference_period": "manifests/m1-reference-period.json",
+  "m1_current_condition_gate": "Superseded by explicit planning amendment; not a user approval. Current condition remains unverified."
+}

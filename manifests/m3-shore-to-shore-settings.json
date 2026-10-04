@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "feature_id": "SP_shore_to_shore",
+  "source_manifest": "manifests/route-sculpture-blockouts.json",
+  "reference_sources": [
+    {"url":"https://shoretoshore.ca/","accessed":"2026-10-03","supported":"The artist describes a 14-foot bronze composition of Portuguese Joe and his two Coast Salish wives on Portuguese stone. This supports the three-person count and broad material identity."},
+    {"url":"https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=596","supported":"Existing source manifest identity reference; not newly used as a dimensional survey."}
+  ],
+  "materials": [{"name":"Bronze","rgb":[0.18,0.22,0.18],"roughness":0.64,"metallic":0.6}],
+  "figures": [
+    {"index":0,"garment":"long","pose":"hands together at waist"},
+    {"index":1,"garment":"long","pose":"one bent forearm across waist"},
+    {"index":2,"garment":"coat","pose":"arms bent at waist"}
+  ],
+  "estimated_geometry": "Original three estimated head centres are retained. Human body width, garments, arms, fingers, face volumes and outward-facing orientation are new visual estimates. Connected human anatomy is the review objective, not exact individual portraits or sculptural poses.",
+  "limits": "The measured circular podium, tall central form and observed upper height are retained. Three original narrow body/head envelopes are hidden reversibly. No source artwork image, carving pattern, stone inscription or texture is copied. New render forms have no collision. Exact pose, carving, faces and garments are not surveyed or accepted.",
+  "visual_acceptance": false
+}

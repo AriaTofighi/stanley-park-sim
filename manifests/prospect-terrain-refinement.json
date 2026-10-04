@@ -1,0 +1,30 @@
+{
+  "source": {
+    "path": "data/derived/named-prospect-lookout-survey.npz",
+    "sha256": "1e92e3ff4d35c0f2e9700497f49d5884d9886b94d613017e55ef5eb763e0a975"
+  },
+  "floor": {
+    "path": "data/derived/named-features/SM_ProspectLookout_TerraceSurvey.npz",
+    "sha256": "f5474864f0ac0af1eb98f45db092e3b06484dac7172817ee55bc8e2377e2ffa2"
+  },
+  "bounds_local_xy_m": [
+    48.0,
+    1230.0,
+    89.0,
+    1265.0
+  ],
+  "cell_m": 0.4,
+  "raw_ground_returns": 25644,
+  "source_samples": 5475,
+  "multilevel_cells": 549,
+  "single_return_cells": 1385,
+  "boundary_controls": 302,
+  "method": "Median of highest height group with at least two returns per 0.4 m cell; retain densest group if no group has two returns. Groups split at 1 m height gaps. Explicit terrace boundary controls at 0.2 m spacing and every fitted profile break.",
+  "limitations": "A 2.5D cliff envelope cannot represent overhangs. Boundary controls join the stable M1 floor and are not independent measured control. No application acceptance.",
+  "numerical_acceptance": false,
+  "live_acceptance": false,
+  "output": {
+    "path": "data/derived/prospect-terrain-refinement-samples.npz",
+    "sha256": "3401cfd29dcebe8bca8f95a12c44a24e97b42d28089714562bdb314943af6623"
+  }
+}

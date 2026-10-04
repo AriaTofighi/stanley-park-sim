@@ -1,0 +1,18 @@
+{
+  "id": "salmon-lower-pool",
+  "extraction_centre_local_m": [
+    860,
+    -455
+  ],
+  "extraction_radius_m": 45,
+  "source": "manifests/lidar2022-490000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 570412,
+  "output": {
+    "path": "data/derived/named-salmon-lower-pool-survey.npz",
+    "sha256": "06f26419b34d860e3249c78bf50446ffcb21d6cdd06fffe9dc0eab7107a3968c"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "yacht-port-west",
+  "extraction_centre_local_m": [
+    1240,
+    -790
+  ],
+  "extraction_radius_m": 250,
+  "source": "manifests/lidar2022-490000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 3742237,
+  "output": {
+    "path": "data/derived/named-yacht-port-west-survey.npz",
+    "sha256": "16d10ee2e1bb0a0b1307f046a952190404590b5dd481378784f96c74adcddde1"
+  }
+}

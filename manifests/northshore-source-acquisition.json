@@ -1,0 +1,71 @@
+{
+  "acquired_utc": "2026-09-27T20:02:39.982192+00:00",
+  "files": [
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-123.142,49.300,-123.107,49.325",
+      "path": "data\\raw\\northshore\\osm-west-20260927.osm",
+      "bytes": 7011818,
+      "sha256": "8e4e54e07289b40d79f73ec13dcd37688d4d5b7a699e190cb14f9ab981c83b23",
+      "status": "saved",
+      "incorporation": "ODbL source data"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-123.107,49.299,-123.080,49.321",
+      "path": "data\\raw\\northshore\\osm-central-20260927.osm",
+      "bytes": 4383056,
+      "sha256": "add33c46902c88f742b5d6939139e538e5e8257212e9d1004d6e447e89010473",
+      "status": "saved",
+      "incorporation": "ODbL source data"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-123.080,49.296,-123.055,49.316",
+      "path": "data\\raw\\northshore\\osm-east-20260927.osm",
+      "bytes": 5646641,
+      "sha256": "fd98581d839cebde339e65d28b2ab80f3c57fb7ef66bcd084cc5ee70f69c19b0",
+      "status": "saved",
+      "incorporation": "ODbL source data"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-123.055,49.294,-123.025,49.312",
+      "path": "data\\raw\\northshore\\osm-lynn-20260927.osm",
+      "bytes": 5061791,
+      "sha256": "326f14504664cac1c4d1b81b5866eaf604bf14b9ad1ab4cb909428a395880573",
+      "status": "saved",
+      "incorporation": "ODbL source data"
+    },
+    {
+      "url": "https://www.richardson.ca/wp-content/uploads/2015/12/Richardson-Vancouver-TerminalGrain-Storage-Project-Proj.pdf",
+      "path": "data\\raw\\northshore\\richardson-storage-project.pdf",
+      "bytes": 615997,
+      "sha256": "5a9da1ff52e1136d41db5a80b41337f0e70b0881b3acdbf71fdfa9bda1dd37e3",
+      "status": "saved",
+      "incorporation": "Research reference only; not a game asset"
+    },
+    {
+      "url": "https://www.supremehm.com/wp-content/uploads/2015/07/SST-Project-Sheet-Seaspan-Goliath.pdf",
+      "path": "data\\raw\\northshore\\seaspan-goliath-project.pdf",
+      "bytes": 285928,
+      "sha256": "a9ef5e967c0617b55a768ef417f1e86218679b98c1f661726feec96c0f18c927",
+      "status": "saved",
+      "incorporation": "Research reference only; not a game asset"
+    },
+    {
+      "url": "https://www.fibrecoterminalenhancement.com/Project%20Overview%20-%20Permit%20Application%20March%202017%20R2%20.pdf",
+      "path": "data\\raw\\northshore\\fibreco-project-2017.pdf",
+      "bytes": 41927,
+      "sha256": "583a1df043a8b780662733d829aad39e30b87456191e447c22ca244867be81ef",
+      "status": "not_a_pdf",
+      "error": "The old source domain now returns HTML. No evidence extracted.",
+      "incorporation": "Excluded unavailable-source response"
+    },
+    {
+      "url": "https://www.kiewit.com/wp-content/uploads/2023/04/Insert-Foreign-Direct-Investment_230428a_av.pdf",
+      "path": "data/raw/northshore/kiewit-g3-primary.pdf",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "scope": "Seven finite dominant industrial groups along North Shore; all other acquired map features are unused",
+  "licence": "OSM ODbL-1.0; primary project documents reference only",
+  "accepted": false
+}

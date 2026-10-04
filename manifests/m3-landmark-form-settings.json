@@ -1,0 +1,43 @@
+{
+  "revision": "m3-original-landmark-forms-r1",
+  "source_period": "2022 City survey; current registry and inspected reference photos",
+  "target_period": "September 2026",
+  "rights": "Original mesh interpretation. No source photograph, artwork texture or inscription is distributed. City survey derivatives use OGL-Vancouver; OSM point metadata use ODbL.",
+  "limits": "Source-informed interpretation, not an exact artwork replica. Pose and composition follow inspected photographs. Facial likeness, lettering, minor carving, exact size and orientation remain estimates. Five added forms have no new gameplay collision. Original Empress collision remains active while only its coarse envelope is hidden.",
+  "survey_manifests": ["manifests/named-m3-memorials-survey.json", "manifests/named-m3-aerodynamic-survey.json", "manifests/named-m3-chehalis-survey.json"],
+  "materials": [
+    {"name":"Bronze","rgb":[0.105,0.135,0.105],"metallic":0.7,"roughness":0.48},
+    {"name":"Granite","rgb":[0.43,0.44,0.40],"metallic":0,"roughness":0.88},
+    {"name":"DarkRelief","rgb":[0.035,0.043,0.032],"metallic":0.6,"roughness":0.50},
+    {"name":"IvoryPaint","rgb":[0.76,0.77,0.65],"metallic":0.1,"roughness":0.58},
+    {"name":"RedPaint","rgb":[0.40,0.026,0.018],"metallic":0.1,"roughness":0.52},
+    {"name":"GreenPaint","rgb":[0.019,0.18,0.06],"metallic":0.1,"roughness":0.55},
+    {"name":"BluePaint","rgb":[0.31,0.57,0.65],"metallic":0.2,"roughness":0.48}
+  ],
+  "forms": [
+    {"id":"SP_lord_stanley","form":"lord","position_local_m":[600.74,-539.62],"yaw_degrees":-14,
+      "sources":["https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=84","https://www.destinationvancouver.com/things-to-do/listings/lord-stanley-statue","https://www.openstreetmap.org/node/3677399686"],
+      "composition":"Bearded bronze man in formal coat with both open arms raised, left arm higher, on stepped granite pedestal.",
+      "placement_basis":"Provisional OSM point, read through Mapcarta. Registry differs by about 60 m. No unambiguous survey identity; placement acceptance remains false.","size_basis":"Estimated 4.99 m full height; no survey accuracy claim."},
+    {"id":"SP_robert_burns","form":"burns","position_local_m":[609.36,-597.88],"yaw_degrees":-14,
+      "sources":["https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=83","https://www.heritagesitefinder.ca/location/robert-burns-monument-vancouver-bc"],
+      "composition":"Standing bronze figure with folded arms, long coat, a forward leg, high tapered granite pedestal and dark front plaque.",
+      "placement_basis":"VHF map point agrees with isolated pale square plinth and dark upper returns in the 2022 survey crop.","size_basis":"Estimated 5.8 m full height. Base and figure proportions from inspected Chimp Photo Club image."},
+    {"id":"SP_queen_victoria","form":"victoria","position_local_m":[657.13,-596.52],"yaw_degrees":-14,
+      "sources":["https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=82","https://www.heritagesitefinder.ca/location/queen-victoria-memorial-drinking-fountain-vancouver-bc"],
+      "composition":"Broad granite steps and side seats, raised central memorial with bronze plaque, oval cameo and projecting demi-lune basin.",
+      "placement_basis":"VHF map point, 23 m east of registry; pale linear survey return cluster supports the corrected vicinity. Exact outline remains estimated.","size_basis":"Estimated 5.5 m width and 3.5 m height from the inspected photo."},
+    {"id":"ART_445","form":"aerodynamic","position_local_m":[488,-878],"yaw_degrees":20,
+      "sources":["https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=445","https://vancouver.ca/files/cov/public-art-brochure-aerodynamic-forms-in-space.PDF","https://commons.wikimedia.org/wiki/File:Public_art.jpg"],
+      "composition":"Near-vertical toy glider, inclined white base, wings, checkered tail, red wheel and propeller, thin pale blue tension struts, round two-level base.",
+      "placement_basis":"Round pale base and isolated rising returns near registry in the 2022 survey; centre estimated from crop to 1 m.","size_basis":"City brochure states 35 feet; model height 10.668 m including propeller radius."},
+    {"id":"ART_96","form":"chehalis","position_local_m":[1824.76,-292.64],"yaw_degrees":-20,
+      "sources":["https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=96","https://www.heritagesitefinder.ca/location/chehalis-cross","https://www.openstreetmap.org/node/5237345536"],
+      "composition":"Pale Celtic cross with open ring quadrants, long tapering shaft and stepped granite inscription base.",
+      "placement_basis":"Provisional OSM point, read through Mapcarta, 11 m from registry. Dense overhead tree returns prevent a clear airborne survey identity.","size_basis":"Estimated 4.32 m overall height from the inspected Jarmila Stokova photograph."},
+    {"id":"SP_empress_japan","form":"dragon","position_local_m":[1203.55,11.24,5.12],"yaw_degrees":-14,
+      "sources":["manifests/route-sculpture-blockouts.json","https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=98","https://www.destinationvancouver.com/things-to-do/listings/s-s-empress-of-japan-figurehead-replica"],
+      "composition":"Rising green dragon with red mane, pale belly, open jaws, teeth, fangs, eyes, curled whiskers and paired foreclaws.",
+      "placement_basis":"Measured M1 figure envelope and retained stone base. Replaces only four visible coarse envelopes; existing plinth, support and collision remain.","size_basis":"Approximate 5.5 m long by 1.5 m high from measured survey extent. Hidden carved details remain original interpretation."}
+  ]
+}

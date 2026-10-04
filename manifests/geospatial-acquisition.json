@@ -1,0 +1,76 @@
+{
+  "retrieved_utc": "2026-09-26T22:01:26.822704+00:00",
+  "raw_limit_bytes": 6000000000,
+  "records": [
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/parks-polygon-representation",
+      "path": "data\\raw\\city\\parks-polygon-representation-metadata.json",
+      "bytes": 4343,
+      "sha256": "7ee261f6e79e80a29500285f926bdde536d2b50f37207ddc7b3f1247f2c4d3ab"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/shoreline-2002",
+      "path": "data\\raw\\city\\shoreline-2002-metadata.json",
+      "bytes": 3055,
+      "sha256": "d77c60f587dd7d6013061b2241440e5b037626444f20d958e00b425cb5dd679b"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/lidar-2022",
+      "path": "data\\raw\\city\\lidar-2022-metadata.json",
+      "bytes": 5029,
+      "sha256": "a65db38d27720fa5e9b3d3f13a3627b4918f8474b17c80a6ad53abf04215fb1e"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/digital-elevation-model",
+      "path": "data\\raw\\city\\digital-elevation-model-metadata.json",
+      "bytes": 2990,
+      "sha256": "95692214f9f39a74c23376a046bb0aff26b7860a1251b085706e4cb55c7a6fc2"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/lidar-2013",
+      "path": "data\\raw\\city\\lidar-2013-metadata.json",
+      "bytes": 4961,
+      "sha256": "d473d8490f73fdb5e3d12d0c191a1a03776210424985d6e95805e895bea34894"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/parks-polygon-representation/records?limit=100&offset=0&where=park_name%3D%27Stanley+Park%27",
+      "path": "data\\raw\\city\\parks-polygon-representation-records-0.json",
+      "bytes": 147675,
+      "sha256": "20e84ba0af0515f4d294744fa9483d4d09b55a7803f1205be8d921836e799dfd"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/shoreline-2002/records?limit=100&offset=0",
+      "path": "data\\raw\\city\\shoreline-2002-records-0.json",
+      "bytes": 1238787,
+      "sha256": "37a8d7a8dd128aa03e5301f29cc20a2615f67899c36a019072c407ea318445ec"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/lidar-2022/records?limit=100&offset=0",
+      "path": "data\\raw\\city\\lidar-2022-records-0.json",
+      "bytes": 49653,
+      "sha256": "6294575efce189acd5fd0955e8ffa3c2b13c98b2241aa4e5f5615ab2617b7ef2"
+    },
+    {
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/lidar-2022/records?limit=100&offset=100",
+      "path": "data\\raw\\city\\lidar-2022-records-100.json",
+      "bytes": 40237,
+      "sha256": "df01ab0fe97b91e870f578b2789df57a2cda11c6cfeff93b3ec91b15bb8b1f66"
+    }
+  ],
+  "park_area_projected_m2": 4180508.074868326,
+  "park_bounds_utm": [
+    488372.01415476145,
+    5459668.797526026,
+    491550.30870660266,
+    5462383.164909175
+  ],
+  "park_bounds_local": [
+    -1227.9858452385524,
+    -1431.2024739738554,
+    1950.3087066026637,
+    1283.1649091746658
+  ],
+  "licence": "Open Government Licence - Vancouver",
+  "licence_url": "https://opendata.vancouver.ca/pages/licence/",
+  "attribution": "Contains information licensed under the Open Government Licence – Vancouver."
+}

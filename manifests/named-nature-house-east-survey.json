@@ -1,0 +1,18 @@
+{
+  "id": "nature-house-east",
+  "extraction_centre_local_m": [
+    376,
+    -908
+  ],
+  "extraction_radius_m": 50,
+  "source": "manifests/lidar2022-490000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 112745,
+  "output": {
+    "path": "data/derived/named-nature-house-east-survey.npz",
+    "sha256": "8d9f5705cb6a20a95ebe3841e06bafc2b9735ab8aee6d0142824db5c8ce5094d"
+  }
+}

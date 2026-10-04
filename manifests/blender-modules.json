@@ -1,0 +1,72 @@
+{
+  "source": "blender\\StanleyPark_Seawall.blend",
+  "source_before_bytes": 148711558,
+  "source_after_bytes": 148711558,
+  "assembly": "blender\\StanleyPark_Assembly.blend",
+  "modules": [
+    {
+      "file": "blender/modules/Terrain_Water.blend",
+      "collection": "MODULE_Terrain_Water",
+      "objects": 191,
+      "foliage": false,
+      "excluded": false,
+      "bytes": 32275767
+    },
+    {
+      "file": "blender/modules/Sites_Details.blend",
+      "collection": "MODULE_Sites_Details",
+      "objects": 840,
+      "foliage": false,
+      "excluded": false,
+      "bytes": 23579984
+    },
+    {
+      "file": "blender/modules/Routes_Ground.blend",
+      "collection": "MODULE_Routes_Ground",
+      "objects": 263,
+      "foliage": false,
+      "excluded": false,
+      "bytes": 6493070
+    },
+    {
+      "file": "blender/modules/Retired_Reference.blend",
+      "collection": "MODULE_Retired_Reference",
+      "objects": 1759,
+      "foliage": false,
+      "excluded": true,
+      "bytes": 31906132
+    },
+    {
+      "file": "blender/modules/SeawallTrees_0551a03260b4.blend",
+      "collection": "MODULE_SeawallTrees_0551a03260b4",
+      "objects": 682,
+      "foliage": true,
+      "excluded": true,
+      "bytes": 32387610
+    },
+    {
+      "file": "blender/modules/Shore_Edges.blend",
+      "collection": "MODULE_Shore_Edges",
+      "objects": 2868,
+      "foliage": false,
+      "excluded": false,
+      "bytes": 2330617
+    },
+    {
+      "file": "blender/modules/M3Forest_659dc73e2ffc.blend",
+      "collection": "MODULE_M3Forest_659dc73e2ffc",
+      "objects": 373,
+      "foliage": true,
+      "excluded": true,
+      "bytes": 29233831
+    },
+    {
+      "file": "blender/modules/M3CrownRepair_a0f7b40568c5.blend",
+      "collection": "MODULE_M3CrownRepair_a0f7b40568c5",
+      "objects": 1002,
+      "foliage": true,
+      "excluded": true,
+      "bytes": 33374235
+    }
+  ]
+}

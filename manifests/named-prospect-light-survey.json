@@ -1,0 +1,18 @@
+{
+  "id": "prospect-light",
+  "extraction_centre_local_m": [
+    122.7,
+    1271.6
+  ],
+  "extraction_radius_m": 15,
+  "source": "manifests/lidar2022-489000_5462000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 38025,
+  "output": {
+    "path": "data/derived/named-prospect-light-survey.npz",
+    "sha256": "801bdce5a1025e1f90b21d5f3934d5f722e4a4a6d105b474d72f24d44b42a17b"
+  }
+}

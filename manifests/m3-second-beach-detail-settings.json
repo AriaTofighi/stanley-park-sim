@@ -1,0 +1,21 @@
+{
+  "revision": "m3-second-beach-facade-r1",
+  "limits": "Original interpretation of the visible concession canopy and cladding. Curve picks follow the 2022 City orthophoto to about 0.5 m; posts, beam sizes, façade openings and colours are estimates from the inspected 2024 photo article. Existing measured roof geometry and all original source geometry, transforms and collision remain unchanged. Original estimated wall envelopes are hidden reversibly and replaced by a copy with the canopy front opened. Exact inscriptions, minor fittings, furniture and interior details are not reproduced.",
+  "reference_page": "https://burrardbulletin.ca/second-beach-vancouver/",
+  "reference_credit": "Burrard Bulletin, JD, published 18 July 2024, updated 25 February 2025. Reference review only; no source photo is a runtime texture.",
+  "reference_files": ["data/references/m3-landmarks/second-beach-concession-burrard.jpg", "data/references/m3-landmarks/second-beach-restroom-burrard.jpg", "evidence/corridor/ortho-utm/named-second-pool.png", "evidence/corridor/ortho-utm/named-second-pool.json"],
+  "source_roof": "SM_Named_SecondPoolFacilities_RoofSurvey",
+  "source_walls": ["SM_Named_SecondPoolFacilities_WallsReview", "SM_Named_SecondPoolFacilities_RoofStepClosures"],
+  "canopy_outer_curve_local_xy_m": [[-571.9,-762.4],[-571.0,-765.0],[-570.0,-767.5],[-568.8,-770.3],[-567.3,-773.0],[-565.7,-775.7],[-563.5,-778.1],[-561.3,-780.4],[-558.8,-782.5],[-556.3,-784.3],[-553.6,-786.1]],
+  "canopy_depth_m": 4.7,
+  "column_radius_m": 0.07,
+  "beam_width_m": 0.16,
+  "beam_height_m": 0.24,
+  "materials": [
+    {"name":"Cladding","rgb":[0.30,0.34,0.36],"roughness":0.72,"metallic":0.05},
+    {"name":"PaleFrame","rgb":[0.64,0.66,0.63],"roughness":0.58,"metallic":0.18},
+    {"name":"Opening","rgb":[0.018,0.025,0.029],"roughness":0.85,"metallic":0},
+    {"name":"BluePanel","rgb":[0.18,0.27,0.35],"roughness":0.65,"metallic":0},
+    {"name":"CladdingSeam","rgb":[0.20,0.235,0.25],"roughness":0.77,"metallic":0.04}
+  ]
+}

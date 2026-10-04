@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "views": [
+    {
+      "id": "ART_94_front_form_only",
+      "feature_id": "ART_94",
+      "kind": "form-only",
+      "name": "Beaver Crest natural wood figure stack",
+      "source_manifest": "exports/m3-landmark-detail/c96cbc4dd5e2/manifest.json",
+      "source_manifest_sha256": "a386fa08b1e2f51fefc478c0ffd866a6fb613f84ce77fa841a9f1760cb50cce7",
+      "source_asset_names": [
+        "SM_M3Detail_beaver_c96cbc4dd5e2"
+      ],
+      "requested_camera": {
+        "location": {
+          "x": -35356.06458861344,
+          "y": 161948.43847692513,
+          "z": 635.8614742159846
+        },
+        "rotation": {
+          "pitch": -1.1250706096784313,
+          "yaw": -122.00000000000036,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "camera_local_m": [
+        1619.4843847692514,
+        -353.56064588613435,
+        6.358614742159846
+      ],
+      "target_local_m": [
+        1612.7,
+        -357.8,
+        6.201505057215693
+      ],
+      "camera_derivation": "Eye 8 m in front of the current source face, using build rotation 122 degrees and asset bounds. Aim at half the complete height.",
+      "view_scope": "Form-only review. Does not prove route visibility. Actual image must resolve tree occlusion.",
+      "inspected": false,
+      "accepted": false
+    }
+  ],
+  "input_hashes": {
+    "exports/m3-landmark-detail/c96cbc4dd5e2/manifest.json": "a386fa08b1e2f51fefc478c0ffd866a6fb613f84ce77fa841a9f1760cb50cce7",
+    "exports/m3-landmark-detail/latest.json": "159234ab8f959cf3aa37c4c6d4eaddb5e529aa99e574681d8feea4d8aced0f1c",
+    "pipeline/blender/build_m3_landmark_detail.py": "a4be67c98cea0473fb70c4d85c69ec4ab2f0d52b8b97ef6fea631a10939eaf0b"
+  }
+}

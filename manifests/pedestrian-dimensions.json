@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "units": "metres",
+  "status": "editable_blockout_estimates_not_measured_widths",
+  "defaults": {
+    "paved_walk": 2.4,
+    "forest_walk": 2.4,
+    "steps": 1.8,
+    "shared": 3.0,
+    "unknown_walk": 2.4
+  },
+  "width_uncertainty_m": 1.0,
+  "use_osm_width_tags": true,
+  "way_overrides": {},
+  "note": "OSM width tags are contributor estimates unless a measurement source is supplied. A width tag does not pass the 0.10m target. Each way override can replace width_m and add source_ids and a note."
+}

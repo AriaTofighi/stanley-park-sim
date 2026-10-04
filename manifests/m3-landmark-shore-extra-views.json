@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "owner": "m3_shore_edges",
+  "input_hashes": {
+    "manifests/m3-landmark-final-camera-candidates.json": "e5e7e1304e3b7b52ccef1be575870400b28e38c2acb1eb5e0e962ece94e79579",
+    "manifests/air-india-blockout.json": "a8346832da59ecb1e1fba902f000123e0a01af03c0f7229ea444caacc2883813",
+    "manifests/nature-house-threshold.json": "4811a2181f8bbb249b7a3af980a93ebf81284180a8b3094db761277db58784a0",
+    "manifests/lagoon-structure-blockouts.json": "4f801064d341b56f5859c31f4432ace2ecf0441b1c2edcee3d48449c00f79e11",
+    "exports/m3-forest/659dc73e2ffc/manifest.json": "8e62f61712836fa3a74bada64a16ecfbebf56ec418588c26e1f8cf0c39ab74e5",
+    "evidence/m3-views/m3-v3-landmark-final/source-binding.json": "d16fb3804853ee81bf0fc08e6f7a16bfa2d671a0010caa65041d7098074162cf",
+    "evidence/m3-inland-roof-visibility.json": "d32bd0cb0ba636dedd083cd42a57440775ff6367e740680518a902e367d397a4",
+    "data/derived/paved-circuit-runtime.json": "4b65e26338d4811b02400328cb80312daafd5887770e4f68646948616b10b8fc"
+  },
+  "views": [
+    {
+      "id": "SP_air_india_form_north_clear",
+      "feature_id": "SP_air_india",
+      "kind": "form-only",
+      "requested_camera": {
+        "location": {
+          "x": -95206.22253417969,
+          "y": -45490.187072753906,
+          "z": 1341.4267778396606
+        },
+        "rotation": {
+          "pitch": -18.43494882292201,
+          "yaw": 180.0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        -454.90187072753906,
+        -970.0622253417969,
+        7.4142677783966064
+      ],
+      "purpose": "Check the separate main wall and low seat arc from their north side. The original form camera was at local [-429.90,-978.81,10.41] beside source tree lidar2022_489000_5460000:275 at [-432.5,-977.5]. This camera uses the actual landmark centre and avoids that trunk. The nearest north-side source stems lie to either side of the line of sight. Actual visibility still needs image review.",
+      "view_scope": "Supplemental form review only; not route visibility proof."
+    },
+    {
+      "id": "SP_nature_house_form_lagoon_lower",
+      "feature_id": "SP_nature_house",
+      "kind": "form-only",
+      "requested_camera": {
+        "location": {
+          "x": -88622.62573242188,
+          "y": 37333.40606689453,
+          "z": 371.5400040149689
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 168.6900675259798,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        378.3340606689453,
+        -911.2262573242188,
+        3.7154000401496887
+      ],
+      "purpose": "Check the lower facade from the lagoon side at the source building centre height. The first form view was from the upper rear deck and could not show the lower wall. The source facade spans local x 362.92 to 393.73, y -919.36 to -902.94, and z 1.35 to 4.79 m.",
+      "view_scope": "Supplemental form review only; not route visibility proof."
+    },
+    {
+      "id": "SP_teahouse_route_roof_m290",
+      "feature_id": "SP_teahouse",
+      "kind": "route",
+      "station_m": 6602.581949812379,
+      "requested_camera": {
+        "location": {
+          "x": 17928.22277576793,
+          "y": -96350.90045958853,
+          "z": 527.7796743107765
+        },
+        "rotation": {
+          "pitch": 2.9106295696801987,
+          "yaw": -170.73610412448826,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        -1017.3398651626021,
+        -150.74712211382115,
+        22.279494593495933
+      ],
+      "purpose": "Check the source roof from the actual route, 1.65 m above the measured path. Terrain screening gives 246 clear roof targets out of 246 here. Vegetation and other structures can still block this image. This camera widens the original short interval; it is not a form-only view.",
+      "view_scope": "Actual route candidate; visibility requires image review."
+    },
+    {
+      "id": "SP_teahouse_route_roof_m190",
+      "feature_id": "SP_teahouse",
+      "kind": "route",
+      "station_m": 6702.581949812379,
+      "requested_camera": {
+        "location": {
+          "x": 7942.950535068323,
+          "y": -96559.63736840819,
+          "z": 528.1460551760885
+        },
+        "rotation": {
+          "pitch": 4.79885769310049,
+          "yaw": -166.9837898527386,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        -1017.4106652054801,
+        -144.71351,
+        24.595010136986303
+      ],
+      "purpose": "Check the source roof from the actual route, 1.65 m above the measured path. Terrain screening gives 73 clear roof targets out of 246 here. Vegetation and other structures can still block this image. This camera widens the original short interval; it is not a form-only view.",
+      "view_scope": "Actual route candidate; visibility requires image review."
+    },
+    {
+      "id": "SP_third_beach_route_roof_m130",
+      "feature_id": "SP_third_beach",
+      "kind": "route",
+      "station_m": 6576.620849774728,
+      "requested_camera": {
+        "location": {
+          "x": 20488.15441312282,
+          "y": -96583.28779820734,
+          "z": 510.49142028566587
+        },
+        "rotation": {
+          "pitch": 3.5332604889518318,
+          "yaw": 164.91210737726203,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        -928.2861661428572,
+        65.61023742857144,
+        14.011288857142853
+      ],
+      "purpose": "Check the source roof from the actual route, 1.65 m above the measured path. Terrain screening gives 70 clear roof targets out of 70 here. Vegetation and other structures can still block this image. This camera widens the original short interval; it is not a form-only view.",
+      "view_scope": "Actual route candidate; visibility requires image review."
+    },
+    {
+      "id": "SP_third_beach_route_roof_170",
+      "feature_id": "SP_third_beach",
+      "kind": "route",
+      "station_m": 6876.620849774728,
+      "requested_camera": {
+        "location": {
+          "x": -7639.105632027178,
+          "y": -102306.88355334723,
+          "z": 462.8656088076575
+        },
+        "rotation": {
+          "pitch": 3.1456138775985045,
+          "yaw": 33.72221849140285,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "target_local_m": [
+        -928.2861661428572,
+        65.61023742857144,
+        14.011288857142853
+      ],
+      "purpose": "Check the source roof from the actual route, 1.65 m above the measured path. Terrain screening gives 70 clear roof targets out of 70 here. Vegetation and other structures can still block this image. This camera widens the original short interval; it is not a form-only view.",
+      "view_scope": "Actual route candidate; visibility requires image review."
+    }
+  ]
+}

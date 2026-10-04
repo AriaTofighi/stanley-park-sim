@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "revision": "nature-house-threshold-r1",
+  "assets": [
+    {
+      "name": "SM_NatureHouse_RearDeckThreshold",
+      "feature_id": "SP_nature_house",
+      "mesh_path": "data/derived/nature-house-threshold/SM_NatureHouse_RearDeckThreshold.npz",
+      "sha256": "88086c8d208114305ca7357463780dc5a769d69e828b51369ca1cb6a45ac1722",
+      "material": "concrete",
+      "color": [
+        0.49,
+        0.49,
+        0.45
+      ],
+      "collision": "complex",
+      "vertices": 2188,
+      "triangles": 4372,
+      "bounds_min_m": [
+        365.23,
+        -919.5675008499153,
+        4.508382564279006
+      ],
+      "bounds_max_m": [
+        393.8030985450228,
+        -909.32,
+        4.951609404030561
+      ],
+      "collision_reason": "Closed 0.22 m rear threshold; top meets measured deck and actual exported upper-ground triangle planes plus 0.025 m. No side ramp or lower-level access claim."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_nature_house",
+      "name": "Nature House upper rear deck threshold",
+      "sources": [
+        "manifests/lagoon-structure-blockouts.json",
+        "manifests/nature-house-terrain-refinement.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          379.48,
+          -914.34
+        ],
+        "terrain_inputs": [
+          {
+            "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+            "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+          }
+        ],
+        "sampled_stations": 547,
+        "maximum_crossfall_height_m": 0.12762154843723916
+      },
+      "estimates": {
+        "threshold_width_m": 0.22,
+        "closure_depth_m": 0.26,
+        "method": "Bounded M1 seam closure. Long rear upper-ground edge only; outer samples include terrain-triangle intersections. Geometry is a contact repair, not a survey of a separate real curb."
+      },
+      "limits": "The front and side retaining edges remain part of the closed building. Detailed edge railing and exact accessibility grades need live/source review. This threshold does not create a ramp down the western side.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    }
+  ],
+  "acceptance": false,
+  "reference_rights": "City survey derivative OGL-Vancouver",
+  "terrain_inputs": [
+    {
+      "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+      "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+    }
+  ]
+}

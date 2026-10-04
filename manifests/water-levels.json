@@ -1,0 +1,77 @@
+{
+  "vertical_datum": "CGVD2013(CGG2013)",
+  "ocean": {
+    "height_m": 0.20452,
+    "scenario": "Fixed mean-water display; no tide simulation",
+    "reference_epoch": 2010,
+    "station": {
+      "StationID": "15",
+      "Station": "Vancouver",
+      "Longitude": "-123.11",
+      "Latitude": "49.287",
+      "Province": "BC",
+      "Country": "Canada",
+      "Tide_Gauge_ID": "7735",
+      "CVD_Surface_Used": "CANWEST2015v1",
+      "MWL_NAD83__m_": "-18.668",
+      "MWL_CGG2013__m_": "0.20452",
+      "MWL_CGVD28__m_": "0.077007",
+      "HHWLT_NAD83__m_": "-16.7153",
+      "HHWLT_CGG2013__m_": "2.15722",
+      "HHWLT_CGVD28__m_": "2.029707",
+      "LLWLT_NAD83__m_": "-21.6642",
+      "LLWLT_CGG2013__m_": "-2.79168",
+      "LLWLT_CGVD28__m_": "-2.919193"
+    },
+    "comparison_station": {
+      "StationID": "9",
+      "Station": "Point Atkinson",
+      "Longitude": "-123.253",
+      "Latitude": "49.337",
+      "Province": "BC",
+      "Country": "Canada",
+      "Tide_Gauge_ID": "7795",
+      "CVD_Surface_Used": "CANWEST2015v1",
+      "MWL_NAD83__m_": "-18.436",
+      "MWL_CGG2013__m_": "0.19548",
+      "MWL_CGVD28__m_": "0.025931",
+      "HHWLT_NAD83__m_": "-16.4832",
+      "HHWLT_CGG2013__m_": "2.14828",
+      "HHWLT_CGVD28__m_": "1.978731",
+      "LLWLT_NAD83__m_": "-21.4387",
+      "LLWLT_CGG2013__m_": "-2.80722",
+      "LLWLT_CGVD28__m_": "-2.976769"
+    },
+    "source": "DFO CAN-EWLAT TG_3WL_epoch2010_20190108.csv",
+    "source_sha256": "9335e8835b2a143b862c1b13e1744be2d20777a113746e92dfcf05955d53c68b",
+    "source_url": "https://open.canada.ca/data/en/dataset/a3edf193-5c56-4b38-bcc5-c8708c60ce38",
+    "reported_context": "Gauge-based water elevations have approximately 0.1-0.2m uncertainty; not an exact September 2026 tide"
+  },
+  "lakes": [
+    {
+      "name": "Beaver Lake",
+      "height_m": 9.988020896911621,
+      "vertical_datum": "CGVD2013",
+      "height_source": "Historic 2013 NRCan DTM interior water-surface proxy; no 2022 class-9 returns",
+      "measured_returns": 0,
+      "uncertainty": "Beaver Lake marsh cover prevents current water measurement; validate in later field/photo survey",
+      "percentiles_m": null,
+      "shoreline_source": "BC FWA lakes; generalized regional geometry, close shoreline approval pending"
+    },
+    {
+      "name": "Lost Lagoon",
+      "height_m": 0.8214010000228882,
+      "vertical_datum": "CGVD2013",
+      "height_source": "2022 City LAS class-9 water returns; geoid-converted median, 5m interior buffer",
+      "measured_returns": 825,
+      "uncertainty": "Flight-day level, not a fixed operating level; spread and source accuracy retained",
+      "percentiles_m": [
+        0.7494459629058838,
+        0.8214010000228882,
+        0.8979875326156617
+      ],
+      "shoreline_source": "BC FWA lakes; generalized regional geometry, close shoreline approval pending"
+    }
+  ],
+  "hidden_lake_bed": "Synthetic clearance 0.5m below surface, not measured bathymetry"
+}

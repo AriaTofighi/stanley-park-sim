@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "coordinates": "Local east/north/up metres; CGVD2013 vertical datum",
+  "scope": "One alternate shoreline view toward the existing English Bay / West End skyline. No geometry or app change.",
+  "source_inputs": [
+    {
+      "path": "manifests/skyline-blockouts.json",
+      "sha256": "964c0781990dae02cd010a281bbaf709355cb4d581f5e6c6edd339b64141c685"
+    },
+    {
+      "path": "manifests/blender-export.json",
+      "sha256": "be7984b24ffafa236f7550bef1e361b64e4d6e7f26c76e0c03450dfc8a62f96b"
+    },
+    {
+      "path": "manifests/surface-model.json",
+      "sha256": "8489fe1d9986b9dd5218299e635daf55c5a0eb8e7c1c03a68aca51bf227bc459"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-network-local.geojson",
+      "sha256": "ce57301ae1b43e0070421c839c277b7267c475eaf399baf3501ecea88bf7c401"
+    },
+    {
+      "path": "data/routes/derived/pedestrian-surfaces.json",
+      "sha256": "77c63dcd705a77caee68803babf6dda1c1ac63161db14f6c7c722542bb2e3355"
+    },
+    {
+      "path": "data/derived/cover-blockout.json",
+      "sha256": "9187a028f7c073140ad7b113099b17f1f5827b5beab037eeb48bdf1b9b06ceef"
+    },
+    {
+      "path": "data/derived/canopy-zone-assignments.json",
+      "sha256": "c9db788cc9908de82b66efe3996872f82762a865daf157b2508f4fb6a63109ce"
+    },
+    {
+      "path": "data/derived/park_boundary.geojson",
+      "sha256": "cec46d5864d7869f37bc344cb4cc9604debe7aa74343bced4027bcf0ff5ed5a3"
+    }
+  ],
+  "old_views_inspected": [
+    {
+      "path": "evidence/blender-skyline-english-bay-v26.png",
+      "sha256": "1128cb743b770ae8741a76031b33f3dd5ffed044fed91922dff8f58736635757"
+    },
+    {
+      "path": "evidence/unreal-skyline_english_bay-v26.png",
+      "sha256": "f40b0d9a6b91aba6f5c234eaba2e365e426052242f0c870b87e3532a4206b04a"
+    }
+  ],
+  "previous_view_observation": "Near canopy obscures much of the skyline. Keep this old evidence and add the alternate; do not remove trees.",
+  "bounded_eye_search_local_xy": [
+    -560,
+    -1530,
+    0,
+    -950
+  ],
+  "eyes_evaluated": 285,
+  "clear_candidates": 2,
+  "maximum_clear_sample_count": 2,
+  "required_clear_sample_count": 2,
+  "views": {
+    "skyline_english_bay_shore_r3": {
+      "eye": [
+        -355.2431803263777,
+        -1294.8855138693875,
+        2.768216365867597
+      ],
+      "target": [
+        143.47224039159482,
+        -1912.6180091919377,
+        85.7166783267341
+      ],
+      "source_pedestrian_edge": "osm_way_103703109_03_0",
+      "source_edge_distance_m": 30.0,
+      "source_edge_offset_local_m": [
+        -15.0,
+        0.0
+      ],
+      "camera_ground_height_m": 1.068216365867597,
+      "camera_height_above_ground_m": 1.7,
+      "camera_crown_section_clearance_m": 510.81906493534876,
+      "selected_samples_clear": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "selected_samples_near_150m_clear": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "framing": {
+        "required_horizontal_fov_degrees": 19.951439558812424,
+        "required_vertical_fov_degrees": 1.6515129191387476,
+        "assumed_horizontal_fov_degrees": 36.0,
+        "assumed_vertical_fov_degrees": 23.0,
+        "minimum_frame_margin_fraction": 0.1,
+        "scope": "Clear selected West End roof/silhouette samples only; complete scene framing remains a live check."
+      },
+      "purpose": "View the English Bay / West End waterfront silhouette from source terrain beside the mapped pedestrian shoreline south of Second Beach.",
+      "selected_skyline_samples": [
+        {
+          "id": "way_51055658_0_Part0",
+          "name": "Beach Towers",
+          "source_url": "https://www.openstreetmap.org/way/51055658",
+          "point_local_m": [
+            49.35767167710583,
+            -2014.2623108956032,
+            76.50897354893434
+          ],
+          "ray_clear": true
+        },
+        {
+          "id": "way_311209819_0_Building0",
+          "name": "Surfcrest",
+          "source_url": "https://www.openstreetmap.org/way/311209819",
+          "point_local_m": [
+            234.71319829224376,
+            -1957.2404751270078,
+            86.62578621920768
+          ],
+          "ray_clear": false
+        },
+        {
+          "id": "way_1093420374_0_Part0",
+          "name": "Zephyr",
+          "source_url": "https://www.openstreetmap.org/way/1093420374",
+          "point_local_m": [
+            321.2497813052032,
+            -1891.9329199157655,
+            92.73409068953717
+          ],
+          "ray_clear": false
+        },
+        {
+          "id": "way_1093420377_0_Part0",
+          "name": "English Bay Residences",
+          "source_url": "https://www.openstreetmap.org/way/1093420377",
+          "point_local_m": [
+            237.58680910608382,
+            -1810.9737074882723,
+            94.92438310453386
+          ],
+          "ray_clear": true
+        },
+        {
+          "id": "way_312125684_0_Building0",
+          "name": "The Lauren",
+          "source_url": "https://www.openstreetmap.org/way/312125684",
+          "point_local_m": [
+            646.1426409101405,
+            -1898.988951283507,
+            99.86029100768332
+          ],
+          "ray_clear": false
+        },
+        {
+          "id": "way_310600279_0_Building0",
+          "name": "The Marquis",
+          "source_url": "https://www.openstreetmap.org/way/310600279",
+          "point_local_m": [
+            632.1021707623731,
+            -2046.9660673299804,
+            85.38591867262726
+          ],
+          "ray_clear": false
+        }
+      ],
+      "local_source_inputs": [
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_01.npz",
+          "sha256": "520f8f7fa07fc1114761f3db694b3958cb24b43e66440cb38f546e6337eaaaee"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_01.npz",
+          "sha256": "96859fd3b0d26a9accbd7cb501b4141bd3be18b07760a1e8244fff5e52e656d9"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_02.npz",
+          "sha256": "2c8ebabea31aabd9e51fcb09cda3332f4b877ae371f9d6dad8434d4d80d8f170"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_02.npz",
+          "sha256": "bc33bca7c422129eea97b86d49d0bd3312fea3c38fb9b0fddf3fbcc48c0cd9ed"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_03.npz",
+          "sha256": "dc8989bf63b20a7b4a491b2887f60a1f5c2ff1eb705537d962fa734e8848667c"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_03.npz",
+          "sha256": "8c9354998980b1bc5dd7b496459e6e761c84ee310fb12b67ce1eeb646cedf937"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_00_04.npz",
+          "sha256": "f651ac093e1de2680f0773d4e4917a444a6c47801ec57d871fb0c69aa39cf59e"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Terrain_01_04.npz",
+          "sha256": "4badc16c8769d73f50d10588c691a2d32b7287da550dfe8563cf757e9a50c878"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_043.npz",
+          "sha256": "f1974dc093de7c321172aeb0b5eb09c6ddbf70691475e628397ead547064ec43"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_043.npz",
+          "sha256": "2b59a97a5880a7f289c6d659b6ee50528357f181c82e6d9b7d83afbebdd7c258"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_045.npz",
+          "sha256": "2ed9e4a7902457ab833c46b953b093ff430d138acf17ce48afff9ebbfc620407"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_045.npz",
+          "sha256": "98ba6c07380e0312fa675c3ee293060960773853e5004c3cdfd9b4d5612a4d17"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_046.npz",
+          "sha256": "41f8ba2f3c5052841f559ba24bf53f85c9670d06c1174db0669d5fbc65ce8477"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_046.npz",
+          "sha256": "3e5c517321e9422152378d59fad1141af36e2d7202028cd4bb3c5133e74d94db"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_047.npz",
+          "sha256": "e0fee0cdc93072b7a74a4cb76ceb1bf64496042cadccfe5a574b639d0ad68485"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_047.npz",
+          "sha256": "308e62f4141a09956855518a518196e5d532e4de939efcad4088679b2ac22d85"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Pavement_048.npz",
+          "sha256": "857dadb11f41417cb4aa93f68dd33307a33f7d6a8a2f2d9714619fcb74323ce1"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_PavementSupport_048.npz",
+          "sha256": "799e8e00db90938d2bbc3e3052864ad84c89a2b46a0e0837b90ffb1ed55dd08f"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_00_02.npz",
+          "sha256": "5dd4db7175687ab1e9c6015825490c5e787f83a9707de74664f98346bc2b3b35"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_00_02.npz",
+          "sha256": "c3a6114b0bc1fe54dc42b926e0aab9a9d2cffd6abd6d526039c1ae838c3d6209"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_00_02.npz",
+          "sha256": "2d50ae4bf4a6816a2bb68916f1c7f6d99ace38fa7d4bdb4e7cb55c01101ec9f0"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_01.npz",
+          "sha256": "0d9ebfd44c25810ac3828f6b530a214adee5781a7e536dd8b91f931db9ecde4e"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_01.npz",
+          "sha256": "d4658cbc72b18b31211b8f45042d0867686ef219871e1401fdfb2bfd131f0e48"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_02.npz",
+          "sha256": "a41c3185ed7f35206ab09470b725eb126d14262f01857142d1b78b462d2f44a0"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_02.npz",
+          "sha256": "1d2f132268c2deaa24898d6e3edfaaebe8b514c66291fe0b63a34f80afd923a8"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_02.npz",
+          "sha256": "ee1d8ebeb2f2f3529339cc71ca413cdf8bdfd21534ba20e841e48fc6fee97fcb"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_paved_walk_01_03.npz",
+          "sha256": "12adf273282e4d13c7acd7fd0242bdfa3eec9e607979a5026da8aa9f62120984"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_forest_walk_01_03.npz",
+          "sha256": "a9bb471036c74ee002f3de3ff0f7bd37064aa199f539a3a82ce5dd6f462d661a"
+        },
+        {
+          "path": "data/routes/derived/pedestrian-meshes/SM_Pedestrian_unknown_walk_01_03.npz",
+          "sha256": "5b307fdb1bfe54d1b4831f7797dadaee84c9909692221f22552be45edcfacbe1"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_CurvedStoneWall.npz",
+          "sha256": "6d59ad2dfd92b386f7edb332f8ccbabf361dcd9d0c7b66462f9c0f7998b74383"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_LowNameSeat_Base.npz",
+          "sha256": "071e6cfd054656cbd5e180be0e51c484da5c42322bf2d60db6794c586a251ecb"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_LowNameSeat_StoneTop.npz",
+          "sha256": "611ac75a95a8862f0b5a971ec5baab67859374cfd7eebcedf47ba2acd5cd8758"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_LowNameSeat_TimberTop.npz",
+          "sha256": "735ab67e19848139b815156a52587fa0b94ed104de4bf1736bdbb798306fac79"
+        },
+        {
+          "path": "data/derived/air-india/SM_AirIndia_StoneCap.npz",
+          "sha256": "a90174d3dc8f8b9a0e7ba13c3cca12d4e4f4c81fd551708360b2713dfb6e87c3"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_01_01_03.npz",
+          "sha256": "d77f762f690a36c0f55d705922a6abf101af0aeb2046c7782157d22cec85ce60"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_02_01_03.npz",
+          "sha256": "606c3ddc31ecede4a68d8c703576a7bfb404441f780b6934444e1d19a38d6638"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_03_01_03.npz",
+          "sha256": "9e6341aec1c0eb3f8c98613a38971004f46c18c4c97abbf5ac0087ecafffe347"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_04_01_03.npz",
+          "sha256": "e07edcf23b2dd6d3937d9680003e0230547144b42fb40d130f4bc242171c965c"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_05_01_03.npz",
+          "sha256": "ac26fbc747675e65266c3ce9e9d0d2ab56bf891d9ab2a2fbd2a22a8974cb6c75"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityBed_06_01_03.npz",
+          "sha256": "292732a9cdd88e60e7310bfa1e322322a5da05118fc019dd3351325481a6c46c"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_CommunityGardenPath_01_03.npz",
+          "sha256": "b07e4f6e762ed8baefca3051f9908cc391032638248b7f6703806aa2ac2556f7"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863877_01_02.npz",
+          "sha256": "8cdaed4842f8c6adc17d009a7e087fb3a9c4426e867fbd46faa7a431558362f3"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863878_01_02.npz",
+          "sha256": "0cf0deb453caeacc97d11e02402c41fbc0716372a64e68ed0ed6bdb09a7dde9c"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863882_01_02.npz",
+          "sha256": "3718e91fd8f7cdc596d97b72baab4db11587cde6caa9836855c234807dff60f9"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863884_01_02.npz",
+          "sha256": "12a38bb20081c08236103d2ee69bae3e60fe5ba323ae6633b30a4bb1339876fa"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863885_01_02.npz",
+          "sha256": "b15a868e161468fb053c968662607a1626dc320a767fb881313efe2871f580e2"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863887_01_02.npz",
+          "sha256": "75a324ee965345a9a82a55202d189ee9191c2bdfc7813ba0d983a406ea8f1ad0"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863889_01_02.npz",
+          "sha256": "3574d83bc972b58dbab3823fd7d8d04cd97500b1530a914ab1f08ea4a066b47a"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863891_01_02.npz",
+          "sha256": "3d95acca75aaa5986547196bc60d84d5dff3eb977ab48381b202a3b0e86bbb95"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863893_01_02.npz",
+          "sha256": "1548ab1ae8272d440829c5a9c14315ea12a21fd4e4a88d56f618afe5d5400b32"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863895_01_02.npz",
+          "sha256": "edf4cc071cdf0c51a91fb5131836f191e84bc3350bbf102a2829bccd1fd86040"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863897_01_02.npz",
+          "sha256": "faf8a092f12f068b960dcf03d941cafc878f86db31aea69a7ab508d716127ee0"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863899_01_02.npz",
+          "sha256": "10cf053c5042c353d0ce329a99b0ab93d5dd65172a81fcc7a3c2a48bc6d1e000"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863903_01_02.npz",
+          "sha256": "cb90ed640fe1eea2741a2b01b91de5f97fc2eaf15f9f280e61e9284f9decc19f"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863905_01_02.npz",
+          "sha256": "88d0ce8401f0debd1a91991a404a280a087eaaa0b41f65957c557eeb6ef11085"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863907_01_02.npz",
+          "sha256": "49b7fb8b5c02054b4328b703b7d465a3cfed570cee990ea295757473a0cd2674"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863909_01_02.npz",
+          "sha256": "5abe9ecdafcb938fb5b57775eee2d499daa24a38cd17b1752ee1712358a9e17c"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_green_752863911_01_02.npz",
+          "sha256": "127156328ffda8275da7872d04207e1807882c9107cfd1748b3dba5dc5f9855e"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040275_01_02.npz",
+          "sha256": "6e04653e451ba6fddf12d334ce1b28e26096dc63b1190c41ce5d5cbf6815faea"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040276_01_02.npz",
+          "sha256": "cac7da8bae082959222509e9eb9b5b220aff202c4ca4e8b50498df3c0bb38f48"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040277_01_02.npz",
+          "sha256": "d559378a4d85d030ab6839eb2629bc29253e609128b318b9cbb5f9c3cf0925cf"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040279_01_02.npz",
+          "sha256": "d18f30b8004d8f81e0d1d4b06e12e2dc1b9427000dd116e39d66a51e7d2db0ba"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040280_01_02.npz",
+          "sha256": "7af3fd416f4750dd44a91fc3a17a77477a64e3f93d115659ed1eb9efd10aa47a"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040281_01_02.npz",
+          "sha256": "662694c10d97880cd4df28a29a34704db274613939b3ddc79042a47cf6c66abb"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040282_01_02.npz",
+          "sha256": "b7a891b52c41873a0040d60544cb437a53dad4155eb2981b8445797646b3a627"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755040283_01_02.npz",
+          "sha256": "bd4e3369cca1469e6dceb15a4d141efd578bf8cf9438f573062b6bf5af7d05e6"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755047370_01_02.npz",
+          "sha256": "9314a07689b08d941c77de5b7493833d53937f27ae1f93d85e814dd963cf5de8"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_Golf_tee_755273129_01_02.npz",
+          "sha256": "085aa4ed39dc43b386e6f8fbf258f93dcb2b4166413a41e549d5f21f7a42d014"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenEast_Ground_01_02.npz",
+          "sha256": "65e7f1fcc3091e83ea54a655b7a3c7d59b6596ae347775d1132ed7a2dddcbfc0"
+        },
+        {
+          "path": "data/derived/ground-spaces/meshes/SM_Ground_GreigGardenWest_Ground_01_02.npz",
+          "sha256": "7658d25a0eb86b726d42c8aab9e9aba5ff60c5e6e0aba9d2386e884cd02b286d"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_BelowDeckExterior.npz",
+          "sha256": "8bed808b29117d2cd38f5b9d9466f6ceb032e15c977aa0b2d2cff3f298476198"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_00.npz",
+          "sha256": "d1a3b36677cbba4fe6e6d402ec7dd7b47d8efc78964110a327db6b5736c42536"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_01.npz",
+          "sha256": "7c407fbf9a8f27259a8a7f936f99ddbdaeda1dbbc31552953074362a411c2fb8"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_02.npz",
+          "sha256": "912dc6f3361c84b5bd67a74678d55a087fbd71de6b0910ea13333c8594406c18"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_03.npz",
+          "sha256": "a2811993c6278364f3467adcaa06761207584f3ca941873382f456c99ba3147c"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_04.npz",
+          "sha256": "b0ef35bdb55273b838b294169def22205c1c88d090feda06c062d5a576dc5017"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_05.npz",
+          "sha256": "f6e0b4e2f48b43511a9e591d32e4a836e7adfc729cd0323a516bbc5377f32c2d"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_06.npz",
+          "sha256": "0e8e96e2b4fa22d1bbb22a193e5e0655ea73d437fd442eb203e55e6ef6848387"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_07.npz",
+          "sha256": "31254c5f241a4c9775fb45d1c8fb9b528d7ab66db3e68876d8184dd97f0d3458"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_08.npz",
+          "sha256": "b9b6375817090577c53dd03cdfc944efb4bf492c8b4d294e43193a9ff4818ecb"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_09.npz",
+          "sha256": "ec5f9f73310f590b966181c685595c151785036365cf2d452f55beada924ddae"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_10.npz",
+          "sha256": "c1e09e174fe4f029999c3084459b76abf7e270b10aa83ab2811ca4f61766b644"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailPost_11.npz",
+          "sha256": "58277fdda73808a8b0a4bb4318950794906033b4e76b181c571eca249b39b457"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_00.npz",
+          "sha256": "96debd140ac8f6e305af40bb98758a72b82f310ea3330588daec84c20d1d6cc8"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_01.npz",
+          "sha256": "c378a134d8e1b5847fab8fd9fe41fb881aae0e0b6bb3d3620fe99240c9c7840f"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_02.npz",
+          "sha256": "6c2287662ae71f3fb758834120a610229f85f42d2d057881ccbbf0fcaf4a75dd"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_03.npz",
+          "sha256": "6a06fdd6a809231b2e3eb59b72bb945c2d27ce27e2bf9261a233c84b730d87a4"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_04.npz",
+          "sha256": "f61ff5330074c41f340c0f2c960d0e935f72976bcbd995d9b2dd9f32e2190566"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_05.npz",
+          "sha256": "bf6c1ff8d03d8e4094c3b21cf2c07177a3b9eb24d9e779aa71f5e74feb84ef8c"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_06.npz",
+          "sha256": "b5b40a5ba9954bf69c735eb7832008c348691f1af5dbd9fd31440f4fc0be617c"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_07.npz",
+          "sha256": "94de69e88c116ee2ea60481d3a5f210f1af264ad236277579c36f62e118c9de2"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_08.npz",
+          "sha256": "20972159e56887e0d7a67f724a094de3fe933781374767a4220f8a4279b5d43e"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_09.npz",
+          "sha256": "657f7d50e02aedfef3ce689bd6b90db4d0665e7d12536208925a981188ade136"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_RailTop_10.npz",
+          "sha256": "19cf3e44f037adc9a1e10222d6e95433cccf264f18c440cd8691c5fe17b8e2aa"
+        },
+        {
+          "path": "data/derived/nature-house-threshold/SM_NatureHouse_RearDeckThreshold.npz",
+          "sha256": "88086c8d208114305ca7357463780dc5a769d69e828b51369ca1cb6a45ac1722"
+        },
+        {
+          "path": "data/derived/lagoon-structures/SM_NatureHouse_ViewingDeck.npz",
+          "sha256": "009a070fb8bbcfbd3e20e7122a8414b6d99f62f802ef3af615fd5a1f7fd75063"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyBasketball_01_02.npz",
+          "sha256": "a0716e00d1c5ea0548d50a92493854385ad373adf951da77bd412e3da6f445ec"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyField_01_02.npz",
+          "sha256": "93eeb943e2d3c0c34ec5de42fc7ffcf2174048bfea264c601bbf994d2077eb9d"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_CeperleyPlayground_01_02.npz",
+          "sha256": "071d1f45efafec33b58318622212d7bcfa84d14de67d1200dac14e1e40abcd76"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingNorth_01_02.npz",
+          "sha256": "c4cd4c94bf5908fdc795abdc72c3d87265bc88a12fb963d61129bc4ecfdcbc96"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_LawnBowlingSouth_01_02.npz",
+          "sha256": "58e4852b8c024fe2b0de19a2cfb2e4396b026eb277d32ad0e3b6ab450933822f"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_01_01_02.npz",
+          "sha256": "32d6ea41af0c0b1953b650bee829318710a996d2f8ac02fb4ad3f9b9d6b822b9"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_02_01_02.npz",
+          "sha256": "ad015edfa9243460c1a6a93c44a28f3333b8a7b6bc9ec86ed5fca5bd1cb2183d"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_03_01_02.npz",
+          "sha256": "22d2c376a9d0c7fcfdad258af91864ae1b4f5fb333875139779302067092447d"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_04_01_02.npz",
+          "sha256": "4a91a77fb09499feaff382b041c87a5ae0b80112499ec1cb9260fe246f0447f7"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_05_01_02.npz",
+          "sha256": "1d94603397b847740ab8a849a58758e6675cf5908913f23fa7b1a24b1b4e1e36"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_06_01_02.npz",
+          "sha256": "16a512ad26aff32d38fe29b814ea34ce8ca20d25c99fe8151b6d92f3f4987b79"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_07_01_02.npz",
+          "sha256": "520ae0999399b0bdee9f7d8948900ca1ab84f7ab6cf6e430d758f56c00915752"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_08_01_02.npz",
+          "sha256": "942024ebbdd9038cb00f63c2c3359726ac3a4906ac557a464d90d5726fd3b0f1"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_09_01_02.npz",
+          "sha256": "91e8d75d353fb2daf6f8754555b1cf7c87a1b46d78f70594068b76c9b0782f92"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_10_01_02.npz",
+          "sha256": "be6736cbc9aa7104a6fa387601c20e2f6b8ca0eae6dc39111117d453140cf793"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_11_01_02.npz",
+          "sha256": "7993f1d31cacd349762d41f5d6e7c7cd63eaf9698e4d0ddbf1e770f5b514f457"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_12_01_02.npz",
+          "sha256": "530f65175e709cb9733e42cff6107ee441170f7ccb27a0a8bd6ecc097976a738"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_13_01_02.npz",
+          "sha256": "ec2fef5ad39031541c7172f989351e3f3e56865f0caf7a20c478fcf8851d7450"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_14_01_02.npz",
+          "sha256": "ed3c329e0bedffceb1af7af70c5e60f897e5c19a5097dbd496f416a10477f6fe"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_15_01_02.npz",
+          "sha256": "a74440074f4b0a68ee156c401f6f6b8c63d09c07064a0e6c1d74ca9b4d6e1805"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_16_01_02.npz",
+          "sha256": "9c92783383446599ee717c6c215f4b9c3b138b791605495b505b0779cd1d8f29"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_17_01_02.npz",
+          "sha256": "5c8a48f3fd55da7ba0c914d4bcec9eee2eaed76a00fc7cae1574a09218c75d24"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_18_01_02.npz",
+          "sha256": "4cc3042c15685d5fe440d7ec7a4397b7e69d9a8c8bf7eeb98d68c09147b5fa9b"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_19_01_03.npz",
+          "sha256": "d1f380f4e6bafd5af8b2c102bc87290b5e1405f01f1e0387d8259d9dada94eb0"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_20_01_03.npz",
+          "sha256": "f3dfb709c82acc540ee18e18818a64a2f9f18284629daff48b719bf7ac83bac3"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_21_01_03.npz",
+          "sha256": "4e23cb7600f059745e289a18c1b0a89f96b93d6b6217c668a74ffe9129147733"
+        },
+        {
+          "path": "data/derived/public-spaces/meshes/SM_PublicSpace_Tennis_22_01_03.npz",
+          "sha256": "a02e3b53cefe1b3ed2109ad72549e63679712959054109acb3b79aeb7f43b3e0"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1233.npz",
+          "sha256": "143d57ca518421d1f31b11ded8954cebe7d44c40ed404b707b343af26fe7fdc8"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_1953.npz",
+          "sha256": "8218beb585aeb912b357f1c6cc565bd5758d23808ec4d8bdd2f289eb184a7fa8"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2703.npz",
+          "sha256": "645f9f6dd397859d6f3986f861d0c46d19dbbd4719a3abd882fec3f625fd391b"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2704.npz",
+          "sha256": "526cf69a555694009532e59abff2c2be28e5369f2e5a4584642dcb7b27035225"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_2886.npz",
+          "sha256": "383e239f247bf45648335b89047ed27413b725daff7b5f3322f655c14feb3662"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_3306.npz",
+          "sha256": "868c85eb9c1e80169a8327a9f7fcfc2a0ca8ac2774cd9dce2ed1a8ed34856df0"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_337.npz",
+          "sha256": "924ae0538fa47589491746b891f1c5e3b2d59fe03c16d0f78e008a1926d58b25"
+        },
+        {
+          "path": "data/derived/surface-meshes/SM_Route_3540.npz",
+          "sha256": "a09f5effa11f6898267e08298da5ad1d7f37dcde33653af0f2b262d5d0599c36"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_03.npz",
+          "sha256": "edc16be6b5ff1a6be515f9a19113c0423c3b9fb25ee556c779c72505d9876ea9"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianParkGround_01_04.npz",
+          "sha256": "5b74fef67f0ec23aec54b5d83de950ad0cb906eb3c9efe2148b4bd5cf335eeb4"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_01_03.npz",
+          "sha256": "45193eb342df5736912aeffd52e868e6e2263d5cd400c6b17531eaef77c78756"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_01_04.npz",
+          "sha256": "a0d6527730dc99acb76458314811724fa5dda98a645f5dee1959ddba4046f3c5"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_BasinGround_01_03.npz",
+          "sha256": "e07d8554a9e7e6b77ed42a20b8414782b738a19b19f56fc04a153b446df134cb"
+        },
+        {
+          "path": "data/derived/site-completions/meshes/SM_Site_DevonianPond_BasinGround_01_04.npz",
+          "sha256": "1be9e713ea181a6c89995865adfe2b351f58c818be3bd7b58f7119c6e0a5a42f"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n2_stone.npz",
+          "sha256": "b3c666d770e29507743d81f62943dff485cb520d84da54acd89b3e588caa1170"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n3_glass.npz",
+          "sha256": "c2259521d6bb68a987fb9be8895e7bdbbeffeaef6a395e8e692476981dd18917"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n3_stone.npz",
+          "sha256": "12aed7aed2eec7300f56e286d81f44048b4fdcf23079051edfdb6a927be47592"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n4_stone.npz",
+          "sha256": "22a047b87b3563f06bee0b95cc9e8d8bc8952c7be8419636da020ca673cfea64"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_0_n5_stone.npz",
+          "sha256": "a684b946948168ff0f0fc5ef3970b12a8f137d4146f2e6b6f3993df51c99c0fe"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n2_stone.npz",
+          "sha256": "22ee2dcfc09abd16ec84ad24ec93b94d6a6d0152978b7488bfdbf02bf02cde83"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n3_glass.npz",
+          "sha256": "33feb300b9e324d2459469ab6f156a3836519dd499e9832c4d2a4cb640effd6c"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n3_stone.npz",
+          "sha256": "2c9176085b70b963c72d2ae5fc78031058a0caee1baa9f273d8219e26adc989a"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n4_stone.npz",
+          "sha256": "cf6836f7d03155881dc6a5e37245e4425a60e03e532f575a92eeebcae812820c"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_1_n5_stone.npz",
+          "sha256": "7a131a263ce3b1fe64ad6a23246a0515ca2af331e59fa8f180a12de4bbb026a9"
+        },
+        {
+          "path": "data/derived/skyline/SM_Skyline_Cell_n1_n3_stone.npz",
+          "sha256": "6a683197eafdb82993c0ad115b471eee7b4470999f659997c8e89b405bd6fc7b"
+        }
+      ],
+      "live_review_status": "pending",
+      "accepted": false,
+      "limits": [
+        "Camera is a source-based inspection location, not a surveyed photo match.",
+        "Selected roof rays do not prove all skyline, lower facades or the complete viewport are visible.",
+        "Pedestrian eye placement does not change cycling permissions.",
+        "Building heights and forms retain the source/estimate limits in skyline-blockouts.json."
+      ],
+      "eye_inside_city_park_polygon": true,
+      "distance_to_city_park_boundary_m": 25.84673563773212
+    }
+  },
+  "helper": {
+    "path": "pipeline/gis/prepare_english_bay_view_r3.py",
+    "sha256": "c56ca7fb5c2c8c55d68d28f178f9c709da4219f8466c7b22b6ecea1e8bc20d2c"
+  }
+}

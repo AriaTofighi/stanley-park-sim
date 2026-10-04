@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-27T01:07:14.470595+00:00",
+  "product": "terrain_2016_reference",
+  "source_id": "BC-Lower_Mainland_2016-1m",
+  "source_url": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/hrdem-lidar/BC-Lower_Mainland_2016-1m-dtm.tif",
+  "source_datetime": "2016-09-12T12:00:00Z",
+  "source_header": {
+    "crs": "EPSG:3979",
+    "crs_wkt": "PROJCS[\"NAD83(CSRS) / Canada Atlas Lambert\",GEOGCS[\"NAD83(CSRS)\",DATUM[\"NAD83_Canadian_Spatial_Reference_System\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6140\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4617\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",49],PARAMETER[\"central_meridian\",-95],PARAMETER[\"standard_parallel_1\",49],PARAMETER[\"standard_parallel_2\",77],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3979\"]]",
+    "transform": [
+      1.0,
+      0.0,
+      -2004559.0,
+      0.0,
+      -1.0,
+      504008.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "width": 161217,
+    "height": 101050,
+    "nodata": -32767.0,
+    "dtype": "float32",
+    "tags": {
+      "TIFFTAG_DATETIME": "2016:09:12 12:00:00",
+      "AREA_OR_POINT": "Area"
+    },
+    "source_window": [
+      24089,
+      23341,
+      4889,
+      4698
+    ],
+    "decimation_before_reproject": 1
+  },
+  "origin_file": "manifests/world-origin.json",
+  "coordinate_contract": "x east, y north, z up; metres; x/y ascending; z[row_y,col_x]",
+  "horizontal_crs": "EPSG:3157",
+  "vertical_datum": "CGVD2013",
+  "missing_values": "NaN in NPZ; -32767 in GeoTIFF; absent faces in OBJ",
+  "licence": "OGL-Canada-2.0",
+  "licence_links": [],
+  "attribution": "Contains information licensed under the Open Government Licence – Canada. See source collection for additional source notices.",
+  "source_range_cache": "data\\raw\\nrcan\\terrain_2016_reference-ranges",
+  "stats": {
+    "grid_shape": [
+      3400,
+      3800
+    ],
+    "resolution_m": 1,
+    "valid_cells": 10147724,
+    "valid_fraction": 0.7854275541795666,
+    "height_min_m": -0.0498582161962986,
+    "height_max_m": 78.52657318115234,
+    "height_percentiles_m": [
+      -0.024327653367072346,
+      0.11800000816583633,
+      3.8238762617111206,
+      15.848773956298828,
+      66.67021179199219
+    ],
+    "park_cells": 4180534,
+    "park_valid_fraction": 0.9994747082549741
+  },
+  "mesh": null,
+  "files": [
+    {
+      "path": "data\\derived\\terrain_2016_reference_utm.tif",
+      "sha256": "ce3c7134d1a682ad86be4f896e1b72921383d04302f75f53c65c61d975235a94",
+      "bytes": 33779252
+    },
+    {
+      "path": "data\\derived\\terrain_2016_reference.npz",
+      "sha256": "db8ed07f21ef50b33d9b9f7f2523a26da3335303c2e690f4e6bc6ff1ef6c6822",
+      "bytes": 35758746
+    }
+  ],
+  "limitations": [
+    "Measured source predates September 2026; this is a geographic blockout input, not a current survey.",
+    "No independent ground-control accuracy check has been completed.",
+    "Cliffs/overhangs and narrow path details need separate authored geometry.",
+    "No ocean or inland water elevation is assigned by this terrain product."
+  ],
+  "intended_use": "Independent historical ground surface for path modelling and comparison"
+}

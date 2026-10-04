@@ -1,0 +1,18 @@
+{
+  "id": "train-plaza-south",
+  "extraction_centre_local_m": [
+    659,
+    -135
+  ],
+  "extraction_radius_m": 30,
+  "source": "manifests/lidar2022-490000_5460000.json",
+  "source_period": "2022-09-07/09",
+  "vertical_datum": "CGVD2013",
+  "licence": "Open Government Licence - Vancouver",
+  "placement_accepted": false,
+  "returns": 198659,
+  "output": {
+    "path": "data/derived/named-train-plaza-south-survey.npz",
+    "sha256": "8ae84107c0ea690e58e473b2fe877bde75f97a1b600c3208196c5979f20bfc62"
+  }
+}

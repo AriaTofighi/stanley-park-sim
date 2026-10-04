@@ -1,0 +1,19 @@
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.cpp text eol=lf
+*.h text eol=lf
+*.cs text eol=lf
+*.ini text eol=lf
+*.uproject text eol=lf
+# Large editable assets are distributed as verified release archives.
+*.blend binary
+*.fbx binary
+*.uasset binary
+*.umap binary
+*.npz binary
+*.png binary
+*.wav binary

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-27",
+  "overrides": {
+    "city_bikeways_118": {
+      "permitted_direction": "forward_relative_to_city_geometry",
+      "resolution_class": "manual_source_correspondence_at_road_junction",
+      "source_ids": [
+        "city_bikeways",
+        "official_park_map_2026",
+        "osm_way_1044497036"
+      ],
+      "reason": "City identifies this as an Active one-way shared lane on Stanley Park Drive. The 2026 map describes Park Drive as one-way. The eastern part follows the explicitly one-way OSM Stanley Park Drive way 1044497036 in the same southeast direction. The western samples fall on short intersection connectors with no OSM one-way tag. No sampled explicit one-way reference points the opposite way. The comparison plot was visually inspected. This resolves travel order, not sub-metre road geometry.",
+      "evidence": "evidence/city-branch-direction-entrance.png",
+      "accuracy_accepted": false
+    },
+    "city_bikeways_1292": {
+      "permitted_direction": "forward_relative_to_city_geometry",
+      "resolution_class": "manual_source_correspondence_at_road_junction",
+      "source_ids": [
+        "city_bikeways",
+        "official_park_map_2026",
+        "osm_way_116061630"
+      ],
+      "reason": "City identifies this as an Active one-way shared lane. The northeast-going source segment approaches the east-going explicitly one-way OSM North Lagoon connector 116061630, then joins the Park Drive entrance. Samples on the western intersection segment have no OSM one-way tag; all samples with explicit one-way tags agree with source-forward order. The comparison plot was visually inspected. The neighbouring return ramp 116061592 is a different line and is not followed. Exact junction lane geometry still needs aerial and runtime review.",
+      "evidence": "evidence/city-branch-direction-entrance.png",
+      "accuracy_accepted": false
+    },
+    "city_bikeways_188": {
+      "permitted_direction": "forward_relative_to_city_geometry",
+      "resolution_class": "City_OW_plus_primary_cardinal_facility_metadata",
+      "source_ids": [
+        "city_bikeways_metadata",
+        "city_bikeways"
+      ],
+      "reason": "The City labels this Active one-way North-South facility. Its northbound facility field is populated and its southbound field is empty. Source-forward geometry has positive net Northing. Thus forward is the permitted northbound order. This resolves City record order; it does not survey current signs, lane boundaries, or the identity of a nearby OSM path.",
+      "evidence": "manifests/branch-cardinal-direction-evidence.json",
+      "retained_conflict": "Nearby OSM two-way tags do not widen the City OW permission. Some may describe a separate facility.",
+      "accuracy_accepted": false
+    },
+    "city_bikeways_1160": {
+      "permitted_direction": "forward_relative_to_city_geometry",
+      "resolution_class": "City_OW_plus_primary_cardinal_facility_metadata",
+      "source_ids": [
+        "city_bikeways_metadata",
+        "city_bikeways"
+      ],
+      "reason": "The City labels this Active one-way North-South facility. Its northbound facility field is populated and its southbound field is empty. Source-forward geometry has positive net Northing. Thus forward is the permitted northbound order. This resolves City record order; it does not survey current signs, lane boundaries, or the identity of a nearby OSM path.",
+      "evidence": "manifests/branch-cardinal-direction-evidence.json",
+      "retained_conflict": "Nearby OSM two-way tags do not widen the City OW permission. Some may describe a separate facility.",
+      "accuracy_accepted": false
+    },
+    "city_bikeways_3306": {
+      "permitted_direction": "forward_relative_to_city_geometry",
+      "resolution_class": "City_OW_plus_primary_cardinal_facility_metadata",
+      "source_ids": [
+        "city_bikeways_metadata",
+        "city_bikeways"
+      ],
+      "reason": "The City labels this Active one-way North-South facility. Its northbound facility field is populated and its southbound field is empty. Source-forward geometry has positive net Northing. Thus forward is the permitted northbound order. This resolves City record order; it does not survey current signs, lane boundaries, or the identity of a nearby OSM path.",
+      "evidence": "manifests/branch-cardinal-direction-evidence.json",
+      "retained_conflict": "Nearby OSM two-way tags do not widen the City OW permission. Some may describe a separate facility.",
+      "accuracy_accepted": false
+    }
+  }
+}

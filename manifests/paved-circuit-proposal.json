@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "status": "measured surface proposal; lane widths, local corrections and clearance require visual review",
+  "input_files": [
+    {
+      "path": "data/derived/lidar2022_488000_5460000.npz",
+      "points": 1522263
+    },
+    {
+      "path": "data/derived/lidar2022_488000_5461000.npz",
+      "points": 1144502
+    },
+    {
+      "path": "data/derived/lidar2022_488000_5462000.npz",
+      "points": 70503
+    },
+    {
+      "path": "data/derived/lidar2022_489000_5459000.npz",
+      "points": 0
+    },
+    {
+      "path": "data/derived/lidar2022_489000_5460000.npz",
+      "points": 2192941
+    },
+    {
+      "path": "data/derived/lidar2022_489000_5461000.npz",
+      "points": 60388
+    },
+    {
+      "path": "data/derived/lidar2022_489000_5462000.npz",
+      "points": 723930
+    },
+    {
+      "path": "data/derived/lidar2022_490000_5460000.npz",
+      "points": 2201971
+    },
+    {
+      "path": "data/derived/lidar2022_490000_5461000.npz",
+      "points": 1591809
+    },
+    {
+      "path": "data/derived/lidar2022_490000_5462000.npz",
+      "points": 3305
+    },
+    {
+      "path": "data/derived/lidar2022_491000_5460000.npz",
+      "points": 1995491
+    }
+  ],
+  "origin_sha256": "86ab4975f2006971e9080461de30fd15736e0537031c8b5f04f966acbc26205a",
+  "source_route_sha256": "f33fbfa96c83f8d25582192571982167e66addd53f7c05c0fd7fe22a9a88c540",
+  "output_sha256": "facef4267431633c0e98f20e742fe76e5a9d325769099d16258fe2161187c90f",
+  "vertical_datum": "CGVD2013(CGG2013a), see each LiDAR conversion record",
+  "width_m": 3.0,
+  "width_accepted": false,
+  "source_sample_spacing_m": 0.9999781859903787,
+  "local_lane_constraints": [
+    {
+      "source_start_m": 2980,
+      "source_end_m": 3180,
+      "offset_min_m": -2.0,
+      "offset_max_m": 0.5,
+      "development_width_m": 2.5,
+      "evidence": "evidence/corridor/ortho-utm/lumberman-walk-review.png",
+      "status": "Visual lane selection; exact boundaries and widths not accepted"
+    },
+    {
+      "source_start_m": 6640,
+      "source_end_m": 6740,
+      "offset_min_m": 0.5,
+      "offset_max_m": 2.0,
+      "development_width_m": 2.0,
+      "evidence": "evidence/corridor/ortho-utm/third-beach-gate-detail-review.png",
+      "status": "Visual lane selection; exact boundaries and widths not accepted"
+    }
+  ],
+  "valid_fit_fraction": 0.9900455363761517,
+  "review_areas": [
+    {
+      "start_m": 4383.9043673818205,
+      "end_m": 4393.904149241724,
+      "bad_samples": 1,
+      "source": "Missing/non-planar returns or fit residual >0.15m; needs inspection"
+    },
+    {
+      "start_m": 4436.903211239311,
+      "end_m": 4447.902971285204,
+      "bad_samples": 2,
+      "source": "Missing/non-planar returns or fit residual >0.15m; needs inspection"
+    },
+    {
+      "start_m": 6442.85945233601,
+      "end_m": 6452.859234195914,
+      "bad_samples": 1,
+      "source": "Missing/non-planar returns or fit residual >0.15m; needs inspection"
+    },
+    {
+      "start_m": 6524.8576635872205,
+      "end_m": 6534.8574454471245,
+      "bad_samples": 1,
+      "source": "Missing/non-planar returns or fit residual >0.15m; needs inspection"
+    },
+    {
+      "start_m": 7514.836067717696,
+      "end_m": 7524.835849577599,
+      "bad_samples": 1,
+      "source": "Missing/non-planar returns or fit residual >0.15m; needs inspection"
+    },
+    {
+      "start_m": 7586.834497109003,
+      "end_m": 7596.834278968907,
+      "bad_samples": 1,
+      "source": "Missing/non-planar returns or fit residual >0.15m; needs inspection"
+    },
+    {
+      "start_m": 8327.818332927875,
+      "end_m": 8375.817285855412,
+      "bad_samples": 39,
+      "source": "Missing/non-planar returns or fit residual >0.15m; needs inspection"
+    },
+    {
+      "start_m": 9338.796278964146,
+      "end_m": 9395.795035565598,
+      "bad_samples": 48,
+      "source": "Missing/non-planar returns or fit residual >0.15m; needs inspection"
+    }
+  ],
+  "smoothing": "5m median; 11m quadratic height / 15m lateral fit; all >0.15m height changes retained as issues",
+  "correction_limits": {
+    "default_lateral_search_m": 7.5,
+    "reviewed_maximum_seaward_search_m": 25,
+    "physical_path_surface": "separate mesh and collision"
+  },
+  "review_overrides_sha256": "086f1a8807c813adaec9e99fe3e6c0a0b8ce048edaeea5935159a1781817a25a",
+  "occluded_underpasses": [
+    {
+      "name": "Ceperley under Stanley Park Drive",
+      "start_m": 8332,
+      "end_m": 8370,
+      "reason": "The road deck and adjacent banks are above the bicycle underpass. Connect measured portal heights through the occluded span. Interior survey and roof clearance remain unresolved.",
+      "evidence": "evidence/corridor/ortho-utm/return-crossing-review.png",
+      "accuracy_accepted": false
+    },
+    {
+      "name": "Georgia Causeway entrance underpass",
+      "start_m": 9344,
+      "end_m": 9390,
+      "reason": "Airborne returns do not measure the tunnel floor below the Causeway deck. Interpolate measured entrance heights for the development surface only.",
+      "evidence": "evidence/corridor/ortho-utm/entrance-underpass-review.png",
+      "accuracy_accepted": false
+    }
+  ],
+  "maximum_grade": 0.08240217968334536,
+  "p99_grade": 0.05370222402618655,
+  "source_geometry_unchanged": true,
+  "release_accepted": false
+}

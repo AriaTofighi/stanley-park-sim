@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "revision": "totem-precinct-m1-r2",
+  "assets": [
+    {
+      "name": "SM_TotemMeasured_01_CoarseProfile",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_TotemMeasured_01_CoarseProfile.npz",
+      "sha256": "31dacde809b0991b3cbb20bd813624f17e6f9ecad33e303e3ef9760e906aab8c",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 196,
+      "triangles": 388,
+      "bounds_min_m": [
+        1612.18,
+        -358.30696251433454,
+        3.4630103081464787
+      ],
+      "bounds_max_m": [
+        1613.22,
+        -357.2930374856655,
+        8.85
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_TotemMeasured_02_CoarseProfile",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_TotemMeasured_02_CoarseProfile.npz",
+      "sha256": "9c6ef1f61180f3f5a5f2dc03ec154f781f3b44e02c1d62b7a6591ba1d1ae61d9",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 196,
+      "triangles": 388,
+      "bounds_min_m": [
+        1609.78,
+        -363.10696251433455,
+        3.037734624743456
+      ],
+      "bounds_max_m": [
+        1610.82,
+        -362.0930374856655,
+        10.02
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_TotemMeasured_03_CoarseProfile",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_TotemMeasured_03_CoarseProfile.npz",
+      "sha256": "7ef3d4754f5c20806bee91fe0cbd9044296c80741c3bea1957cb001510230064",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 196,
+      "triangles": 388,
+      "bounds_min_m": [
+        1608.3841931755123,
+        -371.0028744704869,
+        2.8128190219402414
+      ],
+      "bounds_max_m": [
+        1609.4158068244878,
+        -369.9971255295131,
+        11.3
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_TotemMeasured_03_BroadUpperMember",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_TotemMeasured_03_BroadUpperMember.npz",
+      "sha256": "fe59fd52d05b3fddcf2ab246f4171018d1c60d7cfc6b7b5058406114726e1977",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1608.2477387824454,
+        -372.02416880790287,
+        10.66160924911499
+      ],
+      "bounds_max_m": [
+        1610.0660454836193,
+        -369.3389144962161,
+        11.00160924911499
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_TotemMeasured_04_CoarseProfile",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_TotemMeasured_04_CoarseProfile.npz",
+      "sha256": "d6a9d1c343eca3b80525ec36df88a2180e6fb914a7fd70668287538161512f3b",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 196,
+      "triangles": 388,
+      "bounds_min_m": [
+        1613.28,
+        -375.50696251433453,
+        3.312577033042908
+      ],
+      "bounds_max_m": [
+        1614.32,
+        -374.49303748566547,
+        8.46
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_TotemMeasured_04_BroadUpperMember",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_TotemMeasured_04_BroadUpperMember.npz",
+      "sha256": "e902a7d2f58c6cc49d8a6ee8e773a77b899082e5f7521270b5ead126402afc51",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1613.0759786329072,
+        -376.4365194342525,
+        6.906062917709351
+      ],
+      "bounds_max_m": [
+        1615.0871662402021,
+        -373.82146196003794,
+        7.2460629177093505
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_TotemMeasured_05_CoarseProfile",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_TotemMeasured_05_CoarseProfile.npz",
+      "sha256": "10479e1f745ca04b724ed88681f3c711c68dc9c9af99c432d19bec0460b4b7dd",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 196,
+      "triangles": 388,
+      "bounds_min_m": [
+        1619.68,
+        -378.4069625143345,
+        3.252589458227157
+      ],
+      "bounds_max_m": [
+        1620.72,
+        -377.39303748566545,
+        14.8
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_TotemMeasured_06_CoarseProfile",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_TotemMeasured_06_CoarseProfile.npz",
+      "sha256": "7f81ac9c2c38d8c046ae5c6ac540ef1a16820e886f0531e8d32fca1eed48df1b",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 196,
+      "triangles": 388,
+      "bounds_min_m": [
+        1620.58,
+        -384.2069625143345,
+        3.1880587846040735
+      ],
+      "bounds_max_m": [
+        1621.62,
+        -383.19303748566546,
+        12.33
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_TotemMeasured_06_BroadUpperMember",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_TotemMeasured_06_BroadUpperMember.npz",
+      "sha256": "7fcc1b634b275f04eb6cdcafa209259734df4e5b6899ed4ca17b3f7ee1dd53d4",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1620.5961763966336,
+        -384.65916222014897,
+        12.10652931213379
+      ],
+      "bounds_max_m": [
+        1622.052793447065,
+        -382.50050849113734,
+        12.446529312133789
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_ChiefWakasRearEstimate_EstimatedEnvelope",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_ChiefWakasRearEstimate_EstimatedEnvelope.npz",
+      "sha256": "4d10b164fd8372a946cb0657409e2008b2534bb8076923e2c9f9662fcbbaded7",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 112,
+      "triangles": 220,
+      "bounds_min_m": [
+        1620.32,
+        -363.35999999999996,
+        3.4173900520801554
+      ],
+      "bounds_max_m": [
+        1621.1200000000001,
+        -362.56,
+        12.367390052080156
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_SkyChiefRearEstimate_EstimatedEnvelope",
+      "feature_id": "SP_totem_precinct",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_SkyChiefRearEstimate_EstimatedEnvelope.npz",
+      "sha256": "d50fc151cf2a6095548bce9e8dd8ec38ddf6588ff0b037cb1d7ed04141d43ee2",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 112,
+      "triangles": 220,
+      "bounds_min_m": [
+        1621.05,
+        -369.71999999999997,
+        3.2880038821697233
+      ],
+      "bounds_max_m": [
+        1621.97,
+        -368.8,
+        10.838003882169723
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_YeltonMemorial_CoarseProfile",
+      "feature_id": "SP_yelton_pole",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_YeltonMemorial_CoarseProfile.npz",
+      "sha256": "3bbe0b577acc72bdaaf7a949c84c97eb5ab254951c9047412dff5410d88f1fe4",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 196,
+      "triangles": 388,
+      "bounds_min_m": [
+        1585.3574421243063,
+        -388.73146202576964,
+        3.9104825854301457
+      ],
+      "bounds_max_m": [
+        1586.2425578756936,
+        -387.8685379742304,
+        14.67
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_YeltonMemorial_BroadUpperMember",
+      "feature_id": "SP_yelton_pole",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_YeltonMemorial_BroadUpperMember.npz",
+      "sha256": "61dc4effe2c4c664d88e7c70a8450f62c9a1f507f45925ba464e7632d5ea0dd0",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1584.8970081657885,
+        -388.37458241770156,
+        14.295825080871582
+      ],
+      "bounds_max_m": [
+        1586.3962669554494,
+        -388.02391358764515,
+        14.635825080871582
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_PeopleSouth_Pier_0",
+      "feature_id": "SP_people_amongst",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_PeopleSouth_Pier_0.npz",
+      "sha256": "4a22a877a8f6d7d21c00f224508dd71940242fa4f329548925836cdc10015377",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1581.221043572894,
+        -433.94299678998465,
+        2.974361334922836
+      ],
+      "bounds_max_m": [
+        1581.829979108947,
+        -433.4091206835067,
+        8.658313599726181
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_PeopleSouth_Pier_1",
+      "feature_id": "SP_people_amongst",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_PeopleSouth_Pier_1.npz",
+      "sha256": "8eec392faea09931863d4546212b2761c1a1f75e9b82df0007bbe3fefdff87db",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1586.0462673065501,
+        -434.2328291336026,
+        3.111499645647192
+      ],
+      "bounds_max_m": [
+        1586.6552028426033,
+        -433.6989530271247,
+        8.077207331915293
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_PeopleSouth_SlopedCrossbeam",
+      "feature_id": "SP_people_amongst",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_PeopleSouth_SlopedCrossbeam.npz",
+      "sha256": "51b80c890721f8cea6c077cf7759dc61c7bced8e98a2b2e882ce4d411fd47d5a",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1581.3568054926902,
+        -434.12521449989697,
+        7.367973047050578
+      ],
+      "bounds_max_m": [
+        1586.519440922807,
+        -433.51673531721235,
+        8.407547884590885
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_PeopleNorthEstimate_Pier_0",
+      "feature_id": "SP_people_amongst",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_PeopleNorthEstimate_Pier_0.npz",
+      "sha256": "2c8e27df5e989f151c743b2c17d33406073c7855419828a4c579d651940e8b0e",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1589.49849365,
+        -338.253570978,
+        4.223307778496894
+      ],
+      "bounds_max_m": [
+        1590.25150635,
+        -337.449314722,
+        8.715619554519652
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_PeopleNorthEstimate_Pier_1",
+      "feature_id": "SP_people_amongst",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_PeopleNorthEstimate_Pier_1.npz",
+      "sha256": "d460c22f5965462349692342fb253b06f16d1c624e07e21fc9b0f4dc7ebe4a05",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1591.74849365,
+        -342.150685278,
+        4.1483879770817715
+      ],
+      "bounds_max_m": [
+        1592.50150635,
+        -341.346429022,
+        9.43561955451965
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    },
+    {
+      "name": "SM_PeopleNorthEstimate_SlopedCrossbeam",
+      "feature_id": "SP_people_amongst",
+      "mesh_path": "data/derived/totem-precinct-forms/SM_PeopleNorthEstimate_SlopedCrossbeam.npz",
+      "sha256": "2f1b0be8003183ccd5ec7c5ee68f0af6b1fee7d8d61f8e308b0fd9ad9751068a",
+      "material": "cedar",
+      "color": [
+        0.43,
+        0.25,
+        0.13
+      ],
+      "collision": "complex",
+      "vertices": 8,
+      "triangles": 12,
+      "bounds_min_m": [
+        1589.5777756819998,
+        -342.09336477,
+        7.967619557194007
+      ],
+      "bounds_max_m": [
+        1592.4222243180002,
+        -337.50663523000003,
+        9.283619551845296
+      ],
+      "collision_reason": "Closed individual source-fitted envelope; no large obstacle spans the portal opening. Source-name and hidden-shape uncertainty remain recorded."
+    }
+  ],
+  "features": [
+    {
+      "id": "SP_totem_precinct",
+      "name": "Totem Pole precinct measured open-display silhouettes",
+      "sources": [
+        "data/raw/city/public-art-park-records-0.json",
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=91",
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=92",
+        "https://vancouver.ca/files/cov/stanley-park-map-and-guide.pdf",
+        "manifests/named-totem-sculptures-survey.json",
+        "evidence/corridor/ortho-utm/named-totem-sculptures.json",
+        "data/routes/raw/osm/park-map-20260927.osm"
+      ],
+      "measured": {
+        "centre_local_m": [
+          1614.5,
+          -371.25
+        ],
+        "individual_forms": [
+          {
+            "centre_local_m": [
+              1612.7,
+              -357.8
+            ],
+            "ground_h_m": 3.6130103081464786,
+            "top_h_m": 8.85,
+            "source_returns": 39,
+            "profile_radii_m": [
+              0.28,
+              0.28,
+              0.28,
+              0.28,
+              0.28,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.28,
+              0.52,
+              0.52,
+              0.52,
+              0.28
+            ],
+            "broad_member": null,
+            "limit": "Coarse radial profile only. Sparse/hidden intervals use 0.28 m radius. Broad members use observed PCA span with estimated 0.24 m thickness; no exact carved outline.",
+            "component": "TotemMeasured_01",
+            "identity": "northwestern open-display pole",
+            "identity_limit": "Name not safely matched; OSM Beaver Crest node is 7.6 m east"
+          },
+          {
+            "centre_local_m": [
+              1610.3,
+              -362.6
+            ],
+            "ground_h_m": 3.187734624743456,
+            "top_h_m": 10.02,
+            "source_returns": 81,
+            "profile_radii_m": [
+              0.28,
+              0.28,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.4688217288203619,
+              0.4771663584862224,
+              0.52,
+              0.52,
+              0.28
+            ],
+            "broad_member": null,
+            "limit": "Coarse radial profile only. Sparse/hidden intervals use 0.28 m radius. Broad members use observed PCA span with estimated 0.24 m thickness; no exact carved outline.",
+            "component": "TotemMeasured_02",
+            "identity": "second open-display pole",
+            "identity_limit": "OSM Oscar Matilpi node is 1.6 m east; provisional name match only"
+          },
+          {
+            "centre_local_m": [
+              1608.9,
+              -370.5
+            ],
+            "ground_h_m": 2.9628190219402413,
+            "top_h_m": 11.3,
+            "source_returns": 123,
+            "profile_radii_m": [
+              0.28,
+              0.28,
+              0.3582416879580048,
+              0.39179915016748906,
+              0.3633297656204838,
+              0.3413704855240346,
+              0.3638123988041173,
+              0.22535928023972618,
+              0.36549241218242734,
+              0.40059976341224546,
+              0.5158068244877081,
+              0.48663975574881285,
+              0.5146354749555738,
+              0.28
+            ],
+            "broad_member": {
+              "returns": 52,
+              "axis": [
+                -0.5340900798052324,
+                0.8454275762320745
+              ],
+              "span_m": 3.0245910642399787,
+              "height_m": 10.83160924911499
+            },
+            "limit": "Coarse radial profile only. Sparse/hidden intervals use 0.28 m radius. Broad members use observed PCA span with estimated 0.24 m thickness; no exact carved outline.",
+            "component": "TotemMeasured_03",
+            "identity": "western tall winged pole",
+            "identity_limit": "City/OSM identities disagree; keep measured component ID"
+          },
+          {
+            "centre_local_m": [
+              1613.8,
+              -375.0
+            ],
+            "ground_h_m": 3.462577033042908,
+            "top_h_m": 8.46,
+            "source_returns": 76,
+            "profile_radii_m": [
+              0.28,
+              0.28,
+              0.28,
+              0.28,
+              0.49985610450087337,
+              0.4497127993998024,
+              0.46923186070024,
+              0.4497127993998024,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.28
+            ],
+            "broad_member": {
+              "returns": 38,
+              "axis": [
+                -0.5922840543833789,
+                0.805729234248818
+              ],
+              "span_m": 3.069156729143742,
+              "height_m": 7.076062917709351
+            },
+            "limit": "Coarse radial profile only. Sparse/hidden intervals use 0.28 m radius. Broad members use observed PCA span with estimated 0.24 m thickness; no exact carved outline.",
+            "component": "TotemMeasured_04",
+            "identity": "Thunderbird House Post candidate",
+            "identity_limit": "Shape and nearby OSM name support the low winged house-post identification; no carving replica"
+          },
+          {
+            "centre_local_m": [
+              1620.2,
+              -377.9
+            ],
+            "ground_h_m": 3.402589458227157,
+            "top_h_m": 14.8,
+            "source_returns": 119,
+            "profile_radii_m": [
+              0.28,
+              0.52,
+              0.5017289864318965,
+              0.48544732724263406,
+              0.52,
+              0.3898675532510402,
+              0.41952785813786364,
+              0.4706466358634615,
+              0.4912227965515142,
+              0.29779667510985,
+              0.3142015709702667,
+              0.3762260817849879,
+              0.34931324329925395,
+              0.28
+            ],
+            "broad_member": null,
+            "limit": "Coarse radial profile only. Sparse/hidden intervals use 0.28 m radius. Broad members use observed PCA span with estimated 0.24 m thickness; no exact carved outline.",
+            "component": "TotemMeasured_05",
+            "identity": "Ga'akstalas candidate",
+            "identity_limit": "OSM node8555605624 is about 1.5 m east; measured tall upright supports this candidate"
+          },
+          {
+            "centre_local_m": [
+              1621.1,
+              -383.7
+            ],
+            "ground_h_m": 3.3380587846040735,
+            "top_h_m": 12.33,
+            "source_returns": 193,
+            "profile_radii_m": [
+              0.28,
+              0.28,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.52,
+              0.28
+            ],
+            "broad_member": {
+              "returns": 67,
+              "axis": [
+                -0.5245051768671348,
+                0.851407258272782
+              ],
+              "span_m": 2.3875442296408185,
+              "height_m": 12.276529312133789
+            },
+            "limit": "Coarse radial profile only. Sparse/hidden intervals use 0.28 m radius. Broad members use observed PCA span with estimated 0.24 m thickness; no exact carved outline.",
+            "component": "TotemMeasured_06",
+            "identity": "Chief Skedans mortuary pole candidate",
+            "identity_limit": "OSM node8555605622 is about 1 m east; broad upper form supports the mortuary-pole candidate"
+          },
+          {
+            "component": "ChiefWakasRearEstimate",
+            "centre_local_m": [
+              1620.72,
+              -362.96
+            ],
+            "ground_h_m": 3.5673900520801554,
+            "height_above_ground_m": 8.8,
+            "position_uncertainty_m": 2.0,
+            "height_uncertainty_m": 2.5,
+            "method": "OSM rear-row node position, City in-place identity and relative location, ortho canopy edge and the measured neighbouring row; profile dimensions estimated, not survey certified.",
+            "source_profile_radii_m": [
+              0.38,
+              0.4,
+              0.34,
+              0.37,
+              0.32,
+              0.29,
+              0.22
+            ],
+            "terrain_inputs": [
+              {
+                "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+                "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c"
+              }
+            ]
+          },
+          {
+            "component": "SkyChiefRearEstimate",
+            "centre_local_m": [
+              1621.51,
+              -369.26
+            ],
+            "ground_h_m": 3.438003882169723,
+            "height_above_ground_m": 7.4,
+            "position_uncertainty_m": 2.0,
+            "height_uncertainty_m": 2.5,
+            "method": "OSM rear-row node position, City in-place identity and relative location, ortho canopy edge and the measured neighbouring row; profile dimensions estimated, not survey certified.",
+            "source_profile_radii_m": [
+              0.44,
+              0.46,
+              0.38,
+              0.4,
+              0.33,
+              0.29,
+              0.25
+            ],
+            "terrain_inputs": [
+              {
+                "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+                "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c"
+              }
+            ]
+          }
+        ]
+      },
+      "estimates": {
+        "hidden_profile_radius_m": 0.28,
+        "broad_member_thickness_m": 0.24,
+        "material": "Unpatterned cedar review material; no invented culturally specific carving or paint"
+      },
+      "limits": "Six individually measured open-display forms and two explicitly estimated canopy-hidden rear envelopes. Rear positions have a 2 m working uncertainty and heights have a 2.5 m uncertainty; these are not surveyed dimensions. Name-to-pole crosswalk is provisional where source points conflict. No carving, plaques or visitor barriers; full precinct acceptance is false.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_yelton_pole",
+      "name": "Yelton Memorial Pole coarse silhouette",
+      "sources": [
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=563",
+        "manifests/named-totem-sculptures-survey.json",
+        "evidence/corridor/ortho-utm/named-totem-sculptures.json",
+        "data/routes/raw/osm/park-map-20260927.osm"
+      ],
+      "measured": {
+        "centre_local_m": [
+          1585.8,
+          -388.3
+        ],
+        "ground_h_m": 4.060482585430146,
+        "top_h_m": 14.67,
+        "source_returns": 35,
+        "profile_radii_m": [
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.28,
+          0.4425578756936688,
+          0.28
+        ],
+        "broad_member": {
+          "returns": 17,
+          "axis": [
+            -0.9971868041301163,
+            -0.07495650517977105
+          ],
+          "span_m": 1.4854480848347096,
+          "height_m": 14.465825080871582
+        },
+        "limit": "Coarse radial profile only. Sparse/hidden intervals use 0.28 m radius. Broad members use observed PCA span with estimated 0.24 m thickness; no exact carved outline."
+      },
+      "estimates": {
+        "hidden_body_profile": "Upper narrow axis and broad top fit classified returns; much of the body is canopy masked, so hidden band radii remain estimated"
+      },
+      "limits": "Source-located memorial pole envelope only. No carved figures, exact wing contour or painted artwork. Branch returns are excluded by classification and radius but sparse airborne data does not independently certify the body dimensions.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    },
+    {
+      "id": "SP_people_amongst",
+      "name": "People Amongst the People: southern and approximate northern portals",
+      "sources": [
+        "https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=424",
+        "https://vancouver.ca/files/cov/people-amongst-the-people-susan-point.pdf",
+        "manifests/named-totem-sculptures-survey.json",
+        "evidence/corridor/ortho-utm/named-totem-sculptures.json"
+      ],
+      "measured": {
+        "centre_local_m": [
+          1583.8575670646899,
+          -433.8161362156724
+        ],
+        "beam_returns": 132,
+        "beam_axis": [
+          0.9982008989795961,
+          -0.059958029289882815
+        ],
+        "beam_span_m": 5.153920444861049,
+        "beam_height_fit": [
+          -0.12021428040435884,
+          8.107461918484075
+        ],
+        "beam_median_residual_m": 0.09794584210029011,
+        "terrain_inputs": [
+          {
+            "path": "data/derived/surface-meshes/SM_Terrain_02_06.npz",
+            "sha256": "fb9f3a00d4ce0dc6e5c78cc7138a7493360fa26469408cb1fe79f3be84cdb86c"
+          }
+        ],
+        "north_portal": {
+          "centre_local_m": [
+            1591.0,
+            -339.8
+          ],
+          "axis": [
+            0.5,
+            -0.8660254
+          ],
+          "position_uncertainty_m": 3.0,
+          "height_uncertainty_m": 1.0,
+          "rotation_uncertainty_deg": 20,
+          "method": "City photos 912/914 setting plus 2022 ortho beam/shadow; source-bounded estimate, no isolated LiDAR beam fit"
+        },
+        "southwest_portal": {
+          "status": "unplaced",
+          "official_fact": "Southwest of the path, toward the playing fields",
+          "candidate_search_bounds_local_m": [
+            [
+              1543,
+              -398,
+              1564,
+              -380
+            ],
+            [
+              1564,
+              -388,
+              1584,
+              -368
+            ]
+          ],
+          "reason": "Trees conceal both plausible grass-side sites; survey returns do not isolate two posts and a beam. No unique photo-to-ground control distinguishes the candidates. A ground photo with the gift shop and path bend together, or a site plan with post centres, is needed."
+        }
+      },
+      "estimates": {
+        "pier_width_m": 0.58,
+        "pier_depth_m": 0.5,
+        "beam_depth_m": 0.3,
+        "beam_height_m": 0.42,
+        "meaning": "Primary City/artist description confirms three sloped timber portals; the south open gate is isolated in survey. Cross-sections and upright shape are estimated M1 envelopes."
+      },
+      "limits": "Southern portal is survey fitted; northern portal is a bounded setting/ortho estimate. Southwest portal remains visibly missing, with two candidate areas and the exact missing source control recorded. Carved figures, colour patterns and exact post outlines remain unfinished.",
+      "release_accepted": false,
+      "geographic_accuracy_accepted": false,
+      "model_stage": "M1 source-driven massing; Blender/runtime review pending",
+      "replace_cover_ids": []
+    }
+  ],
+  "acceptance": false,
+  "reference_rights": "City survey derivatives OGL-Vancouver; OSM rear positions and candidate names require ODbL attribution. Public-art images, carved design and text are not distributed.",
+  "source_period": "City 2022 survey and ortho; current official identities",
+  "target_period": "September 2026"
+}
