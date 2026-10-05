@@ -1,6 +1,6 @@
 param(
     [string]$EngineRoot = $env:UE_ROOT,
-    [string]$OutputDirectory = 'builds\Windows-Public-v0.4.0',
+    [string]$OutputDirectory = 'builds\Windows-Public-v0.5.1',
     [ValidateSet('Development','Shipping')][string]$Configuration = 'Shipping'
 )
 $ErrorActionPreference = 'Stop'
@@ -39,6 +39,13 @@ foreach ($Document in @('DATA-ATTRIBUTION.txt', 'SEAWALL-CREDITS.txt', 'PLAYER-T
     Copy-Item -LiteralPath (Join-Path $ProjectRoot ('docs\legal\' + $Document)) -Destination $ArchiveDirectory
 }
 Copy-Item -LiteralPath (Join-Path $ProjectRoot 'LICENSE.md') -Destination $ArchiveDirectory
+# Keep the source notices linked from the player documentation with the build.
+$NoticeManifests = Join-Path $ArchiveDirectory 'manifests'
+New-Item -ItemType Directory -Path $NoticeManifests -Force | Out-Null
+foreach ($Name in @('nature-audio.json', 'park-details-v0.5.json')) {
+    $Source = Join-Path $ProjectRoot ('manifests\' + $Name)
+    if (Test-Path -LiteralPath $Source) { Copy-Item -LiteralPath $Source -Destination $NoticeManifests }
+}
 @'
 Stanley Park Seawall
 
@@ -46,7 +53,8 @@ Extract the complete archive, then open StanleyParkSim.exe.
 Keep the Engine, StanleyParkSim, and SourceData folders with it.
 
 WASD moves; Shift runs; Space jumps; Tab switches travel mode.
-On the bicycle: W pedals, S brakes, A/D steers, F1 opens settings.
+On the bicycle: W pedals, S brakes, A/D steers, Shift boosts, Space jumps.
+P toggles autopilot, Q backs away when stopped, F1 opens settings.
 Esc pauses. See docs/player-guide.md for all controls.
 
 Read PLAYER-TERMS.txt and the included attribution notices before use.

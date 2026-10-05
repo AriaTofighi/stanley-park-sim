@@ -1,8 +1,9 @@
-param([string]$ArchivePath)
+param([string]$ArchivePath, [string]$Version = '0.5.1')
 $ErrorActionPreference = 'Stop'
 $ProjectRoot = [IO.Path]::GetFullPath((Split-Path -Parent $PSScriptRoot))
-$Manifest = Get-Content -LiteralPath (Join-Path $ProjectRoot 'manifests/release-v0.4.0.json') -Raw | ConvertFrom-Json
-$Asset = @($Manifest.assets | Where-Object { $_.name -eq 'StanleyPark-Assets-v0.4.0.zip' })
+if ($Version -notmatch '^\d+\.\d+\.\d+$') { throw 'Use a semantic release version.' }
+$Manifest = Get-Content -LiteralPath (Join-Path $ProjectRoot "manifests/release-v$Version.json") -Raw | ConvertFrom-Json
+$Asset = @($Manifest.assets | Where-Object { $_.name -eq "StanleyPark-Assets-v$Version.zip" })
 if ($Asset.Count -ne 1) { throw 'Expected one editable asset archive in the release manifest.' }
 $Asset = $Asset[0]
 if (-not $ArchivePath) {
@@ -20,7 +21,14 @@ if ((Get-Item -LiteralPath $ArchivePath).Length -ne $Asset.bytes -or
     (Get-FileHash -LiteralPath $ArchivePath -Algorithm SHA256).Hash.ToLowerInvariant() -ne $Asset.sha256) {
     throw 'The asset archive does not match the published checksum.'
 }
-$Inventory = Get-Content -LiteralPath (Join-Path $ProjectRoot 'manifests/release-assets.json') -Raw | ConvertFrom-Json
+$InventoryPath = if ($Version -eq '0.4.0') { 'manifests/release-assets.json' } else { "manifests/release-assets-v$Version.json" }
+if ($Manifest.asset_inventory -and $Manifest.asset_inventory -ne $InventoryPath) { throw 'Unexpected asset inventory path.' }
+$InventoryFullPath = Join-Path $ProjectRoot $InventoryPath
+if ($Manifest.asset_inventory_sha256 -and
+    (Get-FileHash -LiteralPath $InventoryFullPath -Algorithm SHA256).Hash.ToLowerInvariant() -ne $Manifest.asset_inventory_sha256) {
+    throw 'The asset inventory does not match the release checksum.'
+}
+$Inventory = Get-Content -LiteralPath $InventoryFullPath -Raw | ConvertFrom-Json
 $ByPath = [Collections.Generic.Dictionary[string,object]]::new([StringComparer]::OrdinalIgnoreCase)
 foreach ($Entry in $Inventory.files) { $ByPath.Add($Entry.path, $Entry) }
 Add-Type -AssemblyName System.IO.Compression.FileSystem

@@ -9,21 +9,6 @@
   "protected_m1_blend": "blender/StanleyPark_Blockout.blend",
   "protected_m1_map": "/Game/Maps/StanleyPark",
   "layers": {
-    "trees": {
-      "pointer": "exports/seawall-trees/latest.json",
-      "manifest": "exports/seawall-trees/0551a03260b4/manifest.json",
-      "version": "0551a03260b4",
-      "unreal": "/Game/StanleyPark/Seawall/Trees/v_0551a03260b4",
-      "instances": 648,
-      "targets": 0,
-      "retired_exports": [
-        "2ca17fda7e04",
-        "6d7cac30f1e1",
-        "9ce989e34b28",
-        "ddf5fb7e68ac",
-        "texture-review"
-      ]
-    },
     "shore": {
       "pointer": "exports/seawall-shore/latest.json",
       "manifest": "exports/seawall-shore/d2a3c472791b/manifest.json",
@@ -45,15 +30,6 @@
         "/Game/StanleyPark/Seawall/WaterSky/M_SeawallOvercast_e7764ca62f90"
       ]
     },
-    "forest": {
-      "pointer": "exports/m3-forest/latest.json",
-      "manifest": "exports/m3-forest/659dc73e2ffc/manifest.json",
-      "version": "659dc73e2ffc",
-      "unreal": "/Game/StanleyPark/Seawall/M3Forest/v_659dc73e2ffc",
-      "instances": 364,
-      "targets": 0,
-      "retired_exports": []
-    },
     "edges": {
       "pointer": "exports/m3-edges/latest.json",
       "manifest": "exports/m3-edges/16523863637c/manifest.json",
@@ -71,17 +47,6 @@
       "instances": 0,
       "targets": 276,
       "retired_exports": []
-    },
-    "crowns": {
-      "pointer": "exports/m3-crown-repair/latest.json",
-      "manifest": "exports/m3-crown-repair/a0f7b40568c5/manifest.json",
-      "version": "a0f7b40568c5",
-      "unreal": "/Game/StanleyPark/Seawall/M3CrownRepair/v_a0f7b40568c5",
-      "instances": 968,
-      "targets": 0,
-      "retired_exports": [
-        "d87d8e8c1c12"
-      ]
     },
     "edge_skirts": {
       "pointer": "exports/m3-edge-skirts/latest.json",
@@ -224,6 +189,32 @@
       "applied_record": "evidence/m3-skirt-normal-repair-2d239e6e2ed7.json",
       "applied_record_sha256": "2e28bb1350bfedda920742ea518988dfe1fcc2d26d150bdb079e5506a58a7634",
       "unreal": "/Game/StanleyPark/Seawall/EdgeSkirts/NormalRepair/v_2d239e6e2ed7"
+    },
+    "park_details": {
+      "manifest": "manifests/park-details-v0.5.json",
+      "generator": "pipeline/blender/build_park_details.py",
+      "importer": "pipeline/unreal/apply_park_details.py",
+      "unreal": "/Game/StanleyPark/Seawall/ParkDetails_v05",
+      "source_blend": "blender/ParkDetails_v0.5.blend",
+      "trees": 13932,
+      "understory": 8477,
+      "picnics": 6,
+      "shared_tree_mesh_library": "/Game/StanleyPark/Seawall/Trees/v_0551a03260b4",
+      "runtime_visitor_code": "unreal/Source/StanleyParkSim/SPParkVisitor.cpp",
+      "visual_review_complete": false
+    },
+    "editor_ground_minimap": {
+      "authoring_script": "pipeline/unreal/refine_ground_and_minimap.py",
+      "ground_material": "/Game/StanleyPark/Seawall/ParkDetails_v05/Materials/M_ParkForestFloor",
+      "minimap_manifest": "manifests/park-minimap.json",
+      "minimap_generator": "pipeline/gis/build_minimap.py",
+      "minimap_texture": "/Game/StanleyPark/UI/T_ParkMinimap",
+      "status": "packaged_v0.5.1"
+    },
+    "sunny_weather": {
+      "authoring_script": "pipeline/unreal/apply_sunny_weather.py",
+      "sky_material": "/Game/StanleyPark/Seawall/Weather/M_ParkSunnySky",
+      "status": "packaged_v0.5.1"
     }
   },
   "archives": {
@@ -231,5 +222,54 @@
     "unreal": "unreal/SourceArchives",
     "note": "Old export versions stay at their recorded paths for source recovery."
   },
-  "workflow": "docs/ASSET-WORKFLOW.md"
+  "workflow": "docs/ASSET-WORKFLOW.md",
+  "retired_layers": {
+    "trees": {
+      "pointer": "exports/seawall-trees/latest.json",
+      "manifest": "exports/seawall-trees/0551a03260b4/manifest.json",
+      "version": "0551a03260b4",
+      "unreal": "/Game/StanleyPark/Seawall/Trees/v_0551a03260b4",
+      "instances": 648,
+      "targets": 0,
+      "retired_exports": [
+        "2ca17fda7e04",
+        "6d7cac30f1e1",
+        "9ce989e34b28",
+        "ddf5fb7e68ac",
+        "texture-review"
+      ]
+    },
+    "forest": {
+      "pointer": "exports/m3-forest/latest.json",
+      "manifest": "exports/m3-forest/659dc73e2ffc/manifest.json",
+      "version": "659dc73e2ffc",
+      "unreal": "/Game/StanleyPark/Seawall/M3Forest/v_659dc73e2ffc",
+      "instances": 364,
+      "targets": 0,
+      "retired_exports": []
+    },
+    "crowns": {
+      "pointer": "exports/m3-crown-repair/latest.json",
+      "manifest": "exports/m3-crown-repair/a0f7b40568c5/manifest.json",
+      "version": "a0f7b40568c5",
+      "unreal": "/Game/StanleyPark/Seawall/M3CrownRepair/v_a0f7b40568c5",
+      "instances": 968,
+      "targets": 0,
+      "retired_exports": [
+        "d87d8e8c1c12"
+      ]
+    }
+  },
+  "nature_audio": "manifests/nature-audio.json",
+  "runtime_ride_features": {
+    "source": [
+      "unreal/Source/StanleyParkSim/SPBicyclePawn.cpp",
+      "unreal/Source/StanleyParkSim/SPBicycleAutopilot.cpp"
+    ],
+    "boost_limit_kmh": 80,
+    "autopilot_route": "main_circuit",
+    "jump_key": "Space",
+    "autopilot_key": "P",
+    "status": "packaged_v0.5.1"
+  }
 }

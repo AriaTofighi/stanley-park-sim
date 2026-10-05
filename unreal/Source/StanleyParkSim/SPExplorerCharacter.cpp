@@ -2,6 +2,8 @@
 #include "SPExplorerAnimInstance.h"
 #include "SPGameMode.h"
 #include "SPHud.h"
+#include "SPWorldDirector.h"
+#include "EngineUtils.h"
 #include "SPWaterSafety.h"
 #include "Camera/CameraComponent.h"
 #include "Camera/PlayerCameraManager.h"
@@ -77,6 +79,7 @@ void ASPExplorerCharacter::SetupPlayerInputComponent(UInputComponent* Input)
     Input->BindAction(TEXT("PauseRide"), IE_Pressed, this, &ASPExplorerCharacter::Pause).bExecuteWhenPaused = true;
     Input->BindKey(EKeys::Tab, IE_Pressed, this, &ASPExplorerCharacter::SwitchTravelMode);
     Input->BindKey(EKeys::H, IE_Pressed, this, &ASPExplorerCharacter::ToggleControls);
+    Input->BindKey(EKeys::N, IE_Pressed, this, &ASPExplorerCharacter::ToggleNatureSounds);
 }
 
 void ASPExplorerCharacter::ToggleControls()
@@ -139,4 +142,9 @@ void ASPExplorerCharacter::Tick(float DeltaSeconds)
         SafeLocation = GetActorLocation(); SafeRotation = GetActorRotation(); bHasSafeLocation = true;
     }
     else if (bHasSafeLocation && GetActorLocation().Z < SafeLocation.Z - 1500) Recover();
+}
+
+void ASPExplorerCharacter::ToggleNatureSounds()
+{
+    for (TActorIterator<ASPWorldDirector> It(GetWorld()); It; ++It) It->ToggleAmbience();
 }

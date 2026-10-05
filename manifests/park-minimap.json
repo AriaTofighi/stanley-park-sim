@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "coordinate_contract": "unreal_north_east_up_cm",
+  "north_min": -186975.52041898816,
+  "north_max": 172171.7639390692,
+  "east_min": -143457.49911082312,
+  "east_max": 215689.78524723425,
+  "texture": "/Game/StanleyPark/UI/T_ParkMinimap",
+  "orientation": "north_up",
+  "inputs": {
+    "data/derived/park_boundary_utm.geojson": "bd513e0486f09217ff2b82f885c87da500de38e4e07b0fe2552ebc192627b6db",
+    "manifests/world-origin.json": "86ab4975f2006971e9080461de30fd15736e0537031c8b5f04f966acbc26205a",
+    "unreal/Content/WorldData/world.json": "56981ec9ac482a1120ab2ab910af4d344faef5b220527f127eaa7c5fc6dd4493",
+    "unreal/Content/WorldData/water-safety.json": "1a4f7368b3d4ed5e30c676a906d508fb4e79d29654a4a9f5a651df61dd75727d"
+  },
+  "image_sha256": "2122dcc4f404c757d2ffd11c41c903f29c7ebad610e2a83f8310a0dd5788f253"
+}

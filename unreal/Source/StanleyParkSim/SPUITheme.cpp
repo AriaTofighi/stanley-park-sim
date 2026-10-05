@@ -27,8 +27,9 @@ namespace
 float SPUI::ViewportScale()
 {
     const FVector2D Size = ViewportSize();
-    // Fit both axes, including narrow PIE viewports; cap enlargement at 2x.
-    return FMath::Clamp(FMath::Min(Size.X / 1280., Size.Y / 720.), .25, 2.0);
+    // A 1600x900 design canvas keeps the HUD 20% smaller at the same output
+    // size. Desktop DPI is already supplied by the viewport parent.
+    return FMath::Clamp(FMath::Min(Size.X / 1600., Size.Y / 900.), .25, 1.5);
 }
 
 FVector2D SPUI::LogicalViewport() { return ViewportSize() / ViewportScale(); }

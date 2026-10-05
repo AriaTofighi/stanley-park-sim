@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "revision": "near-coast-motion-v2",
+  "revision": "coastal-activity-v3",
   "enabled_by_default": true,
   "map": "/Game/Maps/StanleyParkSeawall",
   "species": "Glaucous-winged Gull (Larus glaucescens)",
-  "scope": "Six visual gulls. Authored flights, not a wildlife population model.",
+  "scope": "18 visual gulls in 6 authored coastal flight zones; not a wildlife population model.",
   "seed": 27182,
   "birds_per_zone": 3,
   "asset_directory": "/Game/StanleyPark/Seawall/Birds",
@@ -13,19 +13,99 @@
   "zones": [
     {
       "id": "siwash-offshore",
-      "centre_local_east_north_up_m": [-984.0, 646.0, 11.0],
-      "centre_unreal_cm": [64600.0, -98400.0, 1100.0],
+      "centre_local_east_north_up_m": [
+        -984.0,
+        646.0,
+        11.0
+      ],
+      "centre_unreal_cm": [
+        64600.0,
+        -98400.0,
+        1100.0
+      ],
       "radius_north_cm": 2800.0,
       "radius_east_cm": 1800.0,
       "review_route_point_index": 6078
     },
     {
       "id": "brockton-offshore",
-      "centre_local_east_north_up_m": [1976.0, -222.0, 16.0],
-      "centre_unreal_cm": [-22200.0, 197600.0, 1600.0],
+      "centre_local_east_north_up_m": [
+        1976.0,
+        -222.0,
+        16.0
+      ],
+      "centre_unreal_cm": [
+        -22200.0,
+        197600.0,
+        1600.0
+      ],
       "radius_north_cm": 2800.0,
       "radius_east_cm": 1800.0,
       "review_route_point_index": 1985
+    },
+    {
+      "id": "entrance-coast",
+      "centre_local_east_north_up_m": [
+        582.878959808432,
+        -720.2131303720405,
+        18.0
+      ],
+      "centre_unreal_cm": [
+        -72021.31303720405,
+        58287.895980843205,
+        1800.0
+      ],
+      "radius_north_cm": 2800,
+      "radius_east_cm": 1800,
+      "review_route_point_index": 120
+    },
+    {
+      "id": "brockton-approach",
+      "centre_local_east_north_up_m": [
+        1573.8504093055756,
+        -516.7233882553818,
+        18.0
+      ],
+      "centre_unreal_cm": [
+        -51672.33882553818,
+        157385.04093055756,
+        1800.0
+      ],
+      "radius_north_cm": 2800,
+      "radius_east_cm": 1800,
+      "review_route_point_index": 1400
+    },
+    {
+      "id": "lumberman-coast",
+      "centre_local_east_north_up_m": [
+        571.844045139778,
+        513.1434424532073,
+        18.0
+      ],
+      "centre_unreal_cm": [
+        51314.34424532073,
+        57184.4045139778,
+        1800.0
+      ],
+      "radius_north_cm": 2800,
+      "radius_east_cm": 1800,
+      "review_route_point_index": 3799
+    },
+    {
+      "id": "third-beach-coast",
+      "centre_local_east_north_up_m": [
+        -1142.1316655390237,
+        -231.24181790900434,
+        18.0
+      ],
+      "centre_unreal_cm": [
+        -23124.181790900435,
+        -114213.16655390237,
+        1800.0
+      ],
+      "radius_north_cm": 2800,
+      "radius_east_cm": 1800,
+      "review_route_point_index": 7090
     }
   ],
   "source_urls": [
@@ -35,5 +115,5 @@
   "rights": "Original procedural meshes and materials. References supply species facts only. No external image, mesh, texture, recording, or animation is copied.",
   "audio": false,
   "placement_limits": "Offshore gaps are checked against the approximate source shoreline and park boundary. Live collision queries and rider images must still pass. These are authored flight areas, not bird survey locations.",
-  "acceptance": "Original meshes imported and static rest pose inspected. V2 moves the true-scale gulls closer and improves runtime motion. V2 live appearance, collision telemetry and cost remain pending."
+  "acceptance": "Original gull assets retained; v0.5 adds coastal flight zones. No gameplay or motion check is run for this change."
 }

@@ -18,7 +18,7 @@ Clone this repository, then run this from its root:
 .\scripts\restore-assets.ps1
 ```
 
-The script downloads the editable asset archive from the v0.4.0 release, verifies its SHA-256 value against `manifests/release-v0.4.0.json`, and extracts it into the project. It refuses to overwrite a different existing file. You can also download the archive yourself and pass its path with `-ArchivePath`.
+The script downloads the editable asset archive from the v0.5.1 release, verifies its SHA-256 value against `manifests/release-v0.5.1.json`, and extracts it into the project. It refuses to overwrite a different existing file. You can also download the archive yourself and pass its path with `-ArchivePath`.
 
 The archive restores `unreal/Content`, `blender`, `exports`, and the included data inputs. The Git repository and this archive together form the editable project. They do not include Unreal Engine source, an engine installation, or the complete raw LiDAR/research download cache.
 

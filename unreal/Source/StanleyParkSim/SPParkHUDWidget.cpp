@@ -1,5 +1,6 @@
 #include "SPParkHUDWidget.h"
 #include "SPUITheme.h"
+#include "SPParkMinimap.h"
 #include "Styling/CoreStyle.h"
 #include "Widgets/Layout/SBorder.h"
 #include "Widgets/Layout/SBox.h"
@@ -16,15 +17,18 @@ namespace
         { TEXT("WASD"), TEXT("Move") }, { TEXT("Shift"), TEXT("Run") },
         { TEXT("Space"), TEXT("Jump") }, { TEXT("Mouse"), TEXT("Look") },
         { TEXT("Tab"), TEXT("Ride bicycle") }, { TEXT("R"), TEXT("Recover") },
-        { TEXT("Esc"), TEXT("Pause") }, { TEXT("H"), TEXT("Close controls") }
+        { TEXT("N"), TEXT("Nature sounds") }, { TEXT("Esc"), TEXT("Pause") }, { TEXT("H"), TEXT("Close controls") }
     };
     const FControl BicycleControls[] = {
         { TEXT("W"), TEXT("Pedal") }, { TEXT("S"), TEXT("Brake") },
+        { TEXT("Shift"), TEXT("Boost to 80 km/h") }, { TEXT("Space"), TEXT("Jump bicycle") },
+        { TEXT("P"), TEXT("Toggle Seawall autopilot") },
+        { TEXT("Q"), TEXT("Back up when stopped") },
         { TEXT("A / D"), TEXT("Steer") }, { TEXT("Mouse"), TEXT("Look") },
         { TEXT("C"), TEXT("Change camera") }, { TEXT("B"), TEXT("Bell") },
         { TEXT("E"), TEXT("Walk bicycle") }, { TEXT("Tab"), TEXT("Explore on foot") },
         { TEXT("R"), TEXT("Recover") }, { TEXT("F1"), TEXT("Ride settings") },
-        { TEXT("Esc"), TEXT("Pause") }, { TEXT("H"), TEXT("Close controls") }
+        { TEXT("N"), TEXT("Nature sounds") }, { TEXT("Esc"), TEXT("Pause") }, { TEXT("H"), TEXT("Close controls") }
     };
 
     TSharedRef<SWidget> Key(const TCHAR* Label, float Height = SPUI::RowHeight)
@@ -64,11 +68,10 @@ void SPParkHUDWidget::Construct(const FArguments& Arguments)
                 [
                     SNew(SVerticalBox)
                     + SVerticalBox::Slot().AutoHeight()
-                    [SNew(STextBlock).Text(FText::FromString(TEXT("Stanley Park"))).Font(SPUI::Font(22, true))
+                    [SNew(STextBlock).Text(FText::FromString(TEXT("Stanley Park"))).Font(SPUI::Font(14, true))
                         .ColorAndOpacity(SPUI::Text).ShadowOffset(FVector2D(0, 2)).ShadowColorAndOpacity(FLinearColor(0, 0, 0, .8f))]
                     + SVerticalBox::Slot().AutoHeight().Padding(0, SPUI::Unit, 0, 0)
-                    [SNew(STextBlock).Text(this, &SPParkHUDWidget::TravelMode).Font(SPUI::Font(12))
-                        .ColorAndOpacity(SPUI::Text).ShadowOffset(FVector2D(0, 1)).ShadowColorAndOpacity(FLinearColor::Black)]
+                    [TravelReadout()]
                 ]
                 + SOverlay::Slot().HAlign(HAlign_Right).VAlign(VAlign_Top)[Hint(TEXT("Esc"), TEXT("Pause"))]
                 + SOverlay::Slot().HAlign(HAlign_Center).VAlign(VAlign_Top).Padding(0, 80, 0, 0)
@@ -97,7 +100,7 @@ void SPParkHUDWidget::Construct(const FArguments& Arguments)
                         ]
                     ]
                 ]
-                + SOverlay::Slot().HAlign(HAlign_Left).VAlign(VAlign_Bottom)[TravelReadout()]
+                + SOverlay::Slot().HAlign(HAlign_Left).VAlign(VAlign_Bottom)[Minimap()]
                 + SOverlay::Slot().HAlign(HAlign_Right).VAlign(VAlign_Bottom)
                 [
                     SNew(SVerticalBox)
@@ -118,39 +121,32 @@ EVisibility SPParkHUDWidget::GameplayVisibility() const
 {
     return State->bPaused || State->bSettingsOpen ? EVisibility::Collapsed : EVisibility::Visible;
 }
-FText SPParkHUDWidget::TravelMode() const
-{
-    return FText::FromString(!State->bBicycle ? TEXT("On foot") : State->bWalking ? TEXT("Walking bicycle") : TEXT("Cycling"));
-}
-
 TSharedRef<SWidget> SPParkHUDWidget::TravelReadout()
 {
-    return SNew(SBorder).BorderImage(SPUI::PanelBrush()).Padding(SPUI::Padding)
-        .Visibility_Lambda([this]() { return State->bBicycle ? EVisibility::Visible : EVisibility::Collapsed; })
-        [
-            SNew(SBox).WidthOverride(160)
-            [
-                SNew(SVerticalBox)
-                + SVerticalBox::Slot().AutoHeight()
-                [
-                    SNew(SHorizontalBox)
-                    + SHorizontalBox::Slot().FillWidth(1)
-                    [SNew(STextBlock).Text_Lambda([this]() { return State->Speed; }).Font(SPUI::Font(36, true)).ColorAndOpacity(SPUI::Text)]
-                    + SHorizontalBox::Slot().AutoWidth().VAlign(VAlign_Bottom).Padding(SPUI::Unit, 0, 0, SPUI::Unit)
-                    [SNew(STextBlock).Text(FText::FromString(TEXT("km/h"))).Font(SPUI::Font(12)).ColorAndOpacity(SPUI::Muted)]
-                ]
-                + SVerticalBox::Slot().AutoHeight().Padding(0, SPUI::Unit)
-                [SNew(SBox).HeightOverride(1)[SNew(SBorder).Padding(0).BorderImage(SPUI::DividerBrush())]]
-                + SVerticalBox::Slot().AutoHeight()
-                [
-                    SNew(SHorizontalBox)
-                    + SHorizontalBox::Slot().FillWidth(1)
-                    [SNew(STextBlock).Text(FText::FromString(TEXT("Distance"))).Font(SPUI::Font(11)).ColorAndOpacity(SPUI::Muted)]
-                    + SHorizontalBox::Slot().AutoWidth()
-                    [SNew(STextBlock).Text_Lambda([this]() { return State->Distance; }).Font(SPUI::Font(11)).ColorAndOpacity(SPUI::Text)]
-                ]
-            ]
-        ];
+    return SNew(SHorizontalBox)
+        + SHorizontalBox::Slot().AutoWidth()
+        [SNew(STextBlock).Text_Lambda([this]() { return State->Speed; })
+            .Font(SPUI::Font(23,true)).ColorAndOpacity(SPUI::Text)
+            .ShadowOffset(FVector2D(0,1)).ShadowColorAndOpacity(FLinearColor::Black)]
+        + SHorizontalBox::Slot().AutoWidth().VAlign(VAlign_Bottom).Padding(6,0,0,3)
+        [SNew(STextBlock).Text(FText::FromString(TEXT("km/h"))).Font(SPUI::Font(10))
+            .ColorAndOpacity(SPUI::Text).ShadowOffset(FVector2D(0,1)).ShadowColorAndOpacity(FLinearColor::Black)];
+}
+
+TSharedRef<SWidget> SPParkHUDWidget::Minimap()
+{
+    return SNew(SBorder).BorderImage(SPUI::PanelBrush()).Padding(8)
+        [SNew(SVerticalBox)
+            + SVerticalBox::Slot().AutoHeight()[SNew(SPParkMinimap).State(State)]
+            + SVerticalBox::Slot().AutoHeight().Padding(2,6)
+            [SNew(SHorizontalBox)
+                + SHorizontalBox::Slot().FillWidth(1)
+                [SNew(STextBlock).Text_Lambda([this]() { return FText::FromString(State->bAutopilot
+                    ? TEXT("Autopilot · P to stop") : TEXT("Seawall ride")); }).Font(SPUI::Font(10))
+                    .ColorAndOpacity(FLinearColor(.88f,.78f,.49f,1))]
+                + SHorizontalBox::Slot().AutoWidth()
+                [SNew(STextBlock).Text_Lambda([this]() { return State->RouteLength; }).Font(SPUI::Font(10))
+                    .ColorAndOpacity(SPUI::Muted)]]];
 }
 
 TSharedRef<SWidget> SPParkHUDWidget::QuickControls(bool bBicycle)
@@ -161,6 +157,9 @@ TSharedRef<SWidget> SPParkHUDWidget::QuickControls(bool bBicycle)
         Items->AddSlot()[Hint(TEXT("W"), TEXT("Pedal"))];
         Items->AddSlot()[Hint(TEXT("S"), TEXT("Brake"))];
         Items->AddSlot()[Hint(TEXT("A / D"), TEXT("Steer"))];
+        Items->AddSlot()[Hint(TEXT("Shift"), TEXT("Boost"))];
+        Items->AddSlot()[Hint(TEXT("Space"), TEXT("Jump"))];
+        Items->AddSlot()[Hint(TEXT("P"), TEXT("Autopilot"))];
     }
     else
     {

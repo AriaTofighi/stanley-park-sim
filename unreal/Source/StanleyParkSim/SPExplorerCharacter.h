@@ -34,4 +34,5 @@ private:
     void Pause();
     void SwitchTravelMode();
     void ToggleControls();
+    void ToggleNatureSounds();
 };

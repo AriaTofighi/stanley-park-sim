@@ -4,6 +4,7 @@
 #include "GameFramework/Pawn.h"
 #include "SPRidingDiagnostics.h"
 #include "SPRideTuning.h"
+#include "SPBicycleAutopilot.h"
 #include "SPBicyclePawn.generated.h"
 
 class UCapsuleComponent;
@@ -12,6 +13,7 @@ class USpringArmComponent;
 class UCameraComponent;
 class USoundBase;
 class USPBicycleRider;
+class USPBicycleMovement;
 
 UCLASS()
 class STANLEYPARKSIM_API ASPBicyclePawn : public APawn
@@ -26,9 +28,10 @@ public:
     void Recover();
     void PlaceOnRoute(const FVector& Contact, double Yaw);
     bool SetWalking(bool bRequested);
-    double GetSpeedKmh() const { return Speed * 0.036; }
+    double GetSpeedKmh() const { return (bBackingActive ? -150.0 : Speed) * 0.036; }
     double GetDistanceMetres() const { return Distance / 100.0; }
     bool IsWalking() const { return bWalking; }
+    bool IsAutopilotActive() const { return Autopilot.IsActive(); }
     bool IsPedalling() const { return !bWalking && Pedal > .05f && Brake < .05f && !bSettingsOpen; }
     bool HasSurface() const { return bHasSurface; }
     double GetDroppedSimulationTime() const { return DroppedSimulationTime; }
@@ -44,6 +47,7 @@ public:
 
 private:
     UPROPERTY(VisibleAnywhere) TObjectPtr<UCapsuleComponent> Collision;
+    UPROPERTY(VisibleAnywhere) TObjectPtr<USPBicycleMovement> GroundMovement;
     UPROPERTY(VisibleAnywhere) TObjectPtr<UStaticMeshComponent> Bicycle;
     UPROPERTY(VisibleAnywhere) TObjectPtr<UStaticMeshComponent> FrontWheel;
     UPROPERTY(VisibleAnywhere) TObjectPtr<UStaticMeshComponent> RearWheel;
@@ -59,20 +63,25 @@ private:
     bool bHasSafePosition = false;
     FVector LastSafe = FVector::ZeroVector;
     double LastSafeYaw = 0;
+    TArray<FTransform> SafeHistory;
     double LastBellTime = -10;
     FSPRidingDiagnostics Diagnostics;
     int32 BlockingContactCount = 0;
     uint64 SurfaceMissCount = 0; // Latched across all fixed steps, including within one frame.
     FSPRideTuning RideTuning;
     bool bSettingsOpen = false;
+    bool bBackupRequested = false, bBackingActive = false;
+    bool bBoostHeld = false, bJumpInFlight = false;
+    float BoostBlend = 0;
+    FSPBicycleAutopilot Autopilot;
 
     void Simulate(double Step);
     bool GroundAt(const FVector& Position, FHitResult& Hit) const;
-    void MoveOverGround(const FVector& Movement, bool bCanStep, FHitResult& Hit);
+    bool FindSafePlacement(const FVector& Near, double Yaw, FVector& Out, bool bCheckpoint = false) const;
     bool WalkingBikePoseBlocked(const FTransform& From, const FTransform& To) const;
-    void SetPedal(float Value) { Pedal = bSettingsOpen ? 0.f : FMath::Clamp(Value, 0.f, 1.f); }
-    void SetBrake(float Value) { Brake = bSettingsOpen ? 0.f : FMath::Clamp(Value, 0.f, 1.f); }
-    void SetSteer(float Value) { Steer = bSettingsOpen || FMath::Abs(Value) < 0.12f ? 0.f : Value; }
+    void SetPedal(float Value);
+    void SetBrake(float Value);
+    void SetSteer(float Value);
     void LookHorizontal(float Value);
     void LookVertical(float Value);
     void ToggleCamera();
@@ -82,6 +91,14 @@ private:
     void PauseRide();
     void ToggleSettings();
     void ToggleControls();
+    void ToggleNatureSounds();
+    void StartBacking();
+    void StopBacking() { bBackupRequested = false; }
+    void StartBoost() { if (!bSettingsOpen) bBoostHeld = true; }
+    void StopBoost() { bBoostHeld = false; }
+    void JumpBicycle();
+    void ToggleAutopilot();
+    void StopAutopilot();
     void UpdateCamera();
     void ToggleRideCheck();
     void ToggleCircuitCheck();

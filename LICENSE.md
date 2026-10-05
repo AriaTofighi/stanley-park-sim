@@ -11,5 +11,6 @@ Data-derived content retains its source terms:
 - Canadian federal sources: Open Government Licence – Canada, with the stated Copernicus component notice.
 - OpenStreetMap databases and adaptations: Open Database Licence 1.0.
 - Unreal Engine and its runtime components: Epic Games' applicable terms.
+- The TinyWorlds forest sound loop: CC0 1.0, as recorded in `manifests/nature-audio.json`.
 
 See [data attribution](docs/legal/DATA-ATTRIBUTION.txt), [credits](docs/legal/SEAWALL-CREDITS.txt), and the [OSM database notice](docs/legal/OSM-DATA-LICENCE.txt). These notices do not relicense third-party material.

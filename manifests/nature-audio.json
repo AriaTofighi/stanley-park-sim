@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "source_title": "Forest Ambience",
+  "author": "TinyWorlds",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source_page": "https://opengameart.org/content/forest-ambience",
+  "download_url": "https://opengameart.org/sites/default/files/Forest_Ambience.mp3",
+  "acquired_date": "2026-10-04",
+  "asset": "/Game/StanleyPark/Audio/S_ForestAmbience",
+  "loop": true,
+  "default_volume_multiplier": 0.32,
+  "toggle_key": "N",
+  "preparation": "FFmpeg conversion to 48 kHz stereo 16-bit PCM; no pitch or speed change.",
+  "files": [
+    {
+      "path": "exports/audio/sources/Forest_Ambience.mp3",
+      "bytes": 716670,
+      "sha256": "9850aa1d0d5d66bd9c5daf8bb77c6d852e01f2f4de22f283bd5621e8bed13b75"
+    },
+    {
+      "path": "exports/audio/S_ForestAmbience.wav",
+      "bytes": 8589472,
+      "sha256": "c839d12d5fdd2de09b0c6556a3874d784f671e2a457daebc8abf013ec73fcfc9"
+    }
+  ],
+  "limits": "General artistic forest ambience; not a recording or species survey from Stanley Park."
+}

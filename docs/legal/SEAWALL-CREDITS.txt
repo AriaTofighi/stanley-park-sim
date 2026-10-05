@@ -8,6 +8,23 @@ were created for this project. The included original project sources do not
 grant a new blanket open-source licence. Data-derived content retains the
 licences named in its source records.
 
+Nature audio
+
+Forest Ambience by TinyWorlds, published 5 May 2014 on OpenGameArt.org.
+Licence: CC0 1.0 Universal (public-domain dedication).
+https://opengameart.org/content/forest-ambience
+https://creativecommons.org/publicdomain/zero/1.0/
+The MP3 source is converted to 48 kHz stereo PCM for Unreal import. The
+loop is general artistic ambience, not a field recording from Stanley Park.
+manifests/nature-audio.json records acquisition and file hashes.
+
+Plant reference
+
+Stanley Park Ecology Society, State of the Park Report (2010), informed
+the original sword fern and salal artwork. No report media is copied.
+https://stanleyparkecology.ca/wp-content/uploads/2021/07/SOPEI-Full-2010.pdf
+New vegetation, flowers, visitors and picnic groups are artistic additions.
+
 Data providers
 
 City of Vancouver — park and route data, 2022 LiDAR and orthophoto-derived

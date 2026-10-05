@@ -274,7 +274,7 @@ void ASPReleaseCheck::Tick(float DeltaSeconds)
     case 23: if (Time >= 38) {
         Check(TEXT("F10_rejects_unsupported_steering"), Bike && Bike->GetDiagnosticStatus().StartsWith(TEXT("F10 needs Roam defaults"))
             && FMath::Abs(Bike->GetRideTuning().Get(ESPRideSetting::Steering) - 10) < .01);
-        if (Bike) Bike->SetRideSetting(ESPRideSetting::Steering, 28);
+        if (Bike) Bike->SetRideSetting(ESPRideSetting::Steering, GetRideSettingDefinition(ESPRideSetting::Steering).RoamDefault);
         Finish();
     } break;
     }

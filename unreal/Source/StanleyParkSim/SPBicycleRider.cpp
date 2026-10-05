@@ -64,12 +64,11 @@ void USPBicycleRider::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 {
     Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
     const ASPBicyclePawn* Bicycle = Cast<ASPBicyclePawn>(GetOwner());
-    if (!Bicycle) return;
-    bWalkingPose = Bicycle->IsWalking();
-    const double Speed = FMath::Abs(Bicycle->GetSpeedKmh()) / 3.6;
+    if (Bicycle) bWalkingPose = Bicycle->IsWalking();
+    const double Speed = Bicycle ? FMath::Abs(Bicycle->GetSpeedKmh()) / 3.6 : AmbientSpeed;
     // A freewheel stops the feet during coasting/braking. Smooth cadence avoids
     // snapping the knees when the pedal key changes state.
-    const double TargetCadence = !Pedals.IsEmpty() && Bicycle->IsPedalling() && Speed > .03
+    const double TargetCadence = !Pedals.IsEmpty() && (Bicycle ? Bicycle->IsPedalling() : Speed > .03) && Speed > .03
         ? FMath::Clamp(Speed / 4.0, .35, 1.6) : 0.0;
     Cadence = FMath::Lerp(Cadence, TargetCadence, 1.0 - FMath::Exp(-double(DeltaTime) / .15));
     if (Cadence < .001 && TargetCadence == 0.0) Cadence = 0.0;

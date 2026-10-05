@@ -46,7 +46,7 @@ bool FSPRidingDiagnostics::Start(ASPBicyclePawn& Pawn, bool bFullCircuit)
     // unsupported tuning before fixture placement; never rewrite preferences.
     if (bFullCircuit && !Pawn.GetRideTuning().HasRoamMovementDefaults())
     {
-        Label = TEXT("F10 needs Roam defaults: 40 km/h, 3.5 acceleration, 6 braking, 28° steering. Select Roam defaults in F1.");
+        Label = TEXT("F10 needs Roam defaults: 50 km/h, 4.2 acceleration, 6 braking, 18° steering. Select Roam defaults in F1.");
         UE_LOG(LogTemp, Warning, TEXT("SP_RIDE_CHECK: %s"), *Label);
         return false;
     }
@@ -420,7 +420,7 @@ void FSPRidingDiagnostics::Stop(const ASPBicyclePawn& Pawn, bool bCompleted)
     if (!bCircuit && !bGateCheck && !bJoinCheck && !bFastRoamCheck)
         Root->SetStringField(TEXT("speed_control"), TEXT("Pedal below 12 km/h for 15 s; coast for 6 s; brake for 11 s. Brake above 12.7 km/h throughout. Feedback uses each fixed movement step. Acceptance remains 15.1 km/h."));
     if (bCircuit)
-        Root->SetStringField(TEXT("required_movement_profile"), TEXT("Roam defaults: 40 km/h, 3.5 m/s2 acceleration, 6 m/s2 braking, 28 degrees steering. Camera preferences may differ."));
+        Root->SetStringField(TEXT("required_movement_profile"), TEXT("Roam defaults: 50 km/h, 4.2 m/s2 acceleration, 6 m/s2 braking, 18 degrees steering. Camera preferences may differ."));
     Root->SetNumberField(TEXT("scenario_start_chainage_m"), bCircuit ? 0 : bJoinCheck ? JoinCheck.MainChainage / 100 : Data.ReviewStartMetres);
     if (bJoinCheck)
     {

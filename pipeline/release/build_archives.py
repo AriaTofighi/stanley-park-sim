@@ -72,8 +72,10 @@ def verify_archive(path: Path) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--build', required=True, help='Project-relative packaged Windows directory')
-    parser.add_argument('--output', default='dist/v0.4.0')
-    parser.add_argument('--version', default='0.4.0')
+    parser.add_argument('--output', default='dist/v0.5.1')
+    parser.add_argument('--version', default='0.5.1')
+    parser.add_argument('--asset-manifest', default='manifests/release-assets-v0.5.1.json',
+                        help='Project-relative editable asset inventory for this revision')
     args = parser.parse_args()
     if not re.fullmatch(r'\d+\.\d+\.\d+(?:-[a-z0-9.]+)?', args.version):
         raise ValueError('Use a semantic version')
@@ -85,7 +87,8 @@ def main() -> None:
     if any(path.exists() for path in paths.values()):
         raise ValueError('Output archives already exist; preserve them and choose a new directory')
 
-    asset_rows = read_json(ROOT/'manifests/release-assets.json')['files']
+    asset_manifest = inside_project(args.asset_manifest)
+    asset_rows = read_json(asset_manifest)['files']
     asset_names = set()
     for row in asset_rows:
         path = inside_project(row['path'])
@@ -131,7 +134,10 @@ def main() -> None:
     for row in records:
         row['url'] = base + row['name']
     record = {'schema_version':1, 'version':args.version, 'configuration':'Shipping',
-              'application_test_run_for_publication':False, 'assets':records}
+              'application_test_run_for_publication':False,
+              'publication_status':'prepared_local',
+              'asset_inventory':args.asset_manifest,
+              'asset_inventory_sha256':sha256(asset_manifest), 'assets':records}
     manifest_path = ROOT/f'manifests/release-v{args.version}.json'
     manifest_path.write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
     (output/'SHA256SUMS.txt').write_text(''.join(row['sha256']+'  '+row['name']+'\n' for row in records),encoding='utf-8')

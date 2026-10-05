@@ -58,7 +58,7 @@ bool USPSeawallBirds::InitializeBirds()
         || Coordinates != TEXT("unreal_north_east_up_cm")
         || !Root->TryGetNumberField(TEXT("water_height_cm"), WaterHeight)
         || !FMath::IsFinite(WaterHeight) || FMath::Abs(WaterHeight) > 500
-        || !Root->TryGetArrayField(TEXT("zones"), Zones) || Zones->Num() != 2)
+        || !Root->TryGetArrayField(TEXT("zones"), Zones) || Zones->IsEmpty() || Zones->Num() > 12)
         return false;
 
     // Asset paths are fixed and restricted to this visual layer.

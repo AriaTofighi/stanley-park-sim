@@ -17,6 +17,7 @@ public:
     virtual void BeginPlay() override;
     virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
     void SetWalkingPose(bool bWalking);
+    void SetAmbientMotion(double MetresPerSecond) { AmbientSpeed = MetresPerSecond; }
 
 private:
     UPROPERTY() TObjectPtr<UStaticMesh> AnimatedFrame;
@@ -29,6 +30,7 @@ private:
     double PedalPhase = 0.0;
     double Cadence = 0.0;
     double WalkPhase = 0.0;
+    double AmbientSpeed = 0.0;
     bool bWalkingPose = false;
     bool bReferenceValid = false;
     void CacheReferencePose();
